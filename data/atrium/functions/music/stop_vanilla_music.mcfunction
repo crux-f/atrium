@@ -1,0 +1,20 @@
+stopsound @a[tag=atrocity] music
+stopsound @a[tag=brothersthree] music
+stopsound @a[tag=culmination] music
+stopsound @a[tag=emeraldcoast] music
+stopsound @a[tag=emptyquiver2] music
+stopsound @a[tag=exorsa] music
+stopsound @a[tag=hellishencounter] music
+stopsound @a[tag=oasis] music
+stopsound @a[tag=thaumaturgy2] music
+stopsound @a[tag=thegreatdesert] music
+stopsound @a[tag=withinthereef] music
+stopsound @a[tag=flotsam] music
+stopsound @a[tag=dinghy] music
+stopsound @a[tag=thescathingsea] music
+stopsound @a[tag=earnyoursealegs] music
+stopsound @a[tag=apatheticdisplay] music
+stopsound @a[tag=cutscene] music
+stopsound @a[tag=adecayinghope] music
+stopsound @a[tag=maycoesbattle] music
+schedule function atrium:music/stop_vanilla_music 1s
