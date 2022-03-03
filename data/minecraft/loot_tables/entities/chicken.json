@@ -1,0 +1,77 @@
+{
+	"type": "minecraft:entity",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+                    "weight": 15,
+                    "quality": 0,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 0,
+								"max": 2,
+								"type": "minecraft:uniform"
+							}
+						},
+						{
+							"function": "minecraft:looting_enchant",
+							"count": {
+								"min": 0,
+								"max": 1
+							}
+						}
+					],
+					"name": "minecraft:feather"
+				},
+		     {
+          "type": "loot_table",
+          "weight": 2,
+          "quality": 3,
+          "name": "atrium:entity_drops/vanilla_drop_additions/chicken",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        }
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:furnace_smelt",
+							"conditions": [
+								{
+									"condition": "minecraft:entity_properties",
+									"predicate": {
+										"flags": {
+											"is_on_fire": true
+										}
+									},
+									"entity": "this"
+								}
+							]
+						},
+						{
+							"function": "minecraft:looting_enchant",
+							"count": {
+								"min": 0,
+								"max": 1
+							}
+						}
+					],
+					"name": "minecraft:chicken"
+				}
+			]
+		}
+	]
+}

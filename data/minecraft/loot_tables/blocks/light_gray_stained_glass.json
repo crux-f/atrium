@@ -1,0 +1,105 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:light_gray_stained_glass"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "enchantments": [
+              {
+                "enchantment": "minecraft:silk_touch",
+                "levels": {
+                  "min": 1
+                }
+              }
+            ]
+          }
+        },
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "atrium:crystal_caves"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "conditions": [
+            {
+              "condition": "minecraft:match_tool",
+              "predicate": {
+                "nbt": "{core_pickaxe:1b}"
+              }
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "biome": "atrium:crystal_caves"
+                }
+              }
+            }
+          ],
+          "weight": 1,
+          "name": "minecraft:light_gray_stained_glass",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{dull_crystal:1b}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Dull Crystal",
+                  "color": "gray",
+                  "italic": "false"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Only the Core Pickaxe"
+                },
+                {
+                  "text": "is capable of harvesting"
+                },
+                {
+                  "text": "from the crystal caves"
+                },
+                {
+                  "text": "Geota left in her wake."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
