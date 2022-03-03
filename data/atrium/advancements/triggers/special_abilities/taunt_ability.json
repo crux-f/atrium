@@ -14,6 +14,6 @@
     }
   },
   "rewards": {
-    "function": "atrium:triggers/taunt_ability"
+    "function": "atrium:triggers/special_abilities/taunt_ability"
   }
 }
