@@ -1,0 +1,85 @@
+{
+	"type": "atrium:meridian_type",
+	"generator": {
+		"type": "minecraft:noise",
+		"seed": 9406920593,
+		"biome_source": {
+			"type": "minecraft:multi_noise",
+			"biomes": [
+				{
+					"biome": "atrium:sky",
+					"parameters": {
+						"temperature": -0.35,
+						"humidity": 0,
+						"continentalness": 1,
+						"erosion": 0.25,
+						"weirdness": 0,
+						"depth": 0,
+						"offset": 0
+					}
+				},
+				{
+					"biome": "atrium:cloudgarden",
+					"parameters": {
+						"temperature": 0.25,
+						"humidity": 0.25,
+						"continentalness": 1,
+						"erosion": 0,
+						"weirdness": 0,
+						"depth": 0,
+						"offset": 0
+					}
+				},
+				{
+					"biome": "atrium:cloudpine_forest",
+					"parameters": {
+						"temperature": -0.75,
+						"humidity": 0,
+						"continentalness": 1,
+						"erosion": 0.25,
+						"weirdness": 0,
+						"depth": 0,
+						"offset": 0
+					}
+				},
+				{
+					"biome": "atrium:overgrown_isles",
+					"parameters": {
+						"temperature": 0.25,
+						"humidity": 0.35,
+						"continentalness": 1,
+						"erosion": 0.10,
+						"weirdness": 0,
+						"depth": 0,
+						"offset": 0
+					}
+				},
+				{
+					"biome": "atrium:shards",
+					"parameters": {
+						"temperature": -0.25,
+						"humidity": 0,
+						"continentalness": 1,
+						"erosion": 0,
+						"weirdness": 0.15,
+						"depth": 0,
+						"offset": 0
+					}
+				},
+				{
+					"biome": "atrium:autumn_isles",
+					"parameters": {
+						"temperature": 0.25,
+						"humidity": 0.25,
+						"continentalness": 1,
+						"erosion": 0.25,
+						"weirdness": 0,
+						"depth": 0,
+						"offset": 0
+					}
+				}
+			]
+		},
+		"settings": "atrium:meridian_noise"
+	}
+}

@@ -1,0 +1,29 @@
+{
+	"type": "atrium:between_worlds_type",
+	"generator": {
+		"type": "minecraft:flat",
+		"settings": {
+			"layers": [
+				{
+					"height": 1,
+					"block": "minecraft:air"
+				}
+			],
+			"biome": "minecraft:the_void",
+			"structures": {
+				"stronghold": {
+					"distance": 0,
+					"count": 0,
+					"spread": 0
+				},
+				"structures": {
+					"minecraft:stronghold": {
+						"spacing": 1,
+						"separation": 0,
+						"salt": 99
+					}
+				}
+			}
+		}
+	}
+}
