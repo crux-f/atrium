@@ -1,0 +1,30 @@
+{
+    "__comment": "congrats!",
+    "display": {
+        "title": {
+            "text": "Atrium: The Far Lands",
+            "color": "light_gray"
+        },
+        "description": {
+            "text": "Participate in at least 1 Journey to The Far Lands monthly event.",
+            "color": "green",
+            "italic": true
+        },
+        "icon": {
+            "item": "minecraft:dirt_path"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "granted": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 0
+    },
+    "parent": "atrium:pantheon"
+}

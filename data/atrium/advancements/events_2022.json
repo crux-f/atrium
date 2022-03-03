@@ -1,0 +1,31 @@
+{
+    "__comment": "All the events that took place in 2022 fall into this category.",
+    "display": {
+        "title": {
+            "text": "2022",
+            "color": "white",
+            "bold": false
+        },
+        "description": {
+            "text": "All Atrium Events in 2022.",
+            "color": "green",
+            "italic": true
+        },
+        "icon": {
+            "item": "minecraft:bricks"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "2022_events": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+        "rewards": {
+		"experience": 0
+	},
+        "parent": "atrium:events_explanation"
+}

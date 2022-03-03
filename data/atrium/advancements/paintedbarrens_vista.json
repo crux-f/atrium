@@ -1,0 +1,47 @@
+{
+    "display": {
+        "title": {
+            "text": "Pride Rock",
+            "color": "white"
+        },
+        "description": {
+            "text": "Find The Painted Barrens vista"
+        },
+        "icon": {
+            "item": "minecraft:white_terracotta"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "findvista": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "overworld",
+                "position": {
+                    "x": {
+                        "min": -3063,
+                        "max": -3061
+                    },
+                    "y": {
+                        "min": 102,
+                        "max": 106
+                    },
+                    "z": {
+                        "min": -1988,
+                        "max": -1986
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "experience": 50,
+        "loot": [
+            "atrium:overworld_vista"
+        ]
+    },
+    "parent": "atrium:kjoltbreen_vista"
+}

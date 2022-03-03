@@ -1,0 +1,34 @@
+{
+    "__comment": "The cold. 11/3/2021",
+    "display": {
+        "title": {
+            "text": "The Far Shore",
+            "color": "white",
+            "bold": false
+        },
+        "description": {
+            "text": "Journey to The Far Lands V - November 6th, 2021",
+            "color": "green",
+            "italic": true
+        },
+        "icon": {
+            "item": "minecraft:snow_block"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "manual": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 0,
+        "loot": [
+            "atrium:event"
+        ]
+    },
+    "parent": "atrium:jevent_4"
+}

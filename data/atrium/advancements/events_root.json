@@ -1,0 +1,27 @@
+{
+    "__comment": "Acquired by participating in an event",
+    "criteria": {
+        "playevent": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "display": {
+        "title": {
+            "bold": false,
+            "color": "dark_green",
+            "text": "Events"
+        },
+        "description": {
+            "color": "green",
+            "text": "A place to view official Atrium events"
+        },
+        "icon": {
+            "item": "minecraft:golden_apple"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/block/white_terracotta.png"
+    }
+}

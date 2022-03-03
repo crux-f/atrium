@@ -1,0 +1,34 @@
+{
+    "__comment": "The beginning of Journey to The Far Lands! I'm going to start naming this 'jevent_1' instead of 'event_18' because that was getting confusing. August 7th, 2021.",
+    "display": {
+        "title": {
+            "text": "The Journey Begins",
+            "color": "white",
+            "bold": false
+        },
+        "description": {
+            "text": "Journey to The Far Lands I - August 7th, 2021",
+            "color": "green",
+            "italic": true
+        },
+        "icon": {
+            "item": "minecraft:campfire"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "sunrise": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 0,
+        "loot": [
+            "atrium:event"
+        ]
+    },
+    "parent": "atrium:event_17"
+}

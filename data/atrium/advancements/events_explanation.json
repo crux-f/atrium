@@ -1,0 +1,30 @@
+{
+    "__comment": "New fork in the path for different event stuff",
+    "display": {
+        "title": {
+            "text": "Monthly Events",
+            "color": "dark_green"
+        },
+        "description": {
+            "text": "First Saturday of every month",
+            "color": "green",
+            "italic": true
+        },
+        "icon": {
+            "item": "minecraft:cake"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "granted": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 0
+    },
+    "parent": "atrium:events_root"
+}
