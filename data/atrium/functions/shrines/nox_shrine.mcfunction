@@ -13,7 +13,7 @@ function atrium:shrines/favor_exchange
 execute at @p unless entity @p[tag=pray,level=0] run particle minecraft:large_smoke ~ ~1 ~ 0.1 0.5 0.1 0.1 40 force
 # Text, ability, and cost for favor 1-9
 execute unless entity @p[tag=pray,scores={nox_favor=10..}] run effect give @p[tag=pray,level=1..] minecraft:resistance 600 0
-execute unless entity @p[tag=pray,scores={nox_favor=2..}] run tellraw @p[tag=pray,level=1..] ["",{"text":"\u06e9 ","color":"red"},{"text":"The atmosphere here is suffuced with a cold, calculating aura.","italic":true,"color":"red"},{"text":" \u06e9","color":"red"}]
+execute unless entity @p[tag=pray,scores={nox_favor=2..}] run tellraw @p[tag=pray,level=1..] ["",{"text":"\u06e9 ","color":"red"},{"text":"The atmosphere here is suffused with a cold, calculating aura.","italic":true,"color":"red"},{"text":" \u06e9","color":"red"}]
 execute unless entity @p[tag=pray,scores={nox_favor=10..}] run xp add @p[tag=pray,level=1..] -1 levels
 # Text, ability, and cost for favor 10-19
 execute if entity @p[tag=pray,scores={nox_favor=10..19}] run effect give @p[tag=pray,level=2..] minecraft:resistance 1200 0
