@@ -1,0 +1,15 @@
+{
+   "feature": "atrium:crystal_cyan",
+   "placement": [
+      {
+         "type": "count",
+         "count": 10
+      },
+      {
+         "type": "minecraft:in_square"
+      },
+    {
+      "type": "minecraft:biome"
+    }
+   ]
+}

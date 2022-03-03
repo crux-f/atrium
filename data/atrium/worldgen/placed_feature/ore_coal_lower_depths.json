@@ -1,0 +1,27 @@
+{
+  "feature": "minecraft:ore_coal_buried",
+  "placement": [
+    {
+      "count": 45,
+      "type": "minecraft:count"
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "height": {
+        "min_inclusive": {
+          "absolute": -600
+        },
+        "max_inclusive": {
+          "absolute": 600
+        },
+        "type": "minecraft:trapezoid"
+      },
+      "type": "minecraft:height_range"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

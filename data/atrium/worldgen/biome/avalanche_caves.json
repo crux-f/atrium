@@ -1,0 +1,120 @@
+{
+  "effects": {
+    "mood_sound": {
+      "sound": "minecraft:atrium.ambient.avalanche_caves.mood",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2
+    },
+    "music": {
+      "sound": "minecraft:atrium.steepfall",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": false
+    },
+    "particle": {
+      "options": {
+        "type": "minecraft:mycelium"
+      },
+      "probability": 0.001
+    },
+    "sky_color": 0,
+    "fog_color": 0,
+    "water_color": 6095,
+    "water_fog_color": 6095,
+    "foliage color": 12171705,
+    "grass_color": 12171705
+  },
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ],
+    "liquid": []
+  },
+  "features": [
+    [],
+    [
+      "minecraft:lake_lava_surface",
+      "minecraft:lake_lava_underground"
+    ],
+    [
+      "minecraft:amethyst_geode",
+      "minecraft:large_dripstone"
+    ],
+    [
+      "minecraft:monster_room",
+      "minecraft:monster_room_deep"
+    ],
+    [],
+    [],
+    [
+      "minecraft:ore_gravel",
+      "atrium:ore_coal_lower_depths",
+      "atrium:ore_iron_upper_depths",
+      "atrium:ore_iron_middle_depths",
+      "atrium:ore_gold_depths",
+      "atrium:ore_redstone_lower_depths",
+      "atrium:ore_diamond_buried_depths",
+      "atrium:ore_lapis_depths",
+      "atrium:ore_copper_large_depths",
+      "minecraft:underwater_magma",
+      "minecraft:disk_gravel"
+    ],
+    [
+      "atrium:ore_infested_depths"
+    ],
+    [],
+    [
+      "minecraft:glow_lichen",
+      "minecraft:brown_mushroom_nether",
+      "minecraft:red_mushroom_nether",
+      "minecraft:spring_water",
+      "minecraft:spring_lava",
+      "minecraft:seagrass_deep",
+      "minecraft:seagrass_simple",
+      "minecraft:kelp_cold"
+    ],
+    []
+  ],
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:spider",
+        "weight": 35,
+        "minCount": 3,
+        "maxCount": 6
+      },
+      {
+        "type": "minecraft:creeper",
+        "weight": 50,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "minecraft:enderman",
+        "weight": 50,
+        "minCount": 2,
+        "maxCount": 4
+      }
+    ],
+    "creature": [],
+    "ambient": [
+      {
+        "type": "minecraft:bat",
+        "weight": 10,
+        "minCount": 3,
+        "maxCount": 8
+      }
+    ],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "precipitation": "none",
+  "temperature": 0,
+  "downfall": 0,
+  "category": "underground"
+}

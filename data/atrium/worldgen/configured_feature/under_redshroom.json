@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:huge_fungus",
+  "config": {
+    "hat_state": {
+      "Properties": {
+        "east": "true",
+        "down": "false",
+        "north": "true",
+        "south": "true",
+        "up": "true",
+        "west": "true"
+      },
+      "Name": "minecraft:red_mushroom_block"
+    },
+    "decor_state": {
+      "Name": "minecraft:sea_lantern"
+    },
+    "planted": false,
+    "valid_base_block": {
+      "Properties": {
+        "snowy": "false"
+      },
+      "Name": "minecraft:mycelium"
+    },
+    "stem_state": {
+      "Properties": {
+        "east": "true",
+        "down": "false",
+        "north": "true",
+        "south": "true",
+        "up": "false",
+        "west": "true"
+      },
+      "Name": "minecraft:mushroom_stem"
+    }
+  }
+}

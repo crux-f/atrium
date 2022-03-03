@@ -1,0 +1,27 @@
+{
+  "feature": "minecraft:ore_diamond_buried",
+  "placement": [
+    {
+      "count": 6,
+      "type": "minecraft:count"
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "height": {
+        "min_inclusive": {
+          "above_bottom": 856
+        },
+        "max_inclusive": {
+          "above_bottom": 1206
+        },
+        "type": "minecraft:trapezoid"
+      },
+      "type": "minecraft:height_range"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}
