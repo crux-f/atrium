@@ -1,0 +1,31 @@
+{
+    "__comment": "It's Not The Fall That Kills You was a boss battle event involving a fight with Pyronicus and the launch of the Landfall world event, 6/13/2020",
+    "display": {
+        "title": {
+            "text": "It's Not The Fall That Kills You",
+            "color": "dark_red",
+            "bold": false
+        },
+        "description": {
+            "text": "June 13th, 2020",
+            "color": "green",
+            "italic": true
+        },
+        "icon": {
+            "item": "minecraft:feather"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "fightpyronicus": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 50
+    },
+    "parent": "atrium:event_3"
+}

@@ -1,0 +1,31 @@
+{
+    "__comment": "The Hammer Falls was the second combat event held at The Bleeding Gates, the first being It's The Landing. 3/6/2021",
+    "display": {
+        "title": {
+            "text": "The Hammer Falls",
+            "color": "dark_red",
+            "bold": false
+        },
+        "description": {
+            "text": "Pantheon III - March 6th, 2021",
+            "color": "green",
+            "italic": true
+        },
+        "icon": {
+            "item": "minecraft:diamond_sword"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "thehammerfalls": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 50
+    },
+    "parent": "atrium:event_12"
+}

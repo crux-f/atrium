@@ -1,0 +1,31 @@
+{
+    "__comment": "For hitting 30 in your Taraq-Sol favor",
+    "display": {
+        "title": {
+            "text": "The Old Hand",
+            "color": "yellow",
+            "bold": false
+        },
+        "description": {
+            "text": "Reach 30 favor with Taraq-Sol.",
+            "color": "green",
+            "italic": true
+        },
+        "icon": {
+            "item": "minecraft:elytra"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "taraqsol_max": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 50
+    },
+    "parent": "atrium:belief/taraqsol_20"
+}

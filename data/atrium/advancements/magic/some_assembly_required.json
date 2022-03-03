@@ -1,0 +1,25 @@
+{
+    "__comment": "Acquired by crafting an item using the Infusion Altar.",
+    "display": {
+        "title": {
+            "text": "Some Assembly Required",
+            "color": "white"
+        },
+        "description": {
+            "text": "Witness a ritual"
+        },
+        "icon": {
+            "item": "minecraft:crying_obsidian"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "infusion": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "atrium:magic/formulaic"
+}

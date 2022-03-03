@@ -1,0 +1,25 @@
+{
+    "__comment": "Acquired by brewing a tier III potion in an Empowered Cauldron.",
+    "display": {
+        "title": {
+            "text": "Arcane Brewery",
+            "color": "white"
+        },
+        "description": {
+            "text": "Brew something in an empowered cauldron"
+        },
+        "icon": {
+            "item": "minecraft:cauldron"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "advanced_alchemy": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "atrium:magic/magic_root"
+}

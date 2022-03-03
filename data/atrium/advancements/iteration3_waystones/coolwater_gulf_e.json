@@ -1,0 +1,48 @@
+{
+    "display": {
+        "title": {
+            "text": "Magma and Moss",
+            "color": "white"
+        },
+        "description": {
+            "text": "Find the Coolwater Gulf [E] waystone"
+        },
+        "icon": {
+            "item": "minecraft:moss_block"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "findvista": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:lush_caves",
+                "dimension": "overworld",
+                "position": {
+                    "x": {
+                        "min": 40477,
+                        "max": 40478
+                    },
+                    "y": {
+                        "min": -33,
+                        "max": -32
+                    },
+                    "z": {
+                        "min": -1849,
+                        "max": -1848
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "experience": 50,
+        "loot": [
+            "atrium:overworld_vista"
+        ]
+    },
+    "parent": "atrium:iteration3_waystones/coolwater_gulf_n"
+}

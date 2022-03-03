@@ -1,0 +1,48 @@
+{
+    "display": {
+        "title": {
+            "text": "Write Angles",
+            "color": "white"
+        },
+        "description": {
+            "text": "Find the Dancing Shards vista"
+        },
+        "icon": {
+            "item": "minecraft:stone"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "findvista": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "atrium:shards",
+                "dimension": "atrium:meridian",
+                "position": {
+                    "x": {
+                        "min": 3459,
+                        "max": 3461
+                    },
+                    "y": {
+                        "min": 252,
+                        "max": 256
+                    },
+                    "z": {
+                        "min": -5593,
+                        "max": -5591
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "experience": 50,
+        "loot": [
+            "atrium:meridian_vista"
+        ]
+    },
+    "parent": "atrium:meridian/meridian_root"
+}

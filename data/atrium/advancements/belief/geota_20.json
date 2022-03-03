@@ -1,0 +1,31 @@
+{
+    "__comment": "Granted when you reach 20 Favor with Geota",
+    "display": {
+        "title": {
+            "text": "Tectonic Shift",
+            "color": "white",
+            "bold": false
+        },
+        "description": {
+            "text": "Gain at least 20 Favor with Geota",
+            "color": "green",
+            "italic": true
+        },
+        "icon": {
+            "item": "minecraft:diamond_pickaxe"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "givewhenmax": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 25
+    },
+    "parent": "atrium:belief/geota_10"
+}

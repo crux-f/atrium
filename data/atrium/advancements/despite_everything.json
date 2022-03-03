@@ -1,0 +1,31 @@
+{
+    "__comment": "Designates players who started at Air.",
+    "display": {
+        "title": {
+            "text": "Despite Everything",
+            "color": "white",
+            "bold": false
+        },
+        "description": {
+            "text": "Get the same element twice in a row",
+            "color": "green",
+            "italic": true
+        },
+        "icon": {
+            "item": "minecraft:music_disc_otherside"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "twice_in_a_row": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 0
+    },
+    "parent": "atrium:but_you_refused"
+}

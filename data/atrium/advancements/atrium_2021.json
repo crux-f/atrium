@@ -1,0 +1,30 @@
+{
+    "__comment": "Exclusive",
+    "display": {
+        "title": {
+            "text": "Explorer",
+            "color": "green",
+            "bold": true
+        },
+        "description": {
+            "text": "You played in 2021! Lets hope for a less rocky start this time.",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:iron_pickaxe"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "join_2021": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+        "rewards": {
+		"experience": 85
+	},
+        "parent": "atrium:atrium_2020"
+}

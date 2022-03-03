@@ -1,0 +1,35 @@
+{
+    "__comment": "In Flux is the midseason finale type thing of Pantheon; Maycoes is disrupting the Atrium Network so players cant respawn",
+    "display": {
+        "title": {
+            "text": "In Flux",
+            "color": "dark_purple",
+            "bold": false
+        },
+        "description": {
+            "text": "Pantheon V - May 1st, 2021",
+            "color": "green",
+            "italic": true
+        },
+        "icon": {
+            "item": "minecraft:purple_banner",
+            "nbt": "{BlockEntityTag:{Patterns:[{Color:15,Pattern:\"cre\"},{Color:15,Pattern:\"mr\"}]}}"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "influx": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 100,
+        "loot": [
+            "atrium:in_flux"
+        ]
+    },
+    "parent": "atrium:event_14"
+}

@@ -1,0 +1,31 @@
+{
+    "__comment": "For hitting 30 in your Ghael favor",
+    "display": {
+        "title": {
+            "text": ". . .",
+            "color": "red",
+            "bold": false
+        },
+        "description": {
+            "text": "Reach 30 favor with Nox.",
+            "color": "green",
+            "italic": true
+        },
+        "icon": {
+            "item": "minecraft:elytra"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "nox_max": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 50
+    },
+    "parent": "atrium:belief/nox_20"
+}

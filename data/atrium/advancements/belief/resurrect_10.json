@@ -1,0 +1,33 @@
+{
+    "__comment": "congrats!",
+    "display": {
+        "title": {
+            "text": "Medic!",
+            "color": "white"
+        },
+        "description": {
+            "text": "Perform 10 Resurrections",
+            "color": "green",
+            "italic": true
+        },
+        "icon": {
+            "item": "minecraft:experience_bottle"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "granted": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 50,
+        "loot": [
+            "atrium:resurrection_advancement"
+        ]
+    },
+    "parent": "atrium:belief/resurrect_1"
+}

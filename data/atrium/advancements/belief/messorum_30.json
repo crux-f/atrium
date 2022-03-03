@@ -1,0 +1,31 @@
+{
+    "__comment": "For hitting 30 in your Messorum favor",
+    "display": {
+        "title": {
+            "text": "The Hallowed End",
+            "color": "dark_purple",
+            "bold": false
+        },
+        "description": {
+            "text": "Reach 30 favor with Messorum.",
+            "color": "green",
+            "italic": true
+        },
+        "icon": {
+            "item": "minecraft:elytra"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "messorum_max": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 50
+    },
+    "parent": "atrium:belief/messorum_20"
+}

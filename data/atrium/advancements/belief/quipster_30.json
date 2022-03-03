@@ -1,0 +1,31 @@
+{
+    "__comment": "For hitting 30 in your Quipster favor",
+    "display": {
+        "title": {
+            "text": "The Quipster",
+            "color": "green",
+            "bold": false
+        },
+        "description": {
+            "text": "Reach 30 favor with The Quipster.",
+            "color": "green",
+            "italic": true
+        },
+        "icon": {
+            "item": "minecraft:elytra"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "quipster_max": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 50
+    },
+    "parent": "atrium:belief/quipster_20"
+}

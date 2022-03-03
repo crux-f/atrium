@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:voluntary_exile"
+    }
+  },
+  "rewards": {
+    "function": "atrium:triggers/raids/alert_guards"
+  }
+}

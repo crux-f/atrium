@@ -1,0 +1,33 @@
+{
+    "__comment": "congrats!",
+    "display": {
+        "title": {
+            "text": "From Ashes",
+            "color": "white"
+        },
+        "description": {
+            "text": "Bring another player back to life",
+            "color": "green",
+            "italic": true
+        },
+        "icon": {
+            "item": "minecraft:diamond"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "granted": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 0,
+        "loot": [
+            "atrium:resurrection_advancement"
+        ]
+    },
+    "parent": "atrium:belief/higher_power"
+}

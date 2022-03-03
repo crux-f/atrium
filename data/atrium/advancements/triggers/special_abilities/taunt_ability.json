@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [],
+        "damage": {
+          "blocked": false,
+          "source_entity": {
+            "nbt": "{Tags:[\"taunt_ability\"]}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "atrium:triggers/taunt_ability"
+  }
+}

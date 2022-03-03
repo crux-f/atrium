@@ -1,0 +1,31 @@
+{
+    "__comment": "A Decaying Hope was a siege event, and was Chapter 5 of the Landfall world event, 11/7/2020",
+    "display": {
+        "title": {
+            "text": "A Decaying Hope",
+            "color": "dark_red",
+            "bold": false
+        },
+        "description": {
+            "text": "Landfall V - November 7th, 2020",
+            "color": "green",
+            "italic": true
+        },
+        "icon": {
+            "item": "minecraft:wither_skeleton_skull"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "defendspoons": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 100
+    },
+    "parent": "atrium:event_8"
+}
