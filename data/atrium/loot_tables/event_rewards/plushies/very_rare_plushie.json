@@ -1,0 +1,531 @@
+{
+  "type": "chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 16,
+          "quality": 0,
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{SkullOwner:{Id:[I;-363885467,-87080269,-1999985470,-954758572],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGQ5YzRlYTAwOTQ5YzExNTJhNTY0YzhhYjc3NTc5NWEyMDU0YTUwYzU4YWM1NTEyYzJjODZjMGZmMjQ5YWMzMyJ9fX0=\"}]}}}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Herobrine Plushie",
+                  "color": "dark_purple",
+                  "italic": "false"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 16,
+          "quality": 0,
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{SkullOwner:{Id:[I;-363885467,-87080269,-1999985470,-954758572],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGQ5YzRlYTAwOTQ5YzExNTJhNTY0YzhhYjc3NTc5NWEyMDU0YTUwYzU4YWM1NTEyYzJjODZjMGZmMjQ5YWMzMyJ9fX0=\"}]}}}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Mr. Blobby Plushie",
+                  "color": "dark_purple",
+                  "italic": "false"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 16,
+          "quality": 0,
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{SkullOwner:{Id:[I;-761653235,1056326480,-2067971793,-38957863],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDQzOTYyNDk1NWFlM2JlN2VhYmE4NTI1ODM2YTFlZjRjMmY5OGU2YmRhMDNiMmQyODc1NTA2ZTkyYjQ3MmZjMiJ9fX0=\"}]}}}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Business Duck Plushie",
+                  "color": "dark_purple",
+                  "italic": "false"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 16,
+          "quality": 0,
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{SkullOwner:{Id:[I;1347768672,1975534430,-2141303305,-815914954],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmFiMzdjZGQ4OWI3MGU2OTM1NmQ0YTM0OGIyOGNkMzBiYzZlNzFlODc4ODlmY2U1ZWI0OTFkZWJhMjhiZWZiMSJ9fX0=\"}]}}}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Bastion Plushie",
+                  "color": "dark_purple",
+                  "italic": "false"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 16,
+          "quality": 0,
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{SkullOwner:{Id:[I;-1257746390,1307264963,-1822022840,2010694032],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjE1Y2ViNjQ1NWVlZmU1ZjFmYjA0NDA1MGZkMDk5ZTBiZTFhZjFlOTdlMTA3YzUyYTFjMWQ1YzVmZDk5ZmU2NiJ9fX0=\"}]}}}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Monkey Plushie",
+                  "color": "dark_purple",
+                  "italic": "false"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 16,
+          "quality": 0,
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{SkullOwner:{Id:[I;856222436,829113058,-1307516419,282295088],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDU5NzZmZTMyZmM1ZDEwNTg5ZGZhODhkMDM2M2FkYmM5ODJlYjM1ZjhjZmNkMGUwYzg5M2E2MDk5NjY1YTg3NyJ9fX0=\"}]}}}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Professor Spider Plushie",
+                  "color": "dark_purple",
+                  "italic": "false"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 16,
+          "quality": 0,
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{SkullOwner:{Id:[I;-832836827,924142086,-1714535390,1144310567],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2U0ZDUwZTViZTM1MjE2ZjkxNTliODdiNmEzMzU2MzA5ZjU3NGE1NDE5NzY4NTg4NDhmY2FiYjI3YjY3Y2YxYyJ9fX0=\"}]}}}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Armadillo Plushie",
+                  "color": "dark_purple",
+                  "italic": "false"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 16,
+          "quality": 0,
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{SkullOwner:{Id:[I;1593279088,-1910028756,-1437391292,1382469596],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOThkZTQ5YjJmNWFmMWUwZmI4NDA3NTBlNjU4OTgzYWY1YzY3ZmIwMTc4OGJlNjA5YThiYzMzYmYxY2FlODVkYiJ9fX0=\"}]}}}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Polar Bear in a Dragon Costume Plushie",
+                  "color": "dark_purple",
+                  "italic": "false"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 16,
+          "quality": 0,
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{SkullOwner:{Id:[I;-1496030978,-2130491047,-1676646404,-595397896],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmNjNjcxYzgxZmMwNGM2YmEzZjI5ODM2NGYxMzc5ZjUzN2IwNWM2Y2VhMjUxNDcxMzU3NmM4YzhmZGE4NTQzNSJ9fX0=\"}]}}}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Koala Plushie",
+                  "color": "dark_purple",
+                  "italic": "false"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 16,
+          "quality": 0,
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{SkullOwner:{Id:[I;310155025,-1368504991,-1613143890,1937471535],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTQ0NWMzZGVmNjg5NDI3ZmQ4ZGY4Y2FkODI0YzBhNmI1NTNkNGY4NDdlYjAzNzA1MTk2YTY5YzdlZWQ5NDZhZiJ9fX0=\"}]}}}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Mr. Bee Plushie",
+                  "color": "dark_purple",
+                  "italic": "false"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 16,
+          "quality": 0,
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{SkullOwner:{Id:[I;2098679158,-283884171,-1425129158,-1065654650],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjA1MDNiODFhYzAyMGM2N2MzNzc4N2I0NWM5YTI2MjIzZjliYzI2YmNhMjdmODFhZjMyZjJjZjU1ZTI0NDBiNyJ9fX0=\"}]}}}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Snake Plushie",
+                  "color": "dark_purple",
+                  "italic": "false"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 16,
+          "quality": 0,
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{SkullOwner:{Id:[I;1113343888,-984987084,-1570975779,1378277365],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTM1NzhlYjdjNjFlMGJiMmQwMWYwMWNhMGUxN2M4NTk5YjdlMzQ4NTM5OWY3NDg3ODE2ZTg5NGFlYTU5Zjc0NSJ9fX0=\"}]}}}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Neon Sheep Plushie",
+                  "color": "dark_purple",
+                  "italic": "false"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 16,
+          "quality": 0,
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{SkullOwner:{Id:[I;-539902427,812076700,-1983054949,797960196],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDZmYmNiNTZjNTc3NWU4YWY1Zjc2YTA0M2RkMzQ1ODE1N2E4ZmViZmVjNTM1ZjAwNjhmNWYzMTUyOThmZmIyNyJ9fX0=\"}]}}}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Rainbow Panda Plushie",
+                  "color": "dark_purple",
+                  "italic": "false"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 16,
+          "quality": 0,
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{SkullOwner:{Id:[I;-1123565115,1897283985,-1732006380,-56161012],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzI4YTc2NGVhZmQ4YzRlM2Y5MGZlNzY0NGQ5NzNmM2RkZWM5MWFlNTMxYjM5OGIyNDUwNDQxMjUzMDNlZWQzNSJ9fX0=\"}]}}}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Mouse Plushie",
+                  "color": "dark_purple",
+                  "italic": "false"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 16,
+          "quality": 0,
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{SkullOwner:{Id:[I;89599651,605243021,-1251373089,-1448600934],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjk1MGY1MzI4NWE2MDBhZTMwNTZkOTcwOTVmOWE4ZDJlYjlkZjAwMWYzNTUxZDUyZDAyZTg4MzFlMDIwZjVlZCJ9fX0=\"}]}}}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "River Otter Plushie",
+                  "color": "dark_purple",
+                  "italic": "false"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 16,
+          "quality": 0,
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{SkullOwner:{Id:[I;573729615,-1598928157,-2028951058,-1127771244],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjJjNWY4MjdkYTNmNDM1ODk2OTdkZjkwOTU5NGEyZWZhOGJmOGUxNjFlZWE4MTdlYTkyMGRjOWU5NjE3OGIzYyJ9fX0=\"}]}}}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Iron Snail Plushie",
+                  "color": "dark_purple",
+                  "italic": "false"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 16,
+          "quality": 0,
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{SkullOwner:{Id:[I;-1458812323,1804290814,-1369128157,-706772305],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjI2MTcyODE5MmI3ZDU5NmQwZTdkYjg2YjkzM2NlYWMyNmQwYzg1MDIwNmU3NDljZmNlYTg2NjM1OTMyNzFjMyJ9fX0=\"}]}}}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Legendary Jellyfish Plushie",
+                  "color": "dark_purple",
+                  "italic": "false"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 16,
+          "quality": 0,
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{SkullOwner:{Id:[I;-212536021,-1082768989,-1107096347,-36476073],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjJhNDFmZTEwYzBiN2RhZTZmODI5MTM0ZDE4YjRjYTQ3MTlhMDZhMDBmZTQ1OTk3NTQ2NDBiMzY0M2ZlODRmYiJ9fX0=\"}]}}}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Golden Hermit Crab Plushie",
+                  "color": "dark_purple",
+                  "italic": "false"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 16,
+          "quality": 0,
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{SkullOwner:{Id:[I;-805745273,163139372,-1743027823,1881423672],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTYzNjc5ZmY1NTJiYWIzNGNjNTA1ZmUyYzM3YWQ1OTgyM2Q4ZWVjOWM0Mjg3NGI1Mjk4ZDFlYTA2MTZmYzI2ZiJ9fX0=\"}]}}}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Pug With Hazmat Suit Plushie",
+                  "color": "dark_purple",
+                  "italic": "false"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 16,
+          "quality": 0,
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{SkullOwner:{Id:[I;806339788,110903852,-1940846327,-1951142785],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTNjN2Y0ZTFjN2NlY2Q0OWY2MGYwZGFjZjk1OWQ2OTU3N2M3YTJlNDYzMjkyYTg4ZWIxMGYwYTlkYWUwM2MifX19\"}]}}}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Suspicious Furby Plushie",
+                  "color": "dark_purple",
+                  "italic": "false"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

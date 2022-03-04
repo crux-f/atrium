@@ -1,0 +1,552 @@
+{
+    "type": "chest",
+    "pools": [
+        {
+            "rolls": 1,
+            "bonus_rolls": 0,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 5,
+                    "quality": 1,
+                    "name": "minecraft:written_book",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{pages:['{\"text\":\"In my many studies across the Archipelago, I have learned many secrets of the four elements. I include the most basic of formulas here to begin your journey.\\\\n\\\\n- E\"}','[\"\",{\"text\":\"Staff of Water\\\\n             \"},{\"text\":\"^\",\"color\":\"aqua\"},{\"text\":\"\\\\n          x  \",\"color\":\"reset\"},{\"text\":\"I\",\"color\":\"blue\"},{\"text\":\"  x\\\\n       x  \",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"dark_green\"},{\"text\":\"     <\",\"color\":\"dark_blue\"},{\"text\":\"  x\\\\n          x  ^  x\\\\n             o\\\\n\",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"aqua\"},{\"text\":\" - Prismarine Crystals\\\\n\",\"color\":\"reset\"},{\"text\":\"I\",\"color\":\"blue\"},{\"text\":\" - Gleaming Prismarine\\\\n\",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"dark_green\"},{\"text\":\" - Kelp\\\\n\",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"dark_blue\"},{\"text\":\" - Submerged Gemstone\\\\n^ - Trident\\\\no - Nautilus Shell\",\"color\":\"reset\"}]','[\"\",{\"text\":\"Staff of Earth\\\\n             \"},{\"text\":\"^\",\"color\":\"green\"},{\"text\":\"\\\\n          x  \",\"color\":\"reset\"},{\"text\":\"I\",\"color\":\"dark_green\"},{\"text\":\"  x\\\\n       x  \",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"gray\"},{\"text\":\"     <  x\\\\n          x  ^  x\\\\n             o\\\\n\",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"green\"},{\"text\":\" - Emerald\\\\n\",\"color\":\"reset\"},{\"text\":\"I\",\"color\":\"dark_green\"},{\"text\":\" - Toxic Branch\\\\n\",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"gray\"},{\"text\":\" - Fern\\\\n< - Glow Lichen\\\\n^ - Trident\\\\no - Diamond\",\"color\":\"reset\"}]','[\"\",{\"text\":\"Staff of Fire\\\\n             \"},{\"text\":\"^\",\"color\":\"dark_red\"},{\"text\":\"\\\\n          x  \",\"color\":\"reset\"},{\"text\":\"I\",\"color\":\"#D9BE23\"},{\"text\":\"  x\\\\n       x  \",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"gray\"},{\"text\":\"     <\",\"color\":\"gold\"},{\"text\":\"  x\\\\n          x  ^  x\\\\n             o\\\\n\",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"dark_red\"},{\"text\":\" - Campfire\\\\n\",\"color\":\"reset\"},{\"text\":\"I\",\"color\":\"#D9BE23\"},{\"text\":\" - Blaze Rod\\\\n\",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"gray\"},{\"text\":\" - Flint and Steel\\\\n\",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"gold\"},{\"text\":\" - Essence of Amber\\\\n^ - Trident\\\\no - Fire Charge\",\"color\":\"reset\"}]','[\"\",{\"text\":\"Staff of Air\\\\n             \"},{\"text\":\"^\",\"color\":\"#CDD92C\"},{\"text\":\"\\\\n          x  \",\"color\":\"reset\"},{\"text\":\"I\",\"color\":\"gold\"},{\"text\":\"  x\\\\n       x  \",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"gray\"},{\"text\":\"     <\",\"color\":\"#E2E98E\"},{\"text\":\"  x\\\\n          x  ^  x\\\\n             o\\\\n\",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"#CDD92C\"},{\"text\":\" - Air Crystal\\\\n\",\"color\":\"reset\"},{\"text\":\"I\",\"color\":\"gold\"},{\"text\":\" - Lightning Rod\\\\n\",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"gray\"},{\"text\":\" - Feather\\\\n\",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"#E2E98E\"},{\"text\":\" - Rabbit\\'s Foot\\\\n^ - Trident\\\\no - Phantom Membrane\",\"color\":\"reset\"}]','{\"text\":\"(The notes in the margins of these formulas seem to indicate that each staff contains two spells, one requiring a single Redstone Dust to cast, and another a single Glowstone Dust.)\\\\n(Perhaps this will require some experimenting...)\"}'],title:\"Secrets of the Elements\",author:\"E...?\",generation:1}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "Secrets of the Elements",
+                                    "italic": "false"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "Recipe Collection",
+                                    "color": "gray",
+                                    "italic": "false"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "quality": 2,
+                    "name": "minecraft:written_book",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{pages:['[\"\",{\"text\":\"Staff of Earth (+2)\\\\n             \"},{\"text\":\"^\",\"color\":\"aqua\"},{\"text\":\"\\\\n          x  \",\"color\":\"reset\"},{\"text\":\"I\",\"color\":\"light_purple\"},{\"text\":\"  x\\\\n       x \",\"color\":\"reset\"},{\"text\":\" >     <\",\"color\":\"gray\"},{\"text\":\"  x\\\\n          x  \",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"dark_green\"},{\"text\":\"  x\\\\n             \",\"color\":\"reset\"},{\"text\":\"o\",\"color\":\"green\"},{\"text\":\"\\\\n\",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"aqua\"},{\"text\":\" - Diamond Ore\\\\n\",\"color\":\"reset\"},{\"text\":\"I\",\"color\":\"light_purple\"},{\"text\":\" - Ancient Egg\\\\n\",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"gray\"},{\"text\":\",\",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"gray\"},{\"text\":\" - Spellcraft Compound\\\\n\",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"dark_green\"},{\"text\":\" - Staff of Earth\\\\n\",\"color\":\"reset\"},{\"text\":\"o\",\"color\":\"green\"},{\"text\":\" - Bamboo\",\"color\":\"reset\"}]','[\"\",{\"text\":\"Spellcraft Compound\\\\n            \"},{\"text\":\" o\",\"color\":\"red\"},{\"text\":\"\\\\n          \",\"color\":\"reset\"},{\"text\":\"o\",\"color\":\"red\"},{\"text\":\"  x\",\"color\":\"#C3BB44\"},{\"text\":\"  o\",\"color\":\"red\"},{\"text\":\"\\\\n       \",\"color\":\"reset\"},{\"text\":\"o\",\"color\":\"red\"},{\"text\":\"  x     x\",\"color\":\"#C3BB44\"},{\"text\":\"  o\",\"color\":\"red\"},{\"text\":\"\\\\n          \",\"color\":\"reset\"},{\"text\":\"o\",\"color\":\"red\"},{\"text\":\"  x\",\"color\":\"#C3BB44\"},{\"text\":\"  o\",\"color\":\"red\"},{\"text\":\"\\\\n             \",\"color\":\"reset\"},{\"text\":\"o\",\"color\":\"red\"},{\"text\":\"\\\\n\",\"color\":\"reset\"},{\"text\":\"x\",\"color\":\"#C3BB44\"},{\"text\":\" - Glowstone Dust\\\\n\",\"color\":\"reset\"},{\"text\":\"o\",\"color\":\"red\"},{\"text\":\" - Redstone Dust\\\\n\\\\n \",\"color\":\"reset\"}]','[\"\",{\"text\":\"Earth\",\"color\":\"dark_green\"},{\"text\":\" is resilient, patient, and utterly inscrutable to me.\\\\nBut then again, I am born of the air, so perhaps that is not very surprising.\\\\nMay it bring you more luck than I.\\\\n\\\\n- E\\\\n \",\"color\":\"reset\"}]'],title:\"Earthly Adaptation\",author:\"E..?\",generation:1}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "Earthly Adaptation",
+                                    "italic": "false"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "Recipe Collection",
+                                    "color": "gray",
+                                    "italic": "false"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "quality": 2,
+                    "name": "minecraft:written_book",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{pages:['[\"\",{\"text\":\"Staff of Water (+2)\\\\n             \"},{\"text\":\"^\",\"color\":\"#B3A449\"},{\"text\":\"\\\\n          x  \",\"color\":\"reset\"},{\"text\":\"I\",\"color\":\"dark_green\"},{\"text\":\"  x\\\\n       x  \",\"color\":\"reset\"},{\"text\":\">     <\",\"color\":\"gray\"},{\"text\":\"  x\\\\n          x  \",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"blue\"},{\"text\":\"  x\\\\n             \",\"color\":\"reset\"},{\"text\":\"o\",\"color\":\"gold\"},{\"text\":\"\\\\n\",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"#B3A449\"},{\"text\":\" - Wet Sponge\\\\n\",\"color\":\"reset\"},{\"text\":\"I\",\"color\":\"dark_green\"},{\"text\":\" - Scute\\\\n\",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"gray\"},{\"text\":\",\",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"gray\"},{\"text\":\" - Spellcraft Compound\\\\n\",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"blue\"},{\"text\":\" - Staff of Water\\\\n\",\"color\":\"reset\"},{\"text\":\"o\",\"color\":\"gold\"},{\"text\":\" - Mysterious Fish\",\"color\":\"reset\"}]','[\"\",{\"text\":\"Spellcraft Compound\\\\n             \"},{\"text\":\"o\",\"color\":\"red\"},{\"text\":\"\\\\n          \",\"color\":\"reset\"},{\"text\":\"o\",\"color\":\"red\"},{\"text\":\"  x\",\"color\":\"#CEB84A\"},{\"text\":\"  o\",\"color\":\"red\"},{\"text\":\"\\\\n       \",\"color\":\"reset\"},{\"text\":\"o\",\"color\":\"red\"},{\"text\":\"  x\",\"color\":\"#CEB84A\"},{\"text\":\"     x\",\"color\":\"#CEB84A\"},{\"text\":\"  o\",\"color\":\"red\"},{\"text\":\"\\\\n          \",\"color\":\"reset\"},{\"text\":\"o\",\"color\":\"red\"},{\"text\":\"  x\",\"color\":\"#CEB84A\"},{\"text\":\"  o\",\"color\":\"red\"},{\"text\":\"\\\\n             \",\"color\":\"reset\"},{\"text\":\"o\",\"color\":\"red\"},{\"text\":\"\\\\n\",\"color\":\"reset\"},{\"text\":\"x\",\"color\":\"#CEB84A\"},{\"text\":\" - Glowstone Dust\\\\n\",\"color\":\"reset\"},{\"text\":\"o\",\"color\":\"red\"},{\"text\":\" - Redstone Dust\",\"color\":\"reset\"}]','[\"\",{\"text\":\"So you\\'ve learned how to persuade the water. Or maybe you haven\\'t, in which case I\\'m afraid this book isn\\'t going to be terribly useful.\\\\n\\\\n\"},{\"text\":\"Water \",\"color\":\"blue\"},{\"text\":\"is a subtle element, and as temperamental as the sea.\\\\n \",\"color\":\"reset\"}]','{\"text\":\"Enchantments can allow you to be guided by the water, but to guide the waves yourself, you will need to brave its challenges.\\\\n\\\\n- E\\\\n \"}'],title:\"Evolving Waters\",author:\"E..?\",generation:1}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "Evolving Waters",
+                                    "italic": "false"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "Recipe Collection",
+                                    "color": "gray",
+                                    "italic": "false"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "quality": 2,
+                    "name": "minecraft:written_book",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{pages:['[\"\",{\"text\":\"Staff of Fire (+2)\\\\n             \"},{\"text\":\"^\",\"color\":\"dark_red\"},{\"text\":\"\\\\n          x  \",\"color\":\"reset\"},{\"text\":\"I\",\"color\":\"gold\"},{\"text\":\"  x\\\\n       x  \",\"color\":\"reset\"},{\"text\":\">     <\",\"color\":\"gray\"},{\"text\":\"  x\\\\n          x  \",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"red\"},{\"text\":\"  x\\\\n             o\\\\n\",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"dark_red\"},{\"text\":\" - Primordial Stone\\\\n\",\"color\":\"reset\"},{\"text\":\"I\",\"color\":\"gold\"},{\"text\":\" - Charged Blaze Rod\\\\n\",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"gray\"},{\"text\":\",\",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"gray\"},{\"text\":\" - Spellcraft Compound\\\\n\",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"red\"},{\"text\":\" - Staff of Fire\\\\no - Bow [Enchanted: Flame]\",\"color\":\"reset\"}]','[\"\",{\"text\":\"Spellcraft Compound\\\\n            \"},{\"text\":\" o\",\"color\":\"red\"},{\"text\":\"\\\\n          \",\"color\":\"reset\"},{\"text\":\"o\",\"color\":\"red\"},{\"text\":\"  x\",\"color\":\"#C3BB44\"},{\"text\":\"  o\",\"color\":\"red\"},{\"text\":\"\\\\n       \",\"color\":\"reset\"},{\"text\":\"o\",\"color\":\"red\"},{\"text\":\"  x     x\",\"color\":\"#C3BB44\"},{\"text\":\"  o\",\"color\":\"red\"},{\"text\":\"\\\\n          \",\"color\":\"reset\"},{\"text\":\"o\",\"color\":\"red\"},{\"text\":\"  x\",\"color\":\"#C3BB44\"},{\"text\":\"  o\",\"color\":\"red\"},{\"text\":\"\\\\n             \",\"color\":\"reset\"},{\"text\":\"o\",\"color\":\"red\"},{\"text\":\"\\\\n\",\"color\":\"reset\"},{\"text\":\"x\",\"color\":\"#C3BB44\"},{\"text\":\" - Glowstone Dust\\\\n\",\"color\":\"reset\"},{\"text\":\"o\",\"color\":\"red\"},{\"text\":\" - Redstone Dust\\\\n\\\\n \",\"color\":\"reset\"}]','[\"\",{\"text\":\"Travelers have been bending \"},{\"text\":\"Fire\",\"color\":\"red\"},{\"text\":\"\\'s all-consuming power to their will for generations; Cooking food, keeping warm, lighting darkness.\\\\nSome say it was the gift of Fire to us that granted Ghael his\\\\n \",\"color\":\"reset\"}]','{\"text\":\"eternal exile.\\\\nFire can be used for many things, but its capacity for warfare left it with a dire reputation.\\\\n\\\\nPower is neutral. You decide Fire\\'s fate, now.\\\\n\\\\n- E\\\\n \"}'],title:\"Leaping Flames\",author:\"E..?\",generation:1}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "Leaping Flames",
+                                    "italic": "false"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "Recipe Collection",
+                                    "color": "gray",
+                                    "italic": "false"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "quality": 2,
+                    "name": "minecraft:written_book",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{pages:['[\"\",{\"text\":\"Staff of Air (+2)\\\\n             \"},{\"text\":\"^\",\"color\":\"#B3A53D\"},{\"text\":\"\\\\n          x  \",\"color\":\"reset\"},{\"text\":\"I\",\"color\":\"#E0E0E0\"},{\"text\":\"  x\\\\n       x  \",\"color\":\"reset\"},{\"text\":\">     <\",\"color\":\"gray\"},{\"text\":\"  x\\\\n          x  \",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"#DCCB48\"},{\"text\":\"  x\\\\n             \",\"color\":\"reset\"},{\"text\":\"o\",\"color\":\"dark_aqua\"},{\"text\":\"\\\\n\",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"#B3A53D\"},{\"text\":\" - Cyclone Cube\\\\n\",\"color\":\"reset\"},{\"text\":\"I\",\"color\":\"#E0E0E0\"},{\"text\":\" - White Wool\\\\n\",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"gray\"},{\"text\":\",\",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"gray\"},{\"text\":\" - Spellcraft Compound\\\\n\",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"#DCCB48\"},{\"text\":\" - Staff of Air\\\\n\",\"color\":\"reset\"},{\"text\":\"o\",\"color\":\"dark_aqua\"},{\"text\":\" - Shimmering Feather\",\"color\":\"reset\"}]','[\"\",{\"text\":\"Spellcraft Compound\\\\n            \"},{\"text\":\" o\",\"color\":\"red\"},{\"text\":\"\\\\n          \",\"color\":\"reset\"},{\"text\":\"o\",\"color\":\"red\"},{\"text\":\"  x\",\"color\":\"#C3BB44\"},{\"text\":\"  o\",\"color\":\"red\"},{\"text\":\"\\\\n       \",\"color\":\"reset\"},{\"text\":\"o\",\"color\":\"red\"},{\"text\":\"  x     x\",\"color\":\"#C3BB44\"},{\"text\":\"  o\",\"color\":\"red\"},{\"text\":\"\\\\n          \",\"color\":\"reset\"},{\"text\":\"o\",\"color\":\"red\"},{\"text\":\"  x\",\"color\":\"#C3BB44\"},{\"text\":\"  o\",\"color\":\"red\"},{\"text\":\"\\\\n             \",\"color\":\"reset\"},{\"text\":\"o\",\"color\":\"red\"},{\"text\":\"\\\\n\",\"color\":\"reset\"},{\"text\":\"x\",\"color\":\"#C3BB44\"},{\"text\":\" - Glowstone Dust\\\\n\",\"color\":\"reset\"},{\"text\":\"o\",\"color\":\"red\"},{\"text\":\" - Redstone Dust\\\\n\\\\n \",\"color\":\"reset\"}]','[\"\",{\"text\":\"To sail is a wonderful thing. Though you are surrounded by water, it is the wind that guides your ship where it may.\\\\nThough my time at the monastery has ended, I will always be grateful for my time amongst those devoted to \"},{\"text\":\"Air.\",\"color\":\"#CDC149\"}]','{\"text\":\"Air is the most versatile of the elements, but it does not respond well to fixed plans or closed minds. Sometimes, you must let the wind guide your sails.\\\\nGood luck to you, stranger.\\\\n\\\\n- E\"}'],title:\"A Learning Breeze\",author:\"E..?\",generation:1}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "A Learning Breeze",
+                                    "italic": "false"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "Recipe Collection",
+                                    "color": "gray",
+                                    "italic": "false"
+                                }
+							]
+                        }
+                     ]
+                },
+                {
+                    "type": "item",
+                    "weight": 4,
+                    "quality": 1,
+                    "name": "minecraft:written_book",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{pages:['[\"\",{\"text\":\"Trident\\\\n             \"},{\"text\":\"|\",\"color\":\"aqua\"},{\"text\":\"\\\\n          \",\"color\":\"reset\"},{\"text\":\"|\",\"color\":\"aqua\"},{\"text\":\"  o\",\"color\":\"dark_aqua\"},{\"text\":\"  |\",\"color\":\"aqua\"},{\"text\":\"\\\\n      \",\"color\":\"reset\"},{\"text\":\" >\",\"color\":\"gold\"},{\"text\":\"  *     *\",\"color\":\"gray\"},{\"text\":\"  <\",\"color\":\"gold\"},{\"text\":\"\\\\n          x  \",\"color\":\"reset\"},{\"text\":\"o\",\"color\":\"dark_aqua\"},{\"text\":\"  x\\\\n             \",\"color\":\"reset\"},{\"text\":\"o\",\"color\":\"dark_aqua\"},{\"text\":\"\\\\n\",\"color\":\"reset\"},{\"text\":\"o\",\"color\":\"dark_aqua\"},{\"text\":\" - Diamond\\\\n\",\"color\":\"reset\"},{\"text\":\"|\",\"color\":\"aqua\"},{\"text\":\" - Diamond Sword (Undamaged)\\\\n\",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"gray\"},{\"text\":\" - Transmutation Powder\\\\n\",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"gold\"},{\"text\":\",\",\"color\":\"reset\"},{\"text\":\"< \",\"color\":\"gold\"},{\"text\":\"- Copper Ingot\",\"color\":\"reset\"}]','{\"text\":\"Some say it was Syrula who flooded the nameless kingdoms that now reside beneath the waves. Some say it was a calamitous spell of their own design. Some say...\\\\n\\\\nIt was another.\\\\n \"}','{\"text\":\"The secret of crafting their Tridents was drowned along with them.\\\\n\\\\nFortunately for me, I happen to get lucky sometimes. I hope this secret brings you more luck than it brought to them.\\\\n- E\"}'],title:\"Formula: Trident\",author:\"???\",generation:1}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "Formula: Trident",
+                                    "italic": "false"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "Infusion Circle Recipe",
+                                    "color": "gray",
+                                    "italic": "false"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 4,
+                    "quality": 1,
+                    "name": "minecraft:written_book",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{pages:['[\"\",{\"text\":\"Staff of Space\\\\n             \"},{\"text\":\"^\",\"color\":\"red\"},{\"text\":\"\\\\n          x  \",\"color\":\"reset\"},{\"text\":\"I\",\"color\":\"green\"},{\"text\":\"  x\\\\n       x  \",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"light_purple\"},{\"text\":\"     <\",\"color\":\"#9C952E\"},{\"text\":\"  x\\\\n          x  \",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"aqua\"},{\"text\":\"  x\\\\n             \",\"color\":\"reset\"},{\"text\":\"o\",\"color\":\"dark_red\"},{\"text\":\"\\\\n\",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"red\"},{\"text\":\" - Compass\\\\n\",\"color\":\"reset\"},{\"text\":\"I\",\"color\":\"green\"},{\"text\":\" - Bottle o\\' Enchanting\\\\n\",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"light_purple\"},{\"text\":\" - Ender Pearl\\\\n\",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"#9C952E\"},{\"text\":\" - Stardust\\\\n\",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"aqua\"},{\"text\":\" - Trident\\\\n\",\"color\":\"reset\"},{\"text\":\"o\",\"color\":\"dark_red\"},{\"text\":\" - Eager Crystal\",\"color\":\"reset\"}]','{\"text\":\"With this beauty I sailed the six skies of The Meridian! \\\\n\\\\nSee if you can do something more impressive, aye?\\\\n\\\\n- Twolegs, Captain of The Galavant\\\\n\\\\n \"}'],title:\"Formula: Staff of Space (+1)\",author:\"Captain Twolegs\",generation:1}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "Formula: Staff of Space (+1)",
+                                    "italic": "false"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "Infusion Circle Recipe",
+                                    "color": "gray",
+                                    "italic": "false"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 4,
+                    "quality": 1,
+                    "name": "minecraft:written_book",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{pages:['[\"\",{\"text\":\"Staff of Time\\\\n             \"},{\"text\":\"^\",\"color\":\"gold\"},{\"text\":\"\\\\n          x  \",\"color\":\"reset\"},{\"text\":\"I\",\"color\":\"green\"},{\"text\":\"  x\\\\n       x  \",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"dark_purple\"},{\"text\":\"     <\",\"color\":\"dark_green\"},{\"text\":\"  x\\\\n          x  \",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"aqua\"},{\"text\":\"  x\\\\n             \",\"color\":\"reset\"},{\"text\":\"o\",\"color\":\"red\"},{\"text\":\"\\\\n\",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"gold\"},{\"text\":\" - Clock\\\\n\",\"color\":\"reset\"},{\"text\":\"I\",\"color\":\"green\"},{\"text\":\" - Bottle o\\' Enchanting\\\\n\",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"dark_purple\"},{\"text\":\" - Essence of Anachronism\\\\n\",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"dark_green\"},{\"text\":\" - Potion of Luck (5:00)\",\"color\":\"reset\"}]','[\"\",{\"text\":\"^\",\"color\":\"aqua\"},{\"text\":\" - Trident\\\\n\\\\u200b\\\\u200b\",\"color\":\"reset\"},{\"text\":\"o\",\"color\":\"red\"},{\"text\":\" - Redstone Repeater\",\"color\":\"reset\"}]','{\"text\":\"When the four elements do not suffice, I find myself turning to the one thing to which none but the gods are completely immune;\\\\n\\\\nTime.\\\\n\\\\n \"}'],title:\"Formula: Staff of Time (+1)\",author:\"Archmage Galnyr\",generation:1}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "Formula: Staff of Time (+1)",
+                                    "italic": "false"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "Infusion Circle Recipe",
+                                    "color": "gray",
+                                    "italic": "false"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 4,
+                    "quality": 1,
+                    "name": "minecraft:written_book",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{pages:['[\"\",{\"text\":\"Life\\'s Echo\\\\n             \"},{\"text\":\"v\",\"color\":\"gray\"},{\"text\":\"\\\\n          \",\"color\":\"reset\"},{\"text\":\"@\",\"color\":\"dark_red\"},{\"text\":\"  %\",\"color\":\"dark_green\"},{\"text\":\"  *\",\"color\":\"green\"},{\"text\":\"\\\\n       >  \",\"color\":\"reset\"},{\"text\":\"(     )\",\"color\":\"dark_green\"},{\"text\":\"  <\\\\n          \",\"color\":\"reset\"},{\"text\":\"~\",\"color\":\"green\"},{\"text\":\"  U\",\"color\":\"dark_green\"},{\"text\":\"  #\",\"color\":\"aqua\"},{\"text\":\"\\\\n             \",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"gray\"},{\"text\":\"\\\\n\",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"gray\"},{\"text\":\",\",\"color\":\"reset\"},{\"text\":\"v\",\"color\":\"gray\"},{\"text\":\" - Spellcraft Compound\\\\n>,< - Transmutation Powder\",\"color\":\"reset\"}]','[\"\",{\"text\":\"@\",\"color\":\"dark_red\"},{\"text\":\" - Stripped Crimson\\\\n\",\"color\":\"reset\"},{\"text\":\"%\",\"color\":\"dark_green\"},{\"text\":\" - Stripped Oak Wood\\\\n\",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"green\"},{\"text\":\" - Stripped Dark Oak\\\\n\",\"color\":\"reset\"},{\"text\":\"(\",\"color\":\"dark_green\"},{\"text\":\" - Stripped Spruce\\\\n\",\"color\":\"reset\"},{\"text\":\")\",\"color\":\"dark_green\"},{\"text\":\" - Stripped Birch\\\\n\",\"color\":\"reset\"},{\"text\":\"~\",\"color\":\"green\"},{\"text\":\" - Stripped Acacia\\\\n\",\"color\":\"reset\"},{\"text\":\"U\",\"color\":\"dark_green\"},{\"text\":\" - Stripped Jungle\\\\n\",\"color\":\"reset\"},{\"text\":\"#\",\"color\":\"aqua\"},{\"text\":\" - Stripped Warped\\\\n\\\\n-All Wood or Hyphae-\",\"color\":\"reset\"}]'],title:\"Formula: Life's Echo\",author:\"???\",generation:2}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "Formula: Life's Echo",
+                                    "italic": "false"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "Infusion Circle Recipe",
+                                    "color": "gray",
+                                    "italic": "false"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "quality": 3,
+                    "name": "minecraft:written_book",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{pages:['[\"\",{\"text\":\"Golem Centurion\\\\n             \"},{\"text\":\"V\",\"color\":\"green\"},{\"text\":\"\\\\n          \",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"dark_red\"},{\"text\":\"  @\",\"color\":\"gold\"},{\"text\":\"  <\",\"color\":\"dark_red\"},{\"text\":\"\\\\n       ~  \",\"color\":\"reset\"},{\"text\":\"#     #\",\"color\":\"gray\"},{\"text\":\"  ~\\\\n          ~  \",\"color\":\"reset\"},{\"text\":\"#\",\"color\":\"gray\"},{\"text\":\"  ~\\\\n             ~\\\\n\",\"color\":\"reset\"},{\"text\":\"V\",\"color\":\"green\"},{\"text\":\" - Life\\'s Echo\\\\n\",\"color\":\"reset\"},{\"text\":\"@\",\"color\":\"gold\"},{\"text\":\" - Jack o\\' Lantern\\\\n\",\"color\":\"reset\"},{\"text\":\"#\",\"color\":\"gray\"},{\"text\":\" - Block of Iron\\\\n\",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"dark_red\"},{\"text\":\",\",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"dark_red\"},{\"text\":\" - Pure Redstone\\\\n~ - Brightsteel Ingot\",\"color\":\"reset\"}]','{\"text\":\"Centurions were created by The Delvers in ages past. They say they were a gift from Geota to Oswald to safeguard the forests\\\\n\\\\nNow the secret lies with you as well.\\\\n\\\\n- E\\\\n \"}'],title:\"Formula: Golem Centurion\",author:\"E...?\",generation:1}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "Formula: Golem Centurion",
+                                    "italic": "false"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "Infusion Circle Recipe",
+                                    "color": "gray",
+                                    "italic": "false"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "quality": 2,
+                    "name": "minecraft:written_book",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{pages:['[\"\",{\"text\":\"Eager Crystal\\\\n             \"},{\"text\":\"o\",\"color\":\"dark_purple\"},{\"text\":\"\\\\n          \",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"red\"},{\"text\":\"  &\",\"color\":\"#8B8337\"},{\"text\":\"  *\",\"color\":\"gray\"},{\"text\":\"\\\\n       \",\"color\":\"reset\"},{\"text\":\"(\",\"color\":\"red\"},{\"text\":\"  *\",\"color\":\"gray\"},{\"text\":\"     *\",\"color\":\"gray\"},{\"text\":\"  )\",\"color\":\"red\"},{\"text\":\"\\\\n          \",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"gray\"},{\"text\":\"  &\",\"color\":\"#8B8337\"},{\"text\":\"  <\",\"color\":\"dark_red\"},{\"text\":\"\\\\n             \",\"color\":\"reset\"},{\"text\":\"o\",\"color\":\"dark_purple\"},{\"text\":\"\\\\n\",\"color\":\"reset\"},{\"text\":\"o\",\"color\":\"dark_purple\"},{\"text\":\" - Blooming Crystal\\\\n\",\"color\":\"reset\"},{\"text\":\"&\",\"color\":\"#8B8337\"},{\"text\":\" - Air Crystal\\\\n* - Dull Crystal\\\\n\",\"color\":\"reset\"},{\"text\":\")\",\"color\":\"red\"},{\"text\":\",\",\"color\":\"reset\"},{\"text\":\"(\",\"color\":\"red\"},{\"text\":\" - Pure Redstone\\\\n\",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"red\"},{\"text\":\" - Red Mushroom\\\\n\",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"dark_red\"},{\"text\":\" - Crimson Fungus\",\"color\":\"reset\"}]'],title:\"Formula: Eager Crystal\",author:\"???\",generation:1}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "Formula: Eager Crystal",
+                                    "italic": "false"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "Infusion Circle Recipe",
+                                    "color": "gray",
+                                    "italic": "false"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 5,
+                    "quality": 2,
+                    "name": "minecraft:written_book",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{pages:['[\"\",{\"text\":\"Ambient Crystal\\\\n             \"},{\"text\":\"o\",\"color\":\"gold\"},{\"text\":\"\\\\n          \",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"gray\"},{\"text\":\"  &\",\"color\":\"#AFA253\"},{\"text\":\"  <\",\"color\":\"green\"},{\"text\":\"\\\\n       ( \",\"color\":\"reset\"},{\"text\":\" *\",\"color\":\"gray\"},{\"text\":\"     *\",\"color\":\"gray\"},{\"text\":\"  )\\\\n         \",\"color\":\"reset\"},{\"text\":\" >\",\"color\":\"dark_green\"},{\"text\":\"  &\",\"color\":\"#AFA253\"},{\"text\":\"  *\",\"color\":\"gray\"},{\"text\":\"\\\\n             \",\"color\":\"reset\"},{\"text\":\"o\",\"color\":\"gold\"},{\"text\":\"\\\\n\",\"color\":\"reset\"},{\"text\":\"o \",\"color\":\"gold\"},{\"text\":\"- Rumbling Crystal\\\\n\",\"color\":\"reset\"},{\"text\":\"&\",\"color\":\"#AFA253\"},{\"text\":\" - Lantern\\\\n\",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"gray\"},{\"text\":\" - Dull Crystal\\\\n\",\"color\":\"reset\"},{\"text\":\")\",\"color\":\"#AFA253\"},{\"text\":\",\",\"color\":\"reset\"},{\"text\":\"(\",\"color\":\"#AFA253\"},{\"text\":\" - Stardust\\\\n\",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"dark_green\"},{\"text\":\" - Sunflower\\\\n\",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"green\"},{\"text\":\" - Dandelion\",\"color\":\"reset\"}]'],title:\"Formula: Ambient Crystal\",author:\"???\",generation:1}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "Formula: Ambient Crystal",
+                                    "italic": "false"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "Infusion Circle Recipe",
+                                    "color": "gray",
+                                    "italic": "false"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 4,
+                    "quality": 1,
+                    "name": "minecraft:written_book",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{pages:['[\"\",{\"text\":\"Dimensional Anchor\\\\n             \"},{\"text\":\"o\",\"color\":\"dark_gray\"},{\"text\":\"\\\\n          \",\"color\":\"reset\"},{\"text\":\"%\",\"color\":\"gray\"},{\"text\":\"  &\",\"color\":\"dark_purple\"},{\"text\":\"  %\",\"color\":\"gray\"},{\"text\":\"\\\\n       \",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"dark_gray\"},{\"text\":\"  *     *  \",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"dark_gray\"},{\"text\":\"\\\\n          \",\"color\":\"reset\"},{\"text\":\"%\",\"color\":\"gray\"},{\"text\":\"  &\",\"color\":\"dark_purple\"},{\"text\":\"  %\",\"color\":\"gray\"},{\"text\":\"\\\\n             \",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"dark_gray\"},{\"text\":\"\\\\n\",\"color\":\"reset\"},{\"text\":\"o\",\"color\":\"dark_gray\"},{\"text\":\" - Lodestone\\\\n\",\"color\":\"reset\"},{\"text\":\"&\",\"color\":\"dark_purple\"},{\"text\":\" - Crying Obsidian\\\\n* - Chiseled Stone Bricks\\\\n\",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"dark_gray\"},{\"text\":\",\",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"dark_gray\"},{\"text\":\",\",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"dark_gray\"},{\"text\":\" - Stone\\\\n\",\"color\":\"reset\"},{\"text\":\"%\",\"color\":\"gray\"},{\"text\":\" - Transmutation Powder\",\"color\":\"reset\"}]','{\"text\":\"Word of advice to whomever reads this;\\\\nIf you wish to untether yourself from your plane of existence, it is a good idea to have a way to tether yourself again.\\\\n\\\\n- E\\\\n \"}'],title:\"Formula: Dimensional Anchor\",author:\"E..?\",generation:1}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "Formula: Dimensional Anchor",
+                                    "italic": "false"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "Infusion Circle Recipe",
+                                    "color": "gray",
+                                    "italic": "false"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 4,
+                    "quality": 1,
+                    "name": "minecraft:written_book",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{pages:['{\"text\":\"Of the many arcane modes of transport, the Portal is perhaps the most famous.\\\\n\\\\nThe Warp Gate is a remnant of such days.\\\\n\\\\n- E\\\\n \"}','[\"\",{\"text\":\"Upgrade:\",\"underlined\":true},{\"text\":\" Warp Gate\\\\n             \",\"color\":\"reset\"},{\"text\":\"o\",\"color\":\"dark_gray\"},{\"text\":\"\\\\n          \",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"gray\"},{\"text\":\"  x  \",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"gray\"},{\"text\":\"\\\\n      \",\"color\":\"reset\"},{\"text\":\" >\",\"color\":\"gray\"},{\"text\":\"  &\",\"color\":\"dark_blue\"},{\"text\":\"     %\",\"color\":\"aqua\"},{\"text\":\"  <\",\"color\":\"gray\"},{\"text\":\"\\\\n          \",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"gray\"},{\"text\":\"  x  \",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"gray\"},{\"text\":\"\\\\n             x\\\\n\",\"color\":\"reset\"},{\"text\":\"o\",\"color\":\"dark_gray\"},{\"text\":\" - Dimensional Anchor\\\\n\",\"color\":\"reset\"},{\"text\":\"&\",\"color\":\"dark_blue\"},{\"text\":\" - Enchantment Catalyst (Perpetuating)\\\\n\",\"color\":\"reset\"},{\"text\":\"%\",\"color\":\"aqua\"},{\"text\":\" - Enchantment Catalyst (Inscribing)\\\\n\",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"gray\"},{\"text\":\",\",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"gray\"},{\"text\":\" - Stone\",\"color\":\"reset\"}]','[\"\",{\"text\":\"Gatestone - The Overworld\\\\n             \"},{\"text\":\"*\",\"color\":\"dark_gray\"},{\"text\":\"\\\\n         \",\"color\":\"reset\"},{\"text\":\" *\",\"color\":\"dark_gray\"},{\"text\":\"  v\",\"color\":\"dark_green\"},{\"text\":\"  *\",\"color\":\"dark_gray\"},{\"text\":\"\\\\n       \",\"color\":\"reset\"},{\"text\":\"* \",\"color\":\"dark_gray\"},{\"text\":\" >\",\"color\":\"gray\"},{\"text\":\"     <\",\"color\":\"gold\"},{\"text\":\"  *\",\"color\":\"dark_gray\"},{\"text\":\"\\\\n         \",\"color\":\"reset\"},{\"text\":\" *\",\"color\":\"dark_gray\"},{\"text\":\"  ^\",\"color\":\"dark_aqua\"},{\"text\":\"  *\",\"color\":\"dark_gray\"},{\"text\":\"\\\\n             \",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"dark_gray\"},{\"text\":\"\\\\n\",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"dark_gray\"},{\"text\":\" - Smooth Stone\\\\n\",\"color\":\"reset\"},{\"text\":\"v\",\"color\":\"dark_green\"},{\"text\":\" - Grass Block\\\\n\",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"gray\"},{\"text\":\" - Iron Ingot\\\\n\",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"gold\"},{\"text\":\" - Gold Ingot\\\\n\",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"dark_aqua\"},{\"text\":\" - Spacial Focus\",\"color\":\"reset\"}]','[\"\",{\"text\":\"Gatestone - The Nether\\\\n             \"},{\"text\":\"*\",\"color\":\"red\"},{\"text\":\"\\\\n          \",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"red\"},{\"text\":\"  v\",\"color\":\"#CCC266\"},{\"text\":\"  *\",\"color\":\"red\"},{\"text\":\"\\\\n       \",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"red\"},{\"text\":\"  >     <  \",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"red\"},{\"text\":\"\\\\n          \",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"red\"},{\"text\":\"  ^\",\"color\":\"dark_aqua\"},{\"text\":\"  *\",\"color\":\"red\"},{\"text\":\"\\\\n            \",\"color\":\"reset\"},{\"text\":\" *\",\"color\":\"red\"},{\"text\":\"\\\\n\",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"red\"},{\"text\":\" - Netherrack\\\\n\",\"color\":\"reset\"},{\"text\":\"v\",\"color\":\"#CCC266\"},{\"text\":\" - Glowstone\\\\n>,< - Obsidian\\\\n\",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"dark_aqua\"},{\"text\":\" - Spacial Focus\",\"color\":\"reset\"}]','[\"\",{\"text\":\"Gatestone - The Depths\\\\n             \"},{\"text\":\"*\",\"color\":\"gray\"},{\"text\":\"\\\\n         \",\"color\":\"reset\"},{\"text\":\" *\",\"color\":\"gray\"},{\"text\":\"  v\",\"color\":\"green\"},{\"text\":\"  *\",\"color\":\"gray\"},{\"text\":\"\\\\n       \",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"gray\"},{\"text\":\"  >\",\"color\":\"red\"},{\"text\":\"     <\",\"color\":\"blue\"},{\"text\":\"  *\",\"color\":\"gray\"},{\"text\":\"\\\\n          \",\"color\":\"reset\"},{\"text\":\"* \",\"color\":\"gray\"},{\"text\":\" ^\",\"color\":\"dark_aqua\"},{\"text\":\"  *\",\"color\":\"gray\"},{\"text\":\"\\\\n             \",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"gray\"},{\"text\":\"\\\\n* - Cobblestone\\\\n\",\"color\":\"reset\"},{\"text\":\"v\",\"color\":\"green\"},{\"text\":\" - Mountain\\'s Root\\\\n\",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"red\"},{\"text\":\" - Pure Redstone\\\\n\",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"blue\"},{\"text\":\" - Spirit Stone\\\\n\",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"dark_aqua\"},{\"text\":\" - Spacial Focus\",\"color\":\"reset\"}]','[\"\",{\"text\":\"Gatestone - The Meridian\\\\n             \"},{\"text\":\"*\",\"color\":\"#846533\"},{\"text\":\"\\\\n          \",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"#846533\"},{\"text\":\"  v\",\"color\":\"gray\"},{\"text\":\"  *\",\"color\":\"#846533\"},{\"text\":\"\\\\n       \",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"#846533\"},{\"text\":\"  >\",\"color\":\"gray\"},{\"text\":\"     <\",\"color\":\"#E0D573\"},{\"text\":\"  *\",\"color\":\"#846533\"},{\"text\":\"\\\\n         \",\"color\":\"reset\"},{\"text\":\" *\",\"color\":\"#846533\"},{\"text\":\"  ^  \",\"color\":\"dark_aqua\"},{\"text\":\"*\",\"color\":\"#846533\"},{\"text\":\"\\\\n            \",\"color\":\"reset\"},{\"text\":\" *\",\"color\":\"#846533\"},{\"text\":\"\\\\n\",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"#846533\"},{\"text\":\" - Dirt\\\\n\",\"color\":\"reset\"},{\"text\":\"v\",\"color\":\"gray\"},{\"text\":\" - Chiseled Quartz Block\\\\n\",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"gray\"},{\"text\":\" - White Tulip\\\\n\",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"#E0D573\"},{\"text\":\" - Oxeye Daisy\\\\n\",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"dark_aqua\"},{\"text\":\" - Spacial Focus\",\"color\":\"reset\"}]','[\"\",{\"text\":\"Warp Gate - Activation\\\\n             x\\\\n          x  \"},{\"text\":\"@\",\"color\":\"light_purple\"},{\"text\":\"  x\\\\n     \",\"color\":\"reset\"},{\"text\":\"o\",\"color\":\"dark_gray\"},{\"text\":\" x  x  \",\"color\":\"reset\"},{\"text\":\"!\",\"color\":\"red\"},{\"text\":\"  x  x\\\\n          x  x  x\\\\n             x\\\\n\",\"color\":\"reset\"},{\"text\":\"o\",\"color\":\"dark_gray\"},{\"text\":\" - [Gatestone] (in Warp Gate)\\\\n\",\"color\":\"reset\"},{\"text\":\"@\",\"color\":\"light_purple\"},{\"text\":\" - Scroll of Translocation (any location in designated dimension; optional)\\\\n \",\"color\":\"reset\"}]','[\"\",{\"text\":\"!\",\"color\":\"red\"},{\"text\":\" - (Ritual requires a player with at least 5 levels of Experience)\",\"color\":\"reset\"}]'],title:Beyond,author:\"E..?\",generation:1}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "Beyond",
+                                    "italic": "false"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "Recipe Collection",
+                                    "color": "gray",
+                                    "italic": "false"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 4,
+                    "quality": 1,
+                    "name": "minecraft:written_book",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{pages:['[\"\",{\"text\":\"Rainbow Road\\\\n             \"},{\"text\":\"v\",\"color\":\"red\"},{\"text\":\"\\\\n          \",\"color\":\"reset\"},{\"text\":\"[\",\"color\":\"dark_purple\"},{\"text\":\"  x  \",\"color\":\"reset\"},{\"text\":\"]\",\"color\":\"gold\"},{\"text\":\"\\\\n      \",\"color\":\"reset\"},{\"text\":\" >\",\"color\":\"blue\"},{\"text\":\"  _     _  \",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"#A9A848\"},{\"text\":\"\\\\n          \",\"color\":\"reset\"},{\"text\":\"@\",\"color\":\"gray\"},{\"text\":\"  _  \",\"color\":\"reset\"},{\"text\":\"@\",\"color\":\"gray\"},{\"text\":\"\\\\n             \",\"color\":\"reset\"},{\"text\":\"%\",\"color\":\"dark_gray\"},{\"text\":\"\\\\n\",\"color\":\"reset\"},{\"text\":\"v\",\"color\":\"red\"},{\"text\":\" - Eager Crystal\\\\n\",\"color\":\"reset\"},{\"text\":\"[\",\"color\":\"dark_purple\"},{\"text\":\" - Blooming Crystal\\\\n\",\"color\":\"reset\"},{\"text\":\"]\",\"color\":\"gold\"},{\"text\":\" - Rumbling Crystal\\\\n\",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"blue\"},{\"text\":\" - Resonating Crystal\\\\n\",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"#A9A848\"},{\"text\":\" - Ambient Crystal\\\\n_ - Grass Path\\\\n\",\"color\":\"reset\"},{\"text\":\"@\",\"color\":\"gray\"},{\"text\":\" - Smooth Stone Slab\\\\n\",\"color\":\"reset\"},{\"text\":\"%\",\"color\":\"dark_gray\"},{\"text\":\" - Gravel\",\"color\":\"reset\"}]'],title:\"Formula: Rainbow Road\",author:\"???\",generation:2}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "Formula: Rainbow Road",
+                                    "italic": "false"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "Infusion Circle Recipe",
+                                    "color": "gray",
+                                    "italic": "false"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 2,
+                    "quality": 3,
+                    "name": "atrium:treasure/formulas_infusion_3",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        }
+                    ]
+                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,129 @@
+{
+  "type": "chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "empty",
+          "weight": 25
+        },
+        {
+          "type": "item",
+          "conditions": [
+                {
+                  "condition": "minecraft:inverted",
+                  "term": {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                  "nbt": "{Inventory:[{tag:{delver_quest_reward_1:1b}}]}"
+                                  }
+                           }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                  "nbt": "{Inventory:[{tag:{delvers_map1:1b}}]}"
+                                  }
+                }
+          ],
+          "weight": 25,
+          "name": "minecraft:iron_pickaxe",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Gleamfinder\",\"color\":\"green\",\"italic\":false}',Lore:['{\"text\":\"Essence Finder I\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"A fine pickaxe. Clearly\"}','{\"text\":\"an ancient Delver design.\"}','{\"text\":\"This must have been\"}','{\"text\":\"what the Infernium were\"}','{\"text\":\"looking for.\"}']},delver_quest_reward_1:1b,core_pickaxe:1b,Enchantments:[{id:\"minecraft:efficiency\",lvl:2s},{id:\"minecraft:unbreaking\",lvl:4s}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "conditions": [
+                {
+                  "condition": "minecraft:inverted",
+                  "term": {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                  "nbt": "{Inventory:[{tag:{delver_quest_reward_1:1b}}]}"
+                                  }
+                           }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                  "nbt": "{Inventory:[{tag:{delvers_map1:1b}}]}"
+                                  }
+                }
+          ],
+          "weight": 40,
+          "name": "minecraft:compass",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Aligned Compass\",\"italic\":false}',Lore:['{\"text\":\"This compass glimmers\"}','{\"text\":\"unnaturally in the \"}','{\"text\":\"torchlight. This must\"}','{\"text\":\"be what the Infernium\"}','{\"text\":\"wanted. But where...?\"}']},HideFlags:1,delver_quest_reward_1:1b,Enchantments:[{id:\"minecraft:power\",lvl:1s}],LodestoneDimension:\"minecraft:overworld\",LodestoneTracked:0b,LodestonePos:{X:35986.5,Y:-64,Z:-3657.5}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "conditions": [
+                {
+                  "condition": "minecraft:inverted",
+                  "term": {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                  "nbt": "{Inventory:[{tag:{delver_quest_reward_1:1b}}]}"
+                                  }
+                           }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                  "nbt": "{Inventory:[{tag:{delvers_map1:1b}}]}"
+                                  }
+                }
+          ],
+          "weight": 20,
+          "name": "minecraft:diamond_shovel",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Rubbleslayer\",\"color\":\"dark_green\",\"italic\":false}',Lore:['{\"text\":\"This... Could have been\"}','{\"text\":\"what they were looking for...?\"}','{\"text\":\"(Nearby gravel trembles\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"in its presence.)\",\"color\":\"gray\",\"italic\":false}']},RepairCost:99,delver_quest_reward_1:1b,Enchantments:[{id:\"minecraft:sharpness\",lvl:3s},{id:\"minecraft:efficiency\",lvl:4s},{id:\"minecraft:unbreaking\",lvl:6s}]}"
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "generic.armor_toughness",
+                  "name": "generic.armor_toughness",
+                  "operation": "addition",
+                  "amount": 1,
+                  "slot": "mainhand"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

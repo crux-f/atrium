@@ -1,0 +1,56 @@
+{
+  "type": "advancement_reward",
+  "pools": [
+    {
+      "rolls": 2,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "quality": 1,
+          "name": "minecraft:totem_of_undying",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Event Idol",
+                  "color": "dark_purple",
+                  "italic": "false"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "quality": 1,
+          "name": "minecraft:diamond",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 2
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "A sparkling reward"
+                },
+                {
+                  "text": "for event participation."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

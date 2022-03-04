@@ -1,0 +1,489 @@
+{
+  "type": "advancement_reward",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 3,
+          "quality": 3,
+          "name": "minecraft:feather",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{HideFlags:1,shimmering_feather:1b,Enchantments:[{id:\"minecraft:quick_charge\",lvl:1s}]}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Shimmering Feather",
+                  "color": "dark_aqua",
+                  "italic": "false"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "You snatch it out of"
+                },
+                {
+                  "text": "the air as it flutters by."
+                },
+                {
+                  "text": "It dances with light."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 3,
+          "quality": 1,
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{CustomPotionEffects:[{Id:17b,Amplifier:1b,Duration:4800,ShowParticles:1b},{Id:25b,Amplifier:1b,Duration:240,ShowParticles:1b},{Id:28b,Amplifier:0b,Duration:4800,ShowParticles:1b}],CustomPotionColor:9568156}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Grungy Greg's Fizzy Pop",
+                  "color": "green",
+                  "italic": "false"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "There's no price tag."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "quality": 1,
+          "name": "minecraft:ender_pearl",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "A bluish pearl sits among"
+                },
+                {
+                  "text": "the grass and pebbles."
+                },
+                {
+                  "text": "I wonder who left this here?"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "quality": 1,
+          "name": "minecraft:quartz",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{HideFlags:1,air_crystal:1b,Enchantments:[{id:\"minecraft:quick_charge\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.1,Operation:1,UUID:[I;-978903978,-1178779227,-1223460027,-1698585576],Slot:\"mainhand\"}]}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Air Crystal",
+                  "color": "yellow",
+                  "italic": "false"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Growing in its natural"
+                },
+                {
+                  "text": "form against the side"
+                },
+                {
+                  "text": "of a nearby rock."
+                },
+                {
+                  "text": "If you put your ear to"
+                },
+                {
+                  "text": "it, you can hear a faint"
+                },
+                {
+                  "text": "breeze."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "quality": 4,
+          "name": "minecraft:white_stained_glass",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{HideFlags:1,cyclone_cube:1b,Enchantments:[{id:\"minecraft:channeling\",lvl:1s}]}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Cyclone Cube",
+                  "color": "yellow",
+                  "italic": "false"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "A howling storm"
+                },
+                {
+                  "text": "within a glass cube."
+                },
+                {
+                  "text": "Not all that strange"
+                },
+                {
+                  "text": "a find up here."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 3,
+          "quality": 1,
+          "name": "minecraft:white_tulip",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "It grows at your feet"
+                },
+                {
+                  "text": "in an instant."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 2,
+          "quality": 2,
+          "name": "minecraft:egg",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Sky Egg",
+                  "italic": "false"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "A lost nest, drifting"
+                },
+                {
+                  "text": "through the Meridian."
+                },
+                {
+                  "text": "Maybe you should take care"
+                },
+                {
+                  "text": "of the contents."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "quality": 3,
+          "name": "minecraft:glowstone",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{stardust:1b}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Stardust",
+                  "color": "yellow",
+                  "italic": "false"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "It glimmers with cosmic"
+                },
+                {
+                  "text": "glee. Very difficult to"
+                },
+                {
+                  "text": "get out of the carpet."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 3,
+          "quality": 1,
+          "name": "minecraft:feather",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 5
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "A cluster of feathers "
+                },
+                {
+                  "text": "blows in the breeze,"
+                },
+                {
+                  "text": "before suddenly dropping"
+                },
+                {
+                  "text": "at your feet."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "quality": 2,
+          "name": "minecraft:phantom_membrane",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "A creature of nightmares"
+                },
+                {
+                  "text": "must have died here,"
+                },
+                {
+                  "text": "without any mind to haunt."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "quality": 1,
+          "name": "minecraft:red_dye",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{HideFlags:1,dancing_color_red:1b,Enchantments:[{id:\"minecraft:protection\",lvl:1s}]}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Dancing Color",
+                  "italic": "false"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "A fragment of the aurora,"
+                },
+                {
+                  "text": "solidified."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "quality": 1,
+          "name": "minecraft:yellow_dye",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{HideFlags:1,dancing_color_yellow:1b,Enchantments:[{id:\"minecraft:fire_protection\",lvl:1s}]}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Dancing Color",
+                  "italic": "false"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "A fragment of the aurora,"
+                },
+                {
+                  "text": "solidified."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "quality": 1,
+          "name": "minecraft:blue_dye",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{HideFlags:1,dancing_color_blue:1b,Enchantments:[{id:\"minecraft:riptide\",lvl:1s}]}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Dancing Color",
+                  "italic": "false"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "A fragment of the aurora,"
+                },
+                {
+                  "text": "solidified."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

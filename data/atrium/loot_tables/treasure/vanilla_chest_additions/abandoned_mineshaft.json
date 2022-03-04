@@ -1,0 +1,350 @@
+{
+  "type": "chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 2,
+          "quality": 3,
+          "name": "minecraft:trident",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0.25,
+                "max": 0.35
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Staff of Earth",
+                  "italic": "false"
+                }
+              ]
+            },
+            {
+			    "function": "set_nbt",
+			    "tag": "{display:{Name:'{\"text\":\"Staff of Earth\",\"color\":\"dark_green\",\"italic\":false}',Lore:['{\"text\":\"Natural Armor I\",\"color\":\"#FFBFBF\",\"italic\":false}','{\"text\":\"Stone Sprite I\",\"color\":\"#FFF29E\",\"italic\":false}','{\"keybind\":\"\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"When in Off Hand:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"+1 Casting Power\",\"color\":\"blue\",\"italic\":false}']},HideFlags:1,RepairCost:99,earthstaff:1b,staff:1b,lv1:1b,Enchantments:[{id:\"minecraft:riptide\",lvl:3s},{id:\"minecraft:mending\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:2,Operation:0,UUID:[I;-398377370,-1777316415,-1450025143,-577324410],Slot:\"mainhand\"}]}"
+			}
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 6,
+          "quality": 1,
+          "name": "minecraft:iron_ingot",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 4
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{HideFlags:1,brightsteel_ingot:1b,Enchantments:[{id:\"minecraft:power\",lvl:1s}]}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Brightsteel Ingot",
+                  "color": "yellow",
+                  "italic": "false"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Processed iron infused"
+                },
+                {
+                  "text": "with light."
+                },
+                {
+                  "text": "Also became physically"
+                },
+                {
+                  "text": "lighter, somehow."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 4,
+          "quality": 2,
+          "name": "minecraft:diamond",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{HideFlags:1,ancient_egg:1b,Enchantments:[{id:\"minecraft:fortune\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:6,Operation:0,UUID:[I;-232397733,500646510,-1631783002,1589234747],Slot:\"mainhand\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-0.25,Operation:1,UUID:[I;-1335045969,204489172,-1650507555,-54042930],Slot:\"mainhand\"}]}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Ancient Egg",
+                  "color": "light_purple",
+                  "italic": "false"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Blue ley-line energy"
+                },
+                {
+                  "text": "flickers within."
+                },
+                {
+                  "text": "Will it ever hatch...?"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "quality": 3,
+          "name": "minecraft:diamond_pickaxe",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{core_pickaxe:1b,Enchantments:[{id:\"minecraft:efficiency\",lvl:1s},{id:\"minecraft:unbreaking\",lvl:5s},{id:\"minecraft:fortune\",lvl:1s}]}"
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0.25,
+                "max": 0.5
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Core Pickaxe",
+                  "color": "#1F6933",
+                  "italic": "false"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Essence Finder I",
+                  "color": "gray",
+                  "italic": "false"
+                },
+                {
+                  "text": "Flecks of iron and gold"
+                },
+                {
+                  "text": "glint within its rune-covered"
+                },
+                {
+                  "text": "surface."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 6,
+          "quality": 1,
+          "name": "minecraft:red_dye",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 6
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{pure_redstone:1b}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Pure Redstone",
+                  "color": "dark_red",
+                  "italic": "false"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Redstone is near"
+                },
+                {
+                  "text": "impossible to extract whole"
+                },
+                {
+                  "text": "due to its frailty. If it's"
+                },
+                {
+                  "text": "dust is so versatile, what"
+                },
+                {
+                  "text": "could you do with this?"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "quality": 2,
+          "name": "minecraft:lapis_lazuli",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{HideFlags:1,spirit_stone:1b,Enchantments:[{id:\"minecraft:lure\",lvl:1s}]}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Spirit Stone",
+                  "color": "blue",
+                  "italic": "false"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "One of the many reasons"
+                },
+                {
+                  "text": "lapis lazuli is used heavily"
+                },
+                {
+                  "text": "in enchanting is its"
+                },
+                {
+                  "text": "mysterious capacity to"
+                },
+                {
+                  "text": "collect secrets."
+                }
+              ]
+            }
+          ]
+        },
+                {
+                    "type": "item",
+                    "weight": 3,
+                    "quality": 2,
+                    "name": "minecraft:written_book",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{pages:['[\"\",{\"text\":\"Core Pickaxe\\\\n          \"},{\"text\":\"V\",\"color\":\"aqua\"},{\"text\":\"\\\\n      \",\"color\":\"reset\"},{\"text\":\"%\",\"color\":\"gold\"},{\"text\":\"       *\",\"color\":\"gray\"},{\"text\":\"\\\\n\",\"color\":\"reset\"},{\"text\":\" >\",\"color\":\"dark_aqua\"},{\"text\":\"                <\",\"color\":\"dark_green\"},{\"text\":\"\\\\n      \",\"color\":\"reset\"},{\"text\":\"@\",\"color\":\"dark_gray\"},{\"text\":\"       #\\\\n          x\\\\n\",\"color\":\"reset\"},{\"text\":\"V\",\"color\":\"aqua\"},{\"text\":\" - Diamond Pickaxe\\\\n\",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"gray\"},{\"text\":\" - Iron Pickaxe\\\\n\",\"color\":\"reset\"},{\"text\":\"% \",\"color\":\"gold\"},{\"text\":\"- Gold Pickaxe\\\\n\",\"color\":\"reset\"},{\"text\":\"@\",\"color\":\"dark_gray\"},{\"text\":\" - Stone Pickaxe\\\\n# - Wooden Pickaxe\\\\n\",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"dark_green\"},{\"text\":\" - [Efficiency III]\\\\n\",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"dark_aqua\"},{\"text\":\" - [Fortune III]\",\"color\":\"reset\"}]'],title:\"Formula: Core Pickaxe\",author:\"???\",generation:2}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "Formula: Core Pickaxe",
+                                    "italic": "false"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "Runic Codex Recipe",
+                                    "color": "gray",
+                                    "italic": "false"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 4,
+                    "quality": 2,
+                    "name": "minecraft:written_book",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{pages:['[\"\",{\"text\":\"Brightsteel Ingot\\\\n \\\\u0020 \\\\u0020 \\\\u0020 \\\\u0020 \\\\u0020 \\\\u0020 x\\\\n \\\\u0020 \\\\u0020 \\\\u0020 \\\\u0020 \\\\u0020x \\\\u0020\"},{\"text\":\"*\",\"color\":\"gray\"},{\"text\":\" \\\\u0020x\\\\n \\\\u0020 \\\\u0020 \\\\u0020 x \\\\u0020\",\"color\":\"reset\"},{\"text\":\"+ \\\\u0020 \\\\u0020 +\",\"color\":\"#BBA33D\"},{\"text\":\" \\\\u0020x\\\\n \\\\u0020 \\\\u0020 \\\\u0020 \\\\u0020 \\\\u0020x \\\\u0020\",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"gray\"},{\"text\":\" \\\\u0020x\\\\n \\\\u0020 \\\\u0020 \\\\u0020 \\\\u0020 \\\\u0020 \\\\u0020 x\\\\n\",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"gray\"},{\"text\":\" - Iron Ingot\\\\n\",\"color\":\"reset\"},{\"text\":\"+\",\"color\":\"#BBA33D\"},{\"text\":\" - Glowstone Dust\",\"color\":\"reset\"}]'],title:\"Formula: Brightsteel Ingot\",author:\"???\"}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "Formula: Brightsteel Ingot",
+                                    "italic": "false"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "Infusion Circle Recipe",
+                                    "color": "gray",
+                                    "italic": "false"
+                                }
+                            ]
+                        }
+                    ]
+                }
+      ]
+   }
+  ]
+}
+

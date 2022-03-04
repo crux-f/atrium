@@ -1,0 +1,126 @@
+{
+  "type": "chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 0,
+        "max": 1
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 8,
+          "quality": 0,
+          "name": "minecraft:shield",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Forsvar Shield\",\"italic\":false}'},forsvar_shield:1b,AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:2,Operation:0,UUID:[I;-2068715725,-2038805825,-2040858722,438713508],Slot:\"offhand\"}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 3,
+          "quality": 1,
+          "name": "minecraft:armor_stand",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Lore:['{\"text\":\"Flamboyant Pose\",\"color\":\"gray\",\"italic\":false}']},EntityTag:{ShowArms:1b,Pose:{LeftArm:[187f,0f,32f],LeftLeg:[10f,0f,0f],RightLeg:[0f,30f,18f]}}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 3,
+          "quality": 1,
+          "name": "minecraft:armor_stand",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Lore:['{\"text\":\"Ascending Pose\",\"color\":\"gray\",\"italic\":false}']},EntityTag:{Pose:{LeftArm:[217f,0f,0f],RightArm:[189f,0f,0f],LeftLeg:[56f,0f,0f],RightLeg:[52f,0f,0f],Head:[332f,0f,0f]}}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 3,
+          "quality": 1,
+          "name": "minecraft:armor_stand",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Lore:['{\"text\":\"Little\",\"color\":\"gray\",\"italic\":false}']},EntityTag:{ShowArms:1b,Small:1b}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 3,
+          "quality": 1,
+          "name": "minecraft:armor_stand",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Lore:['{\"text\":\"Dancing, #2\",\"color\":\"gray\",\"italic\":false}']},EntityTag:{Pose:{Body:[179f,0f,0f],LeftLeg:[181f,0f,0f],RightLeg:[179f,0f,0f],Head:[179f,0f,0f]}}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 3,
+          "quality": 1,
+          "name": "minecraft:armor_stand",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Lore:['{\"text\":\"En Garde Pose\",\"color\":\"gray\",\"italic\":false}']},EntityTag:{Pose:{LeftArm:[334f,0f,342f],LeftLeg:[348f,346f,0f],RightLeg:[12f,336f,0f]}}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "quality": 3,
+          "name": "minecraft:armor_stand",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{EntityTag:{CustomNameVisible:1b,Invulnerable:1b,ShowArms:1b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,Pose:{Body:[0f,6f,0f],LeftArm:[285f,0f,48f],RightArm:[225f,165f,0f],LeftLeg:[0f,0f,310f],RightLeg:[0f,0f,44f]},DisabledSlots:63,HandItems:[{id:\"minecraft:player_head\",Count:1b,tag:{SkullOwner:{Id:[I;-13535917,-1557380650,-1180894610,-1758219369],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGRjYzcwYjRhZTg1NWQ2YTU5NGY2NzUzZjkxYTQxMzYwMWUxODM2ZmQ0NzE3YjhhOGVlMzgwNzBlNzNiNDljNSJ9fX0=\"}]}}}},{id:\"minecraft:cake\",Count:1b}],ArmorItems:[{id:\"minecraft:leather_boots\",Count:1b,tag:{display:{color:16748431}}},{id:\"minecraft:leather_leggings\",Count:1b,tag:{display:{color:16754342}}},{id:\"minecraft:leather_chestplate\",Count:1b,tag:{display:{color:16752286}}},{id:\"minecraft:player_head\",Count:1b,tag:{SkullOwner:{Id:[I;46376864,909329853,-1145686262,-1138852930],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzdlZTVhM2ZkMzYyNTk3ZjQzOTA0OWI2NjIzMWQ3ZmEyOWNkYzk0YWJhMDRhZTAxOTk1Zjk4MGRiMmY1MzE0MCJ9fX0=\"}]}}}}],CustomName:'{\"text\":\"mr. blobby\",\"italic\":false}'}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
