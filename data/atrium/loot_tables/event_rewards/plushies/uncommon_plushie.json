@@ -17,7 +17,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{SkullOwner:{Id:[I;-627523767,933841316,-1534581466,-453552585],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzU3YjMyYzI5MzNiZWJjZDY1MDJjYmY0MDZmN2RmOTk2YzhlNDZlN2M2Y2JmZWZjNWRjZGMyZmJmNWJiNTRiYiJ9fX0=\"}]}}}"
+              "tag": "{SkullOwner:{Id:[I;1647954484,207572712,-1325553647,740374672],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2U2OGRjNTlkYmU3NjdhNTI4MzE2NGUzYzk0YWNjMTRiYWRkMzRhODU3Y2VjMWE2YzlmMjZhMjhjZWQyOWM4MyJ9fX0=\"}]}}}"
             },
             {
               "function": "set_name",
@@ -692,39 +692,13 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{SkullOwner:{Id:[I;-1004268413,-380024622,-1570132014,-193268928],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTY3MWRiYzc3NjQ0OWM2ZmNmZWIzNzJjYTNmOTMyMDVjYTc1OWQxMzVkMDRlZTQyMjVkZDgxM2QwY2I5Nzk1In19fQ==\"}]}}}"
+              "tag": "{SkullOwner:{Id:[I;760283871,51924963,-1317570921,-1074365155],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTBiNDM0NjhhY2FiMDNlYjUxY2M1ODIwZTAyZWY1NjBkZTNjMzY1NzI0MWI2MjdiYjkzNWU4NGI1MGM4MDgwNCJ9fX0=\"}]}}}"
             },
             {
               "function": "set_name",
               "name": [
                 {
                   "text": "Ravager Plushie",
-                  "color": "yellow",
-                  "italic": "false"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "weight": 16,
-          "quality": 0,
-          "name": "minecraft:player_head",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{SkullOwner:{Id:[I;-1004268413,-380024622,-1570132014,-193268928],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTY3MWRiYzc3NjQ0OWM2ZmNmZWIzNzJjYTNmOTMyMDVjYTc1OWQxMzVkMDRlZTQyMjVkZDgxM2QwY2I5Nzk1In19fQ==\"}]}}}"
-            },
-            {
-              "function": "set_name",
-              "name": [
-                {
-                  "text": "Husk Plushie",
                   "color": "yellow",
                   "italic": "false"
                 }

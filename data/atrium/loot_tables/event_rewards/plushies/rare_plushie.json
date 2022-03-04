@@ -17,7 +17,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{SkullOwner:\"{id:\"minecraft:player_head\",Count:1b,tag:{display:{Name:'{\"text\":\"Axolotl Plushie\",\"color\":\"yellow\",\"italic\":false}'}}}\"}"
+              "tag": "{SkullOwner:{Id:[I;-1340747253,1495615761,-1564785346,446083833],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzc0ZDgyOTg3OTdlNzEyYmIxZjc1YWQ2ZmZhNzczNGFjNDIzN2VhNjliZTFkYjkyZjBlNDExMTVhMmMxNzBjZiJ9fX0=\"}]}}}"
             },
             {
               "function": "set_name",
@@ -43,7 +43,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{SkullOwner:\"{id:\"minecraft:player_head\",Count:1b,tag:{display:{Name:'{\"text\":\"Killer Rabbit Plushie\",\"color\":\"aqua\",\"italic\":false}'},SkullOwner:\"{id:\"minecraft:player_head\",Count:1b,tag:{display:{Name:'{\"text\":\"Axolotl Plushie\",\"color\":\"yellow\",\"italic\":false}'}}}\"}}\"}"
+              "tag": "{SkullOwner:{Id:[I;-985925803,1350451669,-1815615794,1647970142],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODFmYzc5NTdlNDYwMmIzMmRjMTM1MDE0MzgzZDkzZGViYTQzZGM0ODQzMzJiYzE5YzY3OTJiZTFhOTBmNzIwYSJ9fX0=\"}]}}}"
             },
             {
               "function": "set_name",
