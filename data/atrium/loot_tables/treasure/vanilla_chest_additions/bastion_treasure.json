@@ -155,7 +155,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Ashsworn Boots\",\"color\":\"gold\",\"italic\":false}',Lore:['{\"text\":\"They have spikes on the\"}','{\"text\":\"bottom, to dig into\"}','{\"text\":\"the basalt cliffs.\"}']},RepairCost:99,ashsworn_boots:1b,AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUID:[I;-1903509257,2093893289,-1940282205,-2032418059],Slot:\"feet\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:1,Operation:0,UUID:[I;-145528194,-1139127467,-1640601610,1797944196],Slot:\"feet\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.25,Operation:0,UUID:[I;-328664832,763316123,-1810704107,-1553014526],Slot:\"feet\"}]}"
+              "tag": "{display:{Name:'{\"text\":\"Ashsworn Boots\",\"color\":\"gold\",\"italic\":false}',Lore:['{\"text\":\"They have spikes on the\"}','{\"text\":\"bottom, to dig into\"}','{\"text\":\"the basalt cliffs.\"}']},RepairCost:99,ashsworn_boots:1b,Enchantments:[{id:\"minecraft:unbreaking\",lvl:3s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUID:[I;-1903509257,2093893289,-1940282205,-2032418059],Slot:\"feet\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:1,Operation:0,UUID:[I;-145528194,-1139127467,-1640601610,1797944196],Slot:\"feet\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.25,Operation:0,UUID:[I;-328664832,763316123,-1810704107,-1553014526],Slot:\"feet\"}]}"
             }
           ]
         },
