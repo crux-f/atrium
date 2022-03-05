@@ -1,0 +1,1 @@
+tellraw @a[tag=event] ["",{"text":"\u2714 Gather building supplies to prepare for the journey (Until 8:30).\n\u2714 Begin your trek through The Hungering Marsh.","color":"dark_green"},{"text":"\n"},{"text":"\u25c7 Follow the canal North-West.","color":"yellow"},{"text":"\n"},{"text":" \u0020\u2716 Bonus: Tame the witch's cat.","color":"dark_red"}]

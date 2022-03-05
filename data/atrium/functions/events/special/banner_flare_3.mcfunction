@@ -1,0 +1,1 @@
+execute at @e[tag=standardbearer] run summon firework_rocket ~ ~ ~ {LifeTime:40,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Type:3,Trail:1b,Colors:[I;10395294,11737883,16748098],FadeColors:[I;7946495,8527378]},{Type:3,Trail:1b,Colors:[I;7883808],FadeColors:[I;4541439]},{Type:2,Flicker:1b,Colors:[I;16711680,14223118],FadeColors:[I;16741352]}]}}}}
