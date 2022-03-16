@@ -129,6 +129,10 @@ execute positioned ~ ~2 ~-4 if entity @e[type=minecraft:item_frame,distance=..1.
 execute positioned ~ ~2 ~2 at @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{id:"minecraft:dirt",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
 execute positioned ~ ~2 ~2 if entity @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{id:"minecraft:dirt",Count:1b}}] run execute as @e[tag=infusion,distance=..10] at @s run function atrium:magic/infusion/rainbow_road
 #
+# Start Calm Crystal - Check NORTH for Subdued Crystal
+execute positioned ~ ~2 ~-4 at @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{tag:{subdued_crystal:1b}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~2 ~-4 if entity @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{tag:{subdued_crystal:1b}}}] run execute as @e[tag=infusion,distance=..10] at @s run function atrium:magic/infusion/calm_crystal
+#
 # MOBS
 #
 # Start Golem Centurion - Check NORTH for Life's Echo
