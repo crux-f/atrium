@@ -413,6 +413,41 @@
                                 }
                             ]
                         },
+                {
+                    "type": "item",
+                    "weight": 5,
+                    "quality": 2,
+                    "name": "minecraft:written_book",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{pages:['[\"\",{\"text\":\"Calm Crystal\\\\n             \"},{\"text\":\"o\",\"color\":\"dark_green\"},{\"text\":\"\\\\n          \",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"dark_blue\"},{\"text\":\"  &\",\"color\":\"blue\"},{\"text\":\"  )\",\"color\":\"dark_aqua\"},{\"text\":\"\\\\n    \",\"color\":\"reset\"},{\"text\":\"   *  *     *  *\",\"color\":\"gray\"},{\"text\":\"\\\\n          \",\"color\":\"reset\"},{\"text\":\"(\",\"color\":\"dark_aqua\"},{\"text\":\"  &\",\"color\":\"blue\"},{\"text\":\"  <\",\"color\":\"aqua\"},{\"text\":\"\\\\n             \",\"color\":\"reset\"},{\"text\":\"o\",\"color\":\"dark_green\"},{\"text\":\"\\\\n\",\"color\":\"reset\"},{\"text\":\"o\",\"color\":\"dark_green\"},{\"text\":\" - Subdued Crystal\\\\n\",\"color\":\"reset\"},{\"text\":\"&\",\"color\":\"blue\"},{\"text\":\" - Spirit Stone\\\\n\",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"gray\"},{\"text\":\" - Dull Crystal\\\\n\",\"color\":\"reset\"},{\"text\":\")\",\"color\":\"dark_aqua\"},{\"text\":\",\",\"color\":\"reset\"},{\"text\":\"(\",\"color\":\"dark_aqua\"},{\"text\":\" - Water Bottle\\\\n\",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"dark_blue\"},{\"text\":\" - Blue Candle\\\\n\",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"aqua\"},{\"text\":\" - Blue Glazed Terracotta\",\"color\":\"reset\"}]'],title:\"Formula: Calm Crystal\",author:\"???\",generation:1}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "Formula: Calm Crystal",
+                                    "italic": "false"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "Infusion Circle Recipe",
+                                    "color": "gray",
+                                    "italic": "false"
+                                }
+                            ]
+                        }
+                    ]
+                },
                         {
                             "function": "set_lore",
                             "lore": [
