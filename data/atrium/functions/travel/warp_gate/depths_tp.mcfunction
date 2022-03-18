@@ -9,6 +9,11 @@ execute at @e[tag=fx_travel] positioned ~-6 ~2.5 ~ run particle minecraft:myceli
 # IF there IS a tpscroll in the CENTER NORTH slot, teleport any entity (except item frames) who in the Gate to that location.
 execute at @e[tag=fx_travel] positioned ~ ~2 ~-2 if entity @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{tag:{underprovince_ws:1b}}}] run execute at @e[tag=fx_travel] positioned ~-6 ~2 ~ as @e[distance=..1,type=!item_frame] in atrium:depths run function atrium:travel/waystones/underprovince_tp
 #
+execute at @e[tag=fx_travel] positioned ~ ~2 ~-2 if entity @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{tag:{myrk_faelinn_n_ws:1b}}}] run execute at @e[tag=fx_travel] positioned ~-6 ~2 ~ as @e[distance=..1,type=!item_frame] in atrium:depths run function atrium:travel/waystones/iteration_3/depths/myrk_faelinn_n
+execute at @e[tag=fx_travel] positioned ~ ~2 ~-2 if entity @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{tag:{myrk_faelinn_e_ws:1b}}}] run execute at @e[tag=fx_travel] positioned ~-6 ~2 ~ as @e[distance=..1,type=!item_frame] in atrium:depths run function atrium:travel/waystones/iteration_3/depths/myrk_faelinn_e
+execute at @e[tag=fx_travel] positioned ~ ~2 ~-2 if entity @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{tag:{myrk_faelinn_w_ws:1b}}}] run execute at @e[tag=fx_travel] positioned ~-6 ~2 ~ as @e[distance=..1,type=!item_frame] in atrium:depths run function atrium:travel/waystones/iteration_3/depths/myrk_faelinn_w
+execute at @e[tag=fx_travel] positioned ~ ~2 ~-2 if entity @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{tag:{myrk_faelinn_s_ws:1b}}}] run execute at @e[tag=fx_travel] positioned ~-6 ~2 ~ as @e[distance=..1,type=!item_frame] in atrium:depths run function atrium:travel/waystones/iteration_3/depths/myrk_faelinn_s
+#
 scoreboard players add @e[tag=fx_travel] warp_gate 1
 # UNLESS the time has expired (1 minute = 1200 ticks), run this again in 1 tick (20 ticks = 1 second)
 execute if entity @e[tag=fx_travel,scores={warp_gate=..1200}] run schedule function atrium:travel/warp_gate/depths_tp 1t
