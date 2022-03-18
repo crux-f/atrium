@@ -1,14 +1,14 @@
 {
     "display": {
         "title": {
-            "text": "Ring of Thorns",
+            "text": "Pinecone Caldera",
             "color": "white"
         },
         "description": {
-            "text": "Find the Fellstar Highlands [S] waystone"
+            "text": "Find the Eves of Iesveldr [N] waystone"
         },
         "icon": {
-            "item": "minecraft:emerald_ore"
+            "item": "minecraft:spruce_leaves"
         },
         "frame": "task",
         "show_toast": true,
@@ -23,16 +23,16 @@
                 "dimension": "overworld",
                 "position": {
                     "x": {
-                        "min": 36402,
-                        "max": 36403
+                        "min": 36925,
+                        "max": 36926
                     },
                     "y": {
-                        "min": 213,
-                        "max": 214
+                        "min": 91,
+                        "max": 92
                     },
                     "z": {
-                        "min": -2453,
-                        "max": -2452
+                        "min": -6756,
+                        "max": -6755
                     }
                 }
             }
@@ -44,5 +44,5 @@
             "atrium:overworld_vista"
         ]
     },
-    "parent": "atrium:iteration3_waystones/fellstar_highlands_w"
+    "parent": "atrium:iteration3_waystones/coolwater_gulf_e"
 }

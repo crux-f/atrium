@@ -1,14 +1,14 @@
 {
     "display": {
         "title": {
-            "text": "Ring of Thorns",
+            "text": "Keiunn Valley",
             "color": "white"
         },
         "description": {
-            "text": "Find the Fellstar Highlands [S] waystone"
+            "text": "Find the Eves of Iesveldr [S] waystone"
         },
         "icon": {
-            "item": "minecraft:emerald_ore"
+            "item": "minecraft:dirt_path"
         },
         "frame": "task",
         "show_toast": true,
@@ -19,20 +19,20 @@
         "findvista": {
             "trigger": "minecraft:location",
             "conditions": {
-                "biome": "minecraft:jagged_peaks",
+                "biome": "minecraft:forest",
                 "dimension": "overworld",
                 "position": {
                     "x": {
-                        "min": 36402,
-                        "max": 36403
+                        "min": 37293,
+                        "max": 37294
                     },
                     "y": {
-                        "min": 213,
-                        "max": 214
+                        "min": 98,
+                        "max": 99
                     },
                     "z": {
-                        "min": -2453,
-                        "max": -2452
+                        "min": -4185,
+                        "max": -4184
                     }
                 }
             }
@@ -44,5 +44,5 @@
             "atrium:overworld_vista"
         ]
     },
-    "parent": "atrium:iteration3_waystones/fellstar_highlands_w"
+    "parent": "atrium:iteration3_waystones/eves_of_iesveldr_w"
 }

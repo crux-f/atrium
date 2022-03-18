@@ -1,14 +1,14 @@
 {
     "display": {
         "title": {
-            "text": "Ring of Thorns",
+            "text": "Deepscar Falls",
             "color": "white"
         },
         "description": {
-            "text": "Find the Fellstar Highlands [S] waystone"
+            "text": "Find the Myrk-Faelinn [S] waystone"
         },
         "icon": {
-            "item": "minecraft:emerald_ore"
+            "item": "minecraft:lava_bucket"
         },
         "frame": "task",
         "show_toast": true,
@@ -19,20 +19,20 @@
         "findvista": {
             "trigger": "minecraft:location",
             "conditions": {
-                "biome": "minecraft:jagged_peaks",
-                "dimension": "overworld",
+                "biome": "atrium:avalanche_caves",
+                "dimension": "atrium:depths",
                 "position": {
                     "x": {
-                        "min": 36402,
-                        "max": 36403
+                        "min": 35926,
+                        "max": 35927
                     },
                     "y": {
-                        "min": 213,
-                        "max": 214
+                        "min": 338,
+                        "max": 339
                     },
                     "z": {
-                        "min": -2453,
-                        "max": -2452
+                        "min": -2296,
+                        "max": -2295
                     }
                 }
             }
@@ -41,8 +41,8 @@
     "rewards": {
         "experience": 50,
         "loot": [
-            "atrium:overworld_vista"
+            "atrium:depths_vista"
         ]
     },
-    "parent": "atrium:iteration3_waystones/fellstar_highlands_w"
+    "parent": "atrium:iteration3_waystones/depths/myrk_faelinn_w"
 }

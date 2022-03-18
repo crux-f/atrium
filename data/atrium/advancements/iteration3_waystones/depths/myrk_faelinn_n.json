@@ -1,14 +1,14 @@
 {
     "display": {
         "title": {
-            "text": "Ring of Thorns",
+            "text": "A Fragile Silence",
             "color": "white"
         },
         "description": {
-            "text": "Find the Fellstar Highlands [S] waystone"
+            "text": "Find the Myrk-Faelinn [N] waystone"
         },
         "icon": {
-            "item": "minecraft:emerald_ore"
+            "item": "minecraft:deepslate"
         },
         "frame": "task",
         "show_toast": true,
@@ -19,20 +19,20 @@
         "findvista": {
             "trigger": "minecraft:location",
             "conditions": {
-                "biome": "minecraft:jagged_peaks",
-                "dimension": "overworld",
+                "biome": "atrium:avalanche_caves",
+                "dimension": "atrium:depths",
                 "position": {
                     "x": {
-                        "min": 36402,
-                        "max": 36403
+                        "min": 35944,
+                        "max": 35955
                     },
                     "y": {
-                        "min": 213,
-                        "max": 214
+                        "min": 712,
+                        "max": 713
                     },
                     "z": {
-                        "min": -2453,
-                        "max": -2452
+                        "min": -4054,
+                        "max": -4053
                     }
                 }
             }
@@ -41,8 +41,8 @@
     "rewards": {
         "experience": 50,
         "loot": [
-            "atrium:overworld_vista"
+            "atrium:depths_vista"
         ]
     },
-    "parent": "atrium:iteration3_waystones/fellstar_highlands_w"
+    "parent": "atrium:depths/depths_root"
 }
