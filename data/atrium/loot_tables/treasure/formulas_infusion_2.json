@@ -413,6 +413,18 @@
                                 }
                             ]
                         },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "Infusion Circle Recipe",
+                                    "color": "gray",
+                                    "italic": "false"
+                                }
+                            ]
+                        }
+                    ]
+                },
                 {
                     "type": "item",
                     "weight": 5,
@@ -436,18 +448,6 @@
                                 }
                             ]
                         },
-                        {
-                            "function": "set_lore",
-                            "lore": [
-                                {
-                                    "text": "Infusion Circle Recipe",
-                                    "color": "gray",
-                                    "italic": "false"
-                                }
-                            ]
-                        }
-                    ]
-                },
                         {
                             "function": "set_lore",
                             "lore": [
@@ -577,11 +577,7 @@
                         }
                     ]
                 }
-                            ]
-                        }
-                    ]
-                }
             ]
-        }
-    ]
+         }
+     ]
 }
