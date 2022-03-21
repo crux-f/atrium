@@ -13,14 +13,6 @@
 			"level": "0"
 		}
 	},
-	"structures": {
-		"stronghold": {
-			"distance": 32,
-			"spread": 3,
-			"count": 0
-		},
-		"structures": {}
-	},
 	"noise": {
 		"island_noise_override": true,
 		"size_horizontal": 1.3,
@@ -51,10 +43,73 @@
 	},
 	"noise_caves_enabled": true,
 	"noodle_caves_enabled": true,
-	"aquifers_enabled": true,
+	"aquifers_enabled": false,
 	"deepslate_enabled": false,
 	"ore_veins_enabled": false,
-	"legacy_random_source": false,
+	"legacy_random_source": true,
+  "noise_router": {
+    "final_density": {
+      "argument": {
+        "argument1": 0.64,
+        "argument2": {
+          "argument": {
+            "argument": {
+              "argument": "minecraft:end/sloped_cheese",
+              "type": "minecraft:slide"
+            },
+            "type": "minecraft:blend_density"
+          },
+          "type": "minecraft:interpolated"
+        },
+        "type": "minecraft:mul"
+      },
+      "type": "minecraft:squeeze"
+    },
+    "vein_toggle": 0.0,
+    "vein_ridged": 0.0,
+    "vein_gap": 0.0,
+    "erosion": "minecraft:overworld/erosion",
+    "depth": "minecraft:overworld/depth",
+    "ridges": "minecraft:overworld/ridges",
+    "initial_density_without_jaggedness": {
+      "argument1": 4.0,
+      "argument2": {
+        "argument": {
+          "argument1": "minecraft:overworld/depth",
+          "argument2": {
+            "argument": "minecraft:overworld/factor",
+            "type": "minecraft:cache_2d"
+          },
+          "type": "minecraft:mul"
+        },
+        "type": "minecraft:quarter_negative"
+      },
+      "type": "minecraft:mul"
+    },
+    "lava": 0.0,
+    "temperature": {
+      "xz_scale": 0.25,
+      "y_scale": 0.0,
+      "noise": "minecraft:temperature",
+      "shift_x": "minecraft:shift_x",
+      "shift_y": 0.0,
+      "shift_z": "minecraft:shift_z",
+      "type": "minecraft:shifted_noise"
+    },
+    "vegetation": {
+      "xz_scale": 0.25,
+      "y_scale": 0.0,
+      "noise": "minecraft:vegetation",
+      "shift_x": "minecraft:shift_x",
+      "shift_y": 0.0,
+      "shift_z": "minecraft:shift_z",
+      "type": "minecraft:shifted_noise"
+    },
+    "continents": "minecraft:overworld/continents",
+    "barrier": 0.0,
+    "fluid_level_floodedness": 0.0,
+    "fluid_level_spread": 0.0
+  },
 	"surface_rule": {
     "type": "minecraft:sequence",
     "sequence": [
@@ -68,6 +123,7 @@
               "offset": 0,
               "surface_type": "floor",
               "add_surface_depth": false,
+              "secondary_depth_range": 0,
               "add_surface_secondary_depth": false
             },
             "then_run": {
@@ -183,6 +239,7 @@
               "offset": 0,
               "surface_type": "floor",
               "add_surface_depth": false,
+              "secondary_depth_range": 0,
               "add_surface_secondary_depth": false
             },
             "then_run": {
@@ -499,6 +556,7 @@
                                           "offset": 0,
                                           "surface_type": "ceiling",
                                           "add_surface_depth": false,
+                                          "secondary_depth_range": 0,
                                           "add_surface_secondary_depth": false
                                         },
                                         "then_run": {
@@ -568,6 +626,7 @@
                                     "offset": 0,
                                     "surface_type": "ceiling",
                                     "add_surface_depth": false,
+                                    "secondary_depth_range": 0,
                                     "add_surface_secondary_depth": false
                                   },
                                   "then_run": {
@@ -676,6 +735,7 @@
                                       "offset": 0,
                                       "surface_type": "ceiling",
                                       "add_surface_depth": false,
+                                      "secondary_depth_range": 0,
                                       "add_surface_secondary_depth": false
                                     },
                                     "then_run": {
@@ -757,6 +817,7 @@
                                     "offset": 0,
                                     "surface_type": "ceiling",
                                     "add_surface_depth": false,
+                                    "secondary_depth_range": 0,
                                     "add_surface_secondary_depth": false
                                   },
                                   "then_run": {
@@ -908,6 +969,7 @@
                     "offset": 0,
                     "surface_type": "floor",
                     "add_surface_depth": false,
+                    "secondary_depth_range": 0,
                     "add_surface_secondary_depth": false
                   },
                   "then_run": {
@@ -943,6 +1005,7 @@
                     "offset": 0,
                     "surface_type": "floor",
                     "add_surface_depth": true,
+                    "secondary_depth_range": 0,
                     "add_surface_secondary_depth": false
                   },
                   "then_run": {
@@ -1174,6 +1237,7 @@
                                           "offset": 0,
                                           "surface_type": "ceiling",
                                           "add_surface_depth": false,
+                                          "secondary_depth_range": 0,
                                           "add_surface_secondary_depth": false
                                         },
                                         "then_run": {
@@ -1243,6 +1307,7 @@
                                     "offset": 0,
                                     "surface_type": "ceiling",
                                     "add_surface_depth": false,
+                                    "secondary_depth_range": 0,
                                     "add_surface_secondary_depth": false
                                   },
                                   "then_run": {
@@ -1331,6 +1396,7 @@
                                       "offset": 0,
                                       "surface_type": "ceiling",
                                       "add_surface_depth": false,
+                                      "secondary_depth_range": 0,
                                       "add_surface_secondary_depth": false
                                     },
                                     "then_run": {
@@ -1389,6 +1455,7 @@
                                     "offset": 0,
                                     "surface_type": "ceiling",
                                     "add_surface_depth": false,
+                                    "secondary_depth_range": 0,
                                     "add_surface_secondary_depth": false
                                   },
                                   "then_run": {
@@ -1433,6 +1500,7 @@
                       "offset": 0,
                       "surface_type": "floor",
                       "add_surface_depth": true,
+                      "secondary_depth_range": 0,
                       "add_surface_secondary_depth": true
                     },
                     "then_run": {
@@ -1453,6 +1521,7 @@
               "offset": 0,
               "surface_type": "floor",
               "add_surface_depth": false,
+              "secondary_depth_range": 0,
               "add_surface_secondary_depth": false
             },
             "then_run": {
@@ -1494,6 +1563,7 @@
                           "offset": 0,
                           "surface_type": "ceiling",
                           "add_surface_depth": false,
+                          "secondary_depth_range": 0,
                           "add_surface_secondary_depth": false
                         },
                         "then_run": {
@@ -1522,6 +1592,7 @@
                         "offset": 0,
                         "surface_type": "ceiling",
                         "add_surface_depth": false,
+                        "secondary_depth_range": 0,
                         "add_surface_secondary_depth": false
                       },
                       "then_run": {
