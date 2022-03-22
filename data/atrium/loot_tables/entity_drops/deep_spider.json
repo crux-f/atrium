@@ -1,0 +1,86 @@
+{
+  "type": "entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 2,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 2,
+          "quality": 2,
+          "name": "minecraft:spider_eye",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 7,
+          "quality": 1,
+          "name": "minecraft:string",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 4,
+          "quality": 1,
+          "name": "minecraft:string",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:spider_eye",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{HideFlags:1b,depths_watcher:1b,Enchantments:[{id:\"minecraft:depth_strider\",lvl:1s}]}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Depths Watcher",
+                  "color": "yellow",
+                  "italic": "false"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Ah, I think we've"
+                },
+                {
+                  "text": "found out why those"
+                },
+                {
+                  "text": "mines were abandoned."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
