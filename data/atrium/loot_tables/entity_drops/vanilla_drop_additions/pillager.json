@@ -64,8 +64,16 @@
               "count": 1
             },
             {
+              "function": "minecraft:looting_enchant",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0.0,
+                "max": 1.0
+              }
+            },
+            {
               "function": "set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Outpost Key\",\"color\":\"red\",\"italic\":false}',Lore:['{\"text\":\"Pillagers have to hide\"}','{\"text\":\"their goodies somewhere.\"}']},outpost_key:1b}"
+              "tag": "{display:{Name:'{\"text\":\"§cOutpost Key\"}',Lore:['{\"text\":\"These pillagers have to\"}','{\"text\":\"keep their goodies\"}','{\"text\":\"somewhere, don\\'t they?\"}']},outpost_key:1b}"
             }
           ]
         }
