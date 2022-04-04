@@ -5,8 +5,8 @@ execute unless entity @p[distance=..5,scores={ghael_favor=30..}] run scoreboard 
 # ADD the 'pray' tag to the nearest player NOT in spectator holding a res item
 tag @p[gamemode=!spectator,distance=..5,level=1..,nbt=!{SelectedItem:{id:'minecraft:diamond'}},nbt=!{SelectedItem:{id:'minecraft:totem_of_undying'}}] add pray
 # Tag the player holding the res item who just clicked on the shrine as the Resurrector
-tag @p[nbt={SelectedItem:{id:'minecraft:diamond'}},gamemode=!spectator] add resurrector
-tag @p[nbt={SelectedItem:{id:'minecraft:totem_of_undying'}},gamemode=!spectator] add resurrector
+tag @p[nbt={SelectedItem:{id:'minecraft:diamond'}},gamemode=!spectator,distance=..5] add resurrector
+tag @p[nbt={SelectedItem:{id:'minecraft:totem_of_undying'}},gamemode=!spectator,distance=..5] add resurrector
 # run the favor exchange function
 function atrium:shrines/favor_exchange
 # UNLESS nearest player has no EXP levels, give em the particles
