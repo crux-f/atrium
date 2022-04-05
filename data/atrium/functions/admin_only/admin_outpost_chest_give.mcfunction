@@ -1,0 +1,2 @@
+give @s chest{display:{Name:'{"text":"Outpost Chest","color":"red","italic":false}',Lore:['{"text":"Unlocked using an Outpost Key."}']},BlockEntityTag:{Lock:"§cOutpost Key",LootTable:"atrium:treasure/special/locked_outpost_chest"}} 1
+give @s tripwire_hook{display:{Name:'{"text":"§cOutpost Key"}',Lore:['{"text":"These pillagers have to"}','{"text":"keep their goodies"}','{"text":"somewhere, don\'t they?"}']},outpost_key:1b} 1
