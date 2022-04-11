@@ -1,0 +1,15 @@
+{
+  "config": {
+    "start_pool": "atrium:shrines/quipster/sponge_shrine_variations",
+    "size": 1
+  },
+  "biomes": [
+  "minecraft:ocean",
+  "minecraft:warm_ocean",
+  "minecraft:lukewarm_ocean",
+  "minecraft:cold_ocean"
+        ],
+  "adapt_noise": true,
+  "spawn_overrides": {},
+  "type": "minecraft:village"
+}

@@ -1,0 +1,12 @@
+{
+  "config": {
+    "start_pool": "atrium:shrines/oswald/lush_cave_shrine_variations",
+    "size": 1
+  },
+  "biomes": [
+  "minecraft:lush_caves"
+        ],
+  "adapt_noise": true,
+  "spawn_overrides": {},
+  "type": "minecraft:village"
+}

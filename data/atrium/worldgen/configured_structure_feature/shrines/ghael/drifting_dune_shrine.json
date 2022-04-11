@@ -1,0 +1,14 @@
+{
+  "config": {
+    "start_pool": "atrium:shrines/ghael/drifting_dune_shrine_variations",
+    "size": 1
+  },
+  "biomes": [
+  "minecraft:desert",
+  "minecraft:badlands",
+  "minecraft:eroded_badlands"
+        ],
+  "adapt_noise": true,
+  "spawn_overrides": {},
+  "type": "minecraft:village"
+}
