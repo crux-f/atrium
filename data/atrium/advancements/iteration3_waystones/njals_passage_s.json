@@ -1,0 +1,48 @@
+{
+    "display": {
+        "title": {
+            "text": "Broken Meadows",
+            "color": "white"
+        },
+        "description": {
+            "text": "Find the Njal's Passage [S] waystone"
+        },
+        "icon": {
+            "item": "minecraft:oxeye_daisy"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "findvista": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:plains",
+                "dimension": "overworld",
+                "position": {
+                    "x": {
+                        "min": 35217,
+                        "max": 35218
+                    },
+                    "y": {
+                        "min": 122,
+                        "max": 123
+                    },
+                    "z": {
+                        "min": -686,
+                        "max": -685
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "experience": 50,
+        "loot": [
+            "atrium:overworld_vista"
+        ]
+    },
+    "parent": "atrium:iteration3_waystones/njals_passage_w"
+}

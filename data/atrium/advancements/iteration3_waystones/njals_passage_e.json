@@ -1,0 +1,48 @@
+{
+    "display": {
+        "title": {
+            "text": "Machination Hill",
+            "color": "white"
+        },
+        "description": {
+            "text": "Find the Njal's Passage [E] waystone"
+        },
+        "icon": {
+            "item": "minecraft:tall_grass"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "findvista": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:plains",
+                "dimension": "overworld",
+                "position": {
+                    "x": {
+                        "min": 35756,
+                        "max": 35757
+                    },
+                    "y": {
+                        "min": 121,
+                        "max": 122
+                    },
+                    "z": {
+                        "min": -1276,
+                        "max": -1275
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "experience": 50,
+        "loot": [
+            "atrium:overworld_vista"
+        ]
+    },
+    "parent": "atrium:iteration3_waystones/njals_passage_n"
+}

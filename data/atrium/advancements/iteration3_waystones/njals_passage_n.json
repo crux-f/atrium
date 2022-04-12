@@ -1,0 +1,49 @@
+{
+    "display": {
+        "title": {
+            "text": "Defiler's Gulch",
+            "color": "white"
+        },
+        "description": {
+            "text": "Find the Njal's Passage [N] waystone"
+        },
+        "icon": {
+            "item": "minecraft:black_banner",
+            "nbt": "{display:{Name:'{\"text\":\"Emerald Eye Banner\",\"color\":\"green\",\"italic\":false}'},HideFlags:32,emerald_eye_banner:1b,BlockEntityTag:{Patterns:[{Color:0,Pattern:\"mr\"},{Color:5,Pattern:\"dls\"},{Color:13,Pattern:\"flo\"},{Color:15,Pattern:\"bs\"},{Color:15,Pattern:\"ts\"},{Color:15,Pattern:\"cbo\"}]}}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "findvista": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:meadow",
+                "dimension": "overworld",
+                "position": {
+                    "x": {
+                        "min": 35433,
+                        "max": 35434
+                    },
+                    "y": {
+                        "min": 124,
+                        "max": 125
+                    },
+                    "z": {
+                        "min": -2020,
+                        "max": -2019
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "experience": 50,
+        "loot": [
+            "atrium:overworld_vista"
+        ]
+    },
+    "parent": "atrium:iteration3_waystones/eves_of_iesveldr_s"
+}
