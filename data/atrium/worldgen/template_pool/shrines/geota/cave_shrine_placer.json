@@ -1,11 +1,11 @@
 {
-  "name": "atrium:shrines/nox/igloo_shrine_variations",
+  "name": "atrium:shrines/geota/cave_shrine_placer",
   "fallback": "minecraft:empty",
   "elements": [
     {
       "weight": 10,
       "element": {
-        "location": "atrium:shrines/nox/igloo_shrine_0",
+        "location": "atrium:shrines/geota/cave_shrine_placer",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"

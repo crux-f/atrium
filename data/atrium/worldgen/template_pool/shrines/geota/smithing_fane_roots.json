@@ -1,11 +1,11 @@
 {
-  "name": "atrium:shrines/nox/igloo_shrine_variations",
+  "name": "atrium:shrines/geota/smithing_fane_roots",
   "fallback": "minecraft:empty",
   "elements": [
     {
       "weight": 10,
       "element": {
-        "location": "atrium:shrines/nox/igloo_shrine_0",
+        "location": "atrium:shrines/geota/smithing_fane_roots_0",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"

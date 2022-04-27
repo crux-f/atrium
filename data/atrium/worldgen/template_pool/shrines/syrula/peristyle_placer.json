@@ -1,11 +1,11 @@
 {
-  "name": "atrium:shrines/nox/igloo_shrine_variations",
+  "name": "atrium:shrines/syrula/peristyle_placer",
   "fallback": "minecraft:empty",
   "elements": [
     {
       "weight": 10,
       "element": {
-        "location": "atrium:shrines/nox/igloo_shrine_0",
+        "location": "atrium:shrines/syrula/peristyle_placer",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
