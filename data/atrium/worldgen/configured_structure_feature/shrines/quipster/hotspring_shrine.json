@@ -1,0 +1,15 @@
+{
+  "config": {
+    "start_pool": "atrium:shrines/quipster/hotspring_shrine_surfaces",
+    "size": 3
+  },
+  "biomes": [
+  "minecraft:stony_peaks",
+  "minecraft:jagged_peaks",
+  "minecraft:frozen_peaks",
+  "minecraft:stony_shore"
+        ],
+  "adapt_noise": true,
+  "spawn_overrides": {},
+  "type": "minecraft:village"
+}

@@ -1,7 +1,7 @@
 {
   "config": {
-    "start_pool": "atrium:shrines/syrula/peristyle_shrine_variations",
-    "size": 1
+    "start_pool": "atrium:shrines/syrula/peristyle_placer",
+    "size": 5
   },
   "biomes": [
   "minecraft:deep_ocean",
@@ -9,7 +9,7 @@
   "minecraft:deep_lukewarm_ocean",
   "minecraft:deep_cold_ocean"
         ],
-  "adapt_noise": true,
+  "adapt_noise": false,
   "spawn_overrides": {},
   "type": "minecraft:village"
 }

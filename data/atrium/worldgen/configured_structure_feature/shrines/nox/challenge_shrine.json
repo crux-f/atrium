@@ -1,7 +1,7 @@
 {
   "config": {
-    "start_pool": "atrium:shrines/nox/challenge_shrine_variations",
-    "size": 1
+    "start_pool": "atrium:shrines/nox/challenge_shrine_surfaces",
+    "size": 3
   },
   "biomes": [
   "minecraft:wooded_badlands",

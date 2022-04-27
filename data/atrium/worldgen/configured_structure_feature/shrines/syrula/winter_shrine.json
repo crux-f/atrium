@@ -1,14 +1,15 @@
 {
   "config": {
-    "start_pool": "atrium:shrines/quipster/sponge_shrine_variations",
+    "start_pool": "atrium:shrines/syrula/winter_shrine_variations",
     "size": 1
   },
   "biomes": [
   "minecraft:frozen_peaks",
   "minecraft:snowy_slopes",
   "minecraft:snowy_beach",
-  "minecraft:cold_ocean",
-  "minecraft:ice_spikes"
+  "minecraft:frozen_ocean",
+  "minecraft:ice_spikes",
+  "minecraft:deep_frozen_ocean"
         ],
   "adapt_noise": true,
   "spawn_overrides": {},

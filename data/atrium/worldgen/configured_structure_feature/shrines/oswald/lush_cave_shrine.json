@@ -8,5 +8,5 @@
         ],
   "adapt_noise": true,
   "spawn_overrides": {},
-  "type": "minecraft:village"
+  "type": "minecraft:bastion_remnant"
 }

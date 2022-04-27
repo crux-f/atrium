@@ -1,7 +1,7 @@
 {
   "config": {
     "start_pool": "atrium:shrines/geota/smithing_fane_shrine_variations",
-    "size": 1
+    "size": 2
   },
   "biomes": [
   "minecraft:jagged_peaks",

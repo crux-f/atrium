@@ -4,9 +4,7 @@
     "size": 1
   },
   "biomes": [
-  "minecraft:desert",
-  "minecraft:badlands",
-  "minecraft:eroded_badlands"
+  "minecraft:desert"
         ],
   "adapt_noise": true,
   "spawn_overrides": {},
