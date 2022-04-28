@@ -32,7 +32,7 @@
       "structure": "atrium:shrines/nox/challenge_shrine",
       "weight": 10
     },
-	{
+    {
       "structure": "atrium:shrines/nox/igloo_shrine",
       "weight": 10
     },
@@ -50,6 +50,14 @@
     },
     {
       "structure": "atrium:shrines/quipster/stolen_ferriswheel_shrine",
+      "weight": 10
+    },
+    {
+      "structure": "atrium:shrines/quipster/hotspring_shrine",
+      "weight": 10
+    },
+    {
+      "structure": "atrium:shrines/quipster/prospector_shrine",
       "weight": 10
     },
     {

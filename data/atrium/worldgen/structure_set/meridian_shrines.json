@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "atrium:shrines/aurora/pinwheel_shrine",
+      "weight": 10
+    }
+  ],
+  "placement": {
+    "salt": 60807060504030201,
+    "spacing": 40,
+    "separation": 15,
+    "type": "minecraft:random_spread"
+  }
+}
