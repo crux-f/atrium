@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:nether_wart"
+            ],
+            "nbt": "{freshly_harvested:1b}"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "atrium:patreon/back_to_the_grind/nether_wart_reset"
+  }
+}
