@@ -180,8 +180,13 @@
           "name": "atrium:treasure/vanilla_chest_additions/village/village_weaponsmith",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 3.0
+              },
+              "add": false
             }
           ]
         }

@@ -239,7 +239,7 @@
         },
         {
           "type": "loot_table",
-          "weight": 7,
+          "weight": 10,
           "quality": 4,
           "name": "atrium:treasure/vanilla_chest_additions/bastion_treasure",
           "functions": [

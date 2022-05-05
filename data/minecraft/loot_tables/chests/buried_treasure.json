@@ -127,7 +127,7 @@
         },
             {
                 "type": "loot_table",
-                "weight": 2,
+                "weight": 6,
                 "quality": 3,
                 "name": "atrium:treasure/vanilla_chest_additions/buried_treasure",
                 "functions": [

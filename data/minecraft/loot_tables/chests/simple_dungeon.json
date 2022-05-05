@@ -148,7 +148,7 @@
         },
         {
           "type": "loot_table",
-          "weight": 20,
+          "weight": 27,
           "quality": 3,
           "name": "atrium:treasure/vanilla_chest_additions/simple_dungeon",
           "functions": [

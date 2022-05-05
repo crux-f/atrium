@@ -64,7 +64,7 @@
         },
         {
           "type": "loot_table",
-          "weight": 9,
+          "weight": 15,
           "quality": 3,
           "name": "atrium:treasure/vanilla_chest_additions/stronghold_library",
           "functions": [

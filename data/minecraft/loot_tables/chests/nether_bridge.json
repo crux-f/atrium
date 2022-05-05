@@ -172,7 +172,7 @@
         },
         {
           "type": "loot_table",
-          "weight": 8,
+          "weight": 12,
           "quality": 3,
           "name": "atrium:treasure/vanilla_chest_additions/nether_bridge",
           "functions": [

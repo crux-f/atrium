@@ -276,7 +276,7 @@
         },
         {
           "type": "loot_table",
-          "weight": 2,
+          "weight": 4,
           "quality": 5,
           "name": "atrium:treasure/vanilla_chest_additions/ruined_portal",
           "functions": [

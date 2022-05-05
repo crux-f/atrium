@@ -114,7 +114,7 @@
         },
         {
           "type": "loot_table",
-          "weight": 5,
+          "weight": 15,
           "quality": 3,
           "name": "atrium:treasure/vanilla_chest_additions/underwater_ruin_big",
           "functions": [
