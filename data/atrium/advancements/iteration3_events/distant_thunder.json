@@ -1,0 +1,31 @@
+{
+    "__comment": "New server launch!!!",
+    "display": {
+        "title": {
+            "text": "Distant Thunder",
+            "color": "white",
+            "bold": false
+        },
+        "description": {
+            "text": "April 2nd, 2022",
+            "color": "green",
+            "italic": true
+        },
+        "icon": {
+            "item": "minecraft:iron_sword"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "iteration3": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+        "rewards": {
+		"experience": 100
+	},
+        "parent": "atrium:iteration3_events/a_new_home"
+}
