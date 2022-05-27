@@ -13,7 +13,7 @@
 					"conditions": [
 						{
 							"condition": "minecraft:entity_properties",
-							"entity": "this",
+							"entity": "killer",
 							"predicate": {
 								"location": {
 									"dimension": "atrium:meridian"
@@ -26,6 +26,13 @@
 							"function": "set_count",
 							"count": 1
 						},
+					    {
+				            "function": "minecraft:looting_enchant",
+				            "count": {
+				            "min": 0,
+				            "max": 1
+			                   }
+		                },
 						{
 							"function": "set_nbt",
 							"tag": "{HideFlags:1,shimmering_feather:1b,Enchantments:[{id:\"minecraft:quick_charge\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.05,Operation:1,UUID:[I;1265872695,-16626531,-1550750384,-2070331207],Slot:\"offhand\"}]}"
