@@ -53,6 +53,46 @@
               ]
             }
           ]
+        },
+        {
+          "type": "item",
+          "weight": 12,
+          "quality": 5,
+          "name": "minecraft:blaze_rod",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{charged_blaze_rod:1b,Enchantments:[{id:\"minecraft:power\",lvl:1s}]}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Charged Blaze Rod",
+                  "color": "red",
+                  "italic": "false"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "This rod seems"
+                },
+                {
+                  "text": "to have maintained the"
+                },
+                {
+                  "text": "Blaze's elemental energy."
+                }
+              ]
+            }
+          ]
         }
       ]
     }
