@@ -1,0 +1,10 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "nbt": "{Tags:[\"atrium_giant\"]}",
+    "targeted_entity": {
+      "type": "minecraft:player"
+    }
+  }
+}
