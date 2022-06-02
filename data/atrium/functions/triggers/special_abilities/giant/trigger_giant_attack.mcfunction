@@ -10,6 +10,9 @@ execute at @s if entity @s[scores={giant_threat=4..}] at @e[distance=..7,tag=atr
 # If the player's giant threat level is over 7 and there is a giant within 40 blocks, the nearest giant has a 50% chance of throwing something at the player. If the attack triggers, reset player's threat to 0.
 # execute at @s if entity @s[scores={giant_threat=7..}] at @e[distance=..40,tag=atrium_giant_body] if predicate atrium:percentage_chances/0.50_p run function atrium:triggers/special_abilities/giant/g_throw_setup
 #
+# If the player's giant threat level is over 10 and there is a giant within 40 blocks, the nearest giant has a 50% chance of doing the other move set. If the attack triggers, reset player's threat to 0.
+# execute at @s if entity @s[scores={giant_threat=10..}] at @e[distance=..40,tag=atrium_giant_body] if predicate atrium:percentage_chances/0.50_p run function atrium:triggers/special_abilities/giant/trigger_giant_summon
+#
 # Revoke to allow for re-trigger
 advancement revoke @s only atrium:triggers/special_abilities/giant/trigger_giant_attack
 
