@@ -9,6 +9,8 @@ execute at @e[tag=giant_spawnpoint] run summon giant ~ ~ ~ {PersistenceRequired:
 # Remove spawnpoint
 kill @e[tag=giant_spawnpoint]
 #
+# REMOVE TAG
+tag @a remove giant_trigger
 #
 # Schedule to run again in 1 hour
 schedule function atrium:patreon/ancients_awake 3600s
