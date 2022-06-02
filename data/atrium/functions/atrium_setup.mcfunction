@@ -16,5 +16,6 @@ scoreboard objectives add taunt_timer dummy
 scoreboard objectives add charge dummy
 scoreboard objectives add misc_timer dummy
 scoreboard objectives add brittle_bone_disease dummy
+scoreboard objectives add giant_threat
 team add necromancer 
 team add occupied
