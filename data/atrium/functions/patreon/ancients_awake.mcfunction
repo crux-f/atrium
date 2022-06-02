@@ -1,5 +1,5 @@
-# 30% chance to tag a random player in the overworld
-execute as @r[predicate=atrium:in_overworld] if predicate atrium:percentage_chances/0.30_p run tag @s add giant_trigger
+# 25% chance to tag a random player in the overworld
+execute as @r[predicate=atrium:in_overworld] if predicate atrium:percentage_chances/0.25_p run tag @s add giant_trigger
 # spawn a summon point at their position
 execute at @a[tag=giant_trigger] run summon marker ~ ~ ~ {Tags:["giant_spawnpoint"]}
 # relocate to random spawn area on the surface
