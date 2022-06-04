@@ -2,17 +2,17 @@
     "__comment": "Granted manually by an admin when player makes a submission",
     "display": {
         "title": {
-            "text": "An Old Beginning",
+            "text": "Rising Action",
             "color": "white",
             "bold": false
         },
         "description": {
-            "text": "Contribute to Month 1/1 (June 2022).",
+            "text": "Contribute to Month 1/6 (November 2022).",
             "color": "green",
             "italic": true
         },
         "icon": {
-            "item": "minecraft:nether_star"
+            "item": "minecraft:firework_rocket"
         },
         "frame": "task",
         "show_toast": true,
@@ -27,5 +27,5 @@
     "rewards": {
         "experience": 50
     },
-    "parent": "atrium:community/world_forge/world_forge_explanation"
+    "parent": "atrium:community/world_forge/month_1_5"
 }
