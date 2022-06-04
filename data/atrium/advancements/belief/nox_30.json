@@ -12,7 +12,8 @@
             "italic": true
         },
         "icon": {
-            "item": "minecraft:elytra"
+            "item": "minecraft:player_head",
+            "nbt": "{display:{Name:'{\"text\":\"Holy Symbol\",\"color\":\"yellow\",\"italic\":false}',Lore:['[{\"text\":\"Nox, \",\"color\":\"red\",\"italic\":false},{\"text\":\"Think You\'re Clever?\",\"obfuscated\":true}]']},nox_symbol:1b,SkullOwner:{Id:[I;-1538063860,-1358017242,-1429658611,-1863382418],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTExM2E4OTcxYTMzM2M4NzE4NWJhNWNhMmVhMmM1ODEwOTM1ZGJlYjA3NTA5ZjA1M2M5MDJlMmEyYmRmMmE3NiJ9fX0=\"}]}}}"
         },
         "frame": "goal",
         "show_toast": true,
