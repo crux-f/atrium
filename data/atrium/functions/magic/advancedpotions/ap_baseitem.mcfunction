@@ -97,6 +97,10 @@ execute positioned ~-2 ~2 ~ if entity @e[type=minecraft:item_frame,distance=..1,
 execute positioned ~ ~2 ~-2 at @e[type=minecraft:item_frame,distance=..1,nbt={Item:{tag:{comet_berries:1b}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
 execute positioned ~ ~2 ~-2 if entity @e[type=minecraft:item_frame,distance=..1,nbt={Item:{tag:{comet_berries:1b}}}] run execute as @e[tag=empoweredcauldron,distance=..10] at @s run function atrium:magic/advancedpotions/stardust
 #
+# Start Crystal Vial - Check SOUTH for Gleaming Crystal
+execute positioned ~ ~2 ~2 at @e[type=minecraft:item_frame,distance=..1,nbt={Item:{tag:{gleaming_crystal:1b}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~2 ~2 if entity @e[type=minecraft:item_frame,distance=..1,nbt={Item:{tag:{gleaming_crystal:1b}}}] run execute as @e[tag=empoweredcauldron,distance=..10] at @s run function atrium:magic/advancedpotions/crystal_vial
+#
 # Potion Mixtures
 #
 # Start Philter of Velocity (0:45) - check bottom slot for ender pearl
@@ -136,3 +140,8 @@ execute positioned ~ ~2 ~2 if entity @e[type=minecraft:item_frame,distance=..1,n
 # Start Potion of Luck (5:00) - Check WEST for Rabbit's Foot
 execute positioned ~-2 ~2 ~ at @e[type=minecraft:item_frame,distance=..1,nbt={Item:{id:"minecraft:rabbit_foot",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
 execute positioned ~-2 ~2 ~ if entity @e[type=minecraft:item_frame,distance=..1,nbt={Item:{id:"minecraft:rabbit_foot",Count:1b}}] run execute as @e[tag=empoweredcauldron,distance=..10] at @s run function atrium:magic/advancedpotions/luck
+#
+# Expert Potions
+# Start Draft of the Prism - Check NORTH for Arcane Kaleidoscope
+execute positioned ~ ~2 ~-2 at @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{tag:{arcane_kaleidoscope:1b}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~2 ~-2 if entity @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{tag:{arcane_kaleidoscope:1b}}}] run execute as @e[tag=empoweredcauldron,distance=..10] at @s run function atrium:magic/advancedpotions/draft_of_the_prism
