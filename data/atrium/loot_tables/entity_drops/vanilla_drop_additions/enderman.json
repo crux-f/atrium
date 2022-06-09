@@ -61,19 +61,6 @@
         },
         {
           "type": "item",
-          "conditions": [
-            {
-              "condition": "minecraft:entity_properties",
-              "entity": "killer_player",
-              "predicate": {
-                "equipment": {
-                  "mainhand": {
-                    "nbt": "{sac_blade:1b}"
-                  }
-                }
-              }
-            }
-          ],
           "weight": 50,
           "quality": 1,
           "name": "minecraft:ender_pearl",
@@ -102,7 +89,7 @@
               }
             }
           ],
-          "weight": 4,
+          "weight": 25,
           "quality": 3,
           "name": "minecraft:ender_eye",
           "functions": [
