@@ -19,6 +19,6 @@ execute positioned ~ ~2 ~4 at @e[type=minecraft:item_frame,distance=..1.5,nbt={I
 execute positioned ~ ~2 ~4 if entity @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{id:"minecraft:bamboo",Count:1b}}] run scoreboard players add @s infusion 1
 #
 execute if entity @s[scores={infusion=5..}] at @s run summon item ~ ~3 ~ {NoGravity:1b,Glowing:1b,Item:{id:"minecraft:trident",Count:1b,tag:{display:{Name:'{"text":"Staff of Earth","color":"green","italic":false}',Lore:['{"text":"Natural Armor II","color":"#FFBFBF","italic":false}','{"text":"Stone Sprite II","color":"#FFF29E","italic":false}','{"keybind":""}','{"text":"When in Off Hand:","color":"gray","italic":false}','{"text":"+2 Casting Power","color":"blue","italic":false}']},HideFlags:1,RepairCost:99,earthstaff:1b,lv2:1b,staff:1b,Enchantments:[{id:"minecraft:riptide",lvl:1s},{id:"minecraft:mending",lvl:1s}],AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:2,Operation:0,UUID:[I;2112967324,1303791157,-1418702945,-838205270],Slot:"mainhand"}]}}}
-execute if entity @s[scores={infusion=5..}] at @s positioned ~ ~2 ~-6 run advancement grant @p[gamemode=!spectator] only atrium:elemental_apprentice
+execute if entity @s[scores={infusion=5..}] at @s positioned ~ ~2 ~-6 run advancement grant @p[gamemode=!spectator] only atrium:magic/elemental_apprentice
 execute if entity @s[scores={infusion=5..}] at @s run function atrium:magic/infusion/infusion_reset
 scoreboard players set @s infusion 0
