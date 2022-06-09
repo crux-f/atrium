@@ -46,6 +46,41 @@
                     ]
                 },
                 {
+                    "type": "item",
+                    "weight": 2,
+                    "quality": 2,
+                    "name": "minecraft:written_book",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{pages:['[\"\",{\"text\":\"Forgotten Runestone\\\\n          \"},{\"text\":\"V\",\"color\":\"green\"},{\"text\":\"\\\\n     \",\"color\":\"reset\"},{\"text\":\" *\",\"color\":\"gray\"},{\"text\":\"       *\",\"color\":\"gray\"},{\"text\":\"\\\\n\",\"color\":\"reset\"},{\"text\":\" >\",\"color\":\"green\"},{\"text\":\"                <\",\"color\":\"green\"},{\"text\":\"\\\\n      \",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"gray\"},{\"text\":\"       *\",\"color\":\"gray\"},{\"text\":\"\\\\n          \",\"color\":\"reset\"},{\"text\":\"%\",\"color\":\"dark_blue\"},{\"text\":\"\\\\n\",\"color\":\"reset\"},{\"text\":\"V\",\"color\":\"green\"},{\"text\":\",\",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"green\"},{\"text\":\",\",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"green\"},{\"text\":\" - Bottle o\\' Enchanting\\\\n\",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"gray\"},{\"text\":\" - Smooth Stone\\\\n\",\"color\":\"reset\"},{\"text\":\"%\",\"color\":\"dark_blue\"},{\"text\":\" - Enchantment Catalyst (Incribing)\",\"color\":\"reset\"}]','{\"text\":\"Many have attempted to remember the words of power after the fact.\\\\n\\\\nBe grateful we cannot, for those who can rarely remain themselves.\\\\n- E\"}'],title:\"Formula: Forgotten Runestone\",author:\"E..?\",generation:3}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "Formula: Forgotten Runestone",
+                                    "italic": "false"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "Runic Codex Recipe",
+                                    "color": "gray",
+                                    "italic": "false"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
                     "type": "loot_table",
                     "weight": 2,
                     "quality": 3,

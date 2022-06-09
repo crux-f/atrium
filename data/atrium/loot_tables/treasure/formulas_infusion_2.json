@@ -566,6 +566,41 @@
                     ]
                 },
                 {
+                    "type": "item",
+                    "weight": 4,
+                    "quality": 1,
+                    "name": "minecraft:written_book",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{pages:['[\"\",{\"text\":\"Arcane Kaleidoscope\\\\n             \"},{\"text\":\"@\",\"color\":\"red\"},{\"text\":\"\\\\n          \",\"color\":\"reset\"},{\"text\":\"(\",\"color\":\"gold\"},{\"text\":\"  #\",\"color\":\"light_purple\"},{\"text\":\"  )\",\"color\":\"dark_purple\"},{\"text\":\"\\\\n       \",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"#C0B40F\"},{\"text\":\"  ~\",\"color\":\"green\"},{\"text\":\"     `\",\"color\":\"dark_green\"},{\"text\":\"  $\",\"color\":\"dark_blue\"},{\"text\":\"\\\\n         \",\"color\":\"reset\"},{\"text\":\" &\",\"color\":\"#824E14\"},{\"text\":\"  ?\",\"color\":\"light_purple\"},{\"text\":\"  %\",\"color\":\"blue\"},{\"text\":\"\\\\n             ^\\\\n\",\"color\":\"reset\"},{\"text\":\"@\",\"color\":\"red\"},{\"text\":\" - Red Dye\\\\n\",\"color\":\"reset\"},{\"text\":\"(\",\"color\":\"gold\"},{\"text\":\" - Orange Dye\\\\n\",\"color\":\"reset\"},{\"text\":\"#\",\"color\":\"light_purple\"},{\"text\":\" - Magenta Dye\\\\n\",\"color\":\"reset\"},{\"text\":\")\",\"color\":\"dark_purple\"},{\"text\":\" - Purple Dye\\\\n\",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"#C0B40F\"},{\"text\":\" - Yellow Dye\\\\n\",\"color\":\"reset\"},{\"text\":\"~\",\"color\":\"green\"},{\"text\":\" - Lime Dye\",\"color\":\"reset\"}]','[\"\",{\"text\":\"`\",\"color\":\"dark_green\"},{\"text\":\" - Green Dye\\\\n\",\"color\":\"reset\"},{\"text\":\"$\",\"color\":\"dark_blue\"},{\"text\":\" - Blue Dye\\\\n\",\"color\":\"reset\"},{\"text\":\"&\",\"color\":\"#824E14\"},{\"text\":\" - Brown Dye\\\\n\",\"color\":\"reset\"},{\"text\":\"?\",\"color\":\"#EDA0FF\"},{\"text\":\" - Pink Dye\\\\n\",\"color\":\"reset\"},{\"text\":\"%\",\"color\":\"blue\"},{\"text\":\" - Light Blue Dye\\\\n^ - Spyglass\",\"color\":\"reset\"}]'],title:\"Formula: Arcane Kaleidoscope\",author:\"???\",generation:1}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "Formula: Arcane Kaleidoscope",
+                                    "italic": "false"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "Infusion Circle Recipe",
+                                    "color": "gray",
+                                    "italic": "false"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
                     "type": "loot_table",
                     "weight": 2,
                     "quality": 3,

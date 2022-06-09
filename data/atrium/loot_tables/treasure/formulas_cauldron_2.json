@@ -122,7 +122,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{pages:['[\"\",{\"text\":\"Philter of Light-Eating\\\\n            \"},{\"text\":\"*\",\"color\":\"gray\"},{\"text\":\"\\\\n         \",\"color\":\"reset\"},{\"text\":\" >\",\"color\":\"blue\"},{\"text\":\"   <\\\\n            \",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"gray\"},{\"text\":\"\\\\n\",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"gray\"},{\"text\":\" - Transmutation Powder\\\\n\",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"blue\"},{\"text\":\" - Potion of Night Vision (8:00)\\\\n< - Potion of Invisibility (8:00)\\\\n\",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"gray\"},{\"text\":\" - Charcoal\",\"color\":\"reset\"}]'],title:\"Formula: Philter of Light-Eating\",author:\"???\"}"
+                            "tag": "{pages:['[\"\",{\"text\":\"Philter of Light-Eating\\\\n            \"},{\"text\":\"*\",\"color\":\"gray\"},{\"text\":\"\\\\n         \",\"color\":\"reset\"},{\"text\":\" >\",\"color\":\"blue\"},{\"text\":\"   <\\\\n            \",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"gray\"},{\"text\":\"\\\\n\",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"gray\"},{\"text\":\" - Transmutation Powder\\\\n\",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"blue\"},{\"text\":\" - Potion of Night Vision (13:00)\\\\n< - Potion of Invisibility (13:00)\\\\n\",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"gray\"},{\"text\":\" - Charcoal\",\"color\":\"reset\"}]'],title:\"Formula: Philter of Light-Eating\",author:\"???\"}"
                         },
                         {
                             "function": "set_name",
