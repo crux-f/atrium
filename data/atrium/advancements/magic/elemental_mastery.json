@@ -1,0 +1,26 @@
+{
+    "__comment": "Acquired by crafting a level 3 elemental staff",
+    "display": {
+        "title": {
+            "text": "Elemental Mastery",
+            "color": "white"
+        },
+        "description": {
+            "text": "Master an element"
+        },
+        "icon": {
+            "item": "minecraft:trident",
+            "nbt": "{Enchantments:[{id:\"minecraft:power\",lvl:1s}]}"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "spacialfocus": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "atrium:magic/periodic_table"
+}

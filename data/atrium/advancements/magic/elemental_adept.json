@@ -1,0 +1,26 @@
+{
+    "__comment": "Acquired by crafting a level 2 elemental staff",
+    "display": {
+        "title": {
+            "text": "Elemental Adept",
+            "color": "white"
+        },
+        "description": {
+            "text": "Upgrade an elemental staff"
+        },
+        "icon": {
+            "item": "minecraft:trident",
+            "nbt": "{Enchantments:[{id:\"minecraft:power\",lvl:1s}]}"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "spacialfocus": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "atrium:magic/well_rounded"
+}
