@@ -1,0 +1,20 @@
+[
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{display:{Name:'{\"text\":\"Hellish Lantern\",\"color\":\"red\",\"italic\":false}',Lore:['{\"text\":\"It hungers for flames.\"}','{\"text\":\" \"}','[{\"text\":\"Absorbed Ghast Fireballs:\",\"color\":\"gray\",\"italic\":false},{\"text\":\" 6\",\"color\":\"gold\"}]']},hellish_lantern:1b,charges:6b,Enchantments:[{id:\"minecraft:power\",lvl:2s}]}",
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "count": 1,
+              "nbt": "{hellish_lantern:1b,charges:5b}"
+            }
+          }
+        }
+      }
+    ]
+  }
+]
