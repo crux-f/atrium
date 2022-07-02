@@ -273,76 +273,88 @@
             }
           ]
         },
-                {
-                    "type": "item",
-                    "weight": 3,
-                    "quality": 2,
-                    "name": "minecraft:written_book",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": 1
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{pages:['[\"\",{\"text\":\"Core Pickaxe\\\\n          \"},{\"text\":\"V\",\"color\":\"aqua\"},{\"text\":\"\\\\n      \",\"color\":\"reset\"},{\"text\":\"%\",\"color\":\"gold\"},{\"text\":\"       *\",\"color\":\"gray\"},{\"text\":\"\\\\n\",\"color\":\"reset\"},{\"text\":\" >\",\"color\":\"dark_aqua\"},{\"text\":\"                <\",\"color\":\"dark_green\"},{\"text\":\"\\\\n      \",\"color\":\"reset\"},{\"text\":\"@\",\"color\":\"dark_gray\"},{\"text\":\"       #\\\\n          x\\\\n\",\"color\":\"reset\"},{\"text\":\"V\",\"color\":\"aqua\"},{\"text\":\" - Diamond Pickaxe\\\\n\",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"gray\"},{\"text\":\" - Iron Pickaxe\\\\n\",\"color\":\"reset\"},{\"text\":\"% \",\"color\":\"gold\"},{\"text\":\"- Gold Pickaxe\\\\n\",\"color\":\"reset\"},{\"text\":\"@\",\"color\":\"dark_gray\"},{\"text\":\" - Stone Pickaxe\\\\n# - Wooden Pickaxe\\\\n\",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"dark_green\"},{\"text\":\" - [Efficiency III]\\\\n\",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"dark_aqua\"},{\"text\":\" - [Fortune III]\",\"color\":\"reset\"}]'],title:\"Formula: Core Pickaxe\",author:\"???\",generation:2}"
-                        },
-                        {
-                            "function": "set_name",
-                            "name": [
-                                {
-                                    "text": "Formula: Core Pickaxe",
-                                    "italic": "false"
-                                }
-                            ]
-                        },
-                        {
-                            "function": "set_lore",
-                            "lore": [
-                                {
-                                    "text": "Runic Codex Recipe",
-                                    "color": "gray",
-                                    "italic": "false"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 4,
-                    "quality": 2,
-                    "name": "minecraft:written_book",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": 1
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{pages:['[\"\",{\"text\":\"Brightsteel Ingot\\\\n \\\\u0020 \\\\u0020 \\\\u0020 \\\\u0020 \\\\u0020 \\\\u0020 x\\\\n \\\\u0020 \\\\u0020 \\\\u0020 \\\\u0020 \\\\u0020x \\\\u0020\"},{\"text\":\"*\",\"color\":\"gray\"},{\"text\":\" \\\\u0020x\\\\n \\\\u0020 \\\\u0020 \\\\u0020 x \\\\u0020\",\"color\":\"reset\"},{\"text\":\"+ \\\\u0020 \\\\u0020 +\",\"color\":\"#BBA33D\"},{\"text\":\" \\\\u0020x\\\\n \\\\u0020 \\\\u0020 \\\\u0020 \\\\u0020 \\\\u0020x \\\\u0020\",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"gray\"},{\"text\":\" \\\\u0020x\\\\n \\\\u0020 \\\\u0020 \\\\u0020 \\\\u0020 \\\\u0020 \\\\u0020 x\\\\n\",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"gray\"},{\"text\":\" - Iron Ingot\\\\n\",\"color\":\"reset\"},{\"text\":\"+\",\"color\":\"#BBA33D\"},{\"text\":\" - Glowstone Dust\",\"color\":\"reset\"}]'],title:\"Formula: Brightsteel Ingot\",author:\"???\"}"
-                        },
-                        {
-                            "function": "set_name",
-                            "name": [
-                                {
-                                    "text": "Formula: Brightsteel Ingot",
-                                    "italic": "false"
-                                }
-                            ]
-                        },
-                        {
-                            "function": "set_lore",
-                            "lore": [
-                                {
-                                    "text": "Infusion Circle Recipe",
-                                    "color": "gray",
-                                    "italic": "false"
-                                }
-                            ]
-                        }
-                    ]
-                }
+          {
+              "type": "item",
+              "weight": 3,
+              "quality": 2,
+              "name": "minecraft:written_book",
+              "functions": [
+                  {
+                      "function": "set_count",
+                      "count": 1
+                  },
+                  {
+                      "function": "set_nbt",
+                      "tag": "{pages:['[\"\",{\"text\":\"Core Pickaxe\\\\n          \"},{\"text\":\"V\",\"color\":\"aqua\"},{\"text\":\"\\\\n      \",\"color\":\"reset\"},{\"text\":\"%\",\"color\":\"gold\"},{\"text\":\"       *\",\"color\":\"gray\"},{\"text\":\"\\\\n\",\"color\":\"reset\"},{\"text\":\" >\",\"color\":\"dark_aqua\"},{\"text\":\"                <\",\"color\":\"dark_green\"},{\"text\":\"\\\\n      \",\"color\":\"reset\"},{\"text\":\"@\",\"color\":\"dark_gray\"},{\"text\":\"       #\\\\n          x\\\\n\",\"color\":\"reset\"},{\"text\":\"V\",\"color\":\"aqua\"},{\"text\":\" - Diamond Pickaxe\\\\n\",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"gray\"},{\"text\":\" - Iron Pickaxe\\\\n\",\"color\":\"reset\"},{\"text\":\"% \",\"color\":\"gold\"},{\"text\":\"- Gold Pickaxe\\\\n\",\"color\":\"reset\"},{\"text\":\"@\",\"color\":\"dark_gray\"},{\"text\":\" - Stone Pickaxe\\\\n# - Wooden Pickaxe\\\\n\",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"dark_green\"},{\"text\":\" - [Efficiency III]\\\\n\",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"dark_aqua\"},{\"text\":\" - [Fortune III]\",\"color\":\"reset\"}]'],title:\"Formula: Core Pickaxe\",author:\"???\",generation:2}"
+                  },
+                  {
+                      "function": "set_name",
+                      "name": [
+                          {
+                              "text": "Formula: Core Pickaxe",
+                              "italic": "false"
+                          }
+                      ]
+                  },
+                  {
+                      "function": "set_lore",
+                      "lore": [
+                          {
+                              "text": "Runic Codex Recipe",
+                              "color": "gray",
+                              "italic": "false"
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+              "type": "item",
+              "weight": 4,
+              "quality": 2,
+              "name": "minecraft:written_book",
+              "functions": [
+                  {
+                      "function": "set_count",
+                      "count": 1
+                  },
+                  {
+                      "function": "set_nbt",
+                      "tag": "{pages:['[\"\",{\"text\":\"Brightsteel Ingot\\\\n \\\\u0020 \\\\u0020 \\\\u0020 \\\\u0020 \\\\u0020 \\\\u0020 x\\\\n \\\\u0020 \\\\u0020 \\\\u0020 \\\\u0020 \\\\u0020x \\\\u0020\"},{\"text\":\"*\",\"color\":\"gray\"},{\"text\":\" \\\\u0020x\\\\n \\\\u0020 \\\\u0020 \\\\u0020 x \\\\u0020\",\"color\":\"reset\"},{\"text\":\"+ \\\\u0020 \\\\u0020 +\",\"color\":\"#BBA33D\"},{\"text\":\" \\\\u0020x\\\\n \\\\u0020 \\\\u0020 \\\\u0020 \\\\u0020 \\\\u0020x \\\\u0020\",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"gray\"},{\"text\":\" \\\\u0020x\\\\n \\\\u0020 \\\\u0020 \\\\u0020 \\\\u0020 \\\\u0020 \\\\u0020 x\\\\n\",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"gray\"},{\"text\":\" - Iron Ingot\\\\n\",\"color\":\"reset\"},{\"text\":\"+\",\"color\":\"#BBA33D\"},{\"text\":\" - Glowstone Dust\",\"color\":\"reset\"}]'],title:\"Formula: Brightsteel Ingot\",author:\"???\"}"
+                  },
+                  {
+                      "function": "set_name",
+                      "name": [
+                          {
+                              "text": "Formula: Brightsteel Ingot",
+                              "italic": "false"
+                          }
+                      ]
+                  },
+                  {
+                      "function": "set_lore",
+                      "lore": [
+                          {
+                              "text": "Infusion Circle Recipe",
+                              "color": "gray",
+                              "italic": "false"
+                          }
+                      ]
+                  }
+              ]
+          },
+          {
+            "type": "loot_table",
+            "weight": 6,
+            "quality": 5,
+            "name": "atrium:world_forge/books/wf_books_mineshaft",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          }
       ]
    }
   ]
