@@ -1,0 +1,2 @@
+tellraw @a[tag=event] ["",{"text":"\u2714 Gather in Ecotone Township in the northern reaches of Fellstar Highlands.","color":"dark_green"},{"text":"\n"},{"text":"\u25c7 Traverse the old road.\n \u0020","color":"yellow"},{"text":"- Keep your group together.","color":"green"},{"text":"\n"},{"text":" \u0020- Protect your group from monsters.","color":"red"},{"text":"\n"},{"text":" \u0020- Bonus (1 of 2): Repair the old road's lampposts with new lanterns.","color":"gray"},{"text":"\n "}]
+

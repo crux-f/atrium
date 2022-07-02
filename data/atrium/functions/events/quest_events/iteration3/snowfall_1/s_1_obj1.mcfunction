@@ -1,0 +1,2 @@
+tellraw @a[tag=event] ["",{"text":"\u2b21 Gather in ","color":"green"},{"text":"Ecotone Township","color":"yellow","hoverEvent":{"action":"show_text","contents":{"text":"[Coordinates: X=36142, Y=93, Z=-4357]","color":"yellow"}}},{"text":" in the northern reaches of Fellstar Highlands.","color":"green"},{"text":"\n \u0020\u25b6 (Tip: Mouse over locations highlighted in yellow to get coordinates.)","italic":true,"color":"gray"}]
+
