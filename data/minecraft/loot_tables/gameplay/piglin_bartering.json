@@ -252,8 +252,19 @@
         },
         {
           "type": "loot_table",
-          "weight": 10,
+          "weight": 7,
           "name": "atrium:treasure/vanilla_chest_additions/curiosity/bastion_curiosity",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "weight": 3,
+          "name": "atrium:world_forge/books/wf_books_piglin_barter",
           "functions": [
             {
               "function": "set_count",
