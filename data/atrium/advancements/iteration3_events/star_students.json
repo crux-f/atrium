@@ -1,18 +1,18 @@
 {
-    "__comment": "The first event of Atrium: Snowfall. 06/04/2022.",
+    "__comment": "The second event of Atrium: Snowfall. 07/02/2022.",
     "display": {
         "title": {
-            "text": "An Unexpected Silence",
+            "text": "Star Students",
             "color": "white",
             "bold": false
         },
         "description": {
-            "text": "Snowfall I - June 4th, 2022",
+            "text": "Snowfall II - July 2nd, 2022",
             "color": "green",
             "italic": true
         },
         "icon": {
-            "item": "minecraft:powder_snow_bucket"
+            "item": "minecraft:nether_star"
         },
         "frame": "task",
         "show_toast": true,
@@ -28,5 +28,5 @@
 		"experience": 100,
 	    "function": "atrium:triggers/events/snowfall_series_grant"
 	},
-        "parent": "atrium:iteration3_events/calm_before_the_storm"
+        "parent": "atrium:iteration3_events/an_unexpected_silence"
 }
