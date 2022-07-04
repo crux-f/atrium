@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "type": "chest",
   "pools": [
@@ -289,3 +290,296 @@
     }
   ]
 }
+=======
+{
+  "type": "chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 5,
+          "name": "minecraft:iron_boots",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{marching_boots:1b,curiosity:1b,AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.05,Operation:1,UUID:[I;836326472,-1781446702,-2040903421,-711117388],Slot:\"feet\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:2,Operation:0,UUID:[I;-98951554,-370457590,-2016488193,1938783077],Slot:\"feet\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:2,Operation:0,UUID:[I;-898001846,1077627934,-2089969606,488134808],Slot:\"feet\"}]}"
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 1,
+                "max": 0.75
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Marching Boots",
+                  "color": "yellow",
+                  "italic": "false"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Curiosity",
+                  "color": "aqua",
+                  "italic": "false"
+                },
+                {
+                  "keybind": ""
+                },
+                {
+                  "text": "These boots... are"
+                },
+                {
+                  "text": "made for walking."
+                },
+                {
+                  "text": "Long distances, it seems."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 5,
+          "name": "minecraft:iron_sword",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{ancient_gladius:1b,curiosity:1b}"
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 1,
+                "max": 0.75
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Ancient Gladius",
+                  "italic": "false"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Curiosity",
+                  "color": "aqua",
+                  "italic": "false"
+                },
+                {
+                  "keybind": ""
+                },
+                {
+                  "text": "Old-fashioned, but at"
+                },
+                {
+                  "text": "least it's pretty light."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 5,
+          "name": "minecraft:ender_eye",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{stolen_seeing_eye:1b,curiosity:1b}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Stolen Seeing Eye",
+                  "italic": "false"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Curiosity",
+                  "color": "aqua",
+                  "italic": "false"
+                },
+                {
+                  "keybind": ""
+                },
+                {
+                  "text": "It's covered in scratches."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 5,
+          "name": "minecraft:gold_nugget",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{combat_insignia:1b,curiosity:1b}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Combat Insignia",
+                  "italic": "false"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Curiosity",
+                  "color": "aqua",
+                  "italic": "false"
+                },
+                {
+                  "keybind": ""
+                },
+                {
+                  "text": "The mark of a warrior."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:shield",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{legion_shield:1b,curiosity:1b,AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:4,Operation:0,UUID:[I;732256180,1894862783,-2011226816,-1734644080],Slot:\"offhand\"}],BlockEntityTag:{Patterns:[{Color:4,Pattern:\"sc\"},{Color:7,Pattern:\"bri\"},{Color:4,Pattern:\"bo\"},{Color:14,Pattern:\"flo\"},{Color:4,Pattern:\"flo\"},{Color:7,Pattern:\"cbo\"}]}}"
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 1,
+                "max": 0.50
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Legion Shield",
+                  "italic": "false"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Curiosity",
+                  "color": "aqua",
+                  "italic": "false"
+                },
+                {
+                  "keybind": ""
+                },
+                {
+                  "text": "This dusty war implement"
+                },
+                {
+                  "text": "seems to have survived"
+                },
+                {
+                  "text": "the wear of time."
+                }
+              ]
+            }
+          ]
+        },
+         {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:gray_banner",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{legion_banner:1b,curiosity:1b,BlockEntityTag:{Patterns:[{Color:4,Pattern:\"sc\"},{Color:7,Pattern:\"bri\"},{Color:4,Pattern:\"bo\"},{Color:14,Pattern:\"flo\"},{Color:4,Pattern:\"flo\"},{Color:7,Pattern:\"cbo\"}]}}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Legion Banner",
+                  "italic": "false"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Curiosity",
+                  "color": "aqua",
+                  "italic": "false"
+                },
+                {
+                  "keybind": ""
+                },
+                {
+                  "text": "Who built these dungeons?"
+                },
+                {
+                  "text": "...and why?"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+>>>>>>> d7d383b38c348d211db4b67d62b585bb407c0b46

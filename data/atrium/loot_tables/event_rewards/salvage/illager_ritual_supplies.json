@@ -69,6 +69,20 @@
           "weight": 5
         },
         {
+<<<<<<< HEAD
+=======
+          "type": "loot_table",
+          "weight": 10,
+          "name": "minecraft:entities/witch",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+>>>>>>> d7d383b38c348d211db4b67d62b585bb407c0b46
           "type": "item",
           "weight": 10,
           "name": "minecraft:candle",

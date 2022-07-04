@@ -1,5 +1,5 @@
 # ANCHOR
-execute unless entity @e[distance=..3,tag=runic_codex] run summon armor_stand ~ ~ ~ {Marker:1b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,Tags:["runic_codex"]}
+execute unless entity @e[distance=..3,tag=runic_codex] run summon armor_stand ~ ~ ~ {Marker:1b,Invisible:1b,NoBasePlate:1b,Tags:["runic_codex"]}
 #
 # ITEMS
 #

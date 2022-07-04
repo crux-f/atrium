@@ -36,9 +36,9 @@ data merge entity @e[type=horse,limit=1,nbt={SaddleItem:{id:"minecraft:saddle",C
 #
 # Charge PATREON items.
 #
-execute as @a[name=shadow_knight6,gamemode=!spectator,nbt={Inventory:[{Slot:-106b,tag:{shadow_knight6_item:1b}}]}] run function atrium:magic/magicitems/patreon/shadow_knight6_item_charge
-execute as @a[name=shadow_knight6,gamemode=!spectator,nbt={Inventory:[{Slot:103b,tag:{shadow_knight6_item:1b}}]}] run effect give @s minecraft:slow_falling 2 0 true
-execute as @a[name=shadow_knight6,gamemode=!spectator,nbt={Inventory:[{Slot:103b,tag:{shadow_knight6_item:1b}}]}] run effect give @s minecraft:invisibility 2 0 true
+execute as @a[name="shadow_knight6",gamemode=!spectator,nbt={Inventory:[{Slot:-106b,tag:{shadow_knight6_item:1b}}]}] run function atrium:magic/magicitems/patreon/shadow_knight6_item_charge
+execute as @a[name="shadow_knight6",gamemode=!spectator,nbt={Inventory:[{Slot:103b,tag:{shadow_knight6_item:1b}}]}] run effect give @s minecraft:slow_falling 2 0 true
+execute as @a[name="shadow_knight6",gamemode=!spectator,nbt={Inventory:[{Slot:103b,tag:{shadow_knight6_item:1b}}]}] run effect give @s minecraft:invisibility 2 0 true
 #
 # Disabled items
 # execute as @a[limit=1] if entity @s[name=Leodi_Hodu,gamemode=!spectator,nbt={Inventory:[{Slot:-106b,tag:{leodi_hodu_item:1b}}]}] run function atrium:magic/magicitems/patreon/leodi_hodu_item_charge

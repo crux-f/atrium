@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
     "type": "chest",
     "pools": [
@@ -24,3 +25,31 @@
       }
     ]
   }
+=======
+{
+    "type": "chest",
+    "pools": [
+      {
+        "rolls": 1,
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "item",
+            "weight": 100,
+            "name": "minecraft:written_book",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{pages:['{\"text\":\" \\\\u0020 \\\\u0020 \\\\u0020LIBER N \\\\u0020L\\\\n \\\\u0020 \\\\u0020 \\\\u0020 \\\\u0020An \\\\u0020 T\\\\n \\\\u0020 \\\\u0020 \\\\u0020Pub \\\\u0020 tion in \\\\u0020 \\\\u0020 \\\\u0020 \\\\u0020 Class 4°, 3 \\\\u0020a d 2°\\\\n\\\\n \\\\u0020 \\\\u0020 \\\\u0020Comprising\\\\n\\\\n \\\\u0020 \\\\u0020 \\\\u0020L \\\\u0020 r M\\\\n \\\\u0020 \\\\u0020 \\\\u0020L b r \\\\u0020 X\\\\n \\\\u0020 \\\\u0020 \\\\u0020 \\\\u0020 er \\\\u0020 X\\\\n \\\\u0020 \\\\u0020 \\\\u0020 Millenium\\\\n \\\\u0020 \\\\u0020 \\\\u0020Lib \\\\u0020r \\\\u0020 M\"}','{\"text\":\"A magic \\\\u0020 \\\\u0020 \\\\u0020 is the magician\\'s most e \\\\u0020 ntial and powe \\\\u0020 l tool. It should be large en \\\\u0020gh to a \\\\u0020 w a full page for each day. Students \\\\u0020 \\\\u0020 \\\\u0020d record the tim \\\\u0020 duration and degree of success of any pra \\\\u0020 ce undert \\\\u0020 \\\\u0020 .\"}','{\"text\":\"They sh \\\\u0020 \\\\u0020make notes about environmental factors conducive (or otherwise) \\\\u0020 \\\\u0020 \\\\u0020ork. Those wishing to notify \\\\u0020 \\\\u0020 \\\\u0020 \\\\u0020 \\\\u0020 \\\\u0020 \\\\u0020heir intention to begin the work are \\\\u0020 \\\\u0020 \\\\u0020 \\\\u0020 \\\\u0020do so via the publis \\\\u0020 .\"}','[\"\",{\"text\":\"Record the results in the magical diary. \\\\u0020 \\\\u0020 \\\\u0020 \\\\u0020 \\\\u0020 \\\\u0020 \\\\u0020 \\\\u0020 \\\\u0020 satisfied with less than five minutes. When fifteen have been achieved, proceed to regulation of the \\\\u0020 \\\\u0020 \\\\u0020 \\\\u0020\"},{\"text\":\".\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"PJC\"}}]','[\"\",{\"text\":\"Not-Thinking: The exercises of motionlessness and br \\\\u0020 \\\\u0020 \\\\u0020g may improve health, but they have no other intri \\\\u0020 \\\\u0020 \\\\u0020ue aside from being a pre \\\\u0020ration for not-thinking, the begin \\\\u0020 gs of the magical tra \\\\u0020e condit \\\\u0020n\"},{\"text\":\".\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"@RoseThorn14\"}},{\"text\":\" \"}]','[\"\",{\"text\":\"The first is an anti \\\\u0020e to the imb \\\\u0020 ce and possible madness of the magical trance. The second is a specific ag \\\\u0020 \\\\u0020t obs \\\\u0020sion with the magical pra \\\\u0020ces in the t \\\\u0020 d section. They are\"},{\"text\":\":\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"@Defcon_IV\"}},{\"text\":\"\\\\n1) Laughter/Laughter 2) Non-atta \\\\u0020 ent/Non-disin \\\\u0020 est\"}]','[\"\",{\"text\":\"Did you hear the one about the Elder God?\",\"obfuscated\":true},{\"text\":\"\\\\n\\\\n\",\"color\":\"reset\"},{\"text\":\"knock knock\",\"obfuscated\":true}]'],title:\"Leviathan\",author:\"Operator of the First Degree\",display:{Lore:[\"A manuscript for the instruction of adherents to an ancient magical cult of chaos and mayhem.\"]}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+>>>>>>> d7d383b38c348d211db4b67d62b585bb407c0b46

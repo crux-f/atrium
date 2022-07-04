@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
     "type": "chest",
     "pools": [
@@ -24,3 +25,31 @@
       }
     ]
   }
+=======
+{
+    "type": "chest",
+    "pools": [
+      {
+        "rolls": 1,
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "item",
+            "weight": 100,
+            "name": "minecraft:written_book",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{pages:['[\"\",{\"text\":\"\\\\\"Look, I think you\\'re full of crap.\\\\\"\",\"color\":\"#172B4D\"},{\"text\":\"\\\\n\\\\n\",\"color\":\"reset\"},{\"text\":\"\\\\\"I know what I saw. There was a three-headed cat in that cave.\\\\\"\",\"color\":\"#172B4D\"},{\"text\":\"\\\\n\\\\n\",\"color\":\"reset\"},{\"text\":\"\\\\\"...That was three cats standing near each other. Three-headed cats do not exist.\\\\\"\",\"color\":\"#172B4D\"}]','[\"\",{\"text\":\"\\\\\"I\\'m going to find it and bring it back and then you\\'re gonna apologize to me for saying I\\'m full of crap.\\\\\"\",\"color\":\"#172B4D\"},{\"text\":\"\\\\n\\\\n\",\"color\":\"reset\"},{\"text\":\"\\\\\"Fine. I\\'ll look forward to it\",\"color\":\"#172B4D\"},{\"text\":\".\",\"color\":\"#172B4D\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"@ProtoDVD\"}},{\"text\":\"\\\\\"\",\"color\":\"#172B4D\"}]'],title:\"The Apparition\",author:\"Sue DeNim\",display:{Lore:[\"A book of anecdotal ghost stories and jokes from many ages.\"]}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+>>>>>>> d7d383b38c348d211db4b67d62b585bb407c0b46
