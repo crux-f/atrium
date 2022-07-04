@@ -1,12 +1,21 @@
 {
     "__comment": "welcome to the deep",
     "criteria": {
+<<<<<<< HEAD
+    "requirement": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "atrium:depths"
+      }
+    }
+=======
         "into_depths": {
             "trigger": "minecraft:location",
             "conditions": {
                 "dimension": "atrium:depths"
             }
         }
+>>>>>>> d7d383b38c348d211db4b67d62b585bb407c0b46
     },
     "display": {
         "title": {
