@@ -1,0 +1,31 @@
+{
+    "__comment": "Here we go",
+    "display": {
+        "title": {
+            "text": "Calm Before The Storm",
+            "color": "white",
+            "bold": false
+        },
+        "description": {
+            "text": "May 7th, 2022",
+            "color": "green",
+            "italic": true
+        },
+        "icon": {
+            "item": "minecraft:shield"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "iteration3": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+        "rewards": {
+		"experience": 100
+	},
+        "parent": "atrium:iteration3_events/distant_thunder"
+}

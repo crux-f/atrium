@@ -1,0 +1,199 @@
+{
+  "type": "chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 5,
+          "name": "minecraft:iron_sword",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Enrichment\",\"color\":\"red\",\"italic\":false}',Lore:['{\"text\":\"Backstabbing II\",\"color\":\"gray\",\"italic\":false}']},Damage:1-0.75,backstabbing_enchant:1b,lv2:1b,Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 5,
+          "quality": 0,
+          "name": "minecraft:iron_axe",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Dubai!\",\"color\":\"red\",\"italic\":false}',Lore:['{\"text\":\"You haven\\'t heard of this\"}','{\"text\":\"city before, but you\"}','{\"text\":\"get the feeling that even\"}','{\"text\":\"if you had, it wouldn\\'t\"}','{\"text\":\"explain the joke.\"}']},Damage:1-0.75,Enchantments:[{id:\"minecraft:efficiency\",lvl:3s}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 2
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{Potion:\"minecraft:long_leaping\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{Potion:\"minecraft:invisibility\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 3,
+          "name": "minecraft:wooden_hoe",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Scepter of Beepsneeps\",\"color\":\"light_purple\",\"italic\":false}',Lore:['{\"text\":\"Some argue it is a\"}','{\"text\":\"long-forgotten spirit.\"}','{\"text\":\"Whatever the case, it\"}','{\"text\":\"strikes fear.\"}']},Damage:1,scepter_of_beepsneeps:1b}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 4,
+        "max": 6
+      },
+      "entries": [
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:bone",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:porkchop",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:cod",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:ender_pearl",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:rotten_flesh",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 4,
+                "max": 6
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Victim Remains\",\"italic\":false}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:gold_nugget",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 3,
+                "max": 6
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Shiny Bauble\",\"italic\":false}'}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Mysterious Deity(?)\",\"italic\":false}',Lore:['{\"text\":\"There\\'s a little guy in here.\"}','{\"text\":\"Seems like someone was\"}','{\"text\":\"studying him like a bug.\"}']},god:1b,SkullOwner:{Id:[I;1479035364,-1257552641,-1574449669,-1708472865],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjIzM2ZiMTk4N2E2YmY1MDFlODMyOTQ5MjIxNGI2NDJjZjUyNjE0NmUxMjQwNTRlYTQxMDIyMGE1MmYyMzZiOCJ9fX0=\"}]}}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

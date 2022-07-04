@@ -1,0 +1,98 @@
+{
+    "type": "chest",
+    "pools": [
+        {
+            "rolls": 1,
+            "bonus_rolls": 0,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "quality": 2,
+                    "name": "minecraft:written_book",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{pages:['[\"\",{\"text\":\"Gatestone - The Far Lands\\\\n          \"},{\"text\":\"V\",\"color\":\"gray\"},{\"text\":\"\\\\n      \",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"light_purple\"},{\"text\":\"       %\\\\n \",\"color\":\"reset\"},{\"text\":\"$\",\"color\":\"light_purple\"},{\"text\":\"        !\",\"color\":\"red\"},{\"text\":\"       ?\",\"color\":\"aqua\"},{\"text\":\"\\\\n      %       \",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"light_purple\"},{\"text\":\"\\\\n          \",\"color\":\"reset\"},{\"text\":\"0\",\"color\":\"yellow\"},{\"text\":\"\\\\n\",\"color\":\"reset\"},{\"text\":\"V\",\"color\":\"gray\"},{\"text\":\" - Gatestone - The Overworld\\\\n\",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"light_purple\"},{\"text\":\",\",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"light_purple\"},{\"text\":\" - Essence of Anachronism\\\\n \",\"color\":\"reset\"}]','[\"\",{\"text\":\"% - Transmutation Powder\\\\n\"},{\"text\":\"$\",\"color\":\"light_purple\"},{\"text\":\" - Rainbow Road\\\\n\",\"color\":\"reset\"},{\"text\":\"?\",\"color\":\"aqua\"},{\"text\":\" - [Infinity]\\\\n\",\"color\":\"reset\"},{\"text\":\"0\",\"color\":\"yellow\"},{\"text\":\" - Holy Symbol - Taraq-sol\\\\n\",\"color\":\"reset\"},{\"text\":\"!\",\"color\":\"red\"},{\"text\":\" - (Ritual requires a player with 30 Favor with Taraq-sol)\",\"color\":\"reset\"}]','{\"text\":\"Here you stand, on the edge of infinity.\\\\n\\\\nTake it in your grasp, if you can.\\\\n\\\\n- E\\\\n \"}'],title:\"Gatestone - Far Lands\",author:\"E..?\"}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "Gatestone - Far Lands",
+                                    "italic": "false"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "Holy Item",
+                                    "color": "yellow",
+                                    "italic": "false"
+                                },
+                                {
+                                    "text": "Runic Codex Recipe",
+                                    "color": "gray",
+                                    "italic": "false"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "quality": 2,
+                    "name": "minecraft:written_book",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{pages:['[\"\",{\"text\":\"Forgotten Runestone\\\\n          \"},{\"text\":\"V\",\"color\":\"green\"},{\"text\":\"\\\\n     \",\"color\":\"reset\"},{\"text\":\" *\",\"color\":\"gray\"},{\"text\":\"       *\",\"color\":\"gray\"},{\"text\":\"\\\\n\",\"color\":\"reset\"},{\"text\":\" >\",\"color\":\"green\"},{\"text\":\"                <\",\"color\":\"green\"},{\"text\":\"\\\\n      \",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"gray\"},{\"text\":\"       *\",\"color\":\"gray\"},{\"text\":\"\\\\n          \",\"color\":\"reset\"},{\"text\":\"%\",\"color\":\"dark_blue\"},{\"text\":\"\\\\n\",\"color\":\"reset\"},{\"text\":\"V\",\"color\":\"green\"},{\"text\":\",\",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"green\"},{\"text\":\",\",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"green\"},{\"text\":\" - Bottle o\\' Enchanting\\\\n\",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"gray\"},{\"text\":\" - Smooth Stone\\\\n\",\"color\":\"reset\"},{\"text\":\"%\",\"color\":\"dark_blue\"},{\"text\":\" - Enchantment Catalyst (Incribing)\",\"color\":\"reset\"}]','{\"text\":\"Many have attempted to remember the words of power after the fact.\\\\n\\\\nBe grateful we cannot, for those who can rarely remain themselves.\\\\n- E\"}'],title:\"Formula: Forgotten Runestone\",author:\"E..?\",generation:3}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "Formula: Forgotten Runestone",
+                                    "italic": "false"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "Runic Codex Recipe",
+                                    "color": "gray",
+                                    "italic": "false"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 2,
+                    "quality": 3,
+                    "name": "atrium:treasure/formulas_codex_3",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        }
+                    ]
+                }
+          ]
+     }
+ ]
+}

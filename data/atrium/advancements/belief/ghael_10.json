@@ -1,0 +1,31 @@
+{
+    "__comment": "Granted when you reach 10 Favor with Ghael",
+    "display": {
+        "title": {
+            "text": "Outcast",
+            "color": "white",
+            "bold": false
+        },
+        "description": {
+            "text": "Gain at least 10 Favor with Ghael",
+            "color": "green",
+            "italic": true
+        },
+        "icon": {
+            "item": "minecraft:orange_concrete"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "givewhenmax": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 25
+    },
+    "parent": "atrium:belief/higher_power"
+}

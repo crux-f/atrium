@@ -1,0 +1,311 @@
+{
+  "type": "chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 4,
+        "max": 5
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 10,
+          "name": "minecraft:redstone",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 10,
+                "max": 20
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 7,
+          "name": "minecraft:glowstone",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 10,
+          "name": "minecraft:experience_bottle",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 3,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 10,
+          "name": "minecraft:blaze_rod",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 3,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "empty",
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "weight": 10,
+          "name": "minecraft:candle",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 3,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 6,
+          "name": "minecraft:totem_of_undying",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 3,
+        "max": 4
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "loot_table",
+          "weight": 10,
+          "name": "atrium:treasure/formulas_infusion_1",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "weight": 10,
+          "name": "atrium:treasure/formulas_cauldron_1",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "weight": 3,
+          "name": "atrium:treasure/formulas_codex_1",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 1,
+        "max": 2
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{gray_evokation:1b,pain_evokation:1b,StoredEnchantments:[{id:\"minecraft:thorns\",lvl:4s},{id:\"minecraft:binding_curse\",lvl:1s},{id:\"minecraft:unbreaking\",lvl:3s}]}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Gray Evokation",
+                  "color": "dark_gray",
+                  "italic": "false"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Pain",
+                  "color": "red",
+                  "italic": "false"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{gray_evokation:1b,forever_evokation:1b,StoredEnchantments:[{id:\"minecraft:unbreaking\",lvl:1s},{id:\"minecraft:infinity\",lvl:1s},{id:\"minecraft:vanishing_curse\",lvl:1s}]}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Gray Evokation",
+                  "color": "dark_gray",
+                  "italic": "false"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Forever",
+                  "color": "blue",
+                  "italic": "false"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{gray_evokation:1b,memory_evokation:1b,StoredEnchantments:[{id:\"minecraft:efficiency\",lvl:3s},{id:\"minecraft:mending\",lvl:1s}]}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Gray Evokation",
+                  "color": "dark_gray",
+                  "italic": "false"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Memory",
+                  "color": "yellow",
+                  "italic": "false"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 3,
+          "name": "minecraft:golden_sword",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{backstabbing_enchant:1b,lv2:1b,Enchantments:[{id:\"minecraft:mending\",lvl:1s}]}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Ritual Dagger",
+                  "color": "red",
+                  "italic": "false"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Backstabbing II",
+                  "color": "gray",
+                  "italic": "false"
+                },
+                {
+                  "text": " ",
+                  "italic": "false"
+                },
+                {
+                  "text": "The blade resembles a"
+                },
+                {
+                  "text": "golden tooth."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "weight": 3,
+          "name": "atrium:treasure/vanilla_chest_additions/curiosity/illager_curiosity",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

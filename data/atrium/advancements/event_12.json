@@ -1,0 +1,31 @@
+{
+    "__comment": "Whispers of Gods was the launch event for Atrium: Pantheon, January 9th, 2021.",
+    "display": {
+        "title": {
+            "text": "The Politics of Hell",
+            "color": "dark_aqua",
+            "bold": false
+        },
+        "description": {
+            "text": "Pantheon II - February 6th, 2021",
+            "color": "green",
+            "italic": true
+        },
+        "icon": {
+            "item": "minecraft:soul_sand"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "politicsofhell": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 50
+    },
+    "parent": "atrium:event_11"
+}

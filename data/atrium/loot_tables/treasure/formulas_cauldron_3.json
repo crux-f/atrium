@@ -1,0 +1,81 @@
+{
+  "type": "chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+           "type": "item",
+           "weight": 5,
+           "quality": 1,
+           "name": "minecraft:written_book",
+           "functions": [
+                {
+                    "function": "set_count",
+                    "count": 1
+                },
+                {
+                    "function": "set_nbt",
+                    "tag": "{pages:['[\"\",{\"text\":\"Crystal Vial\\\\n            \"},{\"text\":\"v\",\"color\":\"dark_purple\"},{\"text\":\"\\\\n         \",\"color\":\"reset\"},{\"text\":\" (   )\",\"color\":\"gray\"},{\"text\":\"\\\\n            \",\"color\":\"reset\"},{\"text\":\"=\",\"color\":\"gray\"},{\"text\":\"\\\\n\",\"color\":\"reset\"},{\"text\":\"v\",\"color\":\"dark_purple\"},{\"text\":\" - Amethyst Shard\\\\n\",\"color\":\"reset\"},{\"text\":\"(\",\"color\":\"gray\"},{\"text\":\",\",\"color\":\"reset\"},{\"text\":\")\",\"color\":\"gray\"},{\"text\":\",\",\"color\":\"reset\"},{\"text\":\"=\",\"color\":\"gray\"},{\"text\":\" - Gleaming Crystal\",\"color\":\"reset\"}]'],title:\"Formula: Crystal Vial\",author:\"???\",generation:1}"
+                },
+                {
+                    "function": "set_name",
+                    "name": [
+                       {
+                           "text": "Formula: Crystal Vial",
+                           "italic": "false"
+                       }
+                   ]
+                },
+                {
+                    "function": "set_lore",
+                    "lore": [
+                       {
+                           "text": "Empowered Cauldron Recipe",
+                           "color": "gray",
+                           "italic": "false"
+                       }
+                    ]
+                }
+            ]
+        },
+        {
+           "type": "item",
+           "weight": 5,
+           "quality": 1,
+           "name": "minecraft:written_book",
+           "functions": [
+                {
+                    "function": "set_count",
+                    "count": 1
+                },
+                {
+                    "function": "set_nbt",
+                    "tag": "{pages:['[\"\",{\"text\":\"Draft of the Prism (30:00)\\\\n            \"},{\"text\":\"O\",\"color\":\"light_purple\"},{\"text\":\"\\\\n         \",\"color\":\"reset\"},{\"text\":\" >\",\"color\":\"gray\"},{\"text\":\"   <\",\"color\":\"green\"},{\"text\":\"\\\\n           \",\"color\":\"reset\"},{\"text\":\" ^\",\"color\":\"aqua\"},{\"text\":\"\\\\n\",\"color\":\"reset\"},{\"text\":\"O\",\"color\":\"light_purple\"},{\"text\":\" - Arcane Kaleidoscope\\\\n\",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"gray\"},{\"text\":\" - Crystal Vial\\\\n\",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"green\"},{\"text\":\" - Bottle o\\' Enchanting\\\\n\",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"aqua\"},{\"text\":\" - Philter of Light-Eating\",\"color\":\"reset\"}]'],title:\"Formula: Draft of the Prism\",author:\"???\",generation:1}"
+                },
+                {
+                    "function": "set_name",
+                    "name": [
+                       {
+                           "text": "Formula: Draft of the Prism",
+                           "italic": "false"
+                       }
+                   ]
+                },
+                {
+                    "function": "set_lore",
+                    "lore": [
+                       {
+                           "text": "Empowered Cauldron Recipe",
+                           "color": "gray",
+                           "italic": "false"
+                       }
+                    ]
+                }
+            ]
+        }
+      ]
+    }
+  ]
+}

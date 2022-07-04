@@ -1,0 +1,25 @@
+{
+    "__comment": "Acquired by building a Warp Gate",
+    "display": {
+        "title": {
+            "text": "Now You're Thinking With Portals",
+            "color": "white"
+        },
+        "description": {
+            "text": "Build a Warp Gate"
+        },
+        "icon": {
+            "item": "minecraft:lodestone"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "warpgate": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "atrium:magic/spacial_awareness"
+}

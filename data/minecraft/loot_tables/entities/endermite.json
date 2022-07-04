@@ -1,0 +1,28 @@
+{
+  "type": "entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "empty",
+          "weight": 10,
+          "quality": -5
+        },
+        {
+          "type": "loot_table",
+          "weight": 30,
+          "quality": 3,
+          "name": "atrium:entity_drops/vanilla_drop_additions/endermite",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

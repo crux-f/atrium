@@ -1,0 +1,47 @@
+{
+    "display": {
+        "title": {
+            "text": "Abandoned Empire",
+            "color": "white"
+        },
+        "description": {
+            "text": "Find the Abrasar vista"
+        },
+        "icon": {
+            "item": "minecraft:sand"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "findvista": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "overworld",
+                "position": {
+                    "x": {
+                        "min": -357,
+                        "max": -355
+                    },
+                    "y": {
+                        "min": 90,
+                        "max": 93
+                    },
+                    "z": {
+                        "min": 2895,
+                        "max": 2897
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "experience": 50,
+        "loot": [
+            "atrium:overworld_vista"
+        ]
+    },
+    "parent": "atrium:paintedbarrens_vista"
+}

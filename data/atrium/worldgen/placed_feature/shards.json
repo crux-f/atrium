@@ -1,0 +1,22 @@
+{
+   "feature": "atrium:shards",
+   "placement": [
+      {
+         "type": "count",
+         "count": {
+            "type": "minecraft:uniform",
+            "value": {
+               "min_inclusive": 0.5,
+               "max_inclusive": 3.5
+            }
+         }
+      },
+      {
+         "type": "minecraft:in_square"
+      },
+      {
+         "type": "heightmap",
+         "heightmap": "MOTION_BLOCKING"
+      }
+   ]
+}

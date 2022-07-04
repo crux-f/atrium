@@ -1,0 +1,48 @@
+{
+    "display": {
+        "title": {
+            "text": "The Sinking Stone",
+            "color": "white"
+        },
+        "description": {
+            "text": "Find the Coolwater Gulf [N] waystone"
+        },
+        "icon": {
+            "item": "minecraft:sand"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "findvista": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:beach",
+                "dimension": "overworld",
+                "position": {
+                    "x": {
+                        "min": 39748,
+                        "max": 39749
+                    },
+                    "y": {
+                        "min": 73,
+                        "max": 74
+                    },
+                    "z": {
+                        "min": -3548,
+                        "max": -3547
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "experience": 50,
+        "loot": [
+            "atrium:overworld_vista"
+        ]
+    },
+    "parent": "atrium:iteration3_waystones/fellstar_highlands_s"
+}

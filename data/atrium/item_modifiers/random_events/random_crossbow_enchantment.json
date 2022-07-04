@@ -1,0 +1,10 @@
+[
+  {
+    "function": "minecraft:enchant_randomly",
+    "enchantments": [
+      "minecraft:piercing",
+      "minecraft:multishot",
+      "minecraft:quick_charge"
+    ]
+  }
+]

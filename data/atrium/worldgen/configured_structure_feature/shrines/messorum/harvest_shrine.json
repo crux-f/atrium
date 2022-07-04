@@ -1,0 +1,16 @@
+{
+  "config": {
+    "start_pool": "atrium:shrines/messorum/harvest_shrine_variations",
+    "size": 1
+  },
+  "biomes": [
+  "minecraft:forest",
+  "minecraft:flower_forest",
+  "minecraft:taiga",
+  "minecraft:windswept_forest",
+  "minecraft:old_growth_pine_taiga"
+        ],
+  "adapt_noise": true,
+  "spawn_overrides": {},
+  "type": "minecraft:village"
+}

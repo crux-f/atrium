@@ -1,0 +1,238 @@
+{
+  "type": "chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "loot_table",
+          "weight": 10,
+          "quality": 3,
+          "name": "atrium:treasure/formulas_cauldron_1",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "weight": 5,
+          "quality": 5,
+          "name": "atrium:treasure/formulas_cauldron_2",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "weight": 3,
+          "quality": 8,
+          "name": "atrium:treasure/formulas_cauldron_3",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "weight": 10,
+          "quality": 3,
+          "name": "atrium:treasure/formulas_infusion_1",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "weight": 5,
+          "quality": 5,
+          "name": "atrium:treasure/formulas_infusion_2",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "weight": 3,
+          "quality": 8,
+          "name": "atrium:treasure/formulas_infusion_3",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 5,
+          "quality": 2,
+          "name": "minecraft:golden_helmet",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Ashsworn Helm\",\"color\":\"gold\",\"italic\":false}',Lore:['{\"text\":\"The symbol of Ghael is\"}','{\"text\":\"worked into the inside\"}','{\"text\":\"of it, clasping the\"}','{\"text\":\"head like a halo.\"}']},RepairCost:99,ashsworn_helm:1b,Enchantments:[{id:\"minecraft:fire_protection\",lvl:3s},{id:\"minecraft:thorns\",lvl:1s},{id:\"minecraft:unbreaking\",lvl:3s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUID:[I;1077121267,-713078223,-2000199533,-801677381],Slot:\"head\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;1191230275,-1508095200,-1403058445,1260755112],Slot:\"head\"}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 5,
+          "quality": 2,
+          "name": "minecraft:golden_chestplate",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Ashsworn Platemail\",\"color\":\"gold\",\"italic\":false}',Lore:['{\"text\":\"Ornate platemail, made\"}','{\"text\":\"to fit those who\"}','{\"text\":\"swear the Oath of the\"}','{\"text\":\"Ashsworn.\"}']},RepairCost:99,ashsworn_platemail:1b,Enchantments:[{id:\"minecraft:fire_protection\",lvl:3s},{id:\"minecraft:thorns\",lvl:2s},{id:\"minecraft:unbreaking\",lvl:5s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:8,Operation:0,UUID:[I;394529749,1864911643,-1862283092,-497869036],Slot:\"chest\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;1042833277,-2136914295,-2019430285,-1482425440],Slot:\"chest\"}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 5,
+          "quality": 2,
+          "name": "minecraft:golden_leggings",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Ashsworn Greaves\",\"color\":\"gold\",\"italic\":false}',Lore:['{\"text\":\"With armor this heavy,\"}','{\"text\":\"it\\'s a wonder these\"}','{\"text\":\"knights are able to\"}','{\"text\":\"fight at all.\"}']},RepairCost:99,ashsworn_greaves:1b,Enchantments:[{id:\"minecraft:fire_protection\",lvl:3s},{id:\"minecraft:thorns\",lvl:1s},{id:\"minecraft:unbreaking\",lvl:3s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:7,Operation:0,UUID:[I;-92303856,1016546403,-1866070599,1240058352],Slot:\"legs\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;478804244,-167556366,-1315232678,-1469001489],Slot:\"legs\"}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 5,
+          "quality": 2,
+          "name": "minecraft:golden_boots",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Ashsworn Boots\",\"color\":\"gold\",\"italic\":false}',Lore:['{\"text\":\"They have spikes on the\"}','{\"text\":\"bottom, to dig into\"}','{\"text\":\"the basalt cliffs.\"}']},RepairCost:99,ashsworn_boots:1b,Enchantments:[{id:\"minecraft:unbreaking\",lvl:3s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUID:[I;-1903509257,2093893289,-1940282205,-2032418059],Slot:\"feet\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:1,Operation:0,UUID:[I;-145528194,-1139127467,-1640601610,1797944196],Slot:\"feet\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.25,Operation:0,UUID:[I;-328664832,763316123,-1810704107,-1553014526],Slot:\"feet\"}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 8,
+          "quality": 1,
+          "name": "minecraft:golden_axe",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Ashsworn Battleaxe\",\"color\":\"gold\",\"italic\":false}',Lore:['{\"text\":\"The Ashsworn Knights\"}','{\"text\":\"are but a remnant of\"}','{\"text\":\"the bastions they\"}','{\"text\":\"represent, but a\"}','{\"text\":\"powerful remnant, still.\"}']},RepairCost:99,ashsworn_battleaxe:1b,Enchantments:[{id:\"minecraft:sharpness\",lvl:2s},{id:\"minecraft:smite\",lvl:4s},{id:\"minecraft:unbreaking\",lvl:5s}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 8,
+          "quality": 0,
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Holy Symbol\",\"color\":\"yellow\",\"italic\":false}',Lore:['{\"text\":\"Ghael, The Infidel\",\"color\":\"gold\",\"italic\":false}']},ghael_symbol:1b,SkullOwner:{Id:[I;355317681,-1743372148,-1225562802,1464683116],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGZlMjdjMWZiOTNjMGFjNDNiMjBiMTIzNWE5ODUwMjYwYzllNDIwYmUxMGM1OWYxNGMyYzM3MzA1Njc1NzEwMSJ9fX0=\"}]}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 0,
+        "max": 1
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "loot_table",
+          "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                  "nbt": "{Inventory:[{tag:{curiosity_helmet:1b}}]}"
+                                  }
+                }
+          ],
+          "name": "atrium:treasure/vanilla_chest_additions/curiosity/bastion_curiosity",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "name": "atrium:treasure/vanilla_chest_additions/curiosity/bastion_curiosity",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

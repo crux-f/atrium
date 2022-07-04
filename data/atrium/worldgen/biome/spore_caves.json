@@ -1,0 +1,128 @@
+{
+  "effects": {
+    "mood_sound": {
+      "sound": "minecraft:atrium.ambient.spore_caves.mood",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2
+    },
+    "additions_sound": {
+      "sound": "minecraft:ambient.crimson_forest.additions",
+      "tick_chance": 0.0111
+    },
+    "music": {
+      "sound": "minecraft:atrium.bioluminescence",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": false
+    },
+    "particle": {
+      "options": {
+        "type": "minecraft:mycelium"
+      },
+      "probability": 0.025
+    },
+    "ambient_sound": "minecraft:atrium.ambient.spore_caves.loop",
+    "sky_color": 0,
+    "fog_color": 0,
+    "water_color": 6095,
+    "water_fog_color": 6095,
+    "foliage_color": 16249290,
+    "grass_color": 16741749
+  },
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ]
+  },
+  "features": [
+    [],
+    [],
+    [
+      "minecraft:amethyst_geode"
+    ],
+    [
+      "minecraft:monster_room",
+      "minecraft:monster_room_deep"    
+    ],
+    [],
+    [],
+    [
+      "atrium:ore_coal_lower_depths",
+      "atrium:ore_iron_middle_depths",
+      "atrium:ore_gold_depths",
+      "atrium:ore_redstone_lower_depths",
+      "atrium:ore_diamond_buried_depths",
+      "atrium:ore_lapis_depths",
+      "atrium:ore_copper_large_depths"
+    ],
+    [],
+    [
+      "minecraft:glow_lichen",
+      "minecraft:lush_caves_ceiling_vegetation",
+      "minecraft:cave_vines",
+      "minecraft:brown_mushroom_nether",
+      "minecraft:red_mushroom_nether",
+      "minecraft:seagrass_deep",
+      "minecraft:seagrass_simple",
+      "minecraft:kelp_cold",   
+      "atrium:under_redshroom",
+      "atrium:under_vegetation",
+      "minecraft:spore_blossom",
+      "minecraft:classic_vines_cave_feature"
+    ],
+    []
+  ],
+  "spawners": {
+    "monster": [],
+    "creature": [
+      {
+        "type": "minecraft:mooshroom",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 3
+      }
+  ],
+    "ambient": [
+      {
+        "type": "minecraft:bat",
+        "weight": 10,
+        "minCount": 3,
+        "maxCount": 5
+      }
+    ],
+    "axolotls": [
+      {
+        "type": "minecraft:axolotl",
+        "weight": 10,
+        "minCount": 3,
+        "maxCount": 5
+      }
+    ],
+    "underground_water_creature": [
+      {
+        "type": "minecraft:glow_squid",
+        "weight": 10,
+        "minCount": 4,
+        "maxCount": 6
+      }
+    ],
+    "water_creature": [],
+    "water_ambient": [
+      {
+        "type": "minecraft:tropical_fish",
+        "weight": 25,
+        "minCount": 6,
+        "maxCount": 8
+      }
+    ],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "precipitation": "none",
+  "temperature": 1.25,
+  "downfall": 0,
+  "category": "underground"
+}

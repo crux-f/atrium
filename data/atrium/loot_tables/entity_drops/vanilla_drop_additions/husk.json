@@ -1,0 +1,104 @@
+{
+  "type": "entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+{
+          "type": "item",
+          "weight": 5,
+          "quality": 3,
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{husk_trophy:1b,SkullOwner:{Id:[I;448664699,-361085172,-1904994610,-1880265546],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDY3NGM2M2M4ZGI1ZjRjYTYyOGQ2OWEzYjFmOGEzNmUyOWQ4ZmQ3NzVlMWE2YmRiNmNhYmI0YmU0ZGIxMjEifX19\"}]}}}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Hunting Trophy",
+                  "color": "yellow",
+                  "italic": "false"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Husk",
+                  "color": "red",
+                  "italic": "false"
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "direct_killer",
+              "predicate": {
+                "type": "minecraft:wolf"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "quality": 3,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "killer_player",
+              "predicate": {
+                "equipment": {
+                  "mainhand": {
+                    "nbt": "{sac_blade:1b}"
+                  }
+                }
+              }
+            }
+          ],
+          "name": "minecraft:coal",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{HideFlags:1,corrupted_heart:1b,Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s}]}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Corrupted Heart",
+                  "color": "dark_red",
+                  "italic": "false"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "It's still beating."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+       

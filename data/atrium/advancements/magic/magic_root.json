@@ -1,0 +1,27 @@
+{
+    "__comment": "Acquired by learning basic spellcraft in The Rambling Spire",
+    "criteria": {
+        "unlockspells": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "display": {
+        "title": {
+            "bold": false,
+            "color": "white",
+            "text": "Arcana"
+        },
+        "description": {
+            "color": "green",
+            "text": "Time to hit the books"
+        },
+        "icon": {
+            "item": "minecraft:enchanted_book"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true,
+        "background": "minecraft:textures/block/glowstone.png"
+    }
+}

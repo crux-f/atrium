@@ -1,0 +1,48 @@
+{
+    "display": {
+        "title": {
+            "text": "Treadstone Overlook",
+            "color": "white"
+        },
+        "description": {
+            "text": "Find the Fellstar Highlands [N] waystone"
+        },
+        "icon": {
+            "item": "minecraft:snow_block"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "findvista": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:snowy_slopes",
+                "dimension": "overworld",
+                "position": {
+                    "x": {
+                        "min": 36673,
+                        "max": 36674
+                    },
+                    "y": {
+                        "min": 159,
+                        "max": 160
+                    },
+                    "z": {
+                        "min": -3733,
+                        "max": -3732
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "experience": 50,
+        "loot": [
+            "atrium:overworld_vista"
+        ]
+    },
+    "parent": "atrium:atrium_root"
+}

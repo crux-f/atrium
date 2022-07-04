@@ -1,0 +1,70 @@
+{
+    "display": {
+        "title": {
+            "text": "Flying is Optional",
+            "color": "white"
+        },
+        "description": {
+            "text": "Discover every Meridian biome"
+        },
+        "icon": {
+            "item": "minecraft:golden_boots"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "sky": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "atrium:sky",
+                "dimension": "atrium:meridian"
+            }
+        },
+        "cloudgarden": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "atrium:cloudgarden",
+                "dimension": "atrium:meridian"
+            }
+        },
+        "autumn_isles": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "atrium:autumn_isles",
+                "dimension": "atrium:meridian"
+            }
+        },
+        "shards": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "atrium:shards",
+                "dimension": "atrium:meridian"
+            }
+        },
+        "sand_isles": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "atrium:sand_isles",
+                "dimension": "atrium:meridian"
+            }
+        },
+        "cloudpine_forest": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "atrium:cloudpine_forest",
+                "dimension": "atrium:meridian"
+            }
+        },
+        "overgrown_isles": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "atrium:overgrown_isles",
+                "dimension": "atrium:meridian"
+            }
+        }
+    },
+    "parent": "atrium:meridian/meridian_root"
+}

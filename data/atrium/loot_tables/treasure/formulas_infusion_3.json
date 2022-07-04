@@ -1,0 +1,82 @@
+{
+  "type": "chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+           "type": "item",
+           "weight": 5,
+           "quality": 1,
+           "name": "minecraft:written_book",
+           "functions": [
+                {
+                    "function": "set_count",
+                    "count": 1
+                },
+                {
+                    "function": "set_nbt",
+                    "tag": "{pages:['[\"\",{\"text\":\"Hellish Lantern\\\\n             \"},{\"text\":\"v\",\"color\":\"gold\"},{\"text\":\"\\\\n          \",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"gold\"},{\"text\":\"  @\",\"color\":\"green\"},{\"text\":\"  <\",\"color\":\"gold\"},{\"text\":\"\\\\n       x  \",\"color\":\"reset\"},{\"text\":\"[\",\"color\":\"red\"},{\"text\":\"     ]\",\"color\":\"red\"},{\"text\":\"  x\\\\n          x \",\"color\":\"reset\"},{\"text\":\" &\",\"color\":\"gray\"},{\"text\":\"  x\\\\n             x\\\\n\\\\n\",\"color\":\"reset\"},{\"text\":\"@\",\"color\":\"green\"},{\"text\":\" - Carved Pumpkin\\\\n\",\"color\":\"reset\"},{\"text\":\"v\",\"color\":\"gold\"},{\"text\":\",\",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"gold\"},{\"text\":\",\",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"gold\"},{\"text\":\" - Waxed Cut Copper\\\\n\",\"color\":\"reset\"},{\"text\":\"[\",\"color\":\"red\"},{\"text\":\",\",\"color\":\"reset\"},{\"text\":\"]\",\"color\":\"red\"},{\"text\":\" - Charged Blaze Rod\\\\n\",\"color\":\"reset\"},{\"text\":\"&\",\"color\":\"gray\"},{\"text\":\" - Campfire\",\"color\":\"reset\"}]'],title:\"Formula: Hellish Lantern\",author:\"???\",generation:1}"
+                },
+                {
+                    "function": "set_name",
+                    "name": [
+                       {
+                           "text": "Formula: Hellish Lantern",
+                           "italic": "false"
+                       }
+                   ]
+                },
+                {
+                    "function": "set_lore",
+                    "lore": [
+                       {
+                           "text": "Infusion Circle Recipe",
+                           "color": "gray",
+                           "italic": "false"
+                       }
+                    ]
+                }
+            ]
+        },
+        {
+           "type": "item",
+           "weight": 5,
+           "quality": 1,
+           "name": "minecraft:written_book",
+           "functions": [
+                {
+                    "function": "set_count",
+                    "count": 1
+                },
+                {
+                    "function": "set_nbt",
+                    "tag": "{pages:['[\"\",{\"text\":\"Staff of Fire (+3)\\\\n             \"},{\"text\":\"^\",\"color\":\"#BDAC2D\"},{\"text\":\"\\\\n          x  I  x\\\\n       x \",\"color\":\"reset\"},{\"text\":\" >\",\"color\":\"gray\"},{\"text\":\"     <\",\"color\":\"light_purple\"},{\"text\":\"  x\\\\n          x  \",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"dark_red\"},{\"text\":\"  x\\\\n             \",\"color\":\"reset\"},{\"text\":\"o\",\"color\":\"gold\"},{\"text\":\"\\\\n\",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"#BDAC2D\"},{\"text\":\" - Nether Star\\\\nI - Netherite Ingot\\\\n\",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"gray\"},{\"text\":\" - Forgotten Runestone\\\\n\",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"light_purple\"},{\"text\":\" - Draft of the Prism\\\\n\",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"dark_red\"},{\"text\":\" - Staff of Fire (+2)\\\\n\",\"color\":\"reset\"},{\"text\":\"o\",\"color\":\"gold\"},{\"text\":\" - Hellish Lantern [Power III]\",\"color\":\"reset\"}]','[\"\",{\"text\":\"After my brothers and I drove the Legion underground with our mastery of \"},{\"text\":\"Fire\",\"color\":\"red\"},{\"text\":\", those fools swore to destroy every last copy of this book. Are you a coward, as they were? Or will you join us as one who commands the mightiest element?\\\\n\\\\n \",\"color\":\"reset\"}]'],title:\"Trial By Fire\",author:\"Pyronicus, Duke of Devestation\",generation:1}"
+                },
+                {
+                    "function": "set_name",
+                    "name": [
+                       {
+                           "text": "Trial By Fire",
+                           "italic": "false",
+                           "color": "yellow"
+                       }
+                   ]
+                },
+                {
+                    "function": "set_lore",
+                    "lore": [
+                       {
+                           "text": "Infusion Circle Recipe",
+                           "color": "gray",
+                           "italic": "false"
+                       }
+                    ]
+                }
+            ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+    "__comment": "Granted by an admin",
+    "display": {
+        "title": {
+            "text": "The World Forge",
+            "color": "white",
+            "bold": false
+        },
+        "description": {
+            "text": "Collaborative community worldbuilding",
+            "color": "green",
+            "italic": true
+        },
+        "icon": {
+            "item": "minecraft:anvil"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "admin_grant": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 50
+    },
+    "parent": "atrium:community/community_root"
+}

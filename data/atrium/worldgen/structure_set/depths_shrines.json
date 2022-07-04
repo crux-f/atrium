@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "atrium:shrines/geota/crystal_shrine",
+      "weight": 10
+    }
+  ],
+  "placement": {
+    "salt": 20807060504030201,
+    "spacing": 40,
+    "separation": 15,
+    "type": "minecraft:random_spread"
+  }
+}

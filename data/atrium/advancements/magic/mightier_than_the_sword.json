@@ -1,0 +1,25 @@
+{
+    "__comment": "Acquired by enchanting an item using the Runic Codex",
+    "display": {
+        "title": {
+            "text": "Mightier Than The Sword",
+            "color": "white"
+        },
+        "description": {
+            "text": "Enchant an item using the runic codex"
+        },
+        "icon": {
+            "item": "minecraft:enchanting_table"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "advanced_enchantment": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "atrium:magic/magic_root"
+}

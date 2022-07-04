@@ -1,0 +1,96 @@
+{
+  "effects": {
+    "mood_sound": {
+      "sound": "minecraft:atrium.ambient.crystal_caves.mood",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2
+    },
+    "music": {
+      "sound": "minecraft:atrium.geotaspride",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": false
+    },
+    "particle": {
+      "options": {
+        "type": "minecraft:end_rod"
+      },
+      "probability": 0.0001
+    },
+    "sky_color": 0,
+    "fog_color": 0,
+    "water_color": 5857673,
+    "water_fog_color": 5857673,
+    "foliage color": 12171705,
+    "grass_color": 12171705
+  },
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ],
+    "liquid": []
+  },
+  "features": [
+    [],
+    [],
+    [
+      "minecraft:amethyst_geode"
+    ],
+    [
+      "minecraft:monster_room",
+      "minecraft:monster_room_deep"
+    ],
+    [],
+    [],
+    [
+      "atrium:ore_coal_lower_depths",
+      "atrium:ore_iron_middle_depths",
+      "atrium:ore_gold_depths",
+      "atrium:ore_redstone_lower_depths",
+      "atrium:ore_diamond_buried_depths",
+      "atrium:ore_lapis_depths",
+      "atrium:ore_lapis_buried_depths",
+      "atrium:ore_copper_large_depths",
+      "minecraft:underwater_magma",
+      "atrium:crystal_light_blue",
+      "atrium:crystal_cyan",
+      "atrium:crystal_purple"
+    ],
+    [],
+    [
+      "minecraft:spring_water"
+    ],
+    [
+      "minecraft:glow_lichen",
+      "minecraft:brown_mushroom_nether",
+      "minecraft:red_mushroom_nether",
+      "minecraft:seagrass_deep",
+      "minecraft:seagrass_simple",
+      "minecraft:kelp_cold"
+    ],
+    []
+  ],
+  "spawners": {
+    "monster": [],
+    "creature": [],
+    "ambient": [
+      {
+        "type": "minecraft:bat",
+        "weight": 10,
+        "minCount": 3,
+        "maxCount": 5
+      }
+    ],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "precipitation": "none",
+  "temperature": 0,
+  "downfall": 0,
+  "category": "underground"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "atrium:shrines/syrula/peristyle_spacer",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 10,
+      "element": {
+        "location": "atrium:shrines/syrula/peristyle_spacer",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+    "__comment": "The Crossroads was an embassy building challenge event along with the election to choose either ElderShrimp or Teethbones for Regent of Exorsa. 4/3/2021",
+    "display": {
+        "title": {
+            "text": "The Crossroads",
+            "color": "cyan",
+            "bold": false
+        },
+        "description": {
+            "text": "Pantheon IV - April 3rd, 2021",
+            "color": "green",
+            "italic": true
+        },
+        "icon": {
+            "item": "minecraft:oak_sign"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "thecrossroads": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 50
+    },
+    "parent": "atrium:event_13"
+}

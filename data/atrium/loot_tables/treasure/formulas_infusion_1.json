@@ -1,0 +1,478 @@
+{
+    "type": "chest",
+    "pools": [
+        {
+            "rolls": 1,
+            "bonus_rolls": 0,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 5,
+                    "quality": 1,
+                    "name": "minecraft:written_book",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{pages:['[\"\",{\"text\":\"Spacial Focus   \",\"color\":\"dark_aqua\"},{\"text\":\" \\\\n\",\"color\":\"reset\"},{\"text\":\"Infusion Recipe\",\"underlined\":true},{\"text\":\"\\\\n             x\\\\n          x  \",\"color\":\"reset\"},{\"text\":\"@\",\"color\":\"light_purple\"},{\"text\":\" x\\\\n       x  \",\"color\":\"reset\"},{\"text\":\"()\",\"color\":\"red\"},{\"text\":\"   ()\",\"color\":\"red\"},{\"text\":\"  x\\\\n          x  \",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"aqua\"},{\"text\":\"  x\\\\n             x\\\\n\",\"color\":\"reset\"},{\"text\":\"()\",\"color\":\"red\"},{\"text\":\" - Redstone Dust\\\\n\",\"color\":\"reset\"},{\"text\":\"@\",\"color\":\"light_purple\"},{\"text\":\" - Ender Pearl\\\\n\",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"aqua\"},{\"text\":\" - Diamond\",\"color\":\"reset\"}]'],title:\"Formula: Spacial Focus\",author:\"???\",generation:1}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "Formula: Spacial Focus",
+                                    "italic": "false"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "Infusion Circle Recipe",
+                                    "color": "gray",
+                                    "italic": "false"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "quality": 2,
+                    "name": "minecraft:written_book",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{pages:['[\"\",{\"text\":\"Staff of Earth\\\\n             \"},{\"text\":\"^\",\"color\":\"green\"},{\"text\":\"\\\\n          x  \",\"color\":\"reset\"},{\"text\":\"I\",\"color\":\"dark_green\"},{\"text\":\"  x\\\\n       x  \",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"dark_green\"},{\"text\":\"     <\",\"color\":\"dark_aqua\"},{\"text\":\"  x\\\\n          x  ^  x\\\\n             \",\"color\":\"reset\"},{\"text\":\"o\",\"color\":\"aqua\"},{\"text\":\"\\\\n\",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"green\"},{\"text\":\" - Emerald\\\\n\",\"color\":\"reset\"},{\"text\":\"I\",\"color\":\"dark_green\"},{\"text\":\" - Toxic Branch\\\\n\",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"dark_green\"},{\"text\":\" - Fern\\\\n\",\"color\":\"reset\"},{\"text\":\"< \",\"color\":\"dark_aqua\"},{\"text\":\"- Glow Lichen\\\\n^ - Trident\\\\n\",\"color\":\"reset\"},{\"text\":\"o\",\"color\":\"aqua\"},{\"text\":\" - Diamond\",\"color\":\"reset\"}]'],title:\"Formula: Staff of Earth (+1)\",author:\"???\",generation:2}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "Formula: Staff of Earth (+1)",
+                                    "italic": "false"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "Infusion Circle Recipe",
+                                    "color": "gray",
+                                    "italic": "false"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "quality": 2,
+                    "name": "minecraft:written_book",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{pages:['[\"\",{\"text\":\"Staff of Water (+1)\\\\n             \"},{\"text\":\"^\",\"color\":\"aqua\"},{\"text\":\"\\\\n          x  \",\"color\":\"reset\"},{\"text\":\"I\",\"color\":\"dark_aqua\"},{\"text\":\"  x\\\\n       x  \",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"dark_green\"},{\"text\":\"     <\",\"color\":\"blue\"},{\"text\":\"  x\\\\n          x  ^  x\\\\n             \",\"color\":\"reset\"},{\"text\":\"o\",\"color\":\"gray\"},{\"text\":\"\\\\n\",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"aqua\"},{\"text\":\" - Prismarine Crystals\\\\n\",\"color\":\"reset\"},{\"text\":\"I\",\"color\":\"dark_aqua\"},{\"text\":\" - Gleaming Prismarine\\\\n\",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"dark_green\"},{\"text\":\" - Kelp\\\\n\",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"blue\"},{\"text\":\" - Submerged Gemstone\\\\n^ - Trident\\\\n\",\"color\":\"reset\"},{\"text\":\"o\",\"color\":\"gray\"},{\"text\":\" - Nautilus Shell\",\"color\":\"reset\"}]'],title:\"Formula: Staff of Water (+1)\",author:\"???\",generation:2}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "Formula: Staff of Water (+1)",
+                                    "italic": "false"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "Infusion Circle Recipe",
+                                    "color": "gray",
+                                    "italic": "false"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "quality": 2,
+                    "name": "minecraft:written_book",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{pages:['[\"\",{\"text\":\"Staff of Fire\\\\n             \"},{\"text\":\"^\",\"color\":\"red\"},{\"text\":\"\\\\n          x  \",\"color\":\"reset\"},{\"text\":\"I\",\"color\":\"gold\"},{\"text\":\"  x\\\\n       x  \",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"dark_gray\"},{\"text\":\"     <\",\"color\":\"gold\"},{\"text\":\"  x\\\\n          x  ^  x\\\\n             \",\"color\":\"reset\"},{\"text\":\"o\",\"color\":\"dark_red\"},{\"text\":\"\\\\n\",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"red\"},{\"text\":\" - Campfire\\\\n\",\"color\":\"reset\"},{\"text\":\"I\",\"color\":\"gold\"},{\"text\":\" - Blaze Rod\\\\n\",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"dark_gray\"},{\"text\":\" - Flint and Steel\\\\n\",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"gold\"},{\"text\":\" - Essence of Amber\\\\n^ - Trident\\\\n\",\"color\":\"reset\"},{\"text\":\"o\",\"color\":\"dark_red\"},{\"text\":\" - Fire Charge\",\"color\":\"reset\"}]'],title:\"Formula: Staff of Fire (+1)\",author:\"???\",generation:2}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "Formula: Staff of Fire (+1)",
+                                    "italic": "false"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "Infusion Circle Recipe",
+                                    "color": "gray",
+                                    "italic": "false"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "quality": 2,
+                    "name": "minecraft:written_book",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{pages:['[\"\",{\"text\":\"Staff of Air\\\\n             \"},{\"text\":\"^\",\"color\":\"#B9B865\"},{\"text\":\"\\\\n          x  \",\"color\":\"reset\"},{\"text\":\"I\",\"color\":\"gold\"},{\"text\":\"  x\\\\n       x  \",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"gray\"},{\"text\":\"     <\",\"color\":\"gray\"},{\"text\":\"  x\\\\n          x  ^  x\\\\n             \",\"color\":\"reset\"},{\"text\":\"o\",\"color\":\"#D8D8D8\"},{\"text\":\"\\\\n\",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"#B9B865\"},{\"text\":\" - Air Crystal\\\\n\",\"color\":\"reset\"},{\"text\":\"I\",\"color\":\"gold\"},{\"text\":\" - Lightning Rod\\\\n\",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"gray\"},{\"text\":\" - Feather\\\\n\",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"gray\"},{\"text\":\" - Rabbit\\'s Foot\\\\n^ - Trident\\\\n\",\"color\":\"reset\"},{\"text\":\"o\",\"color\":\"#D8D8D8\"},{\"text\":\" - Phantom Membrane\",\"color\":\"reset\"}]'],title:\"Formula: Staff of Air (+1)\",author:\"???\",generation:2}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "Formula: Staff of Air (+1)",
+                                    "italic": "false"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "Infusion Circle Recipe",
+                                    "color": "gray",
+                                    "italic": "false"
+                                }
+							]
+                        }
+                     ]
+                },
+                {
+                    "type": "item",
+                    "weight": 4,
+                    "quality": 1,
+                    "name": "minecraft:written_book",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{pages:['[\"\",{\"text\":\"Air Crystal\\\\n       \"},{\"text\":\"      o\\\\n          o  \",\"color\":\"dark_gray\"},{\"text\":\"x\",\"color\":\"gray\"},{\"text\":\"  o\\\\n       o  \",\"color\":\"dark_gray\"},{\"text\":\"x     x\",\"color\":\"gray\"},{\"text\":\"  o\\\\n          o  \",\"color\":\"dark_gray\"},{\"text\":\"x \",\"color\":\"gray\"},{\"text\":\" o\",\"color\":\"dark_gray\"},{\"text\":\"\\\\n             \",\"color\":\"reset\"},{\"text\":\"o\",\"color\":\"dark_gray\"},{\"text\":\"\\\\nx - Nether Quartz\\\\n\",\"color\":\"reset\"},{\"text\":\"o\",\"color\":\"dark_gray\"},{\"text\":\" - Glass\",\"color\":\"reset\"}]'],title:\"Formula: Air Crystal\",author:\"???\",generation:2}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "Formula: Air Crystal",
+                                    "italic": "false"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "Infusion Circle Recipe",
+                                    "color": "gray",
+                                    "italic": "false"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 4,
+                    "quality": 1,
+                    "name": "minecraft:written_book",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{pages:['[\"\",{\"text\":\"Gleaming Prismarine\\\\n             x\\\\n          x  \"},{\"text\":\"v\",\"color\":\"aqua\"},{\"text\":\"  x\\\\n       x \",\"color\":\"reset\"},{\"text\":\" >     <\",\"color\":\"dark_aqua\"},{\"text\":\"  x\\\\n          x  \",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"blue\"},{\"text\":\"  x\\\\n             x\\\\n\",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"dark_aqua\"},{\"text\":\",\",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"dark_aqua\"},{\"text\":\" - Prismarine Crystals\\\\n\",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"blue\"},{\"text\":\" - Prismarine Shard\\\\n\",\"color\":\"reset\"},{\"text\":\"v \",\"color\":\"aqua\"},{\"text\":\"- Mysterious Fish\",\"color\":\"reset\"}]'],title:\"Formula: Gleaming Prismarine\",author:\"???\"}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "Formula: Gleaming Prismarine",
+                                    "italic": "false"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "Infusion Circle Recipe",
+                                    "color": "gray",
+                                    "italic": "false"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 4,
+                    "quality": 1,
+                    "name": "minecraft:written_book",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{pages:['[\"\",{\"text\":\"Scintillating Melon\\\\n             x\\\\n          x  \"},{\"text\":\"v\",\"color\":\"dark_green\"},{\"text\":\"  x\\\\n       x  \",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"red\"},{\"text\":\"     <\",\"color\":\"red\"},{\"text\":\"  x\\\\n          x  \",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"gold\"},{\"text\":\"  x\\\\n             x\\\\n\",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"red\"},{\"text\":\",\",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"red\"},{\"text\":\" - Blaze Rod\\\\n\",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"gold\"},{\"text\":\" - Glowstone Dust\\\\n\",\"color\":\"reset\"},{\"text\":\"v\",\"color\":\"dark_green\"},{\"text\":\" - Melon\",\"color\":\"reset\"}]'],title:\"Formula: Scintillating Melon\",author:\"???\"}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "Formula: Scintillating Melon",
+                                    "italic": "false"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "Infusion Circle Recipe",
+                                    "color": "gray",
+                                    "italic": "false"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 4,
+                    "quality": 1,
+                    "name": "minecraft:written_book",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{pages:['[\"\",{\"text\":\"Sorrowfruit\\\\n             x\\\\n          x  \"},{\"text\":\"v\",\"color\":\"red\"},{\"text\":\"  x\\\\n       x  \",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"gray\"},{\"text\":\"     <\",\"color\":\"gray\"},{\"text\":\"  x\\\\n          x  \",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"dark_purple\"},{\"text\":\"  x\\\\n             x\\\\n\",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"gray\"},{\"text\":\",\",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"gray\"},{\"text\":\" - Ghast Tear\\\\n\",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"dark_purple\"},{\"text\":\" - Crying Obsidian\\\\n\",\"color\":\"reset\"},{\"text\":\"v\",\"color\":\"red\"},{\"text\":\" - Apple\",\"color\":\"reset\"}]'],title:\"Formula: Sorrowfruit\",author:\"???\"}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "Formula: Sorrowfruit",
+                                    "italic": "false"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "Infusion Circle Recipe",
+                                    "color": "gray",
+                                    "italic": "false"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "quality": 3,
+                    "name": "minecraft:written_book",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{pages:['[\"\",{\"text\":\"Tipped Arrow\\\\n             x\\\\n          \"},{\"text\":\">\",\"color\":\"gray\"},{\"text\":\"  *\",\"color\":\"reset\",\"obfuscated\":true},{\"text\":\"  <\",\"color\":\"gray\"},{\"text\":\"\\\\n       x  x     x  x\\\\n          \",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"gray\"},{\"text\":\"  o\",\"color\":\"dark_gray\"},{\"text\":\"  <\",\"color\":\"gray\"},{\"text\":\"\\\\n             x\\\\n\",\"color\":\"reset\"},{\"text\":\"*\",\"obfuscated\":true},{\"text\":\" - Potion (any basic)\\\\n\",\"color\":\"reset\"},{\"text\":\"o\",\"color\":\"dark_gray\"},{\"text\":\" - Transmutation Powder\\\\n\",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"gray\"},{\"text\":\",\",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"gray\"},{\"text\":\" - Arrow\",\"color\":\"reset\"}]','{\"text\":\"Not everyone can be a dragonslayer.\\\\n\\\\n- E\"}'],title:\"Formula: Tipped Arrow\",author:\"E..?\",generation:1}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "Formula: Tipped Arrow",
+                                    "italic": "false"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "Infusion Circle Recipe",
+                                    "color": "gray",
+                                    "italic": "false"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "quality": 2,
+                    "name": "minecraft:written_book",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{pages:['[\"\",{\"text\":\"Cyclone Cube\\\\n             x\\\\n          x  \"},{\"text\":\"v\",\"color\":\"aqua\"},{\"text\":\"  x\\\\n       ~  \",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"aqua\"},{\"text\":\"  !\",\"color\":\"red\"},{\"text\":\"  <\",\"color\":\"aqua\"},{\"text\":\"  ~\\\\n          x  \",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"aqua\"},{\"text\":\"  x\\\\n             o\\\\n\",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"aqua\"},{\"text\":\",\",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"aqua\"},{\"text\":\",\",\"color\":\"reset\"},{\"text\":\"v\",\"color\":\"aqua\"},{\"text\":\",\",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"aqua\"},{\"text\":\" - Glass\\\\n~ - Potion of Slowness IV (0:20)\\\\n\",\"color\":\"reset\"},{\"text\":\"!\",\"color\":\"red\"},{\"text\":\" - (Ritual requires a storm)\\\\n\",\"color\":\"reset\"}]'],title:\"Ritual: Cyclone Cube\",author:\"???\",generation:2}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "Ritual: Cyclone Cube",
+                                    "italic": "false"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "Infusion Circle Recipe",
+                                    "color": "gray",
+                                    "italic": "false"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 5,
+                    "quality": 2,
+                    "name": "minecraft:written_book",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{pages:['[\"\",{\"text\":\"Bottle o Enchanting\\\\n \\\\u0020 \\\\u0020 \\\\u0020 \\\\u0020 \\\\u0020 \\\\u0020 x\\\\n \\\\u0020 \\\\u0020 \\\\u0020 \\\\u0020 \\\\u0020x \\\\u0020\"},{\"text\":\"*\",\"color\":\"gold\"},{\"text\":\" \\\\u0020x\\\\n \\\\u0020 \\\\u0020 \\\\u0020 x \\\\u0020x \\\\u0020\",\"color\":\"reset\"},{\"text\":\"!\",\"color\":\"red\"},{\"text\":\" \\\\u0020x \\\\u0020x\\\\n \\\\u0020 \\\\u0020 \\\\u0020 \\\\u0020 \\\\u0020x \\\\u0020O \\\\u0020x\\\\n \\\\u0020 \\\\u0020 \\\\u0020 \\\\u0020 \\\\u0020 \\\\u0020 x\\\\n\",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"gold\"},{\"text\":\" - Gold Nugget\\\\nO - Glass Bottle\\\\n\",\"color\":\"reset\"},{\"text\":\"!\",\"color\":\"red\"},{\"text\":\" - (Ritual requires a player with at least 1 level of Experience)\",\"color\":\"reset\"}]','[\"\",{\"text\":\"Bottle o Enchanting (45x)\\\\n \\\\u0020 \\\\u0020 \\\\u0020 \\\\u0020 \\\\u0020 \\\\u0020 x\\\\n \\\\u0020 \\\\u0020 \\\\u0020 \\\\u0020 \\\\u0020x \\\\u0020\"},{\"text\":\"*\",\"color\":\"gold\"},{\"text\":\" \\\\u0020x\\\\n \\\\u0020 \\\\u0020 \\\\u0020 x \\\\u0020x \\\\u0020\",\"color\":\"reset\"},{\"text\":\"!\",\"color\":\"red\"},{\"text\":\" \\\\u0020 x \\\\u0020x\\\\n \\\\u0020 \\\\u0020 \\\\u0020 \\\\u0020 \\\\u0020x \\\\u0020O \\\\u0020x\\\\n \\\\u0020 \\\\u0020 \\\\u0020 \\\\u0020 \\\\u0020 \\\\u0020 x\\\\n\",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"gold\"},{\"text\":\" - Gold Ingot\\\\nO - Glass Bottle\\\\n\",\"color\":\"reset\"},{\"text\":\"!\",\"color\":\"red\"},{\"text\":\" - (Ritual requires a player with at least 15 levels of Experience)\",\"color\":\"reset\"}]','{\"text\":\"These rituals draw power from within you and contain it. I would caution against making a habit of bottling and selling spiritual energy. It can lead to dangerous places.\\\\nAbrasar learned that the hard way. - E\"}'],title:\"Ritual: Bottle o Enchanting\",author:\"E..?\",generation:1}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "Formula: Bottle o' Enchanting",
+                                    "italic": "false"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "Infusion Circle Recipe",
+                                    "color": "gray",
+                                    "italic": "false"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 4,
+                    "quality": 1,
+                    "name": "minecraft:written_book",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{pages:['[\"\",{\"text\":\"Brightsteel Ingot\\\\n \\\\u0020 \\\\u0020 \\\\u0020 \\\\u0020 \\\\u0020 \\\\u0020 x\\\\n \\\\u0020 \\\\u0020 \\\\u0020 \\\\u0020 \\\\u0020x \\\\u0020\"},{\"text\":\"*\",\"color\":\"gray\"},{\"text\":\" \\\\u0020x\\\\n \\\\u0020 \\\\u0020 \\\\u0020 x \\\\u0020\",\"color\":\"reset\"},{\"text\":\"+ \\\\u0020 \\\\u0020 +\",\"color\":\"#BBA33D\"},{\"text\":\" \\\\u0020x\\\\n \\\\u0020 \\\\u0020 \\\\u0020 \\\\u0020 \\\\u0020x \\\\u0020\",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"gray\"},{\"text\":\" \\\\u0020x\\\\n \\\\u0020 \\\\u0020 \\\\u0020 \\\\u0020 \\\\u0020 \\\\u0020 x\\\\n\",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"gray\"},{\"text\":\" - Iron Ingot\\\\n\",\"color\":\"reset\"},{\"text\":\"+\",\"color\":\"#BBA33D\"},{\"text\":\" - Glowstone Dust\",\"color\":\"reset\"}]'],title:\"Formula: Brightsteel Ingot\",author:\"???\"}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "Formula: Brightsteel Ingot",
+                                    "italic": "false"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "Infusion Circle Recipe",
+                                    "color": "gray",
+                                    "italic": "false"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 2,
+                    "quality": 3,
+                    "name": "atrium:treasure/formulas_infusion_2",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "light": {
+                "light": {
+                  "min": 6,
+                  "max": 15
+                }
+              }
+            }
+          }
+        ],
+        "item": {
+          "nbt": "{arcane_kaleidoscope:1b}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "atrium:triggers/treasure/arcane_kaleidoscope"
+  }
+}

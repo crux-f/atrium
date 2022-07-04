@@ -1,0 +1,70 @@
+{
+    "display": {
+        "title": {
+            "text": "Expert Spelunker",
+            "color": "white"
+        },
+        "description": {
+            "text": "Discover every Depths biome"
+        },
+        "icon": {
+            "item": "minecraft:iron_boots"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "crystal_caves": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "atrium:crystal_caves",
+                "dimension": "atrium:depths"
+            }
+        },
+        "clotted_caves": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "atrium:clotted_caves",
+                "dimension": "atrium:depths"
+            }
+        },
+        "volcanic_caves": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "atrium:volcanic_caves",
+                "dimension": "atrium:depths"
+            }
+        },
+        "avalanche_caves": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "atrium:crystal_caves",
+                "dimension": "atrium:depths"
+            }
+        },
+        "spore_caves": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "atrium:spore_caves",
+                "dimension": "atrium:depths"
+            }
+        },
+        "crawling_caves": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "atrium:crawling_caves",
+                "dimension": "atrium:depths"
+            }
+        },
+        "frozen_caves": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "atrium:frozen_caves",
+                "dimension": "atrium:depths"
+            }
+        }
+    },
+    "parent": "atrium:depths/depths_root"
+}

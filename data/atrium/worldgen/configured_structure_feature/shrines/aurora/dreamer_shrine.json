@@ -1,0 +1,14 @@
+{
+  "config": {
+    "start_pool": "atrium:shrines/aurora/dreamer_shrine_placer",
+    "size": 2
+  },
+  "biomes": [
+  "atrium:sky",
+  "atrium:autumn_isles",
+  "atrium:cloudpine_forest"
+        ],
+  "adapt_noise": false,
+  "spawn_overrides": {},
+  "type": "minecraft:village"
+}

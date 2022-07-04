@@ -1,0 +1,14 @@
+{
+  "config": {
+    "start_pool": "atrium:shrines/ghael/golden_stairs_shrine_variations",
+    "size": 1
+  },
+  "biomes": [
+  "minecraft:nether_wastes",
+  "minecraft:crimson_forest",
+  "minecraft:basalt_deltas"
+        ],
+  "adapt_noise": true,
+  "spawn_overrides": {},
+  "type": "minecraft:bastion_remnant"
+}

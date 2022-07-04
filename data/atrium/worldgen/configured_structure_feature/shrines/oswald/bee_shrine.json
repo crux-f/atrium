@@ -1,0 +1,16 @@
+{
+  "config": {
+    "start_pool": "atrium:shrines/oswald/bee_shrine_variations",
+    "size": 1
+  },
+  "biomes": [
+  "minecraft:flower_forest",
+  "minecraft:plains",
+  "minecraft:sunflower_plains",
+  "minecraft:forest",
+  "minecraft:birch_forest"
+        ],
+  "adapt_noise": true,
+  "spawn_overrides": {},
+  "type": "minecraft:village"
+}

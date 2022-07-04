@@ -1,0 +1,29 @@
+{
+    "__comment": "welcome to a peaceful world (mostly)",
+    "criteria": {
+    "requirement": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "atrium:meridian"
+      }
+    }
+    },
+    "display": {
+        "title": {
+            "color": "white",
+            "text": "Meridian"
+        },
+        "description": {
+            "color": "green",
+            "text": "As above, so below"
+        },
+        "icon": {
+            "item": "minecraft:snow_block"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true,
+        "background": "minecraft:textures/block/quartz_block_bottom.png"
+    }
+}

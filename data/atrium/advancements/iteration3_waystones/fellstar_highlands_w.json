@@ -1,0 +1,48 @@
+{
+    "display": {
+        "title": {
+            "text": "Stone Roots",
+            "color": "white"
+        },
+        "description": {
+            "text": "Find the Fellstar Highlands [W] waystone"
+        },
+        "icon": {
+            "item": "minecraft:copper_ore"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "findvista": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:forest",
+                "dimension": "overworld",
+                "position": {
+                    "x": {
+                        "min": 35731,
+                        "max": 35732
+                    },
+                    "y": {
+                        "min": 63,
+                        "max": 64
+                    },
+                    "z": {
+                        "min": -3744,
+                        "max": -3743
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "experience": 50,
+        "loot": [
+            "atrium:overworld_vista"
+        ]
+    },
+    "parent": "atrium:iteration3_waystones/fellstar_highlands_e"
+}

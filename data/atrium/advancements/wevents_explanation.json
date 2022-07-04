@@ -1,0 +1,30 @@
+{
+    "__comment": "New fork in the path for different event stuff",
+    "display": {
+        "title": {
+            "text": "World Events",
+            "color": "dark_green"
+        },
+        "description": {
+            "text": "A series of many Monthly Events",
+            "color": "green",
+            "italic": true
+        },
+        "icon": {
+            "item": "minecraft:dark_oak_sapling"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "granted": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 0
+    },
+    "parent": "atrium:events_root"
+}

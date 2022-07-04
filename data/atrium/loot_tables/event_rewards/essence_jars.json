@@ -1,0 +1,176 @@
+{
+  "type": "chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Essence Jar\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Pride\",\"color\":\"gray\",\"italic\":false,\"underlined\":true}','{\"text\":\"Rainbow\",\"color\":\"gray\",\"italic\":false}']},essence_jar:1b,SkullOwner:{Id:[I;1311241030,-977844329,-1376284959,-466484519],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzBkYzQ3ZTlkMjYzNDJlZTg5ODc1NjI4YjQ5NmFhZGE1YjBiNDM3YTk0MzM0YzU0ZTU2Y2RhZmY0NzFhOTNjYSJ9fX0=\"}]}}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Essence Jar\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Pride\",\"color\":\"gray\",\"italic\":false,\"underlined\":true}','{\"text\":\"Lesbian\",\"color\":\"gray\",\"italic\":false}']},essence_jar:1b,SkullOwner:{Id:[I;1045372497,411715701,-1993380280,257921790],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjU1ZTM3Mjg1NDhjNTVmMGVmN2M3Njg5OGViZGQ0ODFjMWUwMjliMDU4N2FjMGUwYzA5ZTA5YmExMzhkYjUwZSJ9fX0=\"}]}}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Essence Jar\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Pride\",\"color\":\"gray\",\"italic\":false,\"underlined\":true}','{\"text\":\"Gay\",\"color\":\"gray\",\"italic\":false}']},essence_jar:1b,SkullOwner:{Id:[I;-854773869,379406904,-1301334244,-591878793],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGQ4Yzk2MjY3YTdlZDU4NzMxNDZlMGJhNzEyY2ZiMWEwZTAyNGRiNjcyNTY0OTE5MjZmYTAzNTY2ZGFlZTU5NCJ9fX0=\"}]}}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Essence Jar\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Pride\",\"color\":\"gray\",\"italic\":false,\"underlined\":true}','{\"text\":\"Bisexual\",\"color\":\"gray\",\"italic\":false}']},essence_jar:1b,SkullOwner:{Id:[I;-363344925,-1348648561,-1386699461,-831508921],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzMwZTBiZmNiYzcyNjJkZTAyMDU4OTIyMDA1Yjg0NGVkNTczYTgxOWFhMzg3ZTRlMDE3ZDJmMWY4MTdmNzBjMSJ9fX0=\"}]}}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Essence Jar\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Pride\",\"color\":\"gray\",\"italic\":false,\"underlined\":true}','{\"text\":\"Pansexual\",\"color\":\"gray\",\"italic\":false}']},essence_jar:1b,SkullOwner:{Id:[I;838114019,-1016839112,-1740736435,1604272096],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODk0Mzk1MGVhMzNjYWEyNzZhNWIwMDI1YTdiN2Q3Yjc5Y2MzM2U0YmQ3MDc3YTgyNmIwYjBjMWIwMDVjNmE2YiJ9fX0=\"}]}}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Essence Jar\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Pride\",\"color\":\"gray\",\"italic\":false,\"underlined\":true}','{\"text\":\"Ace\",\"color\":\"gray\",\"italic\":false}']},essence_jar:1b,SkullOwner:{Id:[I;-161478570,1889225826,-1964260967,-60926339],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGY0ZjE4NzQzNjg3NTYyYzJlMjk3MzBlY2E3ODQyMGFlMDNmODczZWRiODEyNTVmMzFiNTBjNmRhOTI1ZTJjNyJ9fX0=\"}]}}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Essence Jar\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Pride\",\"color\":\"gray\",\"italic\":false,\"underlined\":true}','{\"text\":\"Aro\",\"color\":\"gray\",\"italic\":false}']},essence_jar:1b,SkullOwner:{Id:[I;1287986368,-1446491625,-1119573512,518000237],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWMxMGFkNTY3MzQ3N2ZmZDY4ZTRmMDY2NzE0NmI1ODYxYTgxNmI5ZTYyZjg5Y2RlN2ZmMTYwYzc3N2E5MjFhNiJ9fX0=\"}]}}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Essence Jar\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Pride\",\"color\":\"gray\",\"italic\":false,\"underlined\":true}','{\"text\":\"Nonbinary\",\"color\":\"gray\",\"italic\":false}']},essence_jar:1b,SkullOwner:{Id:[I;702005299,1799635631,-2006058124,-1983758654],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjhmYjZiMGQ2NWQ0OTlkMWYwYjIzZGM1MjQ3ZjE1OWJmYzVmZmFmOGNjZDlhMjU0MjRlMThjMjk1ZTkwYmVlMiJ9fX0=\"}]}}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Essence Jar\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Pride\",\"color\":\"gray\",\"italic\":false,\"underlined\":true}','{\"text\":\"Genderfluid\",\"color\":\"gray\",\"italic\":false}']},essence_jar:1b,SkullOwner:{Id:[I;-969082672,-282834807,-1298439809,1896494210],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTcyZmUxNmZjY2FjYzk0YzMxMzA2NzBlNzc5MmEwMDgzZjU0NWE3YzY0MTJiZTUzOWE4YzhhOTJkMjIxODA5ZCJ9fX0=\"}]}}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Essence Jar\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Pride\",\"color\":\"gray\",\"italic\":false,\"underlined\":true}','{\"text\":\"Trans\",\"color\":\"gray\",\"italic\":false}']},essence_jar:1b,SkullOwner:{Id:[I;-995481441,111821189,-1164482869,1183099943],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzdiZTU3MGIzOTUzMzU5MTI2MGU4NTlkZDhmZGRiNzNkYjQ1ZWIwNmQ4NjA3ODkxMTA2ZTg4MDkxOWMxMmI1OCJ9fX0=\"}]}}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Essence Jar\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Pride\",\"color\":\"gray\",\"italic\":false,\"underlined\":true}','{\"text\":\"Bigender\",\"color\":\"gray\",\"italic\":false}']},essence_jar:1b,SkullOwner:{Id:[I;-687843574,516573546,-1638050481,359035972],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWM5NzUyYjYxOWE4OTFjMjEyMTA3MzM5MWY4MzVjODZhNWQ1N2Y0OGFjYzc4ZDQ5N2RlNDRkOTA0MzcyNTU1OSJ9fX0=\"}]}}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

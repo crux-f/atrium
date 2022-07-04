@@ -1,0 +1,90 @@
+{
+  "effects": {
+    "mood_sound": {
+      "sound": "minecraft:atrium.ambient.crystal_caves.mood",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2
+    },
+    "music": {
+      "sound": "minecraft:atrium.geotaspride",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": false
+    },
+    "sky_color": 0,
+    "fog_color": 0,
+    "water_color": 12052223,
+    "water_fog_color": 12052223,
+    "grass_color": 12052223,
+    "foliage_color": 12052223
+  },
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ],
+    "liquid": []
+  },
+  "features": [
+    [],
+    [],
+    [
+      "minecraft:iceberg_packed",
+      "minecraft:iceberg_blue",
+      "minecraft:amethyst_geode"
+    ],
+    [
+      "minecraft:monster_room",
+      "minecraft:monster_room_deep"
+    ],
+    [
+      "minecraft:blue_ice"
+    ],
+    [],
+    [
+      "atrium:ore_coal_lower_depths",
+      "atrium:ore_iron_middle_depths",
+      "atrium:ore_gold_depths",
+      "atrium:ore_gold_lower_depths",
+      "atrium:ore_redstone_lower_depths",
+      "atrium:ore_diamond_buried_depths",
+      "atrium:ore_lapis_depths",
+      "atrium:ore_copper_large_depths"
+    ],
+    [
+      "atrium:blue_ice_spike"
+    ],
+    [
+      "minecraft:spring_water"
+    ],
+    [
+      "minecraft:kelp_cold"
+    ],
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ],
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:stray",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 3
+      }
+    ],
+    "creature": [],
+    "ambient": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "precipitation": "snow",
+  "temperature": -1,
+  "temperature_modifier": "frozen",
+  "downfall": 0.25,
+  "category": "underground"
+}

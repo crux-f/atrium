@@ -1,0 +1,31 @@
+{
+    "__comment": "Acquired by interacting with a shrine",
+    "display": {
+        "title": {
+            "text": "Higher Power",
+            "color": "white",
+            "bold": false
+        },
+        "description": {
+            "text": "Use a shrine",
+            "color": "green",
+            "italic": true
+        },
+        "icon": {
+            "item": "minecraft:nether_star"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "interactwithshrine": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 50
+    },
+    "parent": "atrium:belief/belief_root"
+}

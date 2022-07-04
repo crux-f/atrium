@@ -1,0 +1,27 @@
+{
+    "__comment": "Granted manually by an admin for participating in things like community worldbuilding events",
+    "criteria": {
+        "playevent": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "display": {
+        "title": {
+            "bold": false,
+            "color": "white",
+            "text": "Community"
+        },
+        "description": {
+            "color": "green",
+            "text": "Thanks for helping us make Atrium a nice place"
+        },
+        "icon": {
+            "item": "minecraft:honeycomb"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true,
+        "background": "minecraft:textures/block/raw_copper_block.png"
+    }
+}

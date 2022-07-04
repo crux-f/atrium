@@ -1,0 +1,14 @@
+{
+  "config": {
+    "start_pool": "atrium:shrines/aurora/pinwheel_shrine_variations",
+    "size": 2
+  },
+  "biomes": [
+  "atrium:sky",
+  "atrium:cloudpine_forest",
+  "atrium:sand_isles"
+        ],
+  "adapt_noise": false,
+  "spawn_overrides": {},
+  "type": "minecraft:village"
+}

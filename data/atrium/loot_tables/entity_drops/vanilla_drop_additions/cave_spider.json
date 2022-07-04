@@ -1,0 +1,184 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": {
+        "min": 0,
+        "max": 2
+      },
+      "entries": [
+        {
+          "type": "item",
+          "weight": 100,
+          "quality": 0,
+          "name": "minecraft:string",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 0
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 20,
+          "quality": 3,
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{cave_spider_trophy:1b,SkullOwner:\"MHF_CaveSpider\"}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Hunting Trophy",
+                  "color": "aqua",
+                  "italic": "false"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Cave Spider",
+                  "color": "dark_blue",
+                  "italic": "false"
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "direct_killer",
+              "predicate": {
+                "type": "minecraft:wolf"
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "killer_player",
+              "predicate": {
+                "equipment": {
+                  "mainhand": {
+                    "nbt": "{sac_blade:1b}"
+                  }
+                }
+              }
+            }
+          ],
+          "weight": 5,
+          "quality": 3,
+          "name": "minecraft:spider_eye",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{HideFlags:1,depths_watcher:1b,Enchantments:[{id:\"minecraft:depth_strider\",lvl:1s}]}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Depths Watcher",
+                  "color": "yellow",
+                  "italic": "false"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "The mines are abandoned"
+                },
+                {
+                  "text": "for a reason. Where did"
+                },
+                {
+                  "text": "they come from, really?"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "killer_player"
+            }
+          ],
+          "weight": 2,
+          "quality": 2,
+          "name": "minecraft:spider_eye",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{HideFlags:1,depths_watcher:1b,Enchantments:[{id:\"minecraft:depth_strider\",lvl:1s}]}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Depths Watcher",
+                  "color": "yellow",
+                  "italic": "false"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "The mines are abandoned"
+                },
+                {
+                  "text": "for a reason. Where did"
+                },
+                {
+                  "text": "they come from, really?"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

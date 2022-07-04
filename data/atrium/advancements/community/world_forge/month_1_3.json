@@ -1,0 +1,31 @@
+{
+    "__comment": "Granted manually by an admin when player makes a submission",
+    "display": {
+        "title": {
+            "text": "Chapter 2",
+            "color": "white",
+            "bold": false
+        },
+        "description": {
+            "text": "Contribute to Month 1/3 (August 2022).",
+            "color": "green",
+            "italic": true
+        },
+        "icon": {
+            "item": "minecraft:book"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "admin_grant": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 50
+    },
+    "parent": "atrium:community/world_forge/month_1_2"
+}

@@ -1,0 +1,31 @@
+{
+    "__comment": "Designates players who started at Emberpeak Isle.",
+    "display": {
+        "title": {
+            "text": "Born of Fire",
+            "color": "red",
+            "bold": false
+        },
+        "description": {
+            "text": "The aspect to which you are attuned",
+            "color": "green",
+            "italic": true
+        },
+        "icon": {
+            "item": "minecraft:red_stained_glass"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "emberpeak_start": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 0
+    },
+    "parent": "atrium:atrium_root"
+}

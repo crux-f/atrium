@@ -1,0 +1,365 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 5,
+          "quality": 1,
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{ornate_chalice:1b,curiosity:1b,SkullOwner:{Id:[I;-604797885,764101470,-1726067749,-766484999],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWViMWVjMTEyZjY4ZDE4NDk3NTQxNDk1ODkzYTM3NWMzMTdhNzc3ZTAxM2JiZjEzNTg5YjFkODg1MzJjYyJ9fX0=\"}]}}}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Ornate Chalice",
+                  "italic": "false"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Curiosity",
+                  "color": "aqua",
+                  "italic": "false"
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "A symbol of wealth"
+                },
+                {
+                  "text": "found in places where"
+                },
+                {
+                  "text": "gold means more than honor."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "quality": 3,
+          "name": "minecraft:totem_of_undying",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "What magic do they"
+                },
+                {
+                  "text": "evoke to create such things?"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 5,
+          "quality": 1,
+          "name": "minecraft:crossbow",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{antique_crossbow:1b,curiosity:1b,Enchantments:[{id:\"minecraft:unbreaking\",lvl:3s}]}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Antique Crossbow",
+                  "italic": "false"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Curiosity",
+                  "color": "aqua",
+                  "italic": "false"
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "It has seen many a battle,"
+                },
+                {
+                  "text": "and seems to be kept"
+                },
+                {
+                  "text": "for sentimental reasons."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "quality": 1,
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{traveler_bust:1b,curiosity:1b,SkullOwner:{Id:[I;-1713100179,1153715042,-1560745282,-1663096525],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGYyYzlkYzMxNGJlZmM4ZDEyZjJlODc4NmM5NDM1YmZkMjRkOTExNmZjOTRjNWVjNDVmZDgzYmQyZGM4NGE0ZiJ9fX0=\"}]}}}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Traveler Bust",
+                  "color": "yellow",
+                  "italic": "false"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Curiosity",
+                  "color": "aqua",
+                  "italic": "false"
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "An iron bust of a"
+                },
+                {
+                  "text": "traveler."
+                },
+                {
+                  "text": "You don't know their name."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "quality": 0,
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{curiosity:1b}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Log Book",
+                  "italic": "false"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Curiosity",
+                  "color": "aqua",
+                  "italic": "false"
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "Unfortunately, it's"
+                },
+                {
+                  "text": "written in illager."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:chest",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{stolen_goods_plains:1b,BlockEntityTag:{LootTable:\"minecraft:chests/village/village_plains_house\"}}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Stolen Goods",
+                  "italic": "false"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "A collection of goods"
+                },
+                {
+                  "text": "taken from a village."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:chest",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{stolen_goods_savanna:1b,BlockEntityTag:{LootTable:\"minecraft:chests/village/village_savanna_house\"}}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Stolen Goods",
+                  "italic": "false"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "A collection of goods"
+                },
+                {
+                  "text": "taken from a village."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:chest",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{stolen_goods_desert:1b,BlockEntityTag:{LootTable:\"minecraft:chests/village/village_desert_house\"}}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Stolen Goods",
+                  "italic": "false"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "A collection of goods"
+                },
+                {
+                  "text": "taken from a village."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:chest",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{stolen_goods_taiga:1b,BlockEntityTag:{LootTable:\"minecraft:chests/village/village_taiga_house\"}}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Stolen Goods",
+                  "italic": "false"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "A collection of goods"
+                },
+                {
+                  "text": "taken from a village."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

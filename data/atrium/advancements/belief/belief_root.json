@@ -1,0 +1,27 @@
+{
+    "__comment": "Acquired by interacting with a shrine",
+    "criteria": {
+        "playevent": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "display": {
+        "title": {
+            "bold": false,
+            "color": "white",
+            "text": "Belief"
+        },
+        "description": {
+            "color": "green",
+            "text": "A complex topic, simplified"
+        },
+        "icon": {
+            "item": "minecraft:elytra"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true,
+        "background": "minecraft:textures/block/calcite.png"
+    }
+}

@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "atrium:patreon/sky_gifts/beepsneeps_box"
+      }
+    }
+  },
+  "rewards": {
+    "function": "atrium:patreon/chests/chest_particle_test"
+  }
+}

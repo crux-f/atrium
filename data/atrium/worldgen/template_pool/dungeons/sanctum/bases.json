@@ -1,0 +1,15 @@
+{
+  "name": "atrium:dungeons/sanctum/bases",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 3,
+      "element": {
+        "location": "atrium:dungeons/sanctum/sanctum_base/infusion_base",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "atrium:misc/dream_isle_variations",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 10,
+      "element": {
+        "location": "atrium:misc/dream_isles/azalea_isle_base",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

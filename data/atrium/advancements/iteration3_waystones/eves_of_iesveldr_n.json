@@ -1,0 +1,48 @@
+{
+    "display": {
+        "title": {
+            "text": "Pinecone Caldera",
+            "color": "white"
+        },
+        "description": {
+            "text": "Find the Eves of Iesveldr [N] waystone"
+        },
+        "icon": {
+            "item": "minecraft:spruce_leaves"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "findvista": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:jagged_peaks",
+                "dimension": "overworld",
+                "position": {
+                    "x": {
+                        "min": 36925,
+                        "max": 36926
+                    },
+                    "y": {
+                        "min": 91,
+                        "max": 92
+                    },
+                    "z": {
+                        "min": -6756,
+                        "max": -6755
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "experience": 50,
+        "loot": [
+            "atrium:overworld_vista"
+        ]
+    },
+    "parent": "atrium:iteration3_waystones/coolwater_gulf_e"
+}

@@ -1,0 +1,48 @@
+{
+    "display": {
+        "title": {
+            "text": "Burning Blue",
+            "color": "white"
+        },
+        "description": {
+            "text": "Find the Oasis of Souls vista"
+        },
+        "icon": {
+            "item": "minecraft:soul_torch"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "findvista": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:soul_sand_valley",
+                "dimension": "the_nether",
+                "position": {
+                    "x": {
+                        "min": 398,
+                        "max": 400
+                    },
+                    "y": {
+                        "min": 100,
+                        "max": 105
+                    },
+                    "z": {
+                        "min": 327,
+                        "max": 329
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "experience": 50,
+        "loot": [
+            "atrium:nether_vista"
+        ]
+    },
+    "parent": "atrium:infidelstrail_vista"
+}

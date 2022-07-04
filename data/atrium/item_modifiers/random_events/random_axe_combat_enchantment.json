@@ -1,0 +1,13 @@
+[
+  {
+    "function": "minecraft:enchant_randomly",
+    "enchantments": [
+      "minecraft:fire_aspect",
+      "minecraft:looting",
+      "minecraft:sharpness",
+      "minecraft:unbreaking",
+      "minecraft:smite",
+      "minecraft:bane_of_arthropods"
+    ]
+  }
+]

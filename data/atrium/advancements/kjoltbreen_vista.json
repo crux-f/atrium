@@ -1,0 +1,48 @@
+{
+    "display": {
+        "title": {
+            "text": "Kjolt's Bident",
+            "color": "white"
+        },
+        "description": {
+            "text": "Find the Kjolt Breen vista"
+        },
+        "icon": {
+            "item": "minecraft:ice"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "findvista": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:deep_frozen_ocean",
+                "dimension": "overworld",
+                "position": {
+                    "x": {
+                        "min": 5060,
+                        "max": 5062
+                    },
+                    "y": {
+                        "min": 13,
+                        "max": 32
+                    },
+                    "z": {
+                        "min": -3673,
+                        "max": -3671
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "experience": 50,
+        "loot": [
+            "atrium:overworld_vista"
+        ]
+    },
+    "parent": "atrium:tigabaanwilds_vista"
+}

@@ -1,0 +1,48 @@
+{
+    "display": {
+        "title": {
+            "text": "Deepscar Falls",
+            "color": "white"
+        },
+        "description": {
+            "text": "Find the Myrk-Faelinn [S] waystone"
+        },
+        "icon": {
+            "item": "minecraft:lava_bucket"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "findvista": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "atrium:avalanche_caves",
+                "dimension": "atrium:depths",
+                "position": {
+                    "x": {
+                        "min": 35926,
+                        "max": 35927
+                    },
+                    "y": {
+                        "min": 338,
+                        "max": 339
+                    },
+                    "z": {
+                        "min": -2296,
+                        "max": -2295
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "experience": 50,
+        "loot": [
+            "atrium:depths_vista"
+        ]
+    },
+    "parent": "atrium:iteration3_waystones/depths/myrk_faelinn_w"
+}

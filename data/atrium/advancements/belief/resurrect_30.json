@@ -1,0 +1,33 @@
+{
+    "__comment": "congrats!",
+    "display": {
+        "title": {
+            "text": "Messorum's Bane",
+            "color": "white"
+        },
+        "description": {
+            "text": "Perform 30 Resurrections",
+            "color": "green",
+            "italic": true
+        },
+        "icon": {
+            "item": "minecraft:cake"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "granted": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 200,
+        "loot": [
+            "atrium:resurrection_advancement"
+        ]
+    },
+    "parent": "atrium:belief/resurrect_20"
+}

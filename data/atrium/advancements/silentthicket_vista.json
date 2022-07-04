@@ -1,0 +1,48 @@
+{
+    "display": {
+        "title": {
+            "text": "Adrift in Silence",
+            "color": "white"
+        },
+        "description": {
+            "text": "Find the Silent Thicket vista"
+        },
+        "icon": {
+            "item": "minecraft:warped_wart_block"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "findvista": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:warped_forest",
+                "dimension": "the_nether",
+                "position": {
+                    "x": {
+                        "min": 1058,
+                        "max": 1060
+                    },
+                    "y": {
+                        "min": 75,
+                        "max": 77
+                    },
+                    "z": {
+                        "min": 256,
+                        "max": 258
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "experience": 50,
+        "loot": [
+            "atrium:nether_vista"
+        ]
+    },
+    "parent": "atrium:agaricruins_vista"
+}

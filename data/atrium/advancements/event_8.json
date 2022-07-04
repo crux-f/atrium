@@ -1,0 +1,31 @@
+{
+    "__comment": "Earn Your Sea Legs was an attack event in The Scathing Sea, and was Chapter 4 of the Landfall world event, 10/3/2020",
+    "display": {
+        "title": {
+            "text": "Earn Your Sea Legs",
+            "color": "blue",
+            "bold": false
+        },
+        "description": {
+            "text": "Landfall IV - October 3rd, 2020",
+            "color": "green",
+            "italic": true
+        },
+        "icon": {
+            "item": "minecraft:oak_boat"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "takeprospect": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 70
+    },
+    "parent": "atrium:event_7"
+}

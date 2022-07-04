@@ -1,0 +1,19 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "location": {
+      "position": {
+        "x": {
+          "min": 7428,
+          "max": 9729
+        },
+        "z": {
+          "min": -13292,
+          "max": -10259
+        }
+      },
+      "biome": "minecraft:swamp"
+    }
+  }
+}

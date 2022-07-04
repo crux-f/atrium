@@ -1,0 +1,30 @@
+{
+    "__comment": "welcome to the deep",
+    "criteria": {
+    "requirement": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "atrium:depths"
+      }
+    }
+    },
+    "display": {
+        "title": {
+            "color": "white",
+            "text": "Depths",
+            "underlined": false
+        },
+        "description": {
+            "color": "green",
+            "text": "Drums, drums in the deep"
+        },
+        "icon": {
+            "item": "minecraft:bedrock"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true,
+        "background": "minecraft:textures/block/cobbled_deepslate.png"
+    }
+}

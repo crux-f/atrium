@@ -1,0 +1,48 @@
+{
+    "display": {
+        "title": {
+            "text": "Caldera of Hell",
+            "color": "white"
+        },
+        "description": {
+            "text": "Find the Molding Plains vista"
+        },
+        "icon": {
+            "item": "minecraft:warped_nylium"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "findvista": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:warped_forest",
+                "dimension": "the_nether",
+                "position": {
+                    "x": {
+                        "min": 663,
+                        "max": 666
+                    },
+                    "y": {
+                        "min": 99,
+                        "max": 102
+                    },
+                    "z": {
+                        "min": 785,
+                        "max": 787
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "experience": 50,
+        "loot": [
+            "atrium:nether_vista"
+        ]
+    },
+    "parent": "atrium:oasisofsouls_vista"
+}

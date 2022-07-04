@@ -1,0 +1,41 @@
+{
+    "__comment": "Acquired by having all level 2 elemental staves in your inventory",
+    "display": {
+        "title": {
+            "text": "Periodic Table",
+            "color": "white"
+        },
+        "description": {
+            "text": "Wield each Level II Elemental Staff at once"
+        },
+        "icon": {
+            "item": "minecraft:written_book"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "havelevel2staves": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{firestaff:1b,lv2:1b}"
+                    },
+                    {
+                        "nbt": "{waterstaff:1b,lv2:1b}"
+                    },
+                    {
+                        "nbt": "{earthstaff:1b,lv2:1b}"
+                    },
+                    {
+                        "nbt": "{airstaff:1b,lv2:1b}"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "atrium:magic/elemental_adept"
+}

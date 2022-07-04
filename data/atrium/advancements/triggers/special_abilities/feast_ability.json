@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [],
+        "damage": {
+          "source_entity": {
+            "type": "minecraft:evoker",
+            "nbt": "{Tags:[\"feast_ability\"]}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "atrium:triggers/special_abilities/feast_ability"
+  }
+}

@@ -1,0 +1,31 @@
+{
+    "__comment": "For reaching 30 favor with Ghael after previously reaching 30 favor with a different god",
+    "display": {
+        "title": {
+            "text": "Peak Insolence",
+            "color": "white",
+            "bold": false
+        },
+        "description": {
+            "text": "Reach 30 favor with Ghael after reaching 30 favor with a different god",
+            "color": "green",
+            "italic": true
+        },
+        "icon": {
+            "item": "minecraft:gold_block"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "custom_shrine_trigger": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 30
+    },
+    "parent": "atrium:belief/ghael_30"
+}

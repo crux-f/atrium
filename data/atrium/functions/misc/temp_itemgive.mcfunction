@@ -1,0 +1,1 @@
+give @p minecraft:player_head{display:{Name:"{\"text\":\"Portable Grill\"}"},SkullOwner:{Id:[I;1969910193,1685277450,-1708821413,1575138365],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzE4ZTM1ZWM0YjRiNGMxNTkxYzUxNzczODZkZTE4Nzk3NDU0Mjk4Yjc0NTU5ODJlM2FlODNiYWNjZWQwZjFhMiJ9fX0="}]}}} 1

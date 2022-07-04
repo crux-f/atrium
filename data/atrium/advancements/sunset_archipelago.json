@@ -1,0 +1,56 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:tropical_fish_bucket"
+    },
+        "title": {
+            "text": "Sunset Archipelago",
+            "color": "dark_purple",
+            "bold": false
+        },
+        "description": {
+            "text": "Visit all vistas in Sunset Archipelago (across all planes)",
+            "color": "green",
+            "italic": true
+        },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "atrium:severedreach_s_vista",
+  "criteria": {
+    "all_sunsetarchipelago_vistas": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "player": {
+                "advancements": {
+                  "atrium:emberpeakisle_vista": true,
+                  "atrium:tigabaanwilds_vista": true,
+                  "atrium:kjoltbreen_vista": true,
+                  "atrium:paintedbarrens_vista": true,
+                  "atrium:abrasar_vista": true,
+                  "atrium:wanderingprairie_vista": true,
+                  "atrium:aberrantsheet_vista": true,
+                  "atrium:severedreach_s_vista": true,
+                  "atrium:infernalwastes_vista": true,
+                  "atrium:infidelstrail_vista": true,
+                  "atrium:oasisofsouls_vista": true,
+                  "atrium:moldingplains_vista": true,
+                  "atrium:agaricruins_vista": true,
+                  "atrium:silentthicket_vista": true,
+                  "atrium:dancingshards_vista": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

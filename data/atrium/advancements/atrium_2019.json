@@ -1,0 +1,30 @@
+{
+    "__comment": "Exclusive",
+    "display": {
+        "title": {
+            "text": "Pioneer",
+            "color": "dark_aqua",
+            "bold": true
+        },
+        "description": {
+            "text": "You helped beta test the server in 2019! Thanks!",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:wooden_pickaxe"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "join_2019": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 85
+    },
+    "parent": "atrium:atrium_root"
+}

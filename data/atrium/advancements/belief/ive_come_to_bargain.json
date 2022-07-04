@@ -1,0 +1,25 @@
+{
+    "__comment": "Acquired by reaching 60 or more deaths",
+    "display": {
+        "title": {
+            "text": "I've Come to Bargain",
+            "color": "white"
+        },
+        "description": {
+            "text": "Return to life after dying 60 times"
+        },
+        "icon": {
+            "item": "minecraft:skeleton_skull"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "after_60_times": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "atrium:belief/resurrect_30"
+}

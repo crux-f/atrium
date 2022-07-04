@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [],
+        "damage": {
+          "source_entity": {
+            "type": "minecraft:cave_spider",
+            "nbt": "{Tags:[\"deep_spider\"]}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "atrium:triggers/special_abilities/intensify_poison"
+  }
+}

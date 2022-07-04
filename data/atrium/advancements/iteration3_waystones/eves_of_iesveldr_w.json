@@ -1,0 +1,48 @@
+{
+    "display": {
+        "title": {
+            "text": "Mountain's Breath Waypoint",
+            "color": "white"
+        },
+        "description": {
+            "text": "Find the Eves of Iesveldr [W] waystone"
+        },
+        "icon": {
+            "item": "minecraft:azure_bluet"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "findvista": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:meadow",
+                "dimension": "overworld",
+                "position": {
+                    "x": {
+                        "min": 36128,
+                        "max": 36129
+                    },
+                    "y": {
+                        "min": 133,
+                        "max": 134
+                    },
+                    "z": {
+                        "min": -6075,
+                        "max": -6074
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "experience": 50,
+        "loot": [
+            "atrium:overworld_vista"
+        ]
+    },
+    "parent": "atrium:iteration3_waystones/eves_of_iesveldr_e"
+}

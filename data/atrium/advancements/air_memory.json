@@ -1,0 +1,31 @@
+{
+    "__comment": "Designates players who started at Air on Iteration 2.",
+    "display": {
+        "title": {
+            "text": "Memory of Air",
+            "color": "yellow",
+            "bold": false
+        },
+        "description": {
+            "text": "A past self that deserves to be remembered",
+            "color": "green",
+            "italic": true
+        },
+        "icon": {
+            "item": "minecraft:yellow_terracotta"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "sunset_start": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 0
+    },
+    "parent": "atrium:air_start"
+}

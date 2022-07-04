@@ -1,0 +1,31 @@
+{
+    "__comment": "Someone is a Patron on Patreon!!!",
+    "display": {
+        "title": {
+            "text": "Sincerest Gratitude",
+            "color": "gold",
+            "bold": false
+        },
+        "description": {
+            "text": "Join the Patreon; Thank you so much!",
+            "color": "green",
+            "italic": true
+        },
+        "icon": {
+            "item": "minecraft:experience_bottle"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "join_patreon": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 300
+    },
+    "parent": "atrium:atrium_root"
+}
