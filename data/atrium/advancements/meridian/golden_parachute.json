@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": {
+            "text": "Golden Parachute",
+            "color": "white"
+        },
+        "description": {
+            "text": "Fall out of The Meridian with Slow Falling"
+        },
+        "icon": {
+            "item": "minecraft:gold_nugget"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "custom_trigger": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 50
+    },
+    "parent": "atrium:meridian/meridian_root"
+}

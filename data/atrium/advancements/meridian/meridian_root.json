@@ -1,15 +1,17 @@
 {
     "__comment": "welcome to a peaceful world (mostly)",
     "criteria": {
-        "into_meridian": {
-            "trigger": "minecraft:impossible"
-        }
+    "requirement": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "atrium:meridian"
+      }
+    }
     },
     "display": {
         "title": {
             "color": "white",
-            "text": "Meridian",
-            "underlined": false
+            "text": "Meridian"
         },
         "description": {
             "color": "green",
