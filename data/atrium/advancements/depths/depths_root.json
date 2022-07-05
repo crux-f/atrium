@@ -7,12 +7,6 @@
         "to": "atrium:depths"
       }
     }
-        "into_depths": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "dimension": "atrium:depths"
-            }
-        }
     },
     "display": {
         "title": {
