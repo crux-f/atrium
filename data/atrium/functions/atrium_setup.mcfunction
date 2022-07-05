@@ -1,3 +1,4 @@
+# Basic
 scoreboard objectives add x_coordinate dummy
 scoreboard objectives add y_coordinate dummy
 scoreboard objectives add z_coordinate dummy
@@ -18,5 +19,7 @@ scoreboard objectives add misc_timer dummy
 scoreboard objectives add brittle_bone_disease dummy
 scoreboard objectives add giant_threat dummy
 scoreboard objectives add prismatic dummy
+# Spells
+scoreboard objectives add dance_bounces dummy
 team add necromancer 
 team add occupied

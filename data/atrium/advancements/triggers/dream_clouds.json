@@ -1,0 +1,48 @@
+{
+    "criteria": {
+      "sleeping_overworld": {
+        "trigger": "minecraft:slept_in_bed",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.1
+            },
+            {
+              "condition": "minecraft:alternative",
+              "terms": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "location": {
+                      "dimension": "atrium:meridian"
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "location": {
+                      "position": {
+                        "y": {
+                          "min": 192,
+                          "max": 320
+                        }
+                      },
+                      "dimension": "minecraft:overworld"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "atrium:triggers/dream"
+    }
+  }
+  

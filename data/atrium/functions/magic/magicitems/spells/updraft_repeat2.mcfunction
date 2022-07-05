@@ -1,4 +1,4 @@
-execute at @e[tag=updraft] unless entity @e[tag=deflect_updraft] run summon armor_stand ~ ~ ~ {Marker:1b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,Tags:["deflect_updraft"]}
+execute at @e[tag=updraft] unless entity @e[tag=deflect_updraft] run summon armor_stand ~ ~ ~ {Marker:1b,Invisible:1b,NoBasePlate:1b,Tags:["deflect_updraft"]}
 execute at @e[tag=deflect_updraft] run particle cloud ^1.5 ^ ^ 0.5 3 0.5 0 10 normal
 execute at @e[tag=deflect_updraft] run particle cloud ^-1.5 ^ ^ 0.5 3 0.5 0 10 normal
 execute at @e[tag=deflect_updraft] run particle cloud ^ ^ ^1.5 0.5 3 0.5 0 10 normal

@@ -24,7 +24,7 @@
                     "name": [
                        {
                            "text": "Formula: Hellish Lantern",
-                           "italic": "false"
+                           "italic": false
                        }
                    ]
                 },
@@ -34,7 +34,7 @@
                        {
                            "text": "Infusion Circle Recipe",
                            "color": "gray",
-                           "italic": "false"
+                           "italic": false
                        }
                     ]
                 }
@@ -59,8 +59,8 @@
                     "name": [
                        {
                            "text": "Trial By Fire",
-                           "italic": "false",
-                           "color": "yellow"
+                           "color": "yellow",
+                           "italic": false
                        }
                    ]
                 },
@@ -70,12 +70,48 @@
                        {
                            "text": "Infusion Circle Recipe",
                            "color": "gray",
-                           "italic": "false"
+                           "italic": false
                        }
                     ]
                 }
             ]
-        }
+        },
+        {
+            "type": "item",
+            "weight": 5,
+            "quality": 1,
+            "name": "minecraft:written_book",
+            "functions": [
+                 {
+                     "function": "set_count",
+                     "count": 1
+                 },
+                 {
+                     "function": "set_nbt",
+                     "tag": "{pages:['[\"\",{\"text\":\"Staff of Air (+3)\\\\n             \"},{\"text\":\"^\",\"color\":\"#F7D790\"},{\"text\":\"\\\\n          x  \",\"color\":\"reset\"},{\"text\":\"I\",\"color\":\"gray\"},{\"text\":\"  x\\\\n       x  \",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"light_purple\"},{\"text\":\"     <\",\"color\":\"gray\"},{\"text\":\"  x\\\\n          x \",\"color\":\"reset\"},{\"text\":\" ^\",\"color\":\"gold\"},{\"text\":\"  x\\\\n            \",\"color\":\"reset\"},{\"text\":\" o\",\"color\":\"light_purple\"},{\"text\":\"\\\\n\",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"#F7D790\"},{\"text\":\" - Ambient Crystal\\\\n\",\"color\":\"reset\"},{\"text\":\"I\",\"color\":\"gray\"},{\"text\":\" - Brightsteel Ingot\\\\n\",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"light_purple\"},{\"text\":\" - Draft of the Prism\\\\n\",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"gray\"},{\"text\":\" - Forgotten Runestone\\\\n\",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"gold\"},{\"text\":\" - Staff of Air (+2)\\\\n\",\"color\":\"reset\"},{\"text\":\"o\",\"color\":\"light_purple\"},{\"text\":\" - Bottle o\\' Dreams\",\"color\":\"reset\"}]','{\"text\":\"I used to be someone who wrote down everything. But things change.\\\\n\\\\nI\\'ll be moving on soon, to smaller and better things. But I can\\'t help but wonder...\\\\n \"}','[\"\",{\"text\":\"Does anyone really understand \"},{\"text\":\"Air\",\"color\":\"#EBD245\"},{\"text\":\" as Travelers do?\\\\n\\\\nI can tell you that the ancients did not.\\\\n\\\\nThough they breathed it, they did not understand it. Live it.\\\\n\\\\n\\\\n \",\"color\":\"reset\"}]','{\"text\":\"...\\\\nIf they had - Strict legionnaires, stuffy archivists, sea cultists, any of them -\\\\n\\\\nHow might things have turned out differently?\\\\n\\\\nI suppose we\\'ll never know.\\\\n- E\\\\n \"}'],title:\"Things Change\",author:\"E..?\"}"
+                 },
+                 {
+                     "function": "set_name",
+                     "name": [
+                        {
+                            "text": "Things Change",
+                            "color": "yellow",
+                            "italic": false
+                        }
+                    ]
+                 },
+                 {
+                     "function": "set_lore",
+                     "lore": [
+                        {
+                            "text": "Infusion Circle Recipe",
+                            "color": "gray",
+                            "italic": false
+                        }
+                     ]
+                 }
+             ]
+         }
       ]
     }
   ]
