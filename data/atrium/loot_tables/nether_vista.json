@@ -25,7 +25,7 @@
                 {
                   "text": "Primordial Stone",
                   "color": "dark_red",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             },
@@ -65,7 +65,7 @@
                 {
                   "text": "Gold Piece",
                   "color": "gold",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             },
@@ -123,14 +123,14 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{CustomPotionEffects:[{Id:2b,Amplifier:0b,Duration:2400,ShowParticles:1b},{Id:12b,Amplifier:0b,Duration:2400,ShowParticles:1b}],CustomPotionColor:1661596}"
+              "tag": "{CustomPotionEffects:[{Id:2,Amplifier:0b,Duration:2400,ShowParticles:1b},{Id:12,Amplifier:0b,Duration:2400,ShowParticles:1b}],CustomPotionColor:1661596}"
             },
             {
               "function": "set_name",
               "name": [
                 {
                   "text": "Grungy Greg's Cool Cola ",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             },
@@ -312,7 +312,7 @@
               "name": [
                 {
                   "text": "Stray Brick",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             },
@@ -347,7 +347,7 @@
               "name": [
                 {
                   "text": "Splintered Quartz",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             },
@@ -425,7 +425,7 @@
               "name": [
                 {
                   "text": "Abandoned Stew",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             },

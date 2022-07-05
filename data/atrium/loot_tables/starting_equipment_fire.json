@@ -17,7 +17,7 @@
               "name": [
                 {
                   "text": "Jerky",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             }
@@ -37,7 +37,7 @@
               "name": [
                 {
                   "text": "Rotting Jerky",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             }
@@ -69,7 +69,7 @@
               "name": [
                 {
                   "text": "Makeshift Pickaxe",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             }
@@ -96,7 +96,7 @@
               "name": [
                 {
                   "text": "Makeshift Sword",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             }
@@ -142,7 +142,7 @@
                 {
                   "text": "Intellectual Keepsake",
                   "color": "dark_aqua",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             }
@@ -167,7 +167,7 @@
                 {
                   "text": "Creative Keepsake",
                   "color": "light_purple",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             }
@@ -192,7 +192,7 @@
                 {
                   "text": "Mystical Keepsake",
                   "color": "dark_purple",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             }
@@ -217,7 +217,7 @@
                 {
                   "text": "Religious Keepsake",
                   "color": "yellow",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             }
@@ -241,7 +241,7 @@
               "name": [
                 {
                   "text": "Sentimental Keepsake",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             }

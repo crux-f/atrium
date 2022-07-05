@@ -24,7 +24,7 @@
               "name": [
                 {
                   "text": "False Idol",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             },
@@ -56,14 +56,14 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{CustomPotionEffects:[{Id:6b,Amplifier:1b,Duration:1,ShowParticles:1b},{Id:10b,Amplifier:1b,Duration:60,ShowParticles:1b}],CustomPotionColor:6094711}"
+              "tag": "{CustomPotionEffects:[{Id:6,Amplifier:1b,Duration:1,ShowParticles:1b},{Id:10,Amplifier:1b,Duration:60,ShowParticles:1b}],CustomPotionColor:6094711}"
             },
             {
               "function": "set_name",
               "name": [
                 {
                   "text": "Encouragement Arrow",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             },
@@ -103,7 +103,7 @@
                 {
                   "text": "Comet Berries",
                   "color": "yellow",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             },
@@ -141,7 +141,7 @@
               "name": [
                 {
                   "text": "Lost Leash",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             },
@@ -188,7 +188,7 @@
                 {
                   "text": "Ornate Gladius",
                   "color": "gold",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             },
@@ -234,7 +234,7 @@
               "name": [
                 {
                   "text": "Roadbuilder's Spade",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             },
@@ -283,7 +283,7 @@
                 {
                   "text": "Stardust",
                   "color": "yellow",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             },
@@ -323,7 +323,7 @@
                 {
                   "text": "Very Confused Fish",
                   "color": "blue",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             },
@@ -360,7 +360,7 @@
                 {
                   "text": "Nightmare Stone",
                   "color": "light_purple",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             },

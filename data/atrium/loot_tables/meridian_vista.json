@@ -24,7 +24,7 @@
                 {
                   "text": "Shimmering Feather",
                   "color": "dark_aqua",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             },
@@ -56,7 +56,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{CustomPotionEffects:[{Id:17b,Amplifier:1b,Duration:4800,ShowParticles:1b},{Id:25b,Amplifier:1b,Duration:240,ShowParticles:1b},{Id:28b,Amplifier:0b,Duration:4800,ShowParticles:1b}],CustomPotionColor:9568156}"
+              "tag": "{CustomPotionEffects:[{Id:17,Amplifier:1b,Duration:4800,ShowParticles:1b},{Id:25,Amplifier:1b,Duration:240,ShowParticles:1b},{Id:28,Amplifier:0b,Duration:4800,ShowParticles:1b}],CustomPotionColor:9568156}"
             },
             {
               "function": "set_name",
@@ -64,7 +64,7 @@
                 {
                   "text": "Grungy Greg's Fizzy Pop",
                   "color": "green",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             },
@@ -127,7 +127,7 @@
                 {
                   "text": "Air Crystal",
                   "color": "yellow",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             },
@@ -176,7 +176,7 @@
                 {
                   "text": "Cyclone Cube",
                   "color": "yellow",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             },
@@ -245,7 +245,7 @@
               "name": [
                 {
                   "text": "Sky Egg",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             },
@@ -291,7 +291,7 @@
                 {
                   "text": "Stardust",
                   "color": "yellow",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             },
@@ -394,7 +394,7 @@
               "name": [
                 {
                   "text": "Dancing Color",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             },
@@ -430,7 +430,7 @@
               "name": [
                 {
                   "text": "Dancing Color",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             },
@@ -466,7 +466,7 @@
               "name": [
                 {
                   "text": "Dancing Color",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             },

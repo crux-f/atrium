@@ -19,30 +19,7 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "text": "The symbol of Oswald is"
-                },
-                {
-                  "text": "carved into it."
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "weight": 1,
-          "quality": 3,
-          "name": "minecraft:totem_of_undying",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_lore",
-              "lore": [
-                {
-                  "text": "The symbol of Messorum is"
+                  "text": "You don't recognize the symbol"
                 },
                 {
                   "text": "carved into it."
@@ -63,14 +40,14 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{AttributeModifiers:[{AttributeName:\"generic.luck\",Name:\"generic.luck\",Amount:0.5,Operation:0,UUID:[I;1593952637,-1362673199,-1360322030,-72826655],Slot:\"mainhand\"}]}"
+              "tag": "{AttributeModifiers:[{AttributeName:\"generic.luck\",Name:\"generic.luck\",Amount:0.5,Operation:1,UUID:[I;1593952637,-1362673199,-1360322030,-72826655],Slot:\"mainhand\"}]}"
             },
             {
               "function": "set_name",
               "name": [
                 {
                   "text": "Lucky Rock",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             }
@@ -91,7 +68,7 @@
               "name": [
                 {
                   "text": "Dry Rations",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             },
@@ -123,7 +100,7 @@
               "name": [
                 {
                   "text": "Roadside Torch",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             },
@@ -154,14 +131,14 @@
               "function": "exploration_map",
               "destination": "mineshaft",
               "decoration": "red_x",
-              "skip_existing_chunks": "false"
+              "skip_existing_chunks": false
             },
             {
               "function": "set_name",
               "name": [
                 {
                   "text": "Lost Map",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             }
@@ -181,14 +158,14 @@
               "function": "exploration_map",
               "destination": "ruined_portal",
               "decoration": "red_marker",
-              "skip_existing_chunks": "false"
+              "skip_existing_chunks": false
             },
             {
               "function": "set_name",
               "name": [
                 {
                   "text": "Lost Map",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             }
@@ -208,14 +185,14 @@
               "function": "exploration_map",
               "destination": "village",
               "decoration": "mansion",
-              "skip_existing_chunks": "false"
+              "skip_existing_chunks": false
             },
             {
               "function": "set_name",
               "name": [
                 {
                   "text": "Lost Map",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             }
@@ -233,14 +210,14 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{CustomPotionEffects:[{Id:10b,Amplifier:0b,Duration:400,ShowParticles:1b},{Id:15b,Amplifier:0b,Duration:400,ShowParticles:1b}],Potion:\"minecraft:empty\",CustomPotionColor:16252697}"
+              "tag": "{CustomPotionEffects:[{Id:10,Amplifier:0b,Duration:400,ShowParticles:1b},{Id:15,Amplifier:0b,Duration:400,ShowParticles:1b}],Potion:\"minecraft:empty\",CustomPotionColor:16252697}"
             },
             {
               "function": "set_name",
               "name": [
                 {
                   "text": "Grungy Greg's Miracle Tonic",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             },
@@ -314,14 +291,14 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{AttributeModifiers:[{AttributeName:\"generic.luck\",Name:\"generic.luck\",Amount:-0.5,Operation:0,UUID:[I;-147334993,1434471495,-1609474503,1281261119],Slot:\"mainhand\"}]}"
+              "tag": "{AttributeModifiers:[{AttributeName:\"generic.luck\",Name:\"generic.luck\",Amount:-0.5,Operation:1,UUID:[I;-147334993,1434471495,-1609474503,1281261119],Slot:\"mainhand\"}]}"
             },
             {
               "function": "set_lore",
               "lore": [
                 {
                   "text": "Unlucky Rock",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             }
@@ -425,7 +402,7 @@
               "name": [
                 {
                   "text": "Rotting Spider Eye",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             },
@@ -477,7 +454,7 @@
               "name": [
                 {
                   "text": "Rotting Potato",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             },
@@ -526,7 +503,7 @@
               "name": [
                 {
                   "text": "Rotting Meat",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             },
@@ -602,7 +579,7 @@
               "name": [
                 {
                   "text": "Fossil",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             },
@@ -651,7 +628,7 @@
               "name": [
                 {
                   "text": "Book Fragments",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             },
@@ -680,14 +657,14 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{CustomPotionEffects:[{Id:4b,Amplifier:0b,Duration:4000},{Id:9b,Amplifier:0b,Duration:140,ShowParticles:1b}],Potion:\"minecraft:empty\",CustomPotionColor:7556889}"
+              "tag": "{CustomPotionEffects:[{Id:4,Amplifier:0b,Duration:4000},{Id:9,Amplifier:0b,Duration:140,ShowParticles:1b}],Potion:\"minecraft:empty\",CustomPotionColor:7556889}"
             },
             {
               "function": "set_name",
               "name": [
                 {
                   "text": "Old Beer",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             },
@@ -720,7 +697,7 @@
               "name": [
                 {
                   "text": "Broken Bottle",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             }
