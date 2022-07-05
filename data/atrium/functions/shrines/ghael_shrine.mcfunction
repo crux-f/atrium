@@ -1,12 +1,12 @@
 # Grant shrine advancement
 advancement grant @p[distance=..10] until atrium:belief/higher_power
 # UNLESS the nearest player to the shrine has a score of 30 or higher, add 2 to the player's Favor.
-execute unless entity @p[distance=..5,scores={ghael_favor=30..}] run scoreboard players add @p[distance=..5,level=1..,nbt=!{SelectedItem:{id:'minecraft:diamond'}}] ghael_favor 2
+execute unless entity @p[distance=..5,scores={ghael_favor=30..}] run scoreboard players add @p[distance=..5,level=1..,nbt=!{SelectedItem:{id:"minecraft:diamond"}}] ghael_favor 2
 # ADD the 'pray' tag to the nearest player NOT in spectator holding a res item
-tag @p[gamemode=!spectator,distance=..5,level=1..,nbt=!{SelectedItem:{id:'minecraft:diamond'}},nbt=!{SelectedItem:{id:'minecraft:totem_of_undying'}}] add pray
+tag @p[gamemode=!spectator,distance=..5,level=1..,nbt=!{SelectedItem:{id:"minecraft:diamond"}},nbt=!{SelectedItem:{id:"minecraft:totem_of_undying"}}] add pray
 # Tag the player holding the res item who just clicked on the shrine as the Resurrector
-tag @p[nbt={SelectedItem:{id:'minecraft:diamond'}},gamemode=!spectator,distance=..5] add resurrector
-tag @p[nbt={SelectedItem:{id:'minecraft:totem_of_undying'}},gamemode=!spectator,distance=..5] add resurrector
+tag @p[nbt={SelectedItem:{id:"minecraft:diamond"}},gamemode=!spectator,distance=..5] add resurrector
+tag @p[nbt={SelectedItem:{id:"minecraft:totem_of_undying"}},gamemode=!spectator,distance=..5] add resurrector
 # run the favor exchange function
 function atrium:shrines/favor_exchange
 # UNLESS nearest player has no EXP levels, give em the particles
@@ -32,6 +32,18 @@ execute if entity @p[tag=pray,scores={ghael_favor=30}] run xp add @p[tag=pray,le
 execute if entity @p[tag=pray,scores={ghael_favor=10}] run advancement grant @p only atrium:belief/ghael_10
 execute if entity @p[tag=pray,scores={ghael_favor=20}] run advancement grant @p only atrium:belief/ghael_20
 execute if entity @p[tag=pray,scores={ghael_favor=30}] run advancement grant @p only atrium:belief/ghael_30
+#
+# GHAEL ONLY = If you previously got a 30+ favor advancement from a different god, grant a special advancement.
+execute if entity @p[tag=pray,scores={ghael_favor=30},advancements={atrium:belief/aurora_30=true}] run advancement grant @p only atrium:belief/peak_insolence
+execute if entity @p[tag=pray,scores={ghael_favor=30},advancements={atrium:belief/chorus_30=true}] run advancement grant @p only atrium:belief/peak_insolence
+execute if entity @p[tag=pray,scores={ghael_favor=30},advancements={atrium:belief/geota_30=true}] run advancement grant @p only atrium:belief/peak_insolence
+execute if entity @p[tag=pray,scores={ghael_favor=30},advancements={atrium:belief/messorum_30=true}] run advancement grant @p only atrium:belief/peak_insolence
+execute if entity @p[tag=pray,scores={ghael_favor=30},advancements={atrium:belief/nox_30=true}] run advancement grant @p only atrium:belief/peak_insolence
+execute if entity @p[tag=pray,scores={ghael_favor=30},advancements={atrium:belief/oswald_30=true}] run advancement grant @p only atrium:belief/peak_insolence
+execute if entity @p[tag=pray,scores={ghael_favor=30},advancements={atrium:belief/quipster_30=true}] run advancement grant @p only atrium:belief/peak_insolence
+execute if entity @p[tag=pray,scores={ghael_favor=30},advancements={atrium:belief/syrula_30=true}] run advancement grant @p only atrium:belief/peak_insolence
+execute if entity @p[tag=pray,scores={ghael_favor=30},advancements={atrium:belief/taraqsol_30=true}] run advancement grant @p only atrium:belief/peak_insolence
+#
 # Remove the pray tag at the end of the prayer.
 tag @p[tag=pray] remove pray
 # NEW: Religion Noises!!!
