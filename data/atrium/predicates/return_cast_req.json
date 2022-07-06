@@ -1,0 +1,50 @@
+[
+  {
+    "condition": "minecraft:entity_scores",
+    "entity": "this",
+    "scores": {
+      "earthstaff": {
+        "min": 6,
+        "max": 9999
+      },
+      "return_spell_dim": {
+        "min": 0,
+        "max": 5
+      }
+    }
+  },
+  {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "equipment": {
+        "mainhand": {
+          "nbt": "{garden_shard:1b}"
+        }
+      }
+    }
+  },
+  {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "equipment": {
+        "offhand": {
+          "nbt": "{earthstaff:1b,lv3:1b}"
+        }
+      }
+    }
+  },
+  {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "player": {
+          "gamemode": "spectator"
+        }
+      }
+    }
+  }
+]

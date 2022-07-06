@@ -21,5 +21,10 @@ scoreboard objectives add giant_threat dummy
 scoreboard objectives add prismatic dummy
 # Spells
 scoreboard objectives add dance_bounces dummy
+scoreboard objectives add return_spell_dim dummy
+scoreboard objectives add return_spell_x dummy
+scoreboard objectives add return_spell_y dummy
+scoreboard objectives add return_spell_z dummy
+# Mob Teams
 team add necromancer 
 team add occupied

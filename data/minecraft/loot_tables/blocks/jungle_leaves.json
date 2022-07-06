@@ -165,7 +165,7 @@
                 {
                   "text": "Toxic Branch",
                   "color": "green",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             },
@@ -173,10 +173,10 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "text": "Some trees within the"
+                  "text": "Some trees in the"
                 },
                 {
-                  "text": "Tigabaan wilds contain a"
+                  "text": "wild jungles contain a"
                 },
                 {
                   "text": "powerful toxin-enhancing"

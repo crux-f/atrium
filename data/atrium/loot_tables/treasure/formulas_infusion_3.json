@@ -111,6 +111,42 @@
                      ]
                  }
              ]
+         },
+         {
+            "type": "item",
+            "weight": 5,
+            "quality": 1,
+            "name": "minecraft:written_book",
+            "functions": [
+                 {
+                     "function": "set_count",
+                     "count": 1
+                 },
+                 {
+                     "function": "set_nbt",
+                     "tag": "{pages:['[\"\",{\"text\":\"Staff of Earth (+3)\\\\n             \"},{\"text\":\"^\",\"color\":\"dark_green\"},{\"text\":\"\\\\n          x \",\"color\":\"reset\"},{\"text\":\" I\",\"color\":\"#C46C1E\"},{\"text\":\"  x\\\\n       x  \",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"gray\"},{\"text\":\"     <\",\"color\":\"light_purple\"},{\"text\":\"  x\\\\n          x  \",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"green\"},{\"text\":\"  x\\\\n             \",\"color\":\"reset\"},{\"text\":\"o\",\"color\":\"gold\"},{\"text\":\"\\\\n\",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"dark_green\"},{\"text\":\" - Tangleheart\\\\n\",\"color\":\"reset\"},{\"text\":\"I\",\"color\":\"#C46C1E\"},{\"text\":\" - Copper Ingot\\\\n\",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"gray\"},{\"text\":\" - Forgotten Runestone\\\\n\",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"light_purple\"},{\"text\":\" - Draft of the Prism\\\\n--->\",\"color\":\"reset\"}]','[\"\",{\"text\":\"^ - Staff of Earth (+2)\\\\n\"},{\"text\":\"o\",\"color\":\"gold\"},{\"text\":\" - Enchanted Golden Apple\",\"color\":\"reset\"}]','[\"\",{\"text\":\"Breathe.\\\\nRemember the trees, the mountains.\\\\nBreathe.\\\\nThere is much left to do.\\\\nBreathe.\\\\nWithin your deepest self, \"},{\"text\":\"Earth\",\"color\":\"dark_green\"},{\"text\":\" remains.\\\\nBreathe.\\\\nRemember who you are, who you used to be, and breathe out.\\\\n\\\\n- Thren\",\"color\":\"reset\"}]'],title:Breathe,author:Thren,generation:1}"
+                 },
+                 {
+                     "function": "set_name",
+                     "name": [
+                        {
+                            "text": "Breathe",
+                            "color": "yellow",
+                            "italic": false
+                        }
+                    ]
+                 },
+                 {
+                     "function": "set_lore",
+                     "lore": [
+                        {
+                            "text": "Infusion Circle Recipe",
+                            "color": "gray",
+                            "italic": false
+                        }
+                     ]
+                 }
+             ]
          }
       ]
     }

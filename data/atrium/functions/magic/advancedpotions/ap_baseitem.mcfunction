@@ -1,5 +1,5 @@
 # ANCHOR
-execute unless entity @e[distance=..3,tag=empoweredcauldron] run summon armor_stand ~ ~ ~ {Marker:1b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,Tags:["empoweredcauldron"]}
+execute unless entity @e[distance=..3,tag=empoweredcauldron] run summon armor_stand ~ ~ ~ {Marker:1b,Invisible:1b,NoBasePlate:1b,Tags:["empoweredcauldron"]}
 #
 # UPGRADE A VANILLA POTION - CHECK SOUTH FOR HIGH LEVEL VANILLA POTION
 #
@@ -100,6 +100,10 @@ execute positioned ~ ~2 ~-2 if entity @e[type=minecraft:item_frame,distance=..1,
 # Start Crystal Vial - Check SOUTH for Gleaming Crystal
 execute positioned ~ ~2 ~2 at @e[type=minecraft:item_frame,distance=..1,nbt={Item:{tag:{gleaming_crystal:1b}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
 execute positioned ~ ~2 ~2 if entity @e[type=minecraft:item_frame,distance=..1,nbt={Item:{tag:{gleaming_crystal:1b}}}] run execute as @e[tag=empoweredcauldron,distance=..10] at @s run function atrium:magic/advancedpotions/crystal_vial
+#
+# Start Tangleheart - Check NORTH for Life's Echo
+execute positioned ~ ~2 ~-2 at @e[type=minecraft:item_frame,distance=..1,nbt={Item:{tag:{lifes_echo:1b}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~2 ~-2 if entity @e[type=minecraft:item_frame,distance=..1,nbt={Item:{tag:{lifes_echo:1b}}}] run execute as @e[tag=empoweredcauldron,distance=..10] at @s run function atrium:magic/advancedpotions/tangleheart
 #
 # Potion Mixtures
 #

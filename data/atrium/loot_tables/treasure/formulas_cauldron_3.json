@@ -24,7 +24,7 @@
                     "name": [
                        {
                            "text": "Formula: Crystal Vial",
-                           "italic": "false"
+                           "italic": false
                        }
                    ]
                 },
@@ -34,7 +34,7 @@
                        {
                            "text": "Empowered Cauldron Recipe",
                            "color": "gray",
-                           "italic": "false"
+                           "italic": false
                        }
                     ]
                 }
@@ -59,7 +59,7 @@
                     "name": [
                        {
                            "text": "Formula: Draft of the Prism",
-                           "italic": "false"
+                           "italic": false
                        }
                    ]
                 },
@@ -69,12 +69,47 @@
                        {
                            "text": "Empowered Cauldron Recipe",
                            "color": "gray",
-                           "italic": "false"
+                           "italic": false
                        }
                     ]
                 }
             ]
-        }
+        },
+        {
+            "type": "item",
+            "weight": 5,
+            "quality": 1,
+            "name": "minecraft:written_book",
+            "functions": [
+                 {
+                     "function": "set_count",
+                     "count": 1
+                 },
+                 {
+                     "function": "set_nbt",
+                     "tag": "{pages:['[\"\",{\"text\":\"Tangleheart\\\\n            \"},{\"text\":\"*\",\"color\":\"dark_aqua\"},{\"text\":\"\\\\n         \",\"color\":\"reset\"},{\"text\":\" >\",\"color\":\"gray\"},{\"text\":\"   <\",\"color\":\"light_purple\"},{\"text\":\"\\\\n            \",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"green\"},{\"text\":\"\\\\n\",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"dark_aqua\"},{\"text\":\" - Life\\'s Echo\\\\n\",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"gray\"},{\"text\":\" - Crystal Vial\\\\n\",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"light_purple\"},{\"text\":\" - Philter of Restoration II\\\\n\",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"green\"},{\"text\":\" - Mountain\\'s Root\",\"color\":\"reset\"}]'],title:\"Formula: Tangleheart\",author:\"???\",generation:2}"
+                 },
+                 {
+                     "function": "set_name",
+                     "name": [
+                        {
+                            "text": "Formula: Tangleheart",
+                            "italic": false
+                        }
+                    ]
+                 },
+                 {
+                     "function": "set_lore",
+                     "lore": [
+                        {
+                            "text": "Empowered Cauldron Recipe",
+                            "color": "gray",
+                            "italic": false
+                        }
+                     ]
+                 }
+             ]
+         }
       ]
     }
   ]

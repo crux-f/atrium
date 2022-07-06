@@ -87,9 +87,9 @@ execute positioned ~ ~2 ~-4 if entity @e[type=minecraft:item_frame,distance=..1.
 execute positioned ~ ~2 ~-4 at @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{tag:{ambient_crystal:1b}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
 execute positioned ~ ~2 ~-4 if entity @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{tag:{ambient_crystal:1b}}}] run execute as @e[tag=infusion,distance=..10] at @s run function atrium:magic/infusion/air_staff_3
 #
-# Start Earth Staff III - Check NORTH for ???
-#execute positioned ~ ~2 ~-4 at @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{id:"minecraft:nether_star",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
-#execute positioned ~ ~2 ~-4 if entity @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{id:"minecraft:nether_star",Count:1b}}] run execute as @e[tag=infusion,distance=..10] at @s run function atrium:magic/infusion/earth_staff_3
+# Start Earth Staff III - Check NORTH for Tangleheart
+execute positioned ~ ~2 ~-4 at @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{tag:{tangleheart:1b}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~2 ~-4 if entity @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{tag:{tangleheart:1b}}}] run execute as @e[tag=infusion,distance=..10] at @s run function atrium:magic/infusion/earth_staff_3
 #
 # Start Fire Staff III - Check NORTH for Nether Star
 execute positioned ~ ~2 ~-4 at @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{id:"minecraft:nether_star",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal

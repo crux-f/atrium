@@ -15,11 +15,13 @@ execute if entity @a[predicate=atrium:stone_sprite_1_req] run function atrium:ma
 execute if entity @a[predicate=atrium:natural_armor_1_req] run function atrium:magic/magicitems/spells/natural_armor_1
 execute if entity @a[predicate=atrium:stone_sprite_2_req] run function atrium:magic/magicitems/spells/stone_sprite_2
 execute if entity @a[predicate=atrium:natural_armor_2_req] run function atrium:magic/magicitems/spells/natural_armor_2
-# execute if entity @a[predicate=atrium:stone_sprite_3_req] run function atrium:magic/magicitems/spells/stone_sprite_3
-# execute if entity @a[predicate=atrium:natural_armor_3_req] run function atrium:magic/magicitems/spells/natural_armor_3
+execute if entity @a[predicate=atrium:stone_sprite_3_req] run function atrium:magic/magicitems/spells/stone_sprite_3
+execute if entity @a[predicate=atrium:natural_armor_3_req] run function atrium:magic/magicitems/spells/natural_armor_3
 #
-# Ultimate Spell: ???
+# Ultimate Spell: Return
 #
-# execute if entity @a[predicate=atrium:ult_req] run function atrium:magic/magicitems/spells/ultimate
-# execute if entity @a[predicate=atrium:ult_req] run function atrium:magic/magicitems/spells/ultimate
+execute if entity @a[predicate=atrium:return_setup_req] as @a[predicate=atrium:return_setup_req] run function atrium:magic/magicitems/spells/return_setup
+#
+execute if entity @a[predicate=atrium:return_cast_req] as @a[predicate=atrium:return_cast_req] run function atrium:magic/magicitems/spells/return_cast
+
 
