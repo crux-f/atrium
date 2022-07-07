@@ -24,7 +24,7 @@
                             "name": [
                                 {
                                     "text": "Formula: Essence of Anachronism",
-                                    "italic": "false"
+                                    "italic": false
                                 }
                             ]
                         },
@@ -34,7 +34,7 @@
                                 {
                                     "text": "Empowered Cauldron Recipe",
                                     "color": "gray",
-                                    "italic": "false"
+                                    "italic": false
                                 }
                             ]
                         }
@@ -59,7 +59,7 @@
                             "name": [
                                 {
                                     "text": "Formula: Potion of Luck (5:00)",
-                                    "italic": "false"
+                                    "italic": false
                                 }
                             ]
                         },
@@ -69,7 +69,7 @@
                                 {
                                     "text": "Empowered Cauldron Recipe",
                                     "color": "gray",
-                                    "italic": "false"
+                                    "italic": false
                                 }
                             ]
                         }
@@ -94,7 +94,7 @@
                             "name": [
                                 {
                                     "text": "Formula: Philter of Equilibrium",
-                                    "italic": "false"
+                                    "italic": false
                                 }
                             ]
                         },
@@ -104,7 +104,7 @@
                                 {
                                     "text": "Empowered Cauldron Recipe",
                                     "color": "gray",
-                                    "italic": "false"
+                                    "italic": false
                                 }
                             ]
                         }
@@ -129,7 +129,7 @@
                             "name": [
                                 {
                                     "text": "Formula: Philter of Light-Eating",
-                                    "italic": "false"
+                                    "italic": false
                                 }
                             ]
                         },
@@ -139,7 +139,7 @@
                                 {
                                     "text": "Empowered Cauldron Recipe",
                                     "color": "gray",
-                                    "italic": "false"
+                                    "italic": false
                                 }
                             ]
                         }
@@ -164,7 +164,7 @@
                             "name": [
                                 {
                                     "text": "Formula: Philter of Restoration",
-                                    "italic": "false"
+                                    "italic": false
                                 }
                             ]
                         },
@@ -174,7 +174,7 @@
                                 {
                                     "text": "Empowered Cauldron Recipe",
                                     "color": "gray",
-                                    "italic": "false"
+                                    "italic": false
                                 }
                             ]
                         }
@@ -199,7 +199,7 @@
                             "name": [
                                 {
                                     "text": "Formula: Philter of Suffering",
-                                    "italic": "false"
+                                    "italic": false
                                 }
                             ]
                         },
@@ -209,7 +209,7 @@
                                 {
                                     "text": "Empowered Cauldron Recipe",
                                     "color": "gray",
-                                    "italic": "false"
+                                    "italic": false
                                 }
                             ]
                         }
@@ -234,7 +234,7 @@
                             "name": [
                                 {
                                     "text": "Formula: Philter of Velocity",
-                                    "italic": "false"
+                                    "italic": false
                                 }
                             ]
                         },
@@ -244,7 +244,42 @@
                                 {
                                     "text": "Empowered Cauldron Recipe",
                                     "color": "gray",
-                                    "italic": "false"
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "quality": 2,
+                    "name": "minecraft:written_book",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{pages:['[\"\",{\"text\":\"Garden Shard\\\\n           \"},{\"text\":\" *\",\"color\":\"dark_purple\"},{\"text\":\"\\\\n         \",\"color\":\"reset\"},{\"text\":\" >\",\"color\":\"gray\"},{\"text\":\"   <\",\"color\":\"red\"},{\"text\":\"\\\\n            \",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"#EAD748\"},{\"text\":\"\\\\n\\\\n\",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"dark_purple\"},{\"text\":\" - Amethyst Shard\\\\n\",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"gray\"},{\"text\":\" - White Tulip\\\\n\",\"color\":\"reset\"},{\"text\":\"^ \",\"color\":\"#EAD748\"},{\"text\":\"- Oxeye Daisy\\\\n\",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"red\"},{\"text\":\" - Red Mushroom\",\"color\":\"reset\"}]'],title:\"Formula: Garden Shard\",author:\"???\",generation:1}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "Formula: Garden Shard",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "Empowered Cauldron Recipe",
+                                    "color": "gray",
+                                    "italic": false
                                 }
                             ]
                         }

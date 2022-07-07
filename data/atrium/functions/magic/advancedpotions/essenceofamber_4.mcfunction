@@ -1,4 +1,0 @@
-# Check EAST for special ingredient
-execute positioned ~2 ~2 ~ at @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{id:"minecraft:honeycomb",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
-execute positioned ~2 ~2 ~ if entity @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{id:"minecraft:honeycomb",Count:1b}}] run execute at @e[tag=empoweredcauldron,distance=..10] run summon item ~ ~2 ~ {NoGravity:1b,Glowing:1b,Motion:[0.0,0.05,0.0],Item:{id:"minecraft:honey_bottle",Count:1b,tag:{display:{Name:'{"text":"Essence of Amber","color":"gold","italic":false}',Lore:['{"text":"The purest pigment of amber"}','{"text":"possible in this world."}']},essenceofamber:1b}}}
-execute positioned ~2 ~2 ~ if entity @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{id:"minecraft:honeycomb",Count:1b}}] run execute at @e[tag=empoweredcauldron,distance=..10] run function atrium:magic/advancedpotions/ap_reset

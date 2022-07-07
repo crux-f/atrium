@@ -105,6 +105,11 @@ execute positioned ~ ~2 ~2 if entity @e[type=minecraft:item_frame,distance=..1,n
 execute positioned ~ ~2 ~-2 at @e[type=minecraft:item_frame,distance=..1,nbt={Item:{tag:{lifes_echo:1b}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
 execute positioned ~ ~2 ~-2 if entity @e[type=minecraft:item_frame,distance=..1,nbt={Item:{tag:{lifes_echo:1b}}}] run execute as @e[tag=empoweredcauldron,distance=..10] at @s run function atrium:magic/advancedpotions/tangleheart
 #
+# Start Garden Shard - Check NORTH for Amethyst Shard
+execute positioned ~ ~2 ~-2 at @e[type=minecraft:item_frame,distance=..1,nbt={Item:{id:"minecraft:amethyst_shard",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~2 ~-2 if entity @e[type=minecraft:item_frame,distance=..1,nbt={Item:{id:"minecraft:amethyst_shard",Count:1b}}] run execute as @e[tag=empoweredcauldron,distance=..10] at @s run function atrium:magic/advancedpotions/garden_shard
+
+#
 # Potion Mixtures
 #
 # Start Philter of Velocity (0:45) - check bottom slot for ender pearl

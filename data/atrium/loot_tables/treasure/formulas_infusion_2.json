@@ -24,7 +24,7 @@
                             "name": [
                                 {
                                     "text": "Secrets of the Elements",
-                                    "italic": "false"
+                                    "italic": false
                                 }
                             ]
                         },
@@ -34,7 +34,7 @@
                                 {
                                     "text": "Recipe Collection",
                                     "color": "gray",
-                                    "italic": "false"
+                                    "italic": false
                                 }
                             ]
                         }
@@ -59,7 +59,7 @@
                             "name": [
                                 {
                                     "text": "Earthly Adaptation",
-                                    "italic": "false"
+                                    "italic": false
                                 }
                             ]
                         },
@@ -69,7 +69,7 @@
                                 {
                                     "text": "Recipe Collection",
                                     "color": "gray",
-                                    "italic": "false"
+                                    "italic": false
                                 }
                             ]
                         }
@@ -94,7 +94,7 @@
                             "name": [
                                 {
                                     "text": "Evolving Waters",
-                                    "italic": "false"
+                                    "italic": false
                                 }
                             ]
                         },
@@ -104,7 +104,7 @@
                                 {
                                     "text": "Recipe Collection",
                                     "color": "gray",
-                                    "italic": "false"
+                                    "italic": false
                                 }
                             ]
                         }
@@ -129,7 +129,7 @@
                             "name": [
                                 {
                                     "text": "Leaping Flames",
-                                    "italic": "false"
+                                    "italic": false
                                 }
                             ]
                         },
@@ -139,7 +139,7 @@
                                 {
                                     "text": "Recipe Collection",
                                     "color": "gray",
-                                    "italic": "false"
+                                    "italic": false
                                 }
                             ]
                         }
@@ -164,7 +164,7 @@
                             "name": [
                                 {
                                     "text": "A Learning Breeze",
-                                    "italic": "false"
+                                    "italic": false
                                 }
                             ]
                         },
@@ -174,7 +174,7 @@
                                 {
                                     "text": "Recipe Collection",
                                     "color": "gray",
-                                    "italic": "false"
+                                    "italic": false
                                 }
 							]
                         }
@@ -199,7 +199,7 @@
                             "name": [
                                 {
                                     "text": "Formula: Trident",
-                                    "italic": "false"
+                                    "italic": false
                                 }
                             ]
                         },
@@ -209,7 +209,7 @@
                                 {
                                     "text": "Infusion Circle Recipe",
                                     "color": "gray",
-                                    "italic": "false"
+                                    "italic": false
                                 }
                             ]
                         }
@@ -234,7 +234,7 @@
                             "name": [
                                 {
                                     "text": "Formula: Staff of Space (+1)",
-                                    "italic": "false"
+                                    "italic": false
                                 }
                             ]
                         },
@@ -244,7 +244,7 @@
                                 {
                                     "text": "Infusion Circle Recipe",
                                     "color": "gray",
-                                    "italic": "false"
+                                    "italic": false
                                 }
                             ]
                         }
@@ -269,7 +269,7 @@
                             "name": [
                                 {
                                     "text": "Formula: Staff of Time (+1)",
-                                    "italic": "false"
+                                    "italic": false
                                 }
                             ]
                         },
@@ -279,7 +279,7 @@
                                 {
                                     "text": "Infusion Circle Recipe",
                                     "color": "gray",
-                                    "italic": "false"
+                                    "italic": false
                                 }
                             ]
                         }
@@ -304,7 +304,7 @@
                             "name": [
                                 {
                                     "text": "Formula: Life's Echo",
-                                    "italic": "false"
+                                    "italic": false
                                 }
                             ]
                         },
@@ -314,7 +314,7 @@
                                 {
                                     "text": "Infusion Circle Recipe",
                                     "color": "gray",
-                                    "italic": "false"
+                                    "italic": false
                                 }
                             ]
                         }
@@ -339,7 +339,7 @@
                             "name": [
                                 {
                                     "text": "Formula: Golem Centurion",
-                                    "italic": "false"
+                                    "italic": false
                                 }
                             ]
                         },
@@ -349,7 +349,7 @@
                                 {
                                     "text": "Infusion Circle Recipe",
                                     "color": "gray",
-                                    "italic": "false"
+                                    "italic": false
                                 }
                             ]
                         }
@@ -374,7 +374,7 @@
                             "name": [
                                 {
                                     "text": "Formula: Eager Crystal",
-                                    "italic": "false"
+                                    "italic": false
                                 }
                             ]
                         },
@@ -384,7 +384,7 @@
                                 {
                                     "text": "Infusion Circle Recipe",
                                     "color": "gray",
-                                    "italic": "false"
+                                    "italic": false
                                 }
                             ]
                         }
@@ -409,7 +409,7 @@
                             "name": [
                                 {
                                     "text": "Formula: Ambient Crystal",
-                                    "italic": "false"
+                                    "italic": false
                                 }
                             ]
                         },
@@ -419,7 +419,7 @@
                                 {
                                     "text": "Infusion Circle Recipe",
                                     "color": "gray",
-                                    "italic": "false"
+                                    "italic": false
                                 }
                             ]
                         }
@@ -444,7 +444,7 @@
                             "name": [
                                 {
                                     "text": "Formula: Calm Crystal",
-                                    "italic": "false"
+                                    "italic": false
                                 }
                             ]
                         },
@@ -454,7 +454,7 @@
                                 {
                                     "text": "Infusion Circle Recipe",
                                     "color": "gray",
-                                    "italic": "false"
+                                    "italic": false
                                 }
                             ]
                         }
@@ -479,7 +479,7 @@
                             "name": [
                                 {
                                     "text": "Formula: Dimensional Anchor",
-                                    "italic": "false"
+                                    "italic": false
                                 }
                             ]
                         },
@@ -489,7 +489,7 @@
                                 {
                                     "text": "Infusion Circle Recipe",
                                     "color": "gray",
-                                    "italic": "false"
+                                    "italic": false
                                 }
                             ]
                         }
@@ -514,7 +514,7 @@
                             "name": [
                                 {
                                     "text": "Beyond",
-                                    "italic": "false"
+                                    "italic": false
                                 }
                             ]
                         },
@@ -524,7 +524,7 @@
                                 {
                                     "text": "Recipe Collection",
                                     "color": "gray",
-                                    "italic": "false"
+                                    "italic": false
                                 }
                             ]
                         }
@@ -549,7 +549,7 @@
                             "name": [
                                 {
                                     "text": "Formula: Rainbow Road",
-                                    "italic": "false"
+                                    "italic": false
                                 }
                             ]
                         },
@@ -559,7 +559,7 @@
                                 {
                                     "text": "Infusion Circle Recipe",
                                     "color": "gray",
-                                    "italic": "false"
+                                    "italic": false
                                 }
                             ]
                         }
@@ -584,7 +584,7 @@
                             "name": [
                                 {
                                     "text": "Formula: Arcane Kaleidoscope",
-                                    "italic": "false"
+                                    "italic": false
                                 }
                             ]
                         },
@@ -594,7 +594,7 @@
                                 {
                                     "text": "Infusion Circle Recipe",
                                     "color": "gray",
-                                    "italic": "false"
+                                    "italic": false
                                 }
                             ]
                         }
