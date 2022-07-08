@@ -1,0 +1,20 @@
+[
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{display:{Name:'{\"text\":\"Everglacier\",\"color\":\"aqua\",\"italic\":false}',Lore:['{\"text\":\"Concentration I\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"A globe of ice and crystal.\"}','{\"text\":\"Within its quiet stillness,\"}','{\"text\":\"thoughts are held in stasis.\"}','{\"text\":\" \"}','[{\"text\":\"Knowledge Absorbed:\",\"color\":\"gray\",\"italic\":false},{\"text\":\" 10%\",\"color\":\"red\",\"italic\":false}]','{\"text\":\" \"}','{\"text\":\"When in Off Hand:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"Absorbs Knowledge\",\"color\":\"blue\",\"italic\":false}']},HideFlags:1,everglacier:1b,concentration_enchant:1b,concentration_lv:1b,charges:1b,Enchantments:[{id:\"minecraft:frost_walker\",lvl:1s}]}",
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "count": 1,
+              "nbt": "{everglacier:1b,charges:0b}"
+            }
+          }
+        }
+      }
+    ]
+  }
+]

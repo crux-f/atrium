@@ -25,6 +25,11 @@ scoreboard objectives add return_spell_dim dummy
 scoreboard objectives add return_spell_x dummy
 scoreboard objectives add return_spell_y dummy
 scoreboard objectives add return_spell_z dummy
+# Enchantments
+# Some of the custom enchantments require scoreboards for temporary caulcations.
+scoreboard objectives add raider_slayer dummy
+scoreboard objectives add backstabbing dummy
+scoreboard objectives add concentration dummy
 # Mob Teams
 team add necromancer 
 team add occupied

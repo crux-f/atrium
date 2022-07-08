@@ -15,10 +15,8 @@ execute if entity @a[predicate=atrium:extinguish_1_req] run function atrium:magi
 execute if entity @a[predicate=atrium:nourishment_1_req] run function atrium:magic/magicitems/spells/nourishment_1_start
 execute if entity @a[predicate=atrium:extinguish_2_req] run function atrium:magic/magicitems/spells/extinguish_2
 execute if entity @a[predicate=atrium:nourishment_2_req] run function atrium:magic/magicitems/spells/nourishment_2_start
-# execute if entity @a[predicate=atrium:extinguish_3_req] run function atrium:magic/magicitems/spells/extinguish_3
-# execute if entity @a[predicate=atrium:nourishment_3_req] run function atrium:magic/magicitems/spells/nourishment_3_start
+execute if entity @a[predicate=atrium:extinguish_3_req] run function atrium:magic/magicitems/spells/extinguish_3
+execute if entity @a[predicate=atrium:nourishment_3_req] run function atrium:magic/magicitems/spells/nourishment_3_start
 #
-# Ultimate Spell: ???
-#
-# execute if entity @a[predicate=atrium:ult_req] run function atrium:magic/magicitems/spells/ultimate
-# execute if entity @a[predicate=atrium:ult_req] run function atrium:magic/magicitems/spells/ultimate
+# Ultimate Spell: Flush
+execute if entity @a[predicate=atrium:flush_req] as @a[predicate=atrium:flush_req] run function atrium:magic/magicitems/spells/flush

@@ -41,6 +41,41 @@
             ]
         },
         {
+            "type": "item",
+            "weight": 5,
+            "quality": 1,
+            "name": "minecraft:written_book",
+            "functions": [
+                 {
+                     "function": "set_count",
+                     "count": 1
+                 },
+                 {
+                     "function": "set_nbt",
+                     "tag": "{pages:['[\"\",{\"text\":\"Everglacier\\\\n             \"},{\"text\":\"#\",\"color\":\"aqua\"},{\"text\":\"\\\\n          \",\"color\":\"reset\"},{\"text\":\"* \",\"color\":\"blue\"},{\"text\":\" o\",\"color\":\"green\"},{\"text\":\"  *\",\"color\":\"blue\"},{\"text\":\"\\\\n      \",\"color\":\"reset\"},{\"text\":\" #\",\"color\":\"aqua\"},{\"text\":\"  o\",\"color\":\"green\"},{\"text\":\"     o\",\"color\":\"green\"},{\"text\":\"  #\",\"color\":\"aqua\"},{\"text\":\"\\\\n          \",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"blue\"},{\"text\":\"  o\",\"color\":\"green\"},{\"text\":\"  *\",\"color\":\"blue\"},{\"text\":\"\\\\n             \",\"color\":\"reset\"},{\"text\":\"#\",\"color\":\"aqua\"},{\"text\":\"\\\\n\",\"color\":\"reset\"},{\"text\":\"#\",\"color\":\"aqua\"},{\"text\":\" - Blue Ice\\\\n\",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"blue\"},{\"text\":\" - Calm Crystal\\\\n\",\"color\":\"reset\"},{\"text\":\"o\",\"color\":\"green\"},{\"text\":\" - Bottle o\\' Enchanting\",\"color\":\"reset\"}]','{\"text\":\"While the florid stories of wizards seeing through crystal balls are largely untrue, I have found that this particular one does help me concentrate while enchanting. Perhaps you can make use of it as well.\\\\n\\\\n- E\\\\n \"}'],title:\"Formula: Everglacier\",author:\"E..?\",generation:1}"
+                 },
+                 {
+                     "function": "set_name",
+                     "name": [
+                        {
+                            "text": "Formula: Everglacier",
+                            "italic": false
+                        }
+                    ]
+                 },
+                 {
+                     "function": "set_lore",
+                     "lore": [
+                        {
+                            "text": "Infusion Circle Recipe",
+                            "color": "gray",
+                            "italic": false
+                        }
+                     ]
+                 }
+             ]
+         },
+        {
            "type": "item",
            "weight": 5,
            "quality": 1,
@@ -131,6 +166,42 @@
                      "name": [
                         {
                             "text": "Breathe",
+                            "color": "yellow",
+                            "italic": false
+                        }
+                    ]
+                 },
+                 {
+                     "function": "set_lore",
+                     "lore": [
+                        {
+                            "text": "Infusion Circle Recipe",
+                            "color": "gray",
+                            "italic": false
+                        }
+                     ]
+                 }
+             ]
+         },
+         {
+            "type": "item",
+            "weight": 5,
+            "quality": 1,
+            "name": "minecraft:written_book",
+            "functions": [
+                 {
+                     "function": "set_count",
+                     "count": 1
+                 },
+                 {
+                     "function": "set_nbt",
+                     "tag": "{pages:['[\"\",{\"text\":\"Staff of Water (+3)\\\\n             \"},{\"text\":\"^\",\"color\":\"dark_blue\"},{\"text\":\"\\\\n          x  \",\"color\":\"reset\"},{\"text\":\"I\",\"color\":\"aqua\"},{\"text\":\"  x\\\\n       x  \",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"light_purple\"},{\"text\":\"     <\",\"color\":\"gray\"},{\"text\":\"  x\\\\n          x \",\"color\":\"reset\"},{\"text\":\" ^\",\"color\":\"blue\"},{\"text\":\"  x\\\\n             \",\"color\":\"reset\"},{\"text\":\"o\",\"color\":\"dark_aqua\"},{\"text\":\"\\\\n\",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"dark_blue\"},{\"text\":\" - Heart of the Sea\\\\n\",\"color\":\"reset\"},{\"text\":\"I\",\"color\":\"aqua\"},{\"text\":\" - Diamond\\\\n\",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"light_purple\"},{\"text\":\" - Draft of the Prism\\\\n\",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"gray\"},{\"text\":\" - Forgotten Runestone\\\\n--->\",\"color\":\"reset\"}]','[\"\",{\"text\":\"^\",\"color\":\"blue\"},{\"text\":\" - Staff of Water (+2)\\\\n\",\"color\":\"reset\"},{\"text\":\"o\",\"color\":\"dark_aqua\"},{\"text\":\" - Everglacier [Concentration III]\",\"color\":\"reset\"}]','{\"text\":\"My dearest Grace,\\\\n\\\\nWould that I had time enough to write all I wish, but I know not when I will next make port; This, my love, must be enough for now.\\\\n\\\\nThree weeks ago,\\\\n \"}','{\"text\":\"we docked The Crane in this uncanny land. The mists grow thick here, and the trees stranger than I have seen.\\\\n\\\\nWhile we are beset by dangers at every turn, I cannot help myself; The spirit of adventure calls me onward.\"}','[\"\",{\"text\":\"I wonder if you would think the same.\\\\nIn this furthest north, the sea is riddled with glaciers, and the land with deep snowfall.\\\\n\\\\nBut at sea, Grace, at sea!\\\\n\\\\nThe \"},{\"text\":\"Water\",\"color\":\"blue\"},{\"text\":\" feels alive!\\\\n \",\"color\":\"reset\"}]','{\"text\":\"Like the very ocean calls out to my innermost being. \\'Press on\\'!\\\\nE has asked me to write that they miss you terribly.\\\\n\\\\nThe poor dear does not handle the cold well.\\\\n \"}','{\"text\":\"My dear, I cannot tell if the lands beyond will be merciful.\\\\n\\\\nBut I could not let this voyage be in vain.\\\\n\\\\nKeep with you this formula. Anston thinks it is the most important we have found so far.\"}','{\"text\":\"I will be with you again, be it land, sea, or god that stands between us.\\\\n\\\\nKeep safe, my love.\\\\n\\\\nI will be home before you know it.\\\\n\\\\n- Mel <3\"}'],title:\"Lost Coast\",author:Mel,generation:1}"
+                 },
+                 {
+                     "function": "set_name",
+                     "name": [
+                        {
+                            "text": "Lost Coast",
                             "color": "yellow",
                             "italic": false
                         }

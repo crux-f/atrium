@@ -157,6 +157,10 @@ execute positioned ~ ~2 ~-4 if entity @e[type=minecraft:item_frame,distance=..1.
 execute positioned ~ ~2 ~-4 at @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{id:"minecraft:waxed_cut_copper",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
 execute positioned ~ ~2 ~-4 if entity @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{id:"minecraft:waxed_cut_copper",Count:1b}}] run execute as @e[tag=infusion,distance=..10] at @s run function atrium:magic/infusion/hellish_lantern
 #
+# Start Everglacier - Check NORTH for Blue Ice
+execute positioned ~ ~2 ~-4 at @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{id:"minecraft:blue_ice",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~2 ~-4 if entity @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{id:"minecraft:blue_ice",Count:1b}}] run execute as @e[tag=infusion,distance=..10] at @s run function atrium:magic/infusion/everglacier
+#
 # MOBS
 #
 # Start Golem Centurion - Check NORTH for Life's Echo

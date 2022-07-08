@@ -18,7 +18,7 @@ execute at @e[tag=nourishment_marker] if block ~1 ~0.0625 ~ minecraft:potatoes r
 execute at @e[tag=nourishment_marker] if block ~ ~0.0625 ~-1 minecraft:potatoes run function atrium:magic/magicitems/spells/nourishment_spell/nourishment_potatoes_z-1
 # +1 z - Potatoes
 execute at @e[tag=nourishment_marker] if block ~ ~0.0625 ~1 minecraft:potatoes run function atrium:magic/magicitems/spells/nourishment_spell/nourishment_potatoes_z1
-# cARROTS - can you imagine this all in one file the server would kill me
+# CARROTS - can you imagine this all in one file the server would kill me
 execute at @e[tag=nourishment_marker] if block ~ ~0.0625 ~ minecraft:carrots run function atrium:magic/magicitems/spells/nourishment_spell/nourishment_carrots_c
 # -1 x - carrots
 execute at @e[tag=nourishment_marker] if block ~-1 ~0.0625 ~ minecraft:carrots run function atrium:magic/magicitems/spells/nourishment_spell/nourishment_carrots_x-1

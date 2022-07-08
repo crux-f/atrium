@@ -1,4 +1,4 @@
-execute at @e[tag=nourishment_marker] if block ~ ~0.0625 ~1 minecraft:wheat[age=7] run setblock ~ ~0.0625 ~1 minecraft:wheat[age=1] destroy
+execute at @e[tag=nourishment_marker] if block ~ ~0.0625 ~1 minecraft:wheat[age=7] run setblock ~ ~0.0625 ~1 minecraft:wheat[age=0] destroy
 execute at @e[tag=nourishment_marker] if block ~ ~0.0625 ~1 minecraft:wheat[age=6] run setblock ~ ~0.0625 ~1 minecraft:wheat[age=7] replace
 execute at @e[tag=nourishment_marker] if block ~ ~0.0625 ~1 minecraft:wheat[age=5] run setblock ~ ~0.0625 ~1 minecraft:wheat[age=6] replace
 execute at @e[tag=nourishment_marker] if block ~ ~0.0625 ~1 minecraft:wheat[age=4] run setblock ~ ~0.0625 ~1 minecraft:wheat[age=5] replace

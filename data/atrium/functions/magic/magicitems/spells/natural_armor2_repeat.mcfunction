@@ -1,3 +1,5 @@
+# Duration: 20 minutes
+#
 # Reapply effect if tagged person still isnt wearing armor
 effect give @a[tag=natural_armor2,predicate=atrium:if_no_armor,scores={natural_armor=..120}] minecraft:resistance 11 2
 # Add 1 to duration counter for each tagged player who isnt wearing armor
