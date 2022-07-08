@@ -24,7 +24,7 @@
                             "name": [
                                 {
                                     "text": "Empowered Potions",
-                                    "italic": "false"
+                                    "italic": false
                                 }
                             ]
                         },
@@ -34,7 +34,7 @@
                                 {
                                     "text": "Recipe Collection",
                                     "color": "gray",
-                                    "italic": "false"
+                                    "italic": false
                                 }
                             ]
                         }
@@ -59,7 +59,7 @@
                             "name": [
                                 {
                                     "text": "Formula: Transmutation Powder",
-                                    "italic": "false"
+                                    "italic": false
                                 }
                             ]
                         },
@@ -69,7 +69,7 @@
                                 {
                                     "text": "Empowered Cauldron Recipe",
                                     "color": "gray",
-                                    "italic": "false"
+                                    "italic": false
                                 }
                             ]
                         }
@@ -94,7 +94,7 @@
                             "name": [
                                 {
                                     "text": "Formula: Potion Catalyst",
-                                    "italic": "false"
+                                    "italic": false
                                 }
                             ]
                         },
@@ -104,7 +104,7 @@
                                 {
                                     "text": "Empowered Cauldron Recipe",
                                     "color": "gray",
-                                    "italic": "false"
+                                    "italic": false
                                 }
                             ]
                         }
@@ -129,7 +129,7 @@
                             "name": [
                                 {
                                     "text": "Formula: Essence of Amber",
-                                    "italic": "false"
+                                    "italic": false
                                 }
                             ]
                         },
@@ -139,7 +139,7 @@
                                 {
                                     "text": "Empowered Cauldron Recipe",
                                     "color": "gray",
-                                    "italic": "false"
+                                    "italic": false
                                 }
                             ]
                         }
@@ -164,7 +164,7 @@
                             "name": [
                                 {
                                     "text": "Formula: Submerged Gemstone",
-                                    "italic": "false"
+                                    "italic": false
                                 }
                             ]
                         },
@@ -174,7 +174,7 @@
                                 {
                                     "text": "Empowered Cauldron Recipe",
                                     "color": "gray",
-                                    "italic": "false"
+                                    "italic": false
                                 }
 							]
                         }
@@ -199,7 +199,7 @@
                             "name": [
                                 {
                                     "text": "Formula: Stardust",
-                                    "italic": "false"
+                                    "italic": false
                                 }
                             ]
                         },
@@ -209,7 +209,7 @@
                                 {
                                     "text": "Empowered Cauldron Recipe",
                                     "color": "gray",
-                                    "italic": "false"
+                                    "italic": false
                                 }
                             ]
                         }
@@ -246,7 +246,7 @@
                             "name": [
                                 {
                                     "text": "Formula: Potion of Luck (5:00)",
-                                    "italic": "false"
+                                    "italic": false
                                 }
                             ]
                         },
@@ -256,7 +256,42 @@
                                 {
                                     "text": "Empowered Cauldron Recipe",
                                     "color": "gray",
-                                    "italic": "false"
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "quality": 5,
+                    "name": "minecraft:written_book",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{pages:['[\"\",{\"text\":\"Flickering Fuel\\\\n            \"},{\"text\":\"*\",\"color\":\"red\"},{\"text\":\"\\\\n         \",\"color\":\"reset\"},{\"text\":\" >   <\",\"color\":\"#AEAC25\"},{\"text\":\"\\\\n            \",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"gold\"},{\"text\":\"\\\\n\",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"red\"},{\"text\":\" - Redstone Dust\\\\n\",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"#AEAC25\"},{\"text\":\",\",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"#AEAC25\"},{\"text\":\" - Glowstone Dust\\\\n\",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"gold\"},{\"text\":\" - Blaze Powder\",\"color\":\"reset\"}]'],title:\"Formula: Flickering Fuel\",author:\"???\",generation:1}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "Formula: Flickering Fuel",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "Empowered Cauldron Recipe",
+                                    "color": "gray",
+                                    "italic": false
                                 }
                             ]
                         }

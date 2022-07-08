@@ -108,7 +108,10 @@ execute positioned ~ ~2 ~-2 if entity @e[type=minecraft:item_frame,distance=..1,
 # Start Garden Shard - Check NORTH for Amethyst Shard
 execute positioned ~ ~2 ~-2 at @e[type=minecraft:item_frame,distance=..1,nbt={Item:{id:"minecraft:amethyst_shard",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
 execute positioned ~ ~2 ~-2 if entity @e[type=minecraft:item_frame,distance=..1,nbt={Item:{id:"minecraft:amethyst_shard",Count:1b}}] run execute as @e[tag=empoweredcauldron,distance=..10] at @s run function atrium:magic/advancedpotions/garden_shard
-
+#
+# Start Flickering Fuel - Check SOUTH for Blaze Powder
+execute positioned ~ ~2 ~2 at @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{id:"minecraft:blaze_powder",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~2 ~2 if entity @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{id:"minecraft:blaze_powder",Count:1b}}] run execute as @e[tag=empoweredcauldron,distance=..10] at @s run function atrium:magic/advancedpotions/flickering_fuel
 #
 # Potion Mixtures
 #
