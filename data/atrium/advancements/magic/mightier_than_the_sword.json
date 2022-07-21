@@ -1,12 +1,12 @@
 {
-    "__comment": "Acquired by enchanting an item using the Runic Codex",
+    "__comment": "Acquired by crafting an item using the Runic Codex",
     "display": {
         "title": {
             "text": "Mightier Than The Sword",
             "color": "white"
         },
         "description": {
-            "text": "Enchant an item using the runic codex"
+            "text": "Improve an item using the runic codex"
         },
         "icon": {
             "item": "minecraft:enchanting_table"

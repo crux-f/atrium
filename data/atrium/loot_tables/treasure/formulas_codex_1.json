@@ -181,6 +181,41 @@
                     ]
                 },
                 {
+                    "type": "item",
+                    "weight": 2,
+                    "quality": 2,
+                    "name": "minecraft:written_book",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{pages:['[\"\",{\"text\":\"Concentration I\\\\n          \"},{\"text\":\"V\",\"color\":\"dark_green\"},{\"text\":\"\\\\n     \",\"color\":\"reset\"},{\"text\":\" *\",\"color\":\"dark_aqua\"},{\"text\":\"       ]\",\"color\":\"green\"},{\"text\":\"\\\\n 0       \",\"color\":\"reset\"},{\"text\":\" !\",\"color\":\"red\"},{\"text\":\"       <\",\"color\":\"dark_purple\"},{\"text\":\"\\\\n     \",\"color\":\"reset\"},{\"text\":\" *\",\"color\":\"dark_aqua\"},{\"text\":\"       [\",\"color\":\"aqua\"},{\"text\":\"\\\\n          \",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"gold\"},{\"text\":\"\\\\n\",\"color\":\"reset\"},{\"text\":\"V\",\"color\":\"dark_green\"},{\"text\":\" - Book and Quill\\\\n\",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"dark_aqua\"},{\"text\":\" - Glow Ink Sac\\\\n\",\"color\":\"reset\"},{\"text\":\"]\",\"color\":\"green\"},{\"text\":\" - \",\"color\":\"reset\"},{\"text\":\"[Efficiency]\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"(Any item enchanted with this.)\"}},{\"text\":\"\\\\n\"},{\"text\":\"<\",\"color\":\"dark_purple\"},{\"text\":\" - Enchantment Catalyst (\",\"color\":\"reset\"},{\"text\":\"Transforming\",\"color\":\"light_purple\"},{\"text\":\")\\\\n\",\"color\":\"reset\"},{\"text\":\"[\",\"color\":\"aqua\"},{\"text\":\" - \",\"color\":\"reset\"},{\"text\":\"[Fortune]\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"(Any item enchanted with this.)\"}},{\"text\":\"\\\\n--->\"}]','[\"\",{\"text\":\"0 - [Any Staff]\\\\n\"},{\"text\":\"^\",\"color\":\"gold\"},{\"text\":\" - Lantern\\\\n\",\"color\":\"reset\"},{\"text\":\"!\",\"color\":\"red\"},{\"text\":\" - (Ritual \",\"color\":\"reset\"},{\"text\":\"XP\",\"color\":\"green\"},{\"text\":\" Cost: 5)\",\"color\":\"reset\"}]','[\"\",{\"text\":\"Concentration\",\"underlined\":true,\"color\":\"gray\"},{\"text\":\"\\\\n[Staves Only]\",\"color\":\"gray\"},{\"text\":\"\\\\nWhile held, a staff with Concentration will occasionally recycle some of the \",\"color\":\"reset\"},{\"text\":\"XP\",\"color\":\"green\"},{\"text\":\" used to cast spells, as well as \",\"color\":\"reset\"},{\"text\":\"XP\",\"color\":\"green\"},{\"text\":\" used to enchant items using an Enchantment Table or Runic Codex.\\\\n\\\\n \",\"color\":\"reset\"}]'],title:\"Ritual: Concentration I\",author:\"???\",generation:1}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "Ritual: Concentration I",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "Runic Codex Recipe",
+                                    "color": "gray",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
                     "type": "loot_table",
                     "weight": 2,
                     "quality": 3,

@@ -1,0 +1,26 @@
+{
+    "__comment": "Acquired by applying a custom enchantment",
+    "display": {
+        "title": {
+            "text": "Enchanter II",
+            "color": "white"
+        },
+        "description": {
+            "text": "Enchant an item at a Runic Codex"
+        },
+        "icon": {
+            "item": "minecraft:enchanted_book",
+            "nbt": "{Enchantments:[{id:\"minecraft:power\",lvl:1s}]}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "custom_enchantment": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "atrium:magic/mightier_than_the_sword"
+}

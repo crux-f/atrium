@@ -13,14 +13,14 @@ execute if entity @a[gamemode=!spectator,nbt={Inventory:[{Slot:-106b,tag:{spellb
 # Charge the scrolls
 execute if entity @a[gamemode=!spectator,nbt={Inventory:[{Slot:-106b,tag:{scroll:1b}}]}] run function atrium:magic/magicitems/scroll_charge
 # Sounds
-execute at @a[gamemode=!spectator,nbt={Inventory:[{Slot:-106b,tag:{staff:1b,lv1:1b}}]},level=..1] run playsound minecraft:block.redstone_torch.burnout player @a[distance=..30] ~ ~ ~ 1 2 0.1
-execute at @a[gamemode=!spectator,nbt={Inventory:[{Slot:-106b,tag:{staff:1b,lv1:1b}}]},level=2..] run playsound minecraft:entity.experience_orb.pickup player @a[distance=..30] ~ ~ ~ 0.5 2 0.1
-execute at @a[gamemode=!spectator,nbt={Inventory:[{Slot:-106b,tag:{staff:1b,lv2:1b}}]},level=..3] run playsound minecraft:block.redstone_torch.burnout player @a[distance=..30] ~ ~ ~ 1 2 0.1
-execute at @a[gamemode=!spectator,nbt={Inventory:[{Slot:-106b,tag:{staff:1b,lv2:1b}}]},level=4..] run playsound minecraft:entity.experience_orb.pickup player @a[distance=..30] ~ ~ ~ 0.5 2 0.1
-execute at @a[gamemode=!spectator,nbt={Inventory:[{Slot:-106b,tag:{staff:1b,lv3:1b}}]},level=..4] run playsound minecraft:block.redstone_torch.burnout player @a[distance=..30] ~ ~ ~ 1 2 0.1
-execute at @a[gamemode=!spectator,nbt={Inventory:[{Slot:-106b,tag:{staff:1b,lv3:1b}}]},level=5..] run playsound minecraft:entity.experience_orb.pickup player @a[distance=..30] ~ ~ ~ 0.5 2 0.1
+execute at @a[gamemode=!spectator,nbt={Inventory:[{Slot:-106b,tag:{staff:1b,lv1:1b}}]},level=..2] run playsound minecraft:block.redstone_torch.burnout player @a[distance=..30] ~ ~ ~ 1 2 0.1
+execute at @a[gamemode=!spectator,nbt={Inventory:[{Slot:-106b,tag:{staff:1b,lv1:1b}}]},level=3..] run playsound minecraft:entity.experience_orb.pickup player @a[distance=..30] ~ ~ ~ 0.5 2 0.1
+execute at @a[gamemode=!spectator,nbt={Inventory:[{Slot:-106b,tag:{staff:1b,lv2:1b}}]},level=..4] run playsound minecraft:block.redstone_torch.burnout player @a[distance=..30] ~ ~ ~ 1 2 0.1
+execute at @a[gamemode=!spectator,nbt={Inventory:[{Slot:-106b,tag:{staff:1b,lv2:1b}}]},level=5..] run playsound minecraft:entity.experience_orb.pickup player @a[distance=..30] ~ ~ ~ 0.5 2 0.1
+execute at @a[gamemode=!spectator,nbt={Inventory:[{Slot:-106b,tag:{staff:1b,lv3:1b}}]},level=..5] run playsound minecraft:block.redstone_torch.burnout player @a[distance=..30] ~ ~ ~ 1 2 0.1
+execute at @a[gamemode=!spectator,nbt={Inventory:[{Slot:-106b,tag:{staff:1b,lv3:1b}}]},level=6..] run playsound minecraft:entity.experience_orb.pickup player @a[distance=..30] ~ ~ ~ 0.5 2 0.1
 # extra charging sound for max level staves
-execute at @a[gamemode=!spectator,nbt={Inventory:[{Slot:-106b,tag:{staff:1b,lv3:1b}}]},level=5..] run playsound minecraft:block.amethyst_cluster.step player @a[distance=..30] ~ ~ ~ 0.45 0.05 0.1
+execute at @a[gamemode=!spectator,nbt={Inventory:[{Slot:-106b,tag:{staff:1b,lv3:1b}}]},level=6..] run playsound minecraft:block.amethyst_cluster.step player @a[distance=..30] ~ ~ ~ 0.45 0.05 0.1
 #
 execute at @a[gamemode=!spectator,nbt={Inventory:[{Slot:-106b,tag:{spellbook:1b}}]},level=..4] run playsound minecraft:block.redstone_torch.burnout player @a[distance=..30] ~ ~ ~ 1 1 0.1
 execute at @a[gamemode=!spectator,nbt={Inventory:[{Slot:-106b,tag:{spellbook:1b}}]},level=5..] run playsound minecraft:item.book.page_turn player @a[distance=..30] ~ ~ ~ 1 1 0.1
