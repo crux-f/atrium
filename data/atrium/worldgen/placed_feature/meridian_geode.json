@@ -2,7 +2,7 @@
   "feature": "atrium:meridian_geode",
   "placement": [
     {
-      "chance": 24,
+      "chance": 30,
       "type": "minecraft:rarity_filter"
     },
     {
