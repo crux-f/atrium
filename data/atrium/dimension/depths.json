@@ -2,7 +2,6 @@
   "type": "atrium:depths_type",
   "generator": {
     "type": "minecraft:noise",
-    "seed": -378954324656,
     "biome_source": {
       "type": "minecraft:multi_noise",
       "biomes": [

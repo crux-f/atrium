@@ -2,7 +2,6 @@
 	"type": "atrium:meridian_type",
 	"generator": {
 		"type": "minecraft:noise",
-		"seed": 9406920593,
 		"biome_source": {
 			"type": "minecraft:multi_noise",
 			"biomes": [
