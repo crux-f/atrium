@@ -16,25 +16,35 @@
         "hidden": true
     },
     "criteria": {
-        "findvista": {
+        "find_vista": {
             "trigger": "minecraft:location",
             "conditions": {
-                "biome": "atrium:avalanche_caves",
-                "dimension": "atrium:depths",
-                "position": {
-                    "x": {
-                        "min": 35944,
-                        "max": 35955
-                    },
-                    "y": {
-                        "min": 712,
-                        "max": 713
-                    },
-                    "z": {
-                        "min": -4054,
-                        "max": -4053
+              "player": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "location": {
+                        "biome": "atrium:avalanche_caves",
+                        "dimension": "atrium:depths",
+                        "position": {
+                            "x": {
+                                "min": 35944,
+                                "max": 35955
+                            },
+                            "y": {
+                                "min": 712,
+                                "max": 713
+                            },
+                            "z": {
+                                "min": -4054,
+                                "max": -4053
+                            }
+                        }
                     }
+                  }
                 }
+              ]
             }
         }
     },

@@ -16,25 +16,35 @@
         "hidden": true
     },
     "criteria": {
-        "findvista": {
+        "find_vista": {
             "trigger": "minecraft:location",
             "conditions": {
-                "biome": "minecraft:warped_forest",
-                "dimension": "the_nether",
-                "position": {
-                    "x": {
-                        "min": 663,
-                        "max": 666
-                    },
-                    "y": {
-                        "min": 99,
-                        "max": 102
-                    },
-                    "z": {
-                        "min": 785,
-                        "max": 787
+              "player": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "location": {
+                        "biome": "minecraft:warped_forest",
+                        "dimension": "minecraft:the_nether",
+                        "position": {
+                            "x": {
+                                "min": 663,
+                                "max": 666
+                            },
+                            "y": {
+                                "min": 99,
+                                "max": 102
+                            },
+                            "z": {
+                                "min": 785,
+                                "max": 787
+                            }
+                        }
                     }
+                  }
                 }
+              ]
             }
         }
     },

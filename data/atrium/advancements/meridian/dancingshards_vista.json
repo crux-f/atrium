@@ -16,25 +16,35 @@
         "hidden": true
     },
     "criteria": {
-        "findvista": {
+        "find_vista": {
             "trigger": "minecraft:location",
             "conditions": {
-                "biome": "atrium:shards",
-                "dimension": "atrium:meridian",
-                "position": {
-                    "x": {
-                        "min": 3459,
-                        "max": 3461
-                    },
-                    "y": {
-                        "min": 252,
-                        "max": 256
-                    },
-                    "z": {
-                        "min": -5593,
-                        "max": -5591
+              "player": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "location": {
+                        "biome": "atrium:shards",
+                        "dimension": "atrium:meridian",
+                        "position": {
+                            "x": {
+                                "min": 3459,
+                                "max": 3461
+                            },
+                            "y": {
+                                "min": 252,
+                                "max": 256
+                            },
+                            "z": {
+                                "min": -5593,
+                                "max": -5591
+                            }
+                        }
                     }
+                  }
                 }
+              ]
             }
         }
     },

@@ -28,7 +28,8 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "player": {
+              "type_specific": {
+                "type": "player",
                 "advancements": {
                   "atrium:emberpeakisle_vista": true,
                   "atrium:tigabaanwilds_vista": true,

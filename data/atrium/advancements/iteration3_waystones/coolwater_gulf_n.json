@@ -16,25 +16,35 @@
         "hidden": true
     },
     "criteria": {
-        "findvista": {
+        "find_vista": {
             "trigger": "minecraft:location",
             "conditions": {
-                "biome": "minecraft:beach",
-                "dimension": "overworld",
-                "position": {
-                    "x": {
-                        "min": 39748,
-                        "max": 39749
-                    },
-                    "y": {
-                        "min": 73,
-                        "max": 74
-                    },
-                    "z": {
-                        "min": -3548,
-                        "max": -3547
+              "player": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "location": {
+                        "biome": "minecraft:beach",
+                        "dimension": "minecraft:overworld",
+                        "position": {
+                            "x": {
+                                "min": 39748,
+                                "max": 39749
+                            },
+                            "y": {
+                                "min": 73,
+                                "max": 74
+                            },
+                            "z": {
+                                "min": -3548,
+                                "max": -3547
+                            }
+                        }
                     }
+                  }
                 }
+              ]
             }
         }
     },

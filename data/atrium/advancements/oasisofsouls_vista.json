@@ -16,25 +16,35 @@
         "hidden": true
     },
     "criteria": {
-        "findvista": {
+        "find_vista": {
             "trigger": "minecraft:location",
             "conditions": {
-                "biome": "minecraft:soul_sand_valley",
-                "dimension": "the_nether",
-                "position": {
-                    "x": {
-                        "min": 398,
-                        "max": 400
-                    },
-                    "y": {
-                        "min": 100,
-                        "max": 105
-                    },
-                    "z": {
-                        "min": 327,
-                        "max": 329
+              "player": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "location": {
+                        "biome": "minecraft:soul_sand_valley",
+                        "dimension": "minecraft:the_nether",
+                        "position": {
+                            "x": {
+                                "min": 398,
+                                "max": 400
+                            },
+                            "y": {
+                                "min": 100,
+                                "max": 105
+                            },
+                            "z": {
+                                "min": 327,
+                                "max": 329
+                            }
+                        }
                     }
+                  }
                 }
+              ]
             }
         }
     },

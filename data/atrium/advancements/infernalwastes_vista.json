@@ -16,25 +16,35 @@
         "hidden": true
     },
     "criteria": {
-        "findvista": {
+        "find_vista": {
             "trigger": "minecraft:location",
             "conditions": {
-                "biome": "minecraft:nether_wastes",
-                "dimension": "the_nether",
-                "position": {
-                    "x": {
-                        "min": -50,
-                        "max": -48
-                    },
-                    "y": {
-                        "min": 80,
-                        "max": 90
-                    },
-                    "z": {
-                        "min": 493,
-                        "max": 496
+              "player": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "location": {
+                        "biome": "minecraft:nether_wastes",
+                        "dimension": "minecraft:the_nether",
+                        "position": {
+                            "x": {
+                                "min": -50,
+                                "max": -48
+                            },
+                            "y": {
+                                "min": 80,
+                                "max": 90
+                            },
+                            "z": {
+                                "min": 493,
+                                "max": 496
+                            }
+                        }
                     }
+                  }
                 }
+              ]
             }
         }
     },

@@ -16,25 +16,35 @@
         "hidden": true
     },
     "criteria": {
-        "findvista": {
+        "find_vista": {
             "trigger": "minecraft:location",
             "conditions": {
-                "biome": "minecraft:jagged_peaks",
-                "dimension": "overworld",
-                "position": {
-                    "x": {
-                        "min": 36925,
-                        "max": 36926
-                    },
-                    "y": {
-                        "min": 91,
-                        "max": 92
-                    },
-                    "z": {
-                        "min": -6756,
-                        "max": -6755
+              "player": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "location": {
+                        "biome": "minecraft:jagged_peaks",
+                        "dimension": "minecraft:overworld",
+                        "position": {
+                            "x": {
+                                "min": 36925,
+                                "max": 36926
+                            },
+                            "y": {
+                                "min": 91,
+                                "max": 92
+                            },
+                            "z": {
+                                "min": -6756,
+                                "max": -6755
+                            }
+                        }
                     }
+                  }
                 }
+              ]
             }
         }
     },

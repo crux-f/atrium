@@ -16,25 +16,35 @@
         "hidden": true
     },
     "criteria": {
-        "findvista": {
+        "find_vista": {
             "trigger": "minecraft:location",
             "conditions": {
-                "biome": "minecraft:crimson_forest",
-                "dimension": "the_nether",
-                "position": {
-                    "x": {
-                        "min": 258,
-                        "max": 262
-                    },
-                    "y": {
-                        "min": 99,
-                        "max": 103
-                    },
-                    "z": {
-                        "min": 760,
-                        "max": 765
+              "player": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "location": {
+                        "biome": "minecraft:crimson_forest",
+                        "dimension": "minecraft:the_nether",
+                        "position": {
+                            "x": {
+                                "min": 258,
+                                "max": 262
+                            },
+                            "y": {
+                                "min": 99,
+                                "max": 103
+                            },
+                            "z": {
+                                "min": 760,
+                                "max": 765
+                            }
+                        }
                     }
+                  }
                 }
+              ]
             }
         }
     },

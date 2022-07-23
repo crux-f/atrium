@@ -16,53 +16,123 @@
         "hidden": false
     },
     "criteria": {
-        "crystal_caves": {
+        "find_biome_crystal_caves": {
             "trigger": "minecraft:location",
             "conditions": {
-                "biome": "atrium:crystal_caves",
-                "dimension": "atrium:depths"
+              "player": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "location": {
+                        "biome": "atrium:crystal_caves",
+                        "dimension": "atrium:meridian"
+                    }
+                  }
+                }
+              ]
             }
         },
-        "clotted_caves": {
+        "find_biome_clotted_caves": {
             "trigger": "minecraft:location",
             "conditions": {
-                "biome": "atrium:clotted_caves",
-                "dimension": "atrium:depths"
+              "player": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "location": {
+                        "biome": "atrium:clotted_caves",
+                        "dimension": "atrium:meridian"
+                    }
+                  }
+                }
+              ]
             }
         },
-        "volcanic_caves": {
+        "find_biome_volcanic_caves": {
             "trigger": "minecraft:location",
             "conditions": {
-                "biome": "atrium:volcanic_caves",
-                "dimension": "atrium:depths"
+              "player": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "location": {
+                        "biome": "atrium:volcanic_caves",
+                        "dimension": "atrium:meridian"
+                    }
+                  }
+                }
+              ]
             }
         },
-        "avalanche_caves": {
+        "find_biome_avalanche_caves": {
             "trigger": "minecraft:location",
             "conditions": {
-                "biome": "atrium:crystal_caves",
-                "dimension": "atrium:depths"
+              "player": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "location": {
+                        "biome": "atrium:avalanche_caves",
+                        "dimension": "atrium:meridian"
+                    }
+                  }
+                }
+              ]
             }
         },
-        "spore_caves": {
+        "find_biome_spore_caves": {
             "trigger": "minecraft:location",
             "conditions": {
-                "biome": "atrium:spore_caves",
-                "dimension": "atrium:depths"
+              "player": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "location": {
+                        "biome": "atrium:spore_caves",
+                        "dimension": "atrium:meridian"
+                    }
+                  }
+                }
+              ]
             }
         },
-        "crawling_caves": {
+        "find_biome_crawling_caves": {
             "trigger": "minecraft:location",
             "conditions": {
-                "biome": "atrium:crawling_caves",
-                "dimension": "atrium:depths"
+              "player": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "location": {
+                        "biome": "atrium:crawling_caves",
+                        "dimension": "atrium:meridian"
+                    }
+                  }
+                }
+              ]
             }
         },
-        "frozen_caves": {
+        "find_biome_frozen_caves": {
             "trigger": "minecraft:location",
             "conditions": {
-                "biome": "atrium:frozen_caves",
-                "dimension": "atrium:depths"
+              "player": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "location": {
+                        "biome": "atrium:frozen_caves",
+                        "dimension": "atrium:meridian"
+                    }
+                  }
+                }
+              ]
             }
         }
     },

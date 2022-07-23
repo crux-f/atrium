@@ -16,25 +16,35 @@
         "hidden": true
     },
     "criteria": {
-        "findvista": {
+        "find_vista": {
             "trigger": "minecraft:location",
             "conditions": {
-                "biome": "minecraft:plains",
-                "dimension": "overworld",
-                "position": {
-                    "x": {
-                        "min": 8290,
-                        "max": 8299
-                    },
-                    "y": {
-                        "min": 239,
-                        "max": 245
-                    },
-                    "z": {
-                        "min": -1777,
-                        "max": -1775
+              "player": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "location": {
+                        "biome": "minecraft:plains",
+                        "dimension": "minecraft:overworld",
+                        "position": {
+                            "x": {
+                                "min": 8290,
+                                "max": 8299
+                            },
+                            "y": {
+                                "min": 239,
+                                "max": 245
+                            },
+                            "z": {
+                                "min": -1777,
+                                "max": -1775
+                            }
+                        }
                     }
+                  }
                 }
+              ]
             }
         }
     },

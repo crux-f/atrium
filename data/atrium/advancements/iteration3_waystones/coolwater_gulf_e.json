@@ -16,25 +16,35 @@
         "hidden": true
     },
     "criteria": {
-        "findvista": {
+        "find_vista": {
             "trigger": "minecraft:location",
             "conditions": {
-                "biome": "minecraft:lush_caves",
-                "dimension": "overworld",
-                "position": {
-                    "x": {
-                        "min": 40477,
-                        "max": 40478
-                    },
-                    "y": {
-                        "min": -33,
-                        "max": -32
-                    },
-                    "z": {
-                        "min": -1849,
-                        "max": -1848
+              "player": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "location": {
+                        "biome": "minecraft:lush_caves",
+                        "dimension": "minecraft:overworld",
+                        "position": {
+                            "x": {
+                                "min": 40477,
+                                "max": 40478
+                            },
+                            "y": {
+                                "min": -33,
+                                "max": -32
+                            },
+                            "z": {
+                                "min": -1849,
+                                "max": -1848
+                            }
+                        }
                     }
+                  }
                 }
+              ]
             }
         }
     },

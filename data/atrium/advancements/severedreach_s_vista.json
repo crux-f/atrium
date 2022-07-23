@@ -16,24 +16,34 @@
         "hidden": true
     },
     "criteria": {
-        "findvista": {
+        "find_vista": {
             "trigger": "minecraft:location",
             "conditions": {
-                "dimension": "overworld",
-                "position": {
-                    "x": {
-                        "min": 6250,
-                        "max": 6252
-                    },
-                    "y": {
-                        "min": 106,
-                        "max": 110
-                    },
-                    "z": {
-                        "min": -7772,
-                        "max": -7770
+              "player": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "location": {
+                        "dimension": "minecraft:overworld",
+                        "position": {
+                            "x": {
+                                "min": 6250,
+                                "max": 6252
+                            },
+                            "y": {
+                                "min": 106,
+                                "max": 110
+                            },
+                            "z": {
+                                "min": -7772,
+                                "max": -7770
+                            }
+                        }
                     }
+                  }
                 }
+              ]
             }
         }
     },

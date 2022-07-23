@@ -16,53 +16,123 @@
         "hidden": false
     },
     "criteria": {
-        "sky": {
+        "find_biome_sky": {
             "trigger": "minecraft:location",
             "conditions": {
-                "biome": "atrium:sky",
-                "dimension": "atrium:meridian"
+              "player": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "location": {
+                        "biome": "atrium:sky",
+                        "dimension": "atrium:meridian"
+                    }
+                  }
+                }
+              ]
             }
         },
-        "cloudgarden": {
+        "find_biome_cloudgarden": {
             "trigger": "minecraft:location",
             "conditions": {
-                "biome": "atrium:cloudgarden",
-                "dimension": "atrium:meridian"
+              "player": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "location": {
+                        "biome": "atrium:cloudgarden",
+                        "dimension": "atrium:meridian"
+                    }
+                  }
+                }
+              ]
             }
         },
-        "autumn_isles": {
+        "find_biome_autumn_isles": {
             "trigger": "minecraft:location",
             "conditions": {
-                "biome": "atrium:autumn_isles",
-                "dimension": "atrium:meridian"
+              "player": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "location": {
+                        "biome": "atrium:autumn_isles",
+                        "dimension": "atrium:meridian"
+                    }
+                  }
+                }
+              ]
             }
         },
-        "shards": {
+        "find_biome_shards": {
             "trigger": "minecraft:location",
             "conditions": {
-                "biome": "atrium:shards",
-                "dimension": "atrium:meridian"
+              "player": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "location": {
+                        "biome": "atrium:shards",
+                        "dimension": "atrium:meridian"
+                    }
+                  }
+                }
+              ]
             }
         },
-        "sand_isles": {
+        "find_biome_sand_isles": {
             "trigger": "minecraft:location",
             "conditions": {
-                "biome": "atrium:sand_isles",
-                "dimension": "atrium:meridian"
+              "player": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "location": {
+                        "biome": "atrium:sand_isles",
+                        "dimension": "atrium:meridian"
+                    }
+                  }
+                }
+              ]
             }
         },
-        "cloudpine_forest": {
+        "find_biome_cloudpine_forest": {
             "trigger": "minecraft:location",
             "conditions": {
-                "biome": "atrium:cloudpine_forest",
-                "dimension": "atrium:meridian"
+              "player": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "location": {
+                        "biome": "atrium:cloudpine_forest",
+                        "dimension": "atrium:meridian"
+                    }
+                  }
+                }
+              ]
             }
         },
-        "overgrown_isles": {
+        "find_biome_overgrown_isles": {
             "trigger": "minecraft:location",
             "conditions": {
-                "biome": "atrium:overgrown_isles",
-                "dimension": "atrium:meridian"
+              "player": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "location": {
+                        "biome": "atrium:overgrown_isles",
+                        "dimension": "atrium:meridian"
+                    }
+                  }
+                }
+              ]
             }
         }
     },
