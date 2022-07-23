@@ -2,6 +2,7 @@
   "bedrock_roof_position": 384,
   "bedrock_floor_position": 1,
   "sea_level": 30,
+  "spawn_target": [],
   "disable_mob_generation": false,
   "noise": {
     "height": 1056,
@@ -140,7 +141,7 @@
                   "min_inclusive": -1000000.0,
                   "type": "minecraft:range_choice"
                 },
-                "type": "minecraft:slide"
+                "type": "minecraft:squeeze"
               },
               "type": "minecraft:blend_density"
             },
@@ -524,7 +525,7 @@
                   },
                   {
                     "result_state": {
-                      "Name": "minecraft:dripstone"
+                      "Name": "minecraft:pointed_dripstone"
                     },
                     "type": "minecraft:block"
                   }

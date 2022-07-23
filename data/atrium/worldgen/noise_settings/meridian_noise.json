@@ -1,8 +1,9 @@
 {
-	"name": "minecraft:plains",
+	"name": "atrium:meridian",
 	"bedrock_roof_position": -2147483648,
 	"bedrock_floor_position": -2147483648,
 	"sea_level": 0,
+  "spawn_target": [],
 	"disable_mob_generation": false,
 	"default_block": {
 		"Name": "minecraft:stone"
@@ -15,7 +16,7 @@
 	},
 	"noise": {
 		"island_noise_override": true,
-		"size_horizontal": 1.3,
+		"size_horizontal": 1,
 		"size_vertical": 3,
 		"height": 368,
 		"sampling": {
@@ -34,12 +35,7 @@
 			"size": 128,
 			"offset": -46
 		},
-		"min_y": -64,
-		"terrain_shaper": {
-			"offset": 1,
-			"factor": 1,
-			"jaggedness": 1
-		}
+		"min_y": -64
 	},
 	"noise_caves_enabled": true,
 	"noodle_caves_enabled": true,
@@ -49,21 +45,54 @@
 	"legacy_random_source": true,
   "noise_router": {
     "final_density": {
+      "type": "minecraft:squeeze",
       "argument": {
+        "type": "minecraft:mul",
         "argument1": 0.64,
         "argument2": {
+          "type": "minecraft:interpolated",
           "argument": {
+            "type": "minecraft:blend_density",
             "argument": {
-              "argument": "minecraft:end/sloped_cheese",
-              "type": "minecraft:slide"
-            },
-            "type": "minecraft:blend_density"
-          },
-          "type": "minecraft:interpolated"
-        },
-        "type": "minecraft:mul"
-      },
-      "type": "minecraft:squeeze"
+              "type": "minecraft:add",
+              "argument1": -0.234375,
+              "argument2": {
+                "type": "minecraft:mul",
+                "argument1": {
+                  "type": "minecraft:y_clamped_gradient",
+                  "from_value": 0.0,
+                  "from_y": 4,
+                  "to_value": 1.0,
+                  "to_y": 32
+                },
+                "argument2": {
+                  "type": "minecraft:add",
+                  "argument1": 0.234375,
+                  "argument2": {
+                    "type": "minecraft:add",
+                    "argument1": -23.4375,
+                    "argument2": {
+                      "type": "minecraft:mul",
+                      "argument1": {
+                        "type": "minecraft:y_clamped_gradient",
+                        "from_value": 1.0,
+                        "from_y": 56,
+                        "to_value": 0.0,
+                        "to_y": 312
+                      },
+                      "argument2": {
+                        "type": "minecraft:add",
+                        "argument1": 23.4375,
+                        "argument2": "minecraft:end/sloped_cheese"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
     },
     "vein_toggle": 0.0,
     "vein_ridged": 0.0,

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": [
+    "minecraft:jagged_peaks",
+    "minecraft:stony_peaks",
+    "minecraft:stony_shore",
+    "minecraft:windswept_hills",
+    "minecraft:windswept_gravelly_hills"
+  ],
+  "step": "surface_structures",
+  "spawn_overrides": {},
+  "terrain_adaptation": "beard_thin",
+  "start_pool": "atrium:shrines/geota/smithing_fane_shrine_variations",
+  "size": 2,
+  "start_height": {
+    "absolute": 0
+  },
+  "project_start_to_heightmap": "WORLD_SURFACE_WG",
+  "max_distance_from_center": 80,
+  "use_expansion_hack": false
+}
