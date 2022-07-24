@@ -4,10 +4,10 @@
 scoreboard players add @a[gamemode=!spectator,nbt={Inventory:[{Slot:-106b,tag:{spacestaff:1b,lv1:1b}}]},level=2..] spacestaff 1
 scoreboard players add @a[gamemode=!spectator,nbt={Inventory:[{Slot:-106b,tag:{spacestaff:1b,lv2:1b}}]},level=2..] spacestaff 1
 scoreboard players add @a[gamemode=!spectator,nbt={Inventory:[{Slot:-106b,tag:{spacestaff:1b,lv3:1b}}]},level=5..] spacestaff 1
-# Keeps absorbing 5-15 points (based on staff level) of xp a second until you hold the correct component 
-xp add @a[gamemode=!spectator,nbt={Inventory:[{Slot:-106b,tag:{spacestaff:1b,lv1:1b}}]}] -5 points
-xp add @a[gamemode=!spectator,nbt={Inventory:[{Slot:-106b,tag:{spacestaff:1b,lv2:1b}}]}] -10 points
-xp add @a[gamemode=!spectator,nbt={Inventory:[{Slot:-106b,tag:{spacestaff:1b,lv3:1b}}]}] -15 points
+# Keeps absorbing 8-24 points (based on staff level) of xp a second until you hold the correct component 
+xp add @a[gamemode=!spectator,nbt={Inventory:[{Slot:-106b,tag:{spacestaff:1b,lv1:1b}}]}] -8 points
+xp add @a[gamemode=!spectator,nbt={Inventory:[{Slot:-106b,tag:{spacestaff:1b,lv2:1b}}]}] -16 points
+xp add @a[gamemode=!spectator,nbt={Inventory:[{Slot:-106b,tag:{spacestaff:1b,lv3:1b}}]}] -24 points
 # IF you meet the required predicate (component AND correct staff score) begin casting the spell.
 #
 # Parallax: Glowstone - Returning Sigil: Redstone - - - Levels I-III

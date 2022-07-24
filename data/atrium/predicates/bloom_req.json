@@ -3,9 +3,13 @@
     "condition": "minecraft:entity_scores",
     "entity": "this",
     "scores": {
-      "airstaff": {
-        "min": 3,
-        "max": 3000
+      "waterstaff": {
+        "min": 6,
+        "max": 9999
+      },
+      "earthstaff": {
+        "min": 6,
+        "max": 9999
       }
     }
   },
@@ -15,12 +19,10 @@
     "predicate": {
       "equipment": {
         "mainhand": {
-          "items": [
-            "minecraft:redstone"
-          ]
+          "nbt": "{whoknows:1b}"
         },
         "offhand": {
-          "nbt": "{airstaff:1b,lv1:1b}"
+          "nbt": "{verdantstaff:1b,lv3:1b}"
         }
       }
     }

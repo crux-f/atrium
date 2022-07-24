@@ -218,6 +218,42 @@
                      ]
                  }
              ]
+         },
+         {
+            "type": "item",
+            "weight": 5,
+            "quality": 1,
+            "name": "minecraft:written_book",
+            "functions": [
+                 {
+                     "function": "set_count",
+                     "count": 1
+                 },
+                 {
+                     "function": "set_nbt",
+                     "tag": "{pages:['[\"\",{\"text\":\"Infusion Catalyst (\"},{\"text\":\"Reverberating\",\"color\":\"green\"},{\"text\":\")\\\\n             \",\"color\":\"reset\"},{\"text\":\"v\",\"color\":\"dark_green\"},{\"text\":\"\\\\n          x  \",\"color\":\"reset\"},{\"text\":\"i\",\"color\":\"green\"},{\"text\":\"  x\\\\n       x  \",\"color\":\"reset\"},{\"text\":\"[     ]\",\"color\":\"gray\"},{\"text\":\"  x\\\\n          \",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"dark_green\"},{\"text\":\"  =\",\"color\":\"dark_blue\"},{\"text\":\"  >\",\"color\":\"dark_green\"},{\"text\":\"\\\\n             x\\\\n\",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"dark_green\"},{\"text\":\",\",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"dark_green\"},{\"text\":\",\",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"dark_green\"},{\"text\":\" - Block of Emerald\\\\n\",\"color\":\"reset\"},{\"text\":\"i\",\"color\":\"green\"},{\"text\":\" - Vibrant Crystal\\\\n\",\"color\":\"reset\"},{\"text\":\"[\",\"color\":\"gray\"},{\"text\":\",\",\"color\":\"reset\"},{\"text\":\"]\",\"color\":\"gray\"},{\"text\":\" - Spellcraft Compound\\\\n\",\"color\":\"reset\"},{\"text\":\"=\",\"color\":\"dark_blue\"},{\"text\":\" - Echo Shard\",\"color\":\"reset\"}]','[\"\",{\"text\":\"Infusion Catalyst (\"},{\"text\":\"Harmonizing\",\"color\":\"gray\"},{\"text\":\")\\\\n             x\\\\n       \",\"color\":\"reset\"},{\"text\":\"   >\",\"color\":\"gray\"},{\"text\":\"  =\",\"color\":\"light_purple\"},{\"text\":\"  <\",\"color\":\"gray\"},{\"text\":\"\\\\n       x \",\"color\":\"reset\"},{\"text\":\" [     ]\",\"color\":\"dark_gray\"},{\"text\":\"  x\\\\n          x  \",\"color\":\"reset\"},{\"text\":\"i \",\"color\":\"aqua\"},{\"text\":\" x\\\\n            \",\"color\":\"reset\"},{\"text\":\" ^\",\"color\":\"gray\"},{\"text\":\"\\\\n\",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"gray\"},{\"text\":\",\",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"gray\"},{\"text\":\",\",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"gray\"},{\"text\":\" - Block of Quartz\\\\n\",\"color\":\"reset\"},{\"text\":\"i\",\"color\":\"aqua\"},{\"text\":\" - Gleaming Crystal\\\\n\",\"color\":\"reset\"},{\"text\":\"[\",\"color\":\"dark_gray\"},{\"text\":\",\",\"color\":\"reset\"},{\"text\":\"]\",\"color\":\"dark_gray\"},{\"text\":\" - Transmutation Powder\\\\n\",\"color\":\"reset\"},{\"text\":\"=\",\"color\":\"light_purple\"},{\"text\":\" - Pearlescent Froglight\",\"color\":\"reset\"}]'],title:\"Infusion Catalyst\",author:\"???\",generation:1}"
+                 },
+                 {
+                     "function": "set_name",
+                     "name": [
+                        {
+                            "text": "Formula: Infusion Catalyst",
+                            "color": "white",
+                            "italic": false
+                        }
+                    ]
+                 },
+                 {
+                     "function": "set_lore",
+                     "lore": [
+                        {
+                            "text": "Infusion Circle Recipe",
+                            "color": "gray",
+                            "italic": false
+                        }
+                     ]
+                 }
+             ]
          }
       ]
     }

@@ -99,6 +99,10 @@ execute positioned ~ ~2 ~-4 if entity @e[type=minecraft:item_frame,distance=..1.
 execute positioned ~ ~2 ~-4 at @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{id:"minecraft:heart_of_the_sea",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
 execute positioned ~ ~2 ~-4 if entity @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{id:"minecraft:heart_of_the_sea",Count:1b}}] run execute as @e[tag=infusion,distance=..10] at @s run function atrium:magic/infusion/water_staff_3
 #
+# Start Molten Staff - Check NORTH for Lava Bucket
+execute positioned ~ ~2 ~-4 at @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{id:"minecraft:lava_bucket",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~2 ~-4 if entity @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{id:"minecraft:lava_bucket",Count:1b}}] run execute as @e[tag=infusion,distance=..10] at @s run function atrium:magic/infusion/molten_staff
+#
 # INGREDIENTS
 #
 # Start Gleaming Prismarine - Check CENTER NORTH for Mysterious Fish
@@ -160,6 +164,14 @@ execute positioned ~ ~2 ~-4 if entity @e[type=minecraft:item_frame,distance=..1.
 # Start Everglacier - Check NORTH for Blue Ice
 execute positioned ~ ~2 ~-4 at @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{id:"minecraft:blue_ice",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
 execute positioned ~ ~2 ~-4 if entity @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{id:"minecraft:blue_ice",Count:1b}}] run execute as @e[tag=infusion,distance=..10] at @s run function atrium:magic/infusion/everglacier
+#
+# Start Infusion Catalyst (Reverberating) - Check CENTER NORTH for Vibrant Crystal
+execute positioned ~ ~2 ~-2 at @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{tag:{vibrant_crystal:1b}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~2 ~-2 if entity @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{tag:{vibrant_crystal:1b}}}] run execute as @e[tag=infusion,distance=..10] at @s run function atrium:magic/infusion/catalyst_reverberating
+#
+# Start Infusion Catalyst (Harmonizing)- Check CENTER NORTH for Pearlescent Froglight
+execute positioned ~ ~2 ~-2 at @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{id:"minecraft:pearlescent_froglight",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~2 ~-2 if entity @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{id:"minecraft:pearlescent_froglight",Count:1b}}] run execute as @e[tag=infusion,distance=..10] at @s run function atrium:magic/infusion/catalyst_harmonizing
 #
 # MOBS
 #
