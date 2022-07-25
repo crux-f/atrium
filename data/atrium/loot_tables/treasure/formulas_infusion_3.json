@@ -254,6 +254,42 @@
                      ]
                  }
              ]
+         },
+         {
+            "type": "item",
+            "weight": 5,
+            "quality": 1,
+            "name": "minecraft:written_book",
+            "functions": [
+                 {
+                     "function": "set_count",
+                     "count": 1
+                 },
+                 {
+                     "function": "set_nbt",
+                     "tag": "{pages:['[\"\",{\"text\":\"Molten Staff\\\\n             \"},{\"text\":\"^\",\"color\":\"gold\"},{\"text\":\"\\\\n          x  \",\"color\":\"reset\"},{\"text\":\"|\",\"color\":\"red\"},{\"text\":\"  x\\\\n       x \",\"color\":\"reset\"},{\"text\":\" {\",\"color\":\"green\"},{\"text\":\"     }\",\"color\":\"dark_red\"},{\"text\":\"  x\\\\n        \",\"color\":\"reset\"},{\"text\":\"  *\",\"color\":\"dark_purple\"},{\"text\":\"  #\",\"color\":\"dark_green\"},{\"text\":\"  *\",\"color\":\"dark_purple\"},{\"text\":\"\\\\n             \",\"color\":\"reset\"},{\"text\":\"i\",\"color\":\"gray\"},{\"text\":\"\\\\n\",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"gold\"},{\"text\":\" - Lava Bucket\\\\n\",\"color\":\"reset\"},{\"text\":\"|\",\"color\":\"red\"},{\"text\":\" - Magma Block\\\\n\",\"color\":\"reset\"},{\"text\":\"{\",\"color\":\"green\"},{\"text\":\" - Staff of Earth (+2)\\\\n\",\"color\":\"reset\"},{\"text\":\"}\",\"color\":\"dark_red\"},{\"text\":\" - Staff of Fire (+2)\\\\n\",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"dark_purple\"},{\"text\":\" - Obsidian\\\\n--->\",\"color\":\"reset\"}]','[\"\",{\"text\":\"#\",\"color\":\"dark_green\"},{\"text\":\" - Infusion Catalyst (\",\"color\":\"reset\"},{\"text\":\"Reverberating\",\"color\":\"green\"},{\"text\":\")\\\\n\",\"color\":\"reset\"},{\"text\":\"i\",\"color\":\"gray\"},{\"text\":\" - Tuff\",\"color\":\"reset\"}]'],title:\"Formula: Molten Staff\",author:\"???\",generation:1}"
+                 },
+                 {
+                     "function": "set_name",
+                     "name": [
+                        {
+                            "text": "Formula: Molten Staff",
+                            "color": "white",
+                            "italic": false
+                        }
+                    ]
+                 },
+                 {
+                     "function": "set_lore",
+                     "lore": [
+                        {
+                            "text": "Infusion Circle Recipe",
+                            "color": "gray",
+                            "italic": false
+                        }
+                     ]
+                 }
+             ]
          }
       ]
     }
