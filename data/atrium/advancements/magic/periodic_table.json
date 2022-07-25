@@ -6,7 +6,7 @@
             "color": "white"
         },
         "description": {
-            "text": "Wield each Level II Elemental Staff at once"
+            "text": "Wield each +2 Elemental Staff at once"
         },
         "icon": {
             "item": "minecraft:written_book"
@@ -37,5 +37,5 @@
             }
         }
     },
-    "parent": "atrium:magic/elemental_adept"
+    "parent": "atrium:magic/well_rounded"
 }

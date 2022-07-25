@@ -16,13 +16,13 @@ xp add @a[gamemode=!spectator,nbt={Inventory:[{Slot:-106b,tag:{spellbook:1b,the_
 # IF you meet the required predicate (component AND correct spellbook score) begin casting the spell.
 #
 # Dirge of the Battlemage - Iron Ingot
-execute if entity @a[predicate=atrium:dirge_of_the_battlemage_req] run function atrium:magic/magicitems/spells/dirge_of_the_battlemage
+execute if entity @a[predicate=atrium:dirge_of_the_battlemage_req] as @a[predicate=atrium:dirge_of_the_battlemage_req] run function atrium:magic/magicitems/spells/dirge_of_the_battlemage
 #
 # Traveler's Best Friend - Hunting Trophy
-execute if entity @a[predicate=atrium:travelers_best_friend_req] run function atrium:magic/magicitems/spells/travelers_best_friend
+execute if entity @a[predicate=atrium:travelers_best_friend_req] as @a[predicate=atrium:travelers_best_friend_req] run function atrium:magic/magicitems/spells/travelers_best_friend
 #
 # The Legend of Moonpelt - Raw Porkchop
-execute if entity @a[predicate=atrium:the_legend_of_moonpelt_req] run function atrium:magic/magicitems/spells/the_legend_of_moonpelt
+execute if entity @a[predicate=atrium:the_legend_of_moonpelt_req] as @a[predicate=atrium:the_legend_of_moonpelt_req] run function atrium:magic/magicitems/spells/the_legend_of_moonpelt
 #
 #
 #

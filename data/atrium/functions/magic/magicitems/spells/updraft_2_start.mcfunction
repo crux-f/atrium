@@ -3,6 +3,7 @@ execute as @a[predicate=atrium:updraft_2_req] at @s run summon area_effect_cloud
 execute as @a[predicate=atrium:updraft_2_req] at @s run playsound minecraft:entity.evoker.prepare_summon player @a[distance=..30] ~ ~ ~ 1 2 0.1
 function atrium:magic/magicitems/spells/updraft_repeat2
 tag @a[predicate=atrium:updraft_2_req] add updraft_caster
-clear @a[tag=updraft_caster] minecraft:redstone 1
+# Spell cleanup
+execute as @s run function atrium:magic/magicitems/spell_cast_complete
 scoreboard players set @a[tag=updraft_caster] airstaff 0
 tag @a[tag=updraft_caster] remove updraft_caster

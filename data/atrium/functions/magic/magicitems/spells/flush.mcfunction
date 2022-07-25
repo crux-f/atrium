@@ -2,8 +2,8 @@
 #
 # Remove 1 Mysterious Fish (casting component cost)
 clear @s minecraft:tropical_fish{mysterious_fish:1b} 1
-# Reset staff score
-scoreboard players set @s waterstaff 0
+# Spell cleanup
+execute as @s run function atrium:magic/magicitems/spell_cast_complete
 #
 # Particles!
 execute at @s at @e[distance=..10,predicate=atrium:effects/if_any_effect] run particle minecraft:bubble_pop ~ ~1 ~ 0.5 0.5 0.5 0.1 100 normal

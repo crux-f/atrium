@@ -11,8 +11,8 @@ xp add @a[gamemode=!spectator,nbt={Inventory:[{Slot:-106b,tag:{spacestaff:1b,lv3
 # IF you meet the required predicate (component AND correct staff score) begin casting the spell.
 #
 # Parallax: Glowstone - Returning Sigil: Redstone - - - Levels I-III
-execute if entity @a[predicate=atrium:parallax_1_req] run function atrium:magic/magicitems/spells/parallax_1_start
-execute if entity @a[predicate=atrium:returningsigil_1_req] run function atrium:magic/magicitems/spells/returningsigil_1_start
+execute if entity @a[predicate=atrium:parallax_1_req] as @a[predicate=atrium:parallax_1_req] run function atrium:magic/magicitems/spells/parallax_1_start
+execute if entity @a[predicate=atrium:returningsigil_1_req] as @a[predicate=atrium:returningsigil_1_req] run function atrium:magic/magicitems/spells/returningsigil_1_start
 # execute if entity @a[predicate=atrium:parallax_2_req] run function atrium:magic/magicitems/spells/parallax_2
 # execute if entity @a[predicate=atrium:returningsigil_2_req] run function atrium:magic/magicitems/spells/returningsigil_2_start
 # execute if entity @a[predicate=atrium:parallax_3_req] run function atrium:magic/magicitems/spells/parallax_3

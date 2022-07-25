@@ -1,15 +1,15 @@
 {
-    "__comment": "Acquired by crafting a level 2 elemental staff",
+    "__comment": "Acquired by combining two elemental staves together",
     "display": {
         "title": {
-            "text": "Elemental Adept",
+            "text": "By Our Powers Combined",
             "color": "white"
         },
         "description": {
-            "text": "Upgrade an Elemental staff"
+            "text": "Blend two Elemental staves together"
         },
         "icon": {
-            "item": "minecraft:firework_star"
+            "item": "minecraft:magma_cream"
         },
         "frame": "goal",
         "show_toast": true,
@@ -21,5 +21,5 @@
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "atrium:magic/elemental_apprentice"
+    "parent": "atrium:magic/periodic_table"
 }

@@ -5,8 +5,8 @@ tag @s add dance_caster
 #
 # Remove 1 Shimmering Feather (casting component cost)
 clear @s minecraft:feather{shimmering_feather:1b} 1
-# Reset staff score
-scoreboard players set @s airstaff 0
+# Spell cleanup
+execute as @s run function atrium:magic/magicitems/spell_cast_complete
 #
 # Launch caster with Levitation XIII for 1 second!
 effect give @s levitation 1 12 true

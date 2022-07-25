@@ -1,8 +1,7 @@
-# Consume spell component
+# Remove 1 Flickering Fuel (casting component cost)
 clear @s minecraft:blaze_powder{flickering_fuel:1b} 1
-# Reset Staff score(s)
-scoreboard players set @s firestaff 0
-scoreboard players set @s earthstaff 0
+# Spell cleanup
+execute as @s run function atrium:magic/magicitems/spell_cast_complete
 #
 # SFX
 execute at @s positioned ~ ~2 ~ run particle minecraft:smoke ~ ~ ~ 0.25 2 0.25 0 75

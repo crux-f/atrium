@@ -39,6 +39,20 @@
       "condition": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
+        "equipment": {
+          "offhand": {
+            "nbt": "{frigidstaff:1b}"
+          }
+        }
+      }
+    }
+  },
+  {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
         "type_specific": {
           "type": "player",
           "gamemode": "spectator"

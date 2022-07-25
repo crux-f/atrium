@@ -19,10 +19,10 @@
     "predicate": {
       "equipment": {
         "mainhand": {
-          "nbt": "{whoknows:1b}"
+          "nbt": "{lifes_echo:1b}"
         },
         "offhand": {
-          "nbt": "{verdantstaff:1b,lv3:1b}"
+          "nbt": "{verdantstaff:1b,lv2:1b}"
         }
       }
     }

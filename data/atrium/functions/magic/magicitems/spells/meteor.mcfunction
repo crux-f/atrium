@@ -28,8 +28,8 @@ execute at @s anchored eyes run summon fireball ^ ^ ^1 {Fire:20,CustomNameVisibl
 #
 # Remove 1 Primordial Stone (casting component cost)
 clear @s minecraft:fire_charge{primordial_stone:1b} 1
-# Reset staff score
-scoreboard players set @s firestaff 0
+# Spell cleanup
+function atrium:magic/magicitems/spell_cast_complete
 #
 # SFX
 #

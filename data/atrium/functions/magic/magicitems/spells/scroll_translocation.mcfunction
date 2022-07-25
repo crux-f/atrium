@@ -59,6 +59,7 @@ execute as @a[predicate=atrium:scroll_translocation_req,nbt={Inventory:[{Slot:-1
 execute as @a[predicate=atrium:scroll_translocation_req,nbt={Inventory:[{Slot:-106b,tag:{underprovince_ws:1b}}]}] at @s run function atrium:travel/waystones/underprovince_tp
 #
 item replace entity @a[tag=translocation_caster] weapon.offhand with minecraft:air
-scoreboard players set @a[tag=translocation_caster] scroll 0
+# Spell cleanup
+function atrium:magic/magicitems/spell_cast_complete
 tag @a[tag=translocation_caster] remove translocation_caster
 

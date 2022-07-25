@@ -12,12 +12,12 @@ xp add @a[gamemode=!spectator,nbt={Inventory:[{Slot:-106b,tag:{firestaff:1b,lv3:
 # IF you meet the required predicate (component AND correct staff score) begin casting the spell.
 #
 # Extinguish: Glowstone - Nourishment: Redstone - - - Levels I-III
-execute if entity @a[predicate=atrium:fireburst_1_req] run function atrium:magic/magicitems/spells/fireburst_1
-execute if entity @a[predicate=atrium:firesigil_1_req] run function atrium:magic/magicitems/spells/firesigil_1_start
-execute if entity @a[predicate=atrium:fireburst_2_req] run function atrium:magic/magicitems/spells/fireburst_2
-execute if entity @a[predicate=atrium:firesigil_2_req] run function atrium:magic/magicitems/spells/firesigil_2_start
-execute if entity @a[predicate=atrium:fireburst_3_req] run function atrium:magic/magicitems/spells/fireburst_3
-execute if entity @a[predicate=atrium:firesigil_3_req] run function atrium:magic/magicitems/spells/firesigil_3_start
+execute if entity @a[predicate=atrium:fireburst_1_req] as @a[predicate=atrium:fireburst_1_req] run function atrium:magic/magicitems/spells/fireburst_1
+execute if entity @a[predicate=atrium:firesigil_1_req] as @a[predicate=atrium:firesigil_1_req] run function atrium:magic/magicitems/spells/firesigil_1_start
+execute if entity @a[predicate=atrium:fireburst_2_req] as @a[predicate=atrium:fireburst_2_req] run function atrium:magic/magicitems/spells/fireburst_2
+execute if entity @a[predicate=atrium:firesigil_2_req] as @a[predicate=atrium:firesigil_2_req] run function atrium:magic/magicitems/spells/firesigil_2_start
+execute if entity @a[predicate=atrium:fireburst_3_req] as @a[predicate=atrium:fireburst_3_req] run function atrium:magic/magicitems/spells/fireburst_3
+execute if entity @a[predicate=atrium:firesigil_3_req] as @a[predicate=atrium:firesigil_3_req] run function atrium:magic/magicitems/spells/firesigil_3_start
 #
 # Fire Staff Ultimate: Meteor
 #

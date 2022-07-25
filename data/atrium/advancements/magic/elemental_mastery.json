@@ -9,10 +9,9 @@
             "text": "Master an element"
         },
         "icon": {
-            "item": "minecraft:trident",
-            "nbt": "{Enchantments:[{id:\"minecraft:power\",lvl:1s}]}"
+            "item": "minecraft:heart_of_the_sea"
         },
-        "frame": "challenge",
+        "frame": "goal",
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false
@@ -22,5 +21,5 @@
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "atrium:magic/periodic_table"
+    "parent": "atrium:magic/elemental_adept"
 }

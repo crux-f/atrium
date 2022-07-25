@@ -29,5 +29,6 @@ clear @a[tag=travelers_best_friend_caster,nbt={SelectedItem:{tag:{skeleton_troph
 clear @a[tag=travelers_best_friend_caster,nbt={SelectedItem:{tag:{phantom_trophy:1b}}}] minecraft:player_head{phantom_trophy:1b} 1
 clear @a[tag=travelers_best_friend_caster,nbt={SelectedItem:{tag:{zombie_trophy:1b}}}] minecraft:zombie_head{zombie_trophy:1b} 1
 clear @a[tag=travelers_best_friend_caster,nbt={SelectedItem:{tag:{spider_trophy:1b}}}] minecraft:player_head{spider_trophy:1b} 1
-scoreboard players set @a[tag=travelers_best_friend_caster] spellbook 0
+# Spell cleanup
+function atrium:magic/magicitems/spell_cast_complete
 tag @a[tag=travelers_best_friend_caster] remove travelers_best_friend_caster

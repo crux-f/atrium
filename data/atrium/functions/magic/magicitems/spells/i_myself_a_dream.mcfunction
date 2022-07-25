@@ -7,6 +7,7 @@ execute as @a[tag=myself_a_dream_caster] at @s run playsound minecraft:atrium.fa
 execute as @a[tag=myself_a_dream_caster] at @s anchored eyes run particle minecraft:enchant ^0.4 ^-0.05 ^0.5 0.05 0.05 0.05 0.1 10
 execute as @a[tag=myself_a_dream_caster] at @s anchored eyes run particle minecraft:poof ^0.4 ^-0.05 ^0.5 0.05 0.05 0.05 0 5
 clear @a[tag=myself_a_dream_caster] minecraft:quartz{air_crystal:1b} 1
-scoreboard players set @a[tag=myself_a_dream_caster] spellbook 0
+# Spell cleanup
+execute as @s run function atrium:magic/magicitems/spell_cast_complete
 tag @a[tag=myself_a_dream_caster] remove myself_a_dream_caster
 function atrium:magic/magicitems/spells/i_myself_a_dream_repeat

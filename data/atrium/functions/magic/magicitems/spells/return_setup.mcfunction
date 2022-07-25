@@ -18,8 +18,8 @@ execute if entity @s[predicate=atrium:in_depths] run scoreboard players set @s r
 # LATER: Abyss = 5
 # execute if entity @s[predicate=atrium:in_abyss] run scoreboard players set @s return_spell_dim 5
 #
-# Reset staff score
-scoreboard players set @s earthstaff 0
+# Spell cleanup
+execute as @s run function atrium:magic/magicitems/spell_cast_complete
 #
 # Store the player's current location.
 execute if entity @s[scores={return_spell_dim=0..}] store result score @s return_spell_x run data get entity @s Pos[0]

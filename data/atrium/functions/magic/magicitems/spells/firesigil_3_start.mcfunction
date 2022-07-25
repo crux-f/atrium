@@ -3,8 +3,7 @@ execute as @a[predicate=atrium:firesigil_3_req] at @s run summon area_effect_clo
 execute as @a[predicate=atrium:firesigil_3_req] at @s run playsound minecraft:block.redstone_torch.burnout player @a[distance=..30] ~ ~ ~ 1.2 0.25 0.1
 execute as @a[predicate=atrium:firesigil_3_req] at @s run summon armor_stand ~ ~ ~ {Marker:1b,Invisible:1b,NoBasePlate:1b,Tags:["fx_firesigil_3"]}
 execute as @a[predicate=atrium:firesigil_3_req] at @s run summon armor_stand ~ ~ ~ {Marker:1b,Invisible:1b,NoBasePlate:1b,Tags:["fx_firesigil_3_secondary"]}
-function atrium:magic/magicitems/spells/firesigil_repeat3
-tag @a[predicate=atrium:firesigil_3_req] add firesigil_caster
-clear @a[tag=firesigil_caster] minecraft:redstone 1
-scoreboard players set @a[tag=firesigil_caster] firestaff 0
-tag @a[tag=firesigil_caster] remove firesigil_caster
+execute as @s run function atrium:magic/magicitems/spells/firesigil_repeat3
+clear @s minecraft:redstone 1
+# Spell cleanup
+execute as @s run function atrium:magic/magicitems/spell_cast_complete

@@ -9,4 +9,4 @@ xp add @a[gamemode=!spectator,nbt={Inventory:[{Slot:-106b,tag:{tpscroll:1b}}]}] 
 # IF you meet the required predicate (component AND correct spellbook score) begin casting the spell.
 #
 # Scroll of Translocation
-execute if entity @a[predicate=atrium:scroll_translocation_req] run function atrium:magic/magicitems/spells/scroll_translocation
+execute if entity @a[predicate=atrium:scroll_translocation_req] as @a[predicate=atrium:scroll_translocation_req] run function atrium:magic/magicitems/spells/scroll_translocation

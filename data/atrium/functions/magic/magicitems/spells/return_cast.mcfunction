@@ -5,8 +5,8 @@ execute store result entity @e[limit=1,tag=return_spell_hook] Pos[0] double 1 ru
 execute store result entity @e[limit=1,tag=return_spell_hook] Pos[1] double 1 run scoreboard players get @s return_spell_y
 execute store result entity @e[limit=1,tag=return_spell_hook] Pos[2] double 1 run scoreboard players get @s return_spell_z
 #
-# Reset staff score
-scoreboard players set @s earthstaff 0
+# Spell cleanup
+function atrium:magic/magicitems/spell_cast_complete
 # Remove 1 Garden Shard (casting component cost)
 clear @s minecraft:amethyst_shard{garden_shard:1b} 1
 #
@@ -38,4 +38,4 @@ scoreboard players set @s return_spell_dim 100
 # Remove the teleport marker
 execute at @s run kill @e[tag=return_spell_hook,distance=..3]
 # Run the return_repeat function until the appearing animation is complete. Spellcasting cleanup is handled there.
-function atrium:magic/magicitems/spells/return_repeat
+execute as @s run function atrium:magic/magicitems/spells/return_repeat

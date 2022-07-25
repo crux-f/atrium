@@ -290,6 +290,42 @@
                      ]
                  }
              ]
+         },
+         {
+            "type": "item",
+            "weight": 5,
+            "quality": 1,
+            "name": "minecraft:written_book",
+            "functions": [
+                 {
+                     "function": "set_count",
+                     "count": 1
+                 },
+                 {
+                     "function": "set_nbt",
+                     "tag": "{pages:['[\"\",{\"text\":\"Verdant Staff\\\\n             \"},{\"text\":\"^\",\"color\":\"light_purple\"},{\"text\":\"\\\\n          x \",\"color\":\"reset\"},{\"text\":\" |\",\"color\":\"dark_aqua\"},{\"text\":\"  x\\\\n       x \",\"color\":\"reset\"},{\"text\":\" {\",\"color\":\"dark_blue\"},{\"text\":\"     }\",\"color\":\"dark_green\"},{\"text\":\"  x\\\\n         \",\"color\":\"reset\"},{\"text\":\" *\",\"color\":\"dark_green\"},{\"text\":\"  #\",\"color\":\"green\"},{\"text\":\"  *\",\"color\":\"dark_green\"},{\"text\":\"\\\\n             i\\\\n\",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"light_purple\"},{\"text\":\" - Spore Blossom\",\"color\":\"black\"},{\"text\":\"\\\\n\",\"color\":\"reset\"},{\"text\":\"|\",\"color\":\"dark_aqua\"},{\"text\":\" - Sugar Cane\\\\n\",\"color\":\"reset\"},{\"text\":\"{\",\"color\":\"dark_blue\"},{\"text\":\" - Staff of Water (+2)\\\\n\",\"color\":\"reset\"},{\"text\":\"}\",\"color\":\"dark_green\"},{\"text\":\" - Staff of Earth (+2)\\\\n--->\",\"color\":\"reset\"}]','[\"\",{\"text\":\"*\",\"color\":\"dark_green\"},{\"text\":\" - Mossy Cobblestone\\\\n\",\"color\":\"reset\"},{\"text\":\"#\",\"color\":\"green\"},{\"text\":\" - Infusion Catalyst (\",\"color\":\"reset\"},{\"text\":\"Reverberating\",\"color\":\"green\"},{\"text\":\")\\\\n\",\"color\":\"reset\"},{\"text\":\"i \",\"color\":\"dark_aqua\"},{\"text\":\"- Mud\",\"color\":\"reset\"}]'],title:\"Formula: Verdant Staff\",author:\"???\",generation:1}"
+                 },
+                 {
+                     "function": "set_name",
+                     "name": [
+                        {
+                            "text": "Formula: Verdant Staff",
+                            "color": "white",
+                            "italic": false
+                        }
+                    ]
+                 },
+                 {
+                     "function": "set_lore",
+                     "lore": [
+                        {
+                            "text": "Infusion Circle Recipe",
+                            "color": "gray",
+                            "italic": false
+                        }
+                     ]
+                 }
+             ]
          }
       ]
     }

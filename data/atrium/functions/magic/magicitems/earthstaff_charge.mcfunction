@@ -18,10 +18,14 @@ execute if entity @a[predicate=atrium:natural_armor_2_req] as @a[predicate=atriu
 execute if entity @a[predicate=atrium:stone_sprite_3_req] as @a[predicate=atrium:stone_sprite_3_req] run function atrium:magic/magicitems/spells/stone_sprite_3
 execute if entity @a[predicate=atrium:natural_armor_3_req] as @a[predicate=atrium:natural_armor_3_req] run function atrium:magic/magicitems/spells/natural_armor_3
 #
-# Ultimate Spell: Return
+# Earth Staff Ultimate: Return
 #
 execute if entity @a[predicate=atrium:return_setup_req] as @a[predicate=atrium:return_setup_req] run function atrium:magic/magicitems/spells/return_setup
 #
 execute if entity @a[predicate=atrium:return_cast_req] as @a[predicate=atrium:return_cast_req] run function atrium:magic/magicitems/spells/return_cast
-
+#
+#
+# Verdant Staff Ultimate: Bloom
+# Water + Earth
+execute if entity @a[predicate=atrium:bloom_req] as @a[predicate=atrium:bloom_req] run function atrium:magic/magicitems/spells/bloom
 
