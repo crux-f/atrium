@@ -326,6 +326,42 @@
                      ]
                  }
              ]
+         },
+         {
+            "type": "item",
+            "weight": 5,
+            "quality": 1,
+            "name": "minecraft:written_book",
+            "functions": [
+                 {
+                     "function": "set_count",
+                     "count": 1
+                 },
+                 {
+                     "function": "set_nbt",
+                     "tag": "{pages:['[\"\",{\"text\":\"Voltaic Staff\\\\n            \"},{\"text\":\" ^\",\"color\":\"#E8923D\"},{\"text\":\"\\\\n          x \",\"color\":\"reset\"},{\"text\":\" |\",\"color\":\"#AD762B\"},{\"text\":\"  x\\\\n       x \",\"color\":\"reset\"},{\"text\":\" {\",\"color\":\"dark_red\"},{\"text\":\"     }\",\"color\":\"gold\"},{\"text\":\"  x\\\\n      \",\"color\":\"reset\"},{\"text\":\"    *\",\"color\":\"red\"},{\"text\":\"  #\",\"color\":\"dark_green\"},{\"text\":\"  *\",\"color\":\"red\"},{\"text\":\"\\\\n             \",\"color\":\"reset\"},{\"text\":\"i\",\"color\":\"dark_aqua\"},{\"text\":\"\\\\n\",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"#E8923D\"},{\"text\":\" - Lightning Rod\\\\n\",\"color\":\"reset\"},{\"text\":\"|\",\"color\":\"#AD762B\"},{\"text\":\" - Block of Copper\\\\n\",\"color\":\"reset\"},{\"text\":\"{\",\"color\":\"dark_red\"},{\"text\":\" - Staff of Fire (+2)\\\\n\",\"color\":\"reset\"},{\"text\":\"} \",\"color\":\"gold\"},{\"text\":\"- Staff of Air (+2)\\\\n\",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"red\"},{\"text\":\" - Firework Rocket\\\\n\",\"color\":\"reset\"},{\"text\":\"#\",\"color\":\"dark_green\"},{\"text\":\" - Infusion Catalyst (\",\"color\":\"reset\"},{\"text\":\"Reverberating\",\"color\":\"green\"},{\"text\":\")\\\\n\",\"color\":\"reset\"},{\"text\":\"i\",\"color\":\"dark_aqua\"},{\"text\":\" - Weathered Copper\",\"color\":\"reset\"}]'],title:\"Formula: Voltaic Staff\",author:\"???\",generation:1}"
+                 },
+                 {
+                     "function": "set_name",
+                     "name": [
+                        {
+                            "text": "Formula: Voltaic Staff",
+                            "color": "white",
+                            "italic": false
+                        }
+                    ]
+                 },
+                 {
+                     "function": "set_lore",
+                     "lore": [
+                        {
+                            "text": "Infusion Circle Recipe",
+                            "color": "gray",
+                            "italic": false
+                        }
+                     ]
+                 }
+             ]
          }
       ]
     }

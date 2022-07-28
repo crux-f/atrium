@@ -18,6 +18,10 @@ execute if entity @a[predicate=atrium:updraft_2_req] as @a[predicate=atrium:updr
 execute if entity @a[predicate=atrium:increase_velocity_3_req] as @a[predicate=atrium:increase_velocity_3_req] run function atrium:magic/magicitems/spells/increase_velocity_3
 execute if entity @a[predicate=atrium:updraft_3_req] as @a[predicate=atrium:updraft_3_req] run function atrium:magic/magicitems/spells/updraft_3_start
 #
-# Ultimate Spell: Dance
+# Air Staff Ultimate: Dance
 #
 execute if entity @a[predicate=atrium:dance_req] as @a[predicate=atrium:dance_req] run function atrium:magic/magicitems/spells/dance
+#
+# Voltaic Staff Ultimate: Thunderbolt
+# Fire + Air
+execute if entity @a[predicate=atrium:thunderbolt_req] as @a[predicate=atrium:thunderbolt_req] run function atrium:magic/magicitems/spells/thunderbolt_setup
