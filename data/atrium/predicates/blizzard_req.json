@@ -1,0 +1,43 @@
+[
+  {
+    "condition": "minecraft:entity_scores",
+    "entity": "this",
+    "scores": {
+      "airstaff": {
+        "min": 6,
+        "max": 9999
+      },
+      "waterstaff": {
+        "min": 6,
+        "max": 9999
+      }
+    }
+  },
+  {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "equipment": {
+        "mainhand": {
+          "nbt": "{submerged_gemstone:1b}"
+        },
+        "offhand": {
+          "nbt": "{frigidstaff:1b,lv2:1b}"
+        }
+      }
+    }
+  },
+  {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type_specific": {
+          "type": "player",
+          "gamemode": "spectator"
+        }
+      }
+    }
+  }
+]

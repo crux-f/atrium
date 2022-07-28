@@ -18,5 +18,10 @@ execute if entity @a[predicate=atrium:nourishment_2_req] as @a[predicate=atrium:
 execute if entity @a[predicate=atrium:extinguish_3_req] as @a[predicate=atrium:extinguish_3_req] run function atrium:magic/magicitems/spells/extinguish_3
 execute if entity @a[predicate=atrium:nourishment_3_req] as @a[predicate=atrium:nourishment_3_req] run function atrium:magic/magicitems/spells/nourishment_3_start
 #
-# Ultimate Spell: Flush
+# Water Staff Ultimate: Flush
 execute if entity @a[predicate=atrium:flush_req] as @a[predicate=atrium:flush_req] run function atrium:magic/magicitems/spells/flush
+#
+#
+# Frigid Staff Ultimate: Blizzard
+# Air + Water
+execute if entity @a[predicate=atrium:blizzard_req] as @a[predicate=atrium:blizzard_req] run function atrium:magic/magicitems/spells/blizzard

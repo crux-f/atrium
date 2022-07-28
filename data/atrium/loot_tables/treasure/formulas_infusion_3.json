@@ -362,6 +362,42 @@
                      ]
                  }
              ]
+         },
+         {
+            "type": "item",
+            "weight": 5,
+            "quality": 1,
+            "name": "minecraft:written_book",
+            "functions": [
+                 {
+                     "function": "set_count",
+                     "count": 1
+                 },
+                 {
+                     "function": "set_nbt",
+                     "tag": "{pages:['[\"\",{\"text\":\"Frigid Staff\\\\n            \"},{\"text\":\" ^\",\"color\":\"blue\"},{\"text\":\"\\\\n          x  \",\"color\":\"reset\"},{\"text\":\"| \",\"color\":\"dark_aqua\"},{\"text\":\" x\\\\n       x \",\"color\":\"reset\"},{\"text\":\" {\",\"color\":\"gold\"},{\"text\":\"     }\",\"color\":\"dark_blue\"},{\"text\":\"  x\\\\n          \",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"gray\"},{\"text\":\"  #\",\"color\":\"dark_green\"},{\"text\":\"  *\",\"color\":\"gray\"},{\"text\":\"\\\\n             \",\"color\":\"reset\"},{\"text\":\"i\",\"color\":\"aqua\"},{\"text\":\"\\\\n\",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"blue\"},{\"text\":\" - Blue Ice\\\\n\",\"color\":\"reset\"},{\"text\":\"|\",\"color\":\"dark_aqua\"},{\"text\":\" - Packed Ice\\\\n\",\"color\":\"reset\"},{\"text\":\"{\",\"color\":\"gold\"},{\"text\":\" - Staff of Air (+2)\\\\n\",\"color\":\"reset\"},{\"text\":\"}\",\"color\":\"dark_blue\"},{\"text\":\" - Staff of Water (+2)\\\\n\",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"gray\"},{\"text\":\" - Snow Block\\\\n--->\",\"color\":\"reset\"}]','[\"\",{\"text\":\"#\",\"color\":\"dark_green\"},{\"text\":\" - Infusion Catalyst (\",\"color\":\"reset\"},{\"text\":\"Reverberating\",\"color\":\"green\"},{\"text\":\")\\\\n\",\"color\":\"reset\"},{\"text\":\"i\",\"color\":\"aqua\"},{\"text\":\" - Ice\",\"color\":\"reset\"}]'],title:\"Formula: Frigid Staff\",author:\"???\",generation:1}"
+                 },
+                 {
+                     "function": "set_name",
+                     "name": [
+                        {
+                            "text": "Formula: Frigid Staff",
+                            "color": "white",
+                            "italic": false
+                        }
+                    ]
+                 },
+                 {
+                     "function": "set_lore",
+                     "lore": [
+                        {
+                            "text": "Infusion Circle Recipe",
+                            "color": "gray",
+                            "italic": false
+                        }
+                     ]
+                 }
+             ]
          }
       ]
     }
