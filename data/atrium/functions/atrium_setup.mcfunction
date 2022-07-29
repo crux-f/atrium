@@ -19,6 +19,15 @@ scoreboard objectives add misc_timer dummy
 scoreboard objectives add brittle_bone_disease dummy
 scoreboard objectives add giant_threat dummy
 scoreboard objectives add prismatic dummy
+# Special Items
+scoreboard objectives add airstaff dummy
+scoreboard objectives add earthstaff dummy
+scoreboard objectives add firestaff dummy
+scoreboard objectives add waterstaff dummy
+scoreboard objectives add timestaff dummy
+scoreboard objectives add spacestaff dummy
+scoreboard objectives add mercurialstaff dummy
+scoreboard objectives add melodicstaff dummy
 # Spells
 scoreboard objectives add dance_bounces dummy
 scoreboard objectives add return_spell_dim dummy
@@ -27,6 +36,7 @@ scoreboard objectives add return_spell_y dummy
 scoreboard objectives add return_spell_z dummy
 scoreboard objectives add eruption_spell dummy
 scoreboard objectives add blizzard_spell dummy
+scoreboard objectives add fizzle_spell dummy
 # Enchantments
 # Some of the custom enchantments require scoreboards for temporary caulcations.
 scoreboard objectives add raider_slayer dummy

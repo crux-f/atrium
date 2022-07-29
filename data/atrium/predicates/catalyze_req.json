@@ -1,0 +1,39 @@
+[
+  {
+    "condition": "minecraft:entity_scores",
+    "entity": "this",
+    "scores": {
+      "mercurialstaff": {
+        "min": 6,
+        "max": 9999
+      }
+    }
+  },
+  {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "equipment": {
+        "mainhand": {
+          "nbt": "{transmutation_powder:1b}"
+        },
+        "offhand": {
+          "nbt": "{mercurialstaff:1b}"
+        }
+      }
+    }
+  },
+  {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type_specific": {
+          "type": "player",
+          "gamemode": "spectator"
+        }
+      }
+    }
+  }
+]

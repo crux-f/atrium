@@ -7,6 +7,9 @@ scoreboard players set @s waterstaff 0
 scoreboard players set @s timestaff 0
 scoreboard players set @s spacestaff 0
 #
+scoreboard players set @s melodicstaff 0
+scoreboard players set @s mercurialstaff 0
+#
 scoreboard players set @s spellbook 0
 scoreboard players set @s scroll 0
 #

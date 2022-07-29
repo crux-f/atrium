@@ -6,6 +6,8 @@ execute if entity @a[gamemode=!spectator,nbt={Inventory:[{Slot:-106b,tag:{airsta
 execute if entity @a[gamemode=!spectator,nbt={Inventory:[{Slot:-106b,tag:{timestaff:1b}}]}] run function atrium:magic/magicitems/timestaff_charge
 execute if entity @a[gamemode=!spectator,nbt={Inventory:[{Slot:-106b,tag:{spacestaff:1b}}]}] run function atrium:magic/magicitems/spacestaff_charge
 #
+execute if entity @a[gamemode=!spectator,nbt={Inventory:[{Slot:-106b,tag:{weird_combo:1b}}]}] run function atrium:magic/magicitems/weirdstaff_charge
+#
 # Charge the spellbooks
 #
 execute if entity @a[gamemode=!spectator,nbt={Inventory:[{Slot:-106b,tag:{spellbook:1b}}]}] run function atrium:magic/magicitems/spellbook_charge
