@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:ender_pearl",
+    "minecraft:ender_eye",
+    "minecraft:chorus_fruit",
+    "minecraft:goat_horn",
+    "minecraft:clock",
+    "minecraft:firework_star",
+    "minecraft:slime_ball",
+    "minecraft:emerald_block",
+    "minecraft:quartz_block",
+    "minecraft:blue_ice"
+  ]
+}

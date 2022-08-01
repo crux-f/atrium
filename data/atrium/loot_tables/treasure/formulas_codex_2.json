@@ -24,7 +24,7 @@
                             "name": [
                                 {
                                     "text": "Gatestone - Far Lands",
-                                    "italic": "false"
+                                    "italic": false
                                 }
                             ]
                         },
@@ -34,12 +34,12 @@
                                 {
                                     "text": "Holy Item",
                                     "color": "yellow",
-                                    "italic": "false"
+                                    "italic": false
                                 },
                                 {
                                     "text": "Runic Codex Recipe",
                                     "color": "gray",
-                                    "italic": "false"
+                                    "italic": false
                                 }
                             ]
                         }
@@ -64,7 +64,7 @@
                             "name": [
                                 {
                                     "text": "Formula: Forgotten Runestone",
-                                    "italic": "false"
+                                    "italic": false
                                 }
                             ]
                         },
@@ -74,7 +74,7 @@
                                 {
                                     "text": "Runic Codex Recipe",
                                     "color": "gray",
-                                    "italic": "false"
+                                    "italic": false
                                 }
                             ]
                         }

@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:water_bucket",
+    "minecraft:lava_bucket",
+    "minecraft:milk_bucket",
+    "minecraft:firework_rocket",
+    "minecraft:nether_wart",
+    "minecraft:sweet_berries",
+    "minecraft:beetroot_soup",
+    "minecraft:golden_carrot",
+    "minecraft:poisonous_potato",
+    "minecraft:rotten_flesh",
+    "minecraft:spider_eye",
+    "minecraft:sugar",
+    "minecraft:tropical_fish",
+    "minecraft:blaze_powder",
+    "minecraft:gunpowder",
+    "minecraft:blackstone",
+    "minecraft:dripstone_block",
+    "minecraft:shroomlight"
+  ]
+}

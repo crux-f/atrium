@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:lingering_potion",
+    "minecraft:golden_apple",
+    "minecraft:suspicious_stew",
+    "minecraft:tipped_arrow",
+    "minecraft:fermented_spider_eye",
+    "minecraft:ghast_tear",
+    "minecraft:magma_cream",
+    "minecraft:ochre_froglight"
+  ]
+}

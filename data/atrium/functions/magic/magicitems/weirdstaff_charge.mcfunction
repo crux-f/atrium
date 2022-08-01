@@ -10,7 +10,7 @@ xp add @a[gamemode=!spectator,nbt={Inventory:[{Slot:-106b,tag:{weird_combo:1b,lv
 #
 # Fizzle Spell: Glowstone - Destabilize: Redstone
 execute if entity @a[predicate=atrium:fizzle_spell_req] as @a[predicate=atrium:fizzle_spell_req] run function atrium:magic/magicitems/spells/fizzle_spell
-execute if entity @a[predicate=atrium:destabilize_req] as @a[predicate=atrium:destabilize_req] run function atrium:magic/magicitems/spells/destabilize
+execute if entity @a[predicate=atrium:destabilize_item_req] as @a[predicate=atrium:destabilize_item_req] run function atrium:magic/magicitems/spells/destabilize_item
 execute if entity @a[predicate=atrium:hush_req] as @a[predicate=atrium:hush_req] run function atrium:magic/magicitems/spells/hush
 execute if entity @a[predicate=atrium:shush_req] as @a[predicate=atrium:shush_req] run function atrium:magic/magicitems/spells/shush
 #
