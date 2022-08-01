@@ -1,16 +1,15 @@
 {
-    "__comment": "After you craft a spacial focus",
+    "__comment": "Acquired by researching something",
     "display": {
         "title": {
-            "text": "Spacial Awareness",
+            "text": "Academia",
             "color": "white"
         },
         "description": {
-            "text": "Craft a Spacial Focus"
+            "text": "Research an item"
         },
         "icon": {
-            "item": "minecraft:diamond",
-            "nbt": "{Enchantments:[{id:\"minecraft:power\",lvl:1s}]}"
+            "item": "minecraft:paper"
         },
         "frame": "task",
         "show_toast": true,
@@ -18,9 +17,9 @@
         "hidden": false
     },
     "criteria": {
-        "spacialfocus": {
+        "research_item": {
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "atrium:magic/formulaic"
+    "parent": "atrium:magic/mightier_than_the_sword"
 }

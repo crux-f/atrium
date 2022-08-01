@@ -16,12 +16,14 @@ execute positioned ~2 ~2 ~2 run data merge entity @e[type=item_frame,distance=..
 execute positioned ~-4 ~2 ~ run data merge entity @e[type=item_frame,distance=..1,limit=1] {Facing:1b,Invisible:1b,Item:{Count:0b}}
 # Reset North-West
 execute positioned ~-2 ~2 ~-2 run data merge entity @e[type=item_frame,distance=..1,limit=1] {Facing:1b,Invisible:1b,Item:{Count:0b}}
-# Particles!
-particle minecraft:enchant ~ ~3 ~ 0.3 0.3 0.3 0.1 500 normal
 # Sound!
-playsound minecraft:block.enchantment_table.use block @a[distance=..30] ~ ~ ~ 1 0.6 0.1
-schedule function atrium:magic/fx/rc_echo1 10t
-# achievement!
-execute positioned ~ ~1 ~ run advancement grant @p[distance=..5,gamemode=!spectator] only atrium:magic/mightier_than_the_sword
+playsound minecraft:ui.cartography_table.take_result player @a[distance=..15] ~ ~ ~ 1 1 0.1
+# achievements!
 execute positioned ~ ~1 ~ run advancement grant @p[distance=..5,gamemode=!spectator] only atrium:magic/magic_root
-
+execute positioned ~ ~1 ~ run advancement grant @p[distance=..5,gamemode=!spectator] only atrium:magic/mightier_than_the_sword
+execute positioned ~ ~1 ~ run advancement grant @p[distance=..5,gamemode=!spectator] only atrium:magic/academia
+# Making a tracker for number of successful researches for an advancement. May use it for something else later?
+scoreboard players add @p[distance=..5,gamemode=!spectator] researches_completed 1
+#
+# Big advancement!
+execute positioned ~ ~1 ~ run advancement grant @p[distance=..5,gamemode=!spectator,scores={researches_completed=100..}] only atrium:magic/finals_are_killing_me

@@ -50,6 +50,6 @@ execute if entity @s[scores={codex=2..}] at @s as @p[tag=researching,predicate=a
 #
 # If the player is somehow still insignificant by this point, send them to the baby library
 execute if entity @s[scores={codex=2..}] at @s as @p[tag=insignificant] run function atrium:magic/runic_codex/research/research_insignificant
-# NOTE: make new reset script with writing sounds + no particles 
-execute if entity @s[scores={codex=2..}] at @s run function atrium:magic/runic_codex/rc_reset
+# Custom reset script for researching
+execute if entity @s[scores={codex=2..}] at @s run function atrium:magic/runic_codex/research/research_reset
 scoreboard players set @s codex 0

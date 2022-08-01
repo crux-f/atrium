@@ -6,6 +6,7 @@ scoreboard objectives add resurrect dummy
 scoreboard objectives add infusion dummy
 scoreboard objectives add cauldron dummy
 scoreboard objectives add codex dummy
+scoreboard objectives add researches_completed dummy
 scoreboard objectives add iteration dummy
 scoreboard objectives add dream_return_x dummy
 scoreboard objectives add dream_return_y dummy

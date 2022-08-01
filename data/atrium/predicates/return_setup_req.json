@@ -32,23 +32,14 @@
     }
   },
   {
+    "condition": "minecraft:reference",
+    "name": "atrium:misc_check/gamemode_not_spectator"
+  },
+  {
     "condition": "minecraft:inverted",
     "term": {
       "condition": "minecraft:alternative",
       "terms": [
-        {
-          "condition": "minecraft:inverted",
-          "term": {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "type_specific": {
-                "type": "player",
-                "gamemode": "spectator"
-              }
-            }
-          }
-        },
         {
           "condition": "minecraft:entity_properties",
           "entity": "this",

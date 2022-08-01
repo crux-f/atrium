@@ -1,0 +1,25 @@
+{
+    "__comment": "Acquired by researching 1000+ times",
+    "display": {
+        "title": {
+            "text": "Are You Okay?",
+            "color": "white"
+        },
+        "description": {
+            "text": "Research 1000+ times"
+        },
+        "icon": {
+            "item": "minecraft:writable_book"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "research_too_much": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "atrium:magic/finals_are_killing_me"
+}

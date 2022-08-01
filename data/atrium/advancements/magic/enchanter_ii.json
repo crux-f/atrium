@@ -6,7 +6,7 @@
             "color": "white"
         },
         "description": {
-            "text": "Enchant an item at a Runic Codex"
+            "text": "Enchant an item using a Runic Codex"
         },
         "icon": {
             "item": "minecraft:enchanted_book",

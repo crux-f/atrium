@@ -1,0 +1,25 @@
+{
+    "__comment": "Acquired by researching 100+ times",
+    "display": {
+        "title": {
+            "text": "Finals Are Killing Me",
+            "color": "white"
+        },
+        "description": {
+            "text": "Research 100 times"
+        },
+        "icon": {
+            "item": "minecraft:map"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "research_100_times": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "atrium:magic/academia"
+}
