@@ -25,5 +25,8 @@ execute positioned ~ ~1 ~ run advancement grant @p[distance=..5,gamemode=!specta
 # Making a tracker for number of successful researches for an advancement. May use it for something else later?
 scoreboard players add @p[distance=..5,gamemode=!spectator] researches_completed 1
 #
-# Big advancement!
+# Big advancements!
 execute positioned ~ ~1 ~ run advancement grant @p[distance=..5,gamemode=!spectator,scores={researches_completed=100..}] only atrium:magic/finals_are_killing_me
+#
+# I hope nobody gets this
+execute positioned ~ ~1 ~ run advancement grant @p[distance=..5,gamemode=!spectator,scores={researches_completed=1000..}] only atrium:magic/are_you_okay
