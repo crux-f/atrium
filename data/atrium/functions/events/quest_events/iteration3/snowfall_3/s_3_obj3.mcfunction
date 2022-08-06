@@ -1,0 +1,1 @@
+tellraw @a[tag=event] ["",{"text":"\u2714 Gather in Ecotone Township in the northern reaches of Fellstar Highlands.\n\u2714 Follow the west road into Grimstone Mountains.","color":"dark_green"},{"text":"\n"},{"text":"\u1403 Follow the old lamps through Drudgemore Pass.","color":"yellow"}]

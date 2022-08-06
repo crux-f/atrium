@@ -1,0 +1,32 @@
+{
+    "__comment": "The third event of Atrium: Snowfall. 08/06/2022.",
+    "display": {
+        "title": {
+            "text": "Beneath The Ice",
+            "color": "white",
+            "bold": false
+        },
+        "description": {
+            "text": "Snowfall III - August 6th, 2022",
+            "color": "green",
+            "italic": true
+        },
+        "icon": {
+            "item": "minecraft:sculk_sensor"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "iteration3": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+        "rewards": {
+		"experience": 100,
+	    "function": "atrium:triggers/events/snowfall_series_grant"
+	},
+        "parent": "atrium:iteration3_events/star_students"
+}
