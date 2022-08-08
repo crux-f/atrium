@@ -109,7 +109,7 @@
                 {
                   "text": "Spirit Stone",
                   "color": "blue",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             },
