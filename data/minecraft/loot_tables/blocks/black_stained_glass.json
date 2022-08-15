@@ -76,7 +76,7 @@
                 {
                   "text": "Deep Crystal",
                   "color": "dark_gray",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             },
