@@ -10,4 +10,4 @@ scoreboard players remove @a[scores={quipster_favor=1..},tag=pray] quipster_favo
 scoreboard players remove @a[scores={chorus_favor=1..},tag=pray] chorus_favor 1
 scoreboard players remove @a[scores={oswald_favor=1..},tag=pray] oswald_favor 1
 # Execute at the Resurrector - run the resurrect_start
-execute at @a[tag=resurrector] run function atrium:shrines/resurrect_start
+execute as @a[tag=resurrector] at @s run function atrium:shrines/resurrect_start

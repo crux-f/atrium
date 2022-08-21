@@ -1,12 +1,12 @@
 # Grant shrine advancement
-advancement grant @p[distance=..10] until atrium:belief/higher_power
+advancement grant @p[distance=..10,gamemode=!spectator] until atrium:belief/higher_power
 # UNLESS the nearest player to the shrine has a score of 30 or higher, add 2 to the player's Favor.
-execute unless entity @p[distance=..5,scores={chorus_favor=30..}] run scoreboard players add @p[distance=..5,level=1..,nbt=!{SelectedItem:{id:'minecraft:diamond'}}] chorus_favor 2
+execute unless entity @p[distance=..5,scores={chorus_favor=30..},gamemode=!spectator] run scoreboard players add @p[distance=..5,level=1..,nbt=!{SelectedItem:{id:"minecraft:diamond"}}] chorus_favor 2
 # ADD the 'pray' tag to the nearest player NOT in spectator holding a res item
-tag @p[gamemode=!spectator,distance=..5,level=1..,nbt=!{SelectedItem:{id:'minecraft:diamond'}},nbt=!{SelectedItem:{id:'minecraft:totem_of_undying'}}] add pray
+tag @p[gamemode=!spectator,distance=..5,level=1..,nbt=!{SelectedItem:{id:"minecraft:diamond"}},nbt=!{SelectedItem:{id:"minecraft:totem_of_undying"}}] add pray
 # Tag the player holding the res item who just clicked on the shrine as the Resurrector
-tag @p[nbt={SelectedItem:{id:'minecraft:diamond'}},gamemode=!spectator,distance=..5] add resurrector
-tag @p[nbt={SelectedItem:{id:'minecraft:totem_of_undying'}},gamemode=!spectator,distance=..5] add resurrector
+tag @p[nbt={SelectedItem:{id:"minecraft:diamond"}},gamemode=!spectator,distance=..5] add resurrector
+tag @p[nbt={SelectedItem:{id:"minecraft:totem_of_undying"}},gamemode=!spectator,distance=..5] add resurrector
 # run the favor exchange function
 function atrium:shrines/favor_exchange
 # UNLESS nearest player has no EXP levels, give em the particles
