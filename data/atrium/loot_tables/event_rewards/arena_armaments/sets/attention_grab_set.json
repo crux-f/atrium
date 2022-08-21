@@ -1,0 +1,308 @@
+{
+  "type": "chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "quality": 0,
+          "name": "minecraft:golden_helmet",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{RepairCost:99,Enchantments:[{id:\"minecraft:fire_protection\",lvl:1s},{id:\"minecraft:thorns\",lvl:1s},{id:\"minecraft:unbreaking\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:1,Operation:0,UUID:[I;959019058,-194951065,-2130341707,-1141867236],Slot:\"head\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:1,Operation:0,UUID:[I;-1530670500,1916944822,-1488659429,-379000622],Slot:\"head\"}]}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Gleaming Helm",
+                  "italic": "false"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Unrepairable",
+                  "color": "dark_gray",
+                  "italic": "false"
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "Gets the crowd on your"
+                },
+                {
+                  "text": "side, for sure."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "quality": 0,
+          "name": "minecraft:chainmail_chestplate",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{RepairCost:99,Enchantments:[{id:\"minecraft:fire_protection\",lvl:2s},{id:\"minecraft:unbreaking\",lvl:2s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:5,Operation:0,UUID:[I;683705777,-1308537123,-1692795576,-397258815],Slot:\"chest\"}]}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Chainmail",
+                  "italic": "false"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Unrepairable",
+                  "color": "dark_gray",
+                  "italic": "false"
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "Old-fashioned, but gets"
+                },
+                {
+                  "text": "the job done."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "quality": 0,
+          "name": "minecraft:chainmail_leggings",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{RepairCost:99,Enchantments:[{id:\"minecraft:fire_protection\",lvl:1s},{id:\"minecraft:unbreaking\",lvl:2s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:4,Operation:0,UUID:[I;184757034,493437926,-1349767050,-237700980],Slot:\"legs\"}]}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Chain Shinguards",
+                  "italic": "false"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Unrepairable",
+                  "color": "dark_gray",
+                  "italic": "false"
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "Unconventional, but"
+                },
+                {
+                  "text": "it'll catch an arrow."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "quality": 0,
+          "name": "minecraft:golden_boots",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{RepairCost:99,Enchantments:[{id:\"minecraft:fire_protection\",lvl:1s},{id:\"minecraft:thorns\",lvl:1s},{id:\"minecraft:unbreaking\",lvl:2s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:2,Operation:0,UUID:[I;219886299,-1404813283,-1662836134,-1511501083],Slot:\"feet\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:1,Operation:0,UUID:[I;-1089808266,-1062450499,-1414575696,1980390349],Slot:\"feet\"}]}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Flashy Kicks",
+                  "italic": "false"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Unrepairable",
+                  "color": "dark_gray",
+                  "italic": "false"
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "Gotta look good in"
+                },
+                {
+                  "text": "the Arena."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "quality": 0,
+          "name": "minecraft:golden_sword",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{RepairCost:99,Enchantments:[{id:\"minecraft:sharpness\",lvl:2s},{id:\"minecraft:smite\",lvl:3s},{id:\"minecraft:unbreaking\",lvl:4s}]}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Gleaming Sword",
+                  "italic": "false"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Unrepairable",
+                  "color": "dark_gray",
+                  "italic": "false"
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "For the glamorous gladiator"
+                },
+                {
+                  "text": "in your life."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "quality": 0,
+          "name": "minecraft:shield",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{RepairCost:99,Enchantments:[{id:\"minecraft:unbreaking\",lvl:3s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:2,Operation:0,UUID:[I;-805676194,804472613,-2105936421,-1769216235],Slot:\"offhand\"}],BlockEntityTag:{Base:14,Patterns:[{Color:1,Pattern:\"bri\"},{Color:4,Pattern:\"hh\"},{Color:14,Pattern:\"gra\"},{Color:15,Pattern:\"mr\"},{Color:1,Pattern:\"mc\"},{Color:14,Pattern:\"flo\"}]}}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Bedazzled Shield",
+                  "italic": "false"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Unrepairable",
+                  "color": "dark_gray",
+                  "italic": "false"
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "The crowd will love/hate this."
+                },
+                {
+                  "text": "Either way, you're getting"
+                },
+                {
+                  "text": "attention."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,282 @@
+{
+  "type": "chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "quality": 0,
+          "name": "minecraft:turtle_helmet",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{RepairCost:99,Enchantments:[{id:\"minecraft:projectile_protection\",lvl:1s},{id:\"minecraft:unbreaking\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUID:[I;-600273472,-1705750719,-1331482611,-305217091],Slot:\"head\"}]}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Soldier's Helmet",
+                  "italic": "false"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Unrepairable",
+                  "color": "dark_gray",
+                  "italic": "false"
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "Ol' reliable! Still has a few"
+                },
+                {
+                  "text": "dinks in it from the war..."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "quality": 0,
+          "name": "minecraft:iron_chestplate",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{RepairCost:99,Enchantments:[{id:\"minecraft:blast_protection\",lvl:2s},{id:\"minecraft:unbreaking\",lvl:2s}],AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-0.15,Operation:1,UUID:[I;-2020583934,1529237141,-2059756283,548667318],Slot:\"chest\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:6,Operation:0,UUID:[I;1113922067,1854164986,-1136792084,-78297326],Slot:\"chest\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:1,Operation:0,UUID:[I;-614582276,1331904657,-1963714830,700492935],Slot:\"chest\"}]}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Hardened Carapace",
+                  "italic": "false"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Unrepairable",
+                  "color": "dark_gray",
+                  "italic": "false"
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "Designed to be blast-proof"
+                },
+                {
+                  "text": "for creeper defusals."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "quality": 0,
+          "name": "minecraft:leather_leggings",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{color:2263842},HideFlags:64,RepairCost:99,Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:4,Operation:0,UUID:[I;86687030,208752023,-1423449882,-1713705479],Slot:\"legs\"}]}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Standard Issue Trousers",
+                  "italic": "false"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Unrepairable",
+                  "color": "dark_gray",
+                  "italic": "false"
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "Utilitarian, tactical, sturdy."
+                },
+                {
+                  "text": "Maybe a few too many pockets."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "quality": 0,
+          "name": "minecraft:leather_boots",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{color:2263842},HideFlags:64,RepairCost:99,Enchantments:[{id:\"minecraft:depth_strider\",lvl:2s},{id:\"minecraft:unbreaking\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:1,Operation:0,UUID:[I;677611735,-561561180,-1775024186,2125109635],Slot:\"feet\"}]}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Tactical Flippers",
+                  "italic": "false"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Unrepairable",
+                  "color": "dark_gray",
+                  "italic": "false"
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "Salvaged from the remains of a"
+                },
+                {
+                  "text": "massive naval battle. The word"
+                },
+                {
+                  "text": "\"Armada\" is printed on the"
+                },
+                {
+                  "text": "bottom of each flipper."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "quality": 0,
+          "name": "minecraft:crossbow",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{RepairCost:99,Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s},{id:\"minecraft:piercing\",lvl:1s},{id:\"minecraft:quick_charge\",lvl:2s}],AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-0.10,Operation:1,UUID:[I;-1343604594,-1023588902,-2035002848,-1138833361],Slot:\"mainhand\"}]}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Auto Crossbow",
+                  "italic": "false"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Unrepairable",
+                  "color": "dark_gray",
+                  "italic": "false"
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "Standard issue for soldiers in"
+                },
+                {
+                  "text": "the war. It's a bit bulky, but"
+                },
+                {
+                  "text": "it gets the job done."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "quality": 0,
+          "name": "minecraft:arrow",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 64
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "type": "chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "loot_table",
+          "weight": 1,
+          "quality": 0,
+          "name": "atrium:event_rewards/arena_armaments/sets/im_a_marine_set"
+        },
+        {
+          "type": "loot_table",
+          "weight": 1,
+          "quality": 0,
+          "name": "atrium:event_rewards/arena_armaments/sets/now_you_see_me_set"
+        },
+        {
+          "type": "loot_table",
+          "weight": 1,
+          "quality": 0,
+          "name": "atrium:event_rewards/arena_armaments/sets/time_to_chill_set"
+        },
+        {
+          "type": "loot_table",
+          "weight": 1,
+          "quality": 0,
+          "name": "atrium:event_rewards/arena_armaments/sets/holiest_of_thou_set"
+        }
+      ]
+    }
+  ]
+}

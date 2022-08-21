@@ -1,0 +1,266 @@
+{
+  "type": "chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "quality": 0,
+          "name": "minecraft:bricks",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 64
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "quality": 0,
+          "name": "minecraft:netherrack",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 64
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "quality": 0,
+          "name": "minecraft:soul_sand",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 64
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "quality": 0,
+          "name": "minecraft:soul_soil",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 64
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "quality": 0,
+          "name": "minecraft:basalt",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 64
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "quality": 0,
+          "name": "minecraft:glowstone",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 16,
+                "max": 48
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "quality": 0,
+          "name": "minecraft:blackstone",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "quality": 0,
+          "name": "minecraft:quartz_block",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "quality": 0,
+          "name": "minecraft:obsidian",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 16,
+                "max": 32
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "quality": 0,
+          "name": "minecraft:glass",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "quality": 0,
+          "name": "minecraft:prismarine",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 16,
+                "max": 32
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "quality": 0,
+          "name": "minecraft:sea_lantern",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 4,
+                "max": 12
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "quality": 0,
+          "name": "minecraft:clay",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "quality": 0,
+          "name": "minecraft:sponge",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 4,
+                "max": 12
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "quality": 0,
+          "name": "minecraft:magma_block",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 4,
+                "max": 12
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "quality": 0,
+          "name": "minecraft:ice",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "quality": 0,
+          "name": "minecraft:packed_ice",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "quality": 0,
+          "name": "minecraft:blue_ice",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
