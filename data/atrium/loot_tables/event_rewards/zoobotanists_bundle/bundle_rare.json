@@ -1,0 +1,315 @@
+{
+  "type": "chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "quality": 0,
+          "name": "minecraft:axolotl_bucket",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "quality": 0,
+          "name": "minecraft:name_tag",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "quality": 0,
+          "name": "minecraft:crimson_fungus",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 8,
+                "max": 24
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "quality": 0,
+          "name": "minecraft:warped_fungus",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 8,
+                "max": 24
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "quality": 0,
+          "name": "minecraft:crimson_roots",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 8,
+                "max": 24
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "quality": 0,
+          "name": "minecraft:warped_roots",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 8,
+                "max": 24
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "quality": 0,
+          "name": "minecraft:nether_sprouts",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 8,
+                "max": 24
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "quality": 0,
+          "name": "minecraft:weeping_vines",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 8,
+                "max": 24
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "quality": 0,
+          "name": "minecraft:twisting_vines",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 8,
+                "max": 24
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "quality": 0,
+          "name": "minecraft:shroomlight",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 8,
+                "max": 24
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "quality": 0,
+          "name": "minecraft:azalea",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 8,
+                "max": 24
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "quality": 0,
+          "name": "minecraft:flowering_azalea",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 8,
+                "max": 24
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "quality": 0,
+          "name": "minecraft:hanging_roots",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 8,
+                "max": 24
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "quality": 0,
+          "name": "minecraft:big_dripleaf",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 8,
+                "max": 24
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "quality": 0,
+          "name": "minecraft:small_dripleaf",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 8,
+                "max": 24
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "quality": 0,
+          "name": "minecraft:spore_blossom",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 8,
+                "max": 24
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "quality": 0,
+          "name": "minecraft:bee_nest",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{BlockEntityTag:{Bees:[{EntityData:{id:\"minecraft:bee\"}}]}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "quality": 0,
+          "name": "minecraft:honey_block",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 8,
+                "max": 24
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "quality": 0,
+          "name": "minecraft:honeycomb_block",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 8,
+                "max": 24
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "quality": 0,
+          "name": "minecraft:cobweb",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 8,
+                "max": 24
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

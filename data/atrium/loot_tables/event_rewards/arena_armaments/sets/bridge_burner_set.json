@@ -1,0 +1,233 @@
+{
+  "type": "chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "quality": 0,
+          "name": "minecraft:leather_helmet",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{color:13041664},HideFlags:64,RepairCost:99,Enchantments:[{id:\"minecraft:protection\",lvl:1s},{id:\"minecraft:unbreaking\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:1,Operation:0,UUID:[I;1737160373,1082347450,-1934819884,318676309],Slot:\"head\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.05,Operation:1,UUID:[I;-2119357931,1444169251,-1914838536,2139518373],Slot:\"head\"}]}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Singed Cap",
+                  "italic": "false"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Unrepairable",
+                  "color": "dark_gray",
+                  "italic": "false"
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "The edge has been"
+                },
+                {
+                  "text": "absolutely torched."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "quality": 0,
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{color:16711680},HideFlags:64,RepairCost:99,Enchantments:[{id:\"minecraft:protection\",lvl:1s},{id:\"minecraft:blast_protection\",lvl:1s},{id:\"minecraft:unbreaking\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:2,Operation:0,UUID:[I;1829930651,-1443871746,-1832354837,-989853222],Slot:\"chest\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.10,Operation:1,UUID:[I;1500316371,-1124973540,-1765569702,1334120368],Slot:\"chest\"}]}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Ember Robes",
+                  "italic": "false"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Unrepairable",
+                  "color": "dark_gray",
+                  "italic": "false"
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "Burn bright and fast."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "quality": 0,
+          "name": "minecraft:leather_leggings",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{color:16742144},HideFlags:64,RepairCost:99,Enchantments:[{id:\"minecraft:protection\",lvl:1s},{id:\"minecraft:blast_protection\",lvl:1s},{id:\"minecraft:unbreaking\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:2,Operation:0,UUID:[I;-411269979,1301891430,-1522584571,2104834203],Slot:\"legs\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.10,Operation:1,UUID:[I;848397445,-1675801617,-1747879478,544055179],Slot:\"legs\"}]}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Ember Shinguards",
+                  "italic": "false"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Unrepairable",
+                  "color": "dark_gray",
+                  "italic": "false"
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "Equipped with potion holsters."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "quality": 0,
+          "name": "minecraft:trident",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Staff of Fire\",\"color\":\"red\",\"italic\":false}',Lore:['{\"text\":\"Mending\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"Fire Sigil I\",\"color\":\"#FFBFBF\",\"italic\":false}','{\"text\":\"Throw Flames I\",\"color\":\"#FFF29E\",\"italic\":false}','{\"keybind\":\"\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"When in Off Hand:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"+1 Casting Power\",\"color\":\"blue\",\"italic\":false}']},HideFlags:1,RepairCost:99,firestaff:1b,staff:1b,lv1:1b,Enchantments:[{id:\"minecraft:riptide\",lvl:1s},{id:\"minecraft:mending\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:2,Operation:0,UUID:[I;-398377370,-1777316415,-1450025143,-577324410],Slot:\"mainhand\"}]}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Staff of Fire",
+                  "color": "red",
+                  "italic": "false"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "quality": 0,
+          "name": "minecraft:glowstone_dust",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 64
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "quality": 0,
+          "name": "minecraft:redstone",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 64
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "quality": 0,
+          "name": "minecraft:splash_potion",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{Potion:\"minecraft:strong_healing\"}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
