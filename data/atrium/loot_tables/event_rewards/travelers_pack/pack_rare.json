@@ -73,6 +73,22 @@
           "type": "item",
           "weight": 1,
           "quality": 0,
+          "name": "minecraft:leather_boots",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+                "function": "set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Running Boots\",\"color\":\"yellow\",\"italic\":false}',Lore:['{\"text\":\"The heel is spongy.\"}','{\"text\":\"Good for putting a\"}','{\"text\":\"spring in your step.\"}'],color:4746041},HideFlags:64,AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:2,Operation:0,UUID:[I;-1187617483,-410759481,-1239344797,1924761483],Slot:\"feet\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.08,Operation:1,UUID:[I;1468506834,1162691852,-1296349607,105410707],Slot:\"feet\"}]}"
+              }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "quality": 0,
           "name": "minecraft:turtle_helmet",
           "functions": [
             {
