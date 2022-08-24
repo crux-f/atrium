@@ -1,0 +1,24 @@
+{
+    "__comment": "Haha get it its the name of a popular vampire",
+    "display": {
+        "title": {
+            "text": "Curse of Strad"
+        },
+        "description": {
+            "text": "Cast 'Song' using Strad"
+        },
+        "icon": {
+            "item": "minecraft:music_disc_strad"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "cast_song_with_strad": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "atrium:magic/by_our_powers_combined"
+}

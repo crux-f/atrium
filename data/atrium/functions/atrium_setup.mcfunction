@@ -38,6 +38,7 @@ scoreboard objectives add return_spell_z dummy
 scoreboard objectives add eruption_spell dummy
 scoreboard objectives add blizzard_spell dummy
 scoreboard objectives add fizzle_spell dummy
+scoreboard objectives add hush_spell dummy
 # Enchantments
 # Some of the custom enchantments require scoreboards for temporary caulcations.
 scoreboard objectives add raider_slayer dummy
