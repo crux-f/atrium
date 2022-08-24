@@ -3,13 +3,12 @@
       "requirement": {
         "trigger": "minecraft:villager_trade",
         "conditions": {
-          "player": [],
           "villager": [
             {
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "nbt": "{Tags:[\"hidden_propagandist\"]}"
+                "nbt": "{Tags:[\"hidden_assassin\"]}"
               }
             }
           ],
@@ -20,7 +19,7 @@
       }
     },
     "rewards": {
-      "function": "atrium:triggers/special_abilities/armada/agents/reveal_propagandist"
+      "function": "atrium:triggers/special_abilities/armada/agents/reveal_assassin_trade"
     }
   }
   

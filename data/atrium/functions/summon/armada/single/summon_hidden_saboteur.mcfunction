@@ -1,0 +1,2 @@
+# Summon 1 Hidden Saboteur 
+summon villager ~ ~ ~ {PersistenceRequired:1b,Health:45f,Tags:["armada_disguised","hidden_sabatour"],Attributes:[{Name:"generic.max_health",Base:45}],VillagerData:{level:1},Gossips:[{Type:"minor_negative",Value:30,Target:[I;110787060,1156138790,-1514210135,238594805]}]}
