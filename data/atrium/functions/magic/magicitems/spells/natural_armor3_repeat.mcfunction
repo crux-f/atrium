@@ -7,4 +7,4 @@ scoreboard players add @a[tag=natural_armor3,predicate=atrium:if_no_armor,scores
 # IF all tagged players are not wearing armor AND the duration counter is less than 180, run again in 10 seconds.
 execute if entity @a[tag=natural_armor3,predicate=atrium:if_no_armor,scores={natural_armor=..179}] run schedule function atrium:magic/magicitems/spells/natural_armor2_repeat 10s
 # Remove tag when counter reaches 180
-tag @a[tag=natural_armor3,scores={natural_armor=180..}] remove natural_armor2
+tag @a[tag=natural_armor3,scores={natural_armor=180..}] remove natural_armor3

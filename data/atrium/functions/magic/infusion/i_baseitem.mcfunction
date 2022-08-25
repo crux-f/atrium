@@ -119,6 +119,10 @@ execute positioned ~ ~2 ~-4 if entity @e[type=minecraft:item_frame,distance=..1.
 execute positioned ~ ~2 ~-4 at @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{id:"minecraft:jukebox",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
 execute positioned ~ ~2 ~-4 if entity @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{id:"minecraft:jukebox",Count:1b}}] run execute as @e[tag=infusion,distance=..10] at @s run function atrium:magic/infusion/melodic_staff
 #
+# Start Mercurial Staff - Check NORTH for Brewing Stand
+execute positioned ~ ~2 ~-4 at @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{id:"minecraft:brewing_stand",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~2 ~-4 if entity @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{id:"minecraft:brewing_stand",Count:1b}}] run execute as @e[tag=infusion,distance=..10] at @s run function atrium:magic/infusion/mercurial_staff
+#
 # INGREDIENTS
 #
 # Start Gleaming Prismarine - Check CENTER NORTH for Mysterious Fish
