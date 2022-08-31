@@ -207,6 +207,6 @@ execute positioned ~ ~2 ~-4 if entity @e[type=minecraft:item_frame,distance=..1.
 #
 # MISC
 #
-# Check WARP GATE for a Gatestone. If there is one, run the tp_dimension script, which gets more granular.
-execute if entity @e[tag=warp_gate,distance=..10] positioned ~-5 ~4 ~ at @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{tag:{gatestone:1b}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
-execute if entity @e[tag=warp_gate,distance=..10] positioned ~-5 ~4 ~ if entity @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{tag:{gatestone:1b}}}] run execute as @e[tag=infusion,distance=..10] at @s run function atrium:travel/warp_gate/tp_dimension
+# Check WARP GATE for a Lodestone Compass. If there is one, run the tp_dimension script, which gets more granular.
+execute as @e[tag=warp_gate,distance=..10] positioned ~-5 ~4 ~ at @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{tag:{LodestoneTracked:1b}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute as @e[tag=warp_gate,distance=..10] positioned ~-5 ~4 ~ if entity @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{tag:{LodestoneTracked:1b}}}] run execute at @s run function atrium:travel/warp_gate/dimension_check

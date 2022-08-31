@@ -33,10 +33,11 @@ execute if entity @s[scores={return_spell_dim=0..}] at @s anchored feet run part
 execute if entity @s[scores={return_spell_dim=0..}] at @s anchored feet run summon area_effect_cloud ~ ~ ~ {Particle:"totem_of_undying",Radius:0.25f,Duration:200,Potion:"minecraft:empty"}
 execute if entity @s[scores={return_spell_dim=0..}] at @s run playsound minecraft:block.rooted_dirt.step player @a[distance=..10] ~ ~ ~ 0.5 0 0.1
 # Decorative plant marker.
-execute if entity @s[predicate=atrium:in_overworld] at @s anchored feet run setblock ~ ~ ~ minecraft:oxeye_daisy
-execute if entity @s[predicate=atrium:in_nether] at @s anchored feet run setblock ~ ~ ~ minecraft:crimson_fungus
-execute if entity @s[predicate=atrium:in_meridian] at @s anchored feet run setblock ~ ~ ~ minecraft:white_tulip
-execute if entity @s[predicate=atrium:in_depths] at @s anchored feet run setblock ~ ~ ~ minecraft:red_mushroom
+execute if entity @s[scores={return_spell_dim=0..}] at @s anchored feet run setblock ~ ~ ~ minecraft:oxeye_daisy
+execute if entity @s[scores={return_spell_dim=1..}] at @s anchored feet run setblock ~ ~ ~ minecraft:crimson_fungus
+execute if entity @s[scores={return_spell_dim=3..}] at @s anchored feet run setblock ~ ~ ~ minecraft:white_tulip
+execute if entity @s[scores={return_spell_dim=4..}] at @s anchored feet run setblock ~ ~ ~ minecraft:red_mushroom
+# execute if entity @s[scores={return_spell_dim=5..}] at @s anchored feet run setblock ~ ~ ~ minecraft:kelp_plant?
 #
 execute if entity @s[scores={return_spell_dim=-1}] at @s anchored feet run playsound minecraft:block.tripwire.detach player @a[distance=..5] ~ ~ ~ 0.25 2 0.1
 execute if entity @s[scores={return_spell_dim=-1}] at @s anchored feet run particle minecraft:ash ~ ~0.5 ~ 0 0 0 0 25

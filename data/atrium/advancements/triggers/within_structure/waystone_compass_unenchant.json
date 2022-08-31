@@ -1,0 +1,63 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+                "condition": "minecraft:alternative",
+                "terms": [
+                  {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "structure": "atrium:abyss_waystone"
+                    }
+                  },
+                  {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "structure": "atrium:depths_waystone"
+                    }
+                  },
+                  {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "structure": "atrium:meridian_waystone"
+                    }
+                  },
+                  {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "structure": "atrium:end_waystone"
+                    }
+                  },
+                  {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "structure": "atrium:nether_waystone"
+                    }
+                  },
+                  {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "structure": "atrium:overworld_waystone"
+                    }
+                  }
+                ]
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:compass"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "atrium:triggers/within_structure/waystone_compass_unenchant"
+  }
+}

@@ -36,7 +36,7 @@ execute at @e[tag=fx_build,scores={warp_gate=180..}] run particle minecraft:reve
 # Add the gate slot
 execute at @e[tag=fx_build,scores={warp_gate=180}] run summon item_frame ~-5.5 ~4 ~ {Facing:5b,Invisible:1b}
 # Advancement!
-execute at @e[tag=fx_build,scores={warp_gate=180}] run advancement grant @p[distance=..5,gamemode=!spectator] only atrium:now_youre_thinking_with_portals
+execute at @e[tag=fx_build,scores={warp_gate=180}] run advancement grant @p[distance=..5,gamemode=!spectator] only atrium:magic/now_youre_thinking_with_portals
 # Run particles until the build is done
 execute at @e[tag=fx_build] run particle minecraft:portal ~ ~2 ~ 0 2 0 0.5 10
 execute at @e[tag=fx_build] run particle minecraft:portal ~-3 ~4 ~ 2.5 0 0 0.5 10

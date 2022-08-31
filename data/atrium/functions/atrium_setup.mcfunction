@@ -20,6 +20,10 @@ scoreboard objectives add misc_timer dummy
 scoreboard objectives add brittle_bone_disease dummy
 scoreboard objectives add giant_threat dummy
 scoreboard objectives add prismatic dummy
+scoreboard objectives add xp_calc_storage dummy
+scoreboard objectives add xp_calc_bonus dummy
+scoreboard objectives add warp_gate dummy
+scoreboard objectives add warp_xp_multiplier dummy
 # Special Items
 scoreboard objectives add airstaff dummy
 scoreboard objectives add earthstaff dummy
