@@ -1,9 +1,9 @@
-# Pacify Haywire Golem
+# Deactivate all Haywire Golems
 #
 # Remove particles and sound effects
 #
 # Set AngerTime to 0
-execute as @s run data merge entity @e[limit=1,distance=..15,type=minecraft:iron_golem,tag=haywire_golem] {AngerTime:0,Attributes:[{Name:"generic.follow_range", Base:16.0}]}
+execute run data merge entity @e[tag=haywire_golem] {AngerTime:0,Attributes:[{Name:"generic.follow_range", Base:16.0}]}
 #
 # Remove haywire_golem tag
-execute run tag @e[limit=1,distance=..50,type=minecraft:iron_golem,tag=haywire_golem] remove haywire_golem
+execute run tag @e[tag=haywire_golem] remove haywire_golem
