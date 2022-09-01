@@ -1,7 +1,7 @@
 # Activate Haywire Golem
 #
 # Tag an golem if a player is nearby
-execute at @s[tag=hidden_sabotour,scores={charge=3..6}] if entity @a[distance=..10,tag=!spectator] run tag @e[limit=1,distance=..50,type=minecraft:iron_golem] add haywire_golem
+execute at @s[tag=hidden_sabotour,scores={charge=3..6}] if entity @a[distance=..10,tag=!spectator] run tag @e[limit=1,distance=..50,type=minecraft:iron_golem,sort=random,tag=!haywire_golem] add haywire_golem
 #
 # Apply redstone particles to golem
 
