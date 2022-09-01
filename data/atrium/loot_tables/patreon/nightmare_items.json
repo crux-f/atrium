@@ -1,0 +1,299 @@
+{
+    "type": "advancement_reward",
+    "pools": [
+      {
+        "rolls": 1,
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "item",
+            "weight": 1,
+            "quality": 3,
+            "name": "minecraft:paper",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{lamp_central_dream_notes:1b}"
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Strange Paper",
+                    "color": "dark_aqua",
+                    "italic": false
+                  }
+                ]
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "text": "It's odd. It's written in"
+                  },
+                  {
+                    "text": "charcoal, but it doesn't..."
+                  },
+                  {
+                    "text": "look like your handwriting."
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ech- Post Ten Thir-y Six,",
+                    "font": "minecraft:uniform",
+                    "color": "dark_aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": "-e are reading ex-----",
+                    "font": "minecraft:uniform",
+                    "color": "dark_aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": "---verging on ---- locat---",
+                    "font": "minecraft:uniform",
+                    "color": "dark_aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": "--tch -nabled for local",
+                    "font": "minecraft:uniform",
+                    "color": "dark_aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": "----day \"Fes---al -- ----ts\"?",
+                    "font": "minecraft:uniform",
+                    "color": "dark_aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": "Connection --oppy, --port in",
+                    "font": "minecraft:uniform",
+                    "color": "dark_aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": "---n po--ible. Lamp off.",
+                    "font": "minecraft:uniform",
+                    "color": "dark_aqua",
+                    "italic": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 4,
+            "quality": 0,
+            "name": "minecraft:paper",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Crumpled Paper",
+                    "italic": false
+                  }
+                ]
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "text": "\"boOk... t e.. book...\""
+                  },
+                  {
+                    "text": "\"sp lls... En han ment..\""
+                  },
+                  [
+                    {
+                      "text": "\""
+                    },
+                    {
+                      "text": "awak n.. pag s",
+                      "color": "yellow"
+                    },
+                    {
+                      "text": "\""
+                    }
+                  ],
+                  {
+                    "text": "...Must have been a"
+                  },
+                  {
+                    "text": "weird dream last night."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "loot_table",
+            "weight": 5,
+            "quality": 5,
+            "name": "atrium:treasure/any_research_minor",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 20,
+            "quality": -5,
+            "name": "minecraft:paper",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Crumpled Paper",
+                    "italic": false
+                  }
+                ]
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "text": "There's a few words here,"
+                  },
+                  {
+                    "text": "but they don't form a "
+                  },
+                  {
+                    "text": "complete sentence."
+                  },
+                  {
+                    "text": "You only remember bits and"
+                  },
+                  {
+                    "text": "pieces, unfortunately."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 7,
+            "quality": 1,
+            "name": "minecraft:enchanted_book",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{dream_journal_unbroken:1b,StoredEnchantments:[{id:\"minecraft:unbreaking\",lvl:2s}]}"
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Dream Journal",
+                    "italic": false
+                  }
+                ]
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "text": "You wrote it all down as"
+                  },
+                  {
+                    "text": "soon as you woke up. All"
+                  },
+                  {
+                    "text": "you see is something about"
+                  },
+                  {
+                    "text": "a good friend in danger."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "loot_table",
+            "weight": 20,
+            "quality": 0,
+            "name": "atrium:treasure/dream_research_notes",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 5,
+            "quality": 2,
+            "name": "minecraft:enchanted_book",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{HideFlags:1,dream_journal_eldritch:1b,StoredEnchantments:[{id:\"minecraft:binding_curse\",lvl:1s},{id:\"minecraft:unbreaking\",lvl:2s},{id:\"minecraft:soul_speed\",lvl:2s}]}"
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Dream Journal",
+                    "italic": false
+                  }
+                ]
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "text": "You aren't sure you"
+                  },
+                  {
+                    "text": "remember starting it. You "
+                  },
+                  {
+                    "text": "can't read the symbols it's "
+                  },
+                  {
+                    "text": "written in."
+                  },
+                  {
+                    "text": "perhaps it is best that way",
+                    "font": "minecraft:alt"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:slept_in_bed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.25
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "atrium:patreon/nightmares",
+    "loot": [
+      "atrium:patreon/nightmare_items"
+    ],
+    "experience": 25
+  }
+}

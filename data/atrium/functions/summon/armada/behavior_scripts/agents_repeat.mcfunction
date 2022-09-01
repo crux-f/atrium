@@ -6,7 +6,12 @@ execute as @e[tag=hidden_secret_police] at @s if entity @p[distance=..5,gamemode
 #
 # At every propagandist when it is noon in their time, create rumors
 execute as @e[tag=hidden_propagandist,predicate=atrium:time_check/village_meeting_middle] run function atrium:summon/armada/behavior_scripts/spread_rumors
+# At every sleeper agent when it is noon in their time, create minor rumors
+execute as @e[tag=hidden_sleeper_agent,predicate=atrium:time_check/village_meeting_middle] run function atrium:summon/armada/behavior_scripts/spread_minor_rumors
 # At every haywire golem when it is noon their time, reset to normal golem
 execute as @e[tag=haywire,predicate=atrium:time_check/village_meeting_middle] run function atrium:summon/armada/behavior_scripts/haywire_reset
 # At every sabotour when it is noon in their time, make some trouble
 execute as @e[tag=hidden_sabotour,predicate=atrium:time_check/village_meeting_middle] run function atrium:summon/armada/behavior_scripts/make_trouble
+#
+# Give Haywire Golems particles
+execute at @e[tag=haywire_golem] run particle dust 1.000 0.000 0.000 1 ~ ~1 ~ 1 1 1 1 50 normal
