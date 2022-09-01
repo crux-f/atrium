@@ -5,6 +5,15 @@
       "conditions": {
         "player": [
           {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "nightmare_anomaly": {
+                "min": 40000
+              }
+            }
+          },
+          {
             "condition": "minecraft:random_chance",
             "chance": 0.25
           }
@@ -17,6 +26,6 @@
     "loot": [
       "atrium:patreon/nightmare_items"
     ],
-    "experience": 25
+    "experience": 20
   }
 }
