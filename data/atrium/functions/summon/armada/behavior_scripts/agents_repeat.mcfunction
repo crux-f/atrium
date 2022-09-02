@@ -9,7 +9,7 @@ execute as @e[tag=hidden_propagandist,predicate=atrium:time_check/village_meetin
 # At every sleeper agent when it is noon in their time, create minor rumors
 execute as @e[tag=hidden_sleeper_agent,predicate=atrium:time_check/village_meeting_middle] run function atrium:summon/armada/behavior_scripts/spread_minor_rumors
 # At every haywire golem when it is noon their time, reset to normal golem
-execute as @e[tag=haywire,predicate=atrium:time_check/village_meeting_middle] run function atrium:summon/armada/behavior_scripts/haywire_reset
+execute as @e[tag=haywire_golem,predicate=atrium:time_check/village_meeting_middle] run function atrium:summon/armada/behavior_scripts/haywire_reset
 # At every saboteur when it is noon in their time, make some trouble
 execute as @e[tag=hidden_saboteur,predicate=atrium:time_check/village_meeting_middle] run function atrium:summon/armada/behavior_scripts/make_trouble
 #
