@@ -6,7 +6,15 @@ execute as @e[tag=hidden_secret_police] at @s if entity @p[distance=..5,gamemode
 #
 # At every propagandist when it is noon in their time, create rumors
 execute as @e[tag=hidden_propagandist,predicate=atrium:time_check/village_meeting_middle] run function atrium:summon/armada/behavior_scripts/spread_rumors
+# At every sleeper agent when it is noon in their time, create minor rumors
+execute as @e[tag=hidden_sleeper_agent,predicate=atrium:time_check/village_meeting_middle] run function atrium:summon/armada/behavior_scripts/spread_minor_rumors
 # At every haywire golem when it is noon their time, reset to normal golem
 execute as @e[tag=haywire,predicate=atrium:time_check/village_meeting_middle] run function atrium:summon/armada/behavior_scripts/haywire_reset
-# At every sabotour when it is noon in their time, make some trouble
-execute as @e[tag=hidden_sabotour,predicate=atrium:time_check/village_meeting_middle] run function atrium:summon/armada/behavior_scripts/make_trouble
+# At every saboteur when it is noon in their time, make some trouble
+execute as @e[tag=hidden_saboteur,predicate=atrium:time_check/village_meeting_middle] run function atrium:summon/armada/behavior_scripts/make_trouble
+#
+# At every saboteur, there is a 1% chance that they attempt to interfere with a nearby redstone device (and maybe other stuff if i have time)
+execute as @e[tag=hidden_saboteur] if predicate atrium:percentage_chances/0.01_p at @s unless entity @p[gamemode=survival,distance=..10,predicate=!atrium:completely_invisible] run function atrium:summon/armada/behavior_scripts/interfere_in_general
+#
+# Give Haywire Golems particles
+execute at @e[tag=haywire_golem] run particle dust 1.000 0.000 0.000 1 ~ ~1 ~ 1 1 1 1 50 normal

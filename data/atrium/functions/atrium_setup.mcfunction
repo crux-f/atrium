@@ -51,3 +51,4 @@ scoreboard objectives add concentration dummy
 # Mob Teams
 team add necromancer 
 team add occupied
+team add armada
