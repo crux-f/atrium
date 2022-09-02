@@ -1,0 +1,36 @@
+{
+    "replace": false,
+    "values": [
+      "minecraft:stone_button",
+      "minecraft:polished_blackstone_button",
+      "minecraft:oak_button",
+      "minecraft:birch_button",
+      "minecraft:spruce_button",
+      "minecraft:jungle_button",
+      "minecraft:dark_oak_button",
+      "minecraft:acacia_button",
+      "minecraft:mangrove_button",
+      "minecraft:crimson_button",
+      "minecraft:warped_button",
+      "minecraft:oak_fence_gate",
+      "minecraft:birch_fence_gate",
+      "minecraft:spruce_fence_gate",
+      "minecraft:jungle_fence_gate",
+      "minecraft:dark_oak_fence_gate",
+      "minecraft:acacia_fence_gate",
+      "minecraft:mangrove_fence_gate",
+      "minecraft:crimson_fence_gate",
+      "minecraft:warped_fence_gate",
+      "minecraft:oak_trapdoor",
+      "minecraft:birch_trapdoor",
+      "minecraft:spruce_trapdoor",
+      "minecraft:jungle_trapdoor",
+      "minecraft:dark_oak_trapdoor",
+      "minecraft:acacia_trapdoor",
+      "minecraft:mangrove_trapdoor",
+      "minecraft:crimson_trapdoor",
+      "minecraft:warped_trapdoor",
+      "minecraft:lever"
+    ]
+  }
+  

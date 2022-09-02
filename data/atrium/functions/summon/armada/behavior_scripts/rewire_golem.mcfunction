@@ -1,7 +1,7 @@
 # Activate Haywire Golem
 #
 # Tag an golem if a player is nearby
-execute at @s[tag=hidden_sabotour,scores={charge=3..6}] if entity @a[distance=..70,tag=!spectator] run tag @e[limit=1,distance=..50,type=minecraft:iron_golem,sort=random,tag=!haywire_golem] add going_haywire
+execute at @s[tag=hidden_saboteur,scores={charge=3..6}] if entity @a[distance=..70,tag=!spectator] run tag @e[limit=1,distance=..50,type=minecraft:iron_golem,sort=random,tag=!haywire_golem] add going_haywire
 #
 tag @e[tag=going_haywire] add haywire_golem
 #
