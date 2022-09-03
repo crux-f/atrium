@@ -1,17 +1,13 @@
-# Rewire one Haywire golem
+# Rewire one Haywire Golem part 2
 #
-# Reactivate AI
-execute at @p[tag=rewire_temp] run data modify entity @e[limit=1,distance=..5,tag=haywire_golem] NoAI set value 0b
+# Reset golem follow range.
+execute at @a[tag=rewire_temp] run attribute @e[limit=1,distance=..5,tag=haywire_golem] generic.follow_range base set 16.0
 #
-# Reset follow range
-execute at @p[tag=rewire_temp] run attribute @e[limit=1,distance=..5,tag=haywire_golem] generic.follow_range base set 16.0
+# Remove haywire_golem tag.
+execute at @a[tag=rewire_temp] run tag @e[limit=1,distance=..5,tag=haywire_golem] remove haywire_golem
 #
-# Remove haywire_golem tag
-execute at @p[tag=rewire_temp] run tag @e[limit=1,distance=..5,tag=haywire_golem] remove haywire_golem
+# Revoke advancement for future use.
+advancement revoke @a[tag=rewire_temp] only atrium:triggers/treasure/rewire_tool
 #
-advancement revoke @p[tag=rewire_temp] only atrium:triggers/treasure/rewire_tool
-#
-# Remove temp tag
-tag @p[tag=rewire_temp] remove rewire_temp
-#test
-say rewiring golem 2...
+# Remove temp tag.
+tag @a[tag=rewire_temp] remove rewire_temp
