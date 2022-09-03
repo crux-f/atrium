@@ -52,3 +52,5 @@ scoreboard objectives add concentration dummy
 team add necromancer 
 team add occupied
 team add armada
+# Special Abilities
+scoreboard objectives add hiding dummy

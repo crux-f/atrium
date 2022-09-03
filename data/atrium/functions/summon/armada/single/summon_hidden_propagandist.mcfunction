@@ -1,2 +1,2 @@
 # Summon 1 Disguised Propagandist 
-summon villager ~ ~ ~ {PersistenceRequired:1b,Health:45f,Tags:["armada_disguised","hidden_propagandist"],Attributes:[{Name:"generic.max_health",Base:45}],VillagerData:{level:1},Gossips:[{Type:"minor_negative",Value:30,Target:[I;110787060,1156138790,-1514210135,238594805]}]}
+summon villager ~ ~ ~ {Team:"armada",PersistenceRequired:1b,Health:45f,Tags:["armada_disguised","hidden_propagandist"],Attributes:[{Name:"generic.max_health",Base:45}],VillagerData:{level:1},Gossips:[{Type:"minor_negative",Value:30,Target:[I;110787060,1156138790,-1514210135,238594805]}]}
