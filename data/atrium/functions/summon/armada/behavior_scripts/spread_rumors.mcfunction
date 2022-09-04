@@ -34,5 +34,3 @@ execute at @s[tag=hidden_propagandist,scores={charge=25..}] if predicate atrium:
 execute at @s[tag=hidden_propagandist,scores={charge=25..}] if predicate atrium:percentage_chances/0.30_p run function atrium:summon/armada/single/summon_hidden_secret_police
 # Add 1 to the charge level of the agent
 scoreboard players add @s charge 1
-# test
-say spreading rumors...
