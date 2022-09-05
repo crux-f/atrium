@@ -13,7 +13,6 @@
     }
   },
   "rewards": {
-    "function": "atrium:patreon/nightmares",
-    "experience": 20
+    "function": "atrium:patreon/nightmare_begins"
   }
 }
