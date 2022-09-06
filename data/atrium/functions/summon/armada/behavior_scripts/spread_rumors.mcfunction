@@ -30,7 +30,7 @@ execute at @s[tag=hidden_propagandist,scores={charge=13..24}] if predicate atriu
 # If their score is 25.., generate a negative rumor of 90 about every player.
 execute if entity @s[scores={charge=25..}] run data merge entity @s {Gossips:[{Type:"minor_negative",Value:90,Target:[I;110787060,1156138790,-1514210135,238594805]}]}
 execute as @a run data modify entity @s[tag=hidden_propagandist,scores={charge=25..}] Gossips[0].Target set from entity @s UUID
-execute at @s[tag=hidden_propagandist,scores={charge=25..}] if predicate atrium:percentage_chances/0.20_p run function atrium:summon/armada/single/summon_sleeper_agent
+execute at @s[tag=hidden_propagandist,scores={charge=25..}] if predicate atrium:percentage_chances/0.20_p run function atrium:summon/armada/single/summon_hidden_sleeper_agent
 execute at @s[tag=hidden_propagandist,scores={charge=25..}] if predicate atrium:percentage_chances/0.30_p run function atrium:summon/armada/single/summon_hidden_secret_police
 # Add 1 to the charge level of the agent
 scoreboard players add @s charge 1
