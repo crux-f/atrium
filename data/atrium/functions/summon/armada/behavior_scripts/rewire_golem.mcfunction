@@ -18,5 +18,3 @@ data modify entity @e[limit=1,distance=..70,sort=random,tag=going_haywire] Angry
 # Remove temp tags
 tag @e[limit=1,distance=..70,sort=random,tag=going_haywire] remove going_haywire
 tag @p[distance=..70,sort=random,tag=haywire_target] remove haywire_target
-# test
-say going haywire...
