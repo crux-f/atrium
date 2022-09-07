@@ -1,0 +1,38 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:deepslate"
+      },
+      "title": "Even Deeper Dark",
+      "description": "Tumble into The Depths",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "atrium:depths/depths_root",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:fall_from_height",
+        "conditions": {
+          "player": [],
+          "start_position": {
+            "position": {
+              "y": {
+                "min": 1030,
+                "max": 1056
+              }
+            },
+            "dimension": "atrium:depths"
+          },
+          "distance": {
+            "y": {
+                "min": 100,
+                "max": 1056
+            }
+          }
+        }
+      }
+    }
+  }
+  
