@@ -1,0 +1,41 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:lime_stained_glass",
+        "nbt": "{Enchantments:[{lvl:1s,id:\"minecraft:channeling\"}]}"
+      },
+      "title": "Lost Love Story",
+      "description": "Use a Core Pickaxe to acquire Vibrant Crystal",
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "atrium:meridian/meridian_root",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "mainhand": {
+                    "nbt": "{core_pickaxe:1b}"
+                  }
+                }
+              }
+            }
+          ],
+          "items": [
+            {
+              "nbt": "{vibrant_crystal:1b}"
+            }
+          ]
+        }
+      }
+    }
+  }
+  
