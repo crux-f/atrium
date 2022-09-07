@@ -5,5 +5,3 @@ data merge entity @s {AngerTime:0,Attributes:[{Name:"generic.follow_range", Base
 #
 # Remove haywire_golem tag
 tag @s remove haywire_golem
-#test
-say resetting golems...

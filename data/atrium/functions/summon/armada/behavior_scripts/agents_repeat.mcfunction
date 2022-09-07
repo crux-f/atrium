@@ -25,4 +25,4 @@ scoreboard players add @e[tag=armada_revealed,predicate=!atrium:mobs/targeting_p
 execute at @e[tag=armada_revealed,predicate=!atrium:mobs/targeting_player] run particle minecraft:smoke ~ ~0.25 ~ 0.5 1 0.5 0 1
 #
 # If any of them had long enough to hide (30 seconds), run the hide script 
-execute if entity @e[tag=armada_revealed,scores={hiding=600..}] run function atrium:summon/armada/behavior_scripts/agents_hide/agents_hide
+execute if entity @e[tag=armada_revealed,scores={hiding=600}] run function atrium:summon/armada/behavior_scripts/agents_hide/agents_hide
