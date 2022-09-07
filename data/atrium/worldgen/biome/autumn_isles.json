@@ -43,7 +43,9 @@
       "minecraft:lake_lava_underground"
     ],
     [
-      "minecraft:forest_rock"
+      "minecraft:forest_rock",
+      "atrium:meridian_geode"
+
     ],
     [
       "minecraft:monster_room",
