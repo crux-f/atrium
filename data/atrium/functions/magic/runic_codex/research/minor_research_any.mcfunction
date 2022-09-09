@@ -16,7 +16,8 @@ execute if entity @e[distance=..10,tag=runic_codex,scores={codex=6}] if predicat
 # Give formula if tag was removed
 execute if entity @s[tag=!researching] run loot give @s loot atrium:treasure/any_research_minor
 # Remove the item they were researching
-item modify entity @s weapon.mainhand atrium:decrease_count_by_1
+execute as @s run function atrium:magic/runic_codex/research/remove_researched_item
+#
 # if the tag is still there, and you aren't insignificant give the minor research notes instead
 execute if entity @s[tag=researching,tag=!insignificant] run give @s paper{display:{Name:'{"text":"Research Notes","italic":false}',Lore:['{"text":"Personal","color":"green","italic":false}','{"text":"Vague","color":"gray","italic":true}','{"text":" "}','{"text":"You\'ve had the impression"}','{"text":"of an idea."}','{"text":" "}','{"text":"When in Runic Codex:","color":"gray","italic":false}','{"text":"+10% Formula Chance","color":"blue","italic":false}']},research_notes:1b,personal:1b,relevance:1b} 1
 #

@@ -55,5 +55,5 @@ execute positioned ~ ~2 ~-3 if entity @e[type=minecraft:item_frame,distance=..1.
 #
 # RESEARCH - commenting out until i can find a solution because goddamn PAPER crashes when reducing item count to 0 this way
 # Start Research - Check NORTH WEST for Book
-# execute positioned ~-2 ~2 ~-2 at @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{id:"minecraft:book",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
-# execute positioned ~-2 ~2 ~-2 if entity @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{id:"minecraft:book",Count:1b}}] run execute as @e[tag=runic_codex,distance=..10] at @s run function atrium:magic/runic_codex/research_formula
+execute positioned ~-2 ~2 ~-2 at @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{id:"minecraft:book",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~-2 ~2 ~-2 if entity @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{id:"minecraft:book",Count:1b}}] run execute as @e[tag=runic_codex,distance=..10] at @s run function atrium:magic/runic_codex/research_formula
