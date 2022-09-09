@@ -11,7 +11,7 @@ execute if entity @p[distance=..15,level=15..] run scoreboard players add @s inf
 #
 execute if entity @s[scores={infusion=2..}] at @s run summon item ~ ~3 ~ {NoGravity:1b,Glowing:1b,Item:{id:"minecraft:experience_bottle",Count:45b}}
 execute if entity @s[scores={infusion=2..}] at @s run function atrium:magic/infusion/infusion_reset
-execute if entity @s[scores={infusion=2..}] at @s run advancement grant @a[distance=..15] only atrium:some_assembly_required
+execute if entity @s[scores={infusion=2..}] at @s run advancement grant @a[distance=..15] only atrium:magic/some_assembly_required
 #
 # If you don't have enough XP, tell them it needed something else.
 execute at @p[distance=..15,level=..14] run function atrium:misc/text/but_it_needed_something_else

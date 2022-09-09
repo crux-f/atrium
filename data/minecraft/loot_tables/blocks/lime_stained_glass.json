@@ -25,15 +25,12 @@
         },
         {
           "condition": "minecraft:inverted",
-          "term": {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "location": {
-                "biome": "atrium:shards"
-              }
-            }
-          }
+          "term": 	{
+			  "condition": "minecraft:location_check",
+			  "predicate": {
+				"dimension": "atrium:meridian"
+			  }
+		   }
         }
       ]
     },
@@ -50,14 +47,11 @@
               }
             },
             {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "location": {
-                  "biome": "atrium:shards"
-                }
-              }
-            }
+			  "condition": "minecraft:location_check",
+			  "predicate": {
+				"dimension": "atrium:meridian"
+			  }
+			}
           ],
           "weight": 1,
           "name": "minecraft:lime_stained_glass",
