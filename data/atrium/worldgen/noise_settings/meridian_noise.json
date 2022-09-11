@@ -1077,7 +1077,7 @@
                             "if_true": {
                               "type": "minecraft:biome",
                               "biome_is": [
-                                "minecraft:desert"
+                                "atrium:sand_isles"
                               ]
                             },
                             "then_run": {
@@ -1853,7 +1853,7 @@
                             "if_true": {
                               "type": "minecraft:biome",
                               "biome_is": [
-                                "minecraft:desert"
+                                "atrium:sand_isles"
                               ]
                             },
                             "then_run": {
@@ -2088,7 +2088,7 @@
                   "if_true": {
                     "type": "minecraft:biome",
                     "biome_is": [
-                      "minecraft:desert"
+                      "atrium:sand_isles"
                     ]
                   },
                   "then_run": {
