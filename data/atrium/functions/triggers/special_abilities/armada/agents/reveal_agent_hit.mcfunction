@@ -17,3 +17,6 @@ execute at @s if entity @e[distance=..10,scores={event_misc=3..},type=!player] a
 execute at @s if entity @e[distance=..10,scores={event_misc=3..},type=!player] as @e[tag=hidden_secret_police,distance=..10] run team join armada @s
 # Remove 'Disguised' villagers
 execute at @s if entity @e[distance=..10,scores={event_misc=3..},type=!player] run tp @e[distance=..10,tag=armada_disguised] ~ ~-400 ~
+#
+# Music!
+execute as @s at @s run function atrium:music/loops/inquisitor_start

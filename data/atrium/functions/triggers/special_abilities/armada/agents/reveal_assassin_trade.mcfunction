@@ -17,3 +17,6 @@ execute at @s run tp @e[distance=..10,tag=armada_disguised] ~ ~-400 ~
 #
 # Remove the unnecessary item
 clear @s paper{suspicious_villager:1b}
+#
+# Music!
+execute as @s at @s run function atrium:music/loops/inquisitor_start

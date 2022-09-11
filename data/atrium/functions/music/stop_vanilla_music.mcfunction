@@ -17,4 +17,5 @@ stopsound @a[tag=apatheticdisplay] music
 stopsound @a[tag=cutscene] music
 stopsound @a[tag=adecayinghope] music
 stopsound @a[tag=maycoesbattle] music
+stopsound @a[tag=inquisitor] music
 schedule function atrium:music/stop_vanilla_music 1s
