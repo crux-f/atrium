@@ -41,11 +41,11 @@
     [],
     [],
     [
-      "minecraft:amethyst_geode"
+      "minecraft:amethyst_geode",
+      "minecraft:large_dripstone"
     ],
     [
-      "minecraft:monster_room",
-      "minecraft:monster_room_deep"    
+      "minecraft:monster_room"
     ],
     [],
     [],

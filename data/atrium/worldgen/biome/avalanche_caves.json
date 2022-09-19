@@ -44,8 +44,7 @@
       "minecraft:large_dripstone"
     ],
     [
-      "minecraft:monster_room",
-      "minecraft:monster_room_deep"
+      "minecraft:monster_room"
     ],
     [],
     [],
@@ -83,8 +82,8 @@
       {
         "type": "minecraft:spider",
         "weight": 35,
-        "minCount": 3,
-        "maxCount": 6
+        "minCount": 2,
+        "maxCount": 4
       },
       {
         "type": "minecraft:creeper",
@@ -93,10 +92,16 @@
         "maxCount": 2
       },
       {
+        "type": "minecraft:skeleton",
+        "weight": 40,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
         "type": "minecraft:enderman",
-        "weight": 50,
-        "minCount": 2,
-        "maxCount": 4
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 2
       }
     ],
     "creature": [],
@@ -104,8 +109,8 @@
       {
         "type": "minecraft:bat",
         "weight": 10,
-        "minCount": 3,
-        "maxCount": 8
+        "minCount": 1,
+        "maxCount": 3
       }
     ],
     "water_creature": [],

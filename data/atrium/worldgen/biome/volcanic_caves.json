@@ -43,11 +43,11 @@
       "minecraft:lake_lava_underground"
     ],
     [
-      "minecraft:amethyst_geode"
+      "minecraft:amethyst_geode",
+      "minecraft:large_dripstone"
     ],
     [
-      "minecraft:monster_room",
-      "minecraft:monster_room_deep"    
+      "minecraft:monster_room" 
     ],
     [
       "minecraft:delta",
@@ -87,10 +87,16 @@
     "monster": [
       {
         "type": "minecraft:blaze",
-        "weight": 50,
-        "minCount": 0,
+        "weight": 1,
+        "minCount": 1,
         "maxCount": 1
-      }    
+      },
+      {
+        "type": "minecraft:slime",
+        "weight": 40,
+        "minCount": 1,
+        "maxCount": 3
+      }
     ],
     "ambient": [],
     "water_creature": [],

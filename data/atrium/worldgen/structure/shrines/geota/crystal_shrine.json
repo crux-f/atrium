@@ -5,13 +5,19 @@
     "atrium:avalanche_caves",
     "atrium:crawling_caves"
   ],
-  "step": "surface_structures",
+  "step": "underground_structures",
   "spawn_overrides": {},
   "terrain_adaptation": "beard_box",
   "start_pool": "atrium:shrines/geota/crystal_shrine_variations",
   "size": 1,
   "start_height": {
-    "absolute": 20
+    "type": "minecraft:uniform",
+    "min_inclusive": {
+      "above_bottom": 10
+    },
+    "max_inclusive": {
+      "below_top": 75
+    }
   },
   "max_distance_from_center": 80,
   "use_expansion_hack": false
