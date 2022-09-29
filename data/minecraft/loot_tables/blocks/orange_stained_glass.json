@@ -26,22 +26,9 @@
         {
           "condition": "minecraft:inverted",
           "term": {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
+            "condition": "minecraft:location_check",
             "predicate": {
-              "location": {
-                "position": {
-                  "x": {
-                    "min": 8821,
-                    "max": 9187
-                  },
-                  "z": {
-                    "min": -17087,
-                    "max": -16649
-                  }
-                },
-                "biome": "minecraft:mountains"
-              }
+              "structure": "atrium:misc/hell_geode"
             }
           }
         }
@@ -60,22 +47,9 @@
               }
             },
             {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
+              "condition": "minecraft:location_check",
               "predicate": {
-                "location": {
-                  "position": {
-                    "x": {
-                      "min": 8821,
-                      "max": 9187
-                    },
-                    "z": {
-                      "min": -17087,
-                      "max": -16649
-                    }
-                  },
-                  "biome": "minecraft:mountains"
-                }
+                "structure": "atrium:misc/hell_geode"
               }
             }
           ],
@@ -96,7 +70,7 @@
                 {
                   "text": "Rumbling Crystal",
                   "color": "gold",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             },
