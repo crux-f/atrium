@@ -13,7 +13,7 @@ execute at @a[gamemode=spectator] anchored eyes run particle minecraft:soul ~ ~ 
 # execute at @a[nbt={Inventory:[{Slot:-106b,tag:{friendship_bracelet:1b}}]},limit=1] if entity @a[distance=3..,nbt={Inventory:[{Slot:-106b,tag:{friendship_bracelet:1b}}]}] run effect give @a[nbt={Inventory:[{Slot:-106b,tag:{friendship_bracelet:1b}}]},limit=2] minecraft:health_boost 3 0 true
 #
 # Resurrection
-# execute if entity @a[gamemode=spectator] as @a[gamemode=spectator] at @s if block ~ ~ ~ minecraft:respawn_anchor unless block ~ ~ ~ minecraft:respawn_anchor[charges=0] run function atrium:triggers/atrium_gameplay/haunt_respawn_anchor
+execute if entity @a[gamemode=spectator] as @a[gamemode=spectator] at @s if block ~ ~ ~ minecraft:respawn_anchor unless block ~ ~ ~ minecraft:respawn_anchor[charges=0] run function atrium:triggers/atrium_gameplay/haunt_respawn_anchor
 # PATREON
 execute as @a[name="shadow_knight6",gamemode=!spectator,nbt={Inventory:[{Slot:103b,tag:{shadow_knight6_item:1b}}]}] at @s anchored eyes run particle minecraft:smoke ^ ^-0.5 ^-0.3 0.25 0.45 0.25 0 8
 # execute unless entity @a[tag=domainview] run scoreboard objectives setdisplay sidebar.team.white
