@@ -1,0 +1,35 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:item_used_on_block",
+        "conditions": {
+          "item": {
+            "items": [
+              "minecraft:ender_eye"
+            ],
+            "nbt": "{urrdengrod_archive_keystone:1b}"
+          },
+          "location": {
+            "position": {
+              "x": {
+                "min": 34984,
+                "max": 34999
+              },
+              "y": {
+                "min": 110,
+                "max": 133
+              },
+              "z": {
+                "min": -4728,
+                "max": -4714
+              }
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "atrium:events/quest_events/iteration3/snowfall_5/tech/urrdengrod_archive_key"
+    }
+  }
+  
