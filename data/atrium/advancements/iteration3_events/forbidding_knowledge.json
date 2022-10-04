@@ -1,20 +1,20 @@
 {
-    "__comment": "The fourth event of Atrium: Snowfall. 09/03/2022.",
+    "__comment": "The fifth event of Atrium: Snowfall. 10/08/2022.",
     "display": {
         "title": {
-            "text": "Always A Bigger Fish",
-            "color": "white",
+            "text": "Forbidding Knowledge",
+            "color": "aqua",
             "bold": false
         },
         "description": {
-            "text": "Snowfall IV - September 3rd, 2022",
+            "text": "Snowfall V - October 8th, 2022",
             "color": "green",
             "italic": true
         },
         "icon": {
-            "item": "minecraft:cod"
+            "item": "minecraft:written_book"
         },
-        "frame": "task",
+        "frame": "goal",
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": true
@@ -25,8 +25,8 @@
         }
     },
         "rewards": {
-		"experience": 100,
+		"experience": 250,
 	    "function": "atrium:triggers/events/snowfall_series_grant"
 	},
-        "parent": "atrium:iteration3_events/beneath_the_ice"
+        "parent": "atrium:iteration3_events/always_a_bigger_fish"
 }
