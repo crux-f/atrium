@@ -49,7 +49,6 @@ scoreboard objectives add raider_slayer dummy
 scoreboard objectives add backstabbing dummy
 scoreboard objectives add concentration dummy
 # Mob Teams
-team add necromancer 
 team add occupied
 team add armada
 # Special Abilities
