@@ -1,12 +1,10 @@
 # particles and sound for the diamond turning to ash
 execute anchored eyes run particle minecraft:ash ^-0.2 ^ ^0.25 0 0 0 0.1 20
 particle minecraft:ash ~ ~1 ~ 0.5 0.5 0.5 0 100
-playsound minecraft:item.totem.use master @a[distance=..30] ~ ~ ~ 0.5 2 0.1
-# tag with free_res if they are using a totem
-tag @s[nbt={SelectedItem:{id:"minecraft:totem_of_undying"}}] add free_res
+playsound minecraft:entity.zombie_villager.cure master @a[distance=..30] ~ ~ ~ 0.5 1 0.1
+#
 # disappear 1 res item from resurrector's inventory
-clear @s[nbt={SelectedItem:{id:"minecraft:diamond"}}] minecraft:diamond 1
-clear @s[nbt={SelectedItem:{id:"minecraft:totem_of_undying"}}] minecraft:totem_of_undying 1
+clear @s[nbt={SelectedItem:{id:"minecraft:golden_apple"}}] minecraft:golden_apple 1
 # tag the nearest player in spectator mode to the Resurrector as the Resurrectee
 tag @p[gamemode=spectator,distance=..10] add resurrectee
 # IF there is a Resurrector and a Resurrectee, start the repeat function

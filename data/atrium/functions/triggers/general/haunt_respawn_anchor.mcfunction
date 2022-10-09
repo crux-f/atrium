@@ -20,3 +20,6 @@ execute at @s run playsound minecraft:block.respawn_anchor.deplete player @a[dis
 #
 # Make the respawn less awkward
 tp @s ~ ~0.5 ~
+#
+# Advancement (+60 Entropy)
+execute if entity @s[scores={entropy=60..}] run advancement grant @s only atrium:belief/ive_come_to_bargain
