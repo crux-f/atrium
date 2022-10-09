@@ -1,8 +1,8 @@
 # Live!
 gamemode survival @s
 #
-# Remove XP
-xp add @s -1 levels
+# 5 level xp penalty for resurrecting this way
+xp add @s -5 levels
 #
 execute at @s positioned ~ ~ ~ if block ~ ~ ~ minecraft:respawn_anchor[charges=1] run setblock ~ ~ ~ minecraft:respawn_anchor[charges=0]
 #
