@@ -20,38 +20,8 @@
   },
   "parent": "atrium:severedreach_s_vista",
   "criteria": {
-    "all_sunsetarchipelago_vistas": {
-      "trigger": "minecraft:tick",
-      "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "type_specific": {
-                "type": "player",
-                "advancements": {
-                  "atrium:emberpeakisle_vista": true,
-                  "atrium:tigabaanwilds_vista": true,
-                  "atrium:kjoltbreen_vista": true,
-                  "atrium:paintedbarrens_vista": true,
-                  "atrium:abrasar_vista": true,
-                  "atrium:wanderingprairie_vista": true,
-                  "atrium:aberrantsheet_vista": true,
-                  "atrium:severedreach_s_vista": true,
-                  "atrium:infernalwastes_vista": true,
-                  "atrium:infidelstrail_vista": true,
-                  "atrium:oasisofsouls_vista": true,
-                  "atrium:moldingplains_vista": true,
-                  "atrium:agaricruins_vista": true,
-                  "atrium:silentthicket_vista": true,
-                  "atrium:dancingshards_vista": true
-                }
-              }
-            }
-          }
-        ]
-      }
+    "granted": {
+        "trigger": "minecraft:impossible"
     }
-  }
+}
 }
