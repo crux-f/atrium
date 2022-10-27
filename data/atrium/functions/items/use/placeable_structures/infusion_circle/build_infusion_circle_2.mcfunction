@@ -1,0 +1,32 @@
+# Sfx!
+playsound minecraft:entity.item_frame.place block @a[distance=..15] ~ ~ ~ 0.5 0.1 0.1
+#
+# CENTER NORTH
+execute positioned ~ ~ ~-2 run summon glow_item_frame ~ ~ ~ {Facing:1b,Invisible:1b,Tags:["atrium_crafting_slot"],Item:{}}
+execute positioned ~ ~ ~-2 run particle minecraft:portal ~ ~ ~ 0.1 0.5 0.1 0.1 15
+# CENTER EAST
+execute positioned ~2 ~ ~ run summon glow_item_frame ~ ~ ~ {Facing:1b,Invisible:1b,Tags:["atrium_crafting_slot"],Item:{}}
+execute positioned ~2 ~ ~ run particle minecraft:portal ~ ~ ~ 0.1 0.5 0.1 0.1 15
+# CENTER SOUTH
+execute positioned ~ ~ ~2 run summon glow_item_frame ~ ~ ~ {Facing:1b,Invisible:1b,Tags:["atrium_crafting_slot"],Item:{}}
+execute positioned ~ ~ ~2 run particle minecraft:portal ~ ~ ~ 0.1 0.5 0.1 0.1 15
+# CENTER WEST
+execute positioned ~-2 ~ ~ run summon glow_item_frame ~ ~ ~ {Facing:1b,Invisible:1b,Tags:["atrium_crafting_slot"],Item:{}}
+execute positioned ~-2 ~ ~ run particle minecraft:portal ~ ~ ~ 0.1 0.5 0.1 0.1 15
+#
+# Run the next part
+function atrium:items/use/placeable_structures/infusion_circle/build_infusion_circle_3
+#
+# More Stone thing
+execute positioned ~ ~ ~-8 run playsound minecraft:block.stone.place block @a[distance=..5] ~ ~ ~ 0.5 1 0.1
+#
+setblock ~ ~1 ~-6 minecraft:stone_button[facing=south]
+setblock ~ ~1 ~-7 minecraft:chiseled_stone_bricks
+setblock ~ ~1 ~-8 command_block[conditional=false,facing=south]{Command:"/function atrium:formula_crafting/infusion/activate_infusion_circle",auto:0b,CustomName:'{"text":"Infusion Circle","color":"yellow","italic":false}'} replace
+setblock ~ ~1 ~-9 minecraft:stone
+setblock ~-1 ~1 ~-7 minecraft:stone
+setblock ~-1 ~1 ~-8 minecraft:stone
+setblock ~1 ~1 ~-7 minecraft:stone
+setblock ~1 ~1 ~-8 minecraft:stone
+setblock ~-2 ~1 ~8 minecraft:stone
+setblock ~2 ~1 ~8 minecraft:stone

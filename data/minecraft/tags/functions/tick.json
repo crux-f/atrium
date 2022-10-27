@@ -1,5 +1,5 @@
 {
  "values": [
- "atrium:random_tick"
+ "atrium:check_each_tick"
  ]
 }

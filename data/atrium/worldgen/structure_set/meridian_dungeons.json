@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "atrium:dungeons/sanctum",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 333,
+    "spacing": 10,
+    "separation": 8,
+    "type": "minecraft:random_spread"
+  }
+}

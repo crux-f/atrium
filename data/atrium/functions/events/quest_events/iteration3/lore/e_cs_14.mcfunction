@@ -1,5 +1,0 @@
-# Line
-execute at Esthyr run tellraw @a[name=!"Esthyr",tag=event] ["",{"text":"[","color":"gray"},{"text":"???","obfuscated":true,"color":"white"},{"text":"] ","color":"gray"},{"text":"E","color":"light_purple"},{"text":":","obfuscated":true,"color":"gray"},{"text":" I know you don't know me, but.","color":"gray"},{"text":".. ","obfuscated":true},{"text":"I think you'","color":"gray"},{"text":"ll ","obfuscated":true,"color":"white"},{"text":"be ok","color":"gray"},{"text":"ay","obfuscated":true,"color":"white"},{"text":". Chorus will know wha","color":"gray"},{"text":"t to do,","obfuscated":true,"color":"white"},{"text":" even if they won'","color":"gray"},{"text":"t s","obfuscated":true,"color":"white"},{"text":"ay it.","color":"gray"}]
-#
-# Run the next thing
-schedule function atrium:events/quest_events/iteration3/lore/e_cs_15 13s

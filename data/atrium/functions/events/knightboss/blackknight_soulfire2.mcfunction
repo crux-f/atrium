@@ -1,8 +1,0 @@
-data merge entity @e[type=wither_skeleton,limit=1,tag=blackknight] {ArmorItems:[{id:"minecraft:netherite_boots",Count:1b},{id:"minecraft:netherite_leggings",Count:1b},{id:"minecraft:netherite_chestplate",Count:1b},{id:"minecraft:netherite_helmet",Count:1b}],ArmorDropChances:[0.000F,0.000F,0.000F,0.000F]}
-execute at @e[tag=blackknight] run summon wither_skeleton ~ ~ ~ {PersistenceRequired:1b,CustomName:'{"text":"Hell Squire","color":"yellow"}',HandItems:[{id:"minecraft:stone_sword",Count:1b,tag:{Enchantments:[{id:"minecraft:sharpness",lvl:2s}]}},{}],HandDropChances:[0.000F,0.085F]}
-execute at @e[tag=blackknight] run summon wither_skeleton ~ ~ ~ {PersistenceRequired:1b,CustomName:'{"text":"Hell Squire","color":"yellow"}',HandItems:[{id:"minecraft:stone_sword",Count:1b,tag:{Enchantments:[{id:"minecraft:sharpness",lvl:2s}]}},{}],HandDropChances:[0.000F,0.085F]}
-execute at @e[tag=blackknight] run summon wither_skeleton ~ ~ ~ {PersistenceRequired:1b,CustomName:'{"text":"Hell Squire","color":"yellow"}',HandItems:[{id:"minecraft:stone_sword",Count:1b,tag:{Enchantments:[{id:"minecraft:sharpness",lvl:2s}]}},{}],HandDropChances:[0.000F,0.085F]}
-execute at @e[tag=blackknight] run summon wither_skeleton ~ ~ ~ {PersistenceRequired:1b,CustomName:'{"text":"Hell Squire","color":"yellow"}',HandItems:[{id:"minecraft:stone_sword",Count:1b,tag:{Enchantments:[{id:"minecraft:sharpness",lvl:2s}]}},{}],HandDropChances:[0.000F,0.085F]}
-execute at @e[tag=blackknight] run particle soul ~ ~ ~ 1 1 1 0.1 100 normal
-execute at @e[tag=blackknight] run playsound minecraft:entity.wither.ambient master @a[distance=..60] ~ ~ ~ 0.5 1.5 1
-schedule function atrium:events/knightboss/blackknight_mark1 10s

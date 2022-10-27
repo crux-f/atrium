@@ -1,1 +1,0 @@
-tellraw @a[tag=event] ["",{"text":"\u2714 Gather at the campsite in the Grimstone Mountains.","color":"dark_green"},{"text":"\n"},{"text":"\u2744 Advance into the northern valley until you reach the source of the ashen snowfall.","color":"aqua"}]

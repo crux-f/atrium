@@ -1,5 +1,5 @@
 {
-	"type": "atrium:between_worlds_type",
+	"type": "atrium:between_worlds",
 	"generator": {
 		"type": "minecraft:flat",
 		"settings": {

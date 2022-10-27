@@ -1,5 +1,0 @@
-effect give @e[tag=blackknight] slowness 10 20
-data merge entity @e[type=wither_skeleton,limit=1,tag=blackknight] {ArmorItems:[{id:"minecraft:netherite_boots",Count:1b,tag:{Enchantments:[{id:"minecraft:thorns",lvl:3s}]}},{id:"minecraft:netherite_leggings",Count:1b,tag:{Enchantments:[{id:"minecraft:thorns",lvl:1s}]}},{id:"minecraft:netherite_chestplate",Count:1b,tag:{Enchantments:[{id:"minecraft:thorns",lvl:3s}]}},{id:"minecraft:netherite_helmet",Count:1b,tag:{Enchantments:[{id:"minecraft:thorns",lvl:3s}]}}],ArmorDropChances:[0.000F,0.000F,0.000F,0.000F]}
-execute at @e[tag=blackknight] run summon area_effect_cloud ~ ~ ~ {Particle:"soul_fire_flame",CustomNameVisible:0b,Radius:3f,Duration:200,DurationOnUse:0.05f,Potion:"minecraft:empty",Effects:[{Id:7b,Amplifier:-1b,Duration:1,ShowParticles:0b}],CustomName:'{"text":"Soulfire","color":"aqua"}'}
-execute at @e[tag=blackknight] run playsound minecraft:entity.blaze.shoot master @a[distance=..60] ~ ~ ~ 0.5 0 1
-schedule function atrium:events/knightboss/blackknight_soulfire2 10s

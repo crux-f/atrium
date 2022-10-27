@@ -1,9 +1,0 @@
-[
-    {
-      "function": "minecraft:enchant_randomly",
-      "enchantments": [
-        "minecraft:lure"
-      ]
-    }
-  ]
-  

@@ -1,2 +1,0 @@
-give @s chest{display:{Name:'{"text":"Academy Chest","color":"dark_blue","italic":false}',Lore:['{"text":"Unlocked using an Academy Key."}']},BlockEntityTag:{Lock:"§3Academy Key",LootTable:"atrium:treasure/special/locked_academy_chest"}} 1
-give @s tripwire_hook{display:{Name:'{"text":"§3Academy Key"}',Lore:['{"text":"The cold has seeped into"}','{"text":"it, but it seems undamaged."}']},academy_key:1b} 1

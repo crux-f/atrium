@@ -1,8 +1,0 @@
-# Summon 1 Disguised Sleeper Agent
-execute if predicate atrium:biome_check/in_plains_villager_biomes run summon villager ~ ~ ~ {Team:"armada",Tags:["armada_disguised","hidden_sleeper_agent"],VillagerData:{profession:"minecraft:nitwit",type:"minecraft:plains"}}
-execute if predicate atrium:biome_check/in_jungle_villager_biomes run summon villager ~ ~ ~ {Team:"armada",Tags:["armada_disguised","hidden_sleeper_agent"],VillagerData:{profession:"minecraft:nitwit",type:"minecraft:jungle"}}
-execute if predicate atrium:biome_check/in_swamp_villager_biomes run summon villager ~ ~ ~ {Team:"armada",Tags:["armada_disguised","hidden_sleeper_agent"],VillagerData:{profession:"minecraft:nitwit",type:"minecraft:swamp"}}
-execute if predicate atrium:biome_check/in_snow_villager_biomes run summon villager ~ ~ ~ {Team:"armada",Tags:["armada_disguised","hidden_sleeper_agent"],VillagerData:{profession:"minecraft:nitwit",type:"minecraft:snow"}}
-execute if predicate atrium:biome_check/in_taiga_villager_biomes run summon villager ~ ~ ~ {Team:"armada",Tags:["armada_disguised","hidden_sleeper_agent"],VillagerData:{profession:"minecraft:nitwit",type:"minecraft:taiga"}}
-execute if predicate atrium:biome_check/in_savanna_villager_biomes run summon villager ~ ~ ~ {Team:"armada",Tags:["armada_disguised","hidden_sleeper_agent"],VillagerData:{profession:"minecraft:nitwit",type:"minecraft:savanna"}}
-execute if predicate atrium:biome_check/in_desert_villager_biomes run summon villager ~ ~ ~ {Team:"armada",Tags:["armada_disguised","hidden_sleeper_agent"],VillagerData:{profession:"minecraft:nitwit",type:"minecraft:desert"}}

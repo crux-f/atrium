@@ -1,8 +1,0 @@
-{
-    "condition": "minecraft:inverted",
-    "term": {
-      "condition": "minecraft:reference",
-      "name": "atrium:effects/if_any_effect"
-    }
-  }
-  

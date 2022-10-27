@@ -1,0 +1,18 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:placed_block",
+        "conditions": {
+          "player": [],
+          "block": "minecraft:player_head",
+          "item": {
+            "nbt": "{infusion_circle_placer:1b}"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "atrium:triggers/items/placeable_structures/place_infusion_circle_item"
+    }
+  }
+  

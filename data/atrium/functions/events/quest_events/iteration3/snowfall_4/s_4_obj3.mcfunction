@@ -1,1 +1,0 @@
-tellraw @a[tag=event] ["",{"text":"\u2714 Gather in Ecotone Township in the northern reaches of Fellstar Highlands.","color":"dark_green"},{"text":"\n"},{"text":"\u2714 Earn the trust of Ecotone Township. Again.","color":"dark_green"},{"text":"\n"},{"text":"\u261e Defend yourselves.","color":"red"}]

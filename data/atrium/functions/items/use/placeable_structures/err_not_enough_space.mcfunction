@@ -1,0 +1,2 @@
+# Error message for players placing structures in an area that is too small for it.
+tellraw @s {"text":"(This area is too small. The open space needed to place this structure is listed on the item- treating itself as the center of the area- with solid ground beneath it.)","italic":true,"color":"red"}

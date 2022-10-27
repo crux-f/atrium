@@ -18,7 +18,7 @@
     "announce_to_chat": true,
     "hidden": true
   },
-  "parent": "atrium:severedreach_s_vista",
+  "parent": "atrium:atrium_2021",
   "criteria": {
     "granted": {
         "trigger": "minecraft:impossible"

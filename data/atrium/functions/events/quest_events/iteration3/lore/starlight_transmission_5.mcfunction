@@ -1,2 +1,0 @@
-execute as @a[tag=event] run playsound minecraft:entity.shulker_bullet.hit master @s ~ ~ ~ 0.5 0.25 0.5
-execute as @a[tag=event] run tellraw @s ["",{"text":"*kzzhKK*\nEcho Post Ten Thirty-Six Telemetry on.\nAwaiting Updates...\nAwaiting...\nAwaiting...\nLamp Off, good to see you.\n*kzzhKK*","color":"dark_aqua"},{"text":"\n"},{"text":"(...You can't help but wonder what that was all about.)","italic":true,"color":"gray"}]

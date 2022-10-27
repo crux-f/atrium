@@ -1,1 +1,0 @@
-tellraw @a[tag=event] ["",{"text":"\u2714 Regroup in The Lost Coast.","color":"dark_green"},{"text":"\n"},{"text":"\u2714 Investigate the hand.","color":"dark_green"},{"text":"\n"},{"text":"\u2714 Create The Far Gate.","color":"light_purple"},{"text":"\n"},{"text":"\u2605 Continue The Journey.","color":"gold"}]

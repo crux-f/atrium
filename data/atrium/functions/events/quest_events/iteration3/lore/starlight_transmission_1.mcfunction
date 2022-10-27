@@ -1,2 +1,0 @@
-execute as @a[tag=event] run playsound minecraft:entity.shulker_bullet.hit master @s ~ ~ ~ 0.5 0.25 0.5
-execute as @a[tag=event] run tellraw @s ["",{"text":"(A sound emits from somewhere nearby, muffled by static and snow.)","italic":true,"color":"gray"},{"text":"\n"},{"text":"*kzzhKK*\n\"-amp On, good t- s-- you. Keeper satellite loca--- onli---. Synchroni--- off. Resyn---.\"\n*kzzhKK*","color":"dark_aqua"}]

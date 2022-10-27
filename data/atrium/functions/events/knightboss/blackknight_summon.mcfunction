@@ -1,5 +1,0 @@
-execute unless entity @e[tag=blackknight] run summon wither_skeleton ~ ~ ~ {CustomNameVisible:1b,PersistenceRequired:1b,Health:750f,Tags:["blackknight"],CustomName:'{"text":"The Black Knight","color":"#800000"}',HandItems:[{id:"minecraft:netherite_sword",Count:1b,tag:{Unbreakable:1b}},{}],HandDropChances:[0.000F],ArmorItems:[{id:"minecraft:netherite_boots",Count:1b,tag:{Unbreakable:1b}},{id:"minecraft:netherite_leggings",Count:1b,tag:{Unbreakable:1b}},{id:"minecraft:netherite_chestplate",Count:1b,tag:{Unbreakable:1b}},{id:"minecraft:netherite_helmet",Count:1b,tag:{Unbreakable:1b}}],ArmorDropChances:[0.000F,0.000F,0.000F,0.000F],Attributes:[{Name:generic.max_health,Base:750},{Name:generic.follow_range,Base:100},{Name:generic.knockback_resistance,Base:6},{Name:generic.attack_knockback,Base:2}]}
-function atrium:events/knightboss/blackknight_boss
-particle minecraft:flash ~ ~ ~ 1 1 1 1 50 normal
-function atrium:music/loops/apatheticdisplay
-schedule function atrium:events/knightboss/blackknight_jump 20s

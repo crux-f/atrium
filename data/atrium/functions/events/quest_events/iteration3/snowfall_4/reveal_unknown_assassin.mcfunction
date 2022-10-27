@@ -1,5 +1,0 @@
-# Reveal!
-summon pillager ~ ~ ~ {DeathLootTable:"atrium:event_rewards/snowfall4_drops",PersistenceRequired:1b,Health:65f,Team:"armada",Tags:["armada_assassin","armada_revealed"],CustomName:'{"text":"???","color":"red","italic":false}',HandItems:[{id:"minecraft:crossbow",Count:1b,tag:{display:{Name:'{"text":"Sharpshooter\'s Crossbow","color":"yellow","italic":false}'},sharpshooters_crossbow:1b,Enchantments:[{id:"minecraft:piercing",lvl:2s},{id:"minecraft:quick_charge",lvl:2s}],ChargedProjectiles:[{id:"minecraft:tipped_arrow",Count:1b,tag:{CustomPotionEffects:[{Id:15,Amplifier:0b,Duration:600,ShowParticles:1b},{Id:19,Amplifier:1b,Duration:320,ShowParticles:1b}],Potion:"minecraft:empty",CustomPotionColor:1658633}},{},{}],Charged:1b}},{}],Attributes:[{Name:"generic.max_health",Base:65},{Name:"generic.follow_range",Base:50},{Name:"generic.armor",Base:5},{Name:"generic.armor_toughness",Base:2}],ArmorDropChances:[1F,1F,1F,1F]}
-#
-# Advance quest
-function atrium:events/quest_events/iteration3/snowfall_4/s_4_obj3

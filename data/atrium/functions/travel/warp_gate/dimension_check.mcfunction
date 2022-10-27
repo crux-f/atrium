@@ -1,8 +1,0 @@
-# Warp Gates can only teleport you within the same dimension.
-execute if entity @s[predicate=atrium:in_overworld] positioned ~-5 ~5 ~ if entity @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{tag:{LodestoneDimension:"minecraft:overworld"}}}] as @s run function atrium:travel/warp_gate/xp_cost_check
-execute if entity @s[predicate=atrium:in_nether] positioned ~-5 ~5 ~ if entity @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{tag:{LodestoneDimension:"minecraft:the_nether"}}}] as @s run function atrium:travel/warp_gate/xp_cost_check
-execute if entity @s[predicate=atrium:in_end] positioned ~-5 ~5 ~ if entity @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{tag:{LodestoneDimension:"minecraft:the_end"}}}] as @s run function atrium:travel/warp_gate/xp_cost_check
-execute if entity @s[predicate=atrium:in_between_worlds] positioned ~-5 ~5 ~ if entity @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{tag:{LodestoneDimension:"atrium:between_worlds"}}}] as @s run function atrium:travel/warp_gate/xp_cost_check
-execute if entity @s[predicate=atrium:in_depths] positioned ~-5 ~5 ~ if entity @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{tag:{LodestoneDimension:"atrium:depths"}}}] as @s run function atrium:travel/warp_gate/xp_cost_check
-execute if entity @s[predicate=atrium:in_meridian] positioned ~-5 ~5 ~ if entity @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{tag:{LodestoneDimension:"atrium:meridian"}}}] as @s run function atrium:travel/warp_gate/xp_cost_check
-# execute if entity @s[predicate=atrium:in_abyss] positioned ~-5 ~5 ~ if entity @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{tag:{LodestoneDimension:"atrium:abyss"}}}] as @s run function atrium:travel/warp_gate/xp_cost_check

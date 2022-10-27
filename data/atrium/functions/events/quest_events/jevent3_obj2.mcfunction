@@ -1,2 +1,0 @@
-tellraw @a[tag=event] ["",{"text":"\u2714 Gather building supplies to prepare for the journey (Until 8:30).","color":"dark_green"},{"text":"\n"},{"text":"\u25c7 Begin your trek through The Hungering Marsh.","color":"yellow"},{"text":"\n"},{"text":" \u0020- Avoid the murky water; The swamp gas is toxic.","color":"red"},{"text":"\n"},{"text":" \u0020- Find a freshwater canal","color":"green"}]
-# schedule function atrium:events/quest_events/jevent1_obj2 1800s

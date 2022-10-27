@@ -1,0 +1,2 @@
+# Error message for players placing crafting stations too close to each other
+tellraw @s {"text":"(This is too close to another crafting station that uses formulas. Such stations cannot be within 15 blocks of each other.)","italic":true,"color":"red"}

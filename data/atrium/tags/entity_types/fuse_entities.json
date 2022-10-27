@@ -1,8 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    "minecraft:creeper",
-    "minecraft:tnt",
-    "minecraft:tnt_minecart"
-  ]
-}

@@ -1,1 +1,0 @@
-tellraw @a[tag=event] ["",{"text":"\u2714 Regroup in Far Shores.","color":"dark_green"},{"text":"\n"},{"text":"\u2714 Survive Far Shores.","color":"dark_green"},{"text":"\n"},{"text":"\u2714 Build some permanent shelter at world's edge.","color":"dark_green"},{"text":"\n"},{"text":"\u2605 Complete The Journey.","color":"gold"},{"text":"\n\n "}]
