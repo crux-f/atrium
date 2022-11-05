@@ -1,0 +1,69 @@
+{
+    "condition": "minecraft:alternative",
+    "terms": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "nbt": "{Inventory:[{id:\"minecraft:potion\",tag:{Potion:\"minecraft:leaping\"}}]}"
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "nbt": "{Inventory:[{id:\"minecraft:potion\",tag:{Potion:\"minecraft:strong_leaping\"}}]}"
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "nbt": "{Inventory:[{id:\"minecraft:potion\",tag:{Potion:\"minecraft:long_leaping\"}}]}"
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "nbt": "{Inventory:[{id:\"minecraft:splash_potion\",tag:{Potion:\"minecraft:leaping\"}}]}"
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "nbt": "{Inventory:[{id:\"minecraft:splash_potion\",tag:{Potion:\"minecraft:strong_leaping\"}}]}"
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "nbt": "{Inventory:[{id:\"minecraft:splash_potion\",tag:{Potion:\"minecraft:long_leaping\"}}]}"
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "nbt": "{Inventory:[{id:\"minecraft:lingering_potion\",tag:{Potion:\"minecraft:leaping\"}}]}"
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "nbt": "{Inventory:[{id:\"minecraft:lingering_potion\",tag:{Potion:\"minecraft:strong_leaping\"}}]}"
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "nbt": "{Inventory:[{id:\"minecraft:lingering_potion\",tag:{Potion:\"minecraft:long_leaping\"}}]}"
+        }
+      }
+    ]
+  }
+  

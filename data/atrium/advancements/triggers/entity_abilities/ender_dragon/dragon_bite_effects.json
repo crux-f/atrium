@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "dealt": {
+            "min": 6,
+            "max": 10
+          },
+          "source_entity": {
+            "type": "minecraft:ender_dragon"
+          },
+          "type": {
+            "is_magic": false
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "atrium:triggers/entity_abilities/ender_dragon/dragon_bite_effects"
+  }
+}

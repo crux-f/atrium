@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:water",
+        "item": {
+          "items": [
+            "minecraft:water_bucket"
+          ]
+        },
+        "location": {
+          "biome": "minecraft:the_end",
+          "dimension": "minecraft:the_end"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "atrium:triggers/entity_abilities/ender_dragon/phase_switch/enraged_charge"
+  }
+}

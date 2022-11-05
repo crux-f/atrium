@@ -14,3 +14,17 @@ scoreboard objectives add entropy dummy
 #
 # charge is used for any items that can charge up to use a special ability
 scoreboard objectives add charge dummy {"text":"Charge Level","color":"green"}
+#
+# Misc - - - 
+# same_tick_math is used for any math that will be finished in a single tick (therefor ensuring it never conflicts with anything else, unless you mess it up)
+scoreboard objectives add same_tick_math dummy
+#
+# TEAMS
+#
+# Mob Only - - -
+team add atrium_glow_aqua {"text":"Glow Aqua","color":"aqua"}
+team modify atrium_glow_aqua color aqua
+team add atrium_glow_black {"text":"Glow Black","color":"black"}
+team modify atrium_glow_black color black
+team add atrium_glow_blue {"text":"Glow Blue","color":"blue"}
+team modify atrium_glow_blue color blue

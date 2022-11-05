@@ -1,0 +1,24 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:entity_hurt_player",
+        "conditions": {
+          "damage": {
+            "dealt": {
+              "min": 3
+            },
+            "source_entity": {
+              "type": "minecraft:ender_dragon"
+            },
+            "type": {
+              "is_magic": true
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "atrium:triggers/entity_abilities/ender_dragon/suffer_dragons_breath"
+    }
+  }
+  
