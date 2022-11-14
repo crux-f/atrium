@@ -38,7 +38,7 @@
                 {
                   "text": "Hunting Trophy",
                   "color": "yellow",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             },

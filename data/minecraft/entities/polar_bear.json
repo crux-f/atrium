@@ -86,7 +86,7 @@
           "type": "loot_table",
           "weight": 20,
           "quality": 3,
-          "name": "atrium:entity_drops/vanilla_drop_additions/polar_bear",
+          "name": "atrium:entities/vanilla_drop_additions/polar_bear",
           "functions": [
             {
               "function": "set_count",

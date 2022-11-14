@@ -24,7 +24,7 @@
                 {
                   "text": "Hunting Trophy",
                   "color": "yellow",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             },
@@ -34,7 +34,7 @@
                 {
                   "text": "Husk",
                   "color": "red",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             }
@@ -82,7 +82,7 @@
                 {
                   "text": "Corrupted Heart",
                   "color": "dark_red",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             },

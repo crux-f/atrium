@@ -28,6 +28,11 @@
       "entries": [
         {
           "type": "minecraft:item",
+          "conditions": [
+            {
+              "condition": "minecraft:killed_by_player"
+            }
+          ],
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -47,7 +52,7 @@
           "type": "loot_table",
           "weight": 20,
           "quality": 3,
-          "name": "atrium:entity_drops/vanilla_drop_additions/iron_golem",
+          "name": "atrium:entities/vanilla_drop_additions/iron_golem",
           "functions": [
             {
               "function": "set_count",

@@ -33,7 +33,7 @@
                 {
                   "text": "Hunting Trophy",
                   "color": "gold",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             },
@@ -43,7 +43,7 @@
                 {
                   "text": "Wither",
                   "color": "black",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             }

@@ -33,7 +33,7 @@
                 {
                   "text": "Hunting Trophy",
                   "color": "yellow",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             },
@@ -43,7 +43,7 @@
                 {
                   "text": "Bee",
                   "color": "yellow",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             }

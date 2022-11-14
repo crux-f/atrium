@@ -16,7 +16,7 @@
 							"entity": "killer",
 							"predicate": {
 								"location": {
-									"dimension": "atrium:meridian"
+									"dimension": "atrium:the_meridian"
 								}
 							}
 						}
@@ -43,7 +43,7 @@
 								{
 									"text": "Shimmering Feather",
 									"color": "dark_aqua",
-									"italic": "false"
+									"italic": false
 								}
 							]
 						},

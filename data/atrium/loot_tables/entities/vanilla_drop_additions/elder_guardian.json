@@ -33,7 +33,7 @@
                 {
                   "text": "Hunting Trophy",
                   "color": "dark_purple",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             },
@@ -43,7 +43,7 @@
                 {
                   "text": "Elder Guardian",
                   "color": "white",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             }
