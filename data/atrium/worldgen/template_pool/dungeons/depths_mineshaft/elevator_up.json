@@ -1,0 +1,25 @@
+{
+    "name": "atrium:dungeons/depths_mineshaft/elevator_up",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 5,
+        "element": {
+          "location": "atrium:dungeons/depths_mineshaft/elevator/elevator_up_newfloor_0",
+          "processors": "atrium:deepslate_tile_degradation",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "atrium:dungeons/depths_mineshaft/elevator/unfinished_ceiling",
+          "processors": "atrium:deepslate_tile_degradation",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      }
+    ]
+  }
+  

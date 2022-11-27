@@ -1,0 +1,214 @@
+{
+    "name": "atrium:dungeons/depths_mineshaft/corridor_or_room",
+    "fallback": "atrium:dungeons/depths_mineshaft/corridor",
+    "elements": [
+      {
+        "weight": 5,
+        "element": {
+          "location": "atrium:dungeons/depths_mineshaft/corridors/support_corridor_0",
+          "processors": "atrium:deepslate_tile_degradation",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 5,
+        "element": {
+          "location": "atrium:dungeons/depths_mineshaft/corridors/support_corridor_1",
+          "processors": "atrium:deepslate_tile_degradation",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 5,
+        "element": {
+          "location": "atrium:dungeons/depths_mineshaft/corridors/support_corridor_2",
+          "processors": "atrium:deepslate_tile_degradation",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 5,
+        "element": {
+          "location": "atrium:dungeons/depths_mineshaft/corridors/support_corridor_3",
+          "processors": "atrium:deepslate_tile_degradation",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 5,
+        "element": {
+          "location": "atrium:dungeons/depths_mineshaft/corridors/support_corridor_4",
+          "processors": "atrium:deepslate_tile_degradation",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 5,
+        "element": {
+          "location": "atrium:dungeons/depths_mineshaft/corridors/support_corridor_5",
+          "processors": "atrium:deepslate_tile_degradation",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 5,
+        "element": {
+          "location": "atrium:dungeons/depths_mineshaft/corridors/support_corridor_6",
+          "processors": "atrium:deepslate_tile_degradation",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 5,
+        "element": {
+          "location": "atrium:dungeons/depths_mineshaft/corridors/support_corridor_7",
+          "processors": "atrium:deepslate_tile_degradation",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 5,
+        "element": {
+          "location": "atrium:dungeons/depths_mineshaft/corridors/support_corridor_8",
+          "processors": "atrium:deepslate_tile_degradation",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 5,
+        "element": {
+          "location": "atrium:dungeons/depths_mineshaft/corridors/support_corridor_9",
+          "processors": "atrium:deepslate_tile_degradation",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 5,
+        "element": {
+          "location": "atrium:dungeons/depths_mineshaft/corridors/support_corridor_10",
+          "processors": "atrium:deepslate_tile_degradation",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 5,
+        "element": {
+          "location": "atrium:dungeons/depths_mineshaft/corridors/junction_1",
+          "processors": "atrium:deepslate_tile_degradation",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 5,
+        "element": {
+          "location": "atrium:dungeons/depths_mineshaft/corridors/junction_2",
+          "processors": "atrium:deepslate_tile_degradation",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 5,
+        "element": {
+          "location": "atrium:dungeons/depths_mineshaft/corridors/junction_3",
+          "processors": "atrium:deepslate_tile_degradation",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 3,
+        "element": {
+          "location": "atrium:dungeons/depths_mineshaft/corridors/shrooms",
+          "processors": "atrium:deepslate_tile_degradation",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 3,
+        "element": {
+          "location": "atrium:dungeons/depths_mineshaft/room/delivery_1",
+          "processors": "atrium:deepslate_tile_degradation",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 3,
+        "element": {
+          "location": "atrium:dungeons/depths_mineshaft/room/dorm_1",
+          "processors": "atrium:deepslate_tile_degradation",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 3,
+        "element": {
+          "location": "atrium:dungeons/depths_mineshaft/room/dorm_2",
+          "processors": "atrium:deepslate_tile_degradation",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 3,
+        "element": {
+          "location": "atrium:dungeons/depths_mineshaft/room/dorm_3",
+          "processors": "atrium:deepslate_tile_degradation",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 3,
+        "element": {
+          "location": "atrium:dungeons/depths_mineshaft/room/explosives_1",
+          "processors": "atrium:deepslate_tile_degradation",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 3,
+        "element": {
+          "location": "atrium:dungeons/depths_mineshaft/room/explosives_2",
+          "processors": "atrium:deepslate_tile_degradation",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 3,
+        "element": {
+          "location": "atrium:dungeons/depths_mineshaft/room/garden_1",
+          "processors": "atrium:deepslate_tile_degradation",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 3,
+        "element": {
+          "location": "atrium:dungeons/depths_mineshaft/room/storage_1",
+          "processors": "atrium:deepslate_tile_degradation",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      }
+    ]
+  }
+  

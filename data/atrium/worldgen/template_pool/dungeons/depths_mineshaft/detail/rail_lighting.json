@@ -1,0 +1,32 @@
+{
+    "name": "atrium:dungeons/depths_mineshaft/detail/rail_lighting",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 1,
+        "element": {
+          "location": "atrium:dungeons/depths_mineshaft/detail/lantern_ground",
+          "processors": "atrium:deepslate_tile_degradation",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 5,
+        "element": {
+          "location": "atrium:dungeons/depths_mineshaft/detail/redstone_torch_ground",
+          "processors": "atrium:deepslate_tile_degradation",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 5,
+        "element": {
+          "projection": "rigid",
+          "element_type": "minecraft:empty_pool_element"
+        }
+      }
+    ]
+  }
+  

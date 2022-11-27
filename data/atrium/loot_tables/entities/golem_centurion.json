@@ -44,7 +44,7 @@
                 {
                   "text": "Brightsteel Ingot",
                   "color": "yellow",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             }

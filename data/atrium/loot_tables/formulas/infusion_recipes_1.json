@@ -1,0 +1,73 @@
+{
+    "type": "chest",
+    "pools": [
+        {
+            "rolls": 1,
+            "bonus_rolls": 0,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 5,
+                    "quality": 1,
+                    "name": "minecraft:written_book",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{atrium_infusion_formula:1,CustomModelData:333000,HideFlags:99,pages:['[\"\",{\"text\":\"Infusion Catalyst\\\\n[\"},{\"text\":\"Harmonizing\",\"color\":\"light_purple\"},{\"text\":\"]\\\\n\",\"color\":\"reset\"},{\"text\":\"Infusion Formula\",\"underlined\":true,\"color\":\"gray\"},{\"text\":\"\\\\n\\\\n\\\\n          x\\\\n       x  \",\"color\":\"reset\"},{\"text\":\"v\",\"color\":\"dark_purple\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Obsidian\"}},{\"text\":\"  x\\\\n    \",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"light_purple\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"text\":\"Block of Amethyst\"}}},{\"text\":\"  \",\"color\":\"reset\"},{\"text\":\"#\",\"color\":\"#845200\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Note Block\"}},{\"text\":\"     \",\"color\":\"#845200\"},{\"text\":\"#\",\"color\":\"#845200\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Note Block\"}},{\"text\":\"  \",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"light_purple\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Block of Amethyst\"}},{\"text\":\"\\\\n       x  \",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"dark_purple\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Obsidian\"}},{\"text\":\"  x\\\\n          x\",\"color\":\"reset\"}]','[\"\",{\"text\":\"Infusion Catalyst\\\\n[\"},{\"text\":\"Reverberating\",\"color\":\"gray\"},{\"text\":\"]\\\\n\",\"color\":\"reset\"},{\"text\":\"Infusion Formula\",\"underlined\":true,\"color\":\"gray\"},{\"text\":\"\\\\n\\\\n\\\\n          x\\\\n       x  \",\"color\":\"reset\"},{\"text\":\"v\",\"color\":\"gray\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Gunpowder\"}},{\"text\":\"  x\\\\n   \",\"color\":\"reset\"},{\"text\":\" >\",\"color\":\"#CECFCE\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Block of Quartz\"}},{\"text\":\"  \",\"color\":\"reset\"},{\"text\":\"$\",\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Glow Lichen\"}},{\"text\":\"     \",\"color\":\"green\"},{\"text\":\"$\",\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Glow Lichen\"}},{\"text\":\"  \",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"#CECFCE\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Block of Quartz\"}},{\"text\":\"\\\\n       x  \",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"gray\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Gunpowder\"}},{\"text\":\"  x\\\\n          x\\\\n\\\\n \",\"color\":\"reset\"}]'],title:\"✦ Infusion Catalysts\",author:\"???\",generation:1}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "✦ Infusion Catalysts",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "Infusion Circle",
+                                    "color": "gray",
+                                    "italic": false
+                                },
+                                {
+                                    "text": "Formulas:",
+                                    "color": "gray",
+                                    "italic": false
+                                },
+                                {
+                                    "text": "Infusion Catalyst [Harmonizing]",
+                                    "color": "gray",
+                                    "italic": false
+                                },
+                                {
+                                    "text": "Infusion Catalyst [Reverberating]",
+                                    "color": "gray",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 2,
+                    "quality": 3,
+                    "name": "atrium:formulas/infusion_recipes_2",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

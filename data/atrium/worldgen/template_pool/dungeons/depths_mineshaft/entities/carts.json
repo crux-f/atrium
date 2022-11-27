@@ -1,0 +1,50 @@
+{
+    "name": "atrium:dungeons/depths_mineshaft/detail/carts",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 5,
+        "element": {
+          "location": "atrium:dungeons/depths_mineshaft/entities/carts/mineshaft_cart",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 7,
+        "element": {
+          "location": "atrium:dungeons/depths_mineshaft/entities/carts/furnace_minecart",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 7,
+        "element": {
+          "location": "atrium:dungeons/depths_mineshaft/entities/carts/tnt_minecart",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 5,
+        "element": {
+          "location": "atrium:dungeons/depths_mineshaft/entities/carts/delver_minecart",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 8,
+        "element": {
+          "projection": "rigid",
+          "element_type": "minecraft:empty_pool_element"
+        }
+      }
+    ]
+  }
+  

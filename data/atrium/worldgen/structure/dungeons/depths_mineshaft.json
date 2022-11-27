@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": [
+    "atrium:avalanche_caves",
+    "atrium:clotted_caves",
+    "atrium:silent_caves",
+    "atrium:spore_caves"
+  ],
+  "step": "underground_structures",
+  "spawn_overrides": {},
+  "terrain_adaptation": "none",
+  "start_pool": "atrium:dungeons/depths_mineshaft/bases",
+  "size": 7,
+  "start_height": {
+    "absolute": 500
+  },
+  "max_distance_from_center": 116,
+  "use_expansion_hack": false
+}

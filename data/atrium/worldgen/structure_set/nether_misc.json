@@ -1,7 +1,7 @@
 {
   "structures": [
     {
-      "structure": "atrium:misc/hell_geode",
+      "structure": "atrium:natural/underground/hell_geode",
       "weight": 1
     }
   ],

@@ -1,1 +1,96 @@
-{"type":"entity","pools":[{"rolls":1,"bonus_rolls":1,"entries":[{"type":"item","weight":8,"quality":1,"name":"minecraft:blaze_rod","functions":[{"function":"set_count","count":1}]},{"type":"item","weight":4,"quality":2,"name":"minecraft:blaze_powder","functions":[{"function":"set_count","count":1},{"function":"set_nbt","tag":"{flickering_fuel:1b}"},{"function":"set_name","name":[{"text":"Flickering Fuel","color":"red","italic":false}]},{"function":"set_lore","lore":[{"text":"Used in alchemical processes."},{"text":"Do Not Eat."}]}]},{"type":"item","weight":2,"quality":3,"name":"minecraft:blaze_powder","functions":[{"function":"set_count","count":2},{"function":"set_nbt","tag":"{flickering_fuel:1b}"},{"function":"set_name","name":[{"text":"Flickering Fuel","color":"red","italic":false}]},{"function":"set_lore","lore":[{"text":"Used in alchemical processes."},{"text":"Do Not Eat."}]}]},{"type":"item","weight":1,"name":"minecraft:blaze_rod","functions":[{"function":"set_count","count":1},{"function":"set_nbt","tag":"{charged_blaze_rod:1b,Enchantments:[{id:\"minecraft:power\",lvl:1s}]}"},{"function":"set_name","name":[{"text":"Charged Blaze Rod","color":"red","italic":false}]},{"function":"set_lore","lore":[{"text":"This blaze rod seems"},{"text":"to have maintained the"},{"text":"Blaze's elemental energy."}]}]}]}]}
+{
+	"type": "entity",
+	"pools": [{
+		"rolls": 1,
+		"bonus_rolls": 1,
+		"entries": [{
+			"type": "item",
+			"weight": 8,
+			"quality": 1,
+			"name": "minecraft:blaze_rod",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}]
+		}, {
+			"type": "item",
+			"weight": 4,
+			"quality": 2,
+			"name": "minecraft:blaze_powder",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{flickering_fuel:1b}"
+			}, {
+				"function": "set_name",
+				"name": [{
+					"text": "Flickering Fuel",
+					"color": "red",
+					"italic": false
+				}]
+			}, {
+				"function": "set_lore",
+				"lore": [{
+					"text": "Used in alchemical processes."
+				}, {
+					"text": "Do Not Eat."
+				}]
+			}]
+		}, {
+			"type": "item",
+			"weight": 2,
+			"quality": 3,
+			"name": "minecraft:blaze_powder",
+			"functions": [{
+				"function": "set_count",
+				"count": 2
+			}, {
+				"function": "set_nbt",
+				"tag": "{flickering_fuel:1b}"
+			}, {
+				"function": "set_name",
+				"name": [{
+					"text": "Flickering Fuel",
+					"color": "red",
+					"italic": false
+				}]
+			}, {
+				"function": "set_lore",
+				"lore": [{
+					"text": "Used in alchemical processes."
+				}, {
+					"text": "Do Not Eat."
+				}]
+			}]
+		}, {
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:blaze_rod",
+			"functions": [{
+				"function": "set_count",
+				"count": 1
+			}, {
+				"function": "set_nbt",
+				"tag": "{charged_blaze_rod:1b,Enchantments:[{id:\"minecraft:power\",lvl:1s}]}"
+			}, {
+				"function": "set_name",
+				"name": [{
+					"text": "Charged Blaze Rod",
+					"color": "red",
+					"italic": false
+				}]
+			}, {
+				"function": "set_lore",
+				"lore": [{
+					"text": "This blaze rod seems"
+				}, {
+					"text": "to have maintained the"
+				}, {
+					"text": "Blaze's elemental energy."
+				}]
+			}]
+		}]
+	}]
+}

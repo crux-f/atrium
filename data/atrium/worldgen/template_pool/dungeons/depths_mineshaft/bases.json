@@ -1,0 +1,16 @@
+{
+    "name": "atrium:dungeons/depths_mineshaft/bases",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 1,
+        "element": {
+          "location": "atrium:dungeons/depths_mineshaft/elevator/elevator_root",
+          "processors": "atrium:deepslate_tile_degradation",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      }
+    ]
+  }
+  
