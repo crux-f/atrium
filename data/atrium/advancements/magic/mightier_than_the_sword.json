@@ -9,7 +9,8 @@
             "text": "Improve an item using the runic codex"
         },
         "icon": {
-            "item": "minecraft:enchanting_table"
+            "item": "minecraft:player_head",
+            "nbt": "{display:{Name:'{\"text\":\"Runic Codex\",\"color\":\"light_purple\",\"italic\":false}',Lore:['{\"text\":\"Space Required:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"x9,y6,z10\",\"color\":\"dark_gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"When Placed:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"Generates a structure \",\"color\":\"blue\",\"italic\":false}']},runic_codex_placer:1b,SkullOwner:{Id:[I;453648658,-1501608406,-1743325056,-1172242773],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTUyNjgwNzc0MDkwYTVjZDFjNmZkMDgwYjZkNGFkOTkwZWViYzA0MTE4MjBlMTkyNmM5OWIyMTExZTJjYjRiNyJ9fX0=\"}]}}}"
         },
         "frame": "task",
         "show_toast": true,

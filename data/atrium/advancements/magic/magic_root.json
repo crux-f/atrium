@@ -1,7 +1,7 @@
 {
-    "__comment": "Acquired by learning basic spellcraft in The Rambling Spire",
+    "__comment": "Acquired by crafting something using a formula crafting recipe",
     "criteria": {
-        "unlockspells": {
+        "useformulacrafting": {
             "trigger": "minecraft:impossible"
         }
     },
@@ -16,7 +16,8 @@
             "text": "Time to hit the books"
         },
         "icon": {
-            "item": "minecraft:enchanted_book"
+            "item": "minecraft:written_book",
+            "nbt": "{CustomModelData:333000}"
         },
         "frame": "task",
         "show_toast": false,
