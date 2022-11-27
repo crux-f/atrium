@@ -9,7 +9,7 @@ execute if data entity @s {Inventory:[{Slot:8b}]} unless data entity @s {Invento
 #
 # Air | Slot 0: Air Sigil | Slot 8: Increase Velocity
 execute if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_air_staff:1b}}]} run item replace entity @s hotbar.0 with minecraft:firework_star{display:{Name:'{"text":"Cast: Air Sigil I","color":"gray","italic":false}'},atrium_power_slot:0b,atrium_power:1b} 1
-execute if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_air_staff:1b}}]} run item replace entity @s hotbar.8 with minecraft:firework_star{display:{Name:'{"text":"Cast: Increase Velocity I","color":"gray","italic":false}'},atrium_power_slot:8b,atrium_power:1b} 1
+execute if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_air_staff:1b}}]} run item replace entity @s hotbar.8 with minecraft:firework_star{display:{Name:'{"text":"Cast: Increase Velocity I","color":"gray","italic":false}'},atrium_power_slot:8b,atrium_power:1b,CustomModelData:333004} 1
 #
 # Earth | Slot 0: Earth Sigil | Slot 8: Natural Armor
 execute if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_earth_staff:1b}}]} run item replace entity @s hotbar.0 with minecraft:firework_star{display:{Name:'{"text":"Cast: Earth Sigil I","color":"gray","italic":false}'},atrium_power_slot:0b,atrium_power:1b} 1
@@ -17,7 +17,7 @@ execute if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_earth_staff:1b}}]}
 #
 # Fire | Slot 0: Fire Sigil | Slot 8: Throw Flames
 execute if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_fire_staff:1b}}]} run item replace entity @s hotbar.0 with minecraft:firework_star{display:{Name:'{"text":"Cast: Fire Sigil I","color":"gray","italic":false}'},atrium_power_slot:0b,atrium_power:1b} 1
-execute if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_fire_staff:1b}}]} run item replace entity @s hotbar.8 with minecraft:firework_star{display:{Name:'{"text":"Cast: Throw Flames I","color":"gray","italic":false}'},atrium_power_slot:8b,atrium_power:1b}
+execute if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_fire_staff:1b}}]} run item replace entity @s hotbar.8 with minecraft:firework_star{display:{Name:'{"text":"Cast: Throw Flames I","color":"gray","italic":false}'},atrium_power_slot:8b,atrium_power:1b,CustomModelData:333004}
 #
 # Water | Slot 0: Water Sigil | Slot 8: Extinguish
 execute if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_water_staff:1b}}]} run item replace entity @s hotbar.0 with minecraft:firework_star{display:{Name:'{"text":"Cast: Water Sigil I","color":"gray","italic":false}'},atrium_power_slot:0b,atrium_power:1b} 1

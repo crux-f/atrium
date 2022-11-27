@@ -13,22 +13,22 @@ execute if data entity @s {Inventory:[{Slot:7b}]} unless data entity @s {Invento
 execute if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_air_staff:1b}}]} run item replace entity @s hotbar.0 with minecraft:firework_star{display:{Name:'{"text":"Cast: Air Sigil II","color":"gray","italic":false}'},atrium_power_slot:0b,atrium_power:1b}
 execute if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_air_staff:1b}}]} run item replace entity @s hotbar.8 with minecraft:firework_star{display:{Name:'{"text":"Cast: Increase Velocity II","color":"gray","italic":false}'},atrium_power_slot:8b,atrium_power:1b}
 #
-# Earth | Slot 0: Earth Sigil | Slot 8: Natural Armor
+# Earth | Slot 0: Earth Sigil | Slot 8: Natural Armor | Slot 7: ? | Slot 8: ? |
 execute if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_earth_staff:1b}}]} run item replace entity @s hotbar.0 with minecraft:firework_star{display:{Name:'{"text":"Cast: Earth Sigil II","color":"gray","italic":false}'},atrium_power_slot:0b,atrium_power:1b}
 execute if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_earth_staff:1b}}]} run item replace entity @s hotbar.8 with minecraft:firework_star{display:{Name:'{"text":"Cast: Natural Armor II","color":"gray","italic":false}'},atrium_power_slot:8b,atrium_power:1b}
 #
-# Fire | Slot 0: Fire Sigil | Slot 8: Throw Flames
+# Fire | Slot 0: Fire Sigil | Slot 8: Throw Flames | Slot 7: ? | Slot 8: ? |
 execute if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_fire_staff:1b}}]} run item replace entity @s hotbar.0 with minecraft:firework_star{display:{Name:'{"text":"Cast: Fire Sigil II","color":"gray","italic":false}'},atrium_power_slot:0b,atrium_power:1b}
 execute if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_fire_staff:1b}}]} run item replace entity @s hotbar.8 with minecraft:firework_star{display:{Name:'{"text":"Cast: Throw Flames II","color":"gray","italic":false}'},atrium_power_slot:8b,atrium_power:1b}
 #
-# Water | Slot 0: Water Sigil | Slot 8: Extinguish
+# Water | Slot 0: Water Sigil | Slot 8: Extinguish | Slot 7: ? | Slot 8: ? |
 execute if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_water_staff:1b}}]} run item replace entity @s hotbar.0 with minecraft:firework_star{display:{Name:'{"text":"Cast: Water Sigil II","color":"gray","italic":false}'},atrium_power_slot:0b,atrium_power:1b}
 execute if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_water_staff:1b}}]} run item replace entity @s hotbar.8 with minecraft:firework_star{display:{Name:'{"text":"Cast: Extinguish II","color":"gray","italic":false}'},atrium_power_slot:8b,atrium_power:1b}
 #
-# Time | Slot 0: Time Sigil | Slot 8: Desync
+# Time | Slot 0: Time Sigil | Slot 8: Desync | Slot 7: ? | Slot 8: ? |
 execute if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_time_staff:1b}}]} run item replace entity @s hotbar.0 with minecraft:firework_star{display:{Name:'{"text":"Cast: Time Sigil II","color":"gray","italic":false}'},atrium_power_slot:0b,atrium_power:1b}
 execute if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_time_staff:1b}}]} run item replace entity @s hotbar.8 with minecraft:firework_star{display:{Name:'{"text":"Cast: Desync II","color":"gray","italic":false}'},atrium_power_slot:8b,atrium_power:1b}
 #
-# Space | Slot 0: Space Sigil | Slot 8: Parallax
+# Space | Slot 0: Space Sigil | Slot 8: Parallax | Slot 7: ? | Slot 8: ? |
 execute if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_space_staff:1b}}]} run item replace entity @s hotbar.0 with minecraft:firework_star{display:{Name:'{"text":"Cast: Space Sigil II","color":"gray","italic":false}'},atrium_power_slot:0b,atrium_power:1b}
 execute if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_space_staff:1b}}]} run item replace entity @s hotbar.8 with minecraft:firework_star{display:{Name:'{"text":"Cast: Parallax II","color":"gray","italic":false}'},atrium_power_slot:8b,atrium_power:1b}
