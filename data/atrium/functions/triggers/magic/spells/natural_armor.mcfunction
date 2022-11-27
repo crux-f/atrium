@@ -1,19 +1,17 @@
 # Casting particles
 particle minecraft:block minecraft:mossy_cobblestone ~ ~ ~ 0.3 1.25 0.3 0.05 70
 # Casting sfx
-playsound minecraft:block.lodestone.place player @a[distance=..15] ~ ~ ~ 1 1.5 0.1
-# Summon dummy to handle arrow deflection + particle animation
-# First though, kill all the existing guys loaded that don't have a cloud (in case of people leaving it unloaded, letting the repeat script expire).
-execute as @e[type=minecraft:armor_stand,tag=atrium_air_sigil_dummy] at @s unless entity @e[tag=atrium_air_sigil,distance=..5] run kill @s
-summon armor_stand ~ ~ ~ {Silent:1b,Marker:1b,Invisible:1b,NoBasePlate:1b,Tags:["atrium_air_sigil_dummy"]}
+execute unless entity @s[predicate=atrium:player/inventory/wearing_any_armor] run playsound minecraft:block.lodestone.place player @a[distance=..15] ~ ~ ~ 1 1.5 0.1
+# Failure to cast sfx
+execute if entity @s[predicate=atrium:player/inventory/wearing_any_armor] run playsound minecraft:block.redstone_torch.burnout player @a[distance=..15] ~ ~ ~ 0.35 1.5 0.1
 #
-# Duration of field, radius of field, and duration of entity effect upgrade based on spell level
-execute if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_staff_lv:1b}}]} run summon area_effect_cloud ~ ~ ~ {Particle:"cloud",Radius:1f,Duration:240,Tags:["atrium_air_sigil"],Potion:"minecraft:empty",Effects:[{Id:25,Amplifier:3b,Duration:20,ShowParticles:0b}],CustomName:'{"text":"Air Sigil I"}'}
-execute if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_staff_lv:2b}}]} run summon area_effect_cloud ~ ~ ~ {Particle:"cloud",Radius:2f,Duration:480,Tags:["atrium_air_sigil"],Potion:"minecraft:empty",Effects:[{Id:25,Amplifier:3b,Duration:40,ShowParticles:0b}],CustomName:'{"text":"Air Sigil II"}'}
-execute if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_staff_lv:3b}}]} run summon area_effect_cloud ~ ~ ~ {Particle:"cloud",Radius:3f,Duration:720,Tags:["atrium_air_sigil"],Potion:"minecraft:empty",Effects:[{Id:25,Amplifier:3b,Duration:60,ShowParticles:0b}],CustomName:'{"text":"Air Sigil III"}'}
-# Run repeat script to handle arrow deflection behavior + extra particles (runs until no atrium_air_sigil entities exist)
-function atrium:triggers/magic/spells/natural_armor_repeat
+# Tag the caster if they aren't wearing armor
+execute unless entity @s[predicate=atrium:player/inventory/wearing_any_armor] run tag @s add atrium_natural_armor_target
 #
+# Give the caster Resistence III. Duration depends on level of staff used.
+execute unless entity @s[predicate=atrium:player/inventory/wearing_any_armor] if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_staff_lv:1b}}]} run effect give @s resistance 900 0 true
+execute unless entity @s[predicate=atrium:player/inventory/wearing_any_armor] if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_staff_lv:2b}}]} run effect give @s resistance 1800 0 true
+execute unless entity @s[predicate=atrium:player/inventory/wearing_any_armor] if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_staff_lv:3b}}]} run effect give @s resistance 3600 0 true
 #
 # Spell cleanup
 execute as @s run function atrium:triggers/magic/spell_cast_complete
