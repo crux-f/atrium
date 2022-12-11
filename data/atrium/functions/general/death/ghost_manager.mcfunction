@@ -1,7 +1,7 @@
 # Runs each tick at every player in spectator mode
 #
 # Soul Particles at every ghost player
-execute anchored eyes run particle minecraft:soul ~ ~ ~ 0 0 0 0 1 force
+execute anchored eyes run particle minecraft:soul ^ ^ ^ 0 0 0 0 1 force @a[distance=1..]
 #
 # Resurrection - Respawn Anchor
 #
