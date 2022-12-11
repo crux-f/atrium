@@ -1,17 +1,17 @@
 {
-    "__comment": "congrats!",
+    "__comment": "Granted automatically by the event end script to players who participate in a Return To The Depths event.",
     "display": {
         "title": {
-            "text": "Atrium: Landfall",
-            "color": "red"
+            "text": "Atrium: Return To The Depths",
+            "color": "dark_blue"
         },
         "description": {
-            "text": "Participate in at least 1 Landfall monthly event",
+            "text": "Participate in at least 1 Return To The Depths monthly event",
             "color": "green",
             "italic": true
         },
         "icon": {
-            "item": "minecraft:iron_sword"
+            "item": "minecraft:deepslate"
         },
         "frame": "task",
         "show_toast": true,
@@ -26,5 +26,5 @@
     "rewards": {
         "experience": 0
     },
-    "parent": "atrium:wevents_explanation"
+    "parent": "atrium:iteration3_events/snowfall"
 }

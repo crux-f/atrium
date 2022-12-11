@@ -20,7 +20,7 @@
         "hidden": false
     },
     "criteria": {
-        "taraqsol_max": {
+        "travel_to_far_lands": {
             "trigger": "minecraft:impossible"
         }
     },
