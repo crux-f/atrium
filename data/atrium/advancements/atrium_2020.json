@@ -3,7 +3,7 @@
     "display": {
         "title": {
             "text": "Survivor",
-            "color": "green",
+            "color": "dark_aqua",
             "bold": true
         },
         "description": {

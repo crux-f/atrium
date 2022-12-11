@@ -1,0 +1,16 @@
+{
+    "name": "atrium:city/decor/lampposts",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 1,
+        "element": {
+          "location": "atrium:city/plains/decor/directional_lamppost",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      }
+    ]
+  }
+  

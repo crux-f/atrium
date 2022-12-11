@@ -3,7 +3,7 @@
     "display": {
         "title": {
             "text": "Pioneer",
-            "color": "dark_aqua",
+            "color": "blue",
             "bold": true
         },
         "description": {

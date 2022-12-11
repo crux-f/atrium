@@ -1,0 +1,56 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:powder_snow_bucket"
+    },
+        "title": {
+            "text": "Fellstar Highlands",
+            "color": "dark_purple",
+            "bold": false
+        },
+        "description": {
+            "text": "Visit all vistas in Fellstar Highlands.",
+            "color": "green",
+            "italic": true
+        },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "atrium:sunset_archipelago",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "atrium:iteration3_waystones/coolwater_gulf_e": true,
+                  "atrium:iteration3_waystones/coolwater_gulf_n": true,
+                  "atrium:iteration3_waystones/eves_of_iesveldr_e": true,
+                  "atrium:iteration3_waystones/eves_of_iesveldr_n": true,
+                  "atrium:iteration3_waystones/eves_of_iesveldr_s": true,
+                  "atrium:iteration3_waystones/eves_of_iesveldr_w": true,
+                  "atrium:iteration3_waystones/fellstar_highlands_e": true,
+                  "atrium:iteration3_waystones/fellstar_highlands_n": true,
+                  "atrium:iteration3_waystones/fellstar_highlands_s": true,
+                  "atrium:iteration3_waystones/fellstar_highlands_w": true,
+                  "atrium:iteration3_waystones/njals_passage_n": true,
+                  "atrium:iteration3_waystones/njals_passage_e": true,
+                  "atrium:iteration3_waystones/njals_passage_w": true,
+                  "atrium:iteration3_waystones/njals_passage_s": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

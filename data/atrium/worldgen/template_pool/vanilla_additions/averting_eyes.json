@@ -1,0 +1,15 @@
+{
+  "name": "atrium:vanilla_additions/averting_eyes",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "atrium:vanilla_additions/averting_eye",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

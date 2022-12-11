@@ -18,7 +18,7 @@
     "announce_to_chat": true,
     "hidden": true
   },
-  "parent": "atrium:atrium_2021",
+  "parent": "atrium:old_server",
   "criteria": {
     "granted": {
         "trigger": "minecraft:impossible"

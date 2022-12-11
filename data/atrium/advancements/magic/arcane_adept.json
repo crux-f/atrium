@@ -1,15 +1,15 @@
 {
-    "__comment": "Acquired by building a Warp Gate",
+    "__comment": "Acquired by crafting a level 2 staff",
     "display": {
         "title": {
-            "text": "Now You're Thinking With Portals",
+            "text": "Arcane Adept",
             "color": "white"
         },
         "description": {
-            "text": "Assemble a Warp Gate"
+            "text": "Upgrade an arcane Staff"
         },
         "icon": {
-            "item": "minecraft:lodestone"
+            "item": "minecraft:firework_star"
         },
         "frame": "goal",
         "show_toast": true,
@@ -17,9 +17,9 @@
         "hidden": false
     },
     "criteria": {
-        "warpgate": {
+        "spacialfocus": {
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "atrium:magic/some_assembly_required"
+    "parent": "atrium:magic/arcane_apprentice"
 }

@@ -1,0 +1,33 @@
+{
+  "name": "atrium:vanilla_additions/averting_end_pillars",
+  "fallback": "atrium:vanilla_additions/averting_eyes",
+  "elements": [
+    {
+      "weight": 2,
+      "element": {
+        "location": "atrium:vanilla_additions/end_pillar_averting_short",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "atrium:vanilla_additions/end_pillar_averting_medium",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "atrium:vanilla_additions/end_pillar_averting_tall",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

@@ -1,23 +1,24 @@
 {
-    "__comment": "Acquired by building a Warp Gate",
+    "__comment": "Acquired by crafting a staff",
     "display": {
         "title": {
-            "text": "Now You're Thinking With Portals",
+            "text": "Arcane Apprentice",
             "color": "white"
         },
         "description": {
-            "text": "Assemble a Warp Gate"
+            "text": "Construct an arcane Staff"
         },
         "icon": {
-            "item": "minecraft:lodestone"
+            "item": "minecraft:stick",
+            "nbt": "{CustomModelData:333059}"
         },
-        "frame": "goal",
+        "frame": "task",
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false
     },
     "criteria": {
-        "warpgate": {
+        "spacialfocus": {
             "trigger": "minecraft:impossible"
         }
     },

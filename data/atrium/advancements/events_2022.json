@@ -12,7 +12,7 @@
             "italic": true
         },
         "icon": {
-            "item": "minecraft:bricks"
+            "item": "minecraft:golden_pickaxe"
         },
         "frame": "task",
         "show_toast": false,

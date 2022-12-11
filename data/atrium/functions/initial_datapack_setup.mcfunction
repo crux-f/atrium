@@ -10,7 +10,7 @@ scoreboard objectives add static_values dummy
 scoreboard objectives add valid_ingredients dummy
 # Magic - - -
 # entropy is used for the occult magic system (initially tied to death count, can be altered)
-scoreboard objectives add entropy dummy
+scoreboard objectives add entropy dummy {"text":"Entropy","color":"dark_gray"}
 #
 # charge is used for any items that can charge up to use a special ability
 scoreboard objectives add charge dummy {"text":"Charge Level","color":"green"}

@@ -31,31 +31,6 @@
         {
           "type": "item",
           "weight": 1,
-          "quality": 2,
-          "name": "minecraft:clay",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{AttributeModifiers:[{AttributeName:\"generic.luck\",Name:\"generic.luck\",Amount:0.5,Operation:1,UUID:[I;1593952637,-1362673199,-1360322030,-72826655],Slot:\"mainhand\"}]}"
-            },
-            {
-              "function": "set_name",
-              "name": [
-                {
-                  "text": "Lucky Rock",
-                  "italic": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "weight": 1,
           "quality": 1,
           "name": "minecraft:bread",
           "functions": [

@@ -32,14 +32,10 @@
                             "function": "set_lore",
                             "lore": [
                                 {
-                                    "text": "Infusion Circle",
+                                    "text": "Infusion Circle Formulas:",
                                     "color": "gray",
-                                    "italic": false
-                                },
-                                {
-                                    "text": "Formulas:",
-                                    "color": "gray",
-                                    "italic": false
+                                    "italic": false,
+                                    "underlined": true
                                 },
                                 {
                                     "text": "Infusion Catalyst [Harmonizing]",
@@ -48,6 +44,77 @@
                                 },
                                 {
                                     "text": "Infusion Catalyst [Reverberating]",
+                                    "color": "gray",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 5,
+                    "quality": 1,
+                    "name": "minecraft:written_book",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{atrium_infusion_formula:1,CustomModelData:333000,HideFlags:99,pages:['[\"\",{\"text\":\"In my journey I have had the privilege of many an arcane idea. The forgotten people who discovered these six concepts believed them to be the primary building blocks of the universe. They called the four elements \"},{\"text\":\"Air\",\"color\":\"#9A9413\",\"clickEvent\":{\"action\":\"change_page\",\"value\":4}},{\"text\":\", \",\"color\":\"reset\"},{\"text\":\"Earth\",\"color\":\"dark_green\",\"clickEvent\":{\"action\":\"change_page\",\"value\":5}},{\"text\":\", \",\"color\":\"reset\"},{\"text\":\"Fire\",\"color\":\"red\",\"clickEvent\":{\"action\":\"change_page\",\"value\":6}},{\"text\":\" and \",\"color\":\"reset\"},{\"text\":\"Water\",\"color\":\"blue\",\"clickEvent\":{\"action\":\"change_page\",\"value\":7}},{\"text\":\".\",\"color\":\"reset\"}]','[\"\",{\"text\":\"The remaining two concepts- Order and Chaos- are perhaps too fickle to be called \\\\\"Elements\\\\\". I leave with you several simple formulas. You can decide for yourself if \"},{\"text\":\"Time\",\"color\":\"gray\",\"clickEvent\":{\"action\":\"change_page\",\"value\":8}},{\"text\":\" and \",\"color\":\"reset\"},{\"text\":\"Space\",\"color\":\"dark_gray\",\"clickEvent\":{\"action\":\"change_page\",\"value\":9}},{\"text\":\" deserve seats at the table.\\\\n\\\\n- E\\\\n \",\"color\":\"reset\"}]','[\"\",{\"text\":\"Inert Focus\\\\n\"},{\"text\":\"Infusion Formula\",\"underlined\":true,\"color\":\"gray\"},{\"text\":\"\\\\n\\\\n\\\\n          x\\\\n       x  x  x\\\\n    x  x     x  x\\\\n       \",\"color\":\"reset\"},{\"text\":\"#\",\"color\":\"dark_purple\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Obsidian\"}},{\"text\":\"  \",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"aqua\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Diamond\"}},{\"text\":\"  \",\"color\":\"reset\"},{\"text\":\"#\",\"color\":\"dark_purple\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Obsidian\"}},{\"text\":\"\\\\n          \",\"color\":\"reset\"},{\"text\":\"|\",\"color\":\"#86480A\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Stick\"}},{\"text\":\"\\\\n\\\\n \",\"color\":\"reset\"}]','[\"\",{\"text\":\"Staff of Air [+1]\\\\n\"},{\"text\":\"Infusion Formula\",\"underlined\":true,\"color\":\"gray\"},{\"text\":\"\\\\n\\\\n\\\\n          \",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"#9A9413\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Glowstone Dust\"}},{\"text\":\"\\\\n       \",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"#9A9413\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Glowstone Dust\"}},{\"text\":\"  \",\"color\":\"reset\"},{\"text\":\"^\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Inert Focus\"}},{\"text\":\"  \"},{\"text\":\"*\",\"color\":\"#9A9413\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Glowstone Dust\"}},{\"text\":\"\\\\n    x  \",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"gray\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Feather\"}},{\"text\":\"     \",\"color\":\"gray\"},{\"text\":\"<\",\"color\":\"gray\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Feather\"}},{\"text\":\"  x\\\\n       \",\"color\":\"reset\"},{\"text\":\"(\",\"color\":\"dark_gray\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Phantom Membrane\"}},{\"text\":\"  \",\"color\":\"reset\"},{\"text\":\"|\",\"color\":\"#86480A\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Stick\"}},{\"text\":\"  \",\"color\":\"reset\"},{\"text\":\")\",\"color\":\"dark_gray\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Phantom Membrane\"}},{\"text\":\"\\\\n          \",\"color\":\"reset\"},{\"text\":\"|\",\"color\":\"#86480A\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Stick\"}},{\"text\":\"\\\\n\\\\n \",\"color\":\"reset\"}]','[\"\",{\"text\":\"Staff of Earth [+1]\\\\n\"},{\"text\":\"Infusion Formula\",\"underlined\":true,\"color\":\"gray\"},{\"text\":\"\\\\n\\\\n\\\\n          \",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Emerald\"}},{\"text\":\"\\\\n       \",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Emerald\"}},{\"text\":\"  \",\"color\":\"reset\"},{\"text\":\"^\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Inert Focus\"}},{\"text\":\"  \"},{\"text\":\"*\",\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Emerald\"}},{\"text\":\"\\\\n    x  \",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"dark_gray\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Stone\"}},{\"text\":\"     \",\"color\":\"dark_gray\"},{\"text\":\"<\",\"color\":\"dark_gray\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Stone\"}},{\"text\":\"  x\\\\n       \",\"color\":\"reset\"},{\"text\":\"(\",\"color\":\"dark_green\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Glow Lichen\"}},{\"text\":\"  \",\"color\":\"reset\"},{\"text\":\"|\",\"color\":\"#86480A\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Stick\"}},{\"text\":\"  \",\"color\":\"reset\"},{\"text\":\")\",\"color\":\"dark_green\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Glow Lichen\"}},{\"text\":\"\\\\n          \",\"color\":\"reset\"},{\"text\":\"|\",\"color\":\"#86480A\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Stick\"}},{\"text\":\"\\\\n \",\"color\":\"reset\"}]','[\"\",{\"text\":\"Staff of Fire [+1]\\\\n\"},{\"text\":\"Infusion Formula\",\"underlined\":true,\"color\":\"gray\"},{\"text\":\"\\\\n\\\\n\\\\n          \",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"red\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Redstone Dust\"}},{\"text\":\"\\\\n       \",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"red\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Redstone Dust\"}},{\"text\":\"  \",\"color\":\"reset\"},{\"text\":\"^\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Inert Focus\"}},{\"text\":\"  \"},{\"text\":\"*\",\"color\":\"red\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Redstone Dust\"}},{\"text\":\"\\\\n    x  \",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"dark_gray\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Fire Charge\"}},{\"text\":\"     \",\"color\":\"dark_gray\"},{\"text\":\"<\",\"color\":\"dark_gray\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Fire Charge\"}},{\"text\":\"  x\\\\n       \",\"color\":\"reset\"},{\"text\":\"(\",\"color\":\"gold\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Campfire\"}},{\"text\":\"  \",\"color\":\"reset\"},{\"text\":\"|\",\"color\":\"#86480A\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Stick\"}},{\"text\":\"  \",\"color\":\"reset\"},{\"text\":\")\",\"color\":\"gold\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Campfire\"}},{\"text\":\"\\\\n          \",\"color\":\"reset\"},{\"text\":\"|\",\"color\":\"#86480A\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Stick\"}},{\"text\":\"\\\\n\\\\n \",\"color\":\"reset\"}]','[\"\",{\"text\":\"Staff of Water [+1]\\\\n\"},{\"text\":\"Infusion Formula\",\"underlined\":true,\"color\":\"gray\"},{\"text\":\"\\\\n\\\\n\\\\n          \",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"blue\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Lapis Lazuli\"}},{\"text\":\"\\\\n       \",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"blue\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Lapis Lazuli\"}},{\"text\":\"  \",\"color\":\"reset\"},{\"text\":\"^\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Inert Focus\"}},{\"text\":\"  \"},{\"text\":\"*\",\"color\":\"blue\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Lapis Lazuli\"}},{\"text\":\"\\\\n    x  \",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"gray\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Clay Ball\"}},{\"text\":\"     \",\"color\":\"dark_gray\"},{\"text\":\"<\",\"color\":\"gray\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Clay Ball\"}},{\"text\":\"  x\\\\n       \",\"color\":\"reset\"},{\"text\":\"(\",\"color\":\"dark_aqua\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Kelp\"}},{\"text\":\"  \",\"color\":\"reset\"},{\"text\":\"|\",\"color\":\"#86480A\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Stick\"}},{\"text\":\"  \",\"color\":\"reset\"},{\"text\":\")\",\"color\":\"dark_aqua\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Kelp\"}},{\"text\":\"\\\\n          \",\"color\":\"reset\"},{\"text\":\"|\",\"color\":\"#86480A\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Stick\"}},{\"text\":\"\\\\n\\\\n\\\\n \",\"color\":\"reset\"}]','[\"\",{\"text\":\"Staff of Time [+1]\\\\n\"},{\"text\":\"Infusion Formula\",\"underlined\":true,\"color\":\"gray\"},{\"text\":\"\\\\n\\\\n\\\\n          \",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"gray\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Nether Quartz\"}},{\"text\":\"\\\\n       \",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"gray\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Nether Quartz\"}},{\"text\":\"  \",\"color\":\"reset\"},{\"text\":\"^\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Inert Focus\"}},{\"text\":\"  \"},{\"text\":\"*\",\"color\":\"gray\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Nether Quartz\"}},{\"text\":\"\\\\n    x  \",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"red\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Redstone Repeater\"}},{\"text\":\"     \",\"color\":\"dark_gray\"},{\"text\":\"<\",\"color\":\"red\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Redstone Repeater\"}},{\"text\":\"  x\\\\n       \",\"color\":\"reset\"},{\"text\":\"(\",\"color\":\"dark_green\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Wheat Seeds\"}},{\"text\":\"  \",\"color\":\"reset\"},{\"text\":\"|\",\"color\":\"#86480A\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Stick\"}},{\"text\":\"  \",\"color\":\"reset\"},{\"text\":\")\",\"color\":\"gold\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Wheat\"}},{\"text\":\"\\\\n          \",\"color\":\"reset\"},{\"text\":\"|\",\"color\":\"#86480A\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Stick\"}},{\"text\":\"\\\\n\\\\n\\\\n\\\\n \",\"color\":\"reset\"}]','[\"\",{\"text\":\"Staff of Space [+1]\\\\n\"},{\"text\":\"Infusion Formula\",\"underlined\":true,\"color\":\"gray\"},{\"text\":\"\\\\n\\\\n\\\\n          \",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"dark_gray\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Coal\"}},{\"text\":\"\\\\n       \",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"dark_gray\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Coal\"}},{\"text\":\"  \",\"color\":\"reset\"},{\"text\":\"^\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Inert Focus\"}},{\"text\":\"  \"},{\"text\":\"*\",\"color\":\"dark_gray\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Coal\"}},{\"text\":\"\\\\n    x  \",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"dark_aqua\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Ender Pearl\"}},{\"text\":\"     \",\"color\":\"dark_gray\"},{\"text\":\"<\",\"color\":\"dark_aqua\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Ender Pearl\"}},{\"text\":\"  x\\\\n       \",\"color\":\"reset\"},{\"text\":\"(\",\"color\":\"gray\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Gunpowder\"}},{\"text\":\"  \",\"color\":\"reset\"},{\"text\":\"|\",\"color\":\"#86480A\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Stick\"}},{\"text\":\"  \",\"color\":\"reset\"},{\"text\":\")\",\"color\":\"gray\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Gunpowder\"}},{\"text\":\"\\\\n          \",\"color\":\"reset\"},{\"text\":\"|\",\"color\":\"#86480A\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Stick\"}},{\"text\":\"\\\\n\\\\n\\\\n \",\"color\":\"reset\"}]'],title:\"✦ A Collection of Elements\",author:\"E..?\",generation:1}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "✦ A Collection of Elements",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "Infusion Circle Formulas:",
+                                    "color": "gray",
+                                    "italic": false,
+                                    "underlined": true
+                                },
+                                {
+                                    "text": "Inert Focus",
+                                    "color": "gray",
+                                    "italic": false
+                                },
+                                {
+                                    "text": "Staff of Air [+1]",
+                                    "color": "gray",
+                                    "italic": false
+                                },
+                                {
+                                    "text": "Staff of Earth [+1]",
+                                    "color": "gray",
+                                    "italic": false
+                                },
+                                {
+                                    "text": "Staff of Fire [+1]",
+                                    "color": "gray",
+                                    "italic": false
+                                },
+                                {
+                                    "text": "Staff of Water [+1]",
+                                    "color": "gray",
+                                    "italic": false
+                                },
+                                {
+                                    "text": "Staff of Time [+1]",
+                                    "color": "gray",
+                                    "italic": false
+                                },
+                                {
+                                    "text": "Staff of Space [+1]",
                                     "color": "gray",
                                     "italic": false
                                 }

@@ -5,12 +5,12 @@
             "text": "Curse of Strad"
         },
         "description": {
-            "text": "Cast 'Song' using Strad"
+            "text": "Cast the 'Song' spell using Strad"
         },
         "icon": {
             "item": "minecraft:music_disc_strad"
         },
-        "frame": "challenge",
+        "frame": "task",
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": true

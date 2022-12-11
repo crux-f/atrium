@@ -1,17 +1,17 @@
 {
-    "__comment": "Exclusive",
+    "__comment": "Exclusive to players who played in 2022.",
     "display": {
         "title": {
-            "text": "Explorer",
-            "color": "aqua",
+            "text": "Designer",
+            "color": "green",
             "bold": true
         },
         "description": {
-            "text": "You played in 2021! Lets hope for a less rocky start this time.",
+            "text": "You played in 2022! Fellstar wouldn't be the same without you.",
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:iron_pickaxe"
+            "item": "minecraft:golden_pickaxe"
         },
         "frame": "challenge",
         "show_toast": true,
@@ -19,12 +19,12 @@
         "hidden": true
     },
     "criteria": {
-        "join_2021": {
+        "join_2022": {
             "trigger": "minecraft:impossible"
         }
     },
         "rewards": {
 		"experience": 85
 	},
-        "parent": "atrium:atrium_2020"
+        "parent": "atrium:atrium_2021"
 }

@@ -1,0 +1,16 @@
+{
+    "name": "atrium:city/plains/city_centers",
+    "fallback": "minecraft:village/plains/town_centers",
+    "elements": [
+      {
+        "weight": 3,
+        "element": {
+          "location": "atrium:city/plains/city_centers/guild_hall_0",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      }
+    ]
+  }
+  

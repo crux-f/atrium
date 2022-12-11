@@ -1,0 +1,16 @@
+{
+    "name": "atrium:city/plains/terminators",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 3,
+        "element": {
+          "location": "atrium:city/plains/terminators/terminator_01",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      }
+    ]
+  }
+  

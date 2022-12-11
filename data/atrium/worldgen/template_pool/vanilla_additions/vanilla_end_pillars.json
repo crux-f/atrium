@@ -1,0 +1,33 @@
+{
+  "name": "atrium:vanilla_additions/vanilla_end_pillars",
+  "fallback": "atrium:vanilla_additions/averting_end_pillars",
+  "elements": [
+    {
+      "weight": 2,
+      "element": {
+        "location": "atrium:vanilla_additions/end_pillar_short_cage",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "atrium:vanilla_additions/end_pillar_medium",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "atrium:vanilla_additions/end_pillar_tall",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

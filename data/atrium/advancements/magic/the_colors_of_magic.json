@@ -1,0 +1,59 @@
+{
+    "__comment": "Acquired by having all level 3 elemental staves in your inventory",
+    "display": {
+        "title": {
+            "text": "The Colors Of Magic",
+            "color": "white"
+        },
+        "description": {
+            "text": "Wield each +3 Staff at once"
+        },
+        "icon": {
+            "item": "minecraft:enchanted_book"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "havelevel3staves": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{airstaff:1b,lv3:1b}"
+                    },
+                    {
+                        "nbt": "{earthstaff:1b,lv3:1b}"
+                    },
+                    {
+                        "nbt": "{firestaff:1b,lv3:1b}"
+                    },
+                    {
+                        "nbt": "{waterstaff:1b,lv3:1b}"
+                    },
+                    {
+                        "nbt": "{moltenstaff:1b,lv2:1b}"
+                    },
+                    {
+                        "nbt": "{verdantstaff:1b,lv2:1b}"
+                    },
+                    {
+                        "nbt": "{voltaicstaff:1b,lv2:1b}"
+                    },
+                    {
+                        "nbt": "{frigidstaff:1b,lv2:1b}"
+                    },
+                    {
+                        "nbt": "{melodicstaff:1b,lv2:1b}"
+                    },
+                    {
+                        "nbt": "{volatilestaff:1b,lv2:1b}"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "atrium:magic/by_our_powers_combined"
+}

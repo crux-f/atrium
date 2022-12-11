@@ -1,31 +1,31 @@
 {
-    "__comment": "All the events that took place in 2020 fall into this category.",
+    "__comment": "All the events that took place in 2023 fall into this category.",
     "display": {
         "title": {
-            "text": "2020",
+            "text": "2023",
             "color": "white",
             "bold": false
         },
         "description": {
-            "text": "All Atrium Events in 2020.",
+            "text": "All Atrium Events in 2023.",
             "color": "green",
             "italic": true
         },
         "icon": {
-            "item": "minecraft:stone_pickaxe"
+            "item": "minecraft:diamond_pickaxe"
         },
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": false,
-        "hidden": true
+        "hidden": false
     },
     "criteria": {
-        "anewdawn": {
+        "2023_events": {
             "trigger": "minecraft:impossible"
         }
     },
-    "rewards": {
-        "experience": 0
-    },
-    "parent": "atrium:events_explanation"
+        "rewards": {
+		"experience": 0
+	},
+        "parent": "atrium:events_explanation"
 }
