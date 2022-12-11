@@ -11,7 +11,7 @@
       "tick_chance": 0.0011
     },
     "music": {
-      "sound": "minecraft:atrium.slowburn",
+      "sound": "atrium:music.depths.volcanic_caves",
       "min_delay": 12000,
       "max_delay": 24000,
       "replace_current_music": false
@@ -22,7 +22,7 @@
       },
       "probability": 0.09
     },
-    "ambient_sound": "minecraft:atrium.ambient.volcanic_caves.loop",
+    "ambient_sound": "atrium:ambient.volcanic_caves.loop",
     "sky_color": 0,
     "fog_color": 0,
     "water_color": 6095,

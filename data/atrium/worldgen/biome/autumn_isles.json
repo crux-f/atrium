@@ -1,17 +1,17 @@
 {
   "effects": {
     "mood_sound": {
-      "sound": "minecraft:atrium.ambient.autumn_isles.mood",
+      "sound": "atrium:ambient.autumn_isles.mood",
       "tick_delay": 6000,
       "block_search_extent": 8,
       "offset": 2
     },
     "additions_sound": {
-      "sound": "minecraft:atrium.ambient.autumn_isles.additions",
+      "sound": "atrium:ambient.meridian.autumn_isles.additions",
       "tick_chance": 0.001111
     },
     "music": {
-      "sound": "minecraft:atrium.pineneedletea",
+      "sound": "atrium:music.meridian.autumn_isles",
       "min_delay": 12000,
       "max_delay": 24000,
       "replace_current_music": false
@@ -22,7 +22,7 @@
       },
       "probability": 0.0001
     },
-    "ambient_sound": "minecraft:atrium.ambient.autumn_isles.loop",
+    "ambient_sound": "atrium:ambient.autumn_isles.loop",
     "sky_color": 14155775,
     "fog_color": 14155775,
     "water_color": 3263717,

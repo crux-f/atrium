@@ -1,13 +1,13 @@
 {
   "effects": {
     "mood_sound": {
-      "sound": "minecraft:atrium.ambient.crystal_caves.mood",
+      "sound": "atrium:ambient.crystal_caves.mood",
       "tick_delay": 6000,
       "block_search_extent": 8,
       "offset": 2
     },
     "music": {
-      "sound": "minecraft:atrium.geotaspride",
+      "sound": "atrium:music.depths.crawling_caves",
       "min_delay": 12000,
       "max_delay": 24000,
       "replace_current_music": false
