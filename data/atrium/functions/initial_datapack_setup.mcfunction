@@ -18,6 +18,8 @@ scoreboard objectives add entropy dummy {"text":"Entropy","color":"dark_gray"}
 #
 # charge is used for any items that can charge up to use a special ability
 scoreboard objectives add charge dummy {"text":"Charge Level","color":"green"}
+# atrium_dance_spell is used for Dance, the air ultimate
+scoreboard objectives add atrium_dance_spell dummy {"text":"Dance Bounces","color":"yellow"}
 #
 # Shrines - - -
 # Each of the 13 gods has a Favor counter for shrine functionality.

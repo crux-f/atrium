@@ -15,18 +15,18 @@ execute positioned ~-2 ~ ~ run summon glow_item_frame ~ ~ ~ {Facing:1b,Invisible
 execute positioned ~-2 ~ ~ run particle minecraft:portal ~ ~ ~ 0.1 0.5 0.1 0.1 15
 #
 # Run the next part
-function atrium:items/use/placeable_structures/infusion_circle/build_infusion_circle_3
+function atrium:items/use/placeable_structures/alchemy_cauldron/build_alchemy_cauldron_3
 #
 # More Stone thing
 execute positioned ~ ~ ~-8 run playsound minecraft:block.stone.place block @a[distance=..5] ~ ~ ~ 0.5 1 0.1
 #
-setblock ~ ~1 ~-6 minecraft:stone_button[facing=south]
-setblock ~ ~1 ~-7 minecraft:chiseled_stone_bricks
-setblock ~ ~1 ~-8 command_block[conditional=false,facing=south]{Command:"/function atrium:formula_crafting/infusion/activate_infusion_circle",auto:0b,CustomName:'{"text":"Infusion Circle","color":"yellow","italic":false}'} replace
-setblock ~ ~1 ~-9 minecraft:stone
-setblock ~-1 ~1 ~-7 minecraft:stone
-setblock ~-1 ~1 ~-8 minecraft:stone
-setblock ~1 ~1 ~-7 minecraft:stone
-setblock ~1 ~1 ~-8 minecraft:stone
-setblock ~-2 ~1 ~-8 minecraft:stone
-setblock ~2 ~1 ~-8 minecraft:stone
+setblock ~ ~1 ~-3 minecraft:stone_button[facing=south]
+setblock ~ ~1 ~-4 minecraft:chiseled_stone_bricks
+setblock ~ ~1 ~-5 command_block[conditional=false,facing=south]{Command:"/function atrium:formula_crafting/alchemy/activate_alchemy_cauldron",auto:0b,CustomName:'{"text":"Alchemy Cauldron","color":"yellow","italic":false}'} replace
+setblock ~ ~1 ~-6 minecraft:stone
+setblock ~-1 ~1 ~-4 minecraft:stone
+setblock ~-1 ~1 ~-5 minecraft:stone
+setblock ~1 ~1 ~-4 minecraft:stone
+setblock ~1 ~1 ~-5 minecraft:stone
+setblock ~-2 ~1 ~-5 minecraft:stone
+setblock ~2 ~1 ~-5 minecraft:stone

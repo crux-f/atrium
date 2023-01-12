@@ -18,8 +18,8 @@ setblock ~-1 ~ ~-9 minecraft:stone
 setblock ~1 ~ ~-7 minecraft:stone
 setblock ~1 ~ ~-8 minecraft:stone
 setblock ~1 ~ ~-9 minecraft:stone
-setblock ~-2 ~ ~8 minecraft:stone
-setblock ~2 ~ ~8 minecraft:stone
+setblock ~-2 ~ ~-8 minecraft:stone
+setblock ~2 ~ ~-8 minecraft:stone
 #
 # Summon the marker entity which tracks everything to do with this crafting station
 summon marker ~ ~ ~ {Tags:["atrium_crafting_station","infusion_circle"],CustomName:'{"text":"Infusion Circle","color":"yellow","italic":false}',data:{Owner:[I;110787060,1156138790,-1514210135,238594805]}}
