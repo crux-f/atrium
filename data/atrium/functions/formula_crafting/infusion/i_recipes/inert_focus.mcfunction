@@ -16,3 +16,4 @@ execute positioned ~3 ~ ~3 if entity @e[type=minecraft:glow_item_frame,distance=
 execute if entity @s[scores={valid_ingredients=3..}] at @s run summon item ~ ~1 ~ {NoGravity:1b,Glowing:1b,Item:{id:"minecraft:stick",Count:1b,tag:{display:{Name:'{"text":"Inert Focus","italic":false}'},CustomModelData:333059,atrium_inert_focus:1b}}}
 execute if entity @s[scores={valid_ingredients=3..}] at @s run function atrium:formula_crafting/infusion/infusion_reset
 scoreboard players set @s valid_ingredients 0
+

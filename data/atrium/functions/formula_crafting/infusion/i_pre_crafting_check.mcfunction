@@ -36,5 +36,3 @@ execute if entity @s[scores={valid_ingredients=..11}] run function atrium:formul
 # If the circle has 12 or higher, the check passes.
 #
 execute if entity @s[scores={valid_ingredients=12..}] run function atrium:formula_crafting/infusion/infusion_base_item
-# Reset score
-scoreboard players set @s valid_ingredients 0

@@ -27,5 +27,4 @@ execute if entity @s[scores={valid_ingredients=..7}] run function atrium:formula
 # If the circle has 4 or higher, the check passes.
 #
 execute if entity @s[scores={valid_ingredients=8..}] run function atrium:formula_crafting/enchantment/enchantment_base_item
-# Reset score
-scoreboard players set @s valid_ingredients 0
+

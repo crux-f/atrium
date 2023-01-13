@@ -22,7 +22,7 @@
 				"count": 1
 			}, {
 				"function": "set_nbt",
-				"tag": "{flickering_fuel:1b}"
+				"tag": "{atrium_flickering_fuel:1b}"
 			}, {
 				"function": "set_name",
 				"name": [{
@@ -73,23 +73,7 @@
 				"count": 1
 			}, {
 				"function": "set_nbt",
-				"tag": "{charged_blaze_rod:1b,Enchantments:[{id:\"minecraft:power\",lvl:1s}]}"
-			}, {
-				"function": "set_name",
-				"name": [{
-					"text": "Charged Blaze Rod",
-					"color": "red",
-					"italic": false
-				}]
-			}, {
-				"function": "set_lore",
-				"lore": [{
-					"text": "This blaze rod seems"
-				}, {
-					"text": "to have maintained the"
-				}, {
-					"text": "Blaze's elemental energy."
-				}]
+				"tag": "{display:{Name:'{\"text\":\"Charged Blaze Rod\",\"italic\":false}',Lore:['{\"text\":\"It radiates more heat\"}','{\"text\":\"than the others.\"}']},CustomModelData:333068,atrium_charged_blaze_rod:1b}"
 			}]
 		}]
 	}]
