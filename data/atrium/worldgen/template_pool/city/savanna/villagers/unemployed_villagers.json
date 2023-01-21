@@ -1,0 +1,16 @@
+{
+    "name": "atrium:city/savanna/villagers/unemployed_villagers",
+    "fallback": "minecraft:village/savanna/villagers",
+    "elements": [
+      {
+        "weight": 1,
+        "element": {
+          "location": "minecraft:village/savanna/villagers/unemployed",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      }
+    ]
+  }
+  
