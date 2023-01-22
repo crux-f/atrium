@@ -1,7 +1,15 @@
 {
   "structures": [
     {
+      "structure": "atrium:shrines/dual/depths_shroom_shrine",
+      "weight": 10
+    },
+    {
       "structure": "atrium:shrines/geota/crystal_shrine",
+      "weight": 10
+    },
+    {
+      "structure": "atrium:shrines/ghael/depths_portal_shrine",
       "weight": 10
     }
   ],

@@ -1,14 +1,14 @@
 {
   "structures": [
     {
-      "structure": "atrium:natural/underground/hell_geode",
+      "structure": "atrium:misc/crimson_forest_poi",
       "weight": 3
     }
   ],
   "placement": {
-    "salt": 666,
+    "salt": 666666,
     "spacing": 30,
-    "separation": 20,
+    "separation": 18,
     "type": "minecraft:random_spread"
   }
 }

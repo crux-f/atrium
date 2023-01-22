@@ -1,0 +1,15 @@
+{
+  "name": "atrium:misc/crimson_forest_poi",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "atrium:misc/poi/crimson_forest_piglin_shop_0",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

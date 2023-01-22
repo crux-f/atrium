@@ -1,11 +1,23 @@
 {
   "structures": [
     {
-      "structure": "atrium:misc/fang_hideaway",
+      "structure": "atrium:misc/forest_poi",
       "weight": 5
     },
     {
       "structure": "atrium:misc/jungle_poi",
+      "weight": 5
+    },
+    {
+      "structure": "atrium:misc/fang_hideaway",
+      "weight": 5
+    },
+    {
+      "structure": "atrium:misc/plains_poi",
+      "weight": 5
+    },
+    {
+      "structure": "atrium:misc/snowy_mountains_poi",
       "weight": 5
     },
     {

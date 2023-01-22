@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": [
+    "atrium:volcanic_caves"
+  ],
+  "step": "underground_structures",
+  "spawn_overrides": {},
+  "terrain_adaptation": "beard_box",
+  "start_pool": "atrium:shrines/ghael/depths_portal_shrine_variations",
+  "size": 1,
+  "start_height": {
+    "type": "minecraft:uniform",
+    "min_inclusive": {
+      "absolute": 10
+    },
+    "max_inclusive": {
+      "absolute": 500
+    }
+  },
+  "max_distance_from_center": 80,
+  "use_expansion_hack": false
+}

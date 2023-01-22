@@ -1,0 +1,15 @@
+{
+  "name": "atrium:misc/snowy_mountains_poi",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 2,
+      "element": {
+        "location": "atrium:misc/poi/mountain_camp_0",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

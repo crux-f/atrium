@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": [
+    "minecraft:dripstone_caves",
+    "atrium:clotted_caves"
+  ],
+  "step": "underground_structures",
+  "spawn_overrides": {},
+  "terrain_adaptation": "beard_thin",
+  "start_pool": "atrium:shrines/geota/dripstone_shrine_variations",
+  "size": 3,
+  "start_height": {
+    "type": "minecraft:uniform",
+    "min_inclusive": {
+      "absolute": 10
+    },
+    "max_inclusive": {
+      "absolute": 70
+    }
+  },
+  "max_distance_from_center": 20,
+  "use_expansion_hack": false
+}
