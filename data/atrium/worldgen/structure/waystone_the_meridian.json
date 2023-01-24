@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": [
+    "atrium:autumn_isles",
+    "atrium:cloudgarden",
+    "atrium:cloudpine_forest",
+    "atrium:overgrown_isles",
+    "atrium:sand_isles",
+    "atrium:shards",
+    "atrium:sky"
+  ],
+  "step": "surface_structures",
+  "spawn_overrides": {},
+  "terrain_adaptation": "beard_thin",
+  "start_pool": "atrium:waystone_the_meridian",
+  "size": 1,
+  "start_height": {
+    "type": "minecraft:uniform",
+    "min_inclusive": {
+      "above_bottom": 30
+    },
+    "max_inclusive": {
+      "below_top": 10
+    }
+  },
+  "max_distance_from_center": 25,
+  "use_expansion_hack": false
+}

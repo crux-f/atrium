@@ -1,0 +1,34 @@
+{
+  "structures": [
+    {
+      "structure": "atrium:waystone_overworld_land",
+      "weight": 1
+    },
+    {
+      "structure": "atrium:waystone_overworld_sea",
+      "weight": 1
+    },
+    {
+      "structure": "atrium:waystone_overworld_cave",
+      "weight": 1
+    },
+    {
+      "structure": "atrium:waystone_the_nether",
+      "weight": 1
+    },
+    {
+      "structure": "atrium:waystone_the_meridian",
+      "weight": 1
+    },
+    {
+      "structure": "atrium:waystone_the_depths",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 999999999,
+    "spacing": 41,
+    "separation": 15,
+    "type": "minecraft:random_spread"
+  }
+}

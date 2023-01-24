@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": [
+    "atrium:avalanche_caves",
+    "atrium:clotted_caves",
+    "atrium:crawling_caves",
+    "atrium:crystal_caves",
+    "atrium:frozen_caves",
+    "atrium:silent_caves",
+    "atrium:spore_caves",
+    "atrium:volcanic_caves"
+  ],
+  "step": "surface_structures",
+  "spawn_overrides": {},
+  "terrain_adaptation": "beard_box",
+  "start_pool": "atrium:waystone_the_depths",
+  "size": 1,
+  "start_height": {
+    "type": "minecraft:uniform",
+    "min_inclusive": {
+      "above_bottom": 10
+    },
+    "max_inclusive": {
+      "below_top": 50
+    }
+  },
+  "max_distance_from_center": 25,
+  "use_expansion_hack": false
+}
