@@ -116,7 +116,7 @@
                 "name": [
                   {
                     "text": "Butcher Paper",
-                    "italic": "false"
+                    "italic": false
                   }
                 ]
               }
@@ -190,7 +190,7 @@
                 "name": [
                   {
                     "text": "Butcher's Axe",
-                    "italic": "false"
+                    "italic": false
                   }
                 ]
               },
@@ -221,7 +221,7 @@
                 "name": [
                   {
                     "text": "T-Bone",
-                    "italic": "false"
+                    "italic": false
                   }
                 ]
               }
@@ -272,14 +272,14 @@
               },
               {
                 "function": "set_nbt",
-                "tag": "{CustomModelData:333070,atrium_sea_salt:1b}"
+                "tag": "{CustomModelData:333071,atrium_sea_salt:1b}"
               },
               {
                 "function": "set_name",
                 "name": [
                   {
                     "text": "Sea Salt",
-                    "italic": "false"
+                    "italic": false
                   }
                 ]
               }
