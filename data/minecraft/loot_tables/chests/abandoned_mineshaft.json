@@ -76,7 +76,7 @@
           "type": "loot_table",
           "weight": 15,
           "quality": 3,
-          "name": "atrium:treasure/vanilla_chest_additions/abandoned_mineshaft",
+          "name": "atrium:chests/vanilla_chest_additions/abandoned_mineshaft",
           "functions": [
             {
               "function": "set_count",
@@ -276,7 +276,7 @@
                 }
           ],
           "weight": 100,
-          "name": "atrium:treasure/vanilla_chest_additions/quests/mineshaft_quest",
+          "name": "atrium:chests/vanilla_chest_additions/quests/mineshaft_quest",
           "functions": [
             {
               "function": "set_count",

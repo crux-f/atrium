@@ -91,6 +91,10 @@
     {
       "structure": "atrium:shrines/taraqsol/snow_camp_shrine",
       "weight": 10
+    },
+    {
+      "structure": "atrium:shrines/maw/dark_forest_fane_shrine",
+      "weight": 10
     }
   ],
   "placement": {

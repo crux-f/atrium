@@ -16,7 +16,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{ornate_chalice:1b,curiosity:1b,SkullOwner:{Id:[I;-604797885,764101470,-1726067749,-766484999],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWViMWVjMTEyZjY4ZDE4NDk3NTQxNDk1ODkzYTM3NWMzMTdhNzc3ZTAxM2JiZjEzNTg5YjFkODg1MzJjYyJ9fX0=\"}]}}}"
+              "tag": "{atrium_ornate_chalice:1b,atrium_curiosity:1b,SkullOwner:{Id:[I;-604797885,764101470,-1726067749,-766484999],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWViMWVjMTEyZjY4ZDE4NDk3NTQxNDk1ODkzYTM3NWMzMTdhNzc3ZTAxM2JiZjEzNTg5YjFkODg1MzJjYyJ9fX0=\"}]}}}"
             },
             {
               "function": "set_name",
@@ -86,7 +86,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{antique_crossbow:1b,curiosity:1b,Enchantments:[{id:\"minecraft:unbreaking\",lvl:3s}]}"
+              "tag": "{atrium_antique_crossbow:1b,atrium_curiosity:1b,Enchantments:[{id:\"minecraft:unbreaking\",lvl:3s}]}"
             },
             {
               "function": "set_name",
@@ -133,7 +133,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{traveler_bust:1b,curiosity:1b,SkullOwner:{Id:[I;-1713100179,1153715042,-1560745282,-1663096525],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGYyYzlkYzMxNGJlZmM4ZDEyZjJlODc4NmM5NDM1YmZkMjRkOTExNmZjOTRjNWVjNDVmZDgzYmQyZGM4NGE0ZiJ9fX0=\"}]}}}"
+              "tag": "{atrium_traveler_bust:1b,atrium_curiosity:1b,SkullOwner:{Id:[I;-1713100179,1153715042,-1560745282,-1663096525],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGYyYzlkYzMxNGJlZmM4ZDEyZjJlODc4NmM5NDM1YmZkMjRkOTExNmZjOTRjNWVjNDVmZDgzYmQyZGM4NGE0ZiJ9fX0=\"}]}}}"
             },
             {
               "function": "set_name",
@@ -172,6 +172,22 @@
         {
           "type": "item",
           "weight": 2,
+          "quality": 2,
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Ancient Symbol\",\"color\":\"gray\",\"italic\":false}',Lore:['{\"text\":\"The Maw\",\"color\":\"dark_red\",\"italic\":false}']},atrium_maw_symbol:1b,SkullOwner:{Id:[I;81489484,-1263451975,-1084266018,2061566295],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmRjNDJiOWU2YzFlM2JjYjllMDRhYzdhOTE1YjVhNDQ3ZTc5MjVhMzYxZmNkNjg0YWVjN2UzNmY1YTljYTA3YyJ9fX0=\"}]}}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
           "quality": 0,
           "name": "minecraft:book",
           "functions": [
@@ -181,7 +197,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{curiosity:1b}"
+              "tag": "{atrium_curiosity:1b}"
             },
             {
               "function": "set_name",
@@ -230,7 +246,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{stolen_goods_plains:1b,BlockEntityTag:{LootTable:\"minecraft:chests/village/village_plains_house\"}}"
+              "tag": "{atrium_stolen_goods_plains:1b,BlockEntityTag:{LootTable:\"minecraft:chests/village/village_plains_house\"}}"
             },
             {
               "function": "set_name",
@@ -265,7 +281,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{stolen_goods_savanna:1b,BlockEntityTag:{LootTable:\"minecraft:chests/village/village_savanna_house\"}}"
+              "tag": "{atrium_stolen_goods_savanna:1b,BlockEntityTag:{LootTable:\"minecraft:chests/village/village_savanna_house\"}}"
             },
             {
               "function": "set_name",
@@ -300,7 +316,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{stolen_goods_desert:1b,BlockEntityTag:{LootTable:\"minecraft:chests/village/village_desert_house\"}}"
+              "tag": "{atrium_stolen_goods_desert:1b,BlockEntityTag:{LootTable:\"minecraft:chests/village/village_desert_house\"}}"
             },
             {
               "function": "set_name",
@@ -335,7 +351,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{stolen_goods_taiga:1b,BlockEntityTag:{LootTable:\"minecraft:chests/village/village_taiga_house\"}}"
+              "tag": "{atrium_stolen_goods_taiga:1b,BlockEntityTag:{LootTable:\"minecraft:chests/village/village_taiga_house\"}}"
             },
             {
               "function": "set_name",

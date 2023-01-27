@@ -275,7 +275,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{CustomModelData:333070,atrium_sea_salt:1b}"
+              "tag": "{CustomModelData:333080,atrium_sea_salt:1b}"
             },
             {
               "function": "set_name",
