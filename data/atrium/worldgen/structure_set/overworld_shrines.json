@@ -53,6 +53,10 @@
       "weight": 10
     },
     {
+      "structure": "atrium:shrines/oswald/jungle_moss_shrine",
+      "weight": 10
+    },
+    {
       "structure": "atrium:shrines/oswald/lush_cave_shrine",
       "weight": 10
     },
