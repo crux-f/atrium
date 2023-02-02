@@ -11,11 +11,11 @@
               "location": {
                 "position": {
                   "y": {
-                    "min": -64,
-                    "max": 1
+                    "min": -116,
+                    "max": -65
                   }
                 },
-                "dimension": "atrium:the_meridian"
+                "dimension": "minecraft:overworld"
               }
             }
           }
@@ -24,6 +24,6 @@
     }
   },
   "rewards": {
-    "function": "atrium:triggers/random_events/fall_out_of_meridian"
+    "function": "atrium:triggers/random_events/fall_out_of_overworld"
   }
 }
