@@ -11,4 +11,4 @@ execute if block ~ ~ ~ minecraft:respawn_anchor unless block ~ ~ ~ minecraft:res
 #
 # Afflict all Ghost players with Darkness (limits the ability for people to Big Exploit the ability to find underground stuff)
 # UNLESS they are near a living player
-execute unless entity @a[distance=..10,gamemode=!spectator] run effect give @s minecraft:darkness 2 0 true
+execute unless entity @a[distance=..10,gamemode=!spectator] run effect give @s[tag=!atrium_darkness_immune] minecraft:darkness 2 0 true
