@@ -1,82 +1,226 @@
 {
-  "type": "minecraft:chest",
+  "type": "chest",
   "pools": [
     {
-      "rolls": {
-        "type": "minecraft:uniform",
-        "min": 1.0,
-        "max": 5.0
-      },
-      "bonus_rolls": 0.0,
+      "rolls": 8,
+      "bonus_rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "weight": 10,
+          "type": "item",
+          "weight": 23,
+          "quality": 5,
+          "name": "minecraft:emerald",
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "function": "set_count",
               "count": {
-                "type": "minecraft:uniform",
-                "min": 1.0,
-                "max": 3.0
-              },
-              "add": false
+                "min": 9,
+                "max": 27
+              }
             }
-          ],
-          "name": "minecraft:map"
+          ]
         },
         {
-          "type": "minecraft:item",
-          "weight": 15,
+          "type": "item",
+          "weight": 25,
+          "quality": 5,
+          "name": "minecraft:map",
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "function": "set_count",
               "count": {
-                "type": "minecraft:uniform",
-                "min": 1.0,
-                "max": 5.0
-              },
-              "add": false
+                "min": 1,
+                "max": 3
+              }
             }
-          ],
-          "name": "minecraft:paper"
+          ]
         },
         {
-          "type": "minecraft:item",
-          "weight": 5,
-          "name": "minecraft:compass"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 15,
+          "type": "item",
+          "weight": 30,
+          "quality": 3,
+          "name": "minecraft:paper",
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "function": "set_count",
               "count": {
-                "type": "minecraft:uniform",
-                "min": 1.0,
-                "max": 4.0
-              },
-              "add": false
+                "min": 12,
+                "max": 33
+              }
             }
-          ],
-          "name": "minecraft:bread"
+          ]
         },
         {
-          "type": "minecraft:item",
-          "weight": 5,
+          "type": "item",
+          "weight": 21,
+          "name": "minecraft:spyglass",
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "function": "set_count",
               "count": {
-                "type": "minecraft:uniform",
-                "min": 1.0,
-                "max": 2.0
-              },
-              "add": false
+                "min": 1,
+                "max": 2
+              }
             }
-          ],
-          "name": "minecraft:stick"
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "quality": 3,
+          "name": "minecraft:compass",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 6,
+          "quality": 3,
+          "name": "minecraft:glass_pane",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 7,
+                "max": 16
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 6,
+          "name": "minecraft:white_stained_glass_pane",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 7,
+                "max": 16
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 6,
+          "name": "minecraft:orange_stained_glass_pane",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 7,
+                "max": 16
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 6,
+          "name": "minecraft:purple_stained_glass_pane",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 7,
+                "max": 16
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 6,
+          "name": "minecraft:brown_stained_glass",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 7,
+                "max": 16
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 8,
+          "name": "minecraft:magenta_banner",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 8,
+          "name": "minecraft:orange_banner",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 8,
+          "quality": 3,
+          "name": "minecraft:white_banner",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 21,
+          "quality": 4,
+          "name": "minecraft:glow_item_frame",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 7
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 28,
+          "name": "minecraft:item_frame",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 4,
+                "max": 9
+              }
+            }
+          ]
         }
       ]
     }
