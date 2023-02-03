@@ -2,16 +2,16 @@
     "__comment": "Acquired by crafting a level 2 staff",
     "display": {
         "title": {
-            "text": "Arcane Adept",
+            "text": "Coming Soon",
             "color": "white"
         },
         "description": {
-            "text": "Upgrade an arcane Staff"
+            "text": "???"
         },
         "icon": {
             "item": "minecraft:firework_star"
         },
-        "frame": "goal",
+        "frame": "task",
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false

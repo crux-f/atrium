@@ -15,4 +15,5 @@ execute positioned ~ ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=
 #
 execute if entity @s[scores={valid_ingredients=3..}] at @s run summon item ~ ~1 ~ {Motion:[0.0,0.02,0.0],NoGravity:1b,Glowing:1b,Item:{id:"minecraft:potion",Count:1b,tag:{display:{Name:'{"text":"Potion of Fire Resistance","italic":false}'},CustomModelData:333067,atrium_longer_fire_resistance:1b,atrium_tier_3_potion:1b,CustomPotionEffects:[{Id:12,Amplifier:0b,Duration:20400,ShowParticles:1b}],Potion:"minecraft:empty",CustomPotionColor:14981690}}}
 execute if entity @s[scores={valid_ingredients=3..}] at @s run function atrium:formula_crafting/alchemy/alchemy_reset
+execute if entity @s[scores={valid_ingredients=3..}] at @s positioned ~ ~ ~-2 run advancement grant @p[distance=..5,gamemode=!spectator] only atrium:magic/secret_ingredient
 scoreboard players set @s valid_ingredients 0

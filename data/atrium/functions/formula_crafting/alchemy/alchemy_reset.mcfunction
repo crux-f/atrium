@@ -19,4 +19,4 @@ particle minecraft:smoke ~ ~1 ~ 0.3 0.3 0.3 0 50 normal
 playsound minecraft:block.brewing_stand.brew block @a[distance=..15] ~ ~ ~ 0.75 0.75 0.1
 # achievement!
 execute positioned ~ ~ ~-7 run advancement grant @p[distance=..5,gamemode=!spectator] only atrium:magic/magic_root
-execute positioned ~ ~ ~-7 run advancement grant @p[distance=..5,gamemode=!spectator] only atrium:magic/formulaic
+execute positioned ~ ~ ~-7 run advancement grant @p[distance=..5,gamemode=!spectator] only atrium:magic/arcane_brewery
