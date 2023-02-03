@@ -48,4 +48,4 @@ particle minecraft:portal ~ ~1 ~ 0.3 0.3 0.3 1 500 normal
 playsound minecraft:block.beacon.activate block @a[distance=..15] ~ ~ ~ 1 1 0.1
 # achievement!
 execute positioned ~ ~ ~-7 run advancement grant @p[distance=..5,gamemode=!spectator] only atrium:magic/magic_root
-execute positioned ~ ~ ~-7 run advancement grant @p[distance=..5,gamemode=!spectator] only atrium:magic/formulaic
+execute positioned ~ ~ ~-7 run advancement grant @p[distance=..5,gamemode=!spectator] only atrium:magic/some_assembly_required

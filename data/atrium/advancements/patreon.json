@@ -12,7 +12,8 @@
             "italic": true
         },
         "icon": {
-            "item": "minecraft:experience_bottle"
+            "item": "minecraft:orange_candle",
+            "nbt": "{CustomModelData:333003}"
         },
         "frame": "challenge",
         "show_toast": true,
