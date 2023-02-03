@@ -1,5 +1,5 @@
 {
-    "__comment": "Designates players who started at Earth in Iteration 2.",
+    "__comment": "For players who have started at the Earth start at least once.",
     "display": {
         "title": {
             "text": "Memory of Earth",
@@ -27,5 +27,5 @@
     "rewards": {
         "experience": 0
     },
-    "parent": "atrium:earth_start"
+    "parent": "atrium:water_memory"
 }

@@ -1,5 +1,5 @@
 {
-    "__comment": "Designates players who started at Sunset Archipelago.",
+    "__comment": "For players who have started at the Water start at least once.",
     "display": {
         "title": {
             "text": "Memory of Water",
@@ -27,5 +27,5 @@
     "rewards": {
         "experience": 0
     },
-    "parent": "atrium:water_start"
+    "parent": "atrium:atrium_root"
 }
