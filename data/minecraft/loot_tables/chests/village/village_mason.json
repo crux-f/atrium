@@ -1,70 +1,184 @@
 {
-  "type": "minecraft:chest",
+  "type": "chest",
   "pools": [
     {
-      "rolls": {
-        "type": "minecraft:uniform",
-        "min": 1.0,
-        "max": 5.0
-      },
-      "bonus_rolls": 0.0,
+      "rolls": 7,
+      "bonus_rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
+          "type": "item",
+          "weight": 5,
+          "quality": 1,
+          "name": "minecraft:white_glazed_terracotta",
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "function": "set_count",
               "count": {
-                "type": "minecraft:uniform",
-                "min": 1.0,
-                "max": 3.0
-              },
-              "add": false
+                "min": 5,
+                "max": 12
+              }
             }
-          ],
-          "name": "minecraft:clay_ball"
+          ]
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:flower_pot"
+          "type": "item",
+          "weight": 5,
+          "quality": 1,
+          "name": "minecraft:orange_glazed_terracotta",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 5,
+                "max": 12
+              }
+            }
+          ]
         },
         {
-          "type": "minecraft:item",
-          "weight": 2,
-          "name": "minecraft:stone"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 2,
-          "name": "minecraft:stone_bricks"
-        },
-        {
-          "type": "minecraft:item",
+          "type": "item",
           "weight": 4,
+          "quality": 1,
+          "name": "minecraft:magenta_glazed_terracotta",
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "function": "set_count",
               "count": {
-                "type": "minecraft:uniform",
-                "min": 1.0,
-                "max": 4.0
-              },
-              "add": false
+                "min": 5,
+                "max": 12
+              }
             }
-          ],
-          "name": "minecraft:bread"
+          ]
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:yellow_dye"
+          "type": "item",
+          "weight": 5,
+          "quality": 1,
+          "name": "minecraft:light_blue_glazed_terracotta",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 5,
+                "max": 12
+              }
+            }
+          ]
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:smooth_stone"
+          "type": "item",
+          "weight": 5,
+          "quality": 1,
+          "name": "minecraft:yellow_glazed_terracotta",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 5,
+                "max": 12
+              }
+            }
+          ]
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:emerald"
+          "type": "item",
+          "weight": 8,
+          "name": "minecraft:yellow_concrete",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 5,
+                "max": 12
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 8,
+          "name": "minecraft:light_blue_concrete",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 5,
+                "max": 12
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 10,
+          "name": "minecraft:white_concrete",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 5,
+                "max": 12
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 8,
+          "quality": 1,
+          "name": "minecraft:quartz_pillar",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 5,
+                "max": 12
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 8,
+          "name": "minecraft:calcite",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 5,
+                "max": 12
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 10,
+          "name": "minecraft:brick",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 3,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 8,
+          "quality": 2,
+          "name": "minecraft:emerald_block",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
         }
       ]
     }
