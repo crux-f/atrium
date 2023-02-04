@@ -94,7 +94,7 @@
               },
               {
                 "function": "set_nbt",
-                "tag": "{silas_egg:1b}"
+                "tag": "{silas_egg:1b,CustomModelData:333081}"
               },
               {
                 "function": "set_name",
