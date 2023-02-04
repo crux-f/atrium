@@ -95,7 +95,7 @@
                                         "argument": {
                                           "type": "minecraft:noise",
                                           "noise": "minecraft:cave_layer",
-                                          "xz_scale": 1.0,
+                                          "xz_scale": 4.0,
                                           "y_scale": 8.0
                                         }
                                       }
@@ -109,7 +109,7 @@
                                           "argument1": 0.27,
                                           "argument2": {
                                             "type": "minecraft:noise",
-                                            "noise": "minecraft:cave_cheese",
+                                            "noise": "minecraft:cave_layer",
                                             "xz_scale": 1.0,
                                             "y_scale": 0.6666666666666666
                                           }
