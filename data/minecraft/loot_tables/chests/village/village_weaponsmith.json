@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "item",
-          "weight": 22,
+          "weight": 26,
           "quality": 2,
           "name": "minecraft:gold_ingot",
           "functions": [
@@ -22,7 +22,7 @@
         },
         {
           "type": "item",
-          "weight": 27,
+          "weight": 35,
           "name": "minecraft:iron_ingot",
           "functions": [
             {
@@ -68,21 +68,21 @@
         },
         {
           "type": "item",
-          "weight": 25,
+          "weight": 30,
           "name": "minecraft:obsidian",
           "functions": [
             {
               "function": "set_count",
               "count": {
-                "min": 2,
-                "max": 5
+                "min": 3,
+                "max": 8
               }
             }
           ]
         },
         {
           "type": "item",
-          "weight": 25,
+          "weight": 26,
           "quality": 2,
           "name": "minecraft:emerald_block",
           "functions": [
@@ -97,7 +97,7 @@
         },
         {
           "type": "item",
-          "weight": 17,
+          "weight": 19,
           "quality": 2,
           "name": "minecraft:diamond",
           "functions": [
@@ -191,7 +191,7 @@
         },
         {
           "type": "item",
-          "weight": 33,
+          "weight": 23,
           "name": "minecraft:iron_sword",
           "functions": [
             {
@@ -202,12 +202,52 @@
         },
         {
           "type": "item",
-          "weight": 33,
+          "weight": 23,
           "name": "minecraft:iron_axe",
           "functions": [
             {
               "function": "set_count",
               "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 15,
+          "name": "minecraft:iron_sword",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 10.0,
+                "min": 0.0
+              },
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 15,
+          "name": "minecraft:iron_axe",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 10.0,
+                "min": 0.0
+              },
+              "treasure": true
             }
           ]
         }
