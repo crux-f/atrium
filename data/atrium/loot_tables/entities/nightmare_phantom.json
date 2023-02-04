@@ -1,0 +1,60 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:phantom_membrane",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": {
+                  "min": 2,
+                  "max": 3
+                }
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "quality": 1,
+            "name": "minecraft:phantom_spawn_egg",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{EntityTag:{DeathLootTable:\"atrium:entities/nightmare_phantom\",PersistenceRequired:1b,Health:25f,Size:2,CustomName:'{\"text\":\"Nightmare\",\"color\":\"light_purple\",\"italic\":false}',ActiveEffects:[{Id:12b,Amplifier:0b,Duration:199980,ShowParticles:0b}],Attributes:[{Name:generic.max_health,Base:25}]}}"
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Nightmare Stone",
+                    "color": "light_purple",
+                    "italic": false
+                  }
+                ]
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "text": "A nightmare swirls angrily"
+                  },
+                  {
+                    "text": "within. Do not break."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
