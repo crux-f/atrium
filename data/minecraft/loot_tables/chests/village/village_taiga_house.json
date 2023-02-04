@@ -1,158 +1,382 @@
 {
-  "type": "minecraft:chest",
+  "type": "chest",
   "pools": [
     {
-      "rolls": {
-        "type": "minecraft:uniform",
-        "min": 3.0,
-        "max": 8.0
-      },
-      "bonus_rolls": 0.0,
+      "rolls": 9,
+      "bonus_rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
+          "type": "item",
+          "weight": 15,
+          "quality": 2,
+          "name": "minecraft:clock",
           "functions": [
             {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1.0,
-                "max": 5.0
-              },
-              "add": false
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Helps pass the time.",
+                  "color": "gray"
+                }
+              ]
             }
-          ],
-          "name": "minecraft:iron_nugget"
+          ]
         },
         {
-          "type": "minecraft:item",
-          "weight": 2,
-          "name": "minecraft:fern"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 2,
-          "name": "minecraft:large_fern"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 10,
+          "type": "item",
+          "weight": 25,
+          "quality": 2,
+          "name": "minecraft:leather_boots",
           "functions": [
             {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1.0,
-                "max": 7.0
-              },
-              "add": false
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Snow Shoes",
+                  "italic": false
+                }
+              ]
             }
-          ],
-          "name": "minecraft:potato"
+          ]
         },
         {
-          "type": "minecraft:item",
-          "weight": 5,
+          "type": "item",
+          "weight": 25,
+          "quality": 2,
+          "name": "minecraft:mushroom_stew",
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "function": "set_count",
               "count": {
-                "type": "minecraft:uniform",
-                "min": 1.0,
-                "max": 7.0
-              },
-              "add": false
+                "min": 2,
+                "max": 4
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Hot!",
+                  "color": "gray"
+                },
+                {
+                  "text": "Almost too hot.",
+                  "color": "gray"
+                }
+              ]
             }
-          ],
-          "name": "minecraft:sweet_berries"
+          ]
         },
         {
-          "type": "minecraft:item",
-          "weight": 10,
+          "type": "item",
+          "weight": 25,
+          "quality": 2,
+          "name": "minecraft:beetroot_soup",
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "function": "set_count",
               "count": {
-                "type": "minecraft:uniform",
-                "min": 1.0,
-                "max": 4.0
-              },
-              "add": false
+                "min": 2,
+                "max": 4
+              }
             }
-          ],
-          "name": "minecraft:bread"
+          ]
         },
         {
-          "type": "minecraft:item",
-          "weight": 5,
+          "type": "item",
+          "weight": 25,
+          "quality": 2,
+          "name": "minecraft:rabbit_stew",
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "function": "set_count",
               "count": {
-                "type": "minecraft:uniform",
-                "min": 1.0,
-                "max": 5.0
-              },
-              "add": false
+                "min": 2,
+                "max": 4
+              }
             }
-          ],
-          "name": "minecraft:pumpkin_seeds"
+          ]
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:pumpkin_pie"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 2,
+          "type": "item",
+          "weight": 15,
+          "quality": 3,
+          "name": "minecraft:goat_horn",
           "functions": [
             {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1.0,
-                "max": 4.0
-              },
-              "add": false
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{instrument:\"minecraft:call_goat_horn\"}"
             }
-          ],
-          "name": "minecraft:emerald"
+          ]
         },
         {
-          "type": "minecraft:item",
-          "weight": 5,
+          "type": "item",
+          "weight": 30,
+          "name": "minecraft:campfire",
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "function": "set_count",
               "count": {
-                "type": "minecraft:uniform",
-                "min": 1.0,
-                "max": 5.0
-              },
-              "add": false
+                "min": 1,
+                "max": 3
+              }
             }
-          ],
-          "name": "minecraft:spruce_sapling"
+          ]
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:spruce_sign"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 10,
+          "type": "item",
+          "weight": 20,
+          "quality": 2,
+          "name": "minecraft:powder_snow_bucket",
           "functions": [
             {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1.0,
-                "max": 5.0
-              },
-              "add": false
+              "function": "set_count",
+              "count": 1
             }
-          ],
-          "name": "minecraft:spruce_log"
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 35,
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 3,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "quality": 2,
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{HideFlags:32,yarners_ale:1b,CustomPotionEffects:[{Id:4,Amplifier:0b,Duration:3600,ShowParticles:0b},{Id:22,Amplifier:0b,Duration:3600,ShowParticles:1b}],Potion:\"minecraft:empty\",CustomPotionColor:4657408}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Yarner's Ale",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "quality": 2,
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{HideFlags:32,CustomPotionEffects:[{Id:4,Amplifier:0b,Duration:3600,ShowParticles:0b},{Id:5,Amplifier:0b,Duration:200,ShowParticles:1b},{Id:9,Amplifier:0b,Duration:300,ShowParticles:0b},{Id:32,Amplifier:0b,Duration:200,ShowParticles:1b}],Potion:\"minecraft:empty\",CustomPotionColor:19967}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Spicy Water",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 35,
+          "name": "minecraft:spruce_sapling",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 15,
+          "quality": 3,
+          "name": "minecraft:emerald_block",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "quality": 2,
+          "name": "minecraft:emerald",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 6,
+                "max": 15
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "quality": 2,
+          "name": "minecraft:pumpkin_pie",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 4
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "It's still warm.",
+                  "color": "gray"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 30,
+          "name": "minecraft:pumpkin_seeds",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 35,
+          "name": "minecraft:bread",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 5,
+                "max": 12
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 35,
+          "name": "minecraft:sweet_berries",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 5,
+                "max": 12
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 35,
+          "name": "minecraft:potato",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 5,
+                "max": 12
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 35,
+          "name": "minecraft:large_fern",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 35,
+          "name": "minecraft:fern",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "quality": 2,
+          "name": "minecraft:iron_nugget",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 5,
+                "max": 12
+              }
+            }
+          ]
         }
       ]
     }
