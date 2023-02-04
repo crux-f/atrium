@@ -46,10 +46,15 @@
               "count": 1
             },
             {
+              "function": "set_nbt",
+              "tag": "{silas_egg:1b}"
+            },
+            {
               "function": "set_name",
               "name": [
                 {
-                  "text": "Silas Egg"
+                  "text": "egg",
+                  "italic": false
                 }
               ]
             }
