@@ -56,7 +56,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{CustomPotionEffects:[{Id:6,Amplifier:1b,Duration:1,ShowParticles:1b},{Id:10,Amplifier:1b,Duration:60,ShowParticles:1b}],CustomPotionColor:6094711}"
+              "tag": "{CustomPotionEffects:[{Id:6,Amplifier:1b,Duration:1,ShowParticles:1b},{Id:10,Amplifier:1b,Duration:600,ShowParticles:1b}],CustomPotionColor:6094711}"
             },
             {
               "function": "set_name",
@@ -264,49 +264,6 @@
           "type": "item",
           "weight": 1,
           "quality": 1,
-          "name": "minecraft:glowstone_dust",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 2
-              }
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{stardust:1b}"
-            },
-            {
-              "function": "set_name",
-              "name": [
-                {
-                  "text": "Stardust",
-                  "color": "yellow",
-                  "italic": false
-                }
-              ]
-            },
-            {
-              "function": "set_lore",
-              "lore": [
-                {
-                  "text": "It glimmers with cosmic"
-                },
-                {
-                  "text": "glee. Very difficult to"
-                },
-                {
-                  "text": "get out of the carpet."
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "weight": 1,
-          "quality": 1,
           "name": "minecraft:cod_bucket",
           "functions": [
             {
@@ -352,7 +309,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{EntityTag:{DeathLootTable:\"atrium:nightmare_phantom\",PersistenceRequired:1b,Health:25f,Size:2,CustomName:'{\"text\":\"Nightmare\",\"color\":\"light_purple\",\"italic\":false}',ActiveEffects:[{Id:12b,Amplifier:0b,Duration:199980,ShowParticles:0b}],Attributes:[{Name:generic.max_health,Base:25}]}}"
+              "tag": "{EntityTag:{DeathLootTable:\"atrium:entities/nightmare_phantom\",PersistenceRequired:1b,Health:25f,Size:3,CustomName:'{\"text\":\"Nightmare\",\"color\":\"light_purple\",\"italic\":false}',ActiveEffects:[{Id:12b,Amplifier:0b,Duration:199980,ShowParticles:0b}],Attributes:[{Name:generic.max_health,Base:25}]}}"
             },
             {
               "function": "set_name",
@@ -374,6 +331,72 @@
                   "text": "within. Do not break."
                 }
               ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "quality": 1,
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{CustomModelData:333059,atrium_inert_focus:1b}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Broken Wand",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "The runes have desperately"
+                },
+                {
+                  "text": "scratched off."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"\\\\\"The Juice\\\\\"\",\"color\":\"light_purple\",\"italic\":false}',Lore:['{\"text\":\"The Flavor (0:07)\",\"color\":\"blue\",\"italic\":false}','{\"text\":\"The label is torn off.\"}','{\"text\":\"The label is torn off.\"}','{\"text\":\"The label is torn off.\"}','{\"text\":\"Don\\'t go looking for it!\"}','{\"text\":\"The label is torn off.\"}','{\"text\":\"Tasteful.\"}']},HideFlags:32,juice:1b,CustomPotionEffects:[{Id:1,Amplifier:15b,Duration:140,ShowParticles:1b},{Id:8,Amplifier:15b,Duration:140,ShowParticles:1b},{Id:9,Amplifier:0b,Duration:140,ShowParticles:1b},{Id:17,Amplifier:15b,Duration:140,ShowParticles:1b}],CustomPotionColor:16759032,CustomModelData:333067}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:light_blue_dye",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"pipis\",\"italic\":false}',Lore:['{\"text\":\"An invasive species of\"}','{\"text\":\"freshwater clam.\"}']},atrium_pipis:1b}"
             }
           ]
         }

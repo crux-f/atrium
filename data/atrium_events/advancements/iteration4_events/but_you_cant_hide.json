@@ -20,7 +20,7 @@
         "hidden": false
     },
     "criteria": {
-        "a_new_home": {
+        "but_you_cant_hide": {
             "trigger": "minecraft:impossible"
         }
     },

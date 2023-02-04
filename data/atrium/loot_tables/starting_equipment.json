@@ -201,7 +201,7 @@
         {
           "type": "item",
           "weight": 1,
-          "name": "minecraft:totem_of_undying",
+          "name": "minecraft:globe_banner_pattern",
           "functions": [
             {
               "function": "set_count",
@@ -209,7 +209,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{atrium_keepsake:4b,Enchantments:[{id:\"minecraft:protection\",lvl:1s}]}"
+              "tag": "{atrium_keepsake:4b,Enchantments:[{id:\"minecraft:smite\",lvl:1s}]}"
             },
             {
               "function": "set_name",
@@ -241,6 +241,32 @@
               "name": [
                 {
                   "text": "Sentimental Keepsake",
+                  "color": "aqua",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:experience_bottle",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{atrium_keepsake:6b,Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}]}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Traditional Keepsake",
+                  "color": "green",
                   "italic": false
                 }
               ]

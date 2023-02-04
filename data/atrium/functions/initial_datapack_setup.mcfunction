@@ -36,6 +36,8 @@ scoreboard objectives add taraqsol_favor dummy {"text":"Taraq-Sol Favor","color"
 # Misc - - - 
 # same_tick_math is used for any math that will be finished in a single tick (therefor ensuring it never conflicts with anything else, unless you mess it up)
 scoreboard objectives add same_tick_math dummy
+# usher_intro is used to track the progress in the conversation with The Usher during the iteration 4 spawn sequence.
+scoreboard objectives add usher_intro dummy
 #
 # TEAMS
 #

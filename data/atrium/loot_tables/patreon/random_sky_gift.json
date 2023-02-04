@@ -7,7 +7,7 @@
         {
           "type": "loot_table",
           "weight": 10,
-          "name": "atrium:gift_of_flotsam",
+          "name": "atrium:patreon/gift_of_flotsam",
           "functions": [
             {
               "function": "set_count",
@@ -18,7 +18,7 @@
         {
           "type": "loot_table",
           "weight": 10,
-          "name": "atrium:treasure/formulas_infusion_1",
+          "name": "atrium:formulas/infusion_recipes_1",
           "functions": [
             {
               "function": "set_count",
@@ -32,7 +32,7 @@
         {
           "type": "loot_table",
           "weight": 10,
-          "name": "atrium:treasure/formulas_cauldron_1",
+          "name": "atrium:formulas/alchemy_recipes_1",
           "functions": [
             {
               "function": "set_count",
@@ -46,7 +46,7 @@
         {
           "type": "loot_table",
           "weight": 5,
-          "name": "atrium:treasure/formulas_codex_1",
+          "name": "atrium:formulas/enchantment_recipes_1",
           "functions": [
             {
               "function": "set_count",
@@ -101,7 +101,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Forbidden Steak\",\"color\":\"dark_red\",\"italic\":false}',Lore:['{\"text\":\"You get the impression\"}','{\"text\":\"you shouldn\\'t eat this.\"}']},HideFlags:1,forbidden_steak:1b,Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}]}"
+              "tag": "{display:{Name:'{\"text\":\"Forbidden Steak\",\"color\":\"dark_red\",\"italic\":false}',Lore:['{\"text\":\"You get the impression\"}','{\"text\":\"you shouldn\\'t eat this.\"}']},HideFlags:1,atrium_forbidden_steak:1b,Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}]}"
             }
           ]
         },
@@ -116,25 +116,14 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Grungy Greg\\'s Pick-Me-Up\",\"color\":\"aqua\",\"italic\":false}',Lore:['{\"text\":\"Feelin\\' Great (24:00)\",\"color\":\"blue\",\"italic\":false}']},HideFlags:32,grungy_greg_item:1b,CustomPotionEffects:[{Id:25b,Amplifier:2b,Duration:400,ShowParticles:1b},{Id:28b,Amplifier:0b,Duration:1200,ShowParticles:0b}],Potion:\"minecraft:empty\",CustomPotionColor:10420223}"
+              "tag": "{display:{Name:'{\"text\":\"Grungy Greg\\'s Pick-Me-Up\",\"color\":\"aqua\",\"italic\":false}',Lore:['{\"text\":\"Feelin\\' Great (24:00)\",\"color\":\"blue\",\"italic\":false}']},HideFlags:32,atrium_grungy_greg_item:1b,CustomPotionEffects:[{Id:25,Amplifier:2b,Duration:400,ShowParticles:1b},{Id:28,Amplifier:0b,Duration:1200,ShowParticles:0b}],Potion:\"minecraft:empty\",CustomPotionColor:10420223}"
             }
           ]
         },
         {
           "type": "loot_table",
           "weight": 10,
-          "name": "atrium:treasure/vanilla_chest_additions/village/village_armorer",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            }
-          ]
-        },
-        {
-          "type": "loot_table",
-          "weight": 10,
-          "name": "atrium:treasure/vanilla_chest_additions/village/village_weaponsmith",
+          "name": "minecraft:chests/village/village_armorer",
           "functions": [
             {
               "function": "set_count",
@@ -145,7 +134,18 @@
         {
           "type": "loot_table",
           "weight": 10,
-          "name": "atrium:treasure/vanilla_chest_additions/village/village_plains_house",
+          "name": "minecraft:chests/village/village_weaponsmith",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "weight": 10,
+          "name": "minecraft:chests/village/village_plains_house",
           "functions": [
             {
               "function": "set_count",
@@ -156,7 +156,7 @@
         {
           "type": "loot_table",
           "weight": 5,
-          "name": "atrium:event",
+          "name": "atrium:overworld_vista",
           "functions": [
             {
               "function": "set_count",
@@ -167,7 +167,7 @@
         {
           "type": "loot_table",
           "weight": 5,
-          "name": "atrium:treasure/vanilla_chest_additions/curiosity/archive_curiosity",
+          "name": "atrium:chests/vanilla_chest_additions/curiosity/archive_curiosity",
           "functions": [
             {
               "function": "set_count",
@@ -178,7 +178,7 @@
         {
           "type": "loot_table",
           "weight": 5,
-          "name": "atrium:treasure/vanilla_chest_additions/curiosity/legion_curiosity",
+          "name": "atrium:chests/vanilla_chest_additions/curiosity/legion_curiosity",
           "functions": [
             {
               "function": "set_count",
@@ -189,7 +189,7 @@
         {
           "type": "loot_table",
           "weight": 5,
-          "name": "atrium:treasure/vanilla_chest_additions/curiosity/bastion_curiosity",
+          "name": "atrium:chests/vanilla_chest_additions/curiosity/bastion_curiosity",
           "functions": [
             {
               "function": "set_count",
