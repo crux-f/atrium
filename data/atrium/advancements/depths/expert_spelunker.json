@@ -26,7 +26,7 @@
                   "predicate": {
                     "location": {
                         "biome": "atrium:crystal_caves",
-                        "dimension": "atrium:meridian"
+                        "dimension": "atrium:the_depths"
                     }
                   }
                 }
@@ -43,7 +43,7 @@
                   "predicate": {
                     "location": {
                         "biome": "atrium:clotted_caves",
-                        "dimension": "atrium:meridian"
+                        "dimension": "atrium:the_depths"
                     }
                   }
                 }
@@ -60,7 +60,7 @@
                   "predicate": {
                     "location": {
                         "biome": "atrium:volcanic_caves",
-                        "dimension": "atrium:meridian"
+                        "dimension": "atrium:the_depths"
                     }
                   }
                 }
@@ -77,7 +77,7 @@
                   "predicate": {
                     "location": {
                         "biome": "atrium:avalanche_caves",
-                        "dimension": "atrium:meridian"
+                        "dimension": "atrium:the_depths"
                     }
                   }
                 }
@@ -94,7 +94,7 @@
                   "predicate": {
                     "location": {
                         "biome": "atrium:spore_caves",
-                        "dimension": "atrium:meridian"
+                        "dimension": "atrium:the_depths"
                     }
                   }
                 }
@@ -111,7 +111,7 @@
                   "predicate": {
                     "location": {
                         "biome": "atrium:crawling_caves",
-                        "dimension": "atrium:meridian"
+                        "dimension": "atrium:the_depths"
                     }
                   }
                 }
@@ -128,7 +128,7 @@
                   "predicate": {
                     "location": {
                         "biome": "atrium:frozen_caves",
-                        "dimension": "atrium:meridian"
+                        "dimension": "atrium:the_depths"
                     }
                   }
                 }

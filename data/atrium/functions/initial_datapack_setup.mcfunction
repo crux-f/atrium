@@ -38,6 +38,8 @@ scoreboard objectives add taraqsol_favor dummy {"text":"Taraq-Sol Favor","color"
 scoreboard objectives add same_tick_math dummy
 # usher_intro is used to track the progress in the conversation with The Usher during the iteration 4 spawn sequence.
 scoreboard objectives add usher_intro dummy
+# Burrow Consequences
+scoreboard objectives add depths_burrows dummy
 #
 # TEAMS
 #

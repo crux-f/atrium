@@ -1,0 +1,20 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:snow_block"
+      },
+      "title": "Heavens Above!",
+      "description": "Ascend into The Meridian",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "atrium:meridian/meridian_root",
+    "criteria": {
+      "custom_trigger": {
+          "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  
