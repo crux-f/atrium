@@ -106,7 +106,7 @@
         },
         {
           "type": "item",
-          "weight": 15,
+          "weight": 7,
           "quality": 2,
           "name": "minecraft:wooden_hoe",
           "functions": [
@@ -115,10 +115,15 @@
               "count": 1
             },
             {
+              "function": "set_nbt",
+              "tag": "{walking_stick:1b,AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.1,Operation:1,UUID:[I;-1856119110,1434537360,-1733250982,-1665381476],Slot:\"mainhand\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.05,Operation:1,UUID:[I;-1486456337,1605652038,-1093944683,931169976],Slot:\"offhand\"}]}"
+            },
+            {
               "function": "set_name",
               "name": [
                 {
-                  "text": "Walking Stick"
+                  "text": "Walking Stick",
+                  "italic": false
                 }
               ]
             }
@@ -197,10 +202,15 @@
               "count": 1
             },
             {
+              "function": "set_nbt",
+              "tag": "{HideFlags:32,yarners_ale:1b,CustomPotionEffects:[{Id:4,Amplifier:0b,Duration:3600,ShowParticles:0b},{Id:22,Amplifier:0b,Duration:3600,ShowParticles:1b}],Potion:\"minecraft:empty\",CustomPotionColor:4657408}"
+            },
+            {
               "function": "set_name",
               "name": [
                 {
-                  "text": "Yarner's Ale"
+                  "text": "Yarner's Ale",
+                  "italic": false
                 }
               ]
             }
@@ -217,10 +227,15 @@
               "count": 1
             },
             {
+              "function": "set_nbt",
+              "tag": "{HideFlags:32,CustomPotionEffects:[{Id:4,Amplifier:0b,Duration:3600,ShowParticles:0b},{Id:5,Amplifier:0b,Duration:200,ShowParticles:1b},{Id:9,Amplifier:0b,Duration:300,ShowParticles:0b},{Id:32,Amplifier:0b,Duration:200,ShowParticles:1b}],Potion:\"minecraft:empty\",CustomPotionColor:19967}"
+            },
+            {
               "function": "set_name",
               "name": [
                 {
-                  "text": "Spicy Water"
+                  "text": "Spicy Water",
+                  "italic": false
                 }
               ]
             }
