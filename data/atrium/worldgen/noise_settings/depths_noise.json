@@ -58,7 +58,7 @@
                   },
                   "argument2": {
                     "type": "minecraft:add",
-                    "argument1": -0.1171875,
+                    "argument1": -0.1871875,
                     "argument2": {
                       "type": "minecraft:add",
                       "argument1": -0.078125,
