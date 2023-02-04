@@ -2,8 +2,7 @@
   "type": "chest",
   "pools": [
     {
-      "rolls": 7,
-      "bonus_rolls": 1,
+      "rolls": 1,
       "entries": [
         {
           "type": "item",
@@ -32,9 +31,24 @@
                   "color": "gray"
                 }
               ]
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 40.0,
+                "min": 20.0
+              },
+              "treasure": true
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "rolls": 7,
+      "bonus_rolls": 1,
+      "entries": [
         {
           "type": "item",
           "weight": 5,
@@ -61,6 +75,21 @@
               "count": {
                 "min": 2,
                 "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 15,
+          "quality": 3,
+          "name": "minecraft:slime_ball",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 3,
+                "max": 8
               }
             }
           ]
