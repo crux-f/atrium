@@ -11,7 +11,7 @@
             "italic": true
         },
         "icon": {
-            "item": "minecraft:cake"
+            "item": "minecraft:enchanted_golden_apple"
         },
         "frame": "challenge",
         "show_toast": true,
@@ -26,7 +26,7 @@
     "rewards": {
         "experience": 200,
         "loot": [
-            "atrium:resurrection_advancement"
+            "atrium:advancements/resurrection"
         ]
     },
     "parent": "atrium:belief/resurrect_20"

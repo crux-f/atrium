@@ -12,7 +12,7 @@
             "italic": true
         },
         "icon": {
-            "item": "minecraft:structure_void"
+            "item": "minecraft:barrier"
         },
         "frame": "task",
         "show_toast": true,

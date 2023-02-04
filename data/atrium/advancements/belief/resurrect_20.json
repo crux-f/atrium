@@ -11,7 +11,7 @@
             "italic": true
         },
         "icon": {
-            "item": "minecraft:diamond_block"
+            "item": "minecraft:soul_campfire"
         },
         "frame": "goal",
         "show_toast": true,
@@ -26,7 +26,7 @@
     "rewards": {
         "experience": 50,
         "loot": [
-            "atrium:resurrection_advancement"
+            "atrium:advancements/resurrection"
         ]
     },
     "parent": "atrium:belief/resurrect_10"
