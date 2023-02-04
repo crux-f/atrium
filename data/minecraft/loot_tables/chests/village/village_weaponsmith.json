@@ -1,192 +1,213 @@
 {
-  "type": "minecraft:chest",
+  "type": "chest",
   "pools": [
     {
-      "rolls": {
-        "type": "minecraft:uniform",
-        "min": 3.0,
-        "max": 8.0
-      },
-      "bonus_rolls": 0.0,
+      "rolls": 6,
+      "bonus_rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "weight": 3,
+          "type": "item",
+          "weight": 22,
+          "quality": 2,
+          "name": "minecraft:gold_ingot",
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "function": "set_count",
               "count": {
-                "type": "minecraft:uniform",
-                "min": 1.0,
-                "max": 3.0
-              },
-              "add": false
+                "min": 5,
+                "max": 12
+              }
             }
-          ],
-          "name": "minecraft:diamond"
+          ]
         },
         {
-          "type": "minecraft:item",
-          "weight": 10,
+          "type": "item",
+          "weight": 27,
+          "name": "minecraft:iron_ingot",
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "function": "set_count",
               "count": {
-                "type": "minecraft:uniform",
-                "min": 1.0,
-                "max": 5.0
-              },
-              "add": false
+                "min": 5,
+                "max": 12
+              }
             }
-          ],
-          "name": "minecraft:iron_ingot"
+          ]
         },
         {
-          "type": "minecraft:item",
-          "weight": 5,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1.0,
-                "max": 3.0
-              },
-              "add": false
-            }
-          ],
-          "name": "minecraft:gold_ingot"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 15,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1.0,
-                "max": 3.0
-              },
-              "add": false
-            }
-          ],
-          "name": "minecraft:bread"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 15,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1.0,
-                "max": 3.0
-              },
-              "add": false
-            }
-          ],
-          "name": "minecraft:apple"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 5,
-          "name": "minecraft:iron_pickaxe"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 5,
-          "name": "minecraft:iron_sword"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 5,
-          "name": "minecraft:iron_chestplate"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 5,
-          "name": "minecraft:iron_helmet"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 5,
-          "name": "minecraft:iron_leggings"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 5,
-          "name": "minecraft:iron_boots"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 5,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 3.0,
-                "max": 7.0
-              },
-              "add": false
-            }
-          ],
-          "name": "minecraft:obsidian"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 5,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 3.0,
-                "max": 7.0
-              },
-              "add": false
-            }
-          ],
-          "name": "minecraft:oak_sapling"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 3,
-          "name": "minecraft:saddle"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:iron_horse_armor"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:golden_horse_armor"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:diamond_horse_armor"
-        }
-      ]
-    },
-{
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
+          "type": "item",
           "weight": 1,
-          "quality": 1,
-          "name": "atrium:treasure/vanilla_chest_additions/village/village_weaponsmith",
+          "quality": 2,
+          "name": "minecraft:bell",
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "The heart of any village."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "quality": 2,
+          "name": "minecraft:lava_bucket",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:obsidian",
+          "functions": [
+            {
+              "function": "set_count",
               "count": {
-                "type": "minecraft:uniform",
-                "min": 1.0,
-                "max": 3.0
-              },
-              "add": false
+                "min": 2,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "quality": 2,
+          "name": "minecraft:emerald_block",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 17,
+          "quality": 2,
+          "name": "minecraft:diamond",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 8,
+          "quality": 3,
+          "name": "minecraft:trident",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 17,
+          "quality": 2,
+          "name": "minecraft:diamond_sword",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 17,
+          "quality": 2,
+          "name": "minecraft:diamond_axe",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 15,
+          "quality": 3,
+          "name": "minecraft:iron_sword",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Dueling Sword\",\"italic\":false}',Lore:['{\"text\":\"Unrepairable\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"A bastard sword made\"}','{\"text\":\"to throw enemies off\"}','{\"text\":\"their rhythm.\"}']},RepairCost:99,dueling_sword:1b,Enchantments:[{id:\"minecraft:sweeping\",lvl:1s},{id:\"minecraft:unbreaking\",lvl:3s}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 15,
+          "quality": 3,
+          "name": "minecraft:iron_axe",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Traditional Waraxe\",\"italic\":false}',Lore:['{\"text\":\"Unrepairable\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Old habits die hard.\"}']},RepairCost:99,traditional_waraxe:1b,Enchantments:[{id:\"minecraft:sharpness\",lvl:1s},{id:\"minecraft:unbreaking\",lvl:3s}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 33,
+          "name": "minecraft:shield",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 33,
+          "name": "minecraft:iron_sword",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 33,
+          "name": "minecraft:iron_axe",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
             }
           ]
         }

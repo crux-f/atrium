@@ -1,97 +1,231 @@
 {
-  "type": "minecraft:chest",
+  "type": "chest",
   "pools": [
     {
-      "rolls": {
-        "type": "minecraft:uniform",
-        "min": 1.0,
-        "max": 5.0
-      },
-      "bonus_rolls": 0.0,
+      "rolls": 7,
+      "bonus_rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:emerald"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 2,
+          "type": "item",
+          "weight": 3,
+          "quality": 2,
+          "name": "minecraft:spectral_arrow",
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "function": "set_count",
               "count": {
-                "type": "minecraft:uniform",
-                "min": 1.0,
-                "max": 3.0
-              },
-              "add": false
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "This one has a label:",
+                  "color": "gray"
+                },
+                {
+                  "text": "\"Not safe for consumption.\"",
+                  "color": "gray"
+                },
+                {
+                  "text": "...odd.",
+                  "color": "gray"
+                }
+              ]
             }
-          ],
-          "name": "minecraft:arrow"
+          ]
         },
         {
-          "type": "minecraft:item",
-          "weight": 6,
+          "type": "item",
+          "weight": 5,
+          "quality": 1,
+          "name": "minecraft:tipped_arrow",
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "function": "set_count",
               "count": {
-                "type": "minecraft:uniform",
-                "min": 1.0,
-                "max": 3.0
-              },
-              "add": false
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{Potion:\"minecraft:strong_swiftness\"}"
             }
-          ],
-          "name": "minecraft:feather"
+          ]
         },
         {
-          "type": "minecraft:item",
-          "weight": 2,
+          "type": "item",
+          "weight": 5,
+          "quality": 1,
+          "name": "minecraft:tipped_arrow",
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "function": "set_count",
               "count": {
-                "type": "minecraft:uniform",
-                "min": 1.0,
-                "max": 3.0
-              },
-              "add": false
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{Potion:\"minecraft:slowness\"}"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Feels heavy.",
+                  "color": "gray"
+                }
+              ]
             }
-          ],
-          "name": "minecraft:egg"
+          ]
         },
         {
-          "type": "minecraft:item",
-          "weight": 6,
+          "type": "item",
+          "weight": 5,
+          "quality": 1,
+          "name": "minecraft:tipped_arrow",
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "function": "set_count",
               "count": {
-                "type": "minecraft:uniform",
-                "min": 1.0,
-                "max": 3.0
-              },
-              "add": false
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{Potion:\"minecraft:slow_falling\"}"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "The tip was dipped in",
+                  "color": "gray"
+                },
+                {
+                  "text": "cloudblossom oil.",
+                  "color": "gray"
+                }
+              ]
             }
-          ],
-          "name": "minecraft:flint"
+          ]
         },
         {
-          "type": "minecraft:item",
-          "weight": 6,
+          "type": "item",
+          "weight": 17,
+          "name": "minecraft:arrow",
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "function": "set_count",
               "count": {
-                "type": "minecraft:uniform",
-                "min": 1.0,
-                "max": 3.0
-              },
-              "add": false
+                "min": 4,
+                "max": 11
+              }
             }
-          ],
-          "name": "minecraft:stick"
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 15,
+          "name": "minecraft:flint",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 7,
+                "max": 14
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 15,
+          "name": "minecraft:feather",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 7,
+                "max": 14
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 12,
+          "quality": 2,
+          "name": "minecraft:emerald_block",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 10,
+          "name": "minecraft:target",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 3,
+          "quality": 2,
+          "name": "minecraft:goat_horn",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{instrument:\"minecraft:admire_goat_horn\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 13,
+          "quality": 2,
+          "name": "minecraft:crossbow",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 15,
+          "quality": 2,
+          "name": "minecraft:bow",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
         }
       ]
     }

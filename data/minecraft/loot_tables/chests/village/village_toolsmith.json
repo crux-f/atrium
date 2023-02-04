@@ -1,116 +1,191 @@
 {
-  "type": "minecraft:chest",
+  "type": "chest",
   "pools": [
     {
-      "rolls": {
-        "type": "minecraft:uniform",
-        "min": 3.0,
-        "max": 8.0
-      },
-      "bonus_rolls": 0.0,
+      "rolls": 7,
+      "bonus_rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
+          "type": "item",
+          "weight": 1,
+          "quality": 2,
+          "name": "minecraft:bell",
           "functions": [
             {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1.0,
-                "max": 3.0
-              },
-              "add": false
-            }
-          ],
-          "name": "minecraft:diamond"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 5,
-          "functions": [
+              "function": "set_count",
+              "count": 1
+            },
             {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1.0,
-                "max": 5.0
-              },
-              "add": false
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "The heart of any village.",
+                  "color": "gray"
+                }
+              ]
             }
-          ],
-          "name": "minecraft:iron_ingot"
+          ]
         },
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1.0,
-                "max": 3.0
-              },
-              "add": false
-            }
-          ],
-          "name": "minecraft:gold_ingot"
-        },
-        {
-          "type": "minecraft:item",
+          "type": "item",
           "weight": 15,
+          "quality": 2,
+          "name": "minecraft:lava_bucket",
           "functions": [
             {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1.0,
-                "max": 3.0
-              },
-              "add": false
+              "function": "set_count",
+              "count": 1
             }
-          ],
-          "name": "minecraft:bread"
+          ]
         },
         {
-          "type": "minecraft:item",
-          "weight": 5,
-          "name": "minecraft:iron_pickaxe"
-        },
-        {
-          "type": "minecraft:item",
+          "type": "item",
+          "weight": 15,
+          "name": "minecraft:golden_hoe",
           "functions": [
             {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1.0,
-                "max": 3.0
-              },
-              "add": false
+              "function": "set_count",
+              "count": 1
             }
-          ],
-          "name": "minecraft:coal"
+          ]
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "weight": 20,
+          "name": "minecraft:iron_shovel",
           "functions": [
             {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1.0,
-                "max": 3.0
-              },
-              "add": false
+              "function": "set_count",
+              "count": 1
             }
-          ],
-          "name": "minecraft:stick"
+          ]
         },
         {
-          "type": "minecraft:item",
-          "weight": 5,
-          "name": "minecraft:iron_shovel"
+          "type": "item",
+          "weight": 22,
+          "name": "minecraft:coal_block",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 3,
+                "max": 7
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 20,
+          "quality": 2,
+          "name": "minecraft:gold_ingot",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 4,
+                "max": 11
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:iron_ingot",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 4,
+                "max": 11
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 24,
+          "quality": 2,
+          "name": "minecraft:emerald_block",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 11,
+          "quality": 2,
+          "name": "minecraft:diamond",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 11,
+          "quality": 2,
+          "name": "minecraft:diamond_pickaxe",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Any toolsmith's prized jewel.",
+                  "color": "gray"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 30,
+          "name": "minecraft:iron_pickaxe",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:shears",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:flint_and_steel",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
         }
       ]
     }

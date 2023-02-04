@@ -1,110 +1,304 @@
 {
-  "type": "minecraft:chest",
+  "type": "chest",
   "pools": [
     {
-      "rolls": {
-        "type": "minecraft:uniform",
-        "min": 1.0,
-        "max": 5.0
-      },
-      "bonus_rolls": 0.0,
+      "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:emerald"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 2,
+          "type": "item",
+          "weight": 16,
+          "quality": 4,
+          "name": "minecraft:fishing_rod",
           "functions": [
             {
-              "function": "minecraft:set_count",
-              "count": {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "'Ol Reliable",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Never leave home without it.",
+                  "color": "gray"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
                 "type": "minecraft:uniform",
-                "min": 1.0,
-                "max": 3.0
+                "max": 40.0,
+                "min": 20.0
               },
-              "add": false
+              "treasure": true
             }
-          ],
-          "name": "minecraft:cod"
-        },
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 7,
+      "bonus_rolls": 1,
+      "entries": [
         {
-          "type": "minecraft:item",
+          "type": "item",
+          "weight": 5,
+          "quality": 3,
+          "name": "minecraft:prismarine_shard",
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "function": "set_count",
               "count": {
-                "type": "minecraft:uniform",
-                "min": 1.0,
-                "max": 3.0
-              },
-              "add": false
+                "min": 2,
+                "max": 5
+              }
             }
-          ],
-          "name": "minecraft:salmon"
+          ]
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
+          "weight": 15,
+          "quality": 3,
+          "name": "minecraft:glow_ink_sac",
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "function": "set_count",
               "count": {
-                "type": "minecraft:uniform",
-                "min": 1.0,
-                "max": 3.0
-              },
-              "add": false
+                "min": 2,
+                "max": 5
+              }
             }
-          ],
-          "name": "minecraft:water_bucket"
+          ]
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
+          "weight": 15,
+          "quality": 3,
+          "name": "minecraft:slime_ball",
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "function": "set_count",
               "count": {
-                "type": "minecraft:uniform",
-                "min": 1.0,
-                "max": 3.0
-              },
-              "add": false
+                "min": 3,
+                "max": 8
+              }
             }
-          ],
-          "name": "minecraft:barrel"
+          ]
         },
         {
-          "type": "minecraft:item",
-          "weight": 3,
+          "type": "item",
+          "weight": 20,
+          "name": "minecraft:ink_sac",
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "function": "set_count",
               "count": {
-                "type": "minecraft:uniform",
-                "min": 1.0,
-                "max": 3.0
-              },
-              "add": false
+                "min": 3,
+                "max": 8
+              }
             }
-          ],
-          "name": "minecraft:wheat_seeds"
+          ]
         },
         {
-          "type": "minecraft:item",
-          "weight": 2,
+          "type": "item",
+          "weight": 17,
+          "name": "minecraft:clay_ball",
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "function": "set_count",
               "count": {
-                "type": "minecraft:uniform",
-                "min": 1.0,
-                "max": 3.0
-              },
-              "add": false
+                "min": 4,
+                "max": 9
+              }
             }
-          ],
-          "name": "minecraft:coal"
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 18,
+          "name": "minecraft:lily_pad",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 3,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 22,
+          "name": "minecraft:dried_kelp_block",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 7
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 8,
+          "quality": 3,
+          "name": "minecraft:frogspawn",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Free the little wiggles!",
+                  "color": "gray"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 5,
+          "quality": 1,
+          "name": "minecraft:axolotl_bucket",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{EntityTag:{Age:-1000}}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Bucket Baby",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "They grow up so fast...",
+                  "color": "gray"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 15,
+          "quality": 1,
+          "name": "minecraft:salmon_bucket",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{EntityTag:{CustomName:'{\"text\":\"Slammy\",\"italic\":false}'}}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Bucket of Slamon",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 28,
+          "name": "minecraft:cod",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 4,
+                "max": 11
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 15,
+          "quality": 2,
+          "name": "minecraft:pufferfish",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 20,
+          "name": "minecraft:tropical_fish",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 7
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Clown Fish",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "quality": 1,
+          "name": "minecraft:emerald",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 4,
+                "max": 12
+              }
+            }
+          ]
         }
       ]
     }
