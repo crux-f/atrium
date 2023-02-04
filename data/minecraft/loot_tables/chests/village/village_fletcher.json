@@ -2,6 +2,31 @@
   "type": "chest",
   "pools": [
     {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:bow",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 20.0,
+                "min": 10.0
+              },
+              "treasure": true
+            }
+          ]
+        }
+      ]
+    },
+    {
       "rolls": 7,
       "bonus_rolls": 1,
       "entries": [
@@ -205,8 +230,18 @@
         },
         {
           "type": "item",
-          "weight": 13,
-          "quality": 2,
+          "weight": 9,
+          "name": "minecraft:bow",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 8,
           "name": "minecraft:crossbow",
           "functions": [
             {
@@ -217,13 +252,43 @@
         },
         {
           "type": "item",
-          "weight": 15,
+          "weight": 2,
+          "quality": 2,
+          "name": "minecraft:crossbow",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 20.0,
+                "min": 0.0
+              },
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
           "quality": 2,
           "name": "minecraft:bow",
           "functions": [
             {
               "function": "set_count",
               "count": 1
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 20.0,
+                "min": 0.0
+              },
+              "treasure": true
             }
           ]
         }
