@@ -134,7 +134,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{keepsake:1b,Enchantments:[{id:\"minecraft:fortune\",lvl:1s}]}"
+              "tag": "{atrium_keepsake:1b,Enchantments:[{id:\"minecraft:efficiency\",lvl:1s}]}"
             },
             {
               "function": "set_name",
@@ -159,7 +159,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{keepsake:1b,Enchantments:[{id:\"minecraft:fortune\",lvl:1s}]}"
+              "tag": "{atrium_keepsake:2b,Enchantments:[{id:\"minecraft:silk_touch\",lvl:1s}]}"
             },
             {
               "function": "set_name",
@@ -184,7 +184,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{keepsake:1b,Enchantments:[{id:\"minecraft:fortune\",lvl:1s}]}"
+              "tag": "{atrium_keepsake:3b,Enchantments:[{id:\"minecraft:power\",lvl:1s}]}"
             },
             {
               "function": "set_name",
@@ -209,7 +209,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{keepsake:1b,Enchantments:[{id:\"minecraft:fortune\",lvl:1s}]}"
+              "tag": "{atrium_keepsake:4b,Enchantments:[{id:\"minecraft:protection\",lvl:1s}]}"
             },
             {
               "function": "set_name",
@@ -234,7 +234,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{keepsake:1b,Enchantments:[{id:\"minecraft:fortune\",lvl:1s}]}"
+              "tag": "{atrium_keepsake:5b,Enchantments:[{id:\"minecraft:fortune\",lvl:1s}]}"
             },
             {
               "function": "set_name",
@@ -244,57 +244,6 @@
                   "italic": false
                 }
               ]
-            }
-          ]
-        }
-      ]
-    },
-{
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "item",
-          "weight": 1,
-          "quality": 1,
-          "name": "minecraft:paper",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 5
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "bonus_rolls": 0,
-      "entries": [
-        {
-          "type": "item",
-          "weight": 1,
-          "name": "minecraft:map",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "rolls": 2,
-      "bonus_rolls": 0,
-      "entries": [
-        {
-          "type": "item",
-          "weight": 1,
-          "name": "minecraft:totem_of_undying",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
             }
           ]
         }
