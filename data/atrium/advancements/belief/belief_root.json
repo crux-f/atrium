@@ -16,7 +16,7 @@
             "text": "A complex topic, simplified"
         },
         "icon": {
-            "item": "minecraft:elytra"
+            "item": "minecraft:candle"
         },
         "frame": "task",
         "show_toast": false,

@@ -13,7 +13,7 @@
         "icon": {
             "item": "minecraft:experience_bottle"
         },
-        "frame": "task",
+        "frame": "goal",
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false
@@ -26,7 +26,7 @@
     "rewards": {
         "experience": 50,
         "loot": [
-            "atrium:resurrection_advancement"
+            "atrium:advancements/resurrection"
         ]
     },
     "parent": "atrium:belief/resurrect_1"

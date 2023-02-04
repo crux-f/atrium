@@ -2,14 +2,14 @@
     "__comment": "Acquired by researching something",
     "display": {
         "title": {
-            "text": "Academia",
+            "text": "Coming Soon",
             "color": "white"
         },
         "description": {
-            "text": "Research an item"
+            "text": "???"
         },
         "icon": {
-            "item": "minecraft:paper"
+            "item": "minecraft:firework_star"
         },
         "frame": "task",
         "show_toast": true,

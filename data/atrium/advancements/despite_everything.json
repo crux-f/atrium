@@ -1,5 +1,5 @@
 {
-    "__comment": "Designates players who started at Air.",
+    "__comment": "Designates players who get the same element more than once.",
     "display": {
         "title": {
             "text": "Despite Everything",
@@ -7,12 +7,12 @@
             "bold": false
         },
         "description": {
-            "text": "Get the same element twice in a row",
+            "text": "Get the same element more than once",
             "color": "green",
             "italic": true
         },
         "icon": {
-            "item": "minecraft:music_disc_otherside"
+            "item": "minecraft:glass"
         },
         "frame": "task",
         "show_toast": true,
