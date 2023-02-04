@@ -325,6 +325,31 @@
               "tag": "{display:{Name:'{\"text\":\"§cOutpost Key\",\"italic\":false}',Lore:['{\"text\":\"Take!\"}']},atrium_outpost_key:1b}"
             }
           ]
+        },
+        {
+          "type": "item",
+          "weight": 7,
+          "quality": -3,
+          "name": "minecraft:egg",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{silas_egg:1b,CustomModelData:333081}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "egg",
+                  "italic": false
+                }
+              ]
+            }
+          ]
         }
       ]
     }
