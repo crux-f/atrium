@@ -8,7 +8,8 @@
   },
   "downfall": 0.4,
   "effects": {
-    "fog_color": 12638463,
+    "sky_color": 0,
+    "fog_color": 0,
     "mood_sound": {
       "block_search_extent": 8,
       "offset": 2.0,
@@ -21,9 +22,8 @@
       "replace_current_music": false,
       "sound": "minecraft:music.overworld.deep_dark"
     },
-    "sky_color": 7907327,
-    "water_color": 4159204,
-    "water_fog_color": 329011
+    "water_color": 2109483,
+    "water_fog_color": 0
   },
   "features": [
     [],
@@ -66,9 +66,7 @@
       "minecraft:patch_sugar_cane",
       "minecraft:patch_pumpkin"
     ],
-    [
-      "minecraft:freeze_top_layer"
-    ]
+    []
   ],
   "precipitation": "none",
   "spawn_costs": {},

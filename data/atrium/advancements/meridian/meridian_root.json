@@ -4,7 +4,7 @@
     "requirement": {
       "trigger": "minecraft:changed_dimension",
       "conditions": {
-        "to": "atrium:meridian"
+        "to": "atrium:the_meridian"
       }
     }
     },

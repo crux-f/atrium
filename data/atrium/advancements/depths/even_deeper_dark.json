@@ -23,7 +23,7 @@
                 "max": 1056
               }
             },
-            "dimension": "atrium:depths"
+            "dimension": "atrium:the_depths"
           },
           "distance": {
             "y": {

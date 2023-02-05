@@ -8,14 +8,14 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
+              "nbt": "{OnGround:1b}",
               "location": {
                 "position": {
                   "y": {
-                    "min": -64,
-                    "max": -15
+                    "min": 1056
                   }
                 },
-                "dimension": "atrium:the_meridian"
+                "dimension": "atrium:the_depths"
               }
             }
           }
@@ -24,6 +24,6 @@
     }
   },
   "rewards": {
-    "function": "atrium:triggers/random_events/fall_out_of_meridian"
+    "function": "atrium:triggers/random_events/ascend_out_of_depths"
   }
 }

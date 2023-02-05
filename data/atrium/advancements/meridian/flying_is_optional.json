@@ -26,7 +26,7 @@
                   "predicate": {
                     "location": {
                         "biome": "atrium:sky",
-                        "dimension": "atrium:meridian"
+                        "dimension": "atrium:the_meridian"
                     }
                   }
                 }
@@ -43,7 +43,7 @@
                   "predicate": {
                     "location": {
                         "biome": "atrium:cloudgarden",
-                        "dimension": "atrium:meridian"
+                        "dimension": "atrium:the_meridian"
                     }
                   }
                 }
@@ -60,7 +60,7 @@
                   "predicate": {
                     "location": {
                         "biome": "atrium:autumn_isles",
-                        "dimension": "atrium:meridian"
+                        "dimension": "atrium:the_meridian"
                     }
                   }
                 }
@@ -77,7 +77,7 @@
                   "predicate": {
                     "location": {
                         "biome": "atrium:shards",
-                        "dimension": "atrium:meridian"
+                        "dimension": "atrium:the_meridian"
                     }
                   }
                 }
@@ -94,7 +94,7 @@
                   "predicate": {
                     "location": {
                         "biome": "atrium:sand_isles",
-                        "dimension": "atrium:meridian"
+                        "dimension": "atrium:the_meridian"
                     }
                   }
                 }
@@ -111,7 +111,7 @@
                   "predicate": {
                     "location": {
                         "biome": "atrium:cloudpine_forest",
-                        "dimension": "atrium:meridian"
+                        "dimension": "atrium:the_meridian"
                     }
                   }
                 }
@@ -128,7 +128,7 @@
                   "predicate": {
                     "location": {
                         "biome": "atrium:overgrown_isles",
-                        "dimension": "atrium:meridian"
+                        "dimension": "atrium:the_meridian"
                     }
                   }
                 }
@@ -136,5 +136,5 @@
             }
         }
     },
-    "parent": "atrium:meridian/golden_parachute"
+    "parent": "atrium:meridian/heavens_above"
 }

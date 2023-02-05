@@ -4,7 +4,7 @@
     "requirement": {
       "trigger": "minecraft:changed_dimension",
       "conditions": {
-        "to": "atrium:depths"
+        "to": "atrium:the_depths"
       }
     }
     },
