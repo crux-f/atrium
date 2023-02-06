@@ -26,7 +26,7 @@
                 {
                   "text": "Flickering Fuel",
                   "color": "red",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             },
@@ -43,15 +43,15 @@
             }
           ]
         },
- {
+        {
           "type": "loot_table",
-          "weight": 5,
+          "weight": 8,
           "quality": 2,
-          "name": "atrium:treasure/formulas_cauldron_1",
+          "name": "atrium:formulas/alchemy_recipes_1",
           "functions": [
             {
               "function": "set_count",
-              "count": 1
+              "count": 2
             }
           ]
         },
@@ -67,7 +67,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{essence_of_amber:1b}"
+              "tag": "{atrium_essence_of_amber:1b}"
             },
             {
               "function": "set_name",
@@ -75,7 +75,7 @@
                 {
                   "text": "Essence of Amber",
                   "color": "gold",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             },
@@ -116,7 +116,7 @@
               "function": "exploration_map",
               "destination": "mineshaft",
               "decoration": "red_x",
-              "skip_existing_chunks": "false"
+              "skip_existing_chunks": false
             },
             {
               "function": "set_nbt",
@@ -127,7 +127,7 @@
               "name": [
                 {
                   "text": "Ancient Map",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             },
@@ -158,7 +158,7 @@
                 {
                   "text": "(Feels important.)",
                   "color": "gray",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             }

@@ -49,7 +49,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{archive_banner:1b,BlockEntityTag:{Patterns:[{Color:0,Pattern:\"gra\"},{Color:0,Pattern:\"ss\"},{Color:0,Pattern:\"cbo\"},{Color:0,Pattern:\"mc\"}]}}"
+              "tag": "{atrium_archive_banner:1b,BlockEntityTag:{Patterns:[{Color:0,Pattern:\"gra\"},{Color:0,Pattern:\"ss\"},{Color:0,Pattern:\"cbo\"},{Color:0,Pattern:\"mc\"}]}}"
             },
             {
               "function": "set_name",
@@ -73,240 +73,30 @@
             }
           ]
         },
-                {
-                    "type": "item",
-                    "weight": 6,
-                    "quality": 1,
-                    "name": "minecraft:written_book",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": 1
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{pages:['[\"\",{\"text\":\"WARNING: \",\"bold\":true},{\"text\":\"These advanced infusions are for trained alchemists ONLY!!!\\\\\n\\\\\nKeep your Empowered Cauldron clean, and use only high-quality mixtures!\\\\\n \",\"color\":\"reset\"}]','[\"\",{\"text\":\"\\\\u200bPotion of Water Breathing (13:00)\\\\\n            \"},{\"text\":\"*\",\"color\":\"red\"},{\"text\":\"\\\\\n          \",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"green\"},{\"text\":\"   <\",\"color\":\"dark_aqua\"},{\"text\":\"\\\\\n            \",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"blue\"},{\"text\":\"\\\\\n\",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"red\"},{\"text\":\" - Potion Catalyst (Priming)\\\\\n\",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"green\"},{\"text\":\" - Mundane Potion\\\\\n\",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"dark_aqua\"},{\"text\":\" - Mysterious Fish\\\\\n\",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"blue\"},{\"text\":\" - Potion of Water Breathing (8:00)\",\"color\":\"reset\"}]','[\"\",{\"text\":\"Potion of Fire Resistance (13:00)\\\\\n            \"},{\"text\":\"*\",\"color\":\"red\"},{\"text\":\"\\\\\n          \",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"green\"},{\"text\":\"   <\",\"color\":\"dark_red\"},{\"text\":\"\\\\\n            \",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"blue\"},{\"text\":\"\\\\\n\",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"red\"},{\"text\":\" - Potion Catalyst (Priming)\\\\\n\",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"green\"},{\"text\":\" - Mundane Potion\\\\\n\",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"dark_red\"},{\"text\":\" - Primordial Stone\\\\\n\",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"blue\"},{\"text\":\" - Potion of Fire Resistance (8:00)\",\"color\":\"reset\"}]','[\"\",{\"text\":\"Potion of Night Vision (13:00)\\\\\n            \"},{\"text\":\"*\",\"color\":\"red\"},{\"text\":\"\\\\\n          \",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"green\"},{\"text\":\"   <\",\"color\":\"#DFCA00\"},{\"text\":\"\\\\\n            \",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"blue\"},{\"text\":\"\\\\\n\",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"red\"},{\"text\":\" - Potion Catalyst (Priming)\\\\\n\",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"green\"},{\"text\":\" - Mundane Potion\\\\\n\",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"#DFCA00\"},{\"text\":\" - Depths Watcher\\\\\n\",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"blue\"},{\"text\":\" - Potion of Night Vision (8:00)\\\\\n\\\\\n \",\"color\":\"reset\"}]','[\"\",{\"text\":\"Potion of Invisibility (13:00)\\\\\n            \"},{\"text\":\"*\",\"color\":\"red\"},{\"text\":\"\\\\\n          \",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"green\"},{\"text\":\"   <\",\"color\":\"light_purple\"},{\"text\":\"\\\\\n           \",\"color\":\"reset\"},{\"text\":\" ^\",\"color\":\"blue\"},{\"text\":\"\\\\\n\",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"red\"},{\"text\":\" - Potion Catalyst (Priming)\\\\\n\",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"green\"},{\"text\":\" - Mundane Potion\\\\\n\",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"light_purple\"},{\"text\":\" - Averting Eye\\\\\n\",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"blue\"},{\"text\":\" - Potion of Invisibility (8:00)\",\"color\":\"reset\"}]','[\"\",{\"text\":\"\\\\u200bPotion of Jump Boost II (3:00)\\\\\n            \"},{\"text\":\"*\",\"color\":\"red\"},{\"text\":\"\\\\\n          \",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"green\"},{\"text\":\"   <\",\"color\":\"gray\"},{\"text\":\"\\\\\n            \",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"blue\"},{\"text\":\"\\\\\n\",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"red\"},{\"text\":\" - Potion Catalyst (Priming)\\\\\n\",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"green\"},{\"text\":\" - Mundane Potion\\\\\n\",\"color\":\"reset\"},{\"text\":\"< \",\"color\":\"gray\"},{\"text\":\"- Air Crystal\\\\\n\",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"blue\"},{\"text\":\" - Potion of Jump Boost II (1:30)\",\"color\":\"reset\"}]','[\"\",{\"text\":\"\\\\u200bPotion of Jump Boost III (0:45)\\\\\n            \"},{\"text\":\"*\",\"color\":\"#B7A955\"},{\"text\":\"\\\\\n          \",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"green\"},{\"text\":\"   <\",\"color\":\"gray\"},{\"text\":\"\\\\\n            \",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"blue\"},{\"text\":\"\\\\\n\",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"#B7A955\"},{\"text\":\" - Potion Catalyst (Galvanizing)\\\\\n\",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"green\"},{\"text\":\" - Thick Potion\\\\\n\",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"gray\"},{\"text\":\" - Air Crystal\\\\\n\",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"blue\"},{\"text\":\" - Potion of Jump Boost II (1:30)\",\"color\":\"reset\"}]','[\"\",{\"text\":\"\\\\u200bPotion of Speed II (3:00)\\\\\n            \"},{\"text\":\"*\",\"color\":\"red\"},{\"text\":\"\\\\\n          \",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"green\"},{\"text\":\"   <\",\"color\":\"dark_aqua\"},{\"text\":\"\\\\\n            \",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"blue\"},{\"text\":\"\\\\\n\",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"red\"},{\"text\":\" - Potion Catalyst (Priming)\\\\\n\",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"green\"},{\"text\":\" - Mundane Potion\\\\\n\",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"dark_aqua\"},{\"text\":\" - Shimmering Feather\\\\\n\",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"blue\"},{\"text\":\" - Potion of Speed II (1:30)\",\"color\":\"reset\"}]','[\"\",{\"text\":\"Potion of Speed III (0:45)\\\\\n            \"},{\"text\":\"*\",\"color\":\"#B7A955\"},{\"text\":\"\\\\\n          \",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"green\"},{\"text\":\"   <\",\"color\":\"dark_aqua\"},{\"text\":\"\\\\\n            \",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"blue\"},{\"text\":\"\\\\\n\",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"#B7A955\"},{\"text\":\" - Potion Catalyst (Galvanizing)\\\\\n\",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"green\"},{\"text\":\" - Thick Potion\\\\\n\",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"dark_aqua\"},{\"text\":\" - Shimmering Feather\\\\\n\",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"blue\"},{\"text\":\" - Potion of Speed II (1:30)\",\"color\":\"reset\"}]','[\"\",{\"text\":\"Potion of Regeneration II (0:45)\\\\\n            \"},{\"text\":\"*\",\"color\":\"red\"},{\"text\":\"\\\\\n          \",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"green\"},{\"text\":\"   <\",\"color\":\"dark_purple\"},{\"text\":\"\\\\\n            \",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"blue\"},{\"text\":\"\\\\\n\",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"red\"},{\"text\":\" - Potion Catalyst (Priming)\\\\\n\",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"green\"},{\"text\":\" - Mundane Potion\\\\\n\",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"dark_purple\"},{\"text\":\" - Sorrowfruit\\\\\n\",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"blue\"},{\"text\":\" - Potion of Regeneration II (0:22)\",\"color\":\"reset\"}]','[\"\",{\"text\":\"\\\\u200bPotion of Regeneration III (0:11)\\\\\n            \"},{\"text\":\"*\",\"color\":\"#B7A955\"},{\"text\":\"\\\\\n          \",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"green\"},{\"text\":\"   <\",\"color\":\"dark_purple\"},{\"text\":\"\\\\\n           \",\"color\":\"reset\"},{\"text\":\" ^\",\"color\":\"blue\"},{\"text\":\"\\\\\n\",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"#B7A955\"},{\"text\":\" - Potion Catalyst (Galvanizing)\\\\\n\",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"green\"},{\"text\":\" - Thick Potion\\\\\n\",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"dark_purple\"},{\"text\":\" - Sorrowfruit\\\\\n\",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"blue\"},{\"text\":\" - Potion of Regeneration II (0:22)\",\"color\":\"reset\"}]','[\"\",{\"text\":\"Splash \\\\u200bPotion of Poison II (0:45)\\\\\n            \"},{\"text\":\"*\",\"color\":\"red\"},{\"text\":\"\\\\\n          \",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"dark_green\"},{\"text\":\"   <\",\"color\":\"green\"},{\"text\":\"\\\\\n            \",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"blue\"},{\"text\":\"\\\\\n\",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"red\"},{\"text\":\" - Potion Catalyst (Priming)\\\\\n\",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"dark_green\"},{\"text\":\" - Mundane Splash Potion\\\\\n\",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"green\"},{\"text\":\" - Toxic Branch\\\\\n\",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"blue\"},{\"text\":\" - Potion of Poison II (0:22)\",\"color\":\"reset\"}]','[\"\",{\"text\":\"\\\\u200bSplash Potion of Poison III (0:11)\\\\\n            \"},{\"text\":\"*\",\"color\":\"#B7A955\"},{\"text\":\"\\\\\n          \",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"dark_green\"},{\"text\":\"   <\",\"color\":\"green\"},{\"text\":\"\\\\\n            \",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"blue\"},{\"text\":\"\\\\\n\",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"#B7A955\"},{\"text\":\" - Potion Catalyst (Galvanizing)\\\\\n\",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"dark_green\"},{\"text\":\" - Thick Splash Potion\\\\\n\",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"green\"},{\"text\":\" - Toxic Branch\\\\\n\",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"blue\"},{\"text\":\" - Potion of Poison II (0:22)\",\"color\":\"reset\"}]','[\"\",{\"text\":\"\\\\u200bPotion of Strength II (3:00)\\\\\n            \"},{\"text\":\"*\",\"color\":\"red\"},{\"text\":\"\\\\\n          \",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"green\"},{\"text\":\"   <\",\"color\":\"gold\"},{\"text\":\"\\\\\n            \",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"blue\"},{\"text\":\"\\\\\n\",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"red\"},{\"text\":\" - Potion Catalyst (Priming)\\\\\n\",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"green\"},{\"text\":\" - Mundane Potion\\\\\n\",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"gold\"},{\"text\":\" - Charged Blaze Rod\\\\\n\",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"blue\"},{\"text\":\" - Potion of Strength II (1:30)\",\"color\":\"reset\"}]','[\"\",{\"text\":\"Potion of Strength III (0:45)\\\\\n            \"},{\"text\":\"*\",\"color\":\"#B7A955\"},{\"text\":\"\\\\\n         \",\"color\":\"reset\"},{\"text\":\" >\",\"color\":\"green\"},{\"text\":\"   <\",\"color\":\"gold\"},{\"text\":\"\\\\\n            \",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"blue\"},{\"text\":\"\\\\\n\",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"#B7A955\"},{\"text\":\" - Potion Catalyst (Galvanizing)\\\\\n\",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"green\"},{\"text\":\" - Thick Potion\\\\\n\",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"gold\"},{\"text\":\" - Charged Blaze Rod\\\\\n\",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"blue\"},{\"text\":\" - Potion of Strength II (1:30)\",\"color\":\"reset\"}]','[\"\",{\"text\":\"Potion of Healing III\\\\\n           \"},{\"text\":\" *\",\"color\":\"#B7A955\"},{\"text\":\"\\\\\n         \",\"color\":\"reset\"},{\"text\":\" >\",\"color\":\"green\"},{\"text\":\"   <\",\"color\":\"dark_red\"},{\"text\":\"\\\\\n            \",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"blue\"},{\"text\":\"\\\\\n\",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"#B7A955\"},{\"text\":\" - Potion Catalyst (Galvanizing)\\\\\n\",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"green\"},{\"text\":\" - Thick Potion\\\\\n\",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"dark_red\"},{\"text\":\" - Scintillating Melon\\\\\n\",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"blue\"},{\"text\":\" - Potion of Healing II\",\"color\":\"reset\"}]','[\"\",{\"text\":\"Splash Potion of Harming III\\\\\n            \"},{\"text\":\"*\",\"color\":\"#B7A955\"},{\"text\":\"\\\\\n          \",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"dark_green\"},{\"text\":\"   <\\\\\n            \",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"blue\"},{\"text\":\"\\\\\n\",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"#B7A955\"},{\"text\":\" - Potion Catalyst (Galvanizing)\\\\\n\",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"dark_green\"},{\"text\":\" - Thick Splash Potion\\\\\n< - Corrupted Heart\\\\\n\",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"blue\"},{\"text\":\" - Potion of Harming II\\\\\n\\\\\n \",\"color\":\"reset\"}]'],title:\"Empowered Potions\",author:\"Dr. Vylovski\"}"
-                        },
-                        {
-                            "function": "set_name",
-                            "name": [
-                                {
-                                    "text": "Empowered Potions",
-                                    "italic": false
-                                }
-                            ]
-                        },
-                        {
-                            "function": "set_lore",
-                            "lore": [
-                                {
-                                    "text": "Recipe Collection",
-                                    "color": "gray",
-                                    "italic": false
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 6,
-                    "quality": 1,
-                    "name": "minecraft:written_book",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": 1
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{pages:['{\"text\":\"Please be careful! My last class ended up fusing their cauldron to the table!\\\\\n\\\\\n- Dr. Vylovski\"}','[\"\",{\"text\":\"Transmutation Powder\\\\\n             \\\\\n        \"},{\"text\":\"o\",\"color\":\"dark_gray\"},{\"text\":\"  \\\\\n     \",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"gold\"},{\"text\":\"     <\",\"color\":\"gray\"},{\"text\":\"  \\\\\n        \",\"color\":\"reset\"},{\"text\":\"o\",\"color\":\"dark_gray\"},{\"text\":\"  \\\\\n             \\\\\n\",\"color\":\"reset\"},{\"text\":\"o\",\"color\":\"dark_gray\"},{\"text\":\" - Gunpowder\\\\\n\",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"gold\"},{\"text\":\" - Gold Nugget\\\\\n\",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"gray\"},{\"text\":\" - Iron Nugget\",\"color\":\"reset\"}]'],title:\"Formula: Transmutation Powder\",author:\"Dr. Vylovski\",generation:1}"
-                        },
-                        {
-                            "function": "set_name",
-                            "name": [
-                                {
-                                    "text": "Formula: Transmutation Powder",
-                                    "italic": false
-                                }
-                            ]
-                        },
-                        {
-                            "function": "set_lore",
-                            "lore": [
-                                {
-                                    "text": "Empowered Cauldron Recipe",
-                                    "color": "gray",
-                                    "italic": false
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 6,
-                    "quality": 1,
-                    "name": "minecraft:written_book",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": 1
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{pages:['{\"text\":\"Make sure to follow the safety guidelines set out in Alchemy For You And Me.\\\\\n\\\\\nJust because you\\'re in an advanced class doesn\\'t mean you\\'re immune to losing fingers!\\\\\n\\\\\n- Dr. Vylovski\"}','[\"\",{\"text\":\"Potion Catalyst (\"},{\"text\":\"Priming\",\"color\":\"red\"},{\"text\":\")\\\\\n            \",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"dark_green\"},{\"text\":\"\\\\\n          \",\"color\":\"reset\"},{\"text\":\">   <\",\"color\":\"gray\"},{\"text\":\"\\\\\n            \",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"red\"},{\"text\":\"\\\\\n\",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"dark_green\"},{\"text\":\" - Mossy Cobblestone\\\\\n\",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"gray\"},{\"text\":\",\",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"gray\"},{\"text\":\" - Iron Nugget\\\\\n\",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"red\"},{\"text\":\" - Block of Redstone\",\"color\":\"reset\"}]','[\"\",{\"text\":\"Potion Catalyst (\"},{\"text\":\"Galvanizing\",\"color\":\"#B1A24A\"},{\"text\":\")\\\\\n            \",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"#B1A24A\"},{\"text\":\"\\\\\n         \",\"color\":\"reset\"},{\"text\":\" >   <\",\"color\":\"gold\"},{\"text\":\"\\\\\n            \",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"dark_red\"},{\"text\":\"\\\\\n\",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"#B1A24A\"},{\"text\":\" - Glowstone\\\\\n\",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"dark_red\"},{\"text\":\" - Magma Block\\\\\n\",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"gold\"},{\"text\":\",\",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"gold\"},{\"text\":\" - Gold Nugget\",\"color\":\"reset\"}]'],title:\"Formula: Potion Catalyst\",author:\"Dr. Vylovski\",generation:1}"
-                        },
-                        {
-                            "function": "set_name",
-                            "name": [
-                                {
-                                    "text": "Formula: Potion Catalyst",
-                                    "italic": false
-                                }
-                            ]
-                        },
-                        {
-                            "function": "set_lore",
-                            "lore": [
-                                {
-                                    "text": "Empowered Cauldron Recipe",
-                                    "color": "gray",
-                                    "italic": false
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 4,
-                    "quality": 1,
-                    "name": "minecraft:written_book",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": 1
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{pages:['[\"\",{\"text\":\"Essence of Amber\",\"color\":\"black\"},{\"text\":\"\\\\\n            \",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"red\"},{\"text\":\"\\\\\n          \",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"gold\"},{\"text\":\"   <\",\"color\":\"#D8C139\"},{\"text\":\"\\\\\n            \",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"blue\"},{\"text\":\"\\\\\n\",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"red\"},{\"text\":\" - Red Sandstone\\\\\n\",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"gold\"},{\"text\":\" - Potion of Fire Resistance (3:00)\\\\\n\",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"#D8C139\"},{\"text\":\" - Honeycomb\\\\\n\",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"blue\"},{\"text\":\" - Thick Potion\",\"color\":\"reset\"}]'],title:\"Formula: Essence of Amber\",author:\"???\"}"
-                        },
-                        {
-                            "function": "set_name",
-                            "name": [
-                                {
-                                    "text": "Formula: Essence of Amber",
-                                    "italic": false
-                                }
-                            ]
-                        },
-                        {
-                            "function": "set_lore",
-                            "lore": [
-                                {
-                                    "text": "Empowered Cauldron Recipe",
-                                    "color": "gray",
-                                    "italic": false
-                                }
-                            ]
-                        }
-                    ]
-                },
-{
-                    "type": "item",
-                    "weight": 4,
-                    "quality": 1,
-                    "name": "minecraft:written_book",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": 1
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{pages:['[\"\",{\"text\":\"Submerged Gemstone\\\\\n            \"},{\"text\":\"*\",\"color\":\"dark_green\"},{\"text\":\"\\\\\n          \",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"dark_aqua\"},{\"text\":\"   <\",\"color\":\"gray\"},{\"text\":\"\\\\\n            \",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"blue\"},{\"text\":\"\\\\\n\",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"dark_green\"},{\"text\":\" - Dried Kelp\\\\\n\",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"dark_aqua\"},{\"text\":\" - Water Bucket\\\\\n\",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"gray\"},{\"text\":\" - Transmutation Powder\\\\\n\",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"blue\"},{\"text\":\" - Lapis Lazuli\",\"color\":\"reset\"}]'],title:\"Formula: Submerged Gemstone\",author:\"???\",generation:2}"
-                        },
-                        {
-                            "function": "set_name",
-                            "name": [
-                                {
-                                    "text": "Formula: Submerged Gemstone",
-                                    "italic": false
-                                }
-                            ]
-                        },
-                        {
-                            "function": "set_lore",
-                            "lore": [
-                                {
-                                    "text": "Empowered Cauldron Recipe",
-                                    "color": "gray",
-                                    "italic": false
-                                }
-							]
-                        }
-                     ]
-                },
-                {
-                    "type": "item",
-                    "weight": 4,
-                    "quality": 1,
-                    "name": "minecraft:written_book",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": 1
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{pages:['{\"text\":\"Flecks of Stardust can be found in every Comet Berry. Make sure to sift through the pulp multiple times, so as not to waste any.\\\\\n\\\\\n- Dr. Vylovski\"}','[\"\",{\"text\":\"Stardust\\\\\n \\\\u0020 \\\\u0020 \\\\u0020 \\\\u0020 \\\\u0020 \\\\u0020\"},{\"text\":\"*\",\"color\":\"red\"},{\"text\":\"\\\\\n \\\\u0020 \\\\u0020 \\\\u0020 \\\\u0020 \\\\u0020\",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"gray\"},{\"text\":\" \\\\u0020 x\\\\\n \\\\u0020 \\\\u0020 \\\\u0020 \\\\u0020 \\\\u0020 \\\\u0020^\\\\\n\",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"red\"},{\"text\":\" - Comet Berries\\\\\n\\\\\n-(Reusable)-\\\\\n\",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"gray\"},{\"text\":\" - Iron Nugget\\\\\n^ - Bowl\",\"color\":\"reset\"}]'],title:\"Formula: Stardust\",author:\"Dr. Vylovski\",generation:1}"
-                        },
-                        {
-                            "function": "set_name",
-                            "name": [
-                                {
-                                    "text": "Formula: Stardust",
-                                    "italic": false
-                                }
-                            ]
-                        },
-                        {
-                            "function": "set_lore",
-                            "lore": [
-                                {
-                                    "text": "Empowered Cauldron Recipe",
-                                    "color": "gray",
-                                    "italic": false
-                                }
-                            ]
-                        }
-					]
-			},
-                {
-                    "type": "loot_table",
-                    "weight": 5,
-                    "quality": 3,
-                    "name": "atrium:treasure/formulas_cauldron_1",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": 1
-                        }
-                    ]
-                },
-                {
-                    "type": "loot_table",
-                    "weight": 2,
-                    "quality": 5,
-                    "name": "atrium:treasure/formulas_cauldron_2",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": 1
-                        }
-                    ]
-                }
+        {
+          "type": "loot_table",
+          "weight": 8,
+          "quality": 2,
+          "name": "atrium:formulas/infusion_recipes_1",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "weight": 8,
+          "quality": 2,
+          "name": "atrium:formulas/alchemy_recipes_1",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 2
+            }
+          ]
+        }
       ]
     },
     {
@@ -326,7 +116,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{flickering_fuel:1b}"
+              "tag": "{atrium_flickering_fuel:1b}"
             },
             {
               "function": "set_name",
@@ -365,7 +155,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{HideFlags:1,transmutation_powder:1b,Enchantments:[{id:\"minecraft:punch\",lvl:1s}]}"
+              "tag": "{HideFlags:1,atrium_transmutation_powder:1b,Enchantments:[{id:\"minecraft:punch\",lvl:1s}]}"
             },
             {
               "function": "set_name",
@@ -407,7 +197,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{HideFlags:1,corrupted_heart:1b,Enchantments:[{id:\"minecraft:binding_curse\",lvl:1s}]}"
+              "tag": "{HideFlags:1,atrium_corrupted_heart:1b,Enchantments:[{id:\"minecraft:binding_curse\",lvl:1s}]}"
             },
             {
               "function": "set_name",
@@ -443,7 +233,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{HideFlags:1,shimmering_feather:1b,Enchantments:[{id:\"minecraft:quick_charge\",lvl:1s}]}"
+              "tag": "{HideFlags:1,atrium_shimmering_feather:1b,Enchantments:[{id:\"minecraft:quick_charge\",lvl:1s}]}"
             },
             {
               "function": "set_name",
@@ -474,42 +264,6 @@
         {
           "type": "item",
           "weight": 1,
-          "name": "minecraft:fire_charge",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{HideFlags:1,primordial_stone:1b,Enchantments:[{id:\"minecraft:flame\",lvl:1s}]}"
-            },
-            {
-              "function": "set_name",
-              "name": [
-                {
-                  "text": "Primordial Stone",
-                  "color": "red",
-                  "italic": false
-                }
-              ]
-            },
-            {
-              "function": "set_lore",
-              "lore": [
-                {
-                  "text": "Somehow, it feels old."
-                },
-                {
-                  "text": "...Oh, and hot."
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "weight": 1,
           "name": "minecraft:ender_eye",
           "functions": [
             {
@@ -518,7 +272,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{averting_eye:1b}"
+              "tag": "{atrium_averting_eye:1b}"
             },
             {
               "function": "set_name",
@@ -560,7 +314,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{HideFlags:1,catalyst_prime:1b,Enchantments:[{id:\"minecraft:blast_protection\",lvl:1s}]}"
+              "tag": "{HideFlags:1,atrium_catalyst_prime:1b,Enchantments:[{id:\"minecraft:blast_protection\",lvl:1s}]}"
             },
             {
               "function": "set_name",
@@ -597,7 +351,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{catalyst_galv:1b,HideFlags:1,Enchantments:[{id:\"minecraft:quick_charge\",lvl:1s}]}"
+              "tag": "{atrium_catalyst_galvanizing:1b,HideFlags:1,Enchantments:[{id:\"minecraft:quick_charge\",lvl:1s}]}"
             },
             {
               "function": "set_name",
@@ -624,7 +378,7 @@
           "type": "loot_table",
           "weight": 3,
           "quality": 2,
-          "name": "atrium:treasure/vanilla_chest_additions/curiosity/archive_curiosity",
+          "name": "atrium:chests/vanilla_chest_additions/curiosity/archive_curiosity",
           "functions": [
             {
               "function": "set_count",
@@ -652,7 +406,7 @@
                                   }
                 }
           ],
-          "name": "atrium:treasure/vanilla_chest_additions/curiosity/archive_curiosity",
+          "name": "atrium:chests/vanilla_chest_additions/curiosity/archive_curiosity",
           "functions": [
             {
               "function": "set_count",

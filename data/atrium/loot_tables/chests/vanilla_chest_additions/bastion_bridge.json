@@ -7,13 +7,13 @@
       "entries": [
         {
           "type": "loot_table",
-          "weight": 5,
+          "weight": 8,
           "quality": 2,
-          "name": "atrium:treasure/formulas_infusion_1",
+          "name": "atrium:formulas/infusion_recipes_1",
           "functions": [
             {
               "function": "set_count",
-              "count": 1
+              "count": 2
             }
           ]
         },
@@ -29,7 +29,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Holy Symbol\",\"color\":\"yellow\",\"italic\":false}',Lore:['{\"text\":\"Ghael, The Infidel\",\"color\":\"gold\",\"italic\":false}']},ghael_symbol:1b,SkullOwner:{Id:[I;355317681,-1743372148,-1225562802,1464683116],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGZlMjdjMWZiOTNjMGFjNDNiMjBiMTIzNWE5ODUwMjYwYzllNDIwYmUxMGM1OWYxNGMyYzM3MzA1Njc1NzEwMSJ9fX0=\"}]}}}"
+              "tag": "{display:{Name:'{\"text\":\"Holy Symbol\",\"color\":\"yellow\",\"italic\":false}',Lore:['{\"text\":\"Ghael, The Infidel\",\"color\":\"gold\",\"italic\":false}']},atrium_ghael_symbol:1b,SkullOwner:{Id:[I;355317681,-1743372148,-1225562802,1464683116],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGZlMjdjMWZiOTNjMGFjNDNiMjBiMTIzNWE5ODUwMjYwYzllNDIwYmUxMGM1OWYxNGMyYzM3MzA1Njc1NzEwMSJ9fX0=\"}]}}}"
             }
           ]
         },
@@ -48,7 +48,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Hoglin Stroganoff\",\"italic\":false}',Lore:['{\"text\":\"Pork, mushroom, and\"}','{\"text\":\"shroomlight oil sauce.\"}']},hoglin_stroganoff:1b,Effects:[{EffectId:6b,EffectDuration:1},{EffectId:12b,EffectDuration:3600}]}"
+              "tag": "{display:{Name:'{\"text\":\"Hoglin Stroganoff\",\"italic\":false}',Lore:['{\"text\":\"Pork, mushroom, and\"}','{\"text\":\"shroomlight oil sauce.\"}']},atrium_hoglin_stroganoff:1b,Effects:[{EffectId:6,EffectDuration:1},{EffectId:12,EffectDuration:3600}]}"
             }
           ]
         },
@@ -64,7 +64,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Swirling Tea\",\"color\":\"dark_aqua\",\"italic\":false}',Lore:['{\"text\":\"The teabag is full of\"}','{\"text\":\"warped mushroom powder.\"}','{\"text\":\"Smells like silence.\"}']},swirling_tea:1b,CustomPotionEffects:[{Id:18b,Amplifier:0b,Duration:1200,ShowParticles:0b},{Id:22b,Amplifier:1b,Duration:3600,ShowParticles:1b},{Id:23b,Amplifier:0b,Duration:3600,ShowParticles:1b}],CustomPotionColor:1941427}"
+              "tag": "{display:{Name:'{\"text\":\"Swirling Tea\",\"color\":\"dark_aqua\",\"italic\":false}',Lore:['{\"text\":\"The teabag is full of\"}','{\"text\":\"warped mushroom powder.\"}','{\"text\":\"Smells like silence.\"}']},swirling_tea:1b,CustomPotionEffects:[{Id:18,Amplifier:0b,Duration:1200,ShowParticles:0b},{Id:22,Amplifier:1b,Duration:3600,ShowParticles:1b},{Id:23,Amplifier:0b,Duration:3600,ShowParticles:1b}],CustomPotionColor:1941427}"
             }
           ]
         },
@@ -72,7 +72,7 @@
           "type": "loot_table",
           "weight": 3,
           "quality": 0,
-          "name": "atrium:treasure/vanilla_chest_additions/curiosity/bastion_curiosity",
+          "name": "atrium:chests/vanilla_chest_additions/curiosity/bastion_curiosity",
           "functions": [
             {
               "function": "set_count",
@@ -100,7 +100,7 @@
                                   }
                 }
           ],
-          "name": "atrium:treasure/vanilla_chest_additions/curiosity/bastion_curiosity",
+          "name": "atrium:chests/vanilla_chest_additions/curiosity/bastion_curiosity",
           "functions": [
             {
               "function": "set_count",

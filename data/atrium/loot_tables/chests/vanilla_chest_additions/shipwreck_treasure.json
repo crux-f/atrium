@@ -105,26 +105,10 @@
           ]
         },
         {
-          "type": "item",
-          "weight": 4,
-          "quality": 3,
-          "name": "minecraft:trident",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Staff of Water\",\"color\":\"blue\",\"italic\":false}',Lore:['{\"text\":\"Nourishment I\",\"color\":\"#FFBFBF\",\"italic\":false}','{\"text\":\"Extinguish I\",\"color\":\"#FFF29E\"}','{\"keybind\":\"\"}','{\"text\":\"When in Off Hand:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"+1 Casting Power\",\"color\":\"blue\"}']},HideFlags:1,RepairCost:99,Damage:0.65-0.25,waterstaff:1b,staff:1b,lv1:1b,Enchantments:[{id:\"minecraft:riptide\",lvl:3s},{id:\"minecraft:mending\",lvl:1s}]}"
-            }
-          ]
-        },
-        {
           "type": "loot_table",
-          "weight": 8,
+          "weight": 3,
           "quality": 2,
-          "name": "atrium:treasure/formulas_cauldron_1",
+          "name": "atrium:formulas/infusion_recipes_1",
           "functions": [
             {
               "function": "set_count",
@@ -134,21 +118,9 @@
         },
         {
           "type": "loot_table",
-          "weight": 2,
-          "quality": 3,
-          "name": "atrium:treasure/formulas_cauldron_2",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            }
-          ]
-        },
-        {
-          "type": "loot_table",
-          "weight": 8,
-          "quality": 3,
-          "name": "atrium:treasure/formulas_infusion_1",
+          "weight": 3,
+          "quality": 2,
+          "name": "atrium:formulas/alchemy_recipes_1",
           "functions": [
             {
               "function": "set_count",
@@ -158,13 +130,13 @@
         },
         {
           "type": "loot_table",
-          "weight": 2,
-          "quality": 3,
-          "name": "atrium:treasure/formulas_infusion_2",
+          "weight": 3,
+          "quality": 2,
+          "name": "atrium:formulas/runic_recipes_1",
           "functions": [
             {
               "function": "set_count",
-              "count": 1
+              "count": 2
             }
           ]
         }

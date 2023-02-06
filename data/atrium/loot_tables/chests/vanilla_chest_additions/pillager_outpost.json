@@ -7,37 +7,37 @@
       "entries": [
         {
           "type": "loot_table",
-          "weight": 3,
-          "quality": 3,
-          "name": "atrium:treasure/formulas_infusion_1",
+          "weight": 8,
+          "quality": 2,
+          "name": "atrium:formulas/infusion_recipes_1",
           "functions": [
             {
               "function": "set_count",
-              "count": 1
+              "count": 2
             }
           ]
         },
         {
           "type": "loot_table",
-          "weight": 2,
-          "quality": 5,
-          "name": "atrium:treasure/formulas_infusion_2",
+          "weight": 8,
+          "quality": 2,
+          "name": "atrium:formulas/alchemy_recipes_1",
           "functions": [
             {
               "function": "set_count",
-              "count": 1
+              "count": 2
             }
           ]
         },
         {
           "type": "loot_table",
-          "weight": 1,
-          "quality": 7,
-          "name": "atrium:treasure/formulas_codex_1",
+          "weight": 8,
+          "quality": 2,
+          "name": "atrium:formulas/runic_recipes_1",
           "functions": [
             {
               "function": "set_count",
-              "count": 1
+              "count": 2
             }
           ]
         },
@@ -53,7 +53,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{RepairCost:15,handaxe_of_vindication:1b,Enchantments:[{id:\"minecraft:sharpness\",lvl:2s},{id:\"minecraft:looting\",lvl:3s},{id:\"minecraft:unbreaking\",lvl:1s}]}"
+              "tag": "{RepairCost:15,atrium_handaxe_of_vindication:1b,Enchantments:[{id:\"minecraft:sharpness\",lvl:2s},{id:\"minecraft:looting\",lvl:3s},{id:\"minecraft:unbreaking\",lvl:1s}]}"
             },
             {
               "function": "set_name",
@@ -78,7 +78,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{RepairCost:15,raiders_crossbow:1b,Enchantments:[{id:\"minecraft:mending\",lvl:1s},{id:\"minecraft:piercing\",lvl:2s}],AttributeModifiers:[{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.15,Operation:1,UUID:[I;-968363777,-442807016,-1782642797,582378364],Slot:\"mainhand\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.1,Operation:1,UUID:[I;420772207,1225148208,-1709764635,652992031],Slot:\"offhand\"}]}"
+              "tag": "{RepairCost:15,atrium_raiders_crossbow:1b,Enchantments:[{id:\"minecraft:mending\",lvl:1s},{id:\"minecraft:piercing\",lvl:2s}],AttributeModifiers:[{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.15,Operation:1,UUID:[I;-968363777,-442807016,-1782642797,582378364],Slot:\"mainhand\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.1,Operation:1,UUID:[I;420772207,1225148208,-1709764635,652992031],Slot:\"offhand\"}]}"
             },
             {
               "function": "set_damage",
@@ -139,7 +139,7 @@
           "type": "loot_table",
           "weight": 1,
           "quality": 2,
-          "name": "atrium:treasure/vanilla_chest_additions/curiosity/illager_curiosity",
+          "name": "atrium:chests/vanilla_chest_additions/curiosity/illager_curiosity",
           "functions": [
             {
               "function": "set_count",
@@ -167,7 +167,7 @@
                                   }
                 }
           ],
-          "name": "atrium:treasure/vanilla_chest_additions/curiosity/illager_curiosity",
+          "name": "atrium:chests/vanilla_chest_additions/curiosity/illager_curiosity",
           "functions": [
             {
               "function": "set_count",

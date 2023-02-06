@@ -33,7 +33,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Cracked Ritual Blade\",\"italic\":false}',Lore:['{\"text\":\"Essence Reaper I\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"Curiosity\",\"color\":\"aqua\",\"italic\":false}','{\"text\":\"\"}','{\"text\":\"Made of some sort of\"}','{\"text\":\"gray shale. You haven\\'t\"}','{\"text\":\"seen the material\"}','{\"text\":\"anywhere else in hell.\"}']},Damage:0.9-0.85,cracked_ritual_blade:1b,curiosity:1b,Enchantments:[{id:\"minecraft:sharpness\",lvl:1s},{id:\"minecraft:looting\",lvl:1s}]}"
+              "tag": "{display:{Name:'{\"text\":\"Cracked Ritual Blade\",\"italic\":false}',Lore:['{\"text\":\"Essence Reaper I\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"Curiosity\",\"color\":\"aqua\",\"italic\":false}','{\"text\":\"\"}','{\"text\":\"Made of some sort of\"}','{\"text\":\"gray shale. You haven\\'t\"}','{\"text\":\"seen the material\"}','{\"text\":\"anywhere else in hell.\"}']},Damage:10,atrium_cracked_ritual_blade:1b,curiosity:1b,Enchantments:[{id:\"minecraft:sharpness\",lvl:1s},{id:\"minecraft:looting\",lvl:1s}]}"
             }
           ]
         },
@@ -68,7 +68,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Broken Disc\",\"italic\":false}',Lore:['{\"text\":\"Curiosity\",\"color\":\"aqua\",\"italic\":false}','{\"text\":\"\"}','{\"text\":\"Still no intact music.\"}','{\"text\":\"Very little intact art.\"}','{\"text\":\"These people had to have\"}','{\"text\":\"had culture... where\"}','{\"text\":\"did they hide it?\"}']},broken_disc:1b,curiosity:1b}"
+              "tag": "{display:{Name:'{\"text\":\"Broken Disc\",\"italic\":false}',Lore:['{\"text\":\"Curiosity\",\"color\":\"aqua\",\"italic\":false}','{\"text\":\"\"}','{\"text\":\"Still no intact music.\"}','{\"text\":\"Very little intact art.\"}','{\"text\":\"These people had to have\"}','{\"text\":\"had culture... where\"}','{\"text\":\"did they hide it?\"}']},atrium_broken_disc:1b,curiosity:1b}"
             }
           ]
         },
@@ -84,7 +84,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Experimental Potion\",\"italic\":false}',Lore:['{\"text\":\"Fire Resistance (20:00)\",\"color\":\"blue\",\"italic\":false}']},HideFlags:32,experimental_potion:1b,CustomPotionEffects:[{Id:9b,Amplifier:0b,Duration:1400,ShowParticles:1b},{Id:11b,Amplifier:0b,Duration:1200,ShowParticles:1b}],Potion:\"minecraft:empty\",CustomPotionColor:15242002}"
+              "tag": "{display:{Name:'{\"text\":\"Experimental Potion\",\"italic\":false}',Lore:['{\"text\":\"Fire Resistance (20:00)\",\"color\":\"blue\",\"italic\":false}']},HideFlags:32,experimental_potion:1b,CustomPotionEffects:[{Id:9,Amplifier:0b,Duration:1400,ShowParticles:1b},{Id:11,Amplifier:0b,Duration:1200,ShowParticles:1b}],Potion:\"minecraft:empty\",CustomPotionColor:15242002}"
             }
           ]
         },
@@ -116,7 +116,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Experimental Potion\",\"italic\":false}',Lore:['{\"text\":\"??? (3:33)\",\"color\":\"blue\",\"italic\":false}']},HideFlags:32,experimental_potion:1b,CustomPotionEffects:[{Id:1b,Amplifier:0b,Duration:3660,ShowParticles:1b},{Id:2b,Amplifier:0b,Duration:3660,ShowParticles:1b},{Id:8b,Amplifier:0b,Duration:3660,ShowParticles:1b},{Id:15b,Amplifier:0b,Duration:3660,ShowParticles:1b}],Potion:\"minecraft:empty\",CustomPotionColor:16777215}"
+              "tag": "{display:{Name:'{\"text\":\"Experimental Potion\",\"italic\":false}',Lore:['{\"text\":\"??? (3:33)\",\"color\":\"blue\",\"italic\":false}']},HideFlags:32,experimental_potion:1b,CustomPotionEffects:[{Id:1,Amplifier:0b,Duration:3660,ShowParticles:1b},{Id:2,Amplifier:0b,Duration:3660,ShowParticles:1b},{Id:8,Amplifier:0b,Duration:3660,ShowParticles:1b},{Id:15b,Amplifier:0b,Duration:3660,ShowParticles:1b}],Potion:\"minecraft:empty\",CustomPotionColor:16777215}"
             }
           ]
         }

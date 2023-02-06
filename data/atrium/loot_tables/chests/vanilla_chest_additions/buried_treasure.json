@@ -17,7 +17,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{CustomPotionEffects:[{Id:9b,Amplifier:0b,Duration:200,ShowParticles:1b},{Id:23b,Amplifier:0b,Duration:2400,ShowParticles:0b}],CustomPotionColor:9377540}"
+              "tag": "{CustomPotionEffects:[{Id:9,Amplifier:0b,Duration:200,ShowParticles:1b},{Id:23,Amplifier:0b,Duration:2400,ShowParticles:0b}],CustomPotionColor:9377540}"
             },
             {
               "function": "set_name",
@@ -25,7 +25,7 @@
                 {
                   "text": "Grungy Greg's Ralcoholic Rum",
                   "color": "red",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             },
@@ -44,57 +44,6 @@
         },
         {
           "type": "item",
-          "weight": 7,
-          "quality": 1,
-          "name": "minecraft:filled_map",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "weight": 8,
-          "quality": 1,
-          "name": "minecraft:tropical_fish",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_name",
-              "name": [
-                {
-                  "text": "Mysterious Fish",
-                  "color": "dark_aqua",
-                  "italic": "false"
-                }
-              ]
-            },
-            {
-              "function": "set_lore",
-              "lore": [
-                {
-                  "text": "The scales on its back"
-                },
-                {
-                  "text": "are in the shape of an anchor."
-                },
-                {
-                  "text": "Be careful, its magic dies"
-                },
-                {
-                  "text": "with it."
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "item",
           "weight": 4,
           "quality": 3,
           "name": "minecraft:spyglass",
@@ -105,7 +54,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{curiosity:1b,shorefinder_spyglass:1b,AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.1,Operation:1,UUID:[I;-2001919824,2075151071,-1653696267,-1191293749],Slot:\"mainhand\"}]}"
+              "tag": "{curiosity:1b,atrium_shorefinder_spyglass:1b,AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.1,Operation:1,UUID:[I;-2001919824,2075151071,-1653696267,-1191293749],Slot:\"mainhand\"}]}"
             },
             {
               "function": "set_name",
@@ -113,7 +62,7 @@
                 {
                   "text": "Shorefinder Spyglass",
                   "color": "blue",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             },
@@ -123,7 +72,7 @@
                 {
                   "text": "Curiosity",
                   "color": "yellow",
-                  "italic": "false"
+                  "italic": false
                 },
                 {
                   "text": "land WOMAN!"
@@ -144,7 +93,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{friendship_bracelet:1b}"
+              "tag": "{atrium_friendship_bracelet:1b}"
             },
             {
               "function": "set_name",
@@ -152,7 +101,7 @@
                 {
                   "text": "Friendship Bracelet",
                   "color": "light_purple",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             },
@@ -162,12 +111,12 @@
                 {
                   "text": "When in Off Hand:",
                   "color": "gray",
-                  "italic": "false"
+                  "italic": false
                 },
                 {
                   "text": "+1 Bestie Power",
                   "color": "blue",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             }

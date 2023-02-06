@@ -6,50 +6,108 @@
       "bonus_rolls": 0,
       "entries": [
         {
+          "type": "item",
+          "weight": 10,
+          "quality": 5,
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Infusion Circle\",\"color\":\"light_purple\",\"italic\":false}',Lore:['{\"text\":\"Space Required:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"x9,y3,z11\",\"color\":\"dark_gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"When Placed:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"Generates a structure \",\"color\":\"blue\",\"italic\":false}']},infusion_circle_placer:1b,SkullOwner:{Id:[I;-510246894,-974372697,-1324757754,-2046207321],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTIyNzYzMDkzNzc0NjkzYjI2MzkyNzhhMWMyYzY5OGFkMTFkYjQ5Mjg5NmU5YmYxNjcxNGQ4NTdlOThjYTFkZCJ9fX0=\"}]}}}"
+            }
+          ]
+        },
+        {
           "type": "loot_table",
           "weight": 10,
           "quality": 2,
-          "name": "atrium:treasure/formulas_infusion_1",
+          "name": "atrium:formulas/infusion_recipes_1",
           "functions": [
             {
               "function": "set_count",
-              "count": 1
+              "count": {
+                "min": 1,
+                "max": 2
+              }
             }
           ]
         },
         {
           "type": "loot_table",
-          "weight": 4,
+          "weight": 10,
           "quality": 2,
-          "name": "atrium:treasure/formulas_codex_1",
+          "name": "atrium:formulas/runic_recipes_1",
           "functions": [
             {
               "function": "set_count",
-              "count": 1
+              "count": {
+                "min": 1,
+                "max": 2
+              }
             }
           ]
         },
         {
           "type": "loot_table",
-          "weight": 5,
-          "quality": 3,
-          "name": "atrium:treasure/formulas_infusion_2",
+          "weight": 10,
+          "quality": 2,
+          "name": "atrium:formulas/alchemy_recipes_1",
           "functions": [
             {
               "function": "set_count",
-              "count": 1
+              "count": {
+                "min": 1,
+                "max": 2
+              }
             }
           ]
         },
         {
           "type": "loot_table",
-          "weight": 3,
-          "quality": 3,
-          "name": "atrium:treasure/formulas_codex_2",
+          "weight": 10,
+          "quality": 2,
+          "name": "atrium:formulas/infusion_recipes_2",
           "functions": [
             {
               "function": "set_count",
-              "count": 1
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "weight": 10,
+          "quality": 2,
+          "name": "atrium:formulas/runic_recipes_2",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "weight": 10,
+          "quality": 2,
+          "name": "atrium:formulas/alchemy_recipes_2",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
             }
           ]
         }
@@ -66,7 +124,7 @@
           "type": "loot_table",
           "weight": 2,
           "quality": 0,
-          "name": "atrium:treasure/vanilla_chest_additions/curiosity/doctrine_curiosity",
+          "name": "atrium:chests/vanilla_chest_additions/curiosity/doctrine_curiosity",
           "functions": [
             {
               "function": "set_count",
@@ -99,7 +157,7 @@
                                   }
                 }
           ],
-          "name": "atrium:treasure/vanilla_chest_additions/curiosity/doctrine_curiosity",
+          "name": "atrium:chests/vanilla_chest_additions/curiosity/doctrine_curiosity",
           "functions": [
             {
               "function": "set_count",
