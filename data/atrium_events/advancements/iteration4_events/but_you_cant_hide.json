@@ -24,8 +24,9 @@
             "trigger": "minecraft:impossible"
         }
     },
-        "rewards": {
-		"experience": 100
+    "rewards": {
+		"experience": 100,
+	    "function": "atrium_events:series_grant/return_to_the_depths"
 	},
         "parent": "atrium_events:events_2023"
 }

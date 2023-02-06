@@ -11,8 +11,7 @@
               "location": {
                 "position": {
                   "y": {
-                    "min": -64,
-                    "max": -15
+                    "max": -10
                   }
                 },
                 "dimension": "atrium:the_meridian"

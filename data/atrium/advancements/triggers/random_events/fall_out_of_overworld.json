@@ -11,8 +11,7 @@
               "location": {
                 "position": {
                   "y": {
-                    "min": -116,
-                    "max": -65
+                    "max": -64
                   }
                 },
                 "dimension": "minecraft:overworld"

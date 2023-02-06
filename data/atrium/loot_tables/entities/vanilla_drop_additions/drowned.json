@@ -7,6 +7,13 @@
       "entries": [
         {
           "type": "empty",
+          "weight": 10,
+          "quality": -5
+        },
+        {
+          "type": "item",
+          "weight": 70,
+          "name": "minecraft:player_head",
           "conditions": [
             {
               "condition": "minecraft:entity_properties",
@@ -16,13 +23,6 @@
               }
             }
           ],
-          "weight": 10,
-          "quality": -5
-        },
-        {
-          "type": "item",
-          "weight": 70,
-          "name": "minecraft:player_head",
           "functions": [
             {
               "function": "set_count",
