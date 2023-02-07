@@ -100,7 +100,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Experimental Potion\",\"italic\":false}',Lore:['{\"text\":\"Strength II (10:30)\",\"color\":\"blue\",\"italic\":false}','{\"text\":\"2\"}','{\"text\":\"When Applied:\",\"color\":\"dark_purple\",\"italic\":false}','{\"text\":\"+6 Attack Damage\",\"color\":\"blue\",\"italic\":false}']},HideFlags:32,experimental_potion:1b,CustomPotionEffects:[{Id:2b,Amplifier:0b,Duration:1200,ShowParticles:0b},{Id:3b,Amplifier:1b,Duration:1600,ShowParticles:1b}],Potion:\"minecraft:empty\",CustomPotionColor:10682368}"
+              "tag": "{display:{Name:'{\"text\":\"Experimental Potion\",\"italic\":false}',Lore:['{\"text\":\"Strength II (10:30)\",\"color\":\"blue\",\"italic\":false}','{\"text\":\"2\"}','{\"text\":\"When Applied:\",\"color\":\"dark_purple\",\"italic\":false}','{\"text\":\"+6 Attack Damage\",\"color\":\"blue\",\"italic\":false}']},HideFlags:32,experimental_potion:1b,CustomPotionEffects:[{Id:2,Amplifier:0b,Duration:1200,ShowParticles:0b},{Id:3,Amplifier:1b,Duration:1600,ShowParticles:1b}],Potion:\"minecraft:empty\",CustomPotionColor:10682368}"
             }
           ]
         },
@@ -116,7 +116,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Experimental Potion\",\"italic\":false}',Lore:['{\"text\":\"??? (3:33)\",\"color\":\"blue\",\"italic\":false}']},HideFlags:32,experimental_potion:1b,CustomPotionEffects:[{Id:1,Amplifier:0b,Duration:3660,ShowParticles:1b},{Id:2,Amplifier:0b,Duration:3660,ShowParticles:1b},{Id:8,Amplifier:0b,Duration:3660,ShowParticles:1b},{Id:15b,Amplifier:0b,Duration:3660,ShowParticles:1b}],Potion:\"minecraft:empty\",CustomPotionColor:16777215}"
+              "tag": "{display:{Name:'{\"text\":\"Experimental Potion\",\"italic\":false}',Lore:['{\"text\":\"??? (3:33)\",\"color\":\"blue\",\"italic\":false}']},HideFlags:32,experimental_potion:1b,CustomPotionEffects:[{Id:1,Amplifier:0b,Duration:3660,ShowParticles:1b},{Id:2,Amplifier:0b,Duration:3660,ShowParticles:1b},{Id:8,Amplifier:0b,Duration:3660,ShowParticles:1b},{Id:15,Amplifier:0b,Duration:3660,ShowParticles:1b}],Potion:\"minecraft:empty\",CustomPotionColor:16777215}"
             }
           ]
         }

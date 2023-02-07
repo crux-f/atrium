@@ -130,7 +130,7 @@
             },
             {
 			  "function": "set_nbt",
-			  "tag": "{display:{Name:'{\"text\":\"Trapper\\'s Arrow\",\"color\":\"yellow\",\"italic\":false}',Lore:['{\"text\":\"Not quite a bolas, but\"}','{\"text\":\"it works.\"}']},CustomPotionEffects:[{Id:2b,Amplifier:1b,Duration:1700,ShowParticles:1b}],Potion:\"minecraft:empty\",CustomPotionColor:10722203}"
+			  "tag": "{display:{Name:'{\"text\":\"Trapper\\'s Arrow\",\"color\":\"yellow\",\"italic\":false}',Lore:['{\"text\":\"Not quite a bolas, but\"}','{\"text\":\"it works.\"}']},CustomPotionEffects:[{Id:2,Amplifier:1b,Duration:1700,ShowParticles:1b}],Potion:\"minecraft:empty\",CustomPotionColor:10722203}"
 		     
 		    }
           ]
