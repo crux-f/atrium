@@ -1,0 +1,3 @@
+# /give command for special items
+give @s chest{display:{Name:'{"text":"Butcher\'s Chest","color":"green","italic":false}',Lore:['{"text":"Unlocked using an Butcher Key."}']},BlockEntityTag:{Lock:"§aButcher Key",LootTable:"atrium:chests/special/locked_village_butcher_chest"}} 1
+give @s gold_nugget{display:{Name:'{"text":"§aButcher Key","italic":false}'},CustomModelData:333070,atrium_village_butcher_key:1b} 1

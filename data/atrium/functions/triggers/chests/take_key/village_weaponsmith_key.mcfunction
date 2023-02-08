@@ -1,0 +1,5 @@
+# Remove key
+clear @a[tag=village_weaponsmith_key_remove] minecraft:gold_nugget{atrium_village_weaponsmith_key:1b} 1
+#
+# Remove tag
+tag @a remove village_weaponsmith_key_remove

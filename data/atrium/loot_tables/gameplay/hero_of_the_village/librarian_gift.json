@@ -9,6 +9,18 @@
           "name": "minecraft:book"
         },
         {
+          "type": "minecraft:item",
+          "name": "minecraft:paper"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ink_sac"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:glow_ink_sac"
+        },
+        {
           "type": "item",
           "weight": 1,
           "name": "minecraft:gold_nugget",
@@ -19,26 +31,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{CustomModelData:333070,atrium_village_key:1b,atrium_librarian_key:1b}"
-            },
-            {
-              "function": "set_name",
-              "name": [
-                {
-                  "text": "Village Key",
-                  "italic": "false"
-                }
-              ]
-            },
-            {
-              "function": "set_lore",
-              "lore": [
-                {
-                  "text": "Librarian Chest",
-                  "color": "gray",
-                  "italic": "false"
-                }
-              ]
+              "tag": "{display:{Name:'{\"text\":\"§aLibrary Key\",\"italic\":false}'},CustomModelData:333070,atrium_village_key:1b,atrium_village_library_key:1b}"
             }
           ]
         }

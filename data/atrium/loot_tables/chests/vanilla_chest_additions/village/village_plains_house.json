@@ -2,77 +2,59 @@
   "type": "chest",
   "pools": [
     {
-      "rolls": {
-        "min": 1,
-        "max": 2
-      },
+      "rolls": 9,
       "bonus_rolls": 1,
       "entries": [
         {
           "type": "item",
-          "weight": 10,
+          "weight": 25,
           "quality": 2,
-          "name": "minecraft:saddle",
+          "name": "minecraft:beetroot_soup",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 20,
+          "quality": 3,
+          "name": "minecraft:emerald_block",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 7,
+          "quality": -3,
+          "name": "minecraft:egg",
           "functions": [
             {
               "function": "set_count",
               "count": 1
             },
             {
-              "function": "set_name",
-              "name": [
-                {
-                  "text": "Battle Saddle",
-                  "italic": "false"
-                }
-              ]
-            },
-            {
-              "function": "set_lore",
-              "lore": [
-                {
-                  "text": "",
-                  "color": "gray",
-                  "italic": "false"
-                },
-                {
-                  "text": "When on Horse:",
-                  "color": "gray",
-                  "italic": "false"
-                },
-                {
-                  "text": "+4 Max Health",
-                  "color": "blue",
-                  "italic": "false"
-                }
-              ]
-            },
-            {
               "function": "set_nbt",
-              "tag": "{battle_saddle:1b}"
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "weight": 1,
-          "quality": -3,
-          "name": "minecraft:egg",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 3
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{silas_egg:1b}"
+              "tag": "{silas_egg:1b,CustomModelData:333081}"
             },
             {
               "function": "set_name",
               "name": [
                 {
                   "text": "egg",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             }
@@ -80,8 +62,7 @@
         },
         {
           "type": "item",
-          "weight": 9,
-          "quality": 0,
+          "weight": 30,
           "name": "minecraft:egg",
           "functions": [
             {
@@ -95,8 +76,8 @@
         },
         {
           "type": "item",
-          "weight": 14,
-          "quality": 1,
+          "weight": 20,
+          "quality": 2,
           "name": "minecraft:rabbit_stew",
           "functions": [
             {
@@ -110,17 +91,13 @@
         },
         {
           "type": "item",
-          "weight": 9,
-          "quality": 3,
+          "weight": 10,
+          "quality": 2,
           "name": "minecraft:cake",
           "functions": [
             {
               "function": "set_count",
               "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{BlockStateTag:{bites:\"1\"}}"
             },
             {
               "function": "set_lore",
@@ -151,7 +128,7 @@
               "name": [
                 {
                   "text": "Walking Stick",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             }
@@ -159,8 +136,8 @@
         },
         {
           "type": "item",
-          "weight": 10,
-          "quality": 2,
+          "weight": 30,
+          "quality": 1,
           "name": "minecraft:cod",
           "functions": [
             {
@@ -174,8 +151,7 @@
               "function": "set_name",
               "name": [
                 {
-                  "text": "Cat Food",
-                  "italic": "false"
+                  "text": "Cat Food"
                 }
               ]
             }
@@ -183,7 +159,7 @@
         },
         {
           "type": "item",
-          "weight": 5,
+          "weight": 25,
           "quality": 1,
           "name": "minecraft:milk_bucket",
           "functions": [
@@ -195,8 +171,8 @@
         },
         {
           "type": "item",
-          "weight": 3,
-          "quality": 2,
+          "weight": 10,
+          "quality": 3,
           "name": "minecraft:music_disc_cat",
           "functions": [
             {
@@ -207,7 +183,7 @@
         },
         {
           "type": "item",
-          "weight": 3,
+          "weight": 10,
           "quality": 3,
           "name": "minecraft:golden_carrot",
           "functions": [
@@ -222,7 +198,7 @@
         },
         {
           "type": "item",
-          "weight": 15,
+          "weight": 25,
           "quality": 2,
           "name": "minecraft:potion",
           "functions": [
@@ -232,14 +208,14 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{HideFlags:32,yarners_ale:1b,CustomPotionEffects:[{Id:4b,Amplifier:0b,Duration:3600,ShowParticles:0b},{Id:22b,Amplifier:0b,Duration:3600,ShowParticles:1b}],Potion:\"minecraft:empty\",CustomPotionColor:4657408}"
+              "tag": "{HideFlags:32,yarners_ale:1b,CustomPotionEffects:[{Id:4,Amplifier:0b,Duration:3600,ShowParticles:0b},{Id:22,Amplifier:0b,Duration:3600,ShowParticles:1b}],Potion:\"minecraft:empty\",CustomPotionColor:4657408}"
             },
             {
               "function": "set_name",
               "name": [
                 {
                   "text": "Yarner's Ale",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             }
@@ -247,8 +223,8 @@
         },
         {
           "type": "item",
-          "weight": 15,
-          "quality": -1,
+          "weight": 25,
+          "quality": 2,
           "name": "minecraft:potion",
           "functions": [
             {
@@ -257,16 +233,158 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{HideFlags:32,CustomPotionEffects:[{Id:4b,Amplifier:0b,Duration:3600,ShowParticles:0b},{Id:5b,Amplifier:0b,Duration:200,ShowParticles:1b},{Id:9b,Amplifier:0b,Duration:300,ShowParticles:0b},{Id:32b,Amplifier:0b,Duration:200,ShowParticles:1b}],Potion:\"minecraft:empty\",CustomPotionColor:19967}"
+              "tag": "{HideFlags:32,CustomPotionEffects:[{Id:4,Amplifier:0b,Duration:3600,ShowParticles:0b},{Id:5,Amplifier:0b,Duration:200,ShowParticles:1b},{Id:9,Amplifier:0b,Duration:300,ShowParticles:0b},{Id:32,Amplifier:0b,Duration:200,ShowParticles:1b}],Potion:\"minecraft:empty\",CustomPotionColor:19967}"
             },
             {
               "function": "set_name",
               "name": [
                 {
                   "text": "Spicy Water",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 15,
+          "quality": 2,
+          "name": "minecraft:gold_nugget",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 5,
+                "max": 12
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 30,
+          "name": "minecraft:potato",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 5,
+                "max": 12
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 30,
+          "name": "minecraft:poppy",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 30,
+          "name": "minecraft:dandelion",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 30,
+          "name": "minecraft:bread",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 5,
+                "max": 12
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 30,
+          "name": "minecraft:apple",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 5,
+                "max": 12
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 30,
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 30,
+          "name": "minecraft:feather",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 30,
+          "quality": 2,
+          "name": "minecraft:emerald",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 6,
+                "max": 15
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 30,
+          "name": "minecraft:oak_sapling",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 4
+              }
             }
           ]
         }

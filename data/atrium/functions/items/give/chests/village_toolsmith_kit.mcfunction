@@ -1,0 +1,3 @@
+# /give command for special items
+give @s chest{display:{Name:'{"text":"Toolsmith Chest","color":"green","italic":false}',Lore:['{"text":"Unlocked using a Toolsmith Key."}']},BlockEntityTag:{Lock:"§aToolsmith Key",LootTable:"atrium:chests/special/locked_village_toolsmith_chest"}} 1
+give @s gold_nugget{display:{Name:'{"text":"§aToolsmith Key","italic":false}'},CustomModelData:333070,atrium_village_toolsmith_key:1b} 1

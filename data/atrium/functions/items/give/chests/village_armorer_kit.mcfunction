@@ -1,0 +1,3 @@
+# /give command for special items
+give @s chest{display:{Name:'{"text":"Armorer\'s Chest","color":"green","italic":false}',Lore:['{"text":"Unlocked using an Armorer Key."}']},BlockEntityTag:{Lock:"§aArmorer Key",LootTable:"atrium:chests/special/locked_village_armorer_chest"}} 1
+give @s gold_nugget{display:{Name:'{"text":"§aArmorer Key","italic":false}'},CustomModelData:333070,atrium_village_armorer_key:1b} 1

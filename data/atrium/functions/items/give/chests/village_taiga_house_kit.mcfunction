@@ -1,0 +1,3 @@
+# /give command for special items
+give @s chest{display:{Name:'{"text":"Taiga Village Chest","color":"green","italic":false}',Lore:['{"text":"Unlocked using a Taiga Village Key."}']},BlockEntityTag:{Lock:"§aTaiga Village Key",LootTable:"atrium:chests/special/locked_village_taiga_house_chest"}} 1
+give @s gold_nugget{display:{Name:'{"text":"§aTaiga Village Key","italic":false}'},CustomModelData:333070,atrium_village_taiga_house_key:1b} 1

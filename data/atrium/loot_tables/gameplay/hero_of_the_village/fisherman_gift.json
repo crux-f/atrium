@@ -23,26 +23,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{CustomModelData:333070,atrium_village_key:1b,atrium_fisherman_key:1b}"
-            },
-            {
-              "function": "set_name",
-              "name": [
-                {
-                  "text": "Village Key",
-                  "italic": "false"
-                }
-              ]
-            },
-            {
-              "function": "set_lore",
-              "lore": [
-                {
-                  "text": "Fisherman Chest",
-                  "color": "gray",
-                  "italic": "false"
-                }
-              ]
+              "tag": "{display:{Name:'{\"text\":\"§aFisher Key\",\"italic\":false}'},CustomModelData:333070,atrium_village_key:1b,atrium_village_fisher_key:1b}"
             }
           ]
         }

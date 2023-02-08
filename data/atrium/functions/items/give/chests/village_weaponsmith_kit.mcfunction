@@ -1,0 +1,3 @@
+# /give command for special items
+give @s chest{display:{Name:'{"text":"Weaponsmith Chest","color":"green","italic":false}',Lore:['{"text":"Unlocked using a Weaponsmith Key."}']},BlockEntityTag:{Lock:"§aWeaponsmith Key",LootTable:"atrium:chests/special/locked_village_weaponsmith_chest"}} 1
+give @s gold_nugget{display:{Name:'{"text":"§aWeaponsmith Key","italic":false}'},CustomModelData:333070,atrium_village_weaponsmith_key:1b} 1

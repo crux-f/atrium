@@ -53,9 +53,9 @@
             },
             {
               "function": "exploration_map",
-              "destination": "monument",
+              "destination": "minecraft:on_ocean_explorer_maps",
               "decoration": "monument",
-              "skip_existing_chunks": "false"
+              "skip_existing_chunks": false
             },
             {
               "function": "set_nbt",
@@ -75,9 +75,9 @@
             },
             {
               "function": "exploration_map",
-              "destination": "ruined_portal",
+              "destination": "minecraft:ruined_portal",
               "decoration": "red_x",
-              "skip_existing_chunks": "false"
+              "skip_existing_chunks": false
             },
             {
               "function": "set_nbt",
@@ -96,9 +96,9 @@
             },
             {
               "function": "exploration_map",
-              "destination": "igloo",
+              "destination": "minecraft:igloo",
               "decoration": "red_x",
-              "skip_existing_chunks": "false"
+              "skip_existing_chunks": false
             },
             {
               "function": "set_nbt",

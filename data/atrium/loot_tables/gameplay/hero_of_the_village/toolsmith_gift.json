@@ -31,14 +31,14 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{CustomModelData:333070,atrium_village_key:1b,atrium_toolsmith_key:1b}"
+              "tag": "{display:{Name:'{\"text\":\"§aToolsmith Key\",\"italic\":false}'},CustomModelData:333070,atrium_village_key:1b,atrium_village_toolsmith_key:1b}"
             },
             {
               "function": "set_name",
               "name": [
                 {
                   "text": "Village Key",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             },
@@ -48,7 +48,7 @@
                 {
                   "text": "Toolsmith Chest",
                   "color": "gray",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             }

@@ -2,63 +2,63 @@
   "type": "chest",
   "pools": [
     {
-      "rolls": 1,
-      "bonus_rolls": 0,
+      "rolls": 6,
+      "bonus_rolls": 1,
       "entries": [
         {
           "type": "item",
-          "weight": 4,
-          "quality": 1,
-          "name": "minecraft:flint_and_steel",
+          "weight": 26,
+          "quality": 2,
+          "name": "minecraft:gold_ingot",
           "functions": [
             {
               "function": "set_count",
               "count": {
-                "min": 1,
-                "max": 2
+                "min": 5,
+                "max": 12
               }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 35,
+          "name": "minecraft:iron_ingot",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 5,
+                "max": 12
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "quality": 2,
+          "name": "minecraft:bell",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
             },
             {
-              "function": "set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Firesteel\",\"italic\":false}'},Enchantments:[{id:\"minecraft:unbreaking\",lvl:4s}]}"
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "The heart of any village."
+                }
+              ]
             }
           ]
         },
         {
           "type": "item",
-          "weight": 2,
-          "quality": 1,
-          "name": "minecraft:rabbit_stew",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 3
-              }
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "weight": 2,
-          "quality": 1,
-          "name": "minecraft:chain",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 3,
-                "max": 5
-              }
-            }
-          ]
-        },
-        {
-          "type": "loot_table",
-          "weight": 1,
-          "quality": 3,
-          "name": "atrium:treasure/formulas_infusion_1",
+          "weight": 25,
+          "quality": 2,
+          "name": "minecraft:lava_bucket",
           "functions": [
             {
               "function": "set_count",
@@ -68,7 +68,104 @@
         },
         {
           "type": "item",
-          "weight": 3,
+          "weight": 30,
+          "name": "minecraft:obsidian",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 3,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 26,
+          "quality": 2,
+          "name": "minecraft:emerald_block",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 19,
+          "quality": 2,
+          "name": "minecraft:diamond",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 8,
+          "quality": 3,
+          "name": "minecraft:trident",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 17,
+          "quality": 2,
+          "name": "minecraft:diamond_sword",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 17,
+          "quality": 2,
+          "name": "minecraft:diamond_axe",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 15,
+          "quality": 3,
+          "name": "minecraft:iron_sword",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Dueling Sword\",\"italic\":false}',Lore:['{\"text\":\"Unrepairable\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"A bastard sword made\"}','{\"text\":\"to throw enemies off\"}','{\"text\":\"their rhythm.\"}']},RepairCost:99,dueling_sword:1b,Enchantments:[{id:\"minecraft:sweeping\",lvl:1s},{id:\"minecraft:unbreaking\",lvl:3s}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 15,
+          "quality": 3,
           "name": "minecraft:iron_axe",
           "functions": [
             {
@@ -83,7 +180,40 @@
         },
         {
           "type": "item",
-          "weight": 3,
+          "weight": 33,
+          "name": "minecraft:shield",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 23,
+          "name": "minecraft:iron_sword",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 23,
+          "name": "minecraft:iron_axe",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 15,
           "name": "minecraft:iron_sword",
           "functions": [
             {
@@ -91,8 +221,33 @@
               "count": 1
             },
             {
-              "function": "set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Dueling Sword\",\"italic\":false}',Lore:['{\"text\":\"Unrepairable\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"A bastard sword made\"}','{\"text\":\"to throw enemies off\"}','{\"text\":\"their rhythm.\"}']},RepairCost:99,dueling_sword:1b,Enchantments:[{id:\"minecraft:sweeping\",lvl:1s},{id:\"minecraft:unbreaking\",lvl:3s}]}"
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 10.0,
+                "min": 0.0
+              },
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 15,
+          "name": "minecraft:iron_axe",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 10.0,
+                "min": 0.0
+              },
+              "treasure": true
             }
           ]
         }

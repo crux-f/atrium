@@ -1,0 +1,3 @@
+# /give command for special items
+give @s chest{display:{Name:'{"text":"Farmer\'s Chest","color":"green","italic":false}',Lore:['{"text":"Unlocked using an Farmer Key."}']},BlockEntityTag:{Lock:"§aFarmer Key",LootTable:"atrium:chests/special/locked_village_farmer_chest"}} 1
+give @s gold_nugget{display:{Name:'{"text":"§aFarmer Key","italic":false}'},CustomModelData:333070,atrium_village_farmer_key:1b} 1

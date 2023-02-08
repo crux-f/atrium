@@ -19,26 +19,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{CustomModelData:333070,atrium_village_key:1b,atrium_mason_key:1b}"
-            },
-            {
-              "function": "set_name",
-              "name": [
-                {
-                  "text": "Village Key",
-                  "italic": "false"
-                }
-              ]
-            },
-            {
-              "function": "set_lore",
-              "lore": [
-                {
-                  "text": "Mason Chest",
-                  "color": "gray",
-                  "italic": "false"
-                }
-              ]
+              "tag": "{display:{Name:'{\"text\":\"§aMason Key\",\"italic\":false}'},CustomModelData:333070,atrium_village_key:1b,atrium_village_mason_key:1b}"
             }
           ]
         }

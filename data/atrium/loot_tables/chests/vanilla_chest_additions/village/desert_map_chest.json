@@ -53,9 +53,9 @@
             },
             {
               "function": "exploration_map",
-              "destination": "desert_pyramid",
+              "destination": "minecraft:desert_pyramid",
               "decoration": "red_x",
-              "skip_existing_chunks": "false"
+              "skip_existing_chunks": false
             },
             {
               "function": "set_nbt",
@@ -77,7 +77,7 @@
               "function": "exploration_map",
               "destination": "ruined_portal",
               "decoration": "red_x",
-              "skip_existing_chunks": "false"
+              "skip_existing_chunks": false
             },
             {
               "function": "set_nbt",
@@ -98,7 +98,7 @@
               "function": "exploration_map",
               "destination": "village",
               "decoration": "mansion",
-              "skip_existing_chunks": "false"
+              "skip_existing_chunks": false
             },
             {
               "function": "set_nbt",
