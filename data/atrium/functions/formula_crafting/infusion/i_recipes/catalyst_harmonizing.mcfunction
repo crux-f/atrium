@@ -4,8 +4,8 @@
 # Note: infusion_base_item handles the first item - this script will handle any remaining item checks.
 #
 # Check WEST for Block of Amethyst
-execute positioned ~ ~ ~-2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:amethyst_block",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
-execute positioned ~ ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:amethyst_block",Count:1b}}] run scoreboard players add @s valid_ingredients 1
+execute positioned ~-4 ~ ~ at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:amethyst_block",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~-4 ~ ~ if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:amethyst_block",Count:1b}}] run scoreboard players add @s valid_ingredients 1
 # Check CENTER EAST for Note Block
 execute positioned ~2 ~ ~ at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:note_block",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
 execute positioned ~2 ~ ~ if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:note_block",Count:1b}}] run scoreboard players add @s valid_ingredients 1
@@ -19,6 +19,6 @@ execute positioned ~ ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=
 execute positioned ~ ~ ~2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:obsidian",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
 execute positioned ~ ~ ~2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:obsidian",Count:1b}}] run scoreboard players add @s valid_ingredients 1
 #
-execute if entity @s[scores={valid_ingredients=5..}] at @s run summon item ~ ~1 ~ {NoGravity:1b,Glowing:1b,Item:{id:"minecraft:diamond",Count:1b,tag:{display:{Name:'{"text":"Spacial Focus","color":"blue","italic":false}',Lore:['{"text":"This cut diamond is"}','{"text":"is imbued with the ability"}','{"text":"to channel and absorb"}','{"text":"spacial signatures."}']},HideFlags:1,spacial_focus:1b,Enchantments:[{id:"minecraft:unbreaking",lvl:1s}]}}}
+execute if entity @s[scores={valid_ingredients=5..}] at @s run summon item ~ ~1 ~ {NoGravity:1b,Glowing:1b,Item:{id:"minecraft:amethyst_block",Count:1b,tag:{display:{Name:'{"text":"Infusion Catalyst","italic":false}',Lore:['{"text":"Harmonizing","color":"light_purple","italic":false}','{"text":" "}','{"text":"A little extra music can"}','{"text":"help even the most"}','{"text":"disparate elements get along."}']},atrium_catalyst_harmonizing:1b,Enchantments:[{}]}}}
 execute if entity @s[scores={valid_ingredients=5..}] at @s run function atrium:formula_crafting/infusion/infusion_reset
 scoreboard players set @s valid_ingredients 0

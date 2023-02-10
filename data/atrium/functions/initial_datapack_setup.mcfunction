@@ -8,6 +8,9 @@
 scoreboard objectives add static_values dummy
 # valid_ingredients is used by formula crafting systems to validate ingredients during crafting
 scoreboard objectives add valid_ingredients dummy
+#
+#
+#
 # Magic - - -
 # resurrect is used to resurrect players from the dead
 scoreboard objectives add resurrect dummy {"text":"Resurrect Progress","color":"aqua"}
@@ -20,6 +23,10 @@ scoreboard objectives add entropy dummy {"text":"Entropy","color":"dark_gray"}
 scoreboard objectives add charge dummy {"text":"Charge Level","color":"green"}
 # atrium_dance_spell is used for Dance, the air ultimate
 scoreboard objectives add atrium_dance_spell dummy {"text":"Dance Bounces","color":"yellow"}
+# enchantment_damage is used for calculating damage on runic enchantments (NOTE: Once /damage is added this will become deprecated)
+scoreboard objectives add enchantment_damage dummy {"text":"Enchantment Damage","color":"aqua"}
+#
+#
 #
 # Shrines - - -
 # Each of the 13 gods has a Favor counter for shrine functionality.

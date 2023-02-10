@@ -10,7 +10,7 @@
             "predicate": {
               "equipment": {
                 "mainhand": {
-                  "nbt": "{raider_slayer_enchant:1b}"
+                  "nbt": "{atrium_raider_slayer_enchanted:1b}"
                 }
               }
             }
@@ -29,6 +29,6 @@
     }
   },
   "rewards": {
-    "function": "atrium:triggers/enchantments/raider_slayer"
+    "function": "atrium:triggers/runic_enchantments/raider_slayer"
   }
 }

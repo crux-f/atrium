@@ -96,7 +96,7 @@
               "predicate": {
                 "location": {
                   "biome": "atrium:shards",
-                  "dimension": "atrium:meridian"
+                  "dimension": "atrium:the_meridian"
                 }
               }
             }
@@ -111,7 +111,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{comet_berries:1b,Enchantments:[{id:\"minecraft:power\",lvl:1s}]}"
+              "tag": "{atrium_comet_berries:1b,Enchantments:[{id:\"minecraft:power\",lvl:1s}],CustomModelData:333082,HideFlags:99}"
             },
             {
               "function": "set_name",
@@ -119,7 +119,7 @@
                 {
                   "text": "Comet Berries",
                   "color": "yellow",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             },

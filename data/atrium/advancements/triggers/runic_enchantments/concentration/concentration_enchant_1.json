@@ -13,7 +13,7 @@
                   "predicate": {
                     "equipment": {
                       "offhand": {
-                        "nbt": "{concentration_enchant:1b}"
+                        "nbt": "{atrium_concentration_enchanted:1b}"
                       }
                     }
                   }
@@ -24,7 +24,7 @@
                   "predicate": {
                     "equipment": {
                       "mainhand": {
-                        "nbt": "{concentration_enchant:1b}"
+                        "nbt": "{atrium_concentration_enchanted:1b}"
                       }
                     }
                   }
@@ -32,12 +32,12 @@
               ]
             }
           ],
-          "levels": 2
+          "levels": 1
         }
       }
     },
     "rewards": {
-      "function": "atrium:triggers/enchantments/concentration/concentration_enchant_2"
+      "function": "atrium:triggers/runic_enchantments/concentration/concentration_enchant_1"
     }
   }
   

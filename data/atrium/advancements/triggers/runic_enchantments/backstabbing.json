@@ -10,7 +10,7 @@
             "predicate": {
               "equipment": {
                 "mainhand": {
-                  "nbt": "{backstabbing_enchant:1b}"
+                  "nbt": "{atrium_backstabbing_enchanted:1b}"
                 }
               }
             }
@@ -26,7 +26,7 @@
                 "targeted_entity": {
                   "equipment": {
                     "mainhand": {
-                      "nbt": "{backstabbing_enchant:1b}"
+                      "nbt": "{atrium_backstabbing_enchanted:1b}"
                     }
                   }
                 }
@@ -38,6 +38,6 @@
     }
   },
   "rewards": {
-    "function": "atrium:triggers/enchantments/backstabbing"
+    "function": "atrium:triggers/runic_enchantments/backstabbing"
   }
 }

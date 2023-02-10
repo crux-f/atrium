@@ -7,11 +7,11 @@ scoreboard players set @s valid_ingredients 0
 execute positioned ~ ~ ~2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:diamond",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
 execute positioned ~ ~ ~2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:diamond",Count:1b}}] at @s run function atrium:formula_crafting/infusion/i_recipes/inert_focus
 # Start Infusion Catalyst [Harmonizing] - Check EAST for Block of Amethyst
-# execute positioned ~4 ~ ~ at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:amethyst_block",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
-# execute positioned ~4 ~ ~ if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:amethyst_block",Count:1b}}] run function atrium:formula_crafting/infusion/i_recipes/catalyst_harmonizing
+execute positioned ~4 ~ ~ at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:amethyst_block",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~4 ~ ~ if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:amethyst_block",Count:1b}}] at @s run function atrium:formula_crafting/infusion/i_recipes/catalyst_harmonizing
 # Start Infusion Catalyst [Reverberating] - Check EAST for Block of Quartz
-# execute positioned ~4 ~ ~ at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:quartz_block",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
-# execute positioned ~4 ~ ~ if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:quartz_block",Count:1b}}] run function atrium:formula_crafting/infusion/i_recipes/catalyst_reverberating
+execute positioned ~4 ~ ~ at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:quartz_block",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~4 ~ ~ if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:quartz_block",Count:1b}}] at @s run function atrium:formula_crafting/infusion/i_recipes/catalyst_reverberating
 #
 # Equipment
 #
@@ -33,3 +33,13 @@ execute positioned ~ ~ ~-4 if entity @e[type=minecraft:glow_item_frame,distance=
 # Start Staff of Space (+1) - Check NORTH for Coal
 execute positioned ~ ~ ~-4 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:coal",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
 execute positioned ~ ~ ~-4 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:coal",Count:1b}}] at @s run function atrium:formula_crafting/infusion/i_recipes/space_staff_1
+#
+# Start Rod of Relocation - Check CENTER NORTH for Slimeball
+execute positioned ~ ~ ~-2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:slime_ball",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:slime_ball",Count:1b}}] at @s run function atrium:formula_crafting/infusion/i_recipes/rod_of_relocation
+#
+# Special
+#
+# Start Warp Gate - Check NORTH for Lodestone
+# execute positioned ~ ~ ~-4 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:lodestone",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+# execute positioned ~ ~ ~-4 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:lodestone",Count:1b}}] at @s run function atrium:formula_crafting/infusion/i_recipes/warp_gate

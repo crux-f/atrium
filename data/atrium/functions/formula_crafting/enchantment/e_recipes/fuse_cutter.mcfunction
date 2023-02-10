@@ -26,11 +26,11 @@ execute positioned ~ ~ ~-3 unless data entity @e[type=minecraft:glow_item_frame,
 # Check to make sure the enchantment target isn't already enchanted with a custom enchantment
 execute positioned ~ ~ ~-3 unless data entity @e[type=minecraft:glow_item_frame,distance=..1.5,limit=1] Item.tag.atrium_custom_enchantment run scoreboard players add @s valid_ingredients 1
 #
-# Check NORTH EAST for any item enchanted with Sharpness
-execute positioned ~2 ~ ~-2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{tag:{Enchantments:[{id:"minecraft:sharpness"}]}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
-execute positioned ~2 ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{tag:{Enchantments:[{id:"minecraft:sharpness"}]}}}] run scoreboard players add @s valid_ingredients 1
-execute positioned ~2 ~ ~-2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{tag:{StoredEnchantments:[{id:"minecraft:sharpness"}]}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
-execute positioned ~2 ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{tag:{StoredEnchantments:[{id:"minecraft:sharpness"}]}}}] run scoreboard players add @s valid_ingredients 1
+# Check NORTH EAST for any item enchanted with Quick Charge
+execute positioned ~2 ~ ~-2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{tag:{Enchantments:[{id:"minecraft:quick_charge"}]}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~2 ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{tag:{Enchantments:[{id:"minecraft:quick_charge"}]}}}] run scoreboard players add @s valid_ingredients 1
+execute positioned ~2 ~ ~-2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{tag:{StoredEnchantments:[{id:"minecraft:quick_charge"}]}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~2 ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{tag:{StoredEnchantments:[{id:"minecraft:quick_charge"}]}}}] run scoreboard players add @s valid_ingredients 1
 # Check SOUTH for Enchantment Catalyst [Transforming]
 execute positioned ~ ~ ~3 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{tag:{atrium_catalyst_transforming:1b}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
 execute positioned ~ ~ ~3 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{tag:{atrium_catalyst_transforming:1b}}}] run scoreboard players add @s valid_ingredients 1
@@ -40,8 +40,8 @@ execute if entity @a[distance=..10,gamemode=!spectator,level=15..] run scoreboar
 #
 execute if entity @s[scores={valid_ingredients=6..}] run summon item ~ ~0.5 ~ {NoGravity:1b,Glowing:1b,PickupDelay:2,Tags:["atrium_codex_product_placeholder"],Item:{id:"minecraft:egg",Count:1b,tag:{display:{Name:'{"text":"Extremely Reportable Egg","italic":false}',Lore:['{"text":"(report this to crux_f)"}']}}}}
 execute if entity @s[scores={valid_ingredients=6..}] positioned ~ ~ ~-3 as @e[type=minecraft:glow_item_frame,distance=..1.5] run data modify entity @e[tag=atrium_codex_product_placeholder,sort=nearest,limit=1] Item set from entity @s Item
-execute if entity @s[scores={valid_ingredients=6..}] as @e[limit=1,sort=nearest,tag=atrium_codex_product_placeholder] run data merge entity @s {Item:{tag:{Enchantments:[{}],RepairCost:3,atrium_custom_enchantment:1b,atrium_backstabbing_enchanted:1b,atrium_backstabbing_lv:1b}}}
-execute if entity @s[scores={valid_ingredients=6..}] as @e[limit=1,sort=nearest,tag=atrium_codex_product_placeholder] run data modify entity @s Item.tag.display.Lore prepend value '{"text":"Backstabbing I","italic":false,"color":"gray"}'
+execute if entity @s[scores={valid_ingredients=6..}] as @e[limit=1,sort=nearest,tag=atrium_codex_product_placeholder] run data merge entity @s {Item:{tag:{Enchantments:[{}],RepairCost:3,atrium_custom_enchantment:1b,atrium_fuse_cutter_enchanted:1b}}}
+execute if entity @s[scores={valid_ingredients=6..}] as @e[limit=1,sort=nearest,tag=atrium_codex_product_placeholder] run data modify entity @s Item.tag.display.Lore prepend value '{"text":"Fuse Cutter","italic":false,"color":"gray"}'
 execute if entity @s[scores={valid_ingredients=6..}] run function atrium:formula_crafting/enchantment/enchantment_reset
 execute if entity @s[scores={valid_ingredients=6..}] positioned ~ ~ ~-7 run advancement grant @p[distance=..5,gamemode=!spectator] only atrium:magic/enchanter_ii
 # Take 1 level of XP from a random nearby player (within 10 blocks) who has at least 15 levels of XP

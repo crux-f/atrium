@@ -81,3 +81,13 @@ execute positioned ~ ~ ~2 if entity @e[type=minecraft:glow_item_frame,distance=.
 execute positioned ~ ~ ~2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:potion",Count:1b,tag:{Potion:"minecraft:long_slow_falling"}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
 execute positioned ~ ~ ~2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:potion",Count:1b,tag:{Potion:"minecraft:long_slow_falling"}}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/longer_slow_falling
 #
+# Other Potions
+#
+# Start Bottle o' Enchanting - Check NORTH for Gold Nugget
+execute positioned ~ ~ ~-2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:gold_nugget",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:gold_nugget",Count:1b}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/experience_bottle
+#
+# Start Potion of Luck - Check NORTH for Fern
+execute positioned ~ ~ ~-2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:fern",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:fern",Count:1b}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/potion_of_luck
+#

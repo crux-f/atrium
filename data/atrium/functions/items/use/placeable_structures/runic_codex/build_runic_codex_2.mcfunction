@@ -15,5 +15,5 @@ setblock ~-1 ~1 ~-7 minecraft:stone
 setblock ~-1 ~1 ~-8 minecraft:stone
 setblock ~1 ~1 ~-7 minecraft:stone
 setblock ~1 ~1 ~-8 minecraft:stone
-setblock ~-2 ~1 ~8 minecraft:stone
-setblock ~2 ~1 ~8 minecraft:stone
+setblock ~-2 ~1 ~-8 minecraft:stone
+setblock ~2 ~1 ~-8 minecraft:stone

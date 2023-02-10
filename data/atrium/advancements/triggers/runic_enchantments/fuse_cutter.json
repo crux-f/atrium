@@ -10,7 +10,7 @@
             "predicate": {
               "equipment": {
                 "mainhand": {
-                  "nbt": "{fuse_cutter_enchant:1b}"
+                  "nbt": "{atrium_fuse_cutter_enchanted:1b}"
                 }
               }
             }
@@ -29,6 +29,6 @@
     }
   },
   "rewards": {
-    "function": "atrium:triggers/enchantments/fuse_cutter"
+    "function": "atrium:triggers/runic_enchantments/fuse_cutter"
   }
 }

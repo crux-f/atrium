@@ -1,0 +1,42 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:enchanted_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:alternative",
+            "terms": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "equipment": {
+                    "offhand": {
+                      "nbt": "{atrium_concentration_enchanted:1b}"
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "equipment": {
+                    "mainhand": {
+                      "nbt": "{atrium_concentration_enchanted:1b}"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "levels": 3
+      }
+    }
+  },
+  "rewards": {
+    "function": "atrium:triggers/runic_enchantments/concentration/concentration_enchant_3"
+  }
+}

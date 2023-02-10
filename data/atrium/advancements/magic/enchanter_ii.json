@@ -1,5 +1,5 @@
 {
-    "__comment": "Acquired by applying a custom enchantment",
+    "__comment": "Acquired by applying a runic enchantment",
     "display": {
         "title": {
             "text": "Enchanter II",
@@ -15,10 +15,10 @@
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": true,
-        "hidden": true
+        "hidden": false
     },
     "criteria": {
-        "custom_enchantment": {
+        "runic_enchantment": {
             "trigger": "minecraft:impossible"
         }
     },
