@@ -28,7 +28,7 @@
           "term": 	{
 			  "condition": "minecraft:location_check",
 			  "predicate": {
-				"dimension": "atrium:meridian"
+				"dimension": "atrium:the_meridian"
 			  }
 			}
         }
@@ -43,13 +43,13 @@
             {
               "condition": "minecraft:match_tool",
               "predicate": {
-                "nbt": "{core_pickaxe:1b}"
+                "nbt": "{atrium_shard_touch_enchanted:1b}"
               }
             },
 			{
 			  "condition": "minecraft:location_check",
 			  "predicate": {
-				"dimension": "atrium:meridian"
+				"dimension": "atrium:the_meridian"
 			  }
 			}
           ],
@@ -62,7 +62,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{subdued_crystal:1b}"
+              "tag": "{atrium_subdued_crystal:1b}"
             },
             {
               "function": "set_name",
@@ -70,7 +70,7 @@
                 {
                   "text": "Subdued Crystal",
                   "color": "dark_green",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             },

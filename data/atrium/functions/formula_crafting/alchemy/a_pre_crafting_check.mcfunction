@@ -26,4 +26,4 @@ execute if entity @s[scores={valid_ingredients=..4}] run function atrium:formula
 #
 execute unless entity @p[gamemode=!spectator,distance=..6,nbt={SelectedItem:{tag:{atrium_rod_of_relocation:1b}}}] if entity @s[scores={valid_ingredients=5..}] run function atrium:formula_crafting/alchemy/alchemy_base_item
 # If the player is holding a Rod of Relocation, run the pack it up script instead.
-execute if entity @p[gamemode=!spectator,distance=..6,nbt={SelectedItem:{tag:{atrium_rod_of_relocation:1b}}}] if entity @s[scores={valid_ingredients=5..}] run function atrium:items/use/placeable_structures/alchemy_cauldron/pack_alchemy_cauldron
+execute if entity @p[gamemode=!spectator,distance=..6,nbt={SelectedItem:{tag:{atrium_rod_of_relocation:1b}}},level=5..] if entity @s[scores={valid_ingredients=5..}] run function atrium:items/use/placeable_structures/alchemy_cauldron/pack_alchemy_cauldron

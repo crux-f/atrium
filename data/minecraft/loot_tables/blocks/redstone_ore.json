@@ -68,7 +68,7 @@
             {
               "condition": "minecraft:match_tool",
               "predicate": {
-                "nbt": "{core_pickaxe:1b}"
+                "nbt": "{atrium_shard_touch_enchanted:1b}"
               }
             }
           ],
@@ -91,7 +91,7 @@
             {
               "condition": "minecraft:match_tool",
               "predicate": {
-                "nbt": "{core_pickaxe:1b}"
+                "nbt": "{atrium_rumbling_crystal:1b}"
               }
             }
           ],
@@ -105,7 +105,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{pure_redstone:1b}"
+              "tag": "{atrium_pure_redstone:1b,CustomModelData:333084}"
             },
             {
               "function": "set_name",
@@ -113,7 +113,7 @@
                 {
                   "text": "Pure Redstone",
                   "color": "dark_red",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             },
@@ -127,7 +127,7 @@
                   "text": "impossible to extract whole"
                 },
                 {
-                  "text": "to its frailty. If it's"
+                  "text": "to its frailty. If its"
                 },
                 {
                   "text": "dust is so versatile, what"

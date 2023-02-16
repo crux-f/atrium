@@ -5,11 +5,11 @@
         "nbt": "{Enchantments:[{lvl:1s,id:\"minecraft:channeling\"}]}"
       },
       "title": "In Her Wake",
-      "description": "Use a Core Pickaxe to acquire Blooming Crystal",
+      "description": "Acquire Blooming Crystal",
       "frame": "goal",
       "show_toast": true,
       "announce_to_chat": true,
-      "hidden": true
+      "hidden": false
     },
     "parent": "atrium:depths/even_deeper_dark",
     "criteria": {
@@ -23,7 +23,7 @@
               "predicate": {
                 "equipment": {
                   "mainhand": {
-                    "nbt": "{core_pickaxe:1b}"
+                    "nbt": "{atrium_shard_touch_enchanted:1b}"
                   }
                 }
               }
@@ -31,7 +31,7 @@
           ],
           "items": [
             {
-              "nbt": "{blooming_crystal:1b}"
+              "nbt": "{atrium_blooming_crystal:1b}"
             }
           ]
         }

@@ -1,0 +1,26 @@
+{
+    "__comment": "Acquired by using a Rod of Relocation to pack up a structure",
+    "display": {
+        "title": {
+            "text": "You've Redecorated!",
+            "color": "white"
+        },
+        "description": {
+            "text": "Use a Rod of Relocation to pack up an arcane crafting station"
+        },
+        "icon": {
+            "item": "minecraft:stick",
+            "nbt": "{CustomModelData:333083}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "pack_up_structure": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "atrium:magic/some_assembly_required"
+}

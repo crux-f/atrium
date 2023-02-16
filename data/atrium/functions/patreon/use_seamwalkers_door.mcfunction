@@ -1,5 +1,4 @@
-# Seamwalkers can teleport to a pocket dimension.
-# This activates when any player steps on a seamwalker's door pressure plate
+# Teleport Patrons of the Seamwalker tier or higher into their pocket dimension.
 execute if entity @s[name="crux_f"] in atrium:between_worlds run tp @s 24014.5 1 -2184.5
 execute if entity @s[name="Konobeat"] in atrium:between_worlds run tp @s -26977.5 1 -2167.5
 # execute if entity @s[name="Rose_Thorn14"] in atrium:between_worlds run tp @s -24993.5 1 -2167.5

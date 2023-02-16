@@ -46,7 +46,7 @@
             {
               "condition": "minecraft:match_tool",
               "predicate": {
-                "nbt": "{core_pickaxe:1b}"
+                "nbt": "{atrium_shard_touch_enchanted:1b}"
               }
             },
             {
@@ -68,7 +68,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{fading_crystal:1b}"
+              "tag": "{atrium_fading_crystal:1b}"
             },
             {
               "function": "set_name",
@@ -76,7 +76,7 @@
                 {
                   "text": "Fading Crystal",
                   "color": "dark_aqua",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             },

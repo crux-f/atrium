@@ -17,9 +17,15 @@ execute positioned ~ ~ ~-3 if entity @e[type=minecraft:glow_item_frame,distance=
 execute positioned ~ ~ ~-3 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{tag:{atrium_backstabbing_lv:2b}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
 execute positioned ~ ~ ~-3 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{tag:{atrium_backstabbing_lv:2b}}}] at @s run function atrium:formula_crafting/enchantment/e_recipes/backstabbing_3
 #
-# Start Fuse Cutter I - Check NORTH WEST for any item enchanted with Blast Protection
+# Start Fuse Cutter - Check NORTH WEST for any item enchanted with Blast Protection
 execute positioned ~-2 ~ ~-2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{tag:{Enchantments:[{id:"minecraft:blast_protection"}]}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
 execute positioned ~-2 ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{tag:{Enchantments:[{id:"minecraft:blast_protection"}]}}}] at @s run function atrium:formula_crafting/enchantment/e_recipes/fuse_cutter
 execute positioned ~-2 ~ ~-2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{tag:{StoredEnchantments:[{id:"minecraft:blast_protection"}]}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
 execute positioned ~-2 ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{tag:{StoredEnchantments:[{id:"minecraft:blast_protection"}]}}}] at @s run function atrium:formula_crafting/enchantment/e_recipes/fuse_cutter
+#
+# Start Shard Touch - Check NORTH WEST for any item enchanted with Silk Touch
+execute positioned ~-2 ~ ~-2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{tag:{Enchantments:[{id:"minecraft:silk_touch"}]}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~-2 ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{tag:{Enchantments:[{id:"minecraft:silk_touch"}]}}}] at @s run function atrium:formula_crafting/enchantment/e_recipes/shard_touch
+execute positioned ~-2 ~ ~-2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{tag:{StoredEnchantments:[{id:"minecraft:silk_touch"}]}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~-2 ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{tag:{StoredEnchantments:[{id:"minecraft:silk_touch"}]}}}] at @s run function atrium:formula_crafting/enchantment/e_recipes/shard_touch
 #

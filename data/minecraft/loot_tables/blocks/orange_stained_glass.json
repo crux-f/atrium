@@ -28,7 +28,7 @@
           "term": {
             "condition": "minecraft:location_check",
             "predicate": {
-              "structure": "atrium:misc/hell_geode"
+              "structure": "atrium:natural/underground/hell_geode"
             }
           }
         }
@@ -43,13 +43,13 @@
             {
               "condition": "minecraft:match_tool",
               "predicate": {
-                "nbt": "{core_pickaxe:1b}"
+                "nbt": "{atrium_shard_touch_enchanted:1b}"
               }
             },
             {
               "condition": "minecraft:location_check",
               "predicate": {
-                "structure": "atrium:misc/hell_geode"
+                "structure": "atrium:natural/underground/hell_geode"
               }
             }
           ],
@@ -62,7 +62,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{rumbling_crystal:1b}"
+              "tag": "{atrium_rumbling_crystal:1b}"
             },
             {
               "function": "set_name",

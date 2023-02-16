@@ -46,7 +46,7 @@
             {
               "condition": "minecraft:match_tool",
               "predicate": {
-                "nbt": "{core_pickaxe:1b}"
+                "nbt": "{atrium_shard_touch_enchanted:1b}"
               }
             },
             {
@@ -68,7 +68,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{dull_crystal:1b}"
+              "tag": "{atrium_dull_crystal:1b}"
             },
             {
               "function": "set_name",
@@ -76,7 +76,7 @@
                 {
                   "text": "Dull Crystal",
                   "color": "gray",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             },
@@ -84,10 +84,10 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "text": "Only the Core Pickaxe"
+                  "text": "Only the most skilled"
                 },
                 {
-                  "text": "is capable of harvesting"
+                  "text": "are capable of harvesting"
                 },
                 {
                   "text": "from the crystal caves"
