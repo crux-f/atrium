@@ -1,12 +1,12 @@
 {
-    "__comment": "Acquired by brewing a tier III potion in an Empowered Cauldron.",
+    "__comment": "Acquired by brewing a tier III potion in an Alchemy Cauldron.",
     "display": {
         "title": {
             "text": "Arcane Brewery",
             "color": "white"
         },
         "description": {
-            "text": "Brew something in an empowered cauldron"
+            "text": "Brew something in an Alchemy Cauldron"
         },
         "icon": {
             "item": "minecraft:player_head",
