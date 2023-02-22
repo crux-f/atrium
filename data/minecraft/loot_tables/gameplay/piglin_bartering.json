@@ -253,7 +253,7 @@
         {
           "type": "loot_table",
           "weight": 7,
-          "name": "atrium:treasure/vanilla_chest_additions/curiosity/bastion_curiosity",
+          "name": "atrium:chests/vanilla_chest_additions/curiosity/bastion_curiosity",
           "functions": [
             {
               "function": "set_count",

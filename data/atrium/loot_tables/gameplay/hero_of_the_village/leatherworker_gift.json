@@ -6,7 +6,8 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:leather"
+          "name": "minecraft:leather",
+          "weight": 10
         },
         {
           "type": "item",
@@ -22,6 +23,12 @@
               "tag": "{display:{Name:'{\"text\":\"§aTannery Key\",\"italic\":false}'},CustomModelData:333070,atrium_village_key:1b,atrium_village_tannery_key:1b}"
             }
           ]
+        },
+        {
+          "type": "loot_table",
+          "weight": 2,
+          "quality": 1,
+          "name": "atrium:gameplay/hero_of_the_village/village_type_key"
         }
       ],
       "rolls": 1.0

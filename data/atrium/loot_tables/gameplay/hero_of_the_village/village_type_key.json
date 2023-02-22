@@ -1,0 +1,131 @@
+{
+    "type": "chest",
+    "pools": [
+      {
+        "rolls": 1,
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:gold_nugget",
+            "functions": [
+                {
+                  "function": "set_count",
+                  "count": 1
+                },
+                {
+                  "function": "set_nbt",
+                  "tag": "{display:{Name:'{\"text\":\"§aPlains Village Key\",\"italic\":false}'},CustomModelData:333070,atrium_village_key:1b,atrium_village_plains_house_key:1b}"
+                }
+              ],
+              "conditions": [
+                {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "nbt": "{VillagerData:{type:\"minecraft:plains\"}}"
+                    }
+                }
+              ]
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:gold_nugget",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"§aDesert Village Key\",\"italic\":false}'},CustomModelData:333070,atrium_village_key:1b,atrium_village_desert_house_key:1b}"
+              }
+            ],
+            "conditions": [
+              {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:\"minecraft:desert\"}}"
+                  }
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:gold_nugget",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"§aSavanna Village Key\",\"italic\":false}'},CustomModelData:333070,atrium_village_key:1b,atrium_village_savanna_house_key:1b}"
+              }
+            ],
+            "conditions": [
+              {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:\"minecraft:savanna\"}}"
+                  }
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:gold_nugget",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"§aTaiga Village Key\",\"italic\":false}'},CustomModelData:333070,atrium_village_key:1b,atrium_village_taiga_house_key:1b}"
+              }
+            ],
+            "conditions": [
+              {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:\"minecraft:taiga\"}}"
+                  }
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:gold_nugget",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"§aSnowy Village Key\",\"italic\":false}'},CustomModelData:333070,atrium_village_key:1b,atrium_village_snowy_house_key:1b}"
+              }
+            ],
+            "conditions": [
+              {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:\"minecraft:snow\"}}"
+                  }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

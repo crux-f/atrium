@@ -67,7 +67,7 @@
         {
           "type": "loot_table",
           "weight": 1,
-          "name": "atrium:treasure/vanilla_chest_additions/curiosity/archive_curiosity",
+          "name": "atrium:chests/vanilla_chest_additions/curiosity/archive_curiosity",
           "functions": [
             {
               "function": "set_count",
@@ -83,7 +83,7 @@
         {
           "type": "loot_table",
           "weight": 2,
-          "name": "atrium:treasure/formulas_infusion_2",
+          "name": "atrium:formulas/infusion_recipes_2",
           "functions": [
             {
               "function": "set_count",
@@ -94,7 +94,7 @@
         {
           "type": "loot_table",
           "weight": 1,
-          "name": "atrium:treasure/formulas_codex_1",
+          "name": "atrium:formulas/runic_recipes_1",
           "functions": [
             {
               "function": "set_count",
@@ -113,7 +113,7 @@
         {
           "type": "loot_table",
           "weight": 2,
-          "name": "atrium:treasure/formulas_cauldron_2",
+          "name": "atrium:formulas/alchemy_recipes_2",
           "functions": [
             {
               "function": "set_count",
@@ -124,7 +124,7 @@
         {
           "type": "loot_table",
           "weight": 5,
-          "name": "atrium:treasure/formulas_cauldron_1",
+          "name": "atrium:formulas/alchemy_recipes_1",
           "functions": [
             {
               "function": "set_count",

@@ -6,23 +6,28 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:cooked_rabbit"
+          "name": "minecraft:cooked_rabbit",
+          "weight": 3
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:cooked_chicken"
+          "name": "minecraft:cooked_chicken",
+          "weight": 3
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:cooked_porkchop"
+          "name": "minecraft:cooked_porkchop",
+          "weight": 3
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:cooked_beef"
+          "name": "minecraft:cooked_beef",
+          "weight": 3
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:cooked_mutton"
+          "name": "minecraft:cooked_mutton",
+          "weight": 3
         },
         {
           "type": "item",
@@ -38,6 +43,12 @@
               "tag": "{display:{Name:'{\"text\":\"§aButcher Key\",\"italic\":false}'},CustomModelData:333070,atrium_village_key:1b,atrium_village_butcher_key:1b}"
             }
           ]
+        },
+        {
+          "type": "loot_table",
+          "weight": 2,
+          "quality": 1,
+          "name": "atrium:gameplay/hero_of_the_village/village_type_key"
         }
       ],
       "rolls": 1.0

@@ -6,15 +6,18 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:bread"
+          "name": "minecraft:bread",
+          "weight": 3
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:pumpkin_pie"
+          "name": "minecraft:pumpkin_pie",
+          "weight": 3
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:cookie"
+          "name": "minecraft:cookie",
+          "weight": 4
         },
         {
           "type": "item",
@@ -30,6 +33,12 @@
               "tag": "{display:{Name:'{\"text\":\"§aFarmer Key\",\"italic\":false}'},CustomModelData:333070,atrium_village_key:1b,atrium_village_farmer_key:1b}"
             }
           ]
+        },
+        {
+          "type": "loot_table",
+          "weight": 2,
+          "quality": 1,
+          "name": "atrium:gameplay/hero_of_the_village/village_type_key"
         }
       ],
       "rolls": 1.0

@@ -6,19 +6,23 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:book"
+          "name": "minecraft:book",
+          "weight": 3
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:paper"
+          "name": "minecraft:paper",
+          "weight": 3
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:ink_sac"
+          "name": "minecraft:ink_sac",
+          "weight": 3
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:glow_ink_sac"
+          "name": "minecraft:glow_ink_sac",
+          "weight": 3
         },
         {
           "type": "item",
@@ -34,6 +38,12 @@
               "tag": "{display:{Name:'{\"text\":\"§aLibrary Key\",\"italic\":false}'},CustomModelData:333070,atrium_village_key:1b,atrium_village_library_key:1b}"
             }
           ]
+        },
+        {
+          "type": "loot_table",
+          "weight": 2,
+          "quality": 1,
+          "name": "atrium:gameplay/hero_of_the_village/village_type_key"
         }
       ],
       "rolls": 1.0

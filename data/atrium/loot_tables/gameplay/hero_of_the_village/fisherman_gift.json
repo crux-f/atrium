@@ -6,11 +6,13 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:cod"
+          "name": "minecraft:cod",
+          "weight": 5
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:salmon"
+          "name": "minecraft:salmon",
+          "weight": 5
         },
         {
           "type": "item",
@@ -26,6 +28,12 @@
               "tag": "{display:{Name:'{\"text\":\"§aFisher Key\",\"italic\":false}'},CustomModelData:333070,atrium_village_key:1b,atrium_village_fisher_key:1b}"
             }
           ]
+        },
+        {
+          "type": "loot_table",
+          "weight": 2,
+          "quality": 1,
+          "name": "atrium:gameplay/hero_of_the_village/village_type_key"
         }
       ],
       "rolls": 1.0

@@ -6,19 +6,23 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:stone_pickaxe"
+          "name": "minecraft:stone_pickaxe",
+          "weight": 3
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:stone_axe"
+          "name": "minecraft:stone_axe",
+          "weight": 3
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:stone_hoe"
+          "name": "minecraft:stone_hoe",
+          "weight": 3
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:stone_shovel"
+          "name": "minecraft:stone_shovel",
+          "weight": 3
         },
         {
           "type": "item",
@@ -32,25 +36,6 @@
             {
               "function": "set_nbt",
               "tag": "{display:{Name:'{\"text\":\"§aToolsmith Key\",\"italic\":false}'},CustomModelData:333070,atrium_village_key:1b,atrium_village_toolsmith_key:1b}"
-            },
-            {
-              "function": "set_name",
-              "name": [
-                {
-                  "text": "Village Key",
-                  "italic": false
-                }
-              ]
-            },
-            {
-              "function": "set_lore",
-              "lore": [
-                {
-                  "text": "Toolsmith Chest",
-                  "color": "gray",
-                  "italic": false
-                }
-              ]
             }
           ]
         }

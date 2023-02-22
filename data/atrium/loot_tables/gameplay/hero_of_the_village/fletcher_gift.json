@@ -258,7 +258,7 @@
         },
         {
           "type": "item",
-          "weight": 1,
+          "weight": 2,
           "name": "minecraft:gold_nugget",
           "functions": [
             {
@@ -270,6 +270,12 @@
               "tag": "{display:{Name:'{\"text\":\"§aFletcher Key\",\"italic\":false}'},CustomModelData:333070,atrium_village_key:1b,atrium_village_fletcher_key:1b}"
             }
           ]
+        },
+        {
+          "type": "loot_table",
+          "weight": 3,
+          "quality": 1,
+          "name": "atrium:gameplay/hero_of_the_village/village_type_key"
         }
       ],
       "rolls": 1.0
