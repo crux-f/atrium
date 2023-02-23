@@ -6,19 +6,22 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:stone_axe"
+          "name": "minecraft:stone_axe",
+          "weight": 3
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:golden_axe"
+          "name": "minecraft:golden_axe",
+          "weight": 3
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:iron_axe"
+          "name": "minecraft:iron_axe",
+          "weight": 3
         },
         {
           "type": "item",
-          "weight": 1,
+          "weight": 2,
           "name": "minecraft:gold_nugget",
           "functions": [
             {
@@ -30,6 +33,12 @@
               "tag": "{display:{Name:'{\"text\":\"§aWeaponsmith Key\",\"italic\":false}'},CustomModelData:333070,atrium_village_key:1b,atrium_village_weaponsmith_key:1b}"
             }
           ]
+        },
+        {
+          "type": "loot_table",
+          "weight": 3,
+          "quality": 1,
+          "name": "atrium:gameplay/hero_of_the_village/village_type_key"
         }
       ],
       "rolls": 1.0

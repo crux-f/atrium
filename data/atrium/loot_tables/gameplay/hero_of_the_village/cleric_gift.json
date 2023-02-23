@@ -16,7 +16,7 @@
         },
         {
           "type": "item",
-          "weight": 1,
+          "weight": 2,
           "name": "minecraft:gold_nugget",
           "functions": [
             {
@@ -31,7 +31,7 @@
         },
         {
           "type": "loot_table",
-          "weight": 2,
+          "weight": 3,
           "quality": 1,
           "name": "atrium:gameplay/hero_of_the_village/village_type_key"
         }
