@@ -53,9 +53,9 @@
             },
             {
               "function": "exploration_map",
-              "destination": "mineshaft",
+              "destination": "minecraft:mineshaft",
               "decoration": "red_x",
-              "skip_existing_chunks": false
+              "skip_existing_chunks": true
             },
             {
               "function": "set_nbt",
@@ -75,9 +75,9 @@
             },
             {
               "function": "exploration_map",
-              "destination": "ruined_portal",
+              "destination": "minecraft:ruined_portal",
               "decoration": "red_x",
-              "skip_existing_chunks": false
+              "skip_existing_chunks": true
             },
             {
               "function": "set_nbt",
@@ -96,13 +96,34 @@
             },
             {
               "function": "exploration_map",
-              "destination": "village",
+              "destination": "minecraft:village",
               "decoration": "mansion",
-              "skip_existing_chunks": false
+              "skip_existing_chunks": true
             },
             {
               "function": "set_nbt",
               "tag": "{display:{Name:'{\"text\":\"Villager Map\",\"italic\":false}',Lore:['{\"text\":\"Sketches of a nearby\"}','{\"text\":\"area. There are doodles\"}','{\"text\":\"of villagers gathered\"}','{\"text\":\"around a bell.\"}'],MapColor:6276959}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:map",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "exploration_map",
+              "destination": "atrium:any_overworld_shrine",
+              "decoration": "target_x",
+              "skip_existing_chunks": true
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Villager Map\",\"italic\":false}',Lore:['{\"text\":\"Sketches of a nearby\"}','{\"text\":\"area. A holy symbol\"}','{\"text\":\"is sketched in great detail\"}','{\"text\":\"at the top.\"}'],MapColor:6710886}}"
             }
           ]
         }

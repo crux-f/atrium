@@ -53,13 +53,13 @@
             },
             {
               "function": "exploration_map",
-              "destination": "minecraft:on_ocean_explorer_maps",
-              "decoration": "monument",
+              "destination": "minecraft:ocean_ruin",
+              "decoration": "red_x",
               "skip_existing_chunks": true
             },
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Villager Map\",\"italic\":false}',Lore:['{\"text\":\"Sketches of a nearby area.\"}','{\"text\":\"A sinister eye has been\"}','{\"text\":\"crossed out in the corner.\"}'],MapColor:671831}}"
+              "tag": "{display:{Name:'{\"text\":\"Villager Map\",\"italic\":false}',Lore:['{\"text\":\"Sketches of a nearby area.\"}','{\"text\":\"There are sketches of\"}','{\"text\":\"bubbles and a trident.\"}'],MapColor:2500773}}"
             }
           ]
         },
@@ -87,7 +87,8 @@
         },
         {
           "type": "item",
-          "weight": 2,
+          "weight": 1,
+          "quality": 0,
           "name": "minecraft:map",
           "functions": [
             {
@@ -96,13 +97,13 @@
             },
             {
               "function": "exploration_map",
-              "destination": "atrium:pillager_outpost",
+              "destination": "minecraft:mineshaft",
               "decoration": "red_x",
               "skip_existing_chunks": true
             },
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Villager Map\",\"italic\":false}',Lore:['{\"text\":\"Sketches of a nearby area.\"}','{\"text\":\"There\\'s a doodle of a crossbow.\"}','{\"text\":\"Looks more like a warning.\"}'],MapColor:9847564}}"
+              "tag": "{display:{Name:'{\"text\":\"Villager Map\",\"italic\":false}',Lore:['{\"text\":\"Sketches of a nearby\"}','{\"text\":\"area. There are doodles\"}','{\"text\":\"of spiders.\"}'],MapColor:1001227}}"
             }
           ]
         },

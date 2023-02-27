@@ -53,9 +53,9 @@
             },
             {
               "function": "exploration_map",
-              "destination": "shipwreck",
+              "destination": "minecraft:shipwreck",
               "decoration": "red_x",
-              "skip_existing_chunks": false
+              "skip_existing_chunks": true
             },
             {
               "function": "set_nbt",
@@ -75,9 +75,9 @@
             },
             {
               "function": "exploration_map",
-              "destination": "ruined_portal",
+              "destination": "minecraft:ruined_portal",
               "decoration": "red_x",
-              "skip_existing_chunks": false
+              "skip_existing_chunks": true
             },
             {
               "function": "set_nbt",
@@ -96,13 +96,34 @@
             },
             {
               "function": "exploration_map",
-              "destination": "igloo",
+              "destination": "atrium:igloo",
               "decoration": "red_x",
-              "skip_existing_chunks": false
+              "skip_existing_chunks": true
             },
             {
               "function": "set_nbt",
               "tag": "{display:{Name:'{\"text\":\"Villager Map\",\"italic\":false}',Lore:['{\"text\":\"Sketches of a nearby area.\"}','{\"text\":\"There\\'s a picture of a bed.\"}','{\"text\":\"Oh, and a snow person.\"}'],MapColor:493713}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:map",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "exploration_map",
+              "destination": "atrium:any_overworld_shrine",
+              "decoration": "target_x",
+              "skip_existing_chunks": true
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Villager Map\",\"italic\":false}',Lore:['{\"text\":\"Sketches of a nearby\"}','{\"text\":\"area. A holy symbol\"}','{\"text\":\"is sketched in great detail\"}','{\"text\":\"at the top.\"}'],MapColor:6710886}}"
             }
           ]
         }
