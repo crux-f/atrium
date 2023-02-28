@@ -7,6 +7,52 @@
             "entries": [
                 {
                     "type": "item",
+                    "weight": 10,
+                    "quality": 1,
+                    "name": "minecraft:written_book",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{pages:['[\"\",{\"text\":\"Enchantment Catalyst\\\\n[\"},{\"text\":\"Transforming\",\"color\":\"dark_aqua\"},{\"text\":\"]\\\\n\",\"color\":\"reset\"},{\"text\":\"Runic Formula\",\"underlined\":true,\"color\":\"gray\"},{\"text\":\"\\\\n\\\\n         \",\"color\":\"reset\"},{\"text\":\"v\",\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Bottle o\\' Enchanting\"}},{\"text\":\"\\\\n     \",\"color\":\"reset\"},{\"text\":\"(\",\"color\":\"dark_aqua\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Glow Ink Sac\"}},{\"text\":\"       \",\"color\":\"reset\"},{\"text\":\")\",\"color\":\"dark_aqua\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Glow Ink Sac\"}},{\"text\":\"\\\\n x               x\\\\n     \",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"gray\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Paper\"}},{\"text\":\"       \",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"gray\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Paper\"}},{\"text\":\"\\\\n         \",\"color\":\"reset\"},{\"text\":\"&\",\"color\":\"aqua\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Block of Diamond\"}}]','[\"\",{\"text\":\"Enchantment Catalyst\\\\n[\"},{\"text\":\"Focusing\",\"color\":\"blue\"},{\"text\":\"]\\\\n\",\"color\":\"reset\"},{\"text\":\"Runic Formula\",\"underlined\":true,\"color\":\"gray\"},{\"text\":\"\\\\n\\\\n         \",\"color\":\"reset\"},{\"text\":\"v\",\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Bottle o\\' Enchanting\"}},{\"text\":\"\\\\n     \",\"color\":\"reset\"},{\"text\":\"(\",\"color\":\"gray\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Glass Pane\"}},{\"text\":\"       \",\"color\":\"reset\"},{\"text\":\")\",\"color\":\"gray\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Glass Pane\"}},{\"text\":\"\\\\n x               x\\\\n     \",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"#BB9754\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Pointed Dripstone\"}},{\"text\":\"       \",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"#BB9754\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Pointed Dripstone\"}},{\"text\":\"\\\\n         \",\"color\":\"reset\"},{\"text\":\"&\",\"color\":\"blue\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Block of Lapis Lazuli\"}},{\"text\":\"\\\\n \",\"color\":\"reset\"}]'],title:\"✦ Enchantment Catalysts\",author:\"???\",generation:1,CustomModelData:333003,HideFlags:99,atrium_runic_formula:1}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "✦ Enchantment Catalysts",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "Runic Codex Formulas:",
+                                    "color": "gray",
+                                    "italic": false,
+                                    "underlined": true
+                                },
+                                {
+                                    "text": "Enchantment Catalyst [Transforming]",
+                                    "color": "gray",
+                                    "italic": false
+                                },
+                                {
+                                    "text": "Enchantment Catalyst [Focusing]",
+                                    "color": "gray",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
                     "weight": 5,
                     "quality": 1,
                     "name": "minecraft:written_book",

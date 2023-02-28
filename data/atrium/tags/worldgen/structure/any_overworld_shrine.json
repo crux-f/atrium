@@ -1,0 +1,29 @@
+{
+  "values": [
+    "atrium:shrines/aurora/waking_room_shrine",
+    "atrium:shrines/chorus/spa_shrine",
+    "atrium:shrines/geota/cave_shrine",
+    "atrium:shrines/geota/dripstone_shrine",
+    "atrium:shrines/geota/smithing_fane_shrine",
+    "atrium:shrines/ghael/drifting_dune_shrine",
+    "atrium:shrines/maw/dark_forest_fane_shrine",
+    "atrium:shrines/messorum/graveyard_shrine",
+    "atrium:shrines/messorum/harvest_shrine",
+    "atrium:shrines/messorum/scythe_shrine",
+    "atrium:shrines/nox/challenge_shrine",
+    "atrium:shrines/nox/igloo_shrine",
+    "atrium:shrines/oswald/bee_shrine",
+    "atrium:shrines/oswald/great_tree_shrine",
+    "atrium:shrines/oswald/jungle_moss_shrine",
+    "atrium:shrines/oswald/lush_cave_shrine",
+    "atrium:shrines/quipster/hotspring_shrine",
+    "atrium:shrines/quipster/prospector_shrine",
+    "atrium:shrines/quipster/sponge_shrine",
+    "atrium:shrines/quipster/stolen_ferriswheel_shrine",
+    "atrium:shrines/syrula/peristyle_shrine",
+    "atrium:shrines/syrula/winter_shrine",
+    "atrium:shrines/taraqsol/crossroads_shrine",
+    "atrium:shrines/taraqsol/dried_oasis_shrine",
+    "atrium:shrines/taraqsol/snow_camp_shrine"
+  ]
+}

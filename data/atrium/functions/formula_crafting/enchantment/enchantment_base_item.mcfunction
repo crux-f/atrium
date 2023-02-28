@@ -1,5 +1,16 @@
 # Reset score
 scoreboard players set @s valid_ingredients 0
+#
+# Ingredients
+#
+# Start Enchantment Catalyst [Transforming] - Check SOUTH for Block of Diamond
+execute positioned ~ ~ ~3 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:diamond_block",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~3 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:diamond_block",Count:1b}}] at @s run function atrium:formula_crafting/enchantment/e_recipes/catalyst_transforming
+#
+# Start Enchantment Catalyst [Focusing] - Check SOUTH for Block of Lapis Lazuli
+execute positioned ~ ~ ~3 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:lapis_block",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~3 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:lapis_block",Count:1b}}] at @s run function atrium:formula_crafting/enchantment/e_recipes/catalyst_focusing
+# 
 # 
 # Runic Enchantments
 #
