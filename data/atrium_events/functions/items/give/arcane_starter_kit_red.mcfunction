@@ -1,0 +1,2 @@
+# /give for special items
+give @s chest{display:{Name:'{"text":"Arcane Starter Kit","italic":false}',Lore:['{"text":"Red","color":"red","italic":false}']},atrium_arcane_starter_kit:1b,BlockEntityTag:{LootTable:"atrium_events:rewards/arcane_starter_kit_red"}} 1
