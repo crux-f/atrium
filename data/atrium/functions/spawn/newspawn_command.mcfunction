@@ -118,3 +118,7 @@ execute as @s run function atrium:spawn/advancement_revoke
 # And whisk you away to the Public Void
 execute in atrium:between_worlds run tp 36734.5 102.5 -2715.5
 execute in atrium:between_worlds positioned 36734.5 90 -2715.5 run summon firework_rocket ~ ~ ~ {CustomNameVisible:1b,CustomName:'{"text":"Rapture, Baby","color":"yellow","italic":false}',FireworksItem:{id:"minecraft:gold_block",Count:1,tag:{Fireworks:{Explosions:[{Type:1,Flicker:1b,Trail:1b,Colors:[I;15007539],FadeColors:[I;16762969]}]}}}}
+#
+# Seamwalker Patrons Only: Give Seamwalker's Door
+execute if entity @s[name="Rose_Thorn14"] as @s run function atrium:items/give/placeable_structures/seamwalkers_door_placer
+execute if entity @s[name="Konobeat"] as @s run function atrium:items/give/placeable_structures/seamwalkers_door_placer
