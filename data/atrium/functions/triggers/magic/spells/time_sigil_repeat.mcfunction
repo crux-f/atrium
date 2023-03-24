@@ -19,7 +19,7 @@ execute as @e[tag=atrium_time_sigil_dummy_s] at @s run tp @s ~ ~ ~ ~2 ~0
 execute if entity @e[tag=atrium_time_sigil,nbt={Age:239}] at @e[tag=atrium_time_sigil_dummy] run particle minecraft:dripping_obsidian_tear ~ ~ ~ 1.2 2 1.2 0.1 85
 execute if entity @e[tag=atrium_time_sigil,nbt={Age:239}] at @e[tag=atrium_time_sigil_dummy] run particle minecraft:flash ~ ~ ~ 0 0 0 0.1 85
 execute if entity @e[tag=atrium_time_sigil,nbt={Age:239}] at @e[tag=atrium_time_sigil_dummy] run playsound minecraft:block.respawn_anchor.deplete player @a[distance=..15] ~ ~ ~ 1 0.1 0.1
-# Fireballs fire directly downwards very quickly (creating the appearance of the sigil bursting into end_rod)
+#
 # Base area
 execute if entity @e[tag=atrium_time_sigil,nbt={Age:239},scores={charge=1}] at @e[tag=atrium_time_sigil_dummy] run effect give @e[distance=..3] minecraft:slowness 30 1 true
 execute if entity @e[tag=atrium_time_sigil,nbt={Age:239},scores={charge=1}] at @e[tag=atrium_time_sigil_dummy] run effect give @e[distance=..3] minecraft:slow_falling 30 0 true

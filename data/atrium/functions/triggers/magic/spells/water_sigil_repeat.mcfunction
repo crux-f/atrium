@@ -1,8 +1,8 @@
 # Particle animation
-execute at @e[tag=atrium_water_sigil_dummy] run particle dust 0.000 0.600 0.400 1 ^1.25 ^ ^ 0.000 1.000 0.565 0.1 0 normal
-execute at @e[tag=atrium_water_sigil_dummy] run particle dust 0.000 0.600 0.400 1 ^-1.25 ^ ^ 0.000 1.000 0.565 0.1 0 normal
-execute at @e[tag=atrium_water_sigil_dummy] run particle dust 0.000 0.600 0.400 1 ^ ^ ^-1 0.000 1.000 0.565 0.1 0 normal
-execute at @e[tag=atrium_water_sigil_dummy] run particle dust 0.000 0.600 0.400 1 ^ ^ ^1 0.000 1.000 0.565 0.1 0 normal
+execute at @e[tag=atrium_water_sigil_dummy] run particle dust 0.000 0.600 0.400 1 ^1.25 ^0.5 ^ 0.000 1.000 0.565 0.1 0 normal
+execute at @e[tag=atrium_water_sigil_dummy] run particle dust 0.000 0.600 0.400 1 ^-1.25 ^0.5 ^ 0.000 1.000 0.565 0.1 0 normal
+execute at @e[tag=atrium_water_sigil_dummy] run particle dust 0.000 0.600 0.400 1 ^ ^0.5 ^-1 0.000 1.000 0.565 0.1 0 normal
+execute at @e[tag=atrium_water_sigil_dummy] run particle dust 0.000 0.600 0.400 1 ^ ^0.5 ^1 0.000 1.000 0.565 0.1 0 normal
 execute at @e[tag=atrium_water_sigil_dummy] run tp @e[tag=atrium_water_sigil_dummy] ~ ~ ~ ~-2 ~0
 # Remove the dummy when the cloud is about to expire
 execute as @e[tag=atrium_water_sigil_dummy] at @s unless entity @e[tag=atrium_water_sigil,distance=..3] run kill @s
