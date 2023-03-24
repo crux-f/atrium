@@ -5,7 +5,7 @@
         "nbt": "{Enchantments:[{lvl:1s,id:\"minecraft:channeling\"}]}"
       },
       "title": "In Her Wake",
-      "description": "Acquire Blooming Crystal",
+      "description": "Use a pickaxe enchanted with Shard Touch to acquire Blooming Crystal",
       "frame": "goal",
       "show_toast": true,
       "announce_to_chat": true,

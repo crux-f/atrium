@@ -1,12 +1,12 @@
 {
-    "__comment": "Acquired by crafting an item using the Infusion Altar.",
+    "__comment": "Acquired by crafting an item using the Infusion Circle.",
     "display": {
         "title": {
             "text": "Conjured Help",
             "color": "white"
         },
         "description": {
-            "text": "Animate a Golem Centruion"
+            "text": "Summon a Golem Centruion"
         },
         "icon": {
             "item": "minecraft:jack_o_lantern"
@@ -14,12 +14,12 @@
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": true,
-        "hidden": false
+        "hidden": true
     },
     "criteria": {
         "infusion": {
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "atrium:magic/formulaic"
+    "parent": "atrium:magic/some_assembly_required"
 }
