@@ -35,7 +35,7 @@
                 {
                   "text": "Unrepairable",
                   "color": "dark_gray",
-                  "italic": "false"
+                  "italic": false
                 },
                 {
                   "text": " "
@@ -78,7 +78,7 @@
               "name": [
                 {
                   "text": "Lucky Save",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             },
@@ -112,7 +112,7 @@
                 {
                   "text": "Berserker Helm",
                   "color": "red",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             },
@@ -148,7 +148,7 @@
               "name": [
                 {
                   "text": "Singed Walking Stick",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             },
@@ -158,7 +158,7 @@
                 {
                   "text": "Unrepairable",
                   "color": "dark_gray",
-                  "italic": "false"
+                  "italic": false
                 },
                 {
                   "text": " "
@@ -195,7 +195,7 @@
               "name": [
                 {
                   "text": "Yeeteth's Crooked Stick",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             },

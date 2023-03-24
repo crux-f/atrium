@@ -9,7 +9,7 @@
           "type": "loot_table",
           "weight": 100,
           "quality": 0,
-          "name": "atrium:event_rewards/plushies/common_plushie",
+          "name": "atrium_events:rewards/plushies/common_plushie",
           "functions": [
             {
               "function": "set_count",
@@ -21,7 +21,7 @@
           "type": "loot_table",
           "weight": 50,
           "quality": 10,
-          "name": "atrium:event_rewards/plushies/uncommon_plushie",
+          "name": "atrium_events:rewards/plushies/uncommon_plushie",
           "functions": [
             {
               "function": "set_count",
@@ -33,7 +33,7 @@
           "type": "loot_table",
           "weight": 30,
           "quality": 8,
-          "name": "atrium:event_rewards/plushies/rare_plushie",
+          "name": "atrium_events:rewards/plushies/rare_plushie",
           "functions": [
             {
               "function": "set_count",
@@ -45,7 +45,7 @@
           "type": "loot_table",
           "weight": 12,
           "quality": 6,
-          "name": "atrium:event_rewards/plushies/very_rare_plushie",
+          "name": "atrium_events:rewards/plushies/very_rare_plushie",
           "functions": [
             {
               "function": "set_count",
