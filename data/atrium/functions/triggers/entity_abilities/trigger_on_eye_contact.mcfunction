@@ -5,4 +5,7 @@ advancement revoke @s only atrium:triggers/entity_abilities/trigger_on_eye_conta
 # this manager file exists to minimize per-tick checks.
 #
 # Averting Eye (Use: Ender Dragon fight)
-execute if entity @s[predicate=atrium:player/looking_at_averting_eye] at @s run function atrium:triggers/entity_abilities/ender_dragon/averting_eye_contact
+execute if entity @s[predicate=atrium:player/looking_at/averting_eye] at @s run function atrium:triggers/entity_abilities/ender_dragon/averting_eye_contact
+#
+# Forgotten Heretic
+execute if entity @s[predicate=atrium:player/looking_at/forgotten_heretic] at @s run function atrium:triggers/entity_abilities/looking_at_forgotten_heretic

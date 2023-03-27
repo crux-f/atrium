@@ -1,0 +1,11 @@
+[
+    {
+      "function": "minecraft:enchant_randomly",
+      "enchantments": [
+        "minecraft:unbreaking",
+        "minecraft:sharpness",
+        "minecraft:vanishing_curse"
+      ]
+    }
+  ]
+  

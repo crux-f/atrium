@@ -11,9 +11,9 @@ execute if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_staff_lv:3b}}]} ru
 execute if entity @s[scores={charge=20}] if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_staff_lv:1b}}]} run xp add @s -8 points
 execute if entity @s[scores={charge=40}] if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_staff_lv:1b}}]} run xp add @s -8 points
 execute if entity @s[scores={charge=60}] if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_staff_lv:1b}}]} run xp add @s -8 points
-execute if entity @s[scores={charge=20}] run playsound minecraft:entity.experience_orb.pickup player @a[distance=..10] ~ ~ ~ 0.35 0.5 0.05
-execute if entity @s[scores={charge=40}] run playsound minecraft:entity.experience_orb.pickup player @a[distance=..10] ~ ~ ~ 0.35 0.7 0.05
-execute if entity @s[scores={charge=60}] run playsound minecraft:entity.experience_orb.pickup player @a[distance=..10] ~ ~ ~ 0.35 0.9 0.05
+execute if entity @s[scores={charge=20}] if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_staff_lv:1b}}]} run playsound minecraft:entity.experience_orb.pickup player @a[distance=..10] ~ ~ ~ 0.35 0.5 0.05
+execute if entity @s[scores={charge=40}] if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_staff_lv:1b}}]} run playsound minecraft:entity.experience_orb.pickup player @a[distance=..10] ~ ~ ~ 0.35 0.7 0.05
+execute if entity @s[scores={charge=60}] if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_staff_lv:1b}}]} run playsound minecraft:entity.experience_orb.pickup player @a[distance=..10] ~ ~ ~ 0.35 0.9 0.05
 # Level 2
 execute if entity @s[scores={charge=40}] if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_staff_lv:2b}}]} run xp add @s -16 points
 execute if entity @s[scores={charge=80}] if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_staff_lv:2b}}]} run xp add @s -16 points

@@ -2,8 +2,6 @@
 #
 # (Revoke to allow for re-trigger)
 advancement revoke @s only atrium:triggers/items/hold_chargeable_item
-# If the item in your off hand has been used up, break it.
-execute if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_staff:1b,Damage:1561}}]} run function atrium:items/use/chargeable/staves/break_staff
 #
 # STAVES - - - 
 # Off Hand only
