@@ -85,7 +85,7 @@ team add atrium_glow_gold {"text":"Glow Gold","color":"gold"}
 team modify atrium_glow_gold color gold
 team add atrium_glow_gray {"text":"Glow Gray","color":"gray"}
 team modify atrium_glow_gray color gray
-team add atrium_glow_green {"text":"Glow Green","color":"gray"}
+team add atrium_glow_green {"text":"Glow Green","color":"green"}
 team modify atrium_glow_green color green
 team add atrium_glow_light_purple {"text":"Glow Light Purple","color":"light_purple"}
 team modify atrium_glow_light_purple color light_purple

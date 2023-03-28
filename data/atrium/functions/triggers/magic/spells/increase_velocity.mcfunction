@@ -5,9 +5,9 @@ execute if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_staff_lv:3b}}]} ru
 # Casting sfx
 playsound minecraft:ui.toast.out player @a[distance=..15] ~ ~ ~ 15 0.8 1
 # If the caster is sprinting, give Speed. If not, give Jump Boost instead.
-# Increase Velocity I: Effect level II for 60 seconds
-execute if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_staff_lv:1b}}]} run effect give @s[predicate=atrium:player/is_sprinting] minecraft:speed 60 1
-execute if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_staff_lv:1b}}]} run effect give @s[predicate=!atrium:player/is_sprinting] minecraft:jump_boost 60 1
+# Increase Velocity I: Effect level I for 60 seconds
+execute if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_staff_lv:1b}}]} run effect give @s[predicate=atrium:player/is_sprinting] minecraft:speed 60 0
+execute if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_staff_lv:1b}}]} run effect give @s[predicate=!atrium:player/is_sprinting] minecraft:jump_boost 60 0
 # Increase Velocity II: Effect level II for 120 seconds
 execute if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_staff_lv:2b}}]} run effect give @s[predicate=atrium:player/is_sprinting] minecraft:speed 120 1
 execute if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_staff_lv:2b}}]} run effect give @s[predicate=!atrium:player/is_sprinting] minecraft:jump_boost 120 1

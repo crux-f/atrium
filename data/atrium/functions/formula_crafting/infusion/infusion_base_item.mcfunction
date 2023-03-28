@@ -34,6 +34,25 @@ execute positioned ~ ~ ~-4 if entity @e[type=minecraft:glow_item_frame,distance=
 execute positioned ~ ~ ~-4 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:coal",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
 execute positioned ~ ~ ~-4 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:coal",Count:1b}}] at @s run function atrium:formula_crafting/infusion/i_recipes/space_staff_1
 #
+# Start Staff of Air (+2) - Check NORTH for Glowstone Dust
+execute positioned ~ ~ ~-4 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:glowstone_dust",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~-4 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:glowstone_dust",Count:1b}}] at @s run function atrium:formula_crafting/infusion/i_recipes/air_staff_2
+# Start Staff of Earth (+2) - Check NORTH for Block of Emerald
+execute positioned ~ ~ ~-4 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:emerald_block",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~-4 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:emerald_block",Count:1b}}] at @s run function atrium:formula_crafting/infusion/i_recipes/earth_staff_2
+# Start Staff of Fire (+2) - Check NORTH for Block of Redstone
+execute positioned ~ ~ ~-4 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:redstone_block",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~-4 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:redstone_block",Count:1b}}] at @s run function atrium:formula_crafting/infusion/i_recipes/fire_staff_2
+# Start Staff of Water (+2) - Check NORTH for Block of Lapis Lazuli
+execute positioned ~ ~ ~-4 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:lapis_block",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~-4 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:lapis_block",Count:1b}}] at @s run function atrium:formula_crafting/infusion/i_recipes/water_staff_2
+# Start Staff of Time (+2) - Check NORTH for Nether Quartz
+execute positioned ~ ~ ~-4 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:quartz",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~-4 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:quartz",Count:1b}}] at @s run function atrium:formula_crafting/infusion/i_recipes/time_staff_2
+# Start Staff of Space (+2) - Check NORTH for Block of Coal
+execute positioned ~ ~ ~-4 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:coal_block",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~-4 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:coal_block",Count:1b}}] at @s run function atrium:formula_crafting/infusion/i_recipes/space_staff_2
+#
 # Start Rod of Relocation - Check CENTER NORTH for Slimeball
 execute positioned ~ ~ ~-2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:slime_ball",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
 execute positioned ~ ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:slime_ball",Count:1b}}] at @s run function atrium:formula_crafting/infusion/i_recipes/rod_of_relocation
