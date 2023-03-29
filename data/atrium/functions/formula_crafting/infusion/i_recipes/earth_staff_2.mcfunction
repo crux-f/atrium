@@ -3,7 +3,7 @@
 # Regardless of success or failure, reset the crafting score afterwards.
 # Note: infusion_base_item handles the first item - this script will handle any remaining item checks.
 #
-# Check CENTER NORTH for Staff of Air [+2]
+# Check CENTER NORTH for Staff of Earth [+2]
 execute positioned ~ ~ ~-2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{tag:{atrium_earth_staff:1b,atrium_staff_lv:1b}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
 execute positioned ~ ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{tag:{atrium_earth_staff:1b,atrium_staff_lv:1b}}}] run scoreboard players add @s valid_ingredients 1
 # Check CENTER WEST for Emerald Ore

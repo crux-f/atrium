@@ -7,4 +7,7 @@ execute if entity @s[tag=atrium_crimson_tree] run setblock ~ ~ ~ minecraft:nethe
 execute if entity @s[tag=atrium_warped_tree] run setblock ~ ~ ~ minecraft:warped_wart_block
 #
 # Conjured Block marker
-summon minecraft:marker ~ ~ ~ {Tags:["atrium_special","atrium_temporary_entity","atrium_conjured_block_2m"]}
+summon minecraft:marker ~ ~ ~ {Tags:["atrium_special","atrium_temporary_entity","atrium_temporary_block","atrium_conjured_tree_block"]}
+#
+# Set timer
+scoreboard players set @e[tag=atrium_temporary_block,distance=..1] charge -2400

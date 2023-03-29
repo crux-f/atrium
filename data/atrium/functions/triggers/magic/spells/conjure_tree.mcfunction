@@ -11,6 +11,8 @@ execute positioned ^ ^ ^3 if block ~ ~ ~ minecraft:warped_nylium run summon mine
 # Now to actually place them! Run the script controlling the tree growth animation.
 #
 execute unless entity @e[tag=atrium_conjured_tree_root,distance=..10] run function atrium:triggers/magic/spells/conjure_tree/no_ground_err
+# Set timer
+execute as @e[tag=atrium_conjured_tree_root,distance=..10] run scoreboard players set @s charge -40
 function atrium:triggers/magic/spells/conjure_tree/conjure_tree_repeat
 #
 # Spell cleanup
