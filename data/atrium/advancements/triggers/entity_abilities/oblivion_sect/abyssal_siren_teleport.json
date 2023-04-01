@@ -1,0 +1,22 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:entity_hurt_player",
+        "conditions": {
+          "player": [],
+          "damage": {
+            "source_entity": {
+              "nbt": "{Tags:[\"atrium_abyssal_siren\"]}"
+            },
+            "type": {
+              "is_magic": true
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "atrium:triggers/entity_abilities/oblivion_sect/abyssal_siren_teleport"
+    }
+  }
+  
