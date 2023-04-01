@@ -1,0 +1,2 @@
+tag @a remove atrium_ambient_music_halted
+schedule clear atrium_events:music/supress_ambient_music

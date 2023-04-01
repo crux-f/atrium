@@ -6,6 +6,6 @@ summon drowned ~ ~ ~ {Silent:1b,DeathLootTable:"atrium:entities/oblivion_sect/fo
 # Sometimes have gear
 execute as @e[tag=atrium_forgotten_heretic,distance=..1] if predicate atrium:percentage_chances/0.35_p run item replace entity @s armor.chest with minecraft:golden_chestplate{Damage:80}
 execute as @e[tag=atrium_forgotten_heretic,distance=..1] if predicate atrium:percentage_chances/0.35_p run item replace entity @s armor.legs with minecraft:golden_leggings{Damage:70}
-execute as @e[tag=atrium_forgotten_heretic,distance=..1] if predicate atrium:percentage_chances/0.35_p run item replace entity @s armor.feet with minecraft:golden_boots{Damage:60}
+execute as @e[tag=atrium_forgotten_heretic,distance=..1] if predicate atrium:percentage_chances/0.35_p run item replace entity @s armor.feet with minecraft:golden_boots{Damage:160,tag:{Enchantments:[{id:"minecraft:depth_strider",lvl:2s}]}}
 execute as @e[tag=atrium_forgotten_heretic,distance=..1] if predicate atrium:percentage_chances/0.50_p run item replace entity @s weapon.mainhand with minecraft:iron_sword{display:{Name:'{"text":"Ruined Blade","italic":false}'},Damage:230,CustomModelData:333086,atrium_ruined_blade:1b,AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:2,Operation:0,UUID:[I;624984712,1200570591,-1448101242,1012217807],Slot:"mainhand"}]}
 execute as @e[tag=atrium_forgotten_heretic,distance=..1] if predicate atrium:percentage_chances/0.80_p run item modify entity @s weapon.mainhand atrium_events:ruined_blade_enchantments
