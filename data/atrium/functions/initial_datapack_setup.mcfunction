@@ -29,6 +29,8 @@ scoreboard objectives add atrium_parallax_y dummy {"text":"Parallax [Y]","color"
 scoreboard objectives add atrium_parallax_z dummy {"text":"Parallax [Z]","color":"gray"}
 scoreboard objectives add atrium_parallax_dim dummy {"text":"Parallax [Dimension]","color":"gray"}
 scoreboard objectives add atrium_parallax_timer dummy {"text":"Parallax Spell Timer","color":"gray"}
+# atrium_pocket_item_flag is used for the Pocket Item spell
+scoreboard objectives add atrium_pocket_item_flag dummy {"text":"Pocket Item Spell Success Flag","color":"gray"}
 # atrium_x_coordinate, atrium_y_coordinate, atrium_z_coordinate are used for Gust spell
 scoreboard objectives add atrium_x_coordinate dummy {"text":"[X]","color":"gray"}
 scoreboard objectives add atrium_y_coordinate dummy {"text":"[Y]","color":"gray"}

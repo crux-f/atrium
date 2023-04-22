@@ -27,5 +27,8 @@ execute at @s as @s anchored eyes positioned ^ ^0.5 ^5 if block ~ ~ ~ #atrium:st
 # If no target was found, deliver the bad news
 execute if entity @s[tag=atrium_stoking_furnace] run playsound minecraft:block.redstone_torch.burnout player @a[distance=..10] ~ ~ ~ 0.25 1 0.1
 execute if entity @s[tag=atrium_stoking_furnace] run particle minecraft:smoke ~ ~1.25 ~ 0.25 0.25 0.25 0 15 normal
+# Remove tag
+tag @s remove atrium_stoking_furnace
+#
 # Spell cleanup
 execute as @s run function atrium:triggers/magic/spell_cast_complete

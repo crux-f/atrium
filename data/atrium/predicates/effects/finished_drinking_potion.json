@@ -1,0 +1,138 @@
+{
+    "condition": "minecraft:alternative",
+    "terms": [
+        {
+            "condition": "minecraft:reference",
+            "name": "atrium:effects/duration/if_fire_resistance_long"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "atrium:effects/duration/if_fire_resistance_short"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "atrium:effects/duration/if_invisibility_long"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "atrium:effects/duration/if_invisibility_short"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "atrium:effects/duration/if_jump_boost_long"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "atrium:effects/duration/if_jump_boost_short"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "atrium:effects/duration/if_jump_boost_strong"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "atrium:effects/duration/if_luck"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "atrium:effects/duration/if_night_vision_long"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "atrium:effects/duration/if_night_vision_short"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "atrium:effects/duration/if_poison_long"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "atrium:effects/duration/if_poison_short"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "atrium:effects/duration/if_poison_strong"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "atrium:effects/duration/if_regeneration_long"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "atrium:effects/duration/if_regeneration_short"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "atrium:effects/duration/if_regeneration_strong"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "atrium:effects/duration/if_slow_falling_long"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "atrium:effects/duration/if_slow_falling_short"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "atrium:effects/duration/if_slowness_long"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "atrium:effects/duration/if_slowness_short"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "atrium:effects/duration/if_slowness_strong"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "atrium:effects/duration/if_speed_long"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "atrium:effects/duration/if_speed_short"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "atrium:effects/duration/if_speed_strong"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "atrium:effects/duration/if_strength_long"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "atrium:effects/duration/if_strength_short"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "atrium:effects/duration/if_strength_strong"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "atrium:effects/duration/if_turtle_effects_long"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "atrium:effects/duration/if_turtle_effects_short"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "atrium:effects/duration/if_water_breathing_long"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "atrium:effects/duration/if_water_breathing_short"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "atrium:effects/duration/if_weakness_long"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "atrium:effects/duration/if_weakness_short"
+        }
+    ]
+}
+  

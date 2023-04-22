@@ -10,6 +10,9 @@ execute positioned ~ ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=
 # Start Peculiar Prism - Check NORTH for Nether Quartz
 execute positioned ~ ~ ~-2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:quartz",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
 execute positioned ~ ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:quartz",Count:1b}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/peculiar_prism
+# Start Peculiar Prism - Check NORTH for Crying Obsidian
+execute positioned ~ ~ ~-2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:crying_obsidian",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:crying_obsidian",Count:1b}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/essence_of_anachronism
 #
 # Tier 3 Potions
 #
