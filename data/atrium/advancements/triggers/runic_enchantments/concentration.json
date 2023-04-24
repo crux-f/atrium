@@ -31,13 +31,12 @@
                 }
               ]
             }
-          ],
-          "levels": 1
+          ]
         }
       }
     },
     "rewards": {
-      "function": "atrium:triggers/runic_enchantments/concentration/concentration_enchant_1"
+      "function": "atrium:triggers/runic_enchantments/concentration"
     }
   }
   
