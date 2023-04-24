@@ -1,0 +1,19 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "item": {
+            "items": [
+              "minecraft:shield"
+            ],
+            "nbt": "{atrium_sentinel_enchanted:1b}"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "atrium:triggers/runic_enchantments/sentinel"
+    }
+  }
+  
