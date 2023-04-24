@@ -14,3 +14,5 @@ clear @s minecraft:firework_star{atrium_power:1b}
 #
 # If the item in your off hand has been used up, break it.
 execute if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_staff:1b,Damage:1561}}]} run function atrium:items/use/chargeable/staves/break_staff
+# If the Staff is enchanted with Concentration, return some of the XP used to cast the spell.
+execute if entity @s[nbt={Inventory:[{Slot:-106b,tag:{atrium_concentration_enchanted:1b}}]}] at @s run function atrium:triggers/runic_enchantments/concentration/return_spell_xp

@@ -16,7 +16,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{marching_boots:1b,curiosity:1b,AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.05,Operation:1,UUID:[I;836326472,-1781446702,-2040903421,-711117388],Slot:\"feet\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:2,Operation:0,UUID:[I;-98951554,-370457590,-2016488193,1938783077],Slot:\"feet\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:2,Operation:0,UUID:[I;-898001846,1077627934,-2089969606,488134808],Slot:\"feet\"}]}"
+              "tag": "{atrium_marching_boots:1b,atrium_curiosity:1b,AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.05,Operation:1,UUID:[I;836326472,-1781446702,-2040903421,-711117388],Slot:\"feet\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:2,Operation:0,UUID:[I;-98951554,-370457590,-2016488193,1938783077],Slot:\"feet\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:2,Operation:0,UUID:[I;-898001846,1077627934,-2089969606,488134808],Slot:\"feet\"}]}"
             },
             {
               "function": "set_damage",
@@ -70,7 +70,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{ancient_gladius:1b,curiosity:1b}"
+              "tag": "{atrium_ancient_gladius:1b,atrium_curiosity:1b}"
             },
             {
               "function": "set_damage",
@@ -120,7 +120,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{stolen_seeing_eye:1b,curiosity:1b}"
+              "tag": "{atrium_stolen_seeing_eye:1b,atrium_curiosity:1b}"
             },
             {
               "function": "set_name",
@@ -160,7 +160,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{combat_insignia:1b,curiosity:1b}"
+              "tag": "{atrium_combat_insignia:1b,atrium_curiosity:1b}"
             },
             {
               "function": "set_name",
@@ -200,7 +200,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{legion_shield:1b,curiosity:1b,AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:4,Operation:0,UUID:[I;732256180,1894862783,-2011226816,-1734644080],Slot:\"offhand\"}],BlockEntityTag:{Patterns:[{Color:4,Pattern:\"sc\"},{Color:7,Pattern:\"bri\"},{Color:4,Pattern:\"bo\"},{Color:14,Pattern:\"flo\"},{Color:4,Pattern:\"flo\"},{Color:7,Pattern:\"cbo\"}]}}"
+              "tag": "{atrium_legion_shield:1b,atrium_curiosity:1b,AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:4,Operation:0,UUID:[I;732256180,1894862783,-2011226816,-1734644080],Slot:\"offhand\"}],BlockEntityTag:{Patterns:[{Color:4,Pattern:\"sc\"},{Color:7,Pattern:\"bri\"},{Color:4,Pattern:\"bo\"},{Color:14,Pattern:\"flo\"},{Color:4,Pattern:\"flo\"},{Color:7,Pattern:\"cbo\"}]}}"
             },
             {
               "function": "set_damage",
@@ -253,7 +253,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{legion_banner:1b,curiosity:1b,BlockEntityTag:{Patterns:[{Color:4,Pattern:\"sc\"},{Color:7,Pattern:\"bri\"},{Color:4,Pattern:\"bo\"},{Color:14,Pattern:\"flo\"},{Color:4,Pattern:\"flo\"},{Color:7,Pattern:\"cbo\"}]}}"
+              "tag": "{atrium_legion_banner:1b,atrium_curiosity:1b,BlockEntityTag:{Patterns:[{Color:4,Pattern:\"sc\"},{Color:7,Pattern:\"bri\"},{Color:4,Pattern:\"bo\"},{Color:14,Pattern:\"flo\"},{Color:4,Pattern:\"flo\"},{Color:7,Pattern:\"cbo\"}]}}"
             },
             {
               "function": "set_name",

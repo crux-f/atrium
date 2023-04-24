@@ -7,8 +7,8 @@
         {
           "type": "item",
           "weight": 3,
-          "quality": 3,
-          "name": "minecraft:trident",
+          "quality": 2,
+          "name": "minecraft:diamond_hoe",
           "functions": [
             {
               "function": "set_count",
@@ -16,65 +16,15 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Staff of Water\",\"color\":\"blue\",\"italic\":false}',Lore:['{\"text\":\"Nourishment I\",\"color\":\"#FFBFBF\",\"italic\":false}','{\"text\":\"Extinguish I\",\"color\":\"#FFF29E\"}','{\"keybind\":\"\"}','{\"text\":\"When in Off Hand:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"+1 Casting Power\",\"color\":\"blue\"}']},HideFlags:1,RepairCost:99,Damage:0.65-0.25,waterstaff:1b,staff:1b,lv1:1b,Enchantments:[{id:\"minecraft:riptide\",lvl:3s},{id:\"minecraft:mending\",lvl:1s}]}"
+              "tag": "{display:{Name:'{\"text\":\"Staff of Water\",\"italic\":false}',Lore:['{\"text\":\"◇ Water Sigil I\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"◇ Extinguish I\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"When in Off Hand:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"+1 Casting Power\",\"color\":\"blue\",\"italic\":false}']},CustomModelData:333063,atrium_staff:1b,atrium_staff_lv:1b,atrium_water_staff:1b,atrium_chargeable:1b,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:2,Operation:0,UUID:[I;637717026,1710441391,-1943706047,783506473],Slot:\"mainhand\"}]}"
             }
           ]
         },
         {
           "type": "item",
-          "weight": 6,
+          "weight": 3,
           "quality": 2,
-          "name": "minecraft:trident",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{waterglider_trident:1b,curiosity:1b,Enchantments:[{id:\"minecraft:unbreaking\",lvl:4s},{id:\"minecraft:riptide\",lvl:3s},{id:\"minecraft:mending\",lvl:1s}]}"
-            },
-            {
-              "function": "set_name",
-              "name": [
-                {
-                  "text": "Waterglider Trident",
-                  "italic": "false"
-                }
-              ]
-            },
-            {
-              "function": "set_lore",
-              "lore": [
-                {
-                  "text": "Curiosity",
-                  "color": "aqua",
-                  "italic": "false"
-                },
-                {
-                  "text": " "
-                },
-                {
-                  "text": "The ancient people that"
-                },
-                {
-                  "text": "were overwhelmed by "
-                },
-                {
-                  "text": "these waves had a mastery"
-                },
-                {
-                  "text": "of occult magic"
-                },
-                {
-                  "text": "that has yet to be"
-                },
-                {
-                  "text": "replicated."
-                }
-              ]
-            }
-          ]
+          "name": "minecraft:trident"
         },
         {
           "type": "item",
@@ -91,14 +41,14 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{waterlogged_formula:1b,curiosity:1b}"
+              "tag": "{atrium_waterlogged_formula:1b,atrium_curiosity:1b}"
             },
             {
               "function": "set_name",
               "name": [
                 {
                   "text": "Waterlogged Formula",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             },
@@ -108,7 +58,7 @@
                 {
                   "text": "Curiosity",
                   "color": "aqua",
-                  "italic": "false"
+                  "italic": false
                 },
                 {
                   "text": " "
@@ -141,14 +91,14 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{ancient_pottery:1b,curiosity:1b,SkullOwner:{Id:[I;1383019434,1634551509,-1797643298,247843792],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDZlZWFiNDViZWVjMmYwODYxMDI2YjlhMzU0YjYzZjIzYzJiODhkNzllNDFiNzUwNGM4N2JjYmViNzc5ZSJ9fX0=\"}]}}}"
+              "tag": "{atrium_ancient_pottery:1b,atrium_curiosity:1b,SkullOwner:{Id:[I;1383019434,1634551509,-1797643298,247843792],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDZlZWFiNDViZWVjMmYwODYxMDI2YjlhMzU0YjYzZjIzYzJiODhkNzllNDFiNzUwNGM4N2JjYmViNzc5ZSJ9fX0=\"}]}}}"
             },
             {
               "function": "set_name",
               "name": [
                 {
                   "text": "Ancient Pottery",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             },
@@ -158,7 +108,7 @@
                 {
                   "text": "Curiosity",
                   "color": "aqua",
-                  "italic": "false"
+                  "italic": false
                 },
                 {
                   "text": " "
@@ -188,7 +138,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{memory_vial:1b,curiosity:1b}"
+              "tag": "{atrium_memory_vial:1b,atrium_curiosity:1b}"
             },
             {
               "function": "set_name",
@@ -196,7 +146,7 @@
                 {
                   "text": "Memory Vial",
                   "color": "yellow",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             },
@@ -206,7 +156,7 @@
                 {
                   "text": "Curiosity",
                   "color": "aqua",
-                  "italic": "false"
+                  "italic": false
                 },
                 {
                   "text": " "
@@ -236,7 +186,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{syrula_symbol:1b,SkullOwner:{Id:[I;-1494650084,1303595359,-2050742066,64202142],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWZlMjBiMzJlMDAwNzVhNTdkYzU4NWE2ZjVjNDc2N2FkNDc1MDY2ZDE4NDZjYjE0ZTE5ODkzODFkMWZlMTYwNyJ9fX0=\"}]}}}"
+              "tag": "{atrium_syrula_symbol:1b,SkullOwner:{Id:[I;-1494650084,1303595359,-2050742066,64202142],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWZlMjBiMzJlMDAwNzVhNTdkYzU4NWE2ZjVjNDc2N2FkNDc1MDY2ZDE4NDZjYjE0ZTE5ODkzODFkMWZlMTYwNyJ9fX0=\"}]}}}"
             },
             {
               "function": "set_name",
@@ -244,7 +194,7 @@
                 {
                   "text": "Holy Symbol",
                   "color": "yellow",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             },
@@ -254,7 +204,7 @@
                 {
                   "text": "Syrula, The Wavemother",
                   "color": "blue",
-                  "italic": "false"
+                  "italic": false
                 },
                 {
                   "text": "Surprising that you"
