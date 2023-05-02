@@ -6,6 +6,11 @@ execute if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_staff_lv:1b}}]} ru
 execute if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_staff_lv:2b}}]} run scoreboard players add @s charge 2
 execute if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_staff_lv:3b}}]} run scoreboard players add @s charge 3
 #
+# SURGE Enchantment - Staves charge 2x faster
+execute if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_surge_enchanted:1b,atrium_staff_lv:1b}}]} run scoreboard players add @s charge 1
+execute if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_surge_enchanted:1b,atrium_staff_lv:2b}}]} run scoreboard players add @s charge 2
+execute if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_surge_enchanted:1b,atrium_staff_lv:3b}}]} run scoreboard players add @s charge 3
+#
 # At the 1, 2, and 3 second marks, absorb XP and play a sound.
 # Level 1
 execute if entity @s[scores={charge=20}] if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_staff_lv:1b}}]} run xp add @s -8 points

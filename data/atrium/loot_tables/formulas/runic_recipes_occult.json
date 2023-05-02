@@ -17,7 +17,7 @@
                 },
                 {
                     "function": "set_nbt",
-                    "tag": "{pages:['{\"text\":\"I am so hungry.\",\"font\":\"illageralt\"}','[\"\",{\"text\":\"FEAST\\\\n\",\"font\":\"illageralt\"},{\"text\":\"[Enchantment Entry]\",\"color\":\"gray\"},{\"text\":\"\\\\nWhenever you kill an entity that has flesh, axes enchanted with \",\"color\":\"reset\"},{\"text\":\"FEAST\",\"font\":\"illageralt\"},{\"text\":\" will restore 3 Hunger. The slain entity does not drop meat.\",\"color\":\"reset\"}]','[\"\",{\"text\":\"FEAST\\\\n\",\"font\":\"illageralt\"},{\"text\":\"Runic Formula\\\\n[Enchantment]\",\"color\":\"gray\"},{\"text\":\"\\\\n\\\\n         \",\"color\":\"reset\"},{\"text\":\"@\",\"color\":\"dark_gray\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"[Any unenchanted axe]\"}},{\"text\":\"\\\\n     \",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"#E7B223\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Cooked Porkchop\"}},{\"text\":\"       \",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"#966D00\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Steak\"}},{\"text\":\"\\\\n x       \",\"color\":\"reset\"},{\"text\":\"!\",\"color\":\"red\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Minimum XP level requirement = 35\\\\nXP level cost = 3\\\\n[Requires Occult Altar]\"}},{\"text\":\"       x\\\\n     x       x\\\\n         \",\"color\":\"reset\"},{\"text\":\"?\",\"color\":\"aqua\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Enchantment Catalyst [Transforming]\"}},{\"text\":\"\\\\n\\\\n      \",\"color\":\"reset\"},{\"text\":\"FEAST\",\"color\":\"dark_green\",\"font\":\"illageralt\"},{\"text\":\"\\\\n \",\"color\":\"reset\"}]'],title:\"❇ FEAST\",author:\"???\",generation:1,CustomModelData:333003,HideFlags:99,atrium_runic_formula:1}"
+                    "tag": "{pages:['{\"text\":\"I am so hungry.\",\"font\":\"illageralt\"}','[\"\",{\"text\":\"FEAST\\\\n\",\"font\":\"illageralt\"},{\"text\":\"[Enchantment Entry]\",\"color\":\"gray\"},{\"text\":\"\\\\nWhenever you kill an entity that has flesh, axes enchanted with \",\"color\":\"reset\"},{\"text\":\"FEAST\",\"font\":\"illageralt\"},{\"text\":\" will restore 3 Hunger. The slain entity does not drop meat.\",\"color\":\"reset\"}]','[\"\",{\"text\":\"FEAST\\\\n\",\"font\":\"illageralt\"},{\"text\":\"Runic Formula\\\\n[Enchantment]\",\"color\":\"gray\"},{\"text\":\"\\\\n\\\\n         \",\"color\":\"reset\"},{\"text\":\"@\",\"color\":\"dark_gray\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"[Any unenchanted axe]\"}},{\"text\":\"\\\\n     \",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"#E7B223\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Cooked Porkchop\"}},{\"text\":\"       \",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"#966D00\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Steak\"}},{\"text\":\"\\\\n x       \",\"color\":\"reset\"},{\"text\":\"!\",\"color\":\"red\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Minimum XP level requirement = 35\\\\nXP level cost = 3\\\\n[Requires Occult Altar]\"}},{\"text\":\"       x\\\\n     x       x\\\\n         \",\"color\":\"reset\"},{\"text\":\"+\",\"color\":\"blue\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Enchantment Catalyst [Focusing]\"}},{\"text\":\"\\\\n\\\\n      \",\"color\":\"reset\"},{\"text\":\"FEAST\",\"color\":\"dark_green\",\"font\":\"illageralt\"},{\"text\":\"\\\\n \",\"color\":\"reset\"}]'],title:\"❇ FEAST\",author:\"???\",generation:1,CustomModelData:333003,HideFlags:99,atrium_runic_formula:1}"
                 },
                 {
                     "function": "set_name",
@@ -50,6 +50,60 @@
                             },
                             {
                                 "text": "FEAST",
+                                "color": "gray",
+                                "italic": false,
+                                "font": "illageralt"
+                            }
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "item",
+            "weight": 5,
+            "quality": 1,
+            "name": "minecraft:written_book",
+            "functions": [
+                {
+                    "function": "set_count",
+                    "count": 1
+                },
+                {
+                    "function": "set_nbt",
+                    "tag": "{pages:['[\"\",{\"text\":\"SURGE\\\\n\",\"font\":\"illageralt\"},{\"text\":\"[Enchantment Entry]\",\"color\":\"gray\"},{\"text\":\"\\\\nStaves enchanted with \",\"color\":\"reset\"},{\"text\":\"SURGE\",\"font\":\"illageralt\"},{\"text\":\" are capable of casting spells \",\"color\":\"reset\"},{\"text\":\"2x\",\"color\":\"blue\"},{\"text\":\" faster than normal. Use this power wisely.\",\"color\":\"reset\"}]','[\"\",{\"text\":\"SURGE\\\\n\",\"font\":\"illageralt\"},{\"text\":\"Runic Formula\\\\n[Enchantment]\",\"color\":\"gray\"},{\"text\":\"\\\\n\\\\n         \",\"color\":\"reset\"},{\"text\":\"@\",\"color\":\"dark_gray\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"[Any unenchanted staff]\"}},{\"text\":\"\\\\n     \",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"aqua\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Diamond\"}},{\"text\":\"       \",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"aqua\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Diamond\"}},{\"text\":\"\\\\n x       \",\"color\":\"reset\"},{\"text\":\"!\",\"color\":\"red\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Minimum XP level requirement = 40\\\\nXP level cost = 4\\\\n[Requires Occult Altar]\"}},{\"text\":\"       x\\\\n     x       x\\\\n         \",\"color\":\"reset\"},{\"text\":\"+\",\"color\":\"blue\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Enchantment Catalyst [Focusing]\"}},{\"text\":\"\\\\n\\\\n      \",\"color\":\"reset\"},{\"text\":\"SURGE\",\"color\":\"dark_green\",\"font\":\"illageralt\"}]'],title:\"❇ SURGE\",author:\"???\",generation:1,CustomModelData:333003,HideFlags:99,atrium_runic_formula:1}"
+                },
+                {
+                    "function": "set_name",
+                    "name": [
+                        {
+                            "text": "❇",
+                            "italic": false
+                        },
+                        {
+                            "text": " SURGE",
+                            "italic": false,
+                            "font": "illageralt"
+                        }
+                    ]
+                },
+                {
+                    "function": "set_lore",
+                    "lore": [
+                        {
+                            "text": "Runic Codex Formulas:",
+                            "color": "gray",
+                            "italic": false,
+                            "underlined": true
+                        },
+                        [
+                            {
+                                "text": "[Enchantment] ",
+                                "color": "gray",
+                                "italic": false
+                            },
+                            {
+                                "text": "SURGE",
                                 "color": "gray",
                                 "italic": false,
                                 "font": "illageralt"
