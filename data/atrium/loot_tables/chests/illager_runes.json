@@ -1,0 +1,920 @@
+{
+    "type": "chest",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:flint",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{CustomModelData:333100,atrium_runestone:1b,atrium_rune:a}"
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Runestone",
+                    "italic": false
+                  }
+                ]
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "text": "a",
+                    "font": "minecraft:illageralt",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:flint",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{CustomModelData:333101,atrium_runestone:1b,atrium_rune:b}"
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Runestone",
+                    "italic": false
+                  }
+                ]
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "text": "b",
+                    "font": "minecraft:illageralt",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:flint",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{CustomModelData:333102,atrium_runestone:1b,atrium_rune:c}"
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Runestone",
+                    "italic": false
+                  }
+                ]
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "text": "c",
+                    "font": "minecraft:illageralt",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:flint",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{CustomModelData:333103,atrium_runestone:1b,atrium_rune:d}"
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Runestone",
+                    "italic": false
+                  }
+                ]
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "text": "d",
+                    "font": "minecraft:illageralt",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:flint",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{CustomModelData:333104,atrium_runestone:1b,atrium_rune:e}"
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Runestone",
+                    "italic": false
+                  }
+                ]
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "text": "e",
+                    "font": "minecraft:illageralt",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:flint",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{CustomModelData:333105,atrium_runestone:1b,atrium_rune:f}"
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Runestone",
+                    "italic": false
+                  }
+                ]
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "text": "f",
+                    "font": "minecraft:illageralt",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:flint",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{CustomModelData:333106,atrium_runestone:1b,atrium_rune:g}"
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Runestone",
+                    "italic": false
+                  }
+                ]
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "text": "g",
+                    "font": "minecraft:illageralt",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:flint",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{CustomModelData:333107,atrium_runestone:1b,atrium_rune:h}"
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Runestone",
+                    "italic": false
+                  }
+                ]
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "text": "h",
+                    "font": "minecraft:illageralt",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:flint",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{CustomModelData:333108,atrium_runestone:1b,atrium_rune:i}"
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Runestone",
+                    "italic": false
+                  }
+                ]
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "text": "i",
+                    "font": "minecraft:illageralt",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:flint",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{CustomModelData:333109,atrium_runestone:1b,atrium_rune:j}"
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Runestone",
+                    "italic": false
+                  }
+                ]
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "text": "j",
+                    "font": "minecraft:illageralt",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:flint",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{CustomModelData:333110,atrium_runestone:1b,atrium_rune:k}"
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Runestone",
+                    "italic": false
+                  }
+                ]
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "text": "k",
+                    "font": "minecraft:illageralt",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:flint",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{CustomModelData:333111,atrium_runestone:1b,atrium_rune:l}"
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Runestone",
+                    "italic": false
+                  }
+                ]
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "text": "l",
+                    "font": "minecraft:illageralt",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:flint",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{CustomModelData:333112,atrium_runestone:1b,atrium_rune:m}"
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Runestone",
+                    "italic": false
+                  }
+                ]
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "text": "m",
+                    "font": "minecraft:illageralt",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:flint",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{CustomModelData:333113,atrium_runestone:1b,atrium_rune:n}"
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Runestone",
+                    "italic": false
+                  }
+                ]
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "text": "n",
+                    "font": "minecraft:illageralt",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:flint",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{CustomModelData:333114,atrium_runestone:1b,atrium_rune:o}"
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Runestone",
+                    "italic": false
+                  }
+                ]
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "text": "o",
+                    "font": "minecraft:illageralt",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:flint",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{CustomModelData:333115,atrium_runestone:1b,atrium_rune:p}"
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Runestone",
+                    "italic": false
+                  }
+                ]
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "text": "p",
+                    "font": "minecraft:illageralt",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:flint",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{CustomModelData:333116,atrium_runestone:1b,atrium_rune:q}"
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Runestone",
+                    "italic": false
+                  }
+                ]
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "text": "q",
+                    "font": "minecraft:illageralt",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:flint",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{CustomModelData:333117,atrium_runestone:1b,atrium_rune:r}"
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Runestone",
+                    "italic": false
+                  }
+                ]
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "text": "r",
+                    "font": "minecraft:illageralt",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:flint",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{CustomModelData:333118,atrium_runestone:1b,atrium_rune:s}"
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Runestone",
+                    "italic": false
+                  }
+                ]
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "text": "s",
+                    "font": "minecraft:illageralt",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:flint",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{CustomModelData:333119,atrium_runestone:1b,atrium_rune:t}"
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Runestone",
+                    "italic": false
+                  }
+                ]
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "text": "t",
+                    "font": "minecraft:illageralt",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:flint",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{CustomModelData:333120,atrium_runestone:1b,atrium_rune:u}"
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Runestone",
+                    "italic": false
+                  }
+                ]
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "text": "u",
+                    "font": "minecraft:illageralt",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:flint",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{CustomModelData:333121,atrium_runestone:1b,atrium_rune:v}"
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Runestone",
+                    "italic": false
+                  }
+                ]
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "text": "v",
+                    "font": "minecraft:illageralt",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:flint",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{CustomModelData:333122,atrium_runestone:1b,atrium_rune:w}"
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Runestone",
+                    "italic": false
+                  }
+                ]
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "text": "w",
+                    "font": "minecraft:illageralt",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:flint",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{CustomModelData:333123,atrium_runestone:1b,atrium_rune:x}"
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Runestone",
+                    "italic": false
+                  }
+                ]
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "text": "x",
+                    "font": "minecraft:illageralt",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:flint",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{CustomModelData:333124,atrium_runestone:1b,atrium_rune:y}"
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Runestone",
+                    "italic": false
+                  }
+                ]
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "text": "y",
+                    "font": "minecraft:illageralt",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:flint",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{CustomModelData:333125,atrium_runestone:1b,atrium_rune:z}"
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Runestone",
+                    "italic": false
+                  }
+                ]
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "text": "z",
+                    "font": "minecraft:illageralt",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

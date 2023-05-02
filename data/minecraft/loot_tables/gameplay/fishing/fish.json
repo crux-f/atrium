@@ -23,7 +23,7 @@
                 {
                   "text": "Mysterious Fish",
                   "color": "dark_aqua",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             },

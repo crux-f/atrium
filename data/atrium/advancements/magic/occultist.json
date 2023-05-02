@@ -1,0 +1,26 @@
+{
+    "__comment": "Acquired by applying an occult enchantment",
+    "display": {
+        "title": {
+            "text": "Occultist",
+            "color": "white"
+        },
+        "description": {
+            "text": "Enchant an item using a Occult Altar"
+        },
+        "icon": {
+            "item": "minecraft:flint",
+            "nbt": "{CustomModelData:333128}"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "occult_enchantment": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "atrium:magic/mightier_than_the_sword"
+}

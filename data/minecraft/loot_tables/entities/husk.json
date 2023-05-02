@@ -7,6 +7,22 @@
         {
           "type": "minecraft:item",
           "weight": 15,
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "equipment": {
+                    "mainhand": {
+                      "nbt": "{atrium_feast_enchanted:1b}"
+                    }
+                  }
+                }
+              }
+            }
+          ],
           "functions": [
             {
               "function": "minecraft:set_count",

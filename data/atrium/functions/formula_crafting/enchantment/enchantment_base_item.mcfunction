@@ -11,6 +11,11 @@ execute positioned ~ ~ ~3 if entity @e[type=minecraft:glow_item_frame,distance=.
 execute positioned ~ ~ ~3 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:lapis_block",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
 execute positioned ~ ~ ~3 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:lapis_block",Count:1b}}] at @s run function atrium:formula_crafting/enchantment/e_recipes/catalyst_focusing
 # 
+# Other
+#
+# Start Occult Altar [Upgrade] - Check SOUTH for Block of Redstone
+execute positioned ~ ~ ~3 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:redstone_block",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~3 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:redstone_block",Count:1b}}] at @s run function atrium:formula_crafting/enchantment/e_recipes/occult_altar_upgrade
 # 
 # Runic Enchantments
 #
@@ -65,4 +70,8 @@ execute positioned ~-2 ~ ~-2 at @e[type=minecraft:glow_item_frame,distance=..1.5
 execute positioned ~-2 ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{tag:{Enchantments:[{id:"minecraft:fire_aspect"}]}}}] at @s run function atrium:formula_crafting/enchantment/e_recipes/smelting
 execute positioned ~-2 ~ ~-2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{tag:{StoredEnchantments:[{id:"minecraft:fire_aspect"}]}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
 execute positioned ~-2 ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{tag:{StoredEnchantments:[{id:"minecraft:fire_aspect"}]}}}] at @s run function atrium:formula_crafting/enchantment/e_recipes/smelting
+#
+# Start FEAST - Check NORTH WEST for Cooked Porkchop
+execute positioned ~-2 ~ ~-2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:cooked_porkchop",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~-2 ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:cooked_porkchop",Count:1b}}] at @s run function atrium:formula_crafting/enchantment/e_recipes/feast
 #

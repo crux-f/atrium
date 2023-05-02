@@ -9,6 +9,22 @@
           "type": "item",
           "weight": 1,
           "name": "minecraft:rotten_flesh",
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "equipment": {
+                    "mainhand": {
+                      "nbt": "{atrium_feast_enchanted:1b}"
+                    }
+                  }
+                }
+              }
+            }
+          ],
           "functions": [
             {
               "function": "set_count",
@@ -61,6 +77,22 @@
           "type": "item",
           "weight": 3,
           "name": "minecraft:rotten_flesh",
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "equipment": {
+                    "mainhand": {
+                      "nbt": "{atrium_feast_enchanted:1b}"
+                    }
+                  }
+                }
+              }
+            }
+          ],
           "functions": [
             {
               "function": "set_count",

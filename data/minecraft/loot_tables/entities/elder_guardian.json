@@ -51,6 +51,22 @@
         {
           "type": "minecraft:item",
           "weight": 3,
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "equipment": {
+                    "mainhand": {
+                      "nbt": "{atrium_feast_enchanted:1b}"
+                    }
+                  }
+                }
+              }
+            }
+          ],
           "functions": [
             {
               "function": "minecraft:looting_enchant",
@@ -118,6 +134,22 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "equipment": {
+                    "mainhand": {
+                      "nbt": "{atrium_feast_enchanted:1b}"
+                    }
+                  }
+                }
+              }
+            }
+          ],
           "functions": [
             {
               "function": "minecraft:furnace_smelt",
