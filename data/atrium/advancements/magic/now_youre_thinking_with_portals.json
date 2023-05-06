@@ -21,5 +21,5 @@
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "atrium:magic/some_assembly_required"
+    "parent": "atrium:magic/youve_redecorated"
 }

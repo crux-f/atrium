@@ -2,11 +2,11 @@
     "__comment": "Acquired by applying an occult enchantment",
     "display": {
         "title": {
-            "text": "Occultist",
+            "text": "Lost In Translation",
             "color": "white"
         },
         "description": {
-            "text": "Enchant an item using a Occult Altar"
+            "text": "Enchant an item using an Occult Altar"
         },
         "icon": {
             "item": "minecraft:flint",

@@ -1,0 +1,33 @@
+{
+    "__comment": "The fourth event of Return To The Depths. 05/06/2023.",
+    "display": {
+        "title": {
+            "text": "Hold Your Breath",
+            "color": "white",
+            "bold": false
+        },
+        "description": {
+            "text": "Return To The Depths IV - May 6th, 2023",
+            "color": "green",
+            "italic": true
+        },
+        "icon": {
+            "item": "minecraft:potion",
+            "nbt": "{Potion:\"minecraft:water_breathing\"}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "hold_your_breath": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+		"experience": 100,
+	    "function": "atrium_events:series_grant/return_to_the_depths"
+	},
+        "parent": "atrium_events:iteration4_events/a_nameless_fear"
+}

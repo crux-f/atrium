@@ -2,14 +2,15 @@
     "__comment": "Acquired by crafting a level 2 staff",
     "display": {
         "title": {
-            "text": "Coming Soon",
+            "text": "Learning To Spell",
             "color": "white"
         },
         "description": {
-            "text": "???"
+            "text": "Upgrade your arcane Staff"
         },
         "icon": {
-            "item": "minecraft:firework_star"
+            "item": "minecraft:firework_star",
+            "nbt": "{CustomModelData:333026}"
         },
         "frame": "task",
         "show_toast": true,
@@ -17,7 +18,7 @@
         "hidden": false
     },
     "criteria": {
-        "spacialfocus": {
+        "craft_level_2_staff": {
             "trigger": "minecraft:impossible"
         }
     },
