@@ -10,6 +10,19 @@ execute positioned ~ ~ ~3 if entity @e[type=minecraft:glow_item_frame,distance=.
 # Start Enchantment Catalyst [Focusing] - Check SOUTH for Block of Lapis Lazuli
 execute positioned ~ ~ ~3 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:lapis_block",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
 execute positioned ~ ~ ~3 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:lapis_block",Count:1b}}] at @s run function atrium:formula_crafting/enchantment/e_recipes/catalyst_focusing
+#
+# Start Blank Slate - Check NORTH for Smooth Stone Slab
+execute positioned ~ ~ ~-3 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:smooth_stone_slab",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~-3 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:smooth_stone_slab",Count:1b}}] at @s run function atrium:formula_crafting/enchantment/e_recipes/blank_slate
+#
+# Start Copy Rune [Green] - Check NORTH for any green Runestone
+execute positioned ~ ~ ~-3 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{tag:{atrium_rune_color:green}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~-3 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{tag:{atrium_rune_color:green}}}] at @s run function atrium:formula_crafting/enchantment/e_recipes/copy_green_rune
+#
+# Start Copy Rune [Red] - Check NORTH for any red Runestone
+execute positioned ~ ~ ~-3 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{tag:{atrium_rune_color:red}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~-3 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{tag:{atrium_rune_color:red}}}] at @s run function atrium:formula_crafting/enchantment/e_recipes/copy_red_rune
+# 
 # 
 # Other
 #

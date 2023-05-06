@@ -15,7 +15,7 @@
               },
               {
                 "function": "set_nbt",
-                "tag": "{CustomModelData:333090,atrium_runestone:1b,atrium_rune:0}"
+                "tag": "{CustomModelData:333090,atrium_runestone:1b,atrium_rune_color:red,atrium_rune:0}"
               },
               {
                 "function": "set_name",
@@ -50,7 +50,7 @@
               },
               {
                 "function": "set_nbt",
-                "tag": "{CustomModelData:333091,atrium_runestone:1b,atrium_rune:1}"
+                "tag": "{CustomModelData:333091,atrium_runestone:1b,atrium_rune_color:red,atrium_rune:1}"
               },
               {
                 "function": "set_name",
@@ -85,7 +85,7 @@
               },
               {
                 "function": "set_nbt",
-                "tag": "{CustomModelData:333092,atrium_runestone:1b,atrium_rune:2}"
+                "tag": "{CustomModelData:333092,atrium_runestone:1b,atrium_rune_color:red,atrium_rune:2}"
               },
               {
                 "function": "set_name",
@@ -120,7 +120,7 @@
               },
               {
                 "function": "set_nbt",
-                "tag": "{CustomModelData:333093,atrium_runestone:1b,atrium_rune:3}"
+                "tag": "{CustomModelData:333093,atrium_runestone:1b,atrium_rune_color:red,atrium_rune:3}"
               },
               {
                 "function": "set_name",
@@ -155,7 +155,7 @@
               },
               {
                 "function": "set_nbt",
-                "tag": "{CustomModelData:333094,atrium_runestone:1b,atrium_rune:4}"
+                "tag": "{CustomModelData:333094,atrium_runestone:1b,atrium_rune_color:red,atrium_rune:4}"
               },
               {
                 "function": "set_name",
@@ -190,7 +190,7 @@
               },
               {
                 "function": "set_nbt",
-                "tag": "{CustomModelData:333095,atrium_runestone:1b,atrium_rune:5}"
+                "tag": "{CustomModelData:333095,atrium_runestone:1b,atrium_rune_color:red,atrium_rune:5}"
               },
               {
                 "function": "set_name",
@@ -225,7 +225,7 @@
               },
               {
                 "function": "set_nbt",
-                "tag": "{CustomModelData:333096,atrium_runestone:1b,atrium_rune:6}"
+                "tag": "{CustomModelData:333096,atrium_runestone:1b,atrium_rune_color:red,atrium_rune:6}"
               },
               {
                 "function": "set_name",
@@ -260,7 +260,7 @@
               },
               {
                 "function": "set_nbt",
-                "tag": "{CustomModelData:333097,atrium_runestone:1b,atrium_rune:7}"
+                "tag": "{CustomModelData:333097,atrium_runestone:1b,atrium_rune_color:red,atrium_rune:7}"
               },
               {
                 "function": "set_name",
@@ -295,7 +295,7 @@
               },
               {
                 "function": "set_nbt",
-                "tag": "{CustomModelData:333098,atrium_runestone:1b,atrium_rune:8}"
+                "tag": "{CustomModelData:333098,atrium_runestone:1b,atrium_rune_color:red,atrium_rune:8}"
               },
               {
                 "function": "set_name",
@@ -330,7 +330,7 @@
               },
               {
                 "function": "set_nbt",
-                "tag": "{CustomModelData:333099,atrium_runestone:1b,atrium_rune:9}"
+                "tag": "{CustomModelData:333099,atrium_runestone:1b,atrium_rune_color:red,atrium_rune:9}"
               },
               {
                 "function": "set_name",
@@ -365,7 +365,7 @@
               },
               {
                 "function": "set_nbt",
-                "tag": "{CustomModelData:333126,atrium_runestone:1b,atrium_rune:exclamation_mark}"
+                "tag": "{CustomModelData:333126,atrium_runestone:1b,atrium_rune_color:red,atrium_rune:exclamation_mark}"
               },
               {
                 "function": "set_name",
@@ -400,7 +400,7 @@
               },
               {
                 "function": "set_nbt",
-                "tag": "{CustomModelData:333127,atrium_runestone:1b,atrium_rune:comma}"
+                "tag": "{CustomModelData:333127,atrium_runestone:1b,atrium_rune_color:red,atrium_rune:comma}"
               },
               {
                 "function": "set_name",
@@ -435,7 +435,7 @@
               },
               {
                 "function": "set_nbt",
-                "tag": "{CustomModelData:333128,atrium_runestone:1b,atrium_rune:question_mark}"
+                "tag": "{CustomModelData:333128,atrium_runestone:1b,atrium_rune_color:red,atrium_rune:question_mark}"
               },
               {
                 "function": "set_name",
@@ -470,7 +470,7 @@
               },
               {
                 "function": "set_nbt",
-                "tag": "{CustomModelData:333129,atrium_runestone:1b,atrium_rune:period}"
+                "tag": "{CustomModelData:333129,atrium_runestone:1b,atrium_rune_color:red,atrium_rune:period}"
               },
               {
                 "function": "set_name",
