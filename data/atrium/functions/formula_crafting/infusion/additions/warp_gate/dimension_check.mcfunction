@@ -1,0 +1,10 @@
+# Warp Gates can only teleport you within the same dimension.
+#
+# If you're in the same dimension that the Lodestone Compass is bound to, proceed to the XP Cost Check.
+execute if entity @s[predicate=atrium:in_overworld] positioned ~-5 ~2 ~ if entity @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{tag:{LodestoneDimension:"minecraft:overworld"}}}] as @s run function atrium:formula_crafting/infusion/additions/warp_gate/xp_cost_check
+execute if entity @s[predicate=atrium:in_the_nether] positioned ~-5 ~2 ~ if entity @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{tag:{LodestoneDimension:"minecraft:the_nether"}}}] as @s run function atrium:formula_crafting/infusion/additions/warp_gate/xp_cost_check
+execute if entity @s[predicate=atrium:in_the_end] positioned ~-5 ~2 ~ if entity @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{tag:{LodestoneDimension:"minecraft:the_end"}}}] as @s run function atrium:formula_crafting/infusion/additions/warp_gate/xp_cost_check
+execute if entity @s[predicate=atrium:in_between_worlds] positioned ~-5 ~2 ~ if entity @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{tag:{LodestoneDimension:"atrium:between_worlds"}}}] as @s run function atrium:formula_crafting/infusion/additions/warp_gate/xp_cost_check
+execute if entity @s[predicate=atrium:in_the_depths] positioned ~-5 ~2 ~ if entity @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{tag:{LodestoneDimension:"atrium:the_depths"}}}] as @s run function atrium:formula_crafting/infusion/additions/warp_gate/xp_cost_check
+execute if entity @s[predicate=atrium:in_the_meridian] positioned ~-5 ~2 ~ if entity @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{tag:{LodestoneDimension:"atrium:the_meridian"}}}] as @s run function atrium:formula_crafting/infusion/additions/warp_gate/xp_cost_check
+execute if entity @s[predicate=atrium:in_the_abyss] positioned ~-5 ~2 ~ if entity @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{tag:{LodestoneDimension:"atrium:the_abyss"}}}] as @s run function atrium:formula_crafting/infusion/additions/warp_gate/xp_cost_check

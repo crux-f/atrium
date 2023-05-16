@@ -12,6 +12,15 @@ execute positioned ~4 ~ ~ if entity @e[type=minecraft:glow_item_frame,distance=.
 # Start Infusion Catalyst [Reverberating] - Check EAST for Block of Quartz
 execute positioned ~4 ~ ~ at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:quartz_block",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
 execute positioned ~4 ~ ~ if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:quartz_block",Count:1b}}] at @s run function atrium:formula_crafting/infusion/i_recipes/catalyst_reverberating
+# Start Ambient Crystal - Check NORTH for Rumbling Crystal
+execute positioned ~ ~ ~-4 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{tag:{atrium_rumbling_crystal:1b}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~-4 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{tag:{atrium_rumbling_crystal:1b}}}] at @s run function atrium:formula_crafting/infusion/i_recipes/ambient_crystal
+# Start Calm Crystal - Check NORTH for Subdued Crystal
+execute positioned ~ ~ ~-4 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{tag:{atrium_subdued_crystal:1b}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~-4 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{tag:{atrium_subdued_crystal:1b}}}] at @s run function atrium:formula_crafting/infusion/i_recipes/calm_crystal
+# Start Eager Crystal - Check NORTH for Blooming Crystal
+execute positioned ~ ~ ~-4 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{tag:{atrium_blooming_crystal:1b}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~-4 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{tag:{atrium_blooming_crystal:1b}}}] at @s run function atrium:formula_crafting/infusion/i_recipes/eager_crystal
 #
 # Equipment
 #
@@ -57,8 +66,11 @@ execute positioned ~ ~ ~-4 if entity @e[type=minecraft:glow_item_frame,distance=
 execute positioned ~ ~ ~-2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:slime_ball",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
 execute positioned ~ ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:slime_ball",Count:1b}}] at @s run function atrium:formula_crafting/infusion/i_recipes/rod_of_relocation
 #
-# Special
+# Upgrades
 #
 # Start Warp Gate - Check NORTH for Lodestone
-# execute positioned ~ ~ ~-4 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:lodestone",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
-# execute positioned ~ ~ ~-4 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:lodestone",Count:1b}}] at @s run function atrium:formula_crafting/infusion/i_recipes/warp_gate
+execute positioned ~ ~ ~-4 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:lodestone",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~-4 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:lodestone",Count:1b}}] at @s run function atrium:formula_crafting/infusion/i_recipes/warp_gate_upgrade
+# Activate Warp Gate - Check WARP GATE for Lodestone Compass
+execute positioned ~-5 ~2 ~ at @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{tag:{LodestoneTracked:1b}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~-5 ~2 ~ if entity @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{tag:{LodestoneTracked:1b}}}] run execute at @s run function atrium:formula_crafting/infusion/additions/warp_gate/dimension_check

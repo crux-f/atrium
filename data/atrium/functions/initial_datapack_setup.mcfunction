@@ -18,7 +18,6 @@ scoreboard objectives add resurrect dummy {"text":"Resurrect Progress","color":"
 scoreboard objectives add resurrect_others dummy {"text":"Player Resurrections Performed","color":"aqua"}
 # entropy is used for the occult magic system (initially tied to death count, can be altered)
 scoreboard objectives add entropy dummy {"text":"Entropy","color":"dark_gray"}
-#
 # charge is used for any items that can charge up to use a special ability
 scoreboard objectives add charge dummy {"text":"Charge Level","color":"green"}
 # atrium_dance_spell is used for Dance, the air ultimate
@@ -31,14 +30,20 @@ scoreboard objectives add atrium_parallax_dim dummy {"text":"Parallax [Dimension
 scoreboard objectives add atrium_parallax_timer dummy {"text":"Parallax Spell Timer","color":"gray"}
 # atrium_pocket_item_flag is used for the Pocket Item spell
 scoreboard objectives add atrium_pocket_item_flag dummy {"text":"Pocket Item Spell Success Flag","color":"gray"}
-# atrium_x_coordinate, atrium_y_coordinate, atrium_z_coordinate are used for Gust spell
+# atrium_x_coordinate, atrium_y_coordinate, atrium_z_coordinate are used for Gust spell and Warp Gates
 scoreboard objectives add atrium_x_coordinate dummy {"text":"[X]","color":"gray"}
 scoreboard objectives add atrium_y_coordinate dummy {"text":"[Y]","color":"gray"}
 scoreboard objectives add atrium_z_coordinate dummy {"text":"[Z]","color":"gray"}
 # enchantment_damage is used for calculating damage on runic enchantments (NOTE: Once /damage is added this will become deprecated)
 scoreboard objectives add enchantment_damage dummy {"text":"Enchantment Damage","color":"aqua"}
-#
-#
+# atrium_xp_debt is used for the Warp Gate (how much xp is left to be paid)
+scoreboard objectives add atrium_xp_debt dummy {"text":"XP Debt","color":"green"}
+# atrium_xp_multiplier is used for the Warp Gate (which multiplier to use)
+scoreboard objectives add atrium_xp_multiplier dummy {"text":"XP Multiplier","color":"green"}
+# xp_calc_storage and xp_calc_bonus are used for the XP calculator found in atrium:misc/xp_calculators/get_total_xp
+scoreboard objectives add xp_calc_bonus dummy {"text":"XP Calculation Bonus","color":"yellow"}
+scoreboard objectives add xp_calc_storage dummy {"text":"XP Calculation Storage","color":"yellow"}
+scoreboard objectives add warp_gate dummy {"text":"Warp Gate","color":"blue"}
 #
 # Shrines - - -
 # Each of the 13 gods has a Favor counter for shrine functionality.
@@ -60,7 +65,7 @@ scoreboard objectives add xenos_favor dummy {"text":"Xenos Favor","color":"white
 # same_tick_math is used for any math that will be finished in a single tick (therefor ensuring it never conflicts with anything else, unless you mess it up)
 scoreboard objectives add same_tick_math dummy
 # usher_intro is used to track the progress in the conversation with The Usher during the iteration 4 spawn sequence.
-scoreboard objectives add usher_intro dummy
+# scoreboard objectives add usher_intro dummy
 # Burrow Consequences
 scoreboard objectives add depths_burrows dummy
 #

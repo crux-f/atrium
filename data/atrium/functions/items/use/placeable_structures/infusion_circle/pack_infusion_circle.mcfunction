@@ -75,6 +75,28 @@ execute positioned ~ ~2 ~-8 if block ~ ~ ~ minecraft:stone run setblock ~ ~ ~ mi
 setblock ~ ~ ~ minecraft:air
 execute positioned ~ ~ ~ run summon item ~ ~1 ~ {NoGravity:1b,Glowing:1b,Item:{id:"minecraft:player_head",Count:1b,tag:{display:{Name:'{"text":"Infusion Circle","color":"light_purple","italic":false}',Lore:['{"text":"Space Required:","color":"gray","italic":false}','{"text":"x9,y5,z11","color":"dark_gray","italic":false}','{"text":" "}','{"text":"When Placed:","color":"gray","italic":false}','{"text":"Generates a structure ","color":"blue","italic":false}']},infusion_circle_placer:1b,SkullOwner:{Id:[I;-510246894,-974372697,-1324757754,-2046207321],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTIyNzYzMDkzNzc0NjkzYjI2MzkyNzhhMWMyYzY5OGFkMTFkYjQ5Mjg5NmU5YmYxNjcxNGQ4NTdlOThjYTFkZCJ9fX0="}]}}}}}
 #
+# If the Warp Gate Upgrade is installed, disassemble that as well.
+execute positioned ~-6 ~-1 ~ if data entity @s data.warp_gate_installed run setblock ~ ~ ~ minecraft:air
+execute positioned ~-6 ~-1 ~1 if data entity @s data.warp_gate_installed run setblock ~ ~ ~ minecraft:air
+execute positioned ~-6 ~-1 ~-1 if data entity @s data.warp_gate_installed run setblock ~ ~ ~ minecraft:air
+execute positioned ~-6 ~ ~1 if data entity @s data.warp_gate_installed run setblock ~ ~ ~ minecraft:air
+execute positioned ~-6 ~ ~-1 if data entity @s data.warp_gate_installed run setblock ~ ~ ~ minecraft:air
+execute positioned ~-6 ~1 ~1 if data entity @s data.warp_gate_installed run setblock ~ ~ ~ minecraft:air
+execute positioned ~-6 ~1 ~-1 if data entity @s data.warp_gate_installed run setblock ~ ~ ~ minecraft:air
+execute positioned ~-6 ~2 ~ if data entity @s data.warp_gate_installed run setblock ~ ~ ~ minecraft:air
+execute positioned ~-6 ~2 ~1 if data entity @s data.warp_gate_installed run setblock ~ ~ ~ minecraft:air
+execute positioned ~-6 ~2 ~-1 if data entity @s data.warp_gate_installed run setblock ~ ~ ~ minecraft:air
+execute positioned ~-6 ~3 ~ if data entity @s data.warp_gate_installed run setblock ~ ~ ~ minecraft:air
+execute positioned ~-6 ~3 ~1 if data entity @s data.warp_gate_installed run setblock ~ ~ ~ minecraft:air
+execute positioned ~-6 ~3 ~-1 if data entity @s data.warp_gate_installed run setblock ~ ~ ~ minecraft:air
+#
+execute if data entity @s data.warp_gate_installed run summon minecraft:item ~ ~1 ~ {NoGravity:1b,Glowing:1b,Item:{id:"minecraft:lodestone",Count:1b}}
+execute if data entity @s data.warp_gate_installed run summon minecraft:item ~ ~1 ~ {NoGravity:1b,Glowing:1b,Item:{id:"minecraft:stone",Count:4b}}
+execute if data entity @s data.warp_gate_installed run summon minecraft:item ~ ~1 ~ {NoGravity:1b,Glowing:1b,Item:{id:"minecraft:amethyst_block",Count:1b,tag:{display:{Name:'{"text":"Infusion Catalyst","italic":false}',Lore:['{"text":"Harmonizing","color":"light_purple","italic":false}','{"text":" "}','{"text":"A little extra music can"}','{"text":"help even the most"}','{"text":"disparate elements get along."}']},atrium_catalyst_harmonizing:1b,Enchantments:[{}]}}}
+execute if data entity @s data.warp_gate_installed run summon minecraft:item ~ ~1 ~ {NoGravity:1b,Glowing:1b,Item:{id:"minecraft:ender_pearl",Count:2b}}
+execute if data entity @s data.warp_gate_installed run summon minecraft:item ~ ~1 ~ {NoGravity:1b,Glowing:1b,Item:{id:"minecraft:stick",Count:1b,tag:{display:{Name:'{"text":"Inert Focus","italic":false}'},CustomModelData:333059,atrium_inert_focus:1b}}}
+execute if data entity @s data.warp_gate_installed run summon minecraft:item ~ ~1 ~ {NoGravity:1b,Glowing:1b,Item:{id:"minecraft:blue_stained_glass",Count:1b,tag:{display:{Name:'{"text":"Calm Crystal","color":"blue","italic":false}',Lore:['{"text":"It feels like chilled"}','{"text":"glass. You can almost"}','{"text":"feel it contemplating."}']},HideFlags:1,atrium_calm_crystal:1b,Enchantments:[{id:"minecraft:unbreaking",lvl:1s}],AttributeModifiers:[{AttributeName:"generic.armor_toughness",Name:"generic.armor_toughness",Amount:2,Operation:0,UUID:[I;-2123071529,1345407694,-1756066510,1972665159],Slot:"mainhand"},{AttributeName:"generic.armor_toughness",Name:"generic.armor_toughness",Amount:1,Operation:0,UUID:[I;1626373228,-1354218532,-1339331348,773807433],Slot:"offhand"},{AttributeName:"generic.armor",Name:"generic.armor",Amount:4,Operation:0,UUID:[I;-1101675602,-1514387537,-1111860716,857932385],Slot:"mainhand"},{AttributeName:"generic.armor",Name:"generic.armor",Amount:2,Operation:0,UUID:[I;-2058357322,1857374624,-1166773954,1459387628],Slot:"offhand"}]}}}
+# Remove entity
 kill @s
 # Cleanup
 execute as @p[gamemode=!spectator,distance=..6,nbt={SelectedItem:{tag:{atrium_rod_of_relocation:1b}}}] run function atrium:items/use/placeable_structures/rod_of_relocation_cleanup

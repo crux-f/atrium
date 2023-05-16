@@ -39,7 +39,7 @@ execute if entity @s[scores={valid_ingredients=..12}] if data entity @s data.occ
 #
 # Occult Altar
 #
-# If you have the Alatar installed and the codex has 13 or higher, the check passes.
+# If you have the Altar installed and the codex has 13 or higher, the check passes.
 execute unless entity @p[gamemode=!spectator,distance=..6,nbt={SelectedItem:{tag:{atrium_rod_of_relocation:1b}}}] if entity @s[scores={valid_ingredients=13..}] if data entity @s data.occult_altar_installed run function atrium:formula_crafting/enchantment/enchantment_base_item
 # If the player is holding a Rod of Relocation, run the pack it up script instead.
 execute if entity @p[gamemode=!spectator,distance=..6,nbt={SelectedItem:{tag:{atrium_rod_of_relocation:1b}}},level=5..] if entity @s[scores={valid_ingredients=13..}] if data entity @s data.occult_altar_installed run function atrium:items/use/placeable_structures/runic_codex/pack_runic_codex
