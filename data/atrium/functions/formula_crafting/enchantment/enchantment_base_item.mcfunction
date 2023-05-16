@@ -91,3 +91,13 @@ execute positioned ~-2 ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distanc
 # Start SURGE - Check NORTH WEST for Diamond
 execute positioned ~-2 ~ ~-2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:diamond",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
 execute positioned ~-2 ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:diamond",Count:1b}}] at @s run function atrium:formula_crafting/enchantment/e_recipes/surge
+#
+# Items
+#
+# Start Totem of Undying - Check SOUTH WEST for Stripped Birch Wood
+execute positioned ~-2 ~ ~2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:stripped_birch_wood",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~-2 ~ ~2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:stripped_birch_wood",Count:1b}}] at @s run function atrium:formula_crafting/enchantment/e_recipes/totem_of_undying
+# Start Trident - Check NORTH for Diamond Sword
+execute positioned ~ ~ ~-3 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:diamond_sword",Count:1b,tag:{Damage:0}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~-3 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:diamond_sword",Count:1b,tag:{Damage:0}}}] at @s run function atrium:formula_crafting/enchantment/e_recipes/trident
+# 

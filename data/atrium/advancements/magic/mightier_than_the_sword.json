@@ -6,7 +6,7 @@
             "color": "white"
         },
         "description": {
-            "text": "Improve an item using the runic codex"
+            "text": "Improve an item using a Runic Codex"
         },
         "icon": {
             "item": "minecraft:player_head",

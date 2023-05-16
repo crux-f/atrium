@@ -2,25 +2,25 @@
     "__comment": "Acquired by applying an occult enchantment",
     "display": {
         "title": {
-            "text": "Lost In Translation",
-            "color": "white"
+            "text": "become undying",
+            "color": "green",
+            "font": "illageralt"
         },
         "description": {
-            "text": "Enchant an item using an Occult Altar"
+            "text": "Create your own Totem of Undying"
         },
         "icon": {
-            "item": "minecraft:flint",
-            "nbt": "{CustomModelData:333116}"
+            "item": "minecraft:totem_of_undying"
         },
-        "frame": "task",
+        "frame": "challenge",
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": true
     },
     "criteria": {
-        "occult_enchantment": {
+        "create_totem_of_undying": {
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "atrium:magic/mightier_than_the_sword"
+    "parent": "atrium:magic/secrets_of_the_deep"
 }
