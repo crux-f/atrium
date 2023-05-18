@@ -1,0 +1,15 @@
+{
+  "name": "atrium:dungeons/palace/inner_chambers",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 3,
+      "element": {
+        "location": "atrium:dungeons/palace/inner_chambers/wip_inner_room",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

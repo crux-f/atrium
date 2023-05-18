@@ -1,0 +1,43 @@
+{
+  "processors": [
+    {
+      "processor_type": "minecraft:block_rot",
+      "integrity": 0.95,
+      "rottable_blocks": "minecraft:bookshelf"
+    },
+    {
+      "processor_type": "minecraft:rule",
+      "rules": [
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:bookshelf",
+            "probability": 0.2
+          },
+          "output_state": {
+            "Name": "minecraft:oak_slab",
+            "Properties": {
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:bookshelf",
+            "probability": 0.1
+          },
+          "output_state": {
+            "Name": "minecraft:water"
+          }
+        }
+      ]
+    }
+  ]
+}

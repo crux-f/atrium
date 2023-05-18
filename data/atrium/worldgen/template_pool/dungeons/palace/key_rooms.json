@@ -1,0 +1,15 @@
+{
+  "name": "atrium:dungeons/palace/key_rooms",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 3,
+      "element": {
+        "location": "atrium:dungeons/palace/key_rooms/wavepool_0",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

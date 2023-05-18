@@ -1,0 +1,15 @@
+{
+  "name": "atrium:dungeons/palace/libraries",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 3,
+      "element": {
+        "location": "atrium:dungeons/palace/libraries/tall_library_0",
+        "processors": "atrium:palace_bookshelf_degredation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

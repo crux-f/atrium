@@ -1,0 +1,24 @@
+{
+  "name": "atrium:dungeons/palace/entrance_l",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 3,
+      "element": {
+        "location": "atrium:dungeons/palace/entrances_l/fishgarden_entrance_l_0",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "atrium:dungeons/palace/entrances_l/pillars_entrance_l_0",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}
