@@ -6,9 +6,8 @@
             "color": "white"
         },
         "description": {
-            "text": "Perform 30 Resurrections",
-            "color": "green",
-            "italic": true
+            "text": "Perform 50 Resurrections",
+            "color": "green"
         },
         "icon": {
             "item": "minecraft:enchanted_golden_apple"

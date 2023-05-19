@@ -8,8 +8,7 @@
         },
         "description": {
             "text": "Gain at least 20 Favor with Nox",
-            "color": "green",
-            "italic": true
+            "color": "green"
         },
         "icon": {
             "item": "minecraft:chiseled_nether_bricks"

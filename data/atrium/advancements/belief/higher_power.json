@@ -8,8 +8,7 @@
         },
         "description": {
             "text": "Pray at a shrine",
-            "color": "green",
-            "italic": true
+            "color": "green"
         },
         "icon": {
             "item": "minecraft:nether_star"

@@ -7,8 +7,7 @@
         },
         "description": {
             "text": "Perform 20 Resurrections",
-            "color": "green",
-            "italic": true
+            "color": "green"
         },
         "icon": {
             "item": "minecraft:soul_campfire"

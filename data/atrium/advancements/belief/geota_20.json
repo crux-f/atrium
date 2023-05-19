@@ -8,8 +8,7 @@
         },
         "description": {
             "text": "Gain at least 20 Favor with Geota",
-            "color": "green",
-            "italic": true
+            "color": "green"
         },
         "icon": {
             "item": "minecraft:diamond_pickaxe"

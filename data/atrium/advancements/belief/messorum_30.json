@@ -8,8 +8,7 @@
         },
         "description": {
             "text": "Reach 30 favor with Messorum.",
-            "color": "green",
-            "italic": true
+            "color": "green"
         },
         "icon": {
             "item": "minecraft:player_head",

@@ -7,9 +7,8 @@
             "bold": false
         },
         "description": {
-            "text": "Reach 30 favor with Chorus.",
-            "color": "green",
-            "italic": true
+            "text": "Reach 30 favor with Chorus",
+            "color": "green"
         },
         "icon": {
             "item": "minecraft:player_head",

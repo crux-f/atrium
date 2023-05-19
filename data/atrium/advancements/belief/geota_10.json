@@ -8,8 +8,7 @@
         },
         "description": {
             "text": "Gain at least 10 Favor with Geota",
-            "color": "green",
-            "italic": true
+            "color": "green"
         },
         "icon": {
             "item": "minecraft:green_concrete"

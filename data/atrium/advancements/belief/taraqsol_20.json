@@ -8,8 +8,7 @@
         },
         "description": {
             "text": "Gain at least 20 Favor with Taraq-Sol",
-            "color": "green",
-            "italic": true
+            "color": "green"
         },
         "icon": {
             "item": "minecraft:oak_sign"

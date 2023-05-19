@@ -8,8 +8,7 @@
         },
         "description": {
             "text": "Gain at least 10 Favor with Chorus",
-            "color": "green",
-            "italic": true
+            "color": "green"
         },
         "icon": {
             "item": "minecraft:magenta_concrete"

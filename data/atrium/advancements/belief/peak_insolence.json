@@ -8,8 +8,7 @@
         },
         "description": {
             "text": "Reach 30 favor with Ghael after reaching 30 favor with a different god",
-            "color": "green",
-            "italic": true
+            "color": "green"
         },
         "icon": {
             "item": "minecraft:gold_block"

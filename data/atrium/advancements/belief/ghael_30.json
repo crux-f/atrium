@@ -8,8 +8,7 @@
         },
         "description": {
             "text": "Reach 30 favor with Ghael.",
-            "color": "green",
-            "italic": true
+            "color": "green"
         },
         "icon": {
             "item": "minecraft:player_head",

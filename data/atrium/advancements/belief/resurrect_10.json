@@ -7,8 +7,7 @@
         },
         "description": {
             "text": "Perform 10 Resurrections",
-            "color": "green",
-            "italic": true
+            "color": "green"
         },
         "icon": {
             "item": "minecraft:experience_bottle"

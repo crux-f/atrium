@@ -8,8 +8,7 @@
         },
         "description": {
             "text": "Gain at least 10 Favor with Ghael",
-            "color": "green",
-            "italic": true
+            "color": "green"
         },
         "icon": {
             "item": "minecraft:orange_concrete"

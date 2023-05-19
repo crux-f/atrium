@@ -7,9 +7,8 @@
             "bold": false
         },
         "description": {
-            "text": "Reach 30 favor with Aurora.",
-            "color": "green",
-            "italic": true
+            "text": "Reach 30 favor with Aurora",
+            "color": "green"
         },
         "icon": {
             "item": "minecraft:player_head",

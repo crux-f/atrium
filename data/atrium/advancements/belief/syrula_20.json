@@ -8,8 +8,7 @@
         },
         "description": {
             "text": "Gain at least 20 Favor with Syrula",
-            "color": "green",
-            "italic": true
+            "color": "green"
         },
         "icon": {
             "item": "minecraft:prismarine_shard"

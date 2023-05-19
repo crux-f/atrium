@@ -8,8 +8,7 @@
         },
         "description": {
             "text": "-1.256990696490217E7",
-            "color": "green",
-            "italic": true
+            "color": "green"
         },
         "icon": {
             "item": "minecraft:dirt_path"
