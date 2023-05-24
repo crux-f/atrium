@@ -1,0 +1,27 @@
+{
+    "__comment": "Granted when you defeat an Eye of The Nameless in a Palace",
+    "criteria": {
+      "kill_eye_of_the_nameless_trigger": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[\"atrium_eye_of_the_nameless\"]}"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "kill_eye_of_the_nameless_trigger"
+      ]
+    ],
+    "rewards": {
+      "function": "atrium:triggers/entity_abilities/kill_eye_of_the_nameless"
+    }
+  }

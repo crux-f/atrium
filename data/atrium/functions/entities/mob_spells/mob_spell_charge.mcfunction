@@ -9,4 +9,8 @@ execute if entity @s[scores={charge=60}] run playsound minecraft:block.amethyst_
 #
 # Sect Aquamancer
 # Casts Flood spell (cannot cast without staff)
-execute if entity @s[scores={charge=60..},tag=atrium_sect_aquamancer] run function atrium:entities/mob_spells/flood 
+execute if entity @s[scores={charge=60..},tag=atrium_sect_aquamancer] run function atrium:entities/mob_spells/flood
+#
+# Eye of The Nameless
+# Casts Eternal Silence
+execute if entity @s[scores={charge=60..},tag=atrium_eye_of_the_nameless] run function atrium:entities/mob_spells/eternal_silence

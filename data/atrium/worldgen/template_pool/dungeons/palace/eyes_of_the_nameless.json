@@ -1,0 +1,15 @@
+{
+  "name": "atrium:dungeons/palace/eyes_of_the_nameless",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 100,
+      "element": {
+        "location": "atrium:dungeons/palace/entities/eye_of_the_nameless",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

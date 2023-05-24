@@ -1,0 +1,36 @@
+{
+    "type": "entity",
+    "pools": [
+      {
+        "rolls": {
+          "min": 2,
+          "max": 4
+        },
+        "bonus_rolls": 1,
+        "entries": [
+          {
+            "type": "loot_table",
+            "weight": 1,
+            "quality": 1,
+            "name": "atrium:chests/illager_modifier_runes"
+          },
+          {
+            "type": "loot_table",
+            "weight": 7,
+            "name": "atrium:chests/illager_runes"
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:heart_of_the_sea"
+          }
+        ]
+      }
+    ]
+  }

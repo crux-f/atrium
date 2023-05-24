@@ -1,0 +1,22 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:entity_hurt_player",
+        "conditions": {
+          "player": [],
+          "damage": {
+            "source_entity": {
+              "nbt": "{Tags:[\"atrium_eye_of_the_nameless\"]}"
+            },
+            "type": {
+              "is_magic": true
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "atrium:triggers/entity_abilities/oblivion_sect/eye_of_the_nameless_beam"
+    }
+}
+  
