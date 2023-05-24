@@ -16,6 +16,62 @@
                     "count": 1
                 },
                 {
+                    "function": "minecraft:set_nbt",
+                    "tag": "{pages:['{\"text\":\"I haven\\'t the time to compile my thoughts here in a manner I would like. These findings could put a target on my back.\\\\n\\\\nIt\\'s about the Words. The words we can\\'t remember.\"}','[\"\",{\"text\":\"We say them all the time, don\\'t we? We\\'re enchanters. It\\'s our job. But its\"},{\"text\":\" not really us\",\"strikethrough\":true},{\"text\":\" more like a controlled chaos, in a way. A call to the stars.\\\\n\\\\nEven our breakthroughs with the Codex have essentially\\\\n \",\"color\":\"reset\"}]','[\"\",{\"text\":\"been controlled mutations. A repeatable experiment, sure, but far from real control.\\\\n\\\\nBut this language the Doctrine are using? It\\'s unlike anything I\\'ve seen. And you can \"},{\"text\":\"remember\",\"italic\":true},{\"text\":\" it. Write your way to what you want.\\\\n \",\"color\":\"reset\"}]','{\"text\":\"But if they find out I know about it, well. I can\\'t say what will happen, but the alliance only goes so far.\\\\n\\\\nTake the runestones in the package to the archives.\\\\n \"}','{\"text\":\"I\\'ve enclosed the formulas for copying them, as well as the device for integrating them into an enchanting lab.\\\\n\\\\nI\\'ll stay here and see if I can find out what other secrets they\\'re hiding.\\\\n\\\\nSudall out.\"}','[\"\",{\"text\":\"Occult Altar\\\\n\"},{\"text\":\"Runic Formula\",\"underlined\":true,\"color\":\"gray\"},{\"text\":\"\\\\n[Upgrade]\",\"color\":\"gray\"},{\"text\":\"\\\\n\\\\n         \",\"color\":\"reset\"},{\"text\":\"_\",\"color\":\"gray\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Gray Carpet\"}},{\"text\":\"\\\\n     \",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"dark_gray\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Black Candle\"}},{\"text\":\"       \",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"dark_gray\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Black Candle\"}},{\"text\":\"\\\\n \",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"dark_gray\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Black Candle\"}},{\"text\":\"               \",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"dark_gray\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Black Candle\"}},{\"text\":\"\\\\n     \",\"color\":\"reset\"},{\"text\":\"#\",\"color\":\"gray\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Cobblestone\"}},{\"text\":\"       \",\"color\":\"reset\"},{\"text\":\"#\",\"color\":\"gray\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Cobblestone\"}},{\"text\":\"\\\\n         \",\"color\":\"reset\"},{\"text\":\"@\",\"color\":\"red\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Block of Redstone\"}}]','[\"\",{\"text\":\"Copy Rune [Green]\\\\n\"},{\"text\":\"Runic Formula\",\"underlined\":true,\"color\":\"gray\"},{\"text\":\"\\\\n\\\\n         \",\"color\":\"reset\"},{\"text\":\"@\",\"color\":\"gray\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"9\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Blank Slate (click to see formula on pg. 9)\"}},{\"text\":\"\\\\n     \",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Emerald\"}},{\"text\":\"       \",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Emerald\"}},{\"text\":\"\\\\n x       \",\"color\":\"reset\"},{\"text\":\"!\",\"color\":\"red\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"[Requires Occult Altar]\"}},{\"text\":\"       x\\\\n     x       x\\\\n         x\\\\n\\\\n         \",\"color\":\"reset\"},{\"text\":\"0\",\"obfuscated\":true,\"color\":\"dark_green\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"[Any Green Runestone]\"},\"font\":\"illageralt\"}]','[\"\",{\"text\":\"Copy Rune [Red]\\\\n\"},{\"text\":\"Runic Formula\",\"underlined\":true,\"color\":\"gray\"},{\"text\":\"\\\\n\\\\n         \",\"color\":\"reset\"},{\"text\":\"@\",\"color\":\"gray\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"9\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Blank Slate (click to see formula on pg. 9)\"}},{\"text\":\"\\\\n     \",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"dark_red\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"10\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Pure Redstone (click to see item entry on pg. 10)\"}},{\"text\":\"       \",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"dark_red\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"10\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Pure Redstone (click to see item entry on pg. 10)\"}},{\"text\":\"\\\\n x       \",\"color\":\"reset\"},{\"text\":\"!\",\"color\":\"red\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"[Requires Occult Altar]\"}},{\"text\":\"       x\\\\n     x       x\\\\n         x\\\\n\\\\n         \",\"color\":\"reset\"},{\"text\":\"0\",\"obfuscated\":true,\"color\":\"red\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"[Any Red Runestone]\"},\"font\":\"illageralt\"}]','[\"\",{\"text\":\"Blank Slate\\\\n\"},{\"text\":\"Runic Formula\",\"underlined\":true,\"color\":\"gray\"},{\"text\":\"\\\\n\\\\n         \",\"color\":\"reset\"},{\"text\":\"_\",\"color\":\"gray\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Smooth Stone Slab\"}},{\"text\":\"\\\\n     \",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"dark_gray\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Charcoal\"}},{\"text\":\"       \",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"dark_gray\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Charcoal\"}},{\"text\":\"\\\\n x               x\\\\n     x       x\\\\n         x\\\\n\\\\n \",\"color\":\"reset\"}]','[\"\",{\"text\":\"Pure Redstone\\\\n\"},{\"text\":\"[Item Entry]\",\"color\":\"gray\"},{\"text\":\"\\\\nRedstone is a delicate material, crumbling to dust the instant it is freed from stone. But with the Shard Touch enchantment, it can occasionally be extracted whole.\",\"color\":\"reset\"}]'],title:\"۞ Words of Power\",author:\"Archivist Sudall\",generation:1,atrium_infusion_formula:1,CustomModelData:333003,HideFlags:99}"
+                },
+                {
+                    "function": "set_name",
+                    "name": [
+                        {
+                            "text": "۞ Words of Power",
+                            "italic": false
+                        }
+                    ]
+                },
+                {
+                    "function": "set_lore",
+                    "lore": [
+                        {
+                            "text": "Runic Codex Formulas:",
+                            "color": "gray",
+                            "italic": false,
+                            "underlined": true
+                        },
+                        {
+                            "text": "Occult Altar [Upgrade]",
+                            "color": "gray",
+                            "italic": false
+                        },
+                        {
+                            "text": "Copy Rune [Green]",
+                            "color": "gray",
+                            "italic": false
+                        },
+                        {
+                            "text": "Copy Rune [Red]",
+                            "color": "gray",
+                            "italic": false
+                        },
+                        {
+                            "text": "Blank Slate",
+                            "color": "gray",
+                            "italic": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "item",
+            "weight": 5,
+            "quality": 1,
+            "name": "minecraft:written_book",
+            "functions": [
+                {
+                    "function": "set_count",
+                    "count": 1
+                },
+                {
                     "function": "set_nbt",
                     "tag": "{pages:['{\"text\":\"I am so hungry.\",\"font\":\"illageralt\"}','[\"\",{\"text\":\"FEAST\\\\n\",\"font\":\"illageralt\"},{\"text\":\"[Enchantment Entry]\",\"color\":\"gray\"},{\"text\":\"\\\\nWhenever you kill an entity that has flesh, axes enchanted with \",\"color\":\"reset\"},{\"text\":\"FEAST\",\"font\":\"illageralt\"},{\"text\":\" will restore 3 Hunger. The slain entity does not drop meat.\",\"color\":\"reset\"}]','[\"\",{\"text\":\"FEAST\\\\n\",\"font\":\"illageralt\"},{\"text\":\"Runic Formula\\\\n[Enchantment]\",\"color\":\"gray\"},{\"text\":\"\\\\n\\\\n         \",\"color\":\"reset\"},{\"text\":\"@\",\"color\":\"dark_gray\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"[Any unenchanted axe]\"}},{\"text\":\"\\\\n     \",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"#E7B223\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Cooked Porkchop\"}},{\"text\":\"       \",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"#966D00\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Steak\"}},{\"text\":\"\\\\n x       \",\"color\":\"reset\"},{\"text\":\"!\",\"color\":\"red\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Minimum XP level requirement = 35\\\\nXP level cost = 3\\\\n[Requires Occult Altar]\"}},{\"text\":\"       x\\\\n     x       x\\\\n         \",\"color\":\"reset\"},{\"text\":\"+\",\"color\":\"blue\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Enchantment Catalyst [Focusing]\"}},{\"text\":\"\\\\n\\\\n      \",\"color\":\"reset\"},{\"text\":\"FEAST\",\"color\":\"dark_green\",\"font\":\"illageralt\"},{\"text\":\"\\\\n \",\"color\":\"reset\"}]'],title:\"❇ FEAST\",author:\"???\",generation:1,CustomModelData:333003,HideFlags:99,atrium_runic_formula:1}"
                 },
