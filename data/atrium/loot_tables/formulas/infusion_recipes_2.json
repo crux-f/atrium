@@ -81,6 +81,62 @@
                     ]
                 }
             ]
+        },
+        {
+            "type": "item",
+            "weight": 5,
+            "quality": 1,
+            "name": "minecraft:written_book",
+            "functions": [
+                {
+                    "function": "set_count",
+                    "count": 1
+                },
+                {
+                    "function": "set_nbt",
+                    "tag": "{pages:['[\"\",{\"text\":\"The portal is perhaps the most famous of the arcane modes of transport. The \",\"color\":\"black\"},{\"text\":\"Warp Gate\",\"bold\":true,\"color\":\"black\"},{\"text\":\" is a remnant of such days.\\\\n\\\\n- E\",\"color\":\"black\"}]','[\"\",{\"text\":\"Warp Gate\\\\n\"},{\"text\":\"Infusion Formula\",\"underlined\":true,\"color\":\"gray\"},{\"text\":\"\\\\n[Upgrade]\",\"color\":\"gray\"},{\"text\":\"\\\\n\\\\n          \",\"color\":\"reset\"},{\"text\":\"@\",\"color\":\"dark_gray\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Lodestone\"}},{\"text\":\"\\\\n       \",\"color\":\"reset\"},{\"text\":\"#\",\"color\":\"gray\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Stone\"}},{\"text\":\"  \",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"5\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Infusion Catalyst [Harmonizing] (click to see formula on pg. 5)\"}},{\"text\":\"  \",\"color\":\"reset\"},{\"text\":\"#\",\"color\":\"gray\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Stone\"}},{\"text\":\"\\\\n    \",\"color\":\"reset\"},{\"text\":\"#\",\"color\":\"gray\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Stone\"}},{\"text\":\"  \",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"dark_aqua\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Ender Pearl\"}},{\"text\":\"     \",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"dark_aqua\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Ender Pearl\"}},{\"text\":\"  \",\"color\":\"reset\"},{\"text\":\"#\",\"color\":\"gray\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Stone\"}},{\"text\":\"\\\\n       \",\"color\":\"reset\"},{\"text\":\"|\",\"color\":\"dark_purple\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"3\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Inert Focus (click to see formula on pg. 3)\"}},{\"text\":\"  \",\"color\":\"reset\"},{\"text\":\"%\",\"color\":\"dark_blue\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"4\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Calm Crystal (click to see formula on pg. 4)\"}},{\"text\":\"  \",\"color\":\"reset\"},{\"text\":\"|\",\"color\":\"dark_purple\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"3\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Inert Focus (click to see formula on pg. 3)\"}},{\"text\":\"\\\\n          x\\\\n \",\"color\":\"reset\"}]','[\"\",{\"text\":\"Inert Focus\\\\n\"},{\"text\":\"Infusion Formula\",\"underlined\":true,\"color\":\"gray\"},{\"text\":\"\\\\n\\\\n\\\\n          x\\\\n       x  x  x\\\\n    x  x     x  x\\\\n       \",\"color\":\"reset\"},{\"text\":\"#\",\"color\":\"dark_purple\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Obsidian\"}},{\"text\":\"  \",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"aqua\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Diamond\"}},{\"text\":\"  \",\"color\":\"reset\"},{\"text\":\"#\",\"color\":\"dark_purple\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Obsidian\"}},{\"text\":\"\\\\n          \",\"color\":\"reset\"},{\"text\":\"|\",\"color\":\"#86480A\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Stick\"}},{\"text\":\"\\\\n \",\"color\":\"reset\"}]','[\"\",{\"text\":\"Calm Crystal\\\\n\"},{\"text\":\"Infusion Formula\",\"underlined\":true,\"color\":\"gray\"},{\"text\":\"\\\\n\\\\n             \",\"color\":\"reset\"},{\"text\":\"o\",\"color\":\"dark_green\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"6\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Subdued Crystal (click to see item entry on pg. 6)\"}},{\"text\":\"\\\\n          \",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"aqua\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Blue Candle\"}},{\"text\":\"  \",\"color\":\"reset\"},{\"text\":\"&\",\"color\":\"dark_aqua\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"7\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Fading Crystal (click to see item entry on pg. 7)\"}},{\"text\":\"  \",\"color\":\"reset\"},{\"text\":\")\",\"color\":\"blue\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Water Bottle\"}},{\"text\":\"\\\\n       \",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"gray\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"8\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Dull Crystal (click to see item entry on pg. 8)\"}},{\"text\":\"  \",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"gray\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"8\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Dull Crystal (click to see item entry on pg. 8)\"}},{\"text\":\"     \",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"gray\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"8\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Dull Crystal (click to see item entry on pg. 8)\"}},{\"text\":\"  \",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"gray\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"8\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Dull Crystal (click to see item entry on pg. 8)\"}},{\"text\":\"\\\\n          \",\"color\":\"reset\"},{\"text\":\"(\",\"color\":\"blue\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Water Bottle\"}},{\"text\":\"  \",\"color\":\"reset\"},{\"text\":\"&\",\"color\":\"dark_aqua\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"7\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Fading Crystal (click to see item entry on pg. 7)\"}},{\"text\":\"  \",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"dark_blue\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Lapis Lazuli\"}},{\"text\":\"\\\\n             \",\"color\":\"reset\"},{\"text\":\"o\",\"color\":\"dark_green\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Subdued Crystal (click to see item entry on pg. 6)\"}},{\"text\":\"\\\\n \",\"color\":\"reset\"}]','[\"\",{\"text\":\"Infusion Catalyst\\\\n[Harmonizing]\\\\n\"},{\"text\":\"Infusion Formula\",\"underlined\":true,\"color\":\"gray\"},{\"text\":\"\\\\n\\\\n          x\\\\n       x  \",\"color\":\"reset\"},{\"text\":\"v\",\"color\":\"dark_purple\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Obsidian\"}},{\"text\":\"  x\\\\n    \",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"light_purple\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Block of Amethyst\"}},{\"text\":\"  \",\"color\":\"reset\"},{\"text\":\"#\",\"color\":\"#845200\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Note Block\"}},{\"text\":\"     \",\"color\":\"reset\"},{\"text\":\"#\",\"color\":\"#845200\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Note Block\"}},{\"text\":\"  \",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"light_purple\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Block of Amethyst\"}},{\"text\":\"\\\\n       x  \",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"dark_purple\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Obsidian\"}},{\"text\":\"  x\\\\n          x\",\"color\":\"reset\"}]','[\"\",{\"text\":\"Subdued Crystal\\\\n\"},{\"text\":\"[Item Entry]\",\"color\":\"gray\"},{\"text\":\"\\\\nThis delicate green mineral is found within Crystal Geodes in The Meridian, and can only be harvested using a pickaxe enchanted with Shard Touch.\",\"color\":\"reset\"}]','[\"\",{\"text\":\"Fading Crystal\\\\n\"},{\"text\":\"[Item Entry]\",\"color\":\"gray\"},{\"text\":\"\\\\nThe pale blue Fading Crystals are slowly losing their color within the Crystal Caves biomes in The Depths.\\\\nIt can only be harvested using a pickaxe enchanted with Shard Touch.\",\"color\":\"reset\"}]','[\"\",{\"text\":\"Dull Crystal\\\\n\"},{\"text\":\"[Item Entry]\",\"color\":\"gray\"},{\"text\":\"\\\\nThis chunky gray mineral may be mistaken for quartz at first glance. It is found in Crystal Caves biomes in The Depths.\\\\nLike other such crystals, it can only be harvested using a pickaxe enchanted with Shard Touch.\",\"color\":\"reset\"}]'],title:\"۞ Beyond\",author:\"E..?\",generation:1,atrium_infusion_formula:1,CustomModelData:333000,HideFlags:99}"
+                },
+                {
+                    "function": "set_name",
+                    "name": [
+                        {
+                            "text": "۞ Beyond",
+                            "italic": false
+                        }
+                    ]
+                },
+                {
+                    "function": "set_lore",
+                    "lore": [
+                        {
+                            "text": "Infusion Circle Formulas:",
+                            "color": "gray",
+                            "italic": false,
+                            "underlined": true
+                        },
+                        {
+                            "text": "Warp Gate [Upgrade]",
+                            "color": "gray",
+                            "italic": false
+                        },
+                        {
+                            "text": "Inert Focus",
+                            "color": "gray",
+                            "italic": false
+                        },
+                        {
+                            "text": "Calm Crystal",
+                            "color": "gray",
+                            "italic": false
+                        },
+                        {
+                            "text": "Infusion Catalyst [Harmonizing]",
+                            "color": "gray",
+                            "italic": false
+                        }
+                    ]
+                }
+            ]
         }
         ]
       }
