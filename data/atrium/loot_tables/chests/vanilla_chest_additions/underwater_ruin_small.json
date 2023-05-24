@@ -153,8 +153,8 @@
                   "condition": "minecraft:entity_properties",
                   "entity": "this",
                   "predicate": {
-                  "nbt": "{Inventory:[{tag:{curiosity_helmet:1b}}]}"
-                                  }
+                  "nbt": "{Inventory:[{tag:{atrium_curiosity_helmet:1b}}]}"
+                        }
                 }
           ],
           "name": "atrium:chests/vanilla_chest_additions/curiosity/doctrine_curiosity",
