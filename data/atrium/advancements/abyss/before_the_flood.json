@@ -1,0 +1,42 @@
+{
+  "__comment": "Granted when you enter a Palace",
+  "display": {
+      "title": {
+          "text": "Before The Flood",
+          "color": "white"
+      },
+      "description": {
+          "text": "Enter a Palace",
+          "color": "green"
+      },
+      "icon": {
+          "item": "minecraft:sea_lantern"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+  },
+  "criteria": {
+    "palace": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "atrium:dungeons/palace"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+      "experience": 25
+  },
+  "parent": "atrium:abyss/abyss_root"
+}

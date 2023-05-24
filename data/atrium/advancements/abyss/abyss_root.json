@@ -1,0 +1,29 @@
+{
+    "__comment": "Yet Darker we go",
+    "criteria": {
+    "requirement": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "atrium:the_abyss"
+      }
+    }
+    },
+    "display": {
+        "title": {
+            "color": "white",
+            "text": "Abyss"
+        },
+        "description": {
+            "color": "green",
+            "text": "Go with the floe"
+        },
+        "icon": {
+            "item": "minecraft:tube_coral_block"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true,
+        "background": "minecraft:textures/block/dark_prismarine.png"
+    }
+}

@@ -1,0 +1,34 @@
+{
+  "__comment": "Granted when you loot a Palace library",
+  "display": {
+      "title": {
+          "text": "Unredacted",
+          "color": "white"
+      },
+      "description": {
+          "text": "Loot a Chest in a Palace library",
+          "color": "green"
+      },
+      "icon": {
+          "item": "minecraft:trapped_chest"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+  },
+  "criteria": {
+    "loot_palace_library": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "atrium:dungeons/palace/library"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "loot_palace_library"
+    ]
+  ],
+  "parent": "atrium:abyss/before_the_flood"
+}

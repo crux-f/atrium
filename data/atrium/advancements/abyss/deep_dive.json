@@ -1,14 +1,14 @@
 {
     "display": {
         "title": {
-            "text": "Flying is Optional",
+            "text": "Deep Dive",
             "color": "white"
         },
         "description": {
-            "text": "Explore all Meridian biomes"
+            "text": "Explore all Abyss biomes"
         },
         "icon": {
-            "item": "minecraft:golden_boots"
+            "item": "minecraft:diamond_boots"
         },
         "frame": "challenge",
         "show_toast": true,
@@ -16,7 +16,7 @@
         "hidden": false
     },
     "criteria": {
-        "find_biome_sky": {
+        "find_biome_the_unfathoms": {
             "trigger": "minecraft:location",
             "conditions": {
               "player": [
@@ -25,15 +25,15 @@
                   "entity": "this",
                   "predicate": {
                     "location": {
-                        "biome": "atrium:sky",
-                        "dimension": "atrium:the_meridian"
+                        "biome": "atrium:the_unfathoms",
+                        "dimension": "atrium:the_abyss"
                     }
                   }
                 }
               ]
             }
         },
-        "find_biome_cloudgarden": {
+        "find_biome_kelp_forest": {
             "trigger": "minecraft:location",
             "conditions": {
               "player": [
@@ -42,15 +42,15 @@
                   "entity": "this",
                   "predicate": {
                     "location": {
-                        "biome": "atrium:cloudgarden",
-                        "dimension": "atrium:the_meridian"
+                        "biome": "atrium:kelp_forest",
+                        "dimension": "atrium:the_abyss"
                     }
                   }
                 }
               ]
             }
         },
-        "find_biome_autumn_isles": {
+        "find_biome_scalding_reefs": {
             "trigger": "minecraft:location",
             "conditions": {
               "player": [
@@ -59,15 +59,15 @@
                   "entity": "this",
                   "predicate": {
                     "location": {
-                        "biome": "atrium:autumn_isles",
-                        "dimension": "atrium:the_meridian"
+                        "biome": "atrium:scalding_reefs",
+                        "dimension": "atrium:the_abyss"
                     }
                   }
                 }
               ]
             }
         },
-        "find_biome_shards": {
+        "find_biome_forsaken_remains": {
             "trigger": "minecraft:location",
             "conditions": {
               "player": [
@@ -76,15 +76,15 @@
                   "entity": "this",
                   "predicate": {
                     "location": {
-                        "biome": "atrium:shards",
-                        "dimension": "atrium:the_meridian"
+                        "biome": "atrium:forsaken_remains",
+                        "dimension": "atrium:the_abyss"
                     }
                   }
                 }
               ]
             }
         },
-        "find_biome_sand_isles": {
+        "find_biome_dead_zone": {
             "trigger": "minecraft:location",
             "conditions": {
               "player": [
@@ -93,42 +93,8 @@
                   "entity": "this",
                   "predicate": {
                     "location": {
-                        "biome": "atrium:sand_isles",
-                        "dimension": "atrium:the_meridian"
-                    }
-                  }
-                }
-              ]
-            }
-        },
-        "find_biome_cloudpine_forest": {
-            "trigger": "minecraft:location",
-            "conditions": {
-              "player": [
-                {
-                  "condition": "minecraft:entity_properties",
-                  "entity": "this",
-                  "predicate": {
-                    "location": {
-                        "biome": "atrium:cloudpine_forest",
-                        "dimension": "atrium:the_meridian"
-                    }
-                  }
-                }
-              ]
-            }
-        },
-        "find_biome_overgrown_isles": {
-            "trigger": "minecraft:location",
-            "conditions": {
-              "player": [
-                {
-                  "condition": "minecraft:entity_properties",
-                  "entity": "this",
-                  "predicate": {
-                    "location": {
-                        "biome": "atrium:overgrown_isles",
-                        "dimension": "atrium:the_meridian"
+                        "biome": "atrium:dead_zone",
+                        "dimension": "atrium:the_abyss"
                     }
                   }
                 }
@@ -136,5 +102,5 @@
             }
         }
     },
-    "parent": "atrium:meridian/heavens_above"
+    "parent": "atrium:abyss/abyss_root"
 }
