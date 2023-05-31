@@ -34,8 +34,8 @@
               {
                 "function": "set_damage",
                 "damage": {
-                  "min": 0.11,
-                  "max": 0.36
+                  "min": 0.30,
+                  "max": 0.70
                 }
               }
             ]
@@ -53,8 +53,8 @@
               {
                 "function": "set_damage",
                 "damage": {
-                  "min": 0.12,
-                  "max": 0.35
+                  "min": 0.30,
+                  "max": 0.75
                 }
               }
             ]
