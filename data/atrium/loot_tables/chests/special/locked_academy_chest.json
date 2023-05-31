@@ -14,13 +14,13 @@
               "predicate": {
                 "equipment": {
                   "mainhand": {
-                    "nbt": "{academy_key:1b}"
+                    "nbt": "{atrium_academy_key:1b}"
                   }
                 }
               }
             }
           ],
-          "name": "atrium:treasure/special/academy_chest"
+          "name": "atrium:chests/special/academy_chest"
         }
       ]
     }
