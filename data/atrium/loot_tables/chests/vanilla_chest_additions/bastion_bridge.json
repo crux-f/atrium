@@ -64,7 +64,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Swirling Tea\",\"color\":\"dark_aqua\",\"italic\":false}',Lore:['{\"text\":\"The teabag is full of\"}','{\"text\":\"warped mushroom powder.\"}','{\"text\":\"Smells like silence.\"}']},swirling_tea:1b,CustomPotionEffects:[{Id:18,Amplifier:0b,Duration:1200,ShowParticles:0b},{Id:22,Amplifier:1b,Duration:3600,ShowParticles:1b},{Id:23,Amplifier:0b,Duration:3600,ShowParticles:1b}],CustomPotionColor:1941427}"
+              "tag": "{display:{Name:'{\"text\":\"Swirling Tea\",\"color\":\"dark_aqua\",\"italic\":false}',Lore:['{\"text\":\"The teabag is full of\"}','{\"text\":\"warped mushroom powder.\"}','{\"text\":\"Smells like silence.\"}']},atrium_swirling_tea:1b,CustomPotionEffects:[{Id:18,Amplifier:0b,Duration:1200,ShowParticles:0b},{Id:22,Amplifier:1b,Duration:3600,ShowParticles:1b},{Id:23,Amplifier:0b,Duration:3600,ShowParticles:1b}],CustomPotionColor:1941427}"
             }
           ]
         },
@@ -96,7 +96,7 @@
                   "condition": "minecraft:entity_properties",
                   "entity": "this",
                   "predicate": {
-                  "nbt": "{Inventory:[{tag:{curiosity_helmet:1b}}]}"
+                  "nbt": "{Inventory:[{tag:{atrium_curiosity_helmet:1b}}]}"
                                   }
                 }
           ],

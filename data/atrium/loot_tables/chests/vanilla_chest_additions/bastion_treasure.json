@@ -21,7 +21,7 @@
           "type": "loot_table",
           "weight": 4,
           "quality": 4,
-          "name": "atrium:formulas/alchemy_recipes_3",
+          "name": "atrium:formulas/alchemy_recipes_2",
           "functions": [
             {
               "function": "set_count",
@@ -150,8 +150,8 @@
                   "condition": "minecraft:entity_properties",
                   "entity": "this",
                   "predicate": {
-                  "nbt": "{Inventory:[{tag:{curiosity_helmet:1b}}]}"
-                                  }
+                  "nbt": "{Inventory:[{tag:{atrium_curiosity_helmet:1b}}]}"
+                      }
                 }
           ],
           "name": "atrium:chests/vanilla_chest_additions/curiosity/bastion_curiosity",

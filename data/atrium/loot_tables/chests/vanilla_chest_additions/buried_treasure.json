@@ -54,7 +54,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{curiosity:1b,atrium_shorefinder_spyglass:1b,AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.1,Operation:1,UUID:[I;-2001919824,2075151071,-1653696267,-1191293749],Slot:\"mainhand\"}]}"
+              "tag": "{atrium_curiosity:1b,atrium_shorefinder_spyglass:1b,AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.1,Operation:1,UUID:[I;-2001919824,2075151071,-1653696267,-1191293749],Slot:\"mainhand\"}]}"
             },
             {
               "function": "set_name",
