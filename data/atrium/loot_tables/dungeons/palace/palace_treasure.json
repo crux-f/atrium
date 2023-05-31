@@ -1,0 +1,226 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": {
+          "type": "minecraft:uniform",
+          "min": 5,
+          "max": 8
+        },
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 20,
+            "name": "minecraft:iron_ingot",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 1,
+                  "max": 4
+                },
+                "add": false
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 10,
+            "name": "minecraft:lapis_lazuli",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 1,
+                  "max": 4
+                },
+                "add": false
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 5,
+            "name": "minecraft:lapis_block",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 1,
+                  "max": 2
+                },
+                "add": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": {
+          "type": "minecraft:uniform",
+          "min": 1,
+          "max": 3
+        },
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 5,
+            "name": "minecraft:emerald",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 4,
+                  "max": 8
+                },
+                "add": false
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 5,
+            "name": "minecraft:diamond",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 1,
+                  "max": 2
+                },
+                "add": false
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 5,
+            "name": "minecraft:prismarine_crystals",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 1,
+                  "max": 5
+                },
+                "add": false
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 3,
+            "name": "minecraft:book",
+            "functions": [
+              {
+                "function": "minecraft:enchant_randomly"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": {
+          "type": "minecraft:uniform",
+          "min": 0,
+          "max": 1
+        },
+        "bonus_rolls": 0,
+        "entries": [
+            {
+              "type": "loot_table",
+              "weight": 10,
+              "name": "atrium:dungeons/palace/armaments"
+            }
+          ]
+      },
+      {
+        "rolls": 2,
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:sea_lantern",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 1,
+                  "max": 2
+                },
+                "add": false
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:dark_prismarine",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 2,
+                  "max": 4
+                },
+                "add": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": {
+          "type": "minecraft:uniform",
+          "min": 0,
+          "max": 2
+        },
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "weight": 5,
+            "type": "minecraft:item",
+            "name": "minecraft:potion",
+            "functions": [
+                {
+                  "function": "minecraft:set_potion",
+                  "id": "minecraft:water_breathing"
+                }
+              ]
+          },
+          {
+            "weight": 5,
+            "type": "minecraft:item",
+            "name": "minecraft:potion",
+            "functions": [
+                {
+                  "function": "minecraft:set_potion",
+                  "id": "minecraft:long_water_breathing"
+                }
+              ]
+          },
+          {
+            "weight": 1,
+            "type": "minecraft:item",
+            "name": "minecraft:potion",
+            "functions": [
+                {
+                    "function": "minecraft:set_nbt",
+                    "tag": "{display:{Name:'{\"text\":\"Potion of Water Breathing\",\"italic\":false}'},CustomModelData:333067,atrium_longer_water_breathing:1b,atrium_tier_3_potion:1b,CustomPotionEffects:[{Id:13,Amplifier:0b,Duration:20400,ShowParticles:1b}],Potion:\"minecraft:empty\",CustomPotionColor:3035801}"
+                }
+              ]
+          }
+        ]
+      }
+    ]
+  }
+  

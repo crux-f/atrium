@@ -1,0 +1,154 @@
+{
+    "type": "chest",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:potion",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{CustomPotionEffects:[{Id:17,Amplifier:3b,Duration:1200,ShowParticles:1b},{Id:20,Amplifier:0b,Duration:600,ShowParticles:1b},{Id:27,Amplifier:0b,Duration:600,ShowParticles:1b},{Id:30,Amplifier:0b,Duration:2400,ShowParticles:1b}],CustomPotionColor:2365499}"
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Failed Experiment",
+                    "italic": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:potion",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{CustomPotionEffects:[{Id:16,Amplifier:0b,Duration:900,ShowParticles:1b},{Id:27,Amplifier:0b,Duration:7200,ShowParticles:1b},{Id:28,Amplifier:0b,Duration:360}],Potion:\"minecraft:water\",CustomPotionColor:9722970}"
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Failed Experiment",
+                    "italic": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:splash_potion",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{CustomPotionEffects:[{Id:10,Amplifier:0b,Duration:7200,ShowParticles:1b},{Id:17,Amplifier:1b,Duration:1200,ShowParticles:1b},{Id:18,Amplifier:0b,Duration:120}],Potion:\"minecraft:water\",CustomPotionColor:9437104}"
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Failed Experiment",
+                    "italic": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:potion",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{CustomPotionEffects:[{Id:5,Amplifier:0b,Duration:2400,ShowParticles:1b},{Id:7,Amplifier:0b,Duration:1},{Id:11,Amplifier:0b,Duration:1200,ShowParticles:1b}],Potion:\"minecraft:water\",CustomPotionColor:10710042}"
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Failed Experiment",
+                    "italic": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:splash_potion",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{CustomPotionEffects:[{Id:22,Amplifier:0b,Duration:2400,ShowParticles:1b},{Id:27,Amplifier:0b,Duration:4800,ShowParticles:1b}],Potion:\"minecraft:water\",CustomPotionColor:7360829}"
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Failed Experiment",
+                    "italic": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:potion",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{CustomPotionEffects:[{Id:9,Amplifier:0b,Duration:200,ShowParticles:1b},{Id:19,Amplifier:0b,Duration:1200,ShowParticles:1b}],Potion:\"minecraft:water\",CustomPotionColor:4543039}"
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Failed Experiment",
+                    "italic": false
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

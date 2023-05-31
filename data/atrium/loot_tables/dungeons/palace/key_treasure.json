@@ -1,0 +1,44 @@
+{
+    "type": "chest",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:emerald",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{CustomModelData:333088,atrium_palace_door_key:1b}"
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Keystone",
+                    "italic": false
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "loot_table",
+            "weight": 1,
+            "name": "atrium:dungeons/palace/palace_treasure"
+          }
+        ]
+      }
+    ]
+  }
