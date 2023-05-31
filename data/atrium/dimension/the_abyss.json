@@ -8,10 +8,58 @@
         {
           "biome": "atrium:the_unfathoms",
           "parameters": {
-            "temperature": -0.25,
+            "temperature": -0.15,
             "humidity": 1,
             "continentalness": 0,
-            "erosion": -0.3,
+            "erosion": -0.25,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "atrium:dead_zone",
+          "parameters": {
+            "temperature": -0.1,
+            "humidity": 1,
+            "continentalness": 0,
+            "erosion": 0.1,
+            "weirdness": 0.25,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "atrium:scalding_reefs",
+          "parameters": {
+            "temperature": 0.2,
+            "humidity": 1,
+            "continentalness": 0,
+            "erosion": 0.15,
+            "weirdness": 0.1,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "atrium:forsaken_remains",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 1,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "atrium:kelp_forest",
+          "parameters": {
+            "temperature": 0.1,
+            "humidity": 1,
+            "continentalness": 0,
+            "erosion": 0,
             "weirdness": 0,
             "depth": 0,
             "offset": 0

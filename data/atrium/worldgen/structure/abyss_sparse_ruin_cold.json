@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:ocean_ruin",
+  "biome_temp": "cold",
+  "biomes": [
+    "atrium:the_unfathoms"
+  ],
+  "cluster_probability": 0.5,
+  "large_probability": 0.3,
+  "spawn_overrides": {},
+  "step": "surface_structures"
+}

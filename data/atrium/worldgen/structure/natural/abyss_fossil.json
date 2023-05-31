@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:nether_fossil",
+  "biomes": [
+    "atrium:dead_zone"
+  ],
+  "step": "surface_structures",
+  "spawn_overrides": {},
+  "height": {
+    "absolute": 0
+  },
+  "project_start_to_heightmap": "OCEAN_FLOOR_WG",
+  "max_distance_from_center": 30,
+  "use_expansion_hack": false
+}

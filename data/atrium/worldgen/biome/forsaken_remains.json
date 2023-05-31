@@ -36,12 +36,7 @@
     ],
     [],
     [],
-    [
-      "minecraft:trees_water",
-      "minecraft:seagrass_deep_cold",
-      "minecraft:seagrass_simple",
-      "minecraft:kelp_cold"
-    ],
+    [],
     []
   ],
   "precipitation": "none",
@@ -54,19 +49,12 @@
     "monster": [
       {
         "type": "minecraft:drowned",
-        "maxCount": 4,
-        "minCount": 1,
+        "maxCount": 6,
+        "minCount": 2,
         "weight": 100
       }
     ],
-    "underground_water_creature": [
-      {
-        "type": "minecraft:glow_squid",
-        "maxCount": 6,
-        "minCount": 4,
-        "weight": 10
-      }
-    ],
+    "underground_water_creature": [],
     "water_ambient": [],
     "water_creature": []
   },

@@ -27,20 +27,16 @@
     [],
     [],
     [
-      "minecraft:ore_gravel",
-      "minecraft:ore_tuff",
       "atrium:abyss_magma",
       "minecraft:disk_sand",
-      "minecraft:disk_clay",
-      "minecraft:disk_gravel"
+      "minecraft:disk_clay"
     ],
     [],
     [],
     [
-      "minecraft:trees_water",
-      "minecraft:seagrass_deep_cold",
-      "minecraft:seagrass_simple",
-      "minecraft:kelp_cold"
+      "minecraft:glow_lichen",
+      "atrium:abyss_kelp_forest_seagrass",
+      "atrium:abyss_kelp_forest"
     ],
     []
   ],
@@ -54,7 +50,7 @@
     "monster": [
       {
         "type": "minecraft:drowned",
-        "maxCount": 4,
+        "maxCount": 2,
         "minCount": 1,
         "weight": 100
       }

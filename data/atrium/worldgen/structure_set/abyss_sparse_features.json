@@ -1,0 +1,18 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1023653,
+    "separation": 8,
+    "spacing": 20
+  },
+  "structures": [
+    {
+      "structure": "atrium:abyss_sparse_ruin_cold",
+      "weight": 1
+    },
+    {
+      "structure": "atrium:abyss_sparse_ruin_warm",
+      "weight": 1
+    }
+  ]
+}

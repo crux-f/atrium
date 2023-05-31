@@ -1,0 +1,18 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1023653,
+    "separation": 2,
+    "spacing": 3
+  },
+  "structures": [
+    {
+      "structure": "atrium:abyss_dense_ruin",
+      "weight": 25
+    },
+    {
+      "structure": "atrium:natural/scalding_coral",
+      "weight": 25
+    }
+  ]
+}

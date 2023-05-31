@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:ocean_monument",
+  "biomes": [
+    "atrium:dead_zone",
+    "atrium:kelp_forest",
+    "atrium:scalding_reefs",
+    "atrium:the_unfathoms"
+  ],
+  "step": "surface_structures",
+  "spawn_overrides": {
+    "axolotls": {
+      "bounding_box": "full",
+      "spawns": []
+    },
+    "monster": {
+      "bounding_box": "full",
+      "spawns": [
+        {
+          "type": "minecraft:guardian",
+          "weight": 1,
+          "minCount": 2,
+          "maxCount": 4
+        }
+      ]
+    },
+    "underground_water_creature": {
+      "bounding_box": "full",
+      "spawns": []
+    }
+  }
+}
