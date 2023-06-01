@@ -1,0 +1,22 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:entity_hurt_player",
+        "conditions": {
+          "player": [],
+          "damage": {
+            "source_entity": {
+              "nbt": "{Tags:[\"atrium_doctrine_paragon\"]}"
+            },
+            "type": {
+                "is_projectile": true
+              }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "atrium:triggers/entity_abilities/oblivion_sect/paragon_hit"
+    }
+}
+  

@@ -1,0 +1,34 @@
+{
+    "name": "atrium:dungeons/palace/vent_enemies",
+    "fallback": "atrium:dungeons/palace/palace_enemies",
+    "elements": [
+      {
+        "weight": 3,
+        "element": {
+          "location": "atrium:dungeons/palace/entities/no_entity",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 10,
+        "element": {
+          "location": "atrium:dungeons/palace/entities/palace_guardian",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 5,
+        "element": {
+          "location": "atrium:dungeons/palace/entities/abyssal_siren",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      }
+    ]
+  }
+  

@@ -248,16 +248,6 @@
                   "italic": false
                 }
               ]
-            },
-            {
-              "function": "set_lore",
-              "lore": [
-                {
-                  "text": "The Nameless",
-                  "color": "dark_blue",
-                  "italic": false
-                }
-              ]
             }
           ]
         }
