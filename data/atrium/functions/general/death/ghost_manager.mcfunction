@@ -12,3 +12,9 @@ execute if block ~ ~ ~ minecraft:respawn_anchor unless block ~ ~ ~ minecraft:res
 # Afflict all Ghost players with Darkness (limits the ability for people to Big Exploit the ability to find underground stuff)
 # UNLESS they are near a living player
 execute unless entity @a[distance=..10,gamemode=!spectator] run effect give @s[tag=!atrium_darkness_immune] minecraft:darkness 2 0 true
+#
+# PATREON ANOMALY: Gruesome Revival
+# Player also expends 5 levels of their XP when resurrcting this way
+execute if entity @e[distance=..1,type=minecraft:zombie] run function atrium:patreon/gruesome_revival
+execute unless entity @e[distance=..1,type=minecraft:zombie] run scoreboard players reset @s atrium_gruesome_revival_anomaly
+#
