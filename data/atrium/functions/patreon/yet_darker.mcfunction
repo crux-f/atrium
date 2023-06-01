@@ -6,5 +6,5 @@
 advancement revoke @s only atrium:patreon/yet_darker
 #
 # Give specified effects under those conditions
-execute if predicate atrium:light_check/if_light_0_to_7 run effect give @s minecraft:darkness 3 0 true
-execute if predicate atrium:light_check/if_light_0 run effect give @s minecraft:blindness 3 0 true
+execute if predicate atrium:light_check/if_light_0_to_7 run effect give @s[tag=!atrium_darkness_immune] minecraft:darkness 3 0 true
+execute if predicate atrium:light_check/if_light_0 run effect give @s[tag=!atrium_darkness_immune] minecraft:blindness 3 0 true
