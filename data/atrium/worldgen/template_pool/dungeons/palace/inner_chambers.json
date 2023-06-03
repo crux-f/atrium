@@ -5,7 +5,7 @@
     {
       "weight": 10,
       "element": {
-        "location": "atrium:dungeons/palace/inner_chambers/wip_inner_room",
+        "location": "atrium:dungeons/palace/inner_chambers/ritual_chamber_0",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
