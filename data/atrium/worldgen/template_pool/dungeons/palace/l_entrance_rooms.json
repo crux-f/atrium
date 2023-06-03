@@ -1,5 +1,5 @@
 {
-  "name": "atrium:dungeons/palace/entrance_l",
+  "name": "atrium:dungeons/palace/l_entrance_rooms",
   "fallback": "minecraft:empty",
   "elements": [
     {
