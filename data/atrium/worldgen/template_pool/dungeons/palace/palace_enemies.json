@@ -21,7 +21,7 @@
       }
     },
     {
-      "weight": 8,
+      "weight": 2,
       "element": {
         "location": "atrium:dungeons/palace/entities/abyssal_siren",
         "processors": "minecraft:empty",

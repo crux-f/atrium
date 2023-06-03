@@ -8,11 +8,11 @@
   "structures": [
     {
       "structure": "atrium:abyss_dense_ruin",
-      "weight": 25
+      "weight": 100
     },
     {
       "structure": "atrium:natural/scalding_coral",
-      "weight": 25
+      "weight": 100
     }
   ]
 }

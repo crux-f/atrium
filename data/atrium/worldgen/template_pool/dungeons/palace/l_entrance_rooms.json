@@ -3,7 +3,7 @@
   "fallback": "minecraft:empty",
   "elements": [
     {
-      "weight": 3,
+      "weight": 1,
       "element": {
         "location": "atrium:dungeons/palace/entrances_l/fishgarden_entrance_l_0",
         "processors": "minecraft:empty",
@@ -12,7 +12,7 @@
       }
     },
     {
-      "weight": 1,
+      "weight": 2,
       "element": {
         "location": "atrium:dungeons/palace/entrances_l/pillars_entrance_l_0",
         "processors": "minecraft:empty",

@@ -3,7 +3,7 @@
   "fallback": "minecraft:empty",
   "elements": [
     {
-      "weight": 3,
+      "weight": 10,
       "element": {
         "location": "atrium:dungeons/palace/towers/lapis_tower_0",
         "processors": "minecraft:empty",
@@ -12,9 +12,18 @@
       }
     },
     {
-      "weight": 3,
+      "weight": 10,
       "element": {
         "location": "atrium:dungeons/palace/towers/rings_tower_0",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "atrium:dungeons/palace/towers/broken_dome_0",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
