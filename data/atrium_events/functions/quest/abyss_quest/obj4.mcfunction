@@ -1,0 +1,1 @@
+tellraw @a[tag=event] ["",{"text":"\u2714 Complete your preparations and gather at the submarine in The Depths.\n\u2714 Use the Warped Button in the submarine's control room to descend into The Abyss.\n\u2714 Get your bearings.","color":"dark_green"},{"text":"\n"},{"text":"\u2191 Use Potions of Water Breathing to head north into the Forsaken Remains.","color":"yellow"}]

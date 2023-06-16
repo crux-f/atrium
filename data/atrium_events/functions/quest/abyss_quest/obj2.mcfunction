@@ -1,0 +1,1 @@
+tellraw @a[tag=event] ["",{"text":"\u2714 Complete your preparations and gather at the submarine in The Depths.","color":"dark_green"},{"text":"\n"},{"text":"\u261f Use the Warped Button in the submarine's control room to descend into The Abyss.","color":"yellow"}]
