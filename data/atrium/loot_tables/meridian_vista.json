@@ -16,7 +16,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{HideFlags:1,shimmering_feather:1b,Enchantments:[{id:\"minecraft:quick_charge\",lvl:1s}]}"
+              "tag": "{HideFlags:1,atrium_shimmering_feather:1b,Enchantments:[{id:\"minecraft:quick_charge\",lvl:1s}]}"
             },
             {
               "function": "set_name",
@@ -119,7 +119,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{HideFlags:1,air_crystal:1b,Enchantments:[{id:\"minecraft:quick_charge\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.1,Operation:1,UUID:[I;-978903978,-1178779227,-1223460027,-1698585576],Slot:\"mainhand\"}]}"
+              "tag": "{HideFlags:1,atrium_air_crystal:1b,Enchantments:[{id:\"minecraft:quick_charge\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.1,Operation:1,UUID:[I;-978903978,-1178779227,-1223460027,-1698585576],Slot:\"mainhand\"}]}"
             },
             {
               "function": "set_name",
@@ -168,7 +168,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{HideFlags:1,cyclone_cube:1b,Enchantments:[{id:\"minecraft:channeling\",lvl:1s}]}"
+              "tag": "{HideFlags:1,atrium_cyclone_cube:1b,Enchantments:[{id:\"minecraft:channeling\",lvl:1s}]}"
             },
             {
               "function": "set_name",
@@ -283,7 +283,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{stardust:1b}"
+              "tag": "{atrium_stardust:1b}"
             },
             {
               "function": "set_name",
@@ -387,7 +387,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{HideFlags:1,dancing_color_red:1b,Enchantments:[{id:\"minecraft:protection\",lvl:1s}]}"
+              "tag": "{HideFlags:1,atrium_dancing_color_red:1b,Enchantments:[{id:\"minecraft:protection\",lvl:1s}]}"
             },
             {
               "function": "set_name",
@@ -423,7 +423,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{HideFlags:1,dancing_color_yellow:1b,Enchantments:[{id:\"minecraft:fire_protection\",lvl:1s}]}"
+              "tag": "{HideFlags:1,atrium_dancing_color_yellow:1b,Enchantments:[{id:\"minecraft:fire_protection\",lvl:1s}]}"
             },
             {
               "function": "set_name",
@@ -459,7 +459,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{HideFlags:1,dancing_color_blue:1b,Enchantments:[{id:\"minecraft:riptide\",lvl:1s}]}"
+              "tag": "{HideFlags:1,atrium_dancing_color_blue:1b,Enchantments:[{id:\"minecraft:riptide\",lvl:1s}]}"
             },
             {
               "function": "set_name",

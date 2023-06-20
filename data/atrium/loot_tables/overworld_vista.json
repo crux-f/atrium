@@ -547,7 +547,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{fossil:1b}"
+              "tag": "{atrium_fossil:1b}"
             },
             {
               "function": "set_name",

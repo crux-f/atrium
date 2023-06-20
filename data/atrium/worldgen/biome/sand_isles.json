@@ -115,5 +115,6 @@
   "precipitation": "none",
   "temperature": 2,
   "downfall": 0,
+  "has_precipitation": false,
   "category": "none"
 }

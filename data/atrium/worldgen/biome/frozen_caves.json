@@ -105,5 +105,6 @@
   "temperature": -1,
   "temperature_modifier": "frozen",
   "downfall": 0.25,
+  "has_precipitation": false,
   "category": "underground"
 }

@@ -17,7 +17,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{primordial_stone:1b,Enchantments:[{id:\"minecraft:flame\",lvl:1s}]}"
+              "tag": "{atrium_primordial_stone:1b,Enchantments:[{id:\"minecraft:flame\",lvl:1s}]}"
             },
             {
               "function": "set_name",
@@ -57,7 +57,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{gold_piece:1b}"
+              "tag": "{atrium_gold_piece:1b}"
             },
             {
               "function": "set_name",
@@ -129,7 +129,7 @@
               "function": "set_name",
               "name": [
                 {
-                  "text": "Grungy Greg's Cool Cola ",
+                  "text": "Grungy Greg's Cool Cola",
                   "italic": false
                 }
               ]

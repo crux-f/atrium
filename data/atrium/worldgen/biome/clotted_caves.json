@@ -126,5 +126,6 @@
   "precipitation": "none",
   "temperature": 0.35,
   "downfall": 1.0,
+  "has_precipitation": false,
   "category": "underground"
 }

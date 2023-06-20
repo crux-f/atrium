@@ -103,5 +103,6 @@
   "precipitation": "rain",
   "temperature": 0.35,
   "downfall": 0.4,
+  "has_precipitation": true,
   "category": "none"
 }

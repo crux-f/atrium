@@ -157,5 +157,6 @@
   "precipitation": "rain",
   "temperature": 0.3,
   "downfall": 0.8,
+  "has_precipitation": true,
   "category": "none"
 }

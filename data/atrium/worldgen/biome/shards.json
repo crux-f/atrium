@@ -11,7 +11,7 @@
       "tick_chance": 0.001111
     },
     "music": {
-      "sound": "",
+      "sound": "minecraft:music.nether.warped_forest",
       "min_delay": 12000,
       "max_delay": 24000,
       "replace_current_music": false
@@ -22,7 +22,7 @@
       },
       "probability": 0.0001
     },
-    "ambient_sound": "atrium:ambient.shards.loop",
+    "ambient_sound": "minecraft:ambient.shards.loop",
     "sky_color": 13104117,
     "fog_color": 15531775,
     "water_color": 10731478,
@@ -144,5 +144,6 @@
   "precipitation": "rain",
   "temperature": 0.2,
   "downfall": 0.3,
+  "has_precipitation": true,
   "category": "none"
 }

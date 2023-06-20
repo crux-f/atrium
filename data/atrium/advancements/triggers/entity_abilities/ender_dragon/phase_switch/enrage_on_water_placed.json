@@ -3,16 +3,24 @@
     "requirement": {
       "trigger": "minecraft:placed_block",
       "conditions": {
-        "block": "minecraft:water",
-        "item": {
-          "items": [
-            "minecraft:water_bucket"
-          ]
-        },
-        "location": {
-          "biome": "minecraft:the_end",
-          "dimension": "minecraft:the_end"
-        }
+        "location": [
+          {
+            "condition": "minecraft:all_of",
+            "terms": [
+              {
+                "condition": "minecraft:block_state_property",
+                "block": "minecraft:water",
+                "properties": {}
+              },
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "dimension": "minecraft:the_end"
+                }
+              }
+            ]
+          }
+        ]
       }
     }
   },
