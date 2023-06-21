@@ -1,11 +1,11 @@
 {
-    "name": "atrium:city/plains/city_centers",
+    "name": "atrium:city/plains/infrastructure/street_terminators",
     "fallback": "minecraft:empty",
     "elements": [
       {
         "weight": 10,
         "element": {
-          "location": "atrium:city/plains/city_centers/guild_hall_0",
+          "location": "atrium:city/plains/infrastructure/boring_road_end",
           "processors": "minecraft:empty",
           "projection": "rigid",
           "element_type": "minecraft:single_pool_element"

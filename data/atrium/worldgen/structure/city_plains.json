@@ -4,9 +4,14 @@
     "minecraft:plains"
   ],
   "step": "surface_structures",
-  "spawn_overrides": {},
+  "spawn_overrides": {
+    "monster": {
+      "bounding_box": "full",
+      "spawns": []
+    }
+  },
   "terrain_adaptation": "beard_box",
-  "start_pool": "atrium:city/plains/terraces",
+  "start_pool": "atrium:city/plains/city_centers",
   "size": 7,
   "start_height": {
     "absolute": 0

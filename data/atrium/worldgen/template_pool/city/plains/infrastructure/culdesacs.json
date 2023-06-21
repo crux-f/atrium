@@ -1,11 +1,11 @@
 {
-    "name": "atrium:city/plains/city_centers",
-    "fallback": "minecraft:empty",
+    "name": "atrium:city/plains/infrastructure/culdesacs",
+    "fallback": "atrium:city/plains/infrastructure/street_terminators",
     "elements": [
       {
         "weight": 10,
         "element": {
-          "location": "atrium:city/plains/city_centers/guild_hall_0",
+          "location": "atrium:city/plains/infrastructure/boring_road_end",
           "processors": "minecraft:empty",
           "projection": "rigid",
           "element_type": "minecraft:single_pool_element"

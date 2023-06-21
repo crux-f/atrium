@@ -1,11 +1,11 @@
 {
-    "name": "atrium:city/plains/city_centers",
+    "name": "atrium:city/plains/walls/l_guild_walls_a",
     "fallback": "minecraft:empty",
     "elements": [
       {
         "weight": 10,
         "element": {
-          "location": "atrium:city/plains/city_centers/guild_hall_0",
+          "location": "atrium:city/plains/walls/guild_wall_l_a0",
           "processors": "minecraft:empty",
           "projection": "rigid",
           "element_type": "minecraft:single_pool_element"

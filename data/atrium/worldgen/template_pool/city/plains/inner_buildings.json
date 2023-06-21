@@ -98,6 +98,6 @@
       "weight": 10
     }
   ],
-  "fallback": "atrium:city/plains/terminators",
+  "fallback": "minecraft:empty",
   "name": "atrium:city/inner_buildings"
 }

@@ -1,11 +1,11 @@
 {
-    "name": "atrium:city/plains/city_centers",
-    "fallback": "minecraft:empty",
+    "name": "atrium:city/plains/infrastructure/streets",
+    "fallback": "atrium:city/plains/infrastructure/back_street_junctures",
     "elements": [
       {
         "weight": 10,
         "element": {
-          "location": "atrium:city/plains/city_centers/guild_hall_0",
+          "location": "atrium:city/plains/infrastructure/paved_street_0",
           "processors": "minecraft:empty",
           "projection": "rigid",
           "element_type": "minecraft:single_pool_element"

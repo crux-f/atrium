@@ -1,0 +1,61 @@
+{
+    "name": "atrium:city/plains/infrastructure/crossroads",
+    "fallback": "atrium:city/plains/infrastructure/culdesacs",
+    "elements": [
+      {
+        "weight": 1,
+        "element": {
+          "location": "atrium:city/plains/infrastructure/paved_cross_circle_0",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "location": "atrium:city/plains/infrastructure/paved_cross_fountain_0",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "location": "atrium:city/plains/infrastructure/paved_cross_geota_0",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "location": "atrium:city/plains/infrastructure/paved_cross_x_0",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "location": "atrium:city/plains/infrastructure/paved_cross_basic_0",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 5,
+        "element": {
+          "location": "atrium:city/plains/infrastructure/street_continues_0",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      }
+    ]
+  }
+  
