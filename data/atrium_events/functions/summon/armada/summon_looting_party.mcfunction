@@ -6,7 +6,7 @@ execute at @s run function atrium_events:summon/armada/single/summon_armada_loot
 execute at @s run function atrium_events:summon/armada/single/summon_armada_looter
 execute at @s run function atrium_events:summon/armada/single/summon_armada_looter
 # FX
-execute at @s run function atrium_events:summon/fx/summon_poof
+execute at @s run function atrium:summon/summon_poof
 #
 # leader set
 execute as @e[tag=atrium_looting_party_leader] run data merge entity @s {PatrolLeader:1b,Patrolling:1b}

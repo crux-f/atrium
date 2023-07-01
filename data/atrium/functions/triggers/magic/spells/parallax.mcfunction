@@ -5,10 +5,10 @@ execute at @s run playsound minecraft:block.ender_chest.open master @a[distance=
 # Tag caster to exclude them from being targeted
 tag @s add atrium_parallax_immune
 # Tag a valid target
-execute at @s anchored eyes positioned ^ ^ ^3 run tag @e[distance=..3,limit=1,sort=random,tag=!atrium_parallax_immune] add atrium_parallax_target
+execute at @s anchored eyes positioned ^ ^ ^3 run tag @e[distance=..3,limit=1,sort=random,tag=!atrium_parallax_immune,type=!#atrium:spell_immune] add atrium_parallax_target
 # If there was no valid target, run the particles + sfx for failure.
-execute at @s anchored eyes positioned ^ ^ ^3 unless entity @e[tag=!atrium_parallax_immune,distance=..3] run particle minecraft:smoke ^ ^ ^1.5 0.03 0.03 0.03 0.5 150
-execute at @s anchored eyes positioned ^ ^ ^3 unless entity @e[tag=!atrium_parallax_immune,distance=..3] run playsound minecraft:block.redstone_torch.burnout master @a[distance=..30] ~ ~ ~ 0.3 1 0.1
+execute at @s anchored eyes positioned ^ ^ ^3 unless entity @e[tag=!atrium_parallax_immune,distance=..3,type=!#atrium:spell_immune] run particle minecraft:smoke ^ ^ ^1.5 0.03 0.03 0.03 0.5 150
+execute at @s anchored eyes positioned ^ ^ ^3 unless entity @e[tag=!atrium_parallax_immune,distance=..3,type=!#atrium:spell_immune] run playsound minecraft:block.redstone_torch.burnout master @a[distance=..30] ~ ~ ~ 0.3 1 0.1
 #
 # Remove caster exclusion tag
 tag @s remove atrium_parallax_immune

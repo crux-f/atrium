@@ -24,7 +24,7 @@
               "name": [
                 {
                   "text": "Orders",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             },
@@ -70,14 +70,14 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{propaganda:1b}"
+              "tag": "{atrium_propaganda:1b}"
             },
             {
               "function": "set_name",
               "name": [
                 {
                   "text": "Propaganda",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             },

@@ -1,0 +1,53 @@
+{
+    "type": "entity",
+    "pools": [
+      {
+        "rolls": {
+          "min": 1,
+          "max": 3
+        },
+        "bonus_rolls": 1,
+        "entries": [
+          {
+            "type": "item",
+            "weight": 2,
+            "name": "minecraft:firework_rocket",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{HideFlags:32,atrium_scorcher_charge:1b,Fireworks:{Flight:3b,Explosions:[{Type:4,Trail:1b,Colors:[I;16711680,10682368,16750407],FadeColors:[I;16750848,16766208,3677446]}]}}"
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Scorcher Bolt",
+                    "italic": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 3,
+            "name": "minecraft:fire_charge",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "type": "empty",
+            "weight": 2
+          }
+        ]
+      }
+    ]
+  }

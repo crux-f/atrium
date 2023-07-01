@@ -11,5 +11,3 @@ execute as @e[tag=atrium_necromancer_fangs] at @s if data entity @s {Warmup:0} r
 #
 # At every necromancer who just summoned vexes: replace the vexes with undead, then make them silent and invisible then kill them.
 execute as @e[tag=atrium_armada_necromancer] at @s if data entity @s {SpellTicks:81} as @e[distance=..10,type=minecraft:vex] at @s run function atrium_events:summon/armada/behavior_scripts/looters/summon_undead
-#
-

@@ -1,0 +1,32 @@
+{
+    "__comment": "The first event of Apotheosis. 07/01/2023.",
+    "display": {
+        "title": {
+            "text": "An Unpleasant Reunion",
+            "color": "white",
+            "bold": false
+        },
+        "description": {
+            "text": "Apotheosis I - July 1st, 2023",
+            "color": "green",
+            "italic": true
+        },
+        "icon": {
+            "item": "minecraft:crossbow"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "an_unpleasant_reunion": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+		"experience": 100,
+	    "function": "atrium_events:series_grant/apotheosis"
+	},
+        "parent": "atrium_events:iteration4_events/the_plunge"
+}

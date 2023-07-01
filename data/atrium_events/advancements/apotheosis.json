@@ -1,0 +1,30 @@
+{
+    "__comment": "Granted automatically by the event end script to players who participate in a Apotheosis event.",
+    "display": {
+        "title": {
+            "text": "Atrium: Apotheosis",
+            "color": "dark_aqua"
+        },
+        "description": {
+            "text": "Participate in at least 1 Apotheosis monthly event",
+            "color": "green",
+            "italic": true
+        },
+        "icon": {
+            "item": "minecraft:elytra"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "granted": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 0
+    },
+    "parent": "atrium_events:return_to_the_depths"
+}
