@@ -15,6 +15,6 @@ execute unless entity @a[distance=..10,gamemode=!spectator] run effect give @s[t
 #
 # PATREON ANOMALY: Gruesome Revival
 # Player also expends 5 levels of their XP when resurrcting this way
-execute if entity @e[distance=..1,type=minecraft:zombie] run function atrium:patreon/gruesome_revival
-execute unless entity @e[distance=..1,type=minecraft:zombie] run scoreboard players reset @s atrium_gruesome_revival_anomaly
+# execute if entity @e[distance=..1,type=minecraft:zombie] run function atrium:patreon/gruesome_revival
+# execute unless entity @e[distance=..1,type=minecraft:zombie] run scoreboard players reset @s atrium_gruesome_revival_anomaly
 #
