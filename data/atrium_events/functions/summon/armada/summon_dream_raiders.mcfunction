@@ -1,0 +1,4 @@
+# Summons 3 Dream Raiders
+function atrium_events:summon/armada/single/summon_armada_dream_raider
+function atrium_events:summon/armada/single/summon_armada_dream_raider
+function atrium_events:summon/armada/single/summon_armada_dream_raider
