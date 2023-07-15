@@ -1,17 +1,17 @@
 {
-    "__comment": "Granted when you reach 20 Favor with Nox",
+    "__comment": "Granted when you reach 20 Favor with The Maw",
     "display": {
         "title": {
-            "text": "Answered?",
+            "text": "More Power",
             "color": "white",
             "bold": false
         },
         "description": {
-            "text": "Gain at least 20 Favor with Nox",
+            "text": "Gain at least 20 Favor with The Maw",
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:chiseled_nether_bricks"
+            "item": "minecraft:netherite_ingot"
         },
         "frame": "task",
         "show_toast": true,
@@ -26,5 +26,5 @@
     "rewards": {
         "experience": 25
     },
-    "parent": "atrium:belief/nox_10"
+    "parent": "atrium:belief/maw_10"
 }

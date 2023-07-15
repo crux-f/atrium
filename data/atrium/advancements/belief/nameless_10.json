@@ -1,22 +1,22 @@
 {
-    "__comment": "Granted when you reach 20 Favor with Nox",
+    "__comment": "Granted when you reach 10 Favor with The Nameless",
     "display": {
         "title": {
-            "text": "Answered?",
+            "text": "Unfathomable",
             "color": "white",
             "bold": false
         },
         "description": {
-            "text": "Gain at least 20 Favor with Nox",
+            "text": "Gain at least 10 Favor with The Nameless",
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:chiseled_nether_bricks"
+            "item": "minecraft:blue_glazed_terracotta"
         },
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": false,
-        "hidden": false
+        "hidden": true
     },
     "criteria": {
         "givewhenmax": {
@@ -26,5 +26,5 @@
     "rewards": {
         "experience": 25
     },
-    "parent": "atrium:belief/nox_10"
+    "parent": "atrium:belief/higher_power"
 }

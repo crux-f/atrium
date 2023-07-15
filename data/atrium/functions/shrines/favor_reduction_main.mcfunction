@@ -12,7 +12,10 @@ scoreboard players remove @s[scores={quipster_favor=1..}] quipster_favor 1
 scoreboard players remove @s[scores={syrula_favor=1..}] syrula_favor 1
 scoreboard players remove @s[scores={taraqsol_favor=1..}] taraqsol_favor 1
 #
-# Reduce favor with each of the old gods by 3 (they get mad. Can go below 0)
-scoreboard players remove @s[scores={maw_favor=1..}] maw_favor 3
-scoreboard players remove @s[scores={nameless_favor=1..}] nameless_favor 3
-# the third one goes here
+# Reduce favor with each of the old gods by 2 (if possible).
+scoreboard players remove @s[scores={maw_favor=1}] maw_favor 1
+scoreboard players remove @s[scores={nameless_favor=1}] nameless_favor 1
+scoreboard players remove @s[scores={xenos_favor=1}] xenos_favor 1
+scoreboard players remove @s[scores={maw_favor=2..}] maw_favor 2
+scoreboard players remove @s[scores={nameless_favor=2..}] nameless_favor 2
+scoreboard players remove @s[scores={xenos_favor=2..}] xenos_favor 2

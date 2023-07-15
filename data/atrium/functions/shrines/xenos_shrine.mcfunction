@@ -1,5 +1,5 @@
-# If none of the above are true, start the Prayer script.
-execute as @p[distance=..8,gamemode=!spectator] unless entity @s[nbt={SelectedItem:{id:"minecraft:golden_apple"}}] unless entity @s[nbt={SelectedItem:{id:"minecraft:enchanted_golden_apple"}}] run function atrium:shrines/blessings/nameless_prayer
+# If none of the below are true, start the Prayer script.
+execute as @p[distance=..8,gamemode=!spectator] unless entity @s[nbt={SelectedItem:{id:"minecraft:golden_apple"}}] unless entity @s[nbt={SelectedItem:{id:"minecraft:enchanted_golden_apple"}}] run function atrium:shrines/blessings/xenos_prayer
 # Grant shrine advancement
 advancement grant @p[distance=..8,gamemode=!spectator] until atrium:belief/higher_power
 # If the player is holding a Golden Apple, start the Resurrection script.

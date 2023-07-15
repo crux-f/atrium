@@ -1,17 +1,17 @@
 {
-    "__comment": "Granted when you reach 20 Favor with Nox",
+    "__comment": "Granted when you reach 20 Favor with Xenos",
     "display": {
         "title": {
-            "text": "Answered?",
+            "text": "Slow Burn",
             "color": "white",
             "bold": false
         },
         "description": {
-            "text": "Gain at least 20 Favor with Nox",
+            "text": "Gain at least 20 Favor with Xenos",
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:chiseled_nether_bricks"
+            "item": "minecraft:vine"
         },
         "frame": "task",
         "show_toast": true,
@@ -26,5 +26,5 @@
     "rewards": {
         "experience": 25
     },
-    "parent": "atrium:belief/nox_10"
+    "parent": "atrium:belief/xenos_10"
 }

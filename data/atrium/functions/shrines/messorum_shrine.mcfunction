@@ -1,4 +1,4 @@
-# If none of the above are true, start the Prayer script.
+# If none of the below are true, start the Prayer script.
 execute as @p[distance=..8,gamemode=!spectator] unless entity @s[nbt={SelectedItem:{id:"minecraft:golden_apple"}}] unless entity @s[nbt={SelectedItem:{id:"minecraft:enchanted_golden_apple"}}] run function atrium:shrines/blessings/messorum_prayer
 # Grant shrine advancement
 advancement grant @p[distance=..8,gamemode=!spectator] until atrium:belief/higher_power
