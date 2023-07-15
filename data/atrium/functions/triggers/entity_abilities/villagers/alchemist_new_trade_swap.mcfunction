@@ -1,0 +1,23 @@
+# Swaps out items for trades
+# (Loot tables are always checking for the previous level)
+# Level 2
+execute if data entity @s {Inventory:[{tag:{atrium_buy_2_redstone_torch:1}}]} run data modify entity @s Offers.Recipes append value {rewardExp:1b,maxUses:16,xp:4,priceMultiplier:0.05f,buy:{id:"minecraft:emerald",Count:1b},sell:{id:"minecraft:redstone_torch",Count:2b}}
+# Level 2 or 3
+execute if data entity @s {Inventory:[{tag:{atrium_sell_8_nether_quartz:1}}]} run data modify entity @s Offers.Recipes append value {rewardExp:1b,maxUses:12,xp:4,priceMultiplier:0.05f,buy:{id:"minecraft:quartz",Count:8b},sell:{id:"minecraft:emerald",Count:1b}}
+execute if data entity @s {Inventory:[{tag:{atrium_buy_1_piston:1}}]} run data modify entity @s Offers.Recipes append value {rewardExp:1b,maxUses:16,xp:4,priceMultiplier:0.05f,buy:{id:"minecraft:emerald",Count:2b},sell:{id:"minecraft:piston",Count:1b}}
+execute if data entity @s {Inventory:[{tag:{atrium_buy_1_note_block:1}}]} run data modify entity @s Offers.Recipes append value {rewardExp:1b,maxUses:16,xp:4,priceMultiplier:0.05f,buy:{id:"minecraft:emerald",Count:2b},sell:{id:"minecraft:note_block",Count:1b}}
+# Level 3
+execute if data entity @s {Inventory:[{tag:{atrium_buy_1_sticky_piston:1}}]} run data modify entity @s Offers.Recipes append value {rewardExp:1b,maxUses:8,xp:4,priceMultiplier:0.05f,buy:{id:"minecraft:emerald",Count:5b},sell:{id:"minecraft:sticky_piston",Count:1b}}
+execute if data entity @s {Inventory:[{tag:{atrium_buy_1_redstone_repeater:1}}]} run data modify entity @s Offers.Recipes append value {rewardExp:1b,maxUses:8,xp:4,priceMultiplier:0.05f,buy:{id:"minecraft:emerald",Count:2b},sell:{id:"minecraft:repeater",Count:1b}}
+execute if data entity @s {Inventory:[{tag:{atrium_buy_1_redstone_comparator:1}}]} run data modify entity @s Offers.Recipes append value {rewardExp:1b,maxUses:8,xp:4,priceMultiplier:0.05f,buy:{id:"minecraft:emerald",Count:3b},sell:{id:"minecraft:comparator",Count:1b}}
+execute if data entity @s {Inventory:[{tag:{atrium_buy_1_hopper:1}}]} run data modify entity @s Offers.Recipes append value {rewardExp:1b,maxUses:8,xp:4,priceMultiplier:0.05f,buy:{id:"minecraft:emerald",Count:5b},sell:{id:"minecraft:hopper",Count:1b}}
+execute if data entity @s {Inventory:[{tag:{atrium_buy_1_dropper:1}}]} run data modify entity @s Offers.Recipes append value {rewardExp:1b,maxUses:8,xp:4,priceMultiplier:0.05f,buy:{id:"minecraft:emerald",Count:2b},sell:{id:"minecraft:dropper",Count:1b}}
+execute if data entity @s {Inventory:[{tag:{atrium_buy_1_dispenser:1}}]} run data modify entity @s Offers.Recipes append value {rewardExp:1b,maxUses:8,xp:4,priceMultiplier:0.05f,buy:{id:"minecraft:emerald",Count:4b},sell:{id:"minecraft:dispenser",Count:1b}}
+# Level 4
+execute if data entity @s {Inventory:[{tag:{atrium_sell_1_sculk_sensor:1}}]} run data modify entity @s Offers.Recipes append value {rewardExp:1b,maxUses:8,xp:4,priceMultiplier:0.05f,buy:{id:"minecraft:sculk_sensor",Count:1b},sell:{id:"minecraft:emerald",Count:4b}}
+execute if data entity @s {Inventory:[{tag:{atrium_buy_1_observer:1}}]} run data modify entity @s Offers.Recipes append value {rewardExp:1b,maxUses:8,xp:4,priceMultiplier:0.05f,buy:{id:"minecraft:emerald",Count:5b},sell:{id:"minecraft:observer",Count:1b}}
+execute if data entity @s {Inventory:[{tag:{atrium_buy_8_rail:1}}]} run data modify entity @s Offers.Recipes append value {rewardExp:1b,maxUses:8,xp:4,priceMultiplier:0.05f,buy:{id:"minecraft:emerald",Count:2b},sell:{id:"minecraft:rail",Count:8b}}
+# Level 4 or 5
+execute if data entity @s {Inventory:[{tag:{atrium_sell_1_tnt:1}}]} run data modify entity @s Offers.Recipes append value {rewardExp:1b,maxUses:8,xp:4,priceMultiplier:0.05f,buy:{id:"minecraft:tnt",Count:1b},sell:{id:"minecraft:emerald",Count:3b}}
+# Level 5
+execute if data entity @s {Inventory:[{tag:{atrium_buy_1_alchemy_cauldron:1}}]} run data modify entity @s Offers.Recipes append value {rewardExp:1b,maxUses:1,xp:4,priceMultiplier:0.15f,buy:{id:"minecraft:emerald",Count:36b},buyB:{id:"minecraft:cauldron",Count:1b},sell:{id:"minecraft:player_head",Count:1b,tag:{display:{Name:'{"text":"Alchemy Cauldron","color":"light_purple","italic":false}',Lore:['{"text":"Space Required:","color":"gray","italic":false}','{"text":"x5,y6,z8","color":"dark_gray","italic":false}','{"text":" "}','{"text":"When Placed:","color":"gray","italic":false}','{"text":"Generates a structure ","color":"blue","italic":false}']},alchemy_cauldron_placer:1b,SkullOwner:{Id:[I;-1085889659,1085099926,-1904448482,-822335963],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmZiNzA3NjhjZDMwNGQwZTQ5MzMyMGU0MjRiY2I2MTE2OTcyN2NmNjQ4YzBkNGRkZTRkZTg0ZWYyZmFjOWVlZSJ9fX0="}]}}}}}

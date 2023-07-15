@@ -15,7 +15,7 @@
                 "condition": "minecraft:entity_properties",
                 "entity": "this",
                 "predicate": {
-                  "nbt": "{Tags:[\"atrium_custom_profession\"]}"
+                  "nbt": "{Tags:[\"atrium_specialist\"]}"
                 }
               }
             }
@@ -23,13 +23,13 @@
         },
         {
           "type": "minecraft:loot_table",
-          "name": "atrium:gameplay/hero_of_the_village/specialist_not_sure_gift",
+          "name": "atrium:gameplay/hero_of_the_village/specialist_engineer_gift",
           "conditions": [
             {
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "nbt": "{Tags:[\"atrium_specialist_not_sure\"]}"
+                "nbt": "{Tags:[\"atrium_specialist_engineer\"]}"
               }
             }
           ]

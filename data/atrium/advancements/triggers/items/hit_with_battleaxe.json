@@ -1,0 +1,25 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+          "player": [],
+          "damage": {
+            "type": {
+              "direct_entity": {
+                "equipment": {
+                  "mainhand": {
+                    "nbt": "{atrium_battleaxe:1b}"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "atrium:triggers/items/hit_with_battleaxe"
+    }
+  }
+  

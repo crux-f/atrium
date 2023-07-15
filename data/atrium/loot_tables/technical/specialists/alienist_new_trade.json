@@ -1,0 +1,491 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": 1,
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "weight": 10,
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{atrium_specialist_trade:1,atrium_buy_1_diamond:1}"
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "atrium:entity/villager/is_level_1"
+                  },                  
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:diamond\",Count:1b}}]}}"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "weight": 10,
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{atrium_specialist_trade:1,atrium_buy_6_obsidian:1}"
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "atrium:entity/villager/is_level_1"
+                  },                  
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:obsidian\",Count:6b}}]}}"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "weight": 10,
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{atrium_specialist_trade:1,atrium_sell_1_inert_focus:1}"
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "atrium:entity/villager/is_level_1"
+                  },                  
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:stick\",Count:6b,tag:{display:{Name:'{\"text\":\"Inert Focus\",\"italic\":false}'},CustomModelData:333059,atrium_inert_focus:1b}}}]}}"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "weight": 10,
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{atrium_specialist_trade:1,atrium_buy_1_an_arcanists_handbook_vol_1:1}"
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "atrium:entity/villager/is_lv_1_or_2"
+                  },                  
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:written_book\",Count:1b,tag:{atrium_infusion_formula:1,CustomModelData:333000,HideFlags:99,pages:['[\"\",{\"text\":\" \\\\u0020 \\\\u0020 Introduction\",\"bold\":true},{\"text\":\"\\\\nWelcome to the only magical handbook you\\'ll ever need! Within the pagers of this tome you\\'ll find a comprehensive guide to getting your magical operation off the ground \",\"color\":\"reset\"},{\"text\":\"(not literally)\",\"color\":\"gray\"},{\"text\":\". \\\\u0020Good luck with your endeavours young arcanist. Have fun and stay safe!\",\"color\":\"reset\"}]','[\"\",{\"text\":\"Table of Content\",\"bold\":true,\"underlined\":true},{\"text\":\"\\\\n\\\\n\",\"color\":\"reset\"},{\"text\":\"(3) \",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"3\"}},{\"text\":\"Formula Crafting\",\"color\":\"gray\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"3\"}},{\"text\":\"\\\\n\\\\n\",\"color\":\"reset\"},{\"text\":\"(10)\",\"color\":\"black\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"10\"}},{\"text\":\" Where to find Formulas\",\"color\":\"gray\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"10\"}},{\"text\":\"\\\\n\\\\n\",\"color\":\"reset\"},{\"text\":\"(16)\",\"color\":\"black\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"16\"}},{\"text\":\" The Rod of Relocation\",\"color\":\"gray\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"16\"}},{\"text\":\"\\\\n \",\"color\":\"reset\"}]','[\"\",{\"text\":\" \\\\u0020 \"},{\"text\":\"Formula Crafting\",\"bold\":true,\"underlined\":true},{\"text\":\"\\\\n\",\"color\":\"reset\"},{\"text\":\"What is a formula?\",\"bold\":true},{\"text\":\"\\\\nA formula is a magical blueprint that shows you the proper way to create a magical item or effect. These formula are found contained in books scattered across the world.\\\\n \",\"color\":\"reset\"}]','[\"\",{\"text\":\"How do you use a formula?\",\"bold\":true},{\"text\":\"\\\\nFormula display the layout of items as you would enter them into one of the three crafting stations. These three are the Infusion Circle, the Alchemy Cauldron, and the Runic Codex.\",\"color\":\"reset\"}]','[\"\",{\"text\":\"Each has their own specific uses and specialities detailed in the next three volumes of this set.\\\\n\"},{\"text\":\"How do I get started?\",\"bold\":true},{\"text\":\"\\\\nThe first thing you need to do is find yourself a crafting station. For the purpose of the tutorial we\\'ll be using an Infusion Circle.\",\"color\":\"reset\"}]','[\"\",{\"text\":\"Figure 1 shows how an Infusion Circle is represented in the formula you\\'ll find in the wild\\\\n \\\\u0020 \\\\u0020 \\\\u0020 \"},{\"text\":\" Figure 1\",\"color\":\"gray\"},{\"text\":\"\\\\n \\\\u0020 \\\\u0020 \\\\u0020 \\\\u0020 \\\\u0020x\\\\n \\\\u0020 \\\\u0020 \\\\u0020 x \\\\u0020x \\\\u0020x\\\\n \\\\u0020 \\\\u0020x \\\\u0020x \\\\u0020 \\\\u0020 x \\\\u0020x\\\\n \\\\u0020 \\\\u0020 \\\\u0020 x \\\\u0020x \\\\u0020x\\\\n \\\\u0020 \\\\u0020 \\\\u0020 \\\\u0020 \\\\u0020x\",\"color\":\"reset\"}]','{\"text\":\"A black x will represent an empty item slot in the station\\'s layout. Other items will be reppresented with colorful symbols specific to each formula. See Figure 2.\\\\n\\\\n \"}','[\"\",{\"text\":\"    \tFigure 2\",\"color\":\"gray\"},{\"text\":\"\\\\n      \t\",\"color\":\"reset\"},{\"text\":\"x\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"(EMPTY)\"}},{\"text\":\"\\\\n   \t\"},{\"text\":\"x\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"(EMPTY)\"}},{\"text\":\"  \"},{\"text\":\"v\",\"color\":\"dark_aqua\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"(ingredient cyan)\"}},{\"text\":\"  \",\"color\":\"reset\"},{\"text\":\"x\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"(EMPTY)\"}},{\"text\":\"\\\\n\t\"},{\"text\":\">\",\"color\":\"blue\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"(ingredient blue)\"}},{\"text\":\"  \",\"color\":\"reset\"},{\"text\":\"#\",\"color\":\"dark_purple\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"(ingredient purple)\"}},{\"text\":\" \t\",\"color\":\"dark_purple\"},{\"text\":\"#\",\"color\":\"dark_purple\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"(ingredient purple)\"}},{\"text\":\"  \",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"blue\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"(ingredient blue)\"}},{\"text\":\"\\\\n   \t\",\"color\":\"reset\"},{\"text\":\"x\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"(EMPTY)\"}},{\"text\":\"  \"},{\"text\":\"^\",\"color\":\"dark_green\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"(ingredient green)\"}},{\"text\":\"  \",\"color\":\"reset\"},{\"text\":\"x\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"(EMPTY)\"}},{\"text\":\"\\\\n      \t\"},{\"text\":\"x\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"(EMPTY)\"}},{\"text\":\"\\\\nPutting your finger over each symbol and channeling a small amount of magic will show you exactly what ingredient you need.\\\\n \"}]','{\"text\":\"Once all materials are placed in their respective positions you may press the button placed at the cardinal North relative to the crafting station. The finished product will appear hovering above the centerpiece.\"}','[\"\",{\"text\":\"Where to find formulas\",\"bold\":true,\"underlined\":true},{\"text\":\"\\\\nFormulas can be found all cross the world. From cryptic library to sunken village they can be found in all corners. Some formulas will contain multiple blueprints of powerful items and some only one.\",\"color\":\"reset\"}]','{\"text\":\"It is unclear who initially created these formula but they seemed to have no strong system of organization. Some formulas will reference or even require items made from other formulas so it is important to keep a wide selection of them on hand.\"}','{\"text\":\"Some formulas are more or less common in different locations. Alchemical formulas are often found in the crumbling fortresses of the Nether, Infusion formulas are found in the ruined towns beneath the ocean,\"}','{\"text\":\"and Codex formulas are found in the infested cities deep within the earth.\"}','[\"\",{\"text\":\" \\\\u0020\",\"bold\":true},{\"text\":\"Rod of Relocation\",\"bold\":true,\"underlined\":true},{\"text\":\"\\\\nThank you for purchasing the collectors edition Intro to the Arcane book set! As a special reward to our most loyal customers we\\'ve included a free formula. \",\"color\":\"reset\"},{\"text\":\"Book Press Inc\",\"obfuscated\":true},{\"text\":\"\\'s trademarked Rod of Relocation!\",\"color\":\"reset\"}]','{\"text\":\"The one and only way to move your Arcane Crafting Station thoughout the world. From all of us here please enjoy.\\\\nThe Rod will use five levels of \\\\\"experience\\\\\" to pickup the entire contraption. This will only work as long as all components are present.\\\\n \"}','[\"\",{\"text\":\"Rod of Relocation\\\\n\"},{\"text\":\"Infusion Formula\",\"underlined\":true,\"color\":\"gray\"},{\"text\":\"\\\\n\\\\n      \tx\\\\n   \tx  \",\"color\":\"reset\"},{\"text\":\"v\",\"color\":\"dark_green\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Slime Ball\"}},{\"text\":\"  x\\\\n\tx  \",\"color\":\"reset\"},{\"text\":\"[\",\"color\":\"#A27824\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Chest\"}},{\"text\":\" \t\",\"color\":\"#A27824\"},{\"text\":\"]\",\"color\":\"#A27824\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Chest\"}},{\"text\":\"  x\\\\n   \tx  \",\"color\":\"reset\"},{\"text\":\"|\",\"color\":\"#4F0B85\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Inert Focus\"}},{\"text\":\"  x\\\\n      \t\",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"gray\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Infusion Catalyst [Reverberating]\"}},{\"text\":\"\\\\n \",\"color\":\"reset\"}]','[\"\",{\"text\":\"Inert Focus\\\\n\"},{\"text\":\"Infusion Formula\",\"underlined\":true,\"color\":\"gray\"},{\"text\":\"\\\\n\\\\n\\\\n      \tx\\\\n   \tx  x  x\\\\n\tx  x \tx  x\\\\n   \t\",\"color\":\"reset\"},{\"text\":\"#\",\"color\":\"#7F0DB9\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Obsidian\"}},{\"text\":\"  \",\"color\":\"#7F0DB9\"},{\"text\":\"*\",\"color\":\"dark_aqua\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Diamond\"}},{\"text\":\"  \",\"color\":\"#7F0DB9\"},{\"text\":\"#\",\"color\":\"#7F0DB9\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Obsidian\"}},{\"text\":\"\\\\n      \t\",\"color\":\"reset\"},{\"text\":\"|\",\"color\":\"#8B5F0C\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Stick\"}}]','{\"text\":\"\"}'],title:\"✦ An Arcanist's Handbook Vol. 1\",author:\"???\",display:{Lore:['{\"italic\":false,\"underlined\":true,\"color\":\"gray\",\"text\":\"Infusion Circle Formulas:\"}','{\"italic\":false,\"color\":\"gray\",\"text\":\"Rod of Relocation\"}','{\"italic\":false,\"color\":\"gray\",\"text\":\"Inert Focus\"}'],Name:'{\"italic\":false,\"text\":\"✦ An Arcanist\\'s Handbook Vol. 1\"}'}}}}]}}"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "weight": 10,
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{atrium_specialist_trade:1,atrium_buy_1_rod_of_relocation:1}"
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "atrium:entity/villager/is_lv_1_or_2"
+                  },                  
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:stick\",Count:1b,tag:{display:{Name:'{\"text\":\"Rod of Relocation\",\"italic\":false}',Lore:['{\"text\":\"◇ Condense Structure\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"When in Main Hand:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"+1 Casting Power\",\"color\":\"blue\",\"italic\":false}']},CustomModelData:333083,atrium_rod_of_relocation:1b}}}]}}"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "weight": 10,
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{atrium_specialist_trade:1,atrium_sell_1_infusion_catalyst_harmonizing:1}"
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "atrium:entity/villager/is_level_2"
+                  },                  
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:amethyst_block\",Count:1b,tag:{display:{Name:'{\"text\":\"Infusion Catalyst\",\"italic\":false}',Lore:['{\"text\":\"Harmonizing\",\"color\":\"light_purple\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"A little extra music can\"}','{\"text\":\"help even the most\"}','{\"text\":\"disparate elements get along.\"}']},atrium_catalyst_harmonizing:1b,Enchantments:[{}]}}}]}}"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "weight": 10,
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{atrium_specialist_trade:1,atrium_sell_1_infusion_catalyst_reverberating:1}"
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "atrium:entity/villager/is_level_2"
+                  },                  
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:quartz_block\",Count:1b,tag:{display:{Name:'{\"text\":\"Infusion Catalyst\",\"italic\":false}',Lore:['{\"text\":\"Reverberating\",\"color\":\"white\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Using quartz found in the\"}','{\"text\":\"fire realm, one can activate\"}','{\"text\":\"latent magic in mundane \"}','{\"text\":\"or dormant objects.\"}']},atrium_catalyst_reverberating:1b,Enchantments:[{}]}}}]}}"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "weight": 10,
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{atrium_specialist_trade:1,atrium_sell_2_crying_obsidian:1}"
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "atrium:entity/villager/is_level_2"
+                  },                  
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:crying_obsidian\",Count:2b}}]}}"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "weight": 7,
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{atrium_specialist_trade:1,atrium_buy_1_air_staff:1}"
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "atrium:entity/villager/is_level_3"
+                  },                  
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:diamond_hoe\",Count:1b,tag:{display:{Name:'{\"text\":\"Staff of Air\",\"italic\":false}',Lore:['{\"text\":\"◇ Air Sigil I\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"◇ Increase Velocity I\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"When in Off Hand:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"+1 Casting Power\",\"color\":\"blue\",\"italic\":false}']},CustomModelData:333060,atrium_staff:1b,atrium_staff_lv:1b,atrium_air_staff:1b,atrium_chargeable:1b,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:2,Operation:0,UUID:[I;637717026,1710441391,-1943706047,783506473],Slot:\"mainhand\"}]}}}]}}"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "weight": 7,
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{atrium_specialist_trade:1,atrium_buy_1_earth_staff:1}"
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "atrium:entity/villager/is_level_3"
+                  },                  
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:diamond_hoe\",Count:1b,tag:{display:{Name:'{\"text\":\"Staff of Earth\",\"italic\":false}',Lore:['{\"text\":\"◇ Earth Sigil I\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"◇ Natural Armor I\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"When in Off Hand:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"+1 Casting Power\",\"color\":\"blue\",\"italic\":false}']},CustomModelData:333061,atrium_staff:1b,atrium_staff_lv:1b,atrium_earth_staff:1b,atrium_chargeable:1b,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:2,Operation:0,UUID:[I;637717026,1710441391,-1943706047,783506473],Slot:\"mainhand\"}]}}}]}}"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "weight": 10,
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{atrium_specialist_trade:1,atrium_buy_1_fire_staff:1}"
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "atrium:entity/villager/is_level_3"
+                  },                  
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:diamond_hoe\",Count:1b,tag:{display:{Name:'{\"text\":\"Staff of Fire\",\"italic\":false}',Lore:['{\"text\":\"◇ Fire Sigil I\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"◇ Throw Flames I\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"When in Off Hand:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"+1 Casting Power\",\"color\":\"blue\",\"italic\":false}']},CustomModelData:333062,atrium_staff:1b,atrium_staff_lv:1b,atrium_fire_staff:1b,atrium_chargeable:1b,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:2,Operation:0,UUID:[I;637717026,1710441391,-1943706047,783506473],Slot:\"mainhand\"}]}}}]}}"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "weight": 10,
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{atrium_specialist_trade:1,atrium_buy_1_water_staff:1}"
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "atrium:entity/villager/is_level_3"
+                  },                  
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:diamond_hoe\",Count:1b,tag:{display:{Name:'{\"text\":\"Staff of Water\",\"italic\":false}',Lore:['{\"text\":\"◇ Water Sigil I\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"◇ Extinguish I\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"When in Off Hand:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"+1 Casting Power\",\"color\":\"blue\",\"italic\":false}']},CustomModelData:333063,atrium_staff:1b,atrium_staff_lv:1b,atrium_water_staff:1b,atrium_chargeable:1b,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:2,Operation:0,UUID:[I;637717026,1710441391,-1943706047,783506473],Slot:\"mainhand\"}]}}}]}}"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "weight": 10,
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{atrium_specialist_trade:1,atrium_buy_1_time_staff:1}"
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "atrium:entity/villager/is_level_3"
+                  },                  
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:diamond_hoe\",Count:1b,tag:{display:{Name:'{\"text\":\"Staff of Time\",\"italic\":false}',Lore:['{\"text\":\"◇ Time Sigil I\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"◇ Desync I\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"When in Off Hand:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"+1 Casting Power\",\"color\":\"blue\",\"italic\":false}']},CustomModelData:333064,atrium_staff:1b,atrium_staff_lv:1b,atrium_time_staff:1b,atrium_chargeable:1b,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:2,Operation:0,UUID:[I;637717026,1710441391,-1943706047,783506473],Slot:\"mainhand\"}]}}}]}}"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "weight": 10,
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{atrium_specialist_trade:1,atrium_buy_1_space_staff:1}"
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "atrium:entity/villager/is_level_3"
+                  },                  
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:diamond_hoe\",Count:1b,tag:{display:{Name:'{\"text\":\"Staff of Space\",\"italic\":false}',Lore:['{\"text\":\"◇ Space Sigil I\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"◇ Parallax I\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"When in Off Hand:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"+1 Casting Power\",\"color\":\"blue\",\"italic\":false}']},CustomModelData:333065,atrium_staff:1b,atrium_staff_lv:1b,atrium_space_staff:1b,atrium_chargeable:1b,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:2,Operation:0,UUID:[I;637717026,1710441391,-1943706047,783506473],Slot:\"mainhand\"}]}}}]}}"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "weight": 10,
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{atrium_specialist_trade:1,atrium_buy_1_infusion_circle:1}"
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "atrium:entity/villager/is_level_4"
+                  },                  
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:player_head\",Count:1b,tag:{display:{Name:'{\"text\":\"Infusion Circle\",\"color\":\"light_purple\",\"italic\":false}',Lore:['{\"text\":\"Space Required:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"x9,y3,z11\",\"color\":\"dark_gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"When Placed:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"Generates a structure \",\"color\":\"blue\",\"italic\":false}']},infusion_circle_placer:1b,SkullOwner:{Id:[I;-510246894,-974372697,-1324757754,-2046207321],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTIyNzYzMDkzNzc0NjkzYjI2MzkyNzhhMWMyYzY5OGFkMTFkYjQ5Mjg5NmU5YmYxNjcxNGQ4NTdlOThjYTFkZCJ9fX0=\"}]}}}}}]}}"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

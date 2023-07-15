@@ -1,0 +1,21 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:villager",
+        "nbt": "{VillagerData:{level:2}}"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:villager",
+        "nbt": "{VillagerData:{level:3}}"
+      }
+    }
+  ]
+}

@@ -1,0 +1,525 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "weight": 10,
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{atrium_specialist_trade:1,atrium_buy_2_redstone_torch:1}"
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "atrium:entity/villager/is_level_1"
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:redstone_torch\",Count:2b}}]}}"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "weight": 10,
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{atrium_specialist_trade:1,atrium_sell_8_nether_quartz:1}"
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "atrium:entity/villager/is_lv_1_or_2"
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:quartz\",Count:8b}}]}}"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "weight": 10,
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{atrium_specialist_trade:1,atrium_buy_1_piston:1}"
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "atrium:entity/villager/is_lv_1_or_2"
+                  },                  
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:piston\",Count:1b}}]}}"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "weight": 10,
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{atrium_specialist_trade:1,atrium_buy_1_note_block:1}"
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "atrium:entity/villager/is_lv_1_or_2"
+                  },                  
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:note_block\",Count:1b}}]}}"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "weight": 10,
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{atrium_specialist_trade:1,atrium_buy_1_sticky_piston:1}"
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "atrium:entity/villager/is_level_2"
+                  },                  
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:sticky_piston\",Count:1b}}]}}"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "weight": 10,
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{atrium_specialist_trade:1,atrium_buy_1_redstone_repeater:1}"
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "atrium:entity/villager/is_level_2"
+                  },                  
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:repeater\",Count:1b}}]}}"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "weight": 10,
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{atrium_specialist_trade:1,atrium_buy_1_redstone_comparator:1}"
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "atrium:entity/villager/is_level_2"
+                  },                  
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:comparator\",Count:1b}}]}}"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "weight": 10,
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{atrium_specialist_trade:1,atrium_buy_1_hopper:1}"
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "atrium:entity/villager/is_level_2"
+                  },                  
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:hopper\",Count:1b}}]}}"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "weight": 5,
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{atrium_specialist_trade:1,atrium_buy_1_dropper:1}"
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "atrium:entity/villager/is_level_2"
+                  },                  
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:dropper\",Count:1b}}]}}"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "weight": 5,
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{atrium_specialist_trade:1,atrium_buy_1_dispenser:1}"
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "atrium:entity/villager/is_lv_2_or_3"
+                  },                  
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:dispenser\",Count:1b}}]}}"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "weight": 10,
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{atrium_specialist_trade:1,atrium_sell_1_sculk_sensor:1}"
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "atrium:entity/villager/is_level_3"
+                  },                  
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:sculk_sensor\",Count:1b}}]}}"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "weight": 10,
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{atrium_specialist_trade:1,atrium_buy_1_observer:1}"
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "atrium:entity/villager/is_level_3"
+                  },                  
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:observer\",Count:1b}}]}}"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "weight": 10,
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{atrium_specialist_trade:1,atrium_buy_8_rail:1}"
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "atrium:entity/villager/is_level_3"
+                  },                  
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:rail\",Count:8b}}]}}"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "weight": 10,
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{atrium_specialist_trade:1,atrium_sell_1_tnt:1}"
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "atrium:entity/villager/is_lv_3_or_4"
+                  },                  
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:tnt\",Count:1b}}]}}"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "weight": 10,
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{atrium_specialist_trade:1,atrium_buy_4_powered_rail:1}"
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "atrium:entity/villager/is_level_4"
+                  },                  
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:powered_rail\",Count:4b}}]}}"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "weight": 10,
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{atrium_specialist_trade:1,atrium_sell_12_copper_ingot:1}"
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "atrium:entity/villager/is_level_4"
+                  },                  
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:copper_ingot\",Count:12b}}]}}"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:empty"
+          }
+        ]
+      }
+    ]
+  }
+  

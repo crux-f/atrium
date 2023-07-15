@@ -1,0 +1,481 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": 1,
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "weight": 10,
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{atrium_specialist_trade:1,atrium_buy_1_stone_battleaxe:1}"
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "atrium:entity/villager/is_level_1"
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:stone_axe\",Count:1b,tag:{display:{Name:'{\"text\":\"Stone Battleaxe\",\"italic\":false}',Lore:['{\"text\":\" \"}','{\"text\":\"When in Main Hand:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" 9 Attack Damage\",\"color\":\"dark_green\",\"italic\":false}','{\"text\":\" 0.8 Attack Speed\",\"color\":\"dark_green\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"When in Both Hands:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" 12 Attack Damage\",\"color\":\"dark_green\",\"italic\":false}','{\"text\":\" 0.8 Attack Speed\",\"color\":\"dark_green\",\"italic\":false}']},HideFlags:2,CustomModelData:333132,atrium_battleaxe:1b,atrium_stone_battleaxe:1b,AttributeModifiers:[{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-3.2,Operation:0,UUID:[I;353573072,1913209126,-2083568596,-1504060613],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:9,Operation:0,UUID:[I;-1960756177,-122272270,-2047366149,-1527687539],Slot:\"mainhand\"}]}}}]}}"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "weight": 10,
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{atrium_specialist_trade:1,atrium_buy_1_stone_dagger:1}"
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "atrium:entity/villager/is_level_1"
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:stone_sword\",Count:1b,tag:{display:{Name:'{\"text\":\"Stone Dagger\",\"italic\":false}',Lore:['{\"text\":\" \"}','{\"text\":\"When in Main Hand:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" 2.5 Attack Damage\",\"color\":\"dark_green\",\"italic\":false}','{\"text\":\" 2.2 Attack Speed\",\"color\":\"dark_green\",\"italic\":false}']},HideFlags:2,CustomModelData:333137,atrium_dagger:1b,atrium_stone_dagger:1b,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:2.5,Operation:0,UUID:[I;-1590116165,837960468,-1267528834,-1834274199],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-1.8,Operation:0,UUID:[I;-2141543910,829441012,-1156642295,665869591],Slot:\"mainhand\"}]}}}]}}"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "weight": 10,
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{atrium_specialist_trade:1,atrium_buy_1_iron_battleaxe:1}"
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "atrium:entity/villager/is_lv_1_or_2"
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:reference",
+                      "name": "atrium:in_the_nether"
+                    }
+                  },   
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:iron_axe\",Count:1b,tag:{display:{Name:'{\"text\":\"Iron Battleaxe\",\"italic\":false}',Lore:['{\"text\":\" \"}','{\"text\":\"When in Main Hand:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" 9 Attack Damage\",\"color\":\"dark_green\",\"italic\":false}','{\"text\":\" 0.9 Attack Speed\",\"color\":\"dark_green\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"When in Both Hands:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" 12 Attack Damage\",\"color\":\"dark_green\",\"italic\":false}','{\"text\":\" 0.9 Attack Speed\",\"color\":\"dark_green\",\"italic\":false}']},HideFlags:2,CustomModelData:333133,atrium_battleaxe:1b,atrium_iron_battleaxe:1b,AttributeModifiers:[{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-3.1,Operation:0,UUID:[I;353573072,1913209126,-2083568596,-1504060613],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:9,Operation:0,UUID:[I;-1960756177,-122272270,-2047366149,-1527687539],Slot:\"mainhand\"}]}}}]}}"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "weight": 10,
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{atrium_specialist_trade:1,atrium_buy_1_iron_dagger:1}"
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "atrium:entity/villager/is_lv_1_or_2"
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:reference",
+                      "name": "atrium:in_the_nether"
+                    }
+                  },    
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:iron_sword\",Count:1b,tag:{display:{Name:'{\"text\":\"Iron Dagger\",\"italic\":false}',Lore:['{\"text\":\" \"}','{\"text\":\"When in Main Hand:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" 3 Attack Damage\",\"color\":\"dark_green\",\"italic\":false}','{\"text\":\" 2.2 Attack Speed\",\"color\":\"dark_green\",\"italic\":false}']},HideFlags:2,CustomModelData:333138,atrium_dagger:1b,atrium_iron_dagger:1b,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:3,Operation:0,UUID:[I;-1590116165,837960468,-1267528834,-1834274199],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-1.8,Operation:0,UUID:[I;-2141543910,829441012,-1156642295,665869591],Slot:\"mainhand\"}]}}}]}}"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "weight": 10,
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{atrium_specialist_trade:1,atrium_buy_1_golden_battleaxe:1}"
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "atrium:entity/villager/is_lv_1_or_2"
+                  },
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "atrium:in_the_nether"
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:golden_axe\",Count:1b,tag:{display:{Name:'{\"text\":\"Golden Battleaxe\",\"italic\":false}',Lore:['{\"text\":\" \"}','{\"text\":\"When in Main Hand:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" 7 Attack Damage\",\"color\":\"dark_green\",\"italic\":false}','{\"text\":\" 1 Attack Speed\",\"color\":\"dark_green\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"When in Both Hands:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" 10 Attack Damage\",\"color\":\"dark_green\",\"italic\":false}','{\"text\":\" 1 Attack Speed\",\"color\":\"dark_green\",\"italic\":false}']},HideFlags:2,CustomModelData:333134,atrium_battleaxe:1b,atrium_golden_battleaxe:1b,AttributeModifiers:[{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-3,Operation:0,UUID:[I;353573072,1913209126,-2083568596,-1504060613],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:7,Operation:0,UUID:[I;-1960756177,-122272270,-2047366149,-1527687539],Slot:\"mainhand\"}]}}}]}}"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "weight": 10,
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{atrium_specialist_trade:1,atrium_buy_1_golden_dagger:1}"
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "atrium:entity/villager/is_lv_1_or_2"
+                  },
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "atrium:in_the_nether"
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:golden_sword\",Count:1b,tag:{display:{Name:'{\"text\":\"Golden Dagger\",\"italic\":false}',Lore:['{\"text\":\" \"}','{\"text\":\"When in Main Hand:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" 2 Attack Damage\",\"color\":\"dark_green\",\"italic\":false}','{\"text\":\" 2.2 Attack Speed\",\"color\":\"dark_green\",\"italic\":false}']},HideFlags:2,CustomModelData:333139,atrium_dagger:1b,atrium_golden_dagger:1b,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:2,Operation:0,UUID:[I;-1590116165,837960468,-1267528834,-1834274199],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-1.8,Operation:0,UUID:[I;-2141543910,829441012,-1156642295,665869591],Slot:\"mainhand\"}]}}}]}}"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "weight": 10,
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{atrium_specialist_trade:1,atrium_buy_1_shield_unbreaking_3:1}"
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "atrium:entity/villager/is_level_2"
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:shield\",Count:1b,tag:{Enchantments:[{id:\"minecraft:unbreaking\",lvl:3s}]}}}]}}"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "weight": 10,
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{atrium_specialist_trade:1,atrium_buy_1_village_defender:1}"
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "atrium:entity/villager/is_level_2"
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:iron_sword\",Count:1b,tag:{display:{Name:'{\"text\":\"Village Defender\",\"italic\":false}',Lore:['{\"text\":\"Unrepairable\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"A little heroics never\"}','{\"text\":\"hurt anyone. Except\"}','{\"text\":\"your enemies, I suppose.\"}']},RepairCost:99,CustomModelData:333079,atrium_village_defender:1b,Enchantments:[{id:\"minecraft:smite\",lvl:2s},{id:\"minecraft:bane_of_arthropods\",lvl:2s},{id:\"minecraft:sweeping\",lvl:3s},{id:\"minecraft:unbreaking\",lvl:6s}]}}}]}}"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "weight": 10,
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{atrium_specialist_trade:1,atrium_sell_1_totem_of_undying:1}"
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "atrium:entity/villager/is_level_2"
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:totem_of_undying\",Count:1b}}]}}"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "weight": 10,
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{atrium_specialist_trade:1,atrium_buy_1_trident:1}"
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "atrium:entity/villager/is_level_3"
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:trident\",Count:1b}}]}}"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "weight": 5,
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{atrium_specialist_trade:1,atrium_buy_1_diamond_battleaxe:1}"
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "atrium:entity/villager/is_level_3"
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:diamond_axe\",Count:1b,tag:{display:{Name:'{\"text\":\"Diamond Battleaxe\",\"italic\":false}',Lore:['{\"text\":\" \"}','{\"text\":\"When in Main Hand:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" 9 Attack Damage\",\"color\":\"dark_green\",\"italic\":false}','{\"text\":\" 1 Attack Speed\",\"color\":\"dark_green\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"When in Both Hands:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" 12 Attack Damage\",\"color\":\"dark_green\",\"italic\":false}','{\"text\":\" 1 Attack Speed\",\"color\":\"dark_green\",\"italic\":false}']},HideFlags:2,CustomModelData:333135,atrium_battleaxe:1b,atrium_diamond_battleaxe:1b,AttributeModifiers:[{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-3,Operation:0,UUID:[I;353573072,1913209126,-2083568596,-1504060613],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:9,Operation:0,UUID:[I;-1960756177,-122272270,-2047366149,-1527687539],Slot:\"mainhand\"}]}}}]}}"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "weight": 5,
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{atrium_specialist_trade:1,atrium_buy_1_diamond_dagger:1}"
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "atrium:entity/villager/is_level_3"
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:diamond_sword\",Count:1b,tag:{display:{Name:'{\"text\":\"Diamond Dagger\",\"italic\":false}',Lore:['{\"text\":\" \"}','{\"text\":\"When in Main Hand:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" 3.5 Attack Damage\",\"color\":\"dark_green\",\"italic\":false}','{\"text\":\" 2.2 Attack Speed\",\"color\":\"dark_green\",\"italic\":false}']},HideFlags:2,CustomModelData:333140,atrium_dagger:1b,atrium_diamond_dagger:1b,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:3.5,Operation:0,UUID:[I;-1590116165,837960468,-1267528834,-1834274199],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-1.8,Operation:0,UUID:[I;-2141543910,829441012,-1156642295,665869591],Slot:\"mainhand\"}]}}}]}}"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "weight": 10,
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{atrium_specialist_trade:1,atrium_buy_1_miracle_buckler:1}"
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "atrium:entity/villager/is_level_4"
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:shield\",Count:1b,tag:{display:{Name:'{\"text\":\"Miracle Buckler\",\"color\":\"yellow\",\"italic\":false}'},Enchantments:[{id:\"minecraft:unbreaking\",lvl:4s},{id:\"minecraft:mending\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUID:[I;-98664701,-2120988675,-1709353655,263818487],Slot:\"offhand\"}]}}}]}}"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "weight": 10,
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{atrium_specialist_trade:1,atrium_buy_1_horn_of_valor:1}"
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "atrium:entity/villager/is_level_4"
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:goat_horn\",Count:1b,tag:{display:{Name:'{\"text\":\"Horn of Valor\",\"color\":\"yellow\",\"italic\":false}',Lore:['{\"text\":\" \"}','{\"text\":\"When used:\",\"color\":\"dark_purple\",\"italic\":false}','{\"text\":\"Resistance I (00:25)\",\"color\":\"blue\",\"italic\":false}','{\"text\":\"to nearby allies\",\"color\":\"blue\",\"italic\":false}']},atrium_horn_of_valor:1b,Enchantments:[{}],instrument:\"minecraft:sing_goat_horn\"}}}]}}"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

@@ -15,7 +15,7 @@
                 "condition": "minecraft:entity_properties",
                 "entity": "this",
                 "predicate": {
-                  "nbt": "{Tags:[\"atrium_custom_profession\"]}"
+                  "nbt": "{Tags:[\"atrium_specialist\"]}"
                 }
               }
             }

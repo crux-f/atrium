@@ -1,0 +1,23 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:villager_trade",
+        "conditions": {
+          "villager": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[\"atrium_specialist\"]}"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "atrium:triggers/entity_abilities/villagers/trade_with_specialist"
+    },
+    "sends_telemetry_event": false
+  }
+  
