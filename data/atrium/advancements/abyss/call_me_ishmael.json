@@ -1,0 +1,42 @@
+{
+  "__comment": "Granted when you defeat a Phanta Ray",
+  "display": {
+      "title": {
+          "text": "Call Me Ishmael",
+          "color": "white"
+      },
+      "description": {
+          "text": "Defeat a Phanta Ray",
+          "color": "green"
+      },
+      "icon": {
+          "item": "minecraft:trident"
+      },
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": true
+  },
+  "criteria": {
+    "kill_phanta_ray": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"atrium_phanta_ray\"]}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "kill_phanta_ray"
+    ]
+  ],
+  "parent": "atrium:abyss/abyss_root"
+}
