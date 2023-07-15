@@ -20,7 +20,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{atrium_pure_redstone:1b}"
+              "tag": "{atrium_pure_redstone:1b,CustomModelData:333084}"
             },
             {
               "function": "set_name",
@@ -42,7 +42,7 @@
                   "text": "impossible to extract whole"
                 },
                 {
-                  "text": "due to its frailty. If it's"
+                  "text": "due to its frailty. If its"
                 },
                 {
                   "text": "dust is so versatile, what"
