@@ -10,7 +10,7 @@
             "predicate": {
               "equipment": {
                 "mainhand": {
-                  "nbt": "{academy_key:1b}"
+                  "nbt": "{atrium_academy_key:1b}"
                 }
               }
             }
