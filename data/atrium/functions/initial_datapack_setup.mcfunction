@@ -66,6 +66,10 @@ scoreboard objectives add xenos_favor dummy {"text":"Xenos Favor","color":"white
 scoreboard objectives add same_tick_math dummy
 # usher_intro is used to track the progress in the conversation with The Usher during the iteration 4 spawn sequence.
 # scoreboard objectives add usher_intro dummy
+# atrium_searching is used by mobs with custom behavior scripts (For now only the Lich uses this)
+scoreboard objectives add atrium_searching dummy {"text":"Searching...","color":"white"}
+# atrium_threat is used by mobs with custom behavior scripts
+scoreboard objectives add atrium_threat dummy {"text":"Threat","color":"white"}
 # Burrow Consequences
 scoreboard objectives add depths_burrows dummy
 #
@@ -102,3 +106,9 @@ team add atrium_glow_white {"text":"Glow White","color":"white"}
 team modify atrium_glow_white color white
 team add atrium_glow_yellow {"text":"Glow Yellow","color":"yellow"}
 team modify atrium_glow_yellow color yellow
+#
+# BOSS BARS
+#
+bossbar add atrium:lich {"text":"Lich","color":"dark_purple"}
+bossbar set atrium:lich max 450
+bossbar set atrium:lich color blue

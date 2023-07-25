@@ -1,0 +1,5 @@
+# Revoke to allow re-trigger
+advancement revoke @s only atrium:triggers/player_check_each_second
+#
+# Boss Bars
+execute unless entity @e[tag=atrium_lich,tag=atrium_alerted] run bossbar set atrium:lich players
