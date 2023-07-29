@@ -1,0 +1,15 @@
+{
+  "name": "atrium:dungeons/sanctum/base_pieces/sigil_base_hooks",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "atrium:dungeons/sanctum/base_pieces/sigil_base_hook",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

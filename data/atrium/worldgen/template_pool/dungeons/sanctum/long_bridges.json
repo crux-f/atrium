@@ -1,0 +1,51 @@
+{
+  "name": "atrium:dungeons/sanctum/long_bridges",
+  "fallback": "atrium:dungeons/sanctum/short_bridges",
+  "elements": [
+    {
+      "weight": 2,
+      "element": {
+        "location": "atrium:dungeons/sanctum/bridges/arch_bridge_0",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "atrium:dungeons/sanctum/bridges/arch_bridge_drift_0",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "atrium:dungeons/sanctum/bridges/arch_bridge_drift_1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "atrium:dungeons/sanctum/bridges/arch_bridge_drift_2",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "atrium:dungeons/sanctum/bridges/flight_rings_0",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

@@ -1,11 +1,11 @@
 {
-  "name": "atrium:dungeons/sanctum/bases",
+  "name": "atrium:dungeons/sanctum/prisoner_or_nothing",
   "fallback": "minecraft:empty",
   "elements": [
     {
       "weight": 1,
       "element": {
-        "location": "atrium:dungeons/sanctum/balcony_base_0",
+        "location": "atrium:dungeons/misc/snow_villager",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -14,7 +14,16 @@
     {
       "weight": 1,
       "element": {
-        "location": "atrium:dungeons/sanctum/sigil_base_a_0",
+        "location": "atrium:dungeons/misc/zombie_snow_villager",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "atrium:dungeons/misc/no_entity",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"

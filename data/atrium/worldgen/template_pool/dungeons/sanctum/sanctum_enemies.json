@@ -1,20 +1,20 @@
 {
-  "name": "atrium:dungeons/sanctum/bases",
+  "name": "atrium:dungeons/sanctum/sanctum_enemies",
   "fallback": "minecraft:empty",
   "elements": [
     {
-      "weight": 1,
+      "weight": 10,
       "element": {
-        "location": "atrium:dungeons/sanctum/balcony_base_0",
+        "location": "atrium:dungeons/sanctum/entities/sleepwalker_0",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
     },
     {
-      "weight": 1,
+      "weight": 2,
       "element": {
-        "location": "atrium:dungeons/sanctum/sigil_base_a_0",
+        "location": "atrium:dungeons/sanctum/entities/risen_cloud_dancer_0",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"

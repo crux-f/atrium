@@ -1,0 +1,42 @@
+{
+  "name": "atrium:dungeons/sanctum/large_turrets",
+  "fallback": "atrium:dungeons/sanctum/small_turrets",
+  "elements": [
+    {
+      "weight": 15,
+      "element": {
+        "location": "atrium:dungeons/sanctum/large_turrets/skull_tower_0",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "atrium:dungeons/sanctum/large_turrets/eyehouse_0",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "atrium:dungeons/sanctum/large_turrets/ender_lab_0",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "location": "atrium:dungeons/sanctum/large_turrets/waystone_lab_0",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}
