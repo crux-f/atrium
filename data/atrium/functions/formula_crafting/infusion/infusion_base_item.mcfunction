@@ -65,6 +65,10 @@ execute positioned ~ ~ ~-4 if entity @e[type=minecraft:glow_item_frame,distance=
 # Start Rod of Relocation - Check CENTER NORTH for Slimeball
 execute positioned ~ ~ ~-2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:slime_ball",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
 execute positioned ~ ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:slime_ball",Count:1b}}] at @s run function atrium:formula_crafting/infusion/i_recipes/rod_of_relocation
+# Start Dreamer's Wings - Check CENTER NORTH for Corrupted Wings
+execute positioned ~ ~ ~-2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{tag:{atrium_corrupted_wings:1b}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{tag:{atrium_corrupted_wings:1b}}}] at @s run function atrium:formula_crafting/infusion/i_recipes/dreamers_wings
+#
 #
 # Upgrades
 #
