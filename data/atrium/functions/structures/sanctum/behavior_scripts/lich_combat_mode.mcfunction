@@ -23,12 +23,12 @@ execute unless score @s charge matches 61.. run function atrium:structures/sanct
 # Priority 1: Summon Minions
 # 25% chance
 # Prerequisite: No Minions are already present in the area
-execute if score @s charge matches 60.. if predicate atrium:percentage_chances/0.25_p unless entity @e[tag=atrium_sanctum_minion,distance=..25] run function atrium:entities/mob_spells/lich_summon
+execute if score @s charge matches 60.. if predicate atrium:percentage_chances/0.25_p unless entity @e[tag=atrium_sanctum_minion,distance=..15] run function atrium:entities/mob_spells/lich_summon
 #
 # Priority 2: Soul Pyre
-# 35% chance
-# Prerequisite: None (Will cast on itself if no other targets are available)
-execute if score @s charge matches 60.. if predicate atrium:percentage_chances/0.35_p run function atrium:entities/mob_spells/soul_pyre
+# 15% chance
+# Prerequisite: At least one Minion is within 25 blocks
+execute if score @s charge matches 60.. if predicate atrium:percentage_chances/0.15_p if entity @e[tag=atrium_sanctum_minion,distance=..25] run function atrium:entities/mob_spells/soul_pyre
 #
 # Priority 3: Thunderbolt
 # 25% chance
@@ -45,10 +45,10 @@ execute if score @s charge matches 60.. unless entity @e[tag=atrium_sanctum_lair
 # Prerequisite: A nearby player is holding a staff
 execute if score @s charge matches 60.. if entity @p[scores={charge=10..},predicate=atrium:player/targetable_and_visible,distance=..25,nbt={Inventory:[{Slot:-106b,tag:{atrium_staff:1b}}]}] run function atrium:entities/mob_spells/fizzle_spell
 #
-# Priority 6: Teleport to Lair II
+# Priority 6: Teleport out of Lair
 # 100% chance
 # Prerequisite: The Lich has been hit 5 times in quick succession (threat)
-execute if score @s charge matches 60.. if score @s atrium_threat matches 5.. run function atrium:structures/sanctum/behavior_scripts/lich_roam_lair
+execute if score @s charge matches 60.. if score @s atrium_threat matches 5.. run function atrium:structures/sanctum/behavior_scripts/lich_roam_not_lair
 #
 # Movement Controller
 #

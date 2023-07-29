@@ -22,6 +22,10 @@ execute if score @s charge matches 60.. if predicate atrium:percentage_chances/0
 #
 # If the Lich is standing on air and the block under that is also air, there is a 50% chance they will disobey the laws of physics.
 execute if block ~ ~-1 ~ minecraft:air if block ~ ~-2 ~ minecraft:air if predicate atrium:percentage_chances/0.50_p unless data entity @s NoGravity run function atrium:entities/mob_spells/lich_hover
-#
+# If the Lich is on fire, drink a Fire Resistance potion.
+execute if predicate atrium:entity/is_on_fire unless predicate atrium:effects/if_fire_resistance_any run function atrium:structures/sanctum/behavior_scripts/drink_fire_res_potion
 # If the Lich somehow ends up with a different item in its main hand, replace it with a staff.
 execute unless data entity @s {HandItems:[{id:"minecraft:diamond_hoe",Count:1b,tag:{CustomModelData:333065}},{id:"minecraft:firework_star",Count:1b,tag:{CustomModelData:333026,Explosion:{Type:0}}}]} run data merge entity @s {HandItems:[{id:"minecraft:diamond_hoe",Count:1b,tag:{CustomModelData:333065}},{id:"minecraft:firework_star",Count:1b,tag:{CustomModelData:333026,Explosion:{Type:0}}}]}
+# Nearby Risen Cloud-Dancers get their real bows back too.
+execute if entity @e[tag=atrium_risen_cloud_dancer,distance=..200,tag=!atrium_bow_fixed] as @e[tag=atrium_risen_cloud_dancer,distance=..200,tag=!atrium_bow_fixed] run data merge entity @s {HandItems:[{id:"minecraft:bow",Count:1b,tag:{display:{Name:'{"text":"Cloud-Dancer\'s Bow","italic":false}',Lore:['{"text":"Crafted for a Cloud-Dancer"}','{"text":"monk, once upon a time."}']},RepairCost:5,atrium_cloud_dancers_bow:1b,Enchantments:[{id:"minecraft:unbreaking",lvl:3s},{id:"minecraft:punch",lvl:3s}]}},{id:"minecraft:tipped_arrow",Count:16b,tag:{display:{Name:'{"text":"Arrow of Mercy","italic":false}'},atrium_arrow_of_mercy:1b,Potion:"minecraft:long_slow_falling"}}]}
+execute if entity @e[tag=atrium_risen_cloud_dancer,distance=..200,tag=!atrium_bow_fixed] as @e[tag=atrium_risen_cloud_dancer,distance=..200,tag=!atrium_bow_fixed] run tag @s add atrium_bow_fixed
