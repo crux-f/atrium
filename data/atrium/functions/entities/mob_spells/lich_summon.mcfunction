@@ -4,10 +4,10 @@
 function atrium:summon/sanctum/sleepwalker
 # 50% chance of a second one
 execute if predicate atrium:percentage_chances/0.50_p run function atrium:summon/sanctum/sleepwalker
-# 50% chance of a third one
-execute if predicate atrium:percentage_chances/0.50_p run function atrium:summon/sanctum/sleepwalker
-# 10% chance of one Sky Dancer if I can find it??
-# execute if predicate atrium:percentage_chances/0.10_p run function atrium:summon/sanctum/skydancer
+# 25% chance of a third one
+execute if predicate atrium:percentage_chances/0.25_p run function atrium:summon/sanctum/sleepwalker
+# 15% chance of one Sky Dancer if I can find it??
+execute if predicate atrium:percentage_chances/0.15_p run function atrium:summon/sanctum/risen_cloud_dancer
 #
 # Particles
 function atrium:summon/summon_poof
