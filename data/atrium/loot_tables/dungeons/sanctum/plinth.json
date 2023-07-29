@@ -29,7 +29,7 @@
               "name": [
                 {
                   "text": "Obsolete Sword",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             },
@@ -568,6 +568,5 @@
         }
       ]
     }
-  ],
-  "random_sequence": "minecraft:chests/bastion_bridge"
+  ]
 }

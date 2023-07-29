@@ -282,67 +282,103 @@
           },
           {
             "type": "minecraft:item",
-            "weight": 1,
+            "weight": 2,
             "name": "minecraft:diamond_hoe",
             "functions": [
                 {
                     "function": "minecraft:set_nbt",
                     "tag": "{display:{Name:'{\"text\":\"Staff of Air\",\"italic\":false}',Lore:['{\"text\":\"◇ Air Sigil I\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"◇ Increase Velocity I\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"When in Off Hand:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"+1 Casting Power\",\"color\":\"blue\",\"italic\":false}']},CustomModelData:333060,atrium_staff:1b,atrium_staff_lv:1b,atrium_air_staff:1b,atrium_chargeable:1b,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:2,Operation:0,UUID:[I;637717026,1710441391,-1943706047,783506473],Slot:\"mainhand\"}]}"
+                },
+                {
+                  "function": "minecraft:enchant_randomly",
+                  "enchantments": [
+                    "minecraft:unbreaking"
+                  ]
                 }
             ]
           },
           {
             "type": "minecraft:item",
-            "weight": 1,
+            "weight": 2,
             "name": "minecraft:diamond_hoe",
             "functions": [
                 {
                   "function": "minecraft:set_nbt",
                   "tag": "{display:{Name:'{\"text\":\"Staff of Earth\",\"italic\":false}',Lore:['{\"text\":\"◇ Earth Sigil I\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"◇ Natural Armor I\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"When in Off Hand:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"+1 Casting Power\",\"color\":\"blue\",\"italic\":false}']},CustomModelData:333061,atrium_staff:1b,atrium_staff_lv:1b,atrium_earth_staff:1b,atrium_chargeable:1b,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:2,Operation:0,UUID:[I;637717026,1710441391,-1943706047,783506473],Slot:\"mainhand\"}]}"
+                },
+                {
+                  "function": "minecraft:enchant_randomly",
+                  "enchantments": [
+                    "minecraft:unbreaking"
+                  ]
                 }
               ]
           },
           {
             "type": "minecraft:item",
-            "weight": 1,
+            "weight": 2,
             "name": "minecraft:diamond_hoe",
             "functions": [
                 {
                     "function": "minecraft:set_nbt",
                     "tag": "{display:{Name:'{\"text\":\"Staff of Fire\",\"italic\":false}',Lore:['{\"text\":\"◇ Fire Sigil I\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"◇ Throw Flames I\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"When in Off Hand:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"+1 Casting Power\",\"color\":\"blue\",\"italic\":false}']},CustomModelData:333062,atrium_staff:1b,atrium_staff_lv:1b,atrium_fire_staff:1b,atrium_chargeable:1b,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:2,Operation:0,UUID:[I;637717026,1710441391,-1943706047,783506473],Slot:\"mainhand\"}]}"
+                },
+                {
+                  "function": "minecraft:enchant_randomly",
+                  "enchantments": [
+                    "minecraft:unbreaking"
+                  ]
                 }
             ]
           },
           {
             "type": "minecraft:item",
-            "weight": 1,
+            "weight": 2,
             "name": "minecraft:diamond_hoe",
             "functions": [
                 {
                     "function": "minecraft:set_nbt",
                     "tag": "{display:{Name:'{\"text\":\"Staff of Water\",\"italic\":false}',Lore:['{\"text\":\"◇ Water Sigil I\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"◇ Extinguish I\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"When in Off Hand:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"+1 Casting Power\",\"color\":\"blue\",\"italic\":false}']},CustomModelData:333063,atrium_staff:1b,atrium_staff_lv:1b,atrium_water_staff:1b,atrium_chargeable:1b,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:2,Operation:0,UUID:[I;637717026,1710441391,-1943706047,783506473],Slot:\"mainhand\"}]}"
+                },
+                {
+                  "function": "minecraft:enchant_randomly",
+                  "enchantments": [
+                    "minecraft:unbreaking"
+                  ]
                 }
             ]
           },
           {
             "type": "minecraft:item",
-            "weight": 1,
+            "weight": 2,
             "name": "minecraft:diamond_hoe",
             "functions": [
                 {
                     "function": "minecraft:set_nbt",
                     "tag": "{display:{Name:'{\"text\":\"Staff of Time\",\"italic\":false}',Lore:['{\"text\":\"◇ Time Sigil I\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"◇ Desync I\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"When in Off Hand:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"+1 Casting Power\",\"color\":\"blue\",\"italic\":false}']},CustomModelData:333064,atrium_staff:1b,atrium_staff_lv:1b,atrium_time_staff:1b,atrium_chargeable:1b,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:2,Operation:0,UUID:[I;637717026,1710441391,-1943706047,783506473],Slot:\"mainhand\"}]}"
+                },
+                {
+                  "function": "minecraft:enchant_randomly",
+                  "enchantments": [
+                    "minecraft:unbreaking"
+                  ]
                 }
             ]
           },
           {
             "type": "minecraft:item",
-            "weight": 1,
+            "weight": 2,
             "name": "minecraft:diamond_hoe",
             "functions": [
                 {
                     "function": "minecraft:set_nbt",
                     "tag": "{display:{Name:'{\"text\":\"Staff of Space\",\"italic\":false}',Lore:['{\"text\":\"◇ Space Sigil I\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"◇ Parallax I\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"When in Off Hand:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"+1 Casting Power\",\"color\":\"blue\",\"italic\":false}']},CustomModelData:333065,atrium_staff:1b,atrium_staff_lv:1b,atrium_space_staff:1b,atrium_chargeable:1b,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:2,Operation:0,UUID:[I;637717026,1710441391,-1943706047,783506473],Slot:\"mainhand\"}]}"
+                },
+                {
+                  "function": "minecraft:enchant_randomly",
+                  "enchantments": [
+                    "minecraft:unbreaking"
+                  ]
                 }
             ]
           },
