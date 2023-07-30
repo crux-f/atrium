@@ -1,0 +1,428 @@
+{
+    "__comment": "Granted when you have collected all runestones at least once",
+    "display": {
+        "title": {
+            "text": "Runekeeper",
+            "color": "white"
+        },
+        "description": {
+            "text": "Discover every Runestone",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:flint",
+            "nbt": "{CustomModelData:333128}"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+      "find_a": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "nbt": "{atrium_rune:a}"
+            }
+          ]
+        }
+      },
+      "find_b": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "nbt": "{atrium_rune:b}"
+            }
+          ]
+        }
+      },
+      "find_c": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "nbt": "{atrium_rune:c}"
+            }
+          ]
+        }
+      },
+      "find_d": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "nbt": "{atrium_rune:d}"
+            }
+          ]
+        }
+      },
+      "find_e": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "nbt": "{atrium_rune:e}"
+            }
+          ]
+        }
+      },
+      "find_f": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "nbt": "{atrium_rune:f}"
+            }
+          ]
+        }
+      },
+      "find_g": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "nbt": "{atrium_rune:g}"
+            }
+          ]
+        }
+      },
+      "find_h": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "nbt": "{atrium_rune:h}"
+            }
+          ]
+        }
+      },
+      "find_i": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "nbt": "{atrium_rune:i}"
+            }
+          ]
+        }
+      },
+      "find_j": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "nbt": "{atrium_rune:j}"
+            }
+          ]
+        }
+      },
+      "find_k": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "nbt": "{atrium_rune:k}"
+            }
+          ]
+        }
+      },
+      "find_l": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "nbt": "{atrium_rune:l}"
+            }
+          ]
+        }
+      },
+      "find_m": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "nbt": "{atrium_rune:m}"
+            }
+          ]
+        }
+      },
+      "find_n": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "nbt": "{atrium_rune:n}"
+            }
+          ]
+        }
+      },
+      "find_o": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "nbt": "{atrium_rune:o}"
+            }
+          ]
+        }
+      },
+      "find_p": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "nbt": "{atrium_rune:p}"
+            }
+          ]
+        }
+      },
+      "find_q": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "nbt": "{atrium_rune:q}"
+            }
+          ]
+        }
+      },
+      "find_r": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "nbt": "{atrium_rune:r}"
+            }
+          ]
+        }
+      },
+      "find_s": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "nbt": "{atrium_rune:s}"
+            }
+          ]
+        }
+      },
+      "find_t": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "nbt": "{atrium_rune:t}"
+            }
+          ]
+        }
+      },
+      "find_u": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "nbt": "{atrium_rune:u}"
+            }
+          ]
+        }
+      },
+      "find_v": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "nbt": "{atrium_rune:v}"
+            }
+          ]
+        }
+      },
+      "find_w": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "nbt": "{atrium_rune:w}"
+            }
+          ]
+        }
+      },
+      "find_x": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "nbt": "{atrium_rune:x}"
+            }
+          ]
+        }
+      },
+      "find_y": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "nbt": "{atrium_rune:y}"
+            }
+          ]
+        }
+      },
+      "find_z": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "nbt": "{atrium_rune:z}"
+            }
+          ]
+        }
+      },
+      "find_0": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "nbt": "{atrium_rune:0}"
+            }
+          ]
+        }
+      },
+      "find_1": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "nbt": "{atrium_rune:1}"
+            }
+          ]
+        }
+      },
+      "find_2": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "nbt": "{atrium_rune:2}"
+            }
+          ]
+        }
+      },
+      "find_3": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "nbt": "{atrium_rune:3}"
+            }
+          ]
+        }
+      },
+      "find_4": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "nbt": "{atrium_rune:4}"
+            }
+          ]
+        }
+      },
+      "find_5": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "nbt": "{atrium_rune:5}"
+            }
+          ]
+        }
+      },
+      "find_6": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "nbt": "{atrium_rune:6}"
+            }
+          ]
+        }
+      },
+      "find_7": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "nbt": "{atrium_rune:7}"
+            }
+          ]
+        }
+      },
+      "find_8": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "nbt": "{atrium_rune:8}"
+            }
+          ]
+        }
+      },
+      "find_9": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "nbt": "{atrium_rune:9}"
+            }
+          ]
+        }
+      },
+      "find_exclamation_mark": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "nbt": "{atrium_rune:exclamation_mark}"
+            }
+          ]
+        }
+      },
+      "find_comma": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "nbt": "{atrium_rune:find_comma}"
+            }
+          ]
+        }
+      },
+      "find_question_mark": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "nbt": "{atrium_rune:question_mark}"
+            }
+          ]
+        }
+      },
+      "find_period": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "nbt": "{atrium_rune:period}"
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+        "experience": 500
+      },
+    "parent": "atrium:abyss/deep_dive"
+  }
+  
