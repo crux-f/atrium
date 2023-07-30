@@ -17,7 +17,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:-0.5,Operation:0,UUID:[I;-1125725399,-1437776681,-1164730837,1642132160],Slot:\"offhand\"}]}"
+              "tag": "{AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:-0.5,Operation:1,UUID:[I;-1125725399,-1437776681,-1164730837,1642132160],Slot:\"offhand\"}]}"
             },
             {
               "function": "set_name",
@@ -361,10 +361,10 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "text": "The runes have desperately"
+                  "text": "The runes have been"
                 },
                 {
-                  "text": "scratched off."
+                  "text": "desperately scratched off."
                 }
               ]
             }

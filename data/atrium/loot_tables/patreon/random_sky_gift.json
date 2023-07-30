@@ -116,53 +116,29 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Grungy Greg\\'s Pick-Me-Up\",\"color\":\"aqua\",\"italic\":false}',Lore:['{\"text\":\"Feelin\\' Great (24:00)\",\"color\":\"blue\",\"italic\":false}']},HideFlags:32,atrium_grungy_greg_item:1b,CustomPotionEffects:[{Id:25,Amplifier:2b,Duration:400,ShowParticles:1b},{Id:28,Amplifier:0b,Duration:1200,ShowParticles:0b}],Potion:\"minecraft:empty\",CustomPotionColor:10420223}"
+              "tag": "{display:{Name:'{\"text\":\"Grungy Greg\\'s Pick-Me-Up\",\"color\":\"aqua\",\"italic\":false}',Lore:['{\"text\":\"Feelin\\' Great (24:00)\",\"color\":\"blue\",\"italic\":false}']},HideFlags:32,atrium_grungy_greg_item:1b,CustomPotionEffects:[{Id:25,Amplifier:2b,Duration:400,ShowParticles:1b},{Id:28,Amplifier:0b,Duration:1200,ShowParticles:0b}],Potion:\"minecraft:empty\",CustomPotionColor:10420223,CustomModelData:333067}"
             }
           ]
         },
         {
           "type": "loot_table",
-          "weight": 10,
-          "name": "minecraft:chests/village/village_armorer",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            }
-          ]
-        },
-        {
-          "type": "loot_table",
-          "weight": 10,
-          "name": "minecraft:chests/village/village_weaponsmith",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            }
-          ]
-        },
-        {
-          "type": "loot_table",
-          "weight": 10,
-          "name": "minecraft:chests/village/village_plains_house",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            }
-          ]
+          "weight": 8,
+          "name": "minecraft:chests/village/village_armorer"
         },
         {
           "type": "loot_table",
           "weight": 5,
-          "name": "atrium:overworld_vista",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            }
-          ]
+          "name": "minecraft:chests/village/village_weaponsmith"
+        },
+        {
+          "type": "loot_table",
+          "weight": 8,
+          "name": "minecraft:chests/village/village_plains_house"
+        },
+        {
+          "type": "loot_table",
+          "weight": 10,
+          "name": "atrium:overworld_vista"
         },
         {
           "type": "loot_table",

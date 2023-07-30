@@ -255,6 +255,20 @@
         },
         {
           "type": "item",
+          "weight": 5,
+          "name": "minecraft:chorus_fruit",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
           "weight": 10,
           "name": "minecraft:snowball",
           "functions": [
@@ -307,7 +321,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"pipis room\",\"italic\":false}'},BlockEntityTag:{Text1:'[{\"text\":\"p\",\"color\":\"#14FFEF\"},{\"text\":\"i\",\"color\":\"#17F0FF\"},{\"text\":\"p\",\"color\":\"#19D1FF\"},{\"text\":\"i\",\"color\":\"#19ABFF\"},{\"text\":\"s \",\"color\":\"#1985FF\"},{\"text\":\"r\",\"color\":\"#1F5AFF\"},{\"text\":\"o\",\"color\":\"#2643FF\"},{\"text\":\"o\",\"color\":\"#2323DE\"},{\"text\":\"m\",\"color\":\"#1C1CB0\"}]'}}"
+              "tag": "{display:{Name:'{\"text\":\"pipis room\",\"italic\":false}'},BlockEntityTag:{is_waxed:1b,front_text:{messages:['[{\"text\":\"p\",\"color\":\"#14FFEF\"},{\"text\":\"i\",\"color\":\"#17F0FF\"},{\"text\":\"p\",\"color\":\"#19D1FF\"},{\"text\":\"i\",\"color\":\"#19ABFF\"},{\"text\":\"s \",\"color\":\"#1985FF\"},{\"text\":\"r\",\"color\":\"#1F5AFF\"},{\"text\":\"o\",\"color\":\"#2643FF\"},{\"text\":\"o\",\"color\":\"#2323DE\"},{\"text\":\"m\",\"color\":\"#1C1CB0\"}]','{\"text\":\"\"}','{\"text\":\"\"}','{\"text\":\"\"}']}}}"
             }
           ]
         },
