@@ -6,8 +6,18 @@ function atrium:summon/sanctum/sleepwalker
 execute if predicate atrium:percentage_chances/0.50_p run function atrium:summon/sanctum/sleepwalker
 # 25% chance of a third one
 execute if predicate atrium:percentage_chances/0.25_p run function atrium:summon/sanctum/sleepwalker
-# 15% chance of one Sky Dancer if I can find it??
-execute if predicate atrium:percentage_chances/0.15_p run function atrium:summon/sanctum/risen_cloud_dancer
+# 25% chance of one Risen Cloud Dancer if I can find it??
+execute if predicate atrium:percentage_chances/0.25_p run function atrium:summon/sanctum/risen_cloud_dancer
+# 10% chance of one Risen Cloud Dancer if I can find it??
+execute if predicate atrium:percentage_chances/0.10_p run function atrium:summon/sanctum/risen_cloud_dancer
+# 100% if he is threat 9 or higher
+execute if score @s atrium_threat matches 9.. run function atrium:summon/sanctum/sleepwalker
+execute if score @s atrium_threat matches 9.. run function atrium:summon/sanctum/risen_cloud_dancer
+execute if score @s atrium_threat matches 9.. run function atrium:summon/sanctum/risen_cloud_dancer
+execute if score @s atrium_threat matches 9.. run function atrium:summon/sanctum/risen_cloud_dancer
+execute if score @s atrium_threat matches 9.. run function atrium:summon/sanctum/risen_cloud_dancer
+# If you get to threat 10, there is a 50% chance he uses the nuclear option.
+execute if score @s atrium_threat matches 12.. if predicate atrium:percentage_chances/0.50_p run function atrium:summon/sanctum/death_knight
 #
 # Particles
 function atrium:summon/summon_poof

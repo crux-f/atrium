@@ -38,7 +38,7 @@ execute if score @s charge matches 60.. if predicate atrium:percentage_chances/0
 # Priority 4: Teleport to Lair
 # 30% chance
 # Prerequisite: The Lich is not currently in its Lair
-execute if score @s charge matches 60.. unless entity @e[tag=atrium_sanctum_lair_tp,distance=..15] run function atrium:structures/sanctum/behavior_scripts/lich_roam_lair
+execute if score @s charge matches 60.. unless entity @e[tag=atrium_sanctum_lair_tp,distance=..5] run function atrium:structures/sanctum/behavior_scripts/lich_roam_lair
 #
 # Priority 5: Fizzle Spell
 # 50% chance
@@ -47,8 +47,8 @@ execute if score @s charge matches 60.. if entity @p[scores={charge=10..},predic
 #
 # Priority 6: Teleport out of Lair
 # 100% chance
-# Prerequisite: The Lich has been hit 5 times in quick succession (threat)
-execute if score @s charge matches 60.. if score @s atrium_threat matches 5.. run function atrium:structures/sanctum/behavior_scripts/lich_roam_not_lair
+# Prerequisite: The Lich has been hit 8 times in quick succession (threat)
+execute if score @s charge matches 60.. if score @s atrium_threat matches 6.. run function atrium:structures/sanctum/behavior_scripts/lich_roam_not_lair
 #
 # Movement Controller
 #
@@ -56,10 +56,13 @@ execute if score @s charge matches 60.. if score @s atrium_threat matches 5.. ru
 execute if score @s charge matches 60.. if predicate atrium:percentage_chances/0.25_p run data remove entity @s NoGravity
 #
 # Lich teleports more when threatened; Threat level has a 1% chance to decrease by 1 each tick.
-execute if predicate atrium:percentage_chances/0.01_p run scoreboard players remove @s atrium_threat 1
+execute if predicate atrium:percentage_chances/0.075_p if score @s atrium_threat matches -3.. run scoreboard players remove @s atrium_threat 1
 # If the Lich keeps taking shots at you without ever being hit, it returns to work.
-execute if predicate atrium:percentage_chances/0.01_p if score @s atrium_threat matches ..-15 run function atrium:structures/sanctum/behavior_scripts/lich_ignore
+# execute if predicate atrium:percentage_chances/0.01_p if score @s atrium_threat matches ..-15 run function atrium:structures/sanctum/behavior_scripts/lich_ignore
 # Lich occasionally flies around.
 # 1% up or down
 execute if predicate atrium:percentage_chances/0.005_p if data entity @s NoGravity run data merge entity @s {Motion:[0.0,0.1,0.0]}
 execute if predicate atrium:percentage_chances/0.005_p if data entity @s NoGravity run data merge entity @s {Motion:[0.0,-0.075,0.0]}
+#
+# Rapidly decrease searching score
+execute if score @s atrium_searching matches 1.. run scoreboard players remove @s atrium_searching 1

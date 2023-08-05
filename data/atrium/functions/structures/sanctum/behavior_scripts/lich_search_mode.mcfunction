@@ -2,8 +2,8 @@
 # - - - - -
 # Triggered by lich_manager once each tick.
 #
-# 1% chance to drink a Potion of Harming (if needed).
-execute if predicate atrium:percentage_chances/0.01_p unless data entity @s {Health:450f} run function atrium:structures/sanctum/behavior_scripts/drink_harming_potion
+# 0.05% chance to drink a Potion of Harming (if needed).
+execute if predicate atrium:percentage_chances/0.005_p unless data entity @s {Health:450f} run function atrium:structures/sanctum/behavior_scripts/drink_harming_potion
 # 25% chance to drink a Potion of Fire Resistance (if needed).
 execute if predicate atrium:percentage_chances/0.25_p unless predicate atrium:effects/if_fire_resistance_any run function atrium:structures/sanctum/behavior_scripts/drink_fire_res_potion
 # 25% chance to charge up for an idle spell (Unless the Lich is already at 61 or higher)
@@ -18,8 +18,8 @@ execute if score @s charge matches 60.. if predicate atrium:percentage_chances/0
 #
 # 6% chance to teleport to another point within the Lich's lair (if able)
 execute if score @s charge matches 60.. if predicate atrium:percentage_chances/0.06_p run function atrium:structures/sanctum/behavior_scripts/lich_roam_lair
-# 15% chance to teleport to a point outside the lair (if able)
-execute if score @s charge matches 60.. if predicate atrium:percentage_chances/0.15_p run function atrium:structures/sanctum/behavior_scripts/lich_roam
+# 15% chance to teleport to a point outside the lair if he has been searching for more than 90 seconds
+execute if score @s charge matches 60.. if predicate atrium:percentage_chances/0.15_p if score @s atrium_searching matches 1800.. run function atrium:structures/sanctum/behavior_scripts/lich_roam
 #
 # The Lich has a flat 5% chance to summon minions anywhere in the Sanctum that doesn't already have them.
 execute if score @s charge matches 60.. if predicate atrium:percentage_chances/0.05_p at @e[tag=atrium_sanctum_tp,limit=1,sort=arbitrary] unless entity @e[tag=atrium_sanctum_minion,distance=..25] run function atrium:entities/mob_spells/lich_summon
@@ -32,5 +32,7 @@ execute store result bossbar atrium:lich value run data get entity @e[tag=atrium
 # Each tick that the Lich is searching (but not in combat), add 1 to its atrium_searching score. Once it has been searching for 3 minutes (3600 ticks),
 # it will return to idle mode.
 scoreboard players add @s atrium_searching 1
+# Lich teleports more when threatened; Threat level has a 1% chance to decrease by 1 each tick.
+execute if predicate atrium:percentage_chances/0.05_p if score @s atrium_threat matches 3.. run scoreboard players remove @s atrium_threat 1
 execute if score @s atrium_searching matches 3600.. run tag @s remove atrium_alerted
 execute if score @s atrium_searching matches 3600.. run scoreboard players reset @s atrium_searching
