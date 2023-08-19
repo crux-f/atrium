@@ -1,0 +1,1 @@
+tellraw @a[tag=event] ["",{"text":"\u2191 Travel to the peak of ","color":"green"},{"text":"Mount Ikar","color":"yellow","hoverEvent":{"action":"show_text","contents":"X = -12289 Y = 268 Z = -9873"}},{"text":".","color":"green"},{"text":"\n"},{"text":" \u0020\u25b6 (Tip: Use the Event Gate in the Admin Shop to fast travel.)","italic":true,"color":"gray"}]

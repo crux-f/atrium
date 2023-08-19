@@ -1,0 +1,32 @@
+{
+    "__comment": "The second event of Apotheosis. 08/05/2023.",
+    "display": {
+        "title": {
+            "text": "Taking Flight",
+            "color": "white",
+            "bold": false
+        },
+        "description": {
+            "text": "Apotheosis II - August 5th, 2023",
+            "color": "green",
+            "italic": true
+        },
+        "icon": {
+            "item": "minecraft:soul_lantern"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "taking_flight": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+		"experience": 100,
+	    "function": "atrium_events:series_grant/apotheosis"
+	},
+        "parent": "atrium_events:iteration4_events/an_unpleasant_reunion"
+}

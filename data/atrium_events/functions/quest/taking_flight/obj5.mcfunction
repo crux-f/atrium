@@ -1,0 +1,1 @@
+tellraw @a[tag=event] ["",{"text":"\u2714 Travel to the peak of Mount Ikar.\n\u2714 Approach the Cloud-Dancer Monastery.\n\u2714 What happened here? Investigate the fallen monastery.\n\u2714 Defeat the Lich.","color":"dark_green"},{"text":"\n"},{"text":"\u06de Use the Rite of Ascension to repair the Corrupted Wings.","color":"light_purple"}]

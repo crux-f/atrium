@@ -112,3 +112,8 @@ team modify atrium_glow_yellow color yellow
 bossbar add atrium:lich {"text":"Lich","color":"dark_purple"}
 bossbar set atrium:lich max 450
 bossbar set atrium:lich color blue
+#
+# EVENTS
+#
+scoreboard objectives add event_misc dummy {"text":"Event Misc","color":"light_purple"}
+scoreboard objectives add builder_last_mode dummy {"text":"Last Gamemode","color":"white"}

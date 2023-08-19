@@ -1,0 +1,1 @@
+tellraw @a[tag=event] ["",{"text":"\u2714 Travel to the peak of Mount Ikar.","color":"dark_green"},{"text":"\n"},{"text":"\u2690 Approach the Cloud-Dancer Monastery. ","color":"green"}]

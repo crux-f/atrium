@@ -1,0 +1,46 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:placed_block",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "offhand": {
+                    "nbt": "{atrium_rod_of_assembly:1b}"
+                  },
+                  "mainhand": {
+                    "tag": "atrium:efficient_building_blocks",
+                    "count": {
+                      "min": 2
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "location": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "tag": "atrium:efficient_building_blocks"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "atrium:triggers/items/rod_of_assembly"
+    }
+  }
+  
