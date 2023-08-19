@@ -16,32 +16,27 @@
               "type": "minecraft:item",
               "conditions": [
                 {
-                  "condition": "minecraft:match_tool",
-                  "predicate": {
-                    "nbt": "{atrium_smelting_enchanted:1b}"
-                  }
-                }
-              ],
-              "name": "minecraft:smooth_sandstone"
-            },
-            {
-              "type": "minecraft:item",
-              "conditions": [
-                {
                   "condition": "minecraft:reference",
                   "name": "atrium:player/inventory/holding_crushing_tool"
                 }
               ],
-              "name": "minecraft:sand"
+              "functions": [
+                {
+                  "function": "set_count",
+                  "count": 9
+                }
+              ],
+              "name": "minecraft:netherite_ingot"
             },
             {
               "type": "minecraft:item",
-              "name": "minecraft:sandstone"
+              "name": "minecraft:netherite_block"
             }
           ]
         }
       ],
       "rolls": 1.0
     }
-  ]
+  ],
+  "random_sequence": "minecraft:blocks/netherite_block"
 }

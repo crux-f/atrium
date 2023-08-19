@@ -22,7 +22,7 @@
                   }
                 }
               ],
-              "name": "minecraft:smooth_sandstone"
+              "name": "minecraft:cracked_deepslate_tiles"
             },
             {
               "type": "minecraft:item",
@@ -32,11 +32,16 @@
                   "name": "atrium:player/inventory/holding_crushing_tool"
                 }
               ],
-              "name": "minecraft:sand"
+              "name": "minecraft:cracked_deepslate_tiles"
             },
             {
               "type": "minecraft:item",
-              "name": "minecraft:sandstone"
+              "functions": [
+                {
+                  "function": "minecraft:explosion_decay"
+                }
+              ],
+              "name": "minecraft:deepslate_tiles"
             }
           ]
         }
