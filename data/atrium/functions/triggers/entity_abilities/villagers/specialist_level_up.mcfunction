@@ -23,4 +23,4 @@ execute if data entity @s {VillagerData:{level:4}} if data entity @s {Xp:249} ru
 execute if data entity @s {VillagerData:{level:4}} if data entity @s {Xp:249} run data modify entity @s VillagerData.level set value 5
 #
 # Swap all the items out for new trades
-execute run function atrium:triggers/entity_abilities/villagers/new_trade_swap
+function atrium:triggers/entity_abilities/villagers/new_trade_swap

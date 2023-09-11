@@ -1,0 +1,179 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "name": "atrium:technical/specialists/tinker_new_trade",
+            "conditions": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "nbt": "{Tags:[\"atrium_specialist_tinker\"]}"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "atrium:technical/specialists/chef_new_trade",
+            "conditions": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "nbt": "{Tags:[\"atrium_specialist_chef\"]}"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "atrium:technical/specialists/collector_new_trade",
+            "conditions": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "nbt": "{Tags:[\"atrium_specialist_collector\"]}"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "atrium:technical/specialists/alienist_new_trade",
+            "conditions": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "nbt": "{Tags:[\"atrium_specialist_alienist\"]}"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "atrium:technical/specialists/beekeeper_new_trade",
+            "conditions": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "nbt": "{Tags:[\"atrium_specialist_beekeeper\"]}"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "atrium:technical/specialists/merchant_new_trade",
+            "conditions": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "nbt": "{Tags:[\"atrium_specialist_merchant\"]}"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "atrium:technical/specialists/hunter_new_trade",
+            "conditions": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "nbt": "{Tags:[\"atrium_specialist_hunter\"]}"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "atrium:technical/specialists/alchemist_new_trade",
+            "conditions": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "nbt": "{Tags:[\"atrium_specialist_alchemist\"]}"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "atrium:technical/specialists/enchanter_new_trade",
+            "conditions": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "nbt": "{Tags:[\"atrium_specialist_enchanter\"]}"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "atrium:technical/specialists/engineer_new_trade",
+            "conditions": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "nbt": "{Tags:[\"atrium_specialist_engineer\"]}"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "atrium:technical/specialists/artist_new_trade",
+            "conditions": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "nbt": "{Tags:[\"atrium_specialist_artist\"]}"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "atrium:technical/specialists/architect_new_trade",
+            "conditions": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "nbt": "{Tags:[\"atrium_specialist_architect\"]}"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "atrium:technical/specialists/warrior_new_trade",
+            "conditions": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "nbt": "{Tags:[\"atrium_specialist_warrior\"]}"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -484,6 +484,9 @@
                 ]
               }
             ]
+          },
+          {
+            "type": "minecraft:empty"
           }
         ]
       }

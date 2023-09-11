@@ -467,13 +467,16 @@
                       "condition": "minecraft:entity_properties",
                       "entity": "this",
                       "predicate": {
-                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:goat_horn\",Count:1b,tag:{display:{Name:'{\"text\":\"Horn of Valor\",\"color\":\"yellow\",\"italic\":false}',Lore:['{\"text\":\" \"}','{\"text\":\"When used:\",\"color\":\"dark_purple\",\"italic\":false}','{\"text\":\"Resistance I (00:25)\",\"color\":\"blue\",\"italic\":false}','{\"text\":\"to nearby allies\",\"color\":\"blue\",\"italic\":false}']},atrium_horn_of_valor:1b,Enchantments:[{}],instrument:\"minecraft:sing_goat_horn\"}}}]}}"
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:goat_horn\",Count:1b,tag:{display:{Name:'{\"text\":\"Horn of Valor\",\"color\":\"yellow\",\"italic\":false}',Lore:['{\"text\":\" \"}','{\"text\":\"When used:\",\"color\":\"dark_purple\",\"italic\":false}','{\"text\":\"Absorption I (00:25)\",\"color\":\"blue\",\"italic\":false}','{\"text\":\"to nearby allies\",\"color\":\"blue\",\"italic\":false}']},atrium_horn_of_valor:1b,Enchantments:[{}],instrument:\"minecraft:sing_goat_horn\"}}}]}}"
                       }
                     }
                   }
                 ]
               }
             ]
+          },
+          {
+            "type": "minecraft:empty"
           }
         ]
       }

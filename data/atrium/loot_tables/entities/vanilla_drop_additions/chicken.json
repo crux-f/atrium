@@ -65,7 +65,7 @@
 				},
 				{
 					"type": "item",
-					"weight": 6,
+					"weight": 3,
 					"quality": 1,
 					"name": "minecraft:feather",
 					"functions": [

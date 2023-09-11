@@ -26,7 +26,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{enderman_trophy:1b,SkullOwner:\"MHF_Enderman\"}"
+              "tag": "{atrium_enderman_trophy:1b,SkullOwner:\"MHF_Enderman\"}"
             },
             {
               "function": "set_name",

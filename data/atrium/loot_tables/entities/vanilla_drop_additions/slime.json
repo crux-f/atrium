@@ -30,7 +30,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{slime_trophy:1b,SkullOwner:\"MHF_Slime\"}"
+              "tag": "{atrium_slime_trophy:1b,SkullOwner:\"MHF_Slime\"}"
             },
             {
               "function": "set_name",

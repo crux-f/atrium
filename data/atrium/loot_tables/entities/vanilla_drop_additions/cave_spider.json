@@ -32,7 +32,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{cave_spider_trophy:1b,SkullOwner:\"MHF_CaveSpider\"}"
+              "tag": "{atrium_cave_spider_trophy:1b,SkullOwner:\"MHF_CaveSpider\"}"
             },
             {
               "function": "set_name",

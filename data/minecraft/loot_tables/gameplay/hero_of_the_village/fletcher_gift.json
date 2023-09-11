@@ -23,13 +23,13 @@
         },
         {
           "type": "minecraft:loot_table",
-          "name": "atrium:gameplay/hero_of_the_village/specialist_scout_gift",
+          "name": "atrium:gameplay/hero_of_the_village/specialist_hunter_gift",
           "conditions": [
             {
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "nbt": "{Tags:[\"atrium_specialist_scout\"]}"
+                "nbt": "{Tags:[\"atrium_specialist_hunter\"]}"
               }
             }
           ]

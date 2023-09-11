@@ -30,7 +30,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{blaze_trophy:1b,SkullOwner:\"MHF_Blaze\"}"
+              "tag": "{atrium_blaze_trophy:1b,SkullOwner:\"MHF_Blaze\"}"
             },
             {
               "function": "set_name",

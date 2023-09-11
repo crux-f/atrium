@@ -1,0 +1,17 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "equipment": {
+        "mainhand": {
+          "nbt": "{atrium_hammer:1b}"
+        },
+        "offhand": {
+          "items": [
+            "minecraft:air"
+          ]
+        }
+      }
+    }
+  }
+  

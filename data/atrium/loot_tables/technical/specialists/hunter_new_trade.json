@@ -1,0 +1,334 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": 1,
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "weight": 10,
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{atrium_specialist_trade:1,atrium_sell_3_lead:1}"
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "atrium:entity/villager/is_level_1"
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:lead\",Count:3b}}]}}"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "weight": 10,
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{atrium_specialist_trade:1,atrium_buy_1_chow:1}"
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "atrium:entity/villager/is_level_1"
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:rotten_flesh\",Count:1b,tag:{display:{Name:'{\"text\":\"Chow\",\"italic\":false}',Lore:['{\"text\":\" \"}','{\"text\":\"When Fed to a Wolf:\",\"color\":\"dark_purple\",\"italic\":false}','{\"text\":\"Regeneration (5:00)\",\"color\":\"blue\",\"italic\":false}']},CustomModelData:333149,atrium_chow:1b}}}]}}"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "weight": 10,
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{atrium_specialist_trade:1,atrium_sell_1_name_tag:1}"
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "atrium:entity/villager/is_level_1"
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:name_tag\",Count:1b}}]}}"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "weight": 10,
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{atrium_specialist_trade:1,atrium_buy_1_rabbit_hide:1}"
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "atrium:entity/villager/is_level_1"
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:rabbit_hide\",Count:1b}}]}}"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "weight": 10,
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{atrium_specialist_trade:1,atrium_sell_1_skeleton_trophy:1}"
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "atrium:entity/villager/is_level_2"
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:skeleton_skull\",Count:1b,tag:{atrium_skeleton_trophy:1b,display:{Lore:['{\"italic\":false,\"color\":\"gray\",\"text\":\"Skeleton\"}'],Name:'{\"italic\":false,\"color\":\"yellow\",\"text\":\"Hunting Trophy\"}'}}}}]}}"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "weight": 10,
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{atrium_specialist_trade:1,atrium_buy_1_hunting_bow:1}"
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "atrium:entity/villager/is_level_2"
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:bow\",Count:1b,tag:{display:{Name:'{\"text\":\"Hunting Bow\",\"italic\":false}',Lore:['{\"text\":\"Unrepairable\",\"color\":\"gray\",\"italic\":false}']},RepairCost:99,atrium_hunting_bow:1b,Enchantments:[{id:\"minecraft:looting\",lvl:1s},{id:\"minecraft:unbreaking\",lvl:2s}]}}}]}}"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "weight": 10,
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{atrium_specialist_trade:1,atrium_sell_8_porkchop:1}"
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "atrium:entity/villager/is_level_2"
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:porkchop\",Count:8b}}]}}"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "weight": 10,
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{atrium_specialist_trade:1,atrium_buy_1_hunters_bow:1}"
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "atrium:entity/villager/is_level_3"
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:bow\",Count:1b,tag:{display:{Name:'{\"text\":\"Hunting Bow\",\"italic\":false}'},atrium_hunting_bow:1b,Enchantments:[{id:\"minecraft:looting\",lvl:1s},{id:\"minecraft:unbreaking\",lvl:3s}]}}}]}}"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "weight": 10,
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{atrium_specialist_trade:1,atrium_buy_1_bayonet_crossbow:1}"
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "atrium:entity/villager/is_level_3"
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:crossbow\",Count:1b,tag:{display:{Name:'{\"text\":\"Bayonet Crossbow\",\"italic\":false}',Lore:['{\"text\":\" \"}','{\"text\":\"When in Main Hand:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" 5 Attack Damage\",\"color\":\"dark_green\",\"italic\":false}','{\"text\":\" 1.2 Attack Speed\",\"color\":\"dark_green\",\"italic\":false}']},HideFlags:2,CustomModelData:333153,atrium_bayonet_crossbow:1b,AttributeModifiers:[{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-2.8,Operation:0,UUID:[I;341197882,1074611393,-1242082731,-1760023405],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:5,Operation:0,UUID:[I;-1749664065,1099843109,-1511384062,-1868339374],Slot:\"mainhand\"}]}}}]}}"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "weight": 10,
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{atrium_specialist_trade:1,atrium_buy_1_travelers_best_friend_formula:1}"
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "atrium:entity/villager/is_level_4"
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:written_book\",Count:1b,tag:{pages:['[\"\",{\"text\":\"Hunting\\\\n\"},{\"text\":\"Infusion Formula\\\\n[Enchantment]\",\"color\":\"gray\"},{\"text\":\"\\\\n\\\\n          x\\\\n       x  \",\"color\":\"reset\"},{\"text\":\"#\",\"color\":\"dark_green\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"7\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Hunting Trophy [Zombie] (click to see the item entry on pg. 7)\"}},{\"text\":\"  x\\\\n    x  \",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Rotten Flesh\"}},{\"text\":\"  \",\"color\":\"green\"},{\"text\":\"!\",\"color\":\"red\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Requires an unenchanted Wolf within 10 blocks\"}},{\"text\":\"  \",\"color\":\"green\"},{\"text\":\"<\",\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Rotten Flesh\"}},{\"text\":\"  x\\\\n       x  \",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"gray\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Infusion Catalyst [Harmonizing]\"}},{\"text\":\"  x\\\\n          x\",\"color\":\"reset\"}]','[\"\",{\"text\":\"Hunting\\\\n\"},{\"text\":\"[Enchantment Entry]\",\"color\":\"gray\"},{\"text\":\"\\\\nA wolf enchanted with Hunting gains a permanent \",\"color\":\"reset\"},{\"text\":\"+7 Armor\",\"color\":\"blue\"},{\"text\":\" and \",\"color\":\"reset\"},{\"text\":\"+2 Attack Damage\",\"color\":\"blue\"},{\"text\":\".\\\\nAdditionally, the wolf\\'s attacks gain the effects of the \",\"color\":\"reset\"},{\"text\":\"Looting I\",\"color\":\"gray\"},{\"text\":\" enchantment.\",\"color\":\"reset\"}]','[\"\",{\"text\":\"Ricochet Pelt\\\\n\"},{\"text\":\"Infusion Formula\\\\n[Enchantment]\",\"color\":\"gray\"},{\"text\":\"\\\\n\\\\n          x\\\\n       x  \",\"color\":\"reset\"},{\"text\":\"#\",\"color\":\"dark_gray\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"7\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Hunting Trophy [Skeleton] (click to see the item entry on pg. 7)\"}},{\"text\":\"  x\\\\n    x  \",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"dark_gray\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Bone\"}},{\"text\":\"  \",\"color\":\"green\"},{\"text\":\"!\",\"color\":\"red\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Requires an unenchanted Wolf within 10 blocks\"}},{\"text\":\"  \",\"color\":\"green\"},{\"text\":\"<\",\"color\":\"dark_gray\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Bone\"}},{\"text\":\"  x\\\\n       x  \",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"gray\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Infusion Catalyst [Harmonizing]\"}},{\"text\":\"  x\\\\n          x\",\"color\":\"reset\"}]','[\"\",{\"text\":\"Ricochet Pelt\\\\n\"},{\"text\":\"[Enchantment Entry]\",\"color\":\"gray\"},{\"text\":\"\\\\nA wolf enchanted with Ricochet Pelt gains a permanent \",\"color\":\"reset\"},{\"text\":\"+15 Armor\",\"color\":\"blue\"},{\"text\":\" and the effects of the \",\"color\":\"reset\"},{\"text\":\"Projectile Protection IV\",\"color\":\"gray\"},{\"text\":\" enchantment.\",\"color\":\"reset\"}]','[\"\",{\"text\":\"Hunting\\\\n\"},{\"text\":\"Infusion Formula\\\\n[Enchantment]\",\"color\":\"gray\"},{\"text\":\"\\\\n\\\\n          x\\\\n       x  \",\"color\":\"reset\"},{\"text\":\"#\",\"color\":\"#503636\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"7\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Hunting Trophy [Spider] (click to see the item entry on pg. 7)\"}},{\"text\":\"  x\\\\n    x  \",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"red\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Spider Eye\"}},{\"text\":\"  \",\"color\":\"green\"},{\"text\":\"!\",\"color\":\"red\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Requires an unenchanted Wolf within 10 blocks\"}},{\"text\":\"  \",\"color\":\"green\"},{\"text\":\"<\",\"color\":\"red\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Spider Eye\"}},{\"text\":\"  x\\\\n       x  \",\"color\":\"reset\"},{\"text\":\"^\",\"color\":\"gray\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Infusion Catalyst [Harmonizing]\"}},{\"text\":\"  x\\\\n          x\\\\n \",\"color\":\"reset\"}]','[\"\",{\"text\":\"Tracking\\\\n\"},{\"text\":\"[Enchantment Entry]\",\"color\":\"gray\"},{\"text\":\"\\\\nA wolf enchanted with Tracking gains a permanent \",\"color\":\"reset\"},{\"text\":\"+7 Armor\",\"color\":\"blue\"},{\"text\":\" and \",\"color\":\"reset\"},{\"text\":\"+30% Movement Speed\",\"color\":\"blue\"},{\"text\":\".\",\"color\":\"reset\"}]','[\"\",{\"text\":\"Hunting Trophy\\\\n\"},{\"text\":\"[Item Entry]\",\"color\":\"gray\"},{\"text\":\"\\\\nHunting Trophies will occasionally drop from mobs killed by Wolves.\",\"color\":\"reset\"}]'],title:\"✦ Traveler's Best Friend\",author:\"???\",generation:1,CustomModelData:333000,HideFlags:32,display:{Lore:['{\"italic\":false,\"underlined\":true,\"color\":\"gray\",\"text\":\"Infusion Circle Formulas:\"}','{\"italic\":false,\"color\":\"gray\",\"text\":\"[Enchantment] Hunting\"}','{\"italic\":false,\"color\":\"gray\",\"text\":\"[Enchantment] Ricochet Pelt\"}','{\"italic\":false,\"color\":\"gray\",\"text\":\"[Enchantment] Tracking\"}'],Name:'{\"italic\":false,\"text\":\"✦ Traveler\\'s Best Friend\"}'}}}}]}}"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:empty"
+          }
+        ]
+      }
+    ]
+  }

@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "empty",
-          "weight": 10,
+          "weight": 8,
           "quality": -5
         },
         {
@@ -30,7 +30,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{spider_trophy:1b,SkullOwner:\"MHF_Spider\"}"
+              "tag": "{atrium_spider_trophy:1b,SkullOwner:\"MHF_Spider\"}"
             },
             {
               "function": "set_name",
