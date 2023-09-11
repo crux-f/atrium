@@ -21,3 +21,4 @@ execute if data entity @s {Inventory:[{tag:{atrium_buy_1_pasta:1}}]} run data mo
 execute if data entity @s {Inventory:[{tag:{atrium_buy_1_taffy:1}}]} run data modify entity @s Offers.Recipes append value {rewardExp:1b,maxUses:6,xp:4,priceMultiplier:0.05f,buy:{id:"minecraft:emerald",Count:6b},sell:{id:"minecraft:cookie",Count:2b,tag:{display:{Name:'{"text":"Taffy","italic":false}'},CustomModelData:333154,atrium_taffy:1b}}}
 # Level 5
 execute if data entity @s {Inventory:[{tag:{atrium_buy_1_cake:1}}]} run data modify entity @s Offers.Recipes append value {rewardExp:1b,maxUses:1,xp:4,priceMultiplier:0.05f,buy:{id:"minecraft:emerald",Count:12b},sell:{id:"minecraft:cake",Count:1b}}
+execute if data entity @s {Inventory:[{tag:{atrium_buy_1_golden_apple:1}}]} run data modify entity @s Offers.Recipes append value {rewardExp:1b,maxUses:3,xp:4,priceMultiplier:0.05f,buy:{id:"minecraft:emerald",Count:24b},sell:{id:"minecraft:golden_apple",Count:1b}}

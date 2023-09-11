@@ -7,23 +7,81 @@
         "entries": [
           {
             "type": "item",
-            "weight": 2,
-            "quality": 1,
-            "name": "minecraft:cake",
-            "functions": [
-              {
-                "function": "set_count",
-                "count": 1
-              },
-              {
-                "function": "set_name",
-                "name": [
-                  {
-                    "text": "test test test"
-                  }
-                ]
-              }
-            ]
+            "weight": 10,
+            "quality": 0,
+            "name": "minecraft:bread"
+          },
+          {
+            "type": "item",
+            "weight": 10,
+            "quality": 0,
+            "name": "minecraft:sweet_berries"
+          },
+          {
+            "type": "item",
+            "weight": 10,
+            "quality": 0,
+            "name": "minecraft:glow_berries"
+          },
+          {
+            "type": "item",
+            "weight": 10,
+            "quality": 0,
+            "name": "minecraft:cooked_porkchop"
+          },
+          {
+            "type": "item",
+            "weight": 10,
+            "quality": 0,
+            "name": "minecraft:cooked_beef"
+          },
+          {
+            "type": "item",
+            "weight": 10,
+            "quality": 0,
+            "name": "minecraft:cooked_rabbit"
+          },
+          {
+            "type": "item",
+            "weight": 10,
+            "quality": 0,
+            "name": "minecraft:cooked_mutton"
+          },
+          {
+            "type": "item",
+            "weight": 10,
+            "quality": 0,
+            "name": "minecraft:cooked_cod"
+          },
+          {
+            "type": "item",
+            "weight": 10,
+            "quality": 0,
+            "name": "minecraft:cooked_salmon"
+          },
+          {
+            "type": "item",
+            "weight": 10,
+            "quality": 0,
+            "name": "minecraft:carrot"
+          },
+          {
+            "type": "item",
+            "weight": 10,
+            "quality": 0,
+            "name": "minecraft:baked_potato"
+          },
+          {
+            "type": "item",
+            "weight": 5,
+            "quality": 2,
+            "name": "minecraft:golden_carrot"
+          },
+          {
+            "type": "item",
+            "weight": 3,
+            "quality": 2,
+            "name": "minecraft:golden_apple"
           }
         ]
       }

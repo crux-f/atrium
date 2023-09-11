@@ -7,23 +7,45 @@
         "entries": [
           {
             "type": "item",
-            "weight": 2,
+            "weight": 10,
+            "quality": 0,
+            "name": "minecraft:blaze_powder"
+          },
+          {
+            "type": "item",
+            "weight": 10,
+            "quality": 0,
+            "name": "minecraft:redstone"
+          },
+          {
+            "type": "item",
+            "weight": 10,
+            "quality": 2,
+            "name": "minecraft:glowstone_dust"
+          },
+          {
+            "type": "item",
+            "weight": 10,
             "quality": 1,
-            "name": "minecraft:cake",
-            "functions": [
-              {
-                "function": "set_count",
-                "count": 1
-              },
-              {
-                "function": "set_name",
-                "name": [
-                  {
-                    "text": "test test test"
-                  }
-                ]
-              }
-            ]
+            "name": "minecraft:gunpowder"
+          },
+          {
+            "type": "item",
+            "weight": 10,
+            "quality": 0,
+            "name": "minecraft:sugar"
+          },
+          {
+            "type": "item",
+            "weight": 10,
+            "quality": -2,
+            "name": "minecraft:stick"
+          },
+          {
+            "type": "item",
+            "weight": 10,
+            "quality": 0,
+            "name": "minecraft:glass_bottle"
           }
         ]
       }

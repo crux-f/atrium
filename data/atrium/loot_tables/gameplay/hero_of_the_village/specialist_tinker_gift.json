@@ -7,23 +7,41 @@
         "entries": [
           {
             "type": "item",
-            "weight": 2,
-            "quality": 1,
-            "name": "minecraft:cake",
+            "weight": 10,
+            "quality": 0,
+            "name": "minecraft:poppy"
+          },
+          {
+            "type": "item",
+            "weight": 10,
+            "quality": 0,
+            "name": "minecraft:dandelion"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:iron_nugget",
+            "weight": 10,
             "functions": [
               {
                 "function": "set_count",
-                "count": 1
-              },
-              {
-                "function": "set_name",
-                "name": [
-                  {
-                    "text": "test test test"
-                  }
-                ]
+                "count": {
+                  "min": 1,
+                  "max": 4
+                }
               }
             ]
+          },
+          {
+            "type": "item",
+            "weight": 5,
+            "quality": 0,
+            "name": "minecraft:pumpkin"
+          },
+          {
+            "type": "item",
+            "weight": 10,
+            "quality": 0,
+            "name": "minecraft:clay_ball"
           }
         ]
       }

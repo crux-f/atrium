@@ -7,23 +7,207 @@
         "entries": [
           {
             "type": "item",
-            "weight": 2,
-            "quality": 1,
-            "name": "minecraft:cake",
+            "weight": 16,
+            "quality": 2,
+            "name": "minecraft:stone_pickaxe",
             "functions": [
               {
-                "function": "set_count",
-                "count": 1
-              },
-              {
-                "function": "set_name",
-                "name": [
-                  {
-                    "text": "test test test"
-                  }
-                ]
+                "function": "set_nbt",
+                "tag": "{Name:'{\"text\":\"Stone Hammer\",\"italic\":false}',Lore:['{\"text\":\" \"}','{\"text\":\"When in Main Hand:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" 5 Attack Damage\",\"color\":\"dark_green\",\"italic\":false}','{\"text\":\" 1.2 Attack Speed\",\"color\":\"dark_green\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"When in Both Hands:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"Crushes Blocks\",\"color\":\"blue\",\"italic\":false}']},HideFlags:2,CustomModelData:333143,atrium_hammer:1b,atrium_stone_hammer:1b,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:5,Operation:0,UUID:[I;116955196,760695514,-1418748397,-607753438],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-2.8,Operation:0,UUID:[I;972577395,-100775099,-1248507235,-1301602438],Slot:\"mainhand\"}]}"
               }
             ]
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "quality": 0,
+            "name": "minecraft:white_concrete"
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "quality": 0,
+            "name": "minecraft:light_gray_concrete"
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "quality": 0,
+            "name": "minecraft:gray_concrete"
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "quality": 0,
+            "name": "minecraft:black_concrete"
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "quality": 0,
+            "name": "minecraft:brown_concrete"
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "quality": 0,
+            "name": "minecraft:red_concrete"
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "quality": 0,
+            "name": "minecraft:orange_concrete"
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "quality": 0,
+            "name": "minecraft:yellow_concrete"
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "quality": 0,
+            "name": "minecraft:lime_concrete"
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "quality": 0,
+            "name": "minecraft:green_concrete"
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "quality": 0,
+            "name": "minecraft:cyan_concrete"
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "quality": 0,
+            "name": "minecraft:light_blue_concrete"
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "quality": 0,
+            "name": "minecraft:blue_concrete"
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "quality": 0,
+            "name": "minecraft:purple_concrete"
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "quality": 0,
+            "name": "minecraft:magenta_concrete"
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "quality": 0,
+            "name": "minecraft:pink_concrete"
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "quality": -1,
+            "name": "minecraft:white_concrete_powder"
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "quality": -1,
+            "name": "minecraft:light_gray_concrete_powder"
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "quality": -1,
+            "name": "minecraft:gray_concrete_powder"
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "quality": -1,
+            "name": "minecraft:black_concrete_powder"
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "quality": -1,
+            "name": "minecraft:brown_concrete_powder"
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "quality": -1,
+            "name": "minecraft:red_concrete_powder"
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "quality": -1,
+            "name": "minecraft:orange_concrete_powder"
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "quality": -1,
+            "name": "minecraft:yellow_concrete_powder"
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "quality": -1,
+            "name": "minecraft:lime_concrete_powder"
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "quality": -1,
+            "name": "minecraft:green_concrete_powder"
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "quality": -1,
+            "name": "minecraft:cyan_concrete_powder"
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "quality": -1,
+            "name": "minecraft:light_blue_concrete_powder"
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "quality": -1,
+            "name": "minecraft:blue_concrete_powder"
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "quality": -1,
+            "name": "minecraft:purple_concrete_powder"
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "quality": -1,
+            "name": "minecraft:magenta_concrete_powder"
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "quality": -1,
+            "name": "minecraft:pink_concrete_powder"
           }
         ]
       }

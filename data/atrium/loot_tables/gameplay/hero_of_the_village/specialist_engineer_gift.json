@@ -7,23 +7,27 @@
         "entries": [
           {
             "type": "item",
-            "weight": 2,
-            "quality": 1,
-            "name": "minecraft:cake",
-            "functions": [
-              {
-                "function": "set_count",
-                "count": 1
-              },
-              {
-                "function": "set_name",
-                "name": [
-                  {
-                    "text": "test test test"
-                  }
-                ]
-              }
-            ]
+            "weight": 10,
+            "quality": -2,
+            "name": "minecraft:redstone"
+          },
+          {
+            "type": "item",
+            "weight": 10,
+            "quality": 0,
+            "name": "minecraft:redstone_torch"
+          },
+          {
+            "type": "item",
+            "weight": 10,
+            "quality": -5,
+            "name": "minecraft:string"
+          },
+          {
+            "type": "item",
+            "weight": 3,
+            "quality": 2,
+            "name": "minecraft:repeater"
           }
         ]
       }

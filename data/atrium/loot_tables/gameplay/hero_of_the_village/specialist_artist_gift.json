@@ -7,23 +7,54 @@
         "entries": [
           {
             "type": "item",
-            "weight": 2,
-            "quality": 1,
-            "name": "minecraft:cake",
+            "weight": 10,
+            "quality": 0,
+            "name": "minecraft:brush",
             "functions": [
               {
-                "function": "set_count",
-                "count": 1
-              },
-              {
-                "function": "set_name",
-                "name": [
-                  {
-                    "text": "test test test"
-                  }
-                ]
+                "function": "set_damage",
+                "damage": {
+                  "min": 0.25,
+                  "max": 0.1
+                }
               }
             ]
+          },
+          {
+            "type": "item",
+            "weight": 10,
+            "quality": 0,
+            "name": "minecraft:paper"
+          },
+          {
+            "type": "item",
+            "weight": 10,
+            "quality": -2,
+            "name": "minecraft:charcoal"
+          },
+          {
+            "type": "item",
+            "weight": 10,
+            "quality": 0,
+            "name": "minecraft:leather"
+          },
+          {
+            "type": "item",
+            "weight": 3,
+            "quality": 1,
+            "name": "minecraft:item_frame"
+          },
+          {
+            "type": "item",
+            "weight": 2,
+            "quality": 1,
+            "name": "minecraft:glow_item_frame"
+          },
+          {
+            "type": "item",
+            "weight": 2,
+            "quality": 1,
+            "name": "minecraft:painting"
           }
         ]
       }

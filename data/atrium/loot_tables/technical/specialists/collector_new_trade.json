@@ -678,7 +678,7 @@
             ]
           },
           {
-            "weight": 10,
+            "weight": 2,
             "type": "minecraft:item",
             "name": "minecraft:firework_star",
             "functions": [
@@ -710,7 +710,7 @@
             ]
           },
           {
-            "weight": 10,
+            "weight": 2,
             "type": "minecraft:item",
             "name": "minecraft:firework_star",
             "functions": [
@@ -742,7 +742,7 @@
             ]
           },
           {
-            "weight": 10,
+            "weight": 2,
             "type": "minecraft:item",
             "name": "minecraft:firework_star",
             "functions": [
@@ -774,7 +774,7 @@
             ]
           },
           {
-            "weight": 10,
+            "weight": 2,
             "type": "minecraft:item",
             "name": "minecraft:firework_star",
             "functions": [
@@ -806,7 +806,7 @@
             ]
           },
           {
-            "weight": 10,
+            "weight": 2,
             "type": "minecraft:item",
             "name": "minecraft:firework_star",
             "functions": [
@@ -838,7 +838,7 @@
             ]
           },
           {
-            "weight": 10,
+            "weight": 2,
             "type": "minecraft:item",
             "name": "minecraft:firework_star",
             "functions": [
@@ -861,7 +861,7 @@
                       "condition": "minecraft:entity_properties",
                       "entity": "this",
                       "predicate": {
-                        "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:iron_sword\",Count:1b,tag:{atrium_stolen_seeing_eye:1b,atrium_curiosity:1b,display:{Lore:['{\"italic\":false,\"color\":\"aqua\",\"text\":\"Curiosity\"}','{\"keybind\":\"\"}','{\"text\":\"It\\'s covered in scratches.\"}'],Name:'{\"italic\":false,\"text\":\"Stolen Seeing Eye\"}'}}}}]}}"
+                        "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:ender_eye\",Count:1b,tag:{atrium_stolen_seeing_eye:1b,atrium_curiosity:1b,display:{Lore:['{\"italic\":false,\"color\":\"aqua\",\"text\":\"Curiosity\"}','{\"keybind\":\"\"}','{\"text\":\"It\\'s covered in scratches.\"}'],Name:'{\"italic\":false,\"text\":\"Stolen Seeing Eye\"}'}}}}]}}"
                       }
                     }
                   }
@@ -870,7 +870,7 @@
             ]
           },
           {
-            "weight": 10,
+            "weight": 2,
             "type": "minecraft:item",
             "name": "minecraft:firework_star",
             "functions": [
@@ -902,7 +902,7 @@
             ]
           },
           {
-            "weight": 10,
+            "weight": 2,
             "type": "minecraft:item",
             "name": "minecraft:firework_star",
             "functions": [
@@ -957,7 +957,7 @@
                       "condition": "minecraft:entity_properties",
                       "entity": "this",
                       "predicate": {
-                        "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:iron_helmet\",Count:1b,tag:{display:{Name:'{\"text\":\"Helm of Finding\",\"italic\":false}',Lore:['{\"text\":\" \"}','{\"text\":\"When on Head:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"+1 Luck\",\"color\":\"blue\",\"italic\":false}','{\"text\":\"Find Additional Curiosities\",\"color\":\"blue\",\"italic\":false}']},HideFlags:2,atrium_helm_of_finding:1b,atrium_curiosity_helmet:1b,AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:2,Operation:0,UUID:[I;814355646,-1889908607,-2133661117,596811977],Slot:\"head\"},{AttributeName:\"generic.luck\",Name:\"generic.luck\",Amount:1,Operation:0,UUID:[I;-1728258933,-610449582,-1898769458,976135404],Slot:\"head\"}],Trim:{material:\"minecraft:emerald\",pattern:\"minecraft:wayfinder\"}}}}]}}"
+                        "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:iron_helmet\",Count:1b,tag:{display:{Name:'{\"text\":\"Helm of Finding\",\"italic\":false}',Lore:['{\"text\":\" \"}','{\"text\":\"When on Head:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"+2 Armor\",\"color\":\"blue\",\"italic\":false}','{\"text\":\"+1 Luck\",\"color\":\"blue\",\"italic\":false}','{\"text\":\"Find Additional Curiosities\",\"color\":\"blue\",\"italic\":false}']},HideFlags:2,atrium_helm_of_finding:1b,atrium_curiosity_helmet:1b,AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:2,Operation:0,UUID:[I;814355646,-1889908607,-2133661117,596811977],Slot:\"head\"},{AttributeName:\"generic.luck\",Name:\"generic.luck\",Amount:1,Operation:0,UUID:[I;-1728258933,-610449582,-1898769458,976135404],Slot:\"head\"}],Trim:{material:\"minecraft:emerald\",pattern:\"minecraft:wayfinder\"}}}}]}}"
                       }
                     }
                   }
