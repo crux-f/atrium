@@ -1,0 +1,122 @@
+{
+    "condition": "minecraft:all_of",
+    "terms": [
+        {
+            "condition": "minecraft:any_of",
+            "terms": [
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                "equipment": {
+                    "head": {
+                    "items": [
+                        "minecraft:air"
+                    ]
+                    }
+                }
+                }
+            },
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                "equipment": {
+                    "head": {
+                    "nbt": "{atrium_xenos_growth:1}"
+                    }
+                }
+                }
+            }
+            ]
+        },
+        {
+            "condition": "minecraft:any_of",
+            "terms": [
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                "equipment": {
+                    "chest": {
+                    "items": [
+                        "minecraft:air"
+                    ]
+                    }
+                }
+                }
+            },
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                "equipment": {
+                    "chest": {
+                    "nbt": "{atrium_xenos_growth:1}"
+                    }
+                }
+                }
+            }
+            ]
+        },
+        {
+            "condition": "minecraft:any_of",
+            "terms": [
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                "equipment": {
+                    "legs": {
+                    "items": [
+                        "minecraft:air"
+                    ]
+                    }
+                }
+                }
+            },
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                "equipment": {
+                    "legs": {
+                    "nbt": "{atrium_xenos_growth:1}"
+                    }
+                }
+                }
+            }
+            ]
+        },
+        {
+            "condition": "minecraft:any_of",
+            "terms": [
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                "equipment": {
+                    "feet": {
+                    "items": [
+                        "minecraft:air"
+                    ]
+                    }
+                }
+                }
+            },
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                "equipment": {
+                    "feet": {
+                    "nbt": "{atrium_xenos_growth:1}"
+                    }
+                }
+                }
+            }
+            ]
+        }
+    ]
+  }
+  

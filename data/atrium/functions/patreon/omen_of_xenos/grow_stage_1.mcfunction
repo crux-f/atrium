@@ -1,0 +1,3 @@
+playsound minecraft:block.weeping_vines.place player @s ~ ~ ~ 1 1 1
+item replace entity @s armor.feet with leather_boots{display:{Name:'{"text":"Strange Growth","italic":false}',Lore:['{"text":"Small vines are creeping"}','{"text":"up your legs...?"}'],color:4688986},HideFlags:193,atrium_xenos_growth:1,atrium_growth_stage:1,Enchantments:[{id:"minecraft:binding_curse",lvl:1s},{id:"minecraft:vanishing_curse",lvl:1s}],AttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:2,Operation:0,UUID:[I;431416081,1316831779,-1385762981,1820420687],Slot:"feet"}],Trim:{material:"minecraft:emerald",pattern:"minecraft:wild"}} 1
+tellraw @s {"text":"Something brushes against your feet.","italic":true,"color":"gray"}
