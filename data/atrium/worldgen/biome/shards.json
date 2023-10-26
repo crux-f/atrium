@@ -1,13 +1,17 @@
 {
   "effects": {
     "mood_sound": {
-      "sound": "atrium:ambient.sky.mood",
+      "sound": {
+        "sound_id": "atrium:ambient.sky.mood"
+      },
       "tick_delay": 6000,
       "block_search_extent": 8,
       "offset": 2
     },
     "additions_sound": {
-      "sound": "atrium:ambient.shards.additions",
+      "sound": {
+        "sound_id": "atrium:ambient.shards.additions"
+      },
       "tick_chance": 0.001111
     },
     "music": {

@@ -1,17 +1,23 @@
 {
   "effects": {
     "mood_sound": {
-      "sound": "atrium:ambient.spore_caves.mood",
+      "sound": {
+        "sound_id": "atrium:ambient.spore_caves.mood"
+      },
       "tick_delay": 6000,
       "block_search_extent": 8,
       "offset": 2
     },
     "additions_sound": {
-      "sound": "minecraft:ambient.crimson_forest.additions",
+      "sound": {
+        "sound_id": "minecraft:ambient.crimson_forest.additions"
+      },
       "tick_chance": 0.0111
     },
     "music": {
-      "sound": "atrium:music.depths.spore_caves",
+      "sound": {
+        "sound_id": "atrium:music.depths.spore_caves"
+      },
       "min_delay": 12000,
       "max_delay": 24000,
       "replace_current_music": false
@@ -22,7 +28,9 @@
       },
       "probability": 0.025
     },
-    "ambient_sound": "minecraft:atrium.ambient.spore_caves.loop",
+    "ambient_sound": {
+      "sound_id": "minecraft:atrium.ambient.spore_caves.loop"
+    },
     "sky_color": 0,
     "fog_color": 0,
     "water_color": 6095,

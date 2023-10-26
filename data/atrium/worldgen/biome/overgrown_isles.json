@@ -1,22 +1,30 @@
 {
   "effects": {
     "mood_sound": {
-      "sound": "atrium:ambient.autumn_isles.mood",
+      "sound": {
+        "sound_id": "atrium:ambient.autumn_isles.mood"
+      },
       "tick_delay": 6000,
       "block_search_extent": 8,
       "offset": 2
     },
     "additions_sound": {
-      "sound": "atrium:ambient.overgrown_isles.additions",
+      "sound": {
+        "sound_id": "atrium:ambient.overgrown_isles.additions"
+      },
       "tick_chance": 0.001111
     },
     "music": {
-      "sound": "atrium:music.meridian.overgrown_isles",
+      "sound": {
+        "sound_id": "atrium:music.meridian.overgrown_isles"
+      },
       "min_delay": 12000,
       "max_delay": 24000,
       "replace_current_music": false
     },
-    "ambient_sound": "minecraft:atrium.ambient.overgrown_isles.loop",
+    "ambient_sound": {
+      "sound_id": "minecraft:atrium.ambient.overgrown_isles.loop"
+    },
     "sky_color": 7842047,
     "fog_color": 12638463,
     "water_color": 5214412,

@@ -1,13 +1,17 @@
 {
   "effects": {
     "mood_sound": {
-      "sound": "atrium:ambient.avalanche_caves.mood",
+      "sound": {
+        "sound_id": "atrium:ambient.avalanche_caves.mood"
+      },
       "tick_delay": 6000,
       "block_search_extent": 8,
       "offset": 2
     },
     "music": {
-      "sound": "atrium:music.depths.avalanche_caves",
+      "sound": {
+        "sound_id": "atrium:music.depths.avalanche_caves"
+      },
       "min_delay": 12000,
       "max_delay": 24000,
       "replace_current_music": false

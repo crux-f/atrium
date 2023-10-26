@@ -1,7 +1,9 @@
 {
   "effects": {
     "mood_sound": {
-      "sound": "atrium:ambient.cloudpine_forest.mood",
+      "sound": {
+        "sound_id": "atrium:ambient.cloudpine_forest.mood"
+      },
       "tick_delay": 6000,
       "block_search_extent": 8,
       "offset": 2
@@ -12,7 +14,9 @@
       "max_delay": 24000,
       "replace_current_music": false
     },
-    "ambient_sound": "atrium:ambient.sky.loop",
+    "ambient_sound": {
+      "sound_id": "atrium:ambient.sky.loop"
+    },
     "sky_color": 8625919,
     "fog_color": 12638463,
     "water_color": 10731478,

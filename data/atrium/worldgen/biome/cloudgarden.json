@@ -1,22 +1,30 @@
 {
   "effects": {
     "mood_sound": {
-      "sound": "atrium:ambient.sky.mood",
+      "sound": {
+        "sound_id": "atrium:ambient.sky.mood"
+      },
       "tick_delay": 6000,
       "block_search_extent": 8,
       "offset": 2
     },
     "additions_sound": {
-      "sound": "atrium:ambient.sky.additions",
+      "sound": {
+        "sound_id": "atrium:ambient.sky.additions"
+      },
       "tick_chance": 0.001111
     },
     "music": {
-      "sound": "atrium:music.meridian.cloudgarden",
+      "sound": {
+        "sound_id": "atrium:music.meridian.cloudgarden"
+      },
       "min_delay": 12000,
       "max_delay": 24000,
       "replace_current_music": false
     },
-    "ambient_sound": "atrium:ambient.cloudgarden.loop",
+    "ambient_sound": {
+      "sound_id": "atrium:ambient.cloudgarden.loop"
+    },
     "sky_color": 7972607,
     "fog_color": 12638463,
     "water_color": 4159204,
