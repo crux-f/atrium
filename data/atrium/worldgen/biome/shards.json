@@ -26,7 +26,9 @@
       },
       "probability": 0.0001
     },
-    "ambient_sound": "minecraft:ambient.shards.loop",
+    "ambient_sound": {
+      "sound_id": "minecraft:ambient.shards.loop"
+    },
     "sky_color": 13104117,
     "fog_color": 15531775,
     "water_color": 10731478,
