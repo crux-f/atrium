@@ -1,0 +1,26 @@
+{
+    "type": "advancement_reward",
+    "pools": [
+      {
+        "rolls": 1,
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:tipped_arrow",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 4
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Holy Arrow\",\"color\":\"yellow\",\"italic\":false}'},atrium_holy_arrow:1b,Potion:\"minecraft:strong_healing\",CustomPotionColor:16577536}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

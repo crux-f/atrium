@@ -1,0 +1,42 @@
+{
+  "parent": "minecraft:nether/obtain_blaze_rod",
+  "criteria": {
+    "potion": {
+      "trigger": "minecraft:brewed_potion"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": [
+      {
+        "translate": "advancements.nether.brew_potion.description"
+      },
+      {
+        "color": "gray",
+        "text": "\n \nReward:"
+      },
+      {
+        "color": "yellow",
+        "text": "\n25 XP"
+      }
+    ],
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:potion"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.nether.brew_potion.title"
+    }
+  },
+  "requirements": [
+    [
+      "potion"
+    ]
+  ],
+  "rewards": {
+    "experience": 25
+  },
+  "sends_telemetry_event": true
+}

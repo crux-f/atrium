@@ -7,9 +7,19 @@
     "title": {
       "translate": "advancements.end.dragon_breath.title"
     },
-    "description": {
-      "translate": "advancements.end.dragon_breath.description"
-    },
+    "description": [
+      {
+        "translate": "advancements.end.dragon_breath.description"
+      },
+      {
+        "color": "gray",
+        "text": "\n \nReward:"
+      },
+      {
+        "color": "yellow",
+        "text": "\n50 XP"
+      }
+    ],
     "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,
@@ -44,7 +54,10 @@
     [
       "dragon_breath"
     ]
-  ]
+  ],
+  "rewards": {
+    "experience": 50
+  }
 }
 
 

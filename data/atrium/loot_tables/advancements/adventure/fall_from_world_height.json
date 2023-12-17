@@ -1,0 +1,28 @@
+{
+    "type": "advancement_reward",
+    "pools": [
+      {
+        "rolls": 1,
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:map",
+            "functions": [
+              {
+                "function": "minecraft:exploration_map",
+                "destination": "atrium:depths_entrances",
+                "decoration": "target_point",
+                "skip_existing_chunks": true
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Explorer Map\",\"italic\":false}',Lore:['{\"text\":\"Seems to lead... Somewhere\"}','{\"text\":\"beneath the bedrock layer?\"}'],MapColor:2694707},atrium_depths_entrance_map:1b}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

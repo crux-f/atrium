@@ -1,0 +1,50 @@
+{
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "shot_crossbow": {
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:crossbow"
+          ]
+        }
+      },
+      "trigger": "minecraft:shot_crossbow"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": [
+      {
+        "translate": "advancements.adventure.ol_betsy.description"
+      },
+      {
+        "color": "gray",
+        "text": "\n \nReward:"
+      },
+      {
+        "color": "yellow",
+        "text": "\n25 XP"
+      }
+    ],
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:crossbow",
+      "nbt": "{Damage:0}"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.adventure.ol_betsy.title"
+    }
+  },
+  "requirements": [
+    [
+      "shot_crossbow"
+    ]
+  ],
+  "rewards": {
+    "experience": 25
+  },
+  "sends_telemetry_event": true
+}

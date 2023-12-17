@@ -1,0 +1,42 @@
+{
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "traded": {
+      "trigger": "minecraft:villager_trade"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": [
+      {
+        "translate": "advancements.adventure.trade.description"
+      },
+      {
+        "color": "gray",
+        "text": "\n \nReward:"
+      },
+      {
+        "color": "yellow",
+        "text": "\n25 XP"
+      }
+    ],
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:emerald"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.adventure.trade.title"
+    }
+  },
+  "requirements": [
+    [
+      "traded"
+    ]
+  ],
+  "rewards": {
+    "experience": 25
+  },
+  "sends_telemetry_event": true
+}

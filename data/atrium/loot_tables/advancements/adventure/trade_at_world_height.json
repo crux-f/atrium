@@ -1,0 +1,22 @@
+{
+    "type": "advancement_reward",
+    "pools": [
+      {
+        "rolls": 1,
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:paper",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Special Deal\",\"color\":\"yellow\",\"italic\":false}',Lore:['{\"text\":\" \"}','{\"text\":\"When Used on a Wandering Trader:\",\"color\":\"dark_purple\",\"italic\":false}','{\"text\":\"+1 Secret Trade\",\"color\":\"blue\",\"italic\":false}']},atrium_special_deal:1b,Enchantments:[{}]}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

@@ -7,16 +7,23 @@
     "title": {
       "translate": "advancements.end.levitate.title"
     },
-    "description": {
-      "translate": "advancements.end.levitate.description"
-    },
+    "description": [
+      {
+        "translate": "advancements.end.levitate.description"
+      },
+      {
+        "color": "gray",
+        "text": "\n \nReward:"
+      },
+      {
+        "color": "yellow",
+        "text": "\n250 XP"
+      }
+    ],
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
-  },
-  "rewards": {
-    "experience": 50
   },
   "criteria": {
     "levitated": {
@@ -45,6 +52,9 @@
     [
       "levitated"
     ]
-  ]
+  ],
+  "rewards": {
+    "experience": 250
+  }
 }
 
