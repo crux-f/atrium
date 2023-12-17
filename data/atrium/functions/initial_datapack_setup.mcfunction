@@ -72,6 +72,8 @@ scoreboard objectives add atrium_searching dummy {"text":"Searching...","color":
 scoreboard objectives add atrium_threat dummy {"text":"Threat","color":"white"}
 # Burrow Consequences
 scoreboard objectives add depths_burrows dummy
+# Villager Name
+scoreboard objectives add atrium_name dummy
 #
 # TEAMS
 #
