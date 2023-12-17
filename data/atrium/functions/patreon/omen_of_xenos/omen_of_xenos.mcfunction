@@ -2,7 +2,7 @@
 schedule function atrium:patreon/omen_of_xenos/omen_of_xenos 1s
 #
 # Each player who is wearing no armor ticks their anomaly score up by 1.
-execute as @a if predicate atrium:patreon/omen_of_xenos_req run scoreboard players add @s atrium_omen_of_xenos_anomaly 1
+# execute as @a if predicate atrium:patreon/omen_of_xenos_req run scoreboard players add @s atrium_omen_of_xenos_anomaly 1
 # Each player who is on fire can burn away the growth.
 execute as @a if predicate atrium:entity/is_on_fire at @s run function atrium:patreon/omen_of_xenos/burn_off_growth
 # If their anomaly score reaches 
