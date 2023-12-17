@@ -112,7 +112,7 @@
             "type": "loot_table",
             "weight": 2,
             "quality": 1,
-            "name": "atrium:chests/vanilla_chest_additions/curiosity/doctrine_curiosity",
+            "name": "atrium:curiosity/doctrine_curiosity",
             "functions": [
               {
                 "function": "set_count",

@@ -53,13 +53,13 @@
             },
             {
               "function": "exploration_map",
-              "destination": "minecraft:on_ocean_explorer_maps",
-              "decoration": "monument",
+              "destination": "atrium:village_plains",
+              "decoration": "village_plains",
               "skip_existing_chunks": true
             },
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Villager Map\",\"italic\":false}',Lore:['{\"text\":\"Sketches of a nearby area.\"}','{\"text\":\"A sinister eye has been\"}','{\"text\":\"crossed out in the corner.\"}'],MapColor:671831}}"
+              "tag": "{display:{Name:'{\"text\":\"Explorer Map\",\"italic\":false}',Lore:['{\"text\":\"Directions to a village.\"}'],MapColor:10672925}}"
             }
           ]
         },
@@ -75,40 +75,20 @@
             },
             {
               "function": "exploration_map",
-              "destination": "minecraft:ruined_portal",
-              "decoration": "red_x",
+              "destination": "atrium:village_snowy",
+              "decoration": "village_snowy",
               "skip_existing_chunks": true
             },
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Villager Map\",\"italic\":false}',Lore:['{\"text\":\"Sketches of a nearby\"}','{\"text\":\"area. There\\'s some notes\"}','{\"text\":\"about some kind of ancient\"}','{\"text\":\"fire god.\"}'],MapColor:12523525}}"
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "weight": 2,
-          "name": "minecraft:map",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "exploration_map",
-              "destination": "atrium:pillager_outpost",
-              "decoration": "red_x",
-              "skip_existing_chunks": true
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Villager Map\",\"italic\":false}',Lore:['{\"text\":\"Sketches of a nearby area.\"}','{\"text\":\"There\\'s a doodle of a crossbow.\"}','{\"text\":\"Looks more like a warning.\"}'],MapColor:9847564}}"
+              "tag": "{display:{Name:'{\"text\":\"Explorer Map\",\"italic\":false}',Lore:['{\"text\":\"Directions to a village.\"}'],MapColor:57855}}"
             }
           ]
         },
         {
           "type": "item",
           "weight": 1,
+          "quality": 0,
           "name": "minecraft:map",
           "functions": [
             {
@@ -117,13 +97,13 @@
             },
             {
               "function": "exploration_map",
-              "destination": "atrium:any_overworld_shrine",
-              "decoration": "target_x",
+              "destination": "atrium:swamp_hut",
+              "decoration": "swamp_hut",
               "skip_existing_chunks": true
             },
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Villager Map\",\"italic\":false}',Lore:['{\"text\":\"Sketches of a nearby\"}','{\"text\":\"area. A holy symbol\"}','{\"text\":\"is sketched in great detail\"}','{\"text\":\"at the top.\"}'],MapColor:6710886}}"
+              "tag": "{display:{Name:'{\"text\":\"Explorer Map\",\"italic\":false}',Lore:['{\"text\":\"This map has a bottle and\"}','{\"text\":\"a lightning bolt on it.\"}'],MapColor:4287752}}"
             }
           ]
         }

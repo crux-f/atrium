@@ -216,7 +216,7 @@
           "type": "loot_table",
           "weight": 5,
           "quality": 5,
-          "name": "atrium:world_forge/books/wf_books_mansion",
+          "name": "atrium:world_forge/books_mansion",
           "functions": [
             {
               "function": "set_count",
@@ -228,7 +228,7 @@
           "type": "loot_table",
           "weight": 8,
           "quality": 5,
-          "name": "atrium:chests/vanilla_chest_additions/curiosity/illager_curiosity",
+          "name": "atrium:curiosity/illager_curiosity",
           "functions": [
             {
               "function": "set_count",

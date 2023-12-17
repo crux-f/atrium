@@ -20,13 +20,7 @@
               }
             }
           ],
-          "name": "minecraft:chests/pillager_outpost",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            }
-          ]
+          "name": "minecraft:chests/pillager_outpost"
         }
       ]
     }

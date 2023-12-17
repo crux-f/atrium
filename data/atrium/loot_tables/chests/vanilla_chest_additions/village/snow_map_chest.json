@@ -53,19 +53,19 @@
             },
             {
               "function": "exploration_map",
-              "destination": "minecraft:shipwreck",
-              "decoration": "red_x",
+              "destination": "atrium:village_plains",
+              "decoration": "village_plains",
               "skip_existing_chunks": true
             },
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Villager Map\",\"italic\":false}',Lore:['{\"text\":\"Sketches of a nearby area.\"}','{\"text\":\"There are doodles of\"}','{\"text\":\"bubbles and a ship.\"}'],MapColor:525201}}"
+              "tag": "{display:{Name:'{\"text\":\"Explorer Map\",\"italic\":false}',Lore:['{\"text\":\"Directions to a village.\"}'],MapColor:10672925}}"
             }
           ]
         },
         {
           "type": "item",
-          "weight": 2,
+          "weight": 1,
           "quality": 0,
           "name": "minecraft:map",
           "functions": [
@@ -75,40 +75,20 @@
             },
             {
               "function": "exploration_map",
-              "destination": "minecraft:ruined_portal",
-              "decoration": "red_x",
+              "destination": "atrium:village_taiga",
+              "decoration": "village_taiga",
               "skip_existing_chunks": true
             },
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Villager Map\",\"italic\":false}',Lore:['{\"text\":\"Sketches of a nearby\"}','{\"text\":\"area. There\\'s some notes\"}','{\"text\":\"about some kind of ancient\"}','{\"text\":\"fire god.\"}'],MapColor:12523525}}"
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "weight": 2,
-          "name": "minecraft:map",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "exploration_map",
-              "destination": "atrium:igloo",
-              "decoration": "red_x",
-              "skip_existing_chunks": true
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Villager Map\",\"italic\":false}',Lore:['{\"text\":\"Sketches of a nearby area.\"}','{\"text\":\"There\\'s a picture of a bed.\"}','{\"text\":\"Oh, and a snow person.\"}'],MapColor:493713}}"
+              "tag": "{display:{Name:'{\"text\":\"Explorer Map\",\"italic\":false}',Lore:['{\"text\":\"Directions to a village.\"}'],MapColor:32847}}"
             }
           ]
         },
         {
           "type": "item",
           "weight": 1,
+          "quality": 0,
           "name": "minecraft:map",
           "functions": [
             {
@@ -117,13 +97,13 @@
             },
             {
               "function": "exploration_map",
-              "destination": "atrium:any_overworld_shrine",
-              "decoration": "target_x",
+              "destination": "atrium:swamp_hut",
+              "decoration": "swamp_hut",
               "skip_existing_chunks": true
             },
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Villager Map\",\"italic\":false}',Lore:['{\"text\":\"Sketches of a nearby\"}','{\"text\":\"area. A holy symbol\"}','{\"text\":\"is sketched in great detail\"}','{\"text\":\"at the top.\"}'],MapColor:6710886}}"
+              "tag": "{display:{Name:'{\"text\":\"Explorer Map\",\"italic\":false}',Lore:['{\"text\":\"This map has a bottle and\"}','{\"text\":\"a lightning bolt on it.\"}'],MapColor:4287752}}"
             }
           ]
         }

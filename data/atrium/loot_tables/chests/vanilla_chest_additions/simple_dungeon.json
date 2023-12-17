@@ -106,16 +106,7 @@
           "type": "loot_table",
           "weight": 1,
           "quality": 0,
-          "name": "atrium:chests/vanilla_chest_additions/curiosity/legion_curiosity",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ]
+          "name": "atrium:curiosity/legion_curiosity"
         },
        {
           "type": "loot_table",
@@ -125,12 +116,12 @@
                   "entity": "this",
                   "predicate": {
                   "nbt": "{Inventory:[{tag:{atrium_curiosity_helmet:1b}}]}"
-                                  }
+                      }
                 }
           ],
           "weight": 100,
           "quality": 0,
-          "name": "atrium:chests/vanilla_chest_additions/curiosity/legion_curiosity",
+          "name": "atrium:curiosity/legion_curiosity",
           "functions": [
             {
               "function": "set_count",

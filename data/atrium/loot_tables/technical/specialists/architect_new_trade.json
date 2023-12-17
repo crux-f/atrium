@@ -91,7 +91,7 @@
                   "condition": "minecraft:inverted",
                   "term": {
                       "condition": "minecraft:reference",
-                      "name": "atrium:entity/village/plains_villager"
+                      "name": "atrium:entity/villager/plains_villager"
                   }
                 },
                 {
@@ -162,7 +162,7 @@
                   "condition": "minecraft:inverted",
                   "term": {
                       "condition": "minecraft:reference",
-                      "name": "atrium:entity/village/taiga_villager"
+                      "name": "atrium:entity/villager/taiga_villager"
                   }
                 },
                 {
@@ -201,7 +201,7 @@
                   "condition": "minecraft:inverted",
                   "term": {
                       "condition": "minecraft:reference",
-                      "name": "atrium:entity/village/jungle_villager"
+                      "name": "atrium:entity/villager/jungle_villager"
                   }
                 },
                 {
@@ -240,7 +240,7 @@
                   "condition": "minecraft:inverted",
                   "term": {
                       "condition": "minecraft:reference",
-                      "name": "atrium:entity/village/savanna_villager"
+                      "name": "atrium:entity/villager/savanna_villager"
                   }
                 },
                 {
@@ -311,7 +311,7 @@
                   "condition": "minecraft:inverted",
                   "term": {
                       "condition": "minecraft:reference",
-                      "name": "atrium:entity/village/swamp_villager"
+                      "name": "atrium:entity/villager/swamp_villager"
                   }
                 },
                 {

@@ -121,7 +121,7 @@
                 {
                   "text": "Holy Symbol",
                   "color": "yellow",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             },
@@ -131,7 +131,7 @@
                 {
                   "text": "The Quipster",
                   "color": "green",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             }
@@ -166,14 +166,14 @@
               "function": "exploration_map",
               "destination": "mineshaft",
               "decoration": "red_x",
-              "skip_existing_chunks": "false"
+              "skip_existing_chunks": false
             },
             {
               "function": "set_name",
               "name": [
                 {
                   "text": "Prospector's Map",
-                  "italic": "true"
+                  "italic": true
                 }
               ]
             }

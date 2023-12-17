@@ -53,13 +53,13 @@
             },
             {
               "function": "exploration_map",
-              "destination": "minecraft:ocean_ruin",
-              "decoration": "red_x",
+              "destination": "atrium:village_desert",
+              "decoration": "village_desert",
               "skip_existing_chunks": true
             },
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Villager Map\",\"italic\":false}',Lore:['{\"text\":\"Sketches of a nearby area.\"}','{\"text\":\"There are sketches of\"}','{\"text\":\"bubbles and a trident.\"}'],MapColor:2500773}}"
+              "tag": "{display:{Name:'{\"text\":\"Explorer Map\",\"italic\":false}',Lore:['{\"text\":\"Directions to a village.\"}'],MapColor:16776268}}"
             }
           ]
         },
@@ -75,13 +75,13 @@
             },
             {
               "function": "exploration_map",
-              "destination": "minecraft:ruined_portal",
-              "decoration": "red_x",
+              "destination": "atrium:village_plains",
+              "decoration": "village_plains",
               "skip_existing_chunks": true
             },
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Villager Map\",\"italic\":false}',Lore:['{\"text\":\"Sketches of a nearby\"}','{\"text\":\"area. There\\'s some notes\"}','{\"text\":\"about some kind of ancient\"}','{\"text\":\"fire god.\"}'],MapColor:12523525}}"
+              "tag": "{display:{Name:'{\"text\":\"Explorer Map\",\"italic\":false}',Lore:['{\"text\":\"Directions to a village.\"}'],MapColor:10672925}}"
             }
           ]
         },
@@ -97,34 +97,13 @@
             },
             {
               "function": "exploration_map",
-              "destination": "minecraft:mineshaft",
-              "decoration": "red_x",
+              "destination": "atrium:jungle_pyramid",
+              "decoration": "jungle_temple",
               "skip_existing_chunks": true
             },
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Villager Map\",\"italic\":false}',Lore:['{\"text\":\"Sketches of a nearby\"}','{\"text\":\"area. There are doodles\"}','{\"text\":\"of spiders.\"}'],MapColor:1001227}}"
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "weight": 1,
-          "name": "minecraft:map",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "exploration_map",
-              "destination": "atrium:any_overworld_shrine",
-              "decoration": "target_x",
-              "skip_existing_chunks": true
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Villager Map\",\"italic\":false}',Lore:['{\"text\":\"Sketches of a nearby\"}','{\"text\":\"area. A holy symbol\"}','{\"text\":\"is sketched in great detail\"}','{\"text\":\"at the top.\"}'],MapColor:6710886}}"
+              "tag": "{display:{Name:'{\"text\":\"Explorer Map\",\"italic\":false}',Lore:['{\"text\":\"This map has an image of\"}','{\"text\":\"vines obscuring a doorway.\"}'],MapColor:1414698}}"
             }
           ]
         }

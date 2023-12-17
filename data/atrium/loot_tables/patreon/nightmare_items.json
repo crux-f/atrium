@@ -141,18 +141,6 @@
             ]
           },
           {
-            "type": "loot_table",
-            "weight": 5,
-            "quality": 5,
-            "name": "atrium:treasure/any_research_minor",
-            "functions": [
-              {
-                "function": "set_count",
-                "count": 1
-              }
-            ]
-          },
-          {
             "type": "item",
             "weight": 20,
             "quality": -5,
@@ -232,18 +220,6 @@
                     "text": "a good friend in danger."
                   }
                 ]
-              }
-            ]
-          },
-          {
-            "type": "loot_table",
-            "weight": 20,
-            "quality": 0,
-            "name": "atrium:treasure/dream_research_notes",
-            "functions": [
-              {
-                "function": "set_count",
-                "count": 1
               }
             ]
           },

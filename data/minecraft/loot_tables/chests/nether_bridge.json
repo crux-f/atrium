@@ -1,188 +1,102 @@
 {
-  "type": "chest",
   "pools": [
     {
       "rolls": {
-        "min": 2,
-        "max": 4
-      },
-      "bonus_rolls": {
-        "min": 0,
-        "max": 1
+        "min": 1,
+        "max": 2
       },
       "entries": [
         {
-          "type": "item",
-          "weight": 5,
-          "quality": 3,
-          "name": "minecraft:diamond",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 3
-              }
-            }
-          ]
+          "type": "minecraft:loot_table",
+          "name": "atrium:formulas/alchemy_recipes_1"
         },
         {
-          "type": "item",
-          "weight": 5,
-          "quality": 1,
-          "name": "minecraft:iron_ingot",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 5
-              }
-            }
-          ]
+          "type": "minecraft:loot_table",
+          "name": "atrium:formulas/alchemy_recipes_2"
         },
         {
-          "type": "item",
-          "weight": 15,
-          "quality": 2,
-          "name": "minecraft:gold_ingot",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 5
-              }
-            }
-          ]
-        },
+          "type": "minecraft:empty",
+          "weight": 8
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 1,
+        "max": 2
+      },
+      "bonus_rolls": 1,
+      "entries": [
         {
-          "type": "item",
-          "weight": 5,
-          "quality": 3,
-          "name": "minecraft:iron_sword",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "weight": 5,
-          "quality": 3,
-          "name": "minecraft:golden_chestplate",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "weight": 5,
-          "quality": 3,
-          "name": "minecraft:flint_and_steel",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "weight": 5,
-          "quality": 3,
-          "name": "minecraft:nether_wart",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 3,
-                "max": 7
-              }
-            }
-          ]
-        },
-        {
-          "type": "item",
+          "type": "minecraft:item",
           "weight": 10,
-          "quality": 2,
-          "name": "minecraft:saddle",
+          "name": "minecraft:player_head",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Holy Symbol\",\"color\":\"yellow\",\"italic\":false}',Lore:['[{\"text\":\"Nox, \",\"color\":\"red\",\"italic\":false},{\"text\":\"Think You\\'re Clever?\",\"obfuscated\":true}]']},atrium_nox_symbol:1b,SkullOwner:{Id:[I;-1538063860,-1358017242,-1429658611,-1863382418],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTExM2E4OTcxYTMzM2M4NzE4NWJhNWNhMmVhMmM1ODEwOTM1ZGJlYjA3NTA5ZjA1M2M5MDJlMmEyYmRmMmE3NiJ9fX0=\"}]}}}"
             }
           ]
         },
         {
-          "type": "item",
-          "weight": 8,
-          "quality": 2,
-          "name": "minecraft:golden_horse_armor",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            }
-          ]
-        },
-        {
-          "type": "item",
+          "type": "minecraft:item",
           "weight": 5,
-          "quality": 1,
-          "name": "minecraft:iron_horse_armor",
+          "name": "minecraft:player_head",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Alchemy Cauldron\",\"color\":\"light_purple\",\"italic\":false}',Lore:['{\"text\":\"Space Required:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"x5,y6,z8\",\"color\":\"dark_gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"When Placed:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"Generates a structure \",\"color\":\"blue\",\"italic\":false}']},alchemy_cauldron_placer:1b,SkullOwner:{Id:[I;-1085889659,1085099926,-1904448482,-822335963],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmZiNzA3NjhjZDMwNGQwZTQ5MzMyMGU0MjRiY2I2MTE2OTcyN2NmNjQ4YzBkNGRkZTRkZTg0ZWYyZmFjOWVlZSJ9fX0=\"}]}}}"
             }
           ]
         },
         {
-          "type": "item",
-          "weight": 3,
-          "quality": 3,
-          "name": "minecraft:diamond_horse_armor",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            }
-          ]
+          "type": "minecraft:loot_table",
+          "weight": 7,
+          "name": "atrium:curiosity/infernium_curiosity"
         },
         {
-          "type": "item",
-          "weight": 2,
-          "quality": 2,
-          "name": "minecraft:obsidian",
-          "functions": [
+          "type": "minecraft:empty",
+          "weight": 15
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "atrium:chests/base/nether_bridge"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "name": "atrium:curiosity/infernium_curiosity",
+          "conditions": [
             {
-              "function": "set_count",
-              "count": {
-                "min": 2,
-                "max": 4
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "head": {
+                    "nbt": "{atrium_curiosity_helmet:1b}"
+                  }
+                }
               }
-            }
-          ]
-        },
-        {
-          "type": "loot_table",
-          "weight": 12,
-          "quality": 3,
-          "name": "atrium:chests/vanilla_chest_additions/nether_bridge",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
             }
           ]
         }
       ]
     }
-  ]
+  ],
+  "random_sequence": "minecraft:chests/nether_bridge"
 }

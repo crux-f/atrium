@@ -1,210 +1,219 @@
 {
-  "type": "minecraft:chest",
   "pools": [
     {
       "rolls": {
-        "type": "minecraft:uniform",
-        "min": 0.0,
-        "max": 1.0
+        "min": 3,
+        "max": 5
       },
-      "bonus_rolls": 0.0,
+      "bonus_rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:crossbow"
-        }
-      ]
-    },
-    {
-      "rolls": {
-        "type": "minecraft:uniform",
-        "min": 2.0,
-        "max": 3.0
+          "type": "item",
+          "weight": 2,
+          "quality": 2,
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Alchemy Cauldron\",\"color\":\"light_purple\",\"italic\":false}',Lore:['{\"text\":\"Space Required:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"x5,y6,z8\",\"color\":\"dark_gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"When Placed:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"Generates a structure \",\"color\":\"blue\",\"italic\":false}']},atrium_alchemy_cauldron_placer:1b,SkullOwner:{Id:[I;-1085889659,1085099926,-1904448482,-822335963],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmZiNzA3NjhjZDMwNGQwZTQ5MzMyMGU0MjRiY2I2MTE2OTcyN2NmNjQ4YzBkNGRkZTRkZTg0ZWYyZmFjOWVlZSJ9fX0=\"}]}}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "quality": 2,
+          "name": "minecraft:player_head",
+          "functions": [
+              {
+              "function": "set_count",
+              "count": 1
+              },
+              {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Infusion Circle\",\"color\":\"light_purple\",\"italic\":false}',Lore:['{\"text\":\"Space Required:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"x9,y3,z11\",\"color\":\"dark_gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"When Placed:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"Generates a structure \",\"color\":\"blue\",\"italic\":false}']},atrium_infusion_circle_placer:1b,SkullOwner:{Id:[I;-510246894,-974372697,-1324757754,-2046207321],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTIyNzYzMDkzNzc0NjkzYjI2MzkyNzhhMWMyYzY5OGFkMTFkYjQ5Mjg5NmU5YmYxNjcxNGQ4NTdlOThjYTFkZCJ9fX0=\"}]}}}"
+              }
+          ]
       },
-      "bonus_rolls": 0.0,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "weight": 7,
+      {
+          "type": "item",
+          "weight": 2,
+          "quality": 2,
+          "name": "minecraft:player_head",
           "functions": [
             {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 3.0,
-                "max": 5.0
-              },
-              "add": false
-            }
-          ],
-          "name": "minecraft:wheat"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 5,
-          "functions": [
+              "function": "set_count",
+              "count": 1
+            },
             {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 2.0,
-                "max": 5.0
-              },
-              "add": false
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Runic Codex\",\"color\":\"light_purple\",\"italic\":false}',Lore:['{\"text\":\"Space Required:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"x9,y6,z10\",\"color\":\"dark_gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"When Placed:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"Generates a structure \",\"color\":\"blue\",\"italic\":false}']},atrium_runic_codex_placer:1b,SkullOwner:{Id:[I;453648658,-1501608406,-1743325056,-1172242773],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTUyNjgwNzc0MDkwYTVjZDFjNmZkMDgwYjZkNGFkOTkwZWViYzA0MTE4MjBlMTkyNmM5OWIyMTExZTJjYjRiNyJ9fX0=\"}]}}}"
             }
-          ],
-          "name": "minecraft:potato"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 5,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 3.0,
-                "max": 5.0
-              },
-              "add": false
-            }
-          ],
-          "name": "minecraft:carrot"
-        }
-      ]
-    },
-    {
-      "rolls": {
-        "type": "minecraft:uniform",
-        "min": 1.0,
-        "max": 3.0
+          ]
       },
-      "bonus_rolls": 0.0,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 2.0,
-                "max": 3.0
-              },
-              "add": false
-            }
-          ],
-          "name": "minecraft:dark_oak_log"
-        }
-      ]
-    },
-    {
-      "rolls": {
-        "type": "minecraft:uniform",
-        "min": 2.0,
-        "max": 3.0
-      },
-      "bonus_rolls": 0.0,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "weight": 7,
-          "name": "minecraft:experience_bottle"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 4,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1.0,
-                "max": 6.0
-              },
-              "add": false
-            }
-          ],
-          "name": "minecraft:string"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 4,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 2.0,
-                "max": 7.0
-              },
-              "add": false
-            }
-          ],
-          "name": "minecraft:arrow"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 3,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1.0,
-                "max": 3.0
-              },
-              "add": false
-            }
-          ],
-          "name": "minecraft:tripwire_hook"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 3,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1.0,
-                "max": 3.0
-              },
-              "add": false
-            }
-          ],
-          "name": "minecraft:iron_ingot"
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:enchant_randomly"
-            }
-          ],
-          "name": "minecraft:book"
-        }
-      ]
-    },
-    {
-      "rolls": {
-        "type": "minecraft:uniform",
-        "min": 1.0,
-        "max": 4.0
-      },
-      "bonus_rolls": 0.0,
-      "entries": [
         {
           "type": "loot_table",
-          "name": "atrium:chests/vanilla_chest_additions/pillager_outpost",
+          "weight": 5,
+          "quality": 2,
+          "name": "atrium:formulas/infusion_recipes_1"
+        },
+        {
+          "type": "loot_table",
+          "weight": 5,
+          "quality": 2,
+          "name": "atrium:formulas/alchemy_recipes_1"
+        },
+        {
+          "type": "loot_table",
+          "weight": 5,
+          "quality": 2,
+          "name": "atrium:formulas/runic_recipes_1"
+        },
+        {
+          "type": "item",
+          "weight": 5,
+          "quality": 2,
+          "name": "minecraft:iron_axe",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{RepairCost:15,atrium_handaxe_of_vindication:1b,Enchantments:[{id:\"minecraft:sharpness\",lvl:2s},{id:\"minecraft:looting\",lvl:3s},{id:\"minecraft:unbreaking\",lvl:1s}]}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Hand-Axe of Vindication",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 3,
+          "quality": 1,
+          "name": "minecraft:crossbow",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{RepairCost:15,atrium_raiders_crossbow:1b,Enchantments:[{id:\"minecraft:mending\",lvl:1s},{id:\"minecraft:piercing\",lvl:2s}],AttributeModifiers:[{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.15,Operation:1,UUID:[I;-968363777,-442807016,-1782642797,582378364],Slot:\"mainhand\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.1,Operation:1,UUID:[I;420772207,1225148208,-1709764635,652992031],Slot:\"offhand\"}]}"
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0.9,
+                "max": 0.5
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Raider's Crossbow",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "It's chipped in places."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 4,
+          "quality": 3,
+          "name": "minecraft:totem_of_undying",
           "functions": [
             {
               "function": "set_count",
               "count": 1
             }
           ]
+        },
+        {
+          "type": "item",
+          "weight": 6,
+          "quality": 1,
+          "name": "minecraft:tipped_arrow",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 6
+            },
+            {
+			        "function": "set_nbt",
+			        "tag": "{display:{Name:'{\"text\":\"Trapper\\'s Arrow\",\"color\":\"yellow\",\"italic\":false}'},atrium_trappers_arrow:1b,Potion:\"minecraft:slowness\"}"
+		        }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 7,
+          "name": "atrium:curiosity/illager_curiosity"
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 15
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "atrium:chests/base/pillager_outpost"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "name": "atrium:curiosity/illager_curiosity",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "head": {
+                    "nbt": "{atrium_curiosity_helmet:1b}"
+                  }
+                }
+              }
+            }
+          ]
         }
       ]
     }
-  ]
+  ],
+  "random_sequence": "minecraft:chests/pillager_outpost"
 }

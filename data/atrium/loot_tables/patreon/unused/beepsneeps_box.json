@@ -16,7 +16,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Enrichment\",\"color\":\"red\",\"italic\":false}',Lore:['{\"text\":\"Backstabbing II\",\"color\":\"gray\",\"italic\":false}']},Damage:1-0.75,backstabbing_enchant:1b,lv2:1b,Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}]}"
+              "tag": "{display:{Name:'{\"text\":\"Enrichment\",\"color\":\"red\",\"italic\":false}',Lore:['{\"text\":\"Backstabbing II\",\"color\":\"gray\",\"italic\":false}']},backstabbing_enchant:1b,lv2:1b,Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}]}"
             }
           ]
         },
@@ -32,7 +32,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Dubai!\",\"color\":\"red\",\"italic\":false}',Lore:['{\"text\":\"You haven\\'t heard of this\"}','{\"text\":\"city before, but you\"}','{\"text\":\"get the feeling that even\"}','{\"text\":\"if you had, it wouldn\\'t\"}','{\"text\":\"explain the joke.\"}']},Damage:1-0.75,Enchantments:[{id:\"minecraft:efficiency\",lvl:3s}]}"
+              "tag": "{display:{Name:'{\"text\":\"Dubai!\",\"color\":\"red\",\"italic\":false}',Lore:['{\"text\":\"You haven\\'t heard of this\"}','{\"text\":\"city before, but you\"}','{\"text\":\"get the feeling that even\"}','{\"text\":\"if you had, it wouldn\\'t\"}','{\"text\":\"explain the joke.\"}']},Enchantments:[{id:\"minecraft:efficiency\",lvl:3s}]}"
             }
           ]
         },

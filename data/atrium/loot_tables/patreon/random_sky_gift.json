@@ -143,7 +143,7 @@
         {
           "type": "loot_table",
           "weight": 5,
-          "name": "atrium:chests/vanilla_chest_additions/curiosity/archive_curiosity",
+          "name": "atrium:curiosity/archive_curiosity",
           "functions": [
             {
               "function": "set_count",
@@ -154,7 +154,7 @@
         {
           "type": "loot_table",
           "weight": 5,
-          "name": "atrium:chests/vanilla_chest_additions/curiosity/legion_curiosity",
+          "name": "atrium:curiosity/legion_curiosity",
           "functions": [
             {
               "function": "set_count",
@@ -165,7 +165,7 @@
         {
           "type": "loot_table",
           "weight": 5,
-          "name": "atrium:chests/vanilla_chest_additions/curiosity/bastion_curiosity",
+          "name": "atrium:curiosity/bastion_curiosity",
           "functions": [
             {
               "function": "set_count",

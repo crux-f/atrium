@@ -54,43 +54,6 @@
               "count": 2
             }
           ]
-        },
-{
-          "type": "item",
-          "weight": 5,
-          "quality": 1,
-          "name": "minecraft:honey_bottle",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{atrium_essence_of_amber:1b}"
-            },
-            {
-              "function": "set_name",
-              "name": [
-                {
-                  "text": "Essence of Amber",
-                  "color": "gold",
-                  "italic": false
-                }
-              ]
-            },
-            {
-              "function": "set_lore",
-              "lore": [
-                {
-                  "text": "Its syrupy, and"
-                },
-                {
-                  "text": "completely 'amber'."
-                }
-              ]
-            }
-          ]
         }
       ]
     },

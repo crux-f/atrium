@@ -53,19 +53,19 @@
             },
             {
               "function": "exploration_map",
-              "destination": "minecraft:mineshaft",
-              "decoration": "red_x",
+              "destination": "atrium:village_savanna",
+              "decoration": "village_savanna",
               "skip_existing_chunks": true
             },
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Villager Map\",\"italic\":false}',Lore:['{\"text\":\"Sketches of a nearby\"}','{\"text\":\"area. There are doodles\"}','{\"text\":\"of spiders.\"}'],MapColor:1001227}}"
+              "tag": "{display:{Name:'{\"text\":\"Explorer Map\",\"italic\":false}',Lore:['{\"text\":\"Directions to a village.\"}'],MapColor:14383389}}"
             }
           ]
         },
         {
           "type": "item",
-          "weight": 2,
+          "weight": 1,
           "quality": 0,
           "name": "minecraft:map",
           "functions": [
@@ -75,40 +75,20 @@
             },
             {
               "function": "exploration_map",
-              "destination": "minecraft:ruined_portal",
-              "decoration": "red_x",
+              "destination": "atrium:village_taiga",
+              "decoration": "village_taiga",
               "skip_existing_chunks": true
             },
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Villager Map\",\"italic\":false}',Lore:['{\"text\":\"Sketches of a nearby\"}','{\"text\":\"area. There\\'s some notes\"}','{\"text\":\"about some kind of ancient\"}','{\"text\":\"fire god.\"}'],MapColor:12523525}}"
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "weight": 2,
-          "name": "minecraft:map",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "exploration_map",
-              "destination": "minecraft:village",
-              "decoration": "mansion",
-              "skip_existing_chunks": true
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Villager Map\",\"italic\":false}',Lore:['{\"text\":\"Sketches of a nearby\"}','{\"text\":\"area. There are doodles\"}','{\"text\":\"of villagers gathered\"}','{\"text\":\"around a bell.\"}'],MapColor:6276959}}"
+              "tag": "{display:{Name:'{\"text\":\"Explorer Map\",\"italic\":false}',Lore:['{\"text\":\"Directions to a village.\"}'],MapColor:32847}}"
             }
           ]
         },
         {
           "type": "item",
           "weight": 1,
+          "quality": 0,
           "name": "minecraft:map",
           "functions": [
             {
@@ -117,13 +97,13 @@
             },
             {
               "function": "exploration_map",
-              "destination": "atrium:any_overworld_shrine",
-              "decoration": "target_x",
+              "destination": "minecraft:mineshaft",
+              "decoration": "red_x",
               "skip_existing_chunks": true
             },
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Villager Map\",\"italic\":false}',Lore:['{\"text\":\"Sketches of a nearby\"}','{\"text\":\"area. A holy symbol\"}','{\"text\":\"is sketched in great detail\"}','{\"text\":\"at the top.\"}'],MapColor:6710886}}"
+              "tag": "{display:{Name:'{\"text\":\"Explorer Map\",\"italic\":false}',Lore:['{\"text\":\"This map has a pickaxe\"}','{\"text\":\"a shovel on it.\"}'],MapColor:5256192}}"
             }
           ]
         }

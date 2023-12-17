@@ -163,56 +163,6 @@
         },
         {
           "type": "item",
-          "weight": 25,
-          "quality": 2,
-          "name": "minecraft:potion",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{HideFlags:32,atrium_yarners_ale:1b,CustomPotionEffects:[{Id:4,Amplifier:0b,Duration:3600,ShowParticles:0b},{Id:22,Amplifier:0b,Duration:3600,ShowParticles:1b}],Potion:\"minecraft:empty\",CustomPotionColor:4657408}"
-            },
-            {
-              "function": "set_name",
-              "name": [
-                {
-                  "text": "Yarner's Ale",
-                  "italic": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "weight": 25,
-          "quality": 2,
-          "name": "minecraft:potion",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{HideFlags:32,CustomPotionEffects:[{Id:4,Amplifier:0b,Duration:3600,ShowParticles:0b},{Id:5,Amplifier:0b,Duration:200,ShowParticles:1b},{Id:9,Amplifier:0b,Duration:300,ShowParticles:0b},{Id:32,Amplifier:0b,Duration:200,ShowParticles:1b}],Potion:\"minecraft:empty\",CustomPotionColor:19967}"
-            },
-            {
-              "function": "set_name",
-              "name": [
-                {
-                  "text": "Spicy Water",
-                  "italic": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "item",
           "weight": 35,
           "name": "minecraft:spruce_sapling",
           "functions": [
