@@ -1,0 +1,149 @@
+{
+  "fallback": "atrium:city/plains/infrastructure/road_terminators",
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "atrium:city/plains/infrastructure/dirt_road_corner_1",
+        "processors": "minecraft:street_plains",
+        "projection": "terrain_matching"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "atrium:city/plains/infrastructure/dirt_road_corner_2",
+        "processors": "minecraft:street_plains",
+        "projection": "terrain_matching"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "atrium:city/plains/infrastructure/dirt_road_corner_3",
+        "processors": "minecraft:street_plains",
+        "projection": "terrain_matching"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "atrium:city/plains/infrastructure/dirt_road_straight_1",
+        "processors": "minecraft:street_plains",
+        "projection": "terrain_matching"
+      },
+      "weight": 4
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "atrium:city/plains/infrastructure/dirt_road_straight_2",
+        "processors": "minecraft:street_plains",
+        "projection": "terrain_matching"
+      },
+      "weight": 4
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "atrium:city/plains/infrastructure/dirt_road_straight_3",
+        "processors": "minecraft:street_plains",
+        "projection": "terrain_matching"
+      },
+      "weight": 7
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "atrium:city/plains/infrastructure/dirt_road_straight_4",
+        "processors": "minecraft:street_plains",
+        "projection": "terrain_matching"
+      },
+      "weight": 7
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "atrium:city/plains/infrastructure/dirt_road_straight_5",
+        "processors": "minecraft:street_plains",
+        "projection": "terrain_matching"
+      },
+      "weight": 3
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "atrium:city/plains/infrastructure/dirt_road_straight_6",
+        "processors": "minecraft:street_plains",
+        "projection": "terrain_matching"
+      },
+      "weight": 4
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "atrium:city/plains/infrastructure/dirt_cross_frog_0",
+        "processors": "minecraft:street_plains",
+        "projection": "terrain_matching"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "atrium:city/plains/infrastructure/dirt_cross_well_0",
+        "processors": "minecraft:street_plains",
+        "projection": "terrain_matching"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "atrium:city/plains/infrastructure/dirt_cross_throne_0",
+        "processors": "minecraft:street_plains",
+        "projection": "terrain_matching"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "atrium:city/plains/infrastructure/dirt_road_crossroad_4",
+        "processors": "minecraft:street_plains",
+        "projection": "terrain_matching"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "atrium:city/plains/infrastructure/dirt_road_crossroad_5",
+        "processors": "minecraft:street_plains",
+        "projection": "terrain_matching"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "atrium:city/plains/infrastructure/dirt_road_crossroad_6",
+        "processors": "minecraft:street_plains",
+        "projection": "terrain_matching"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "atrium:city/plains/infrastructure/dirt_road_turn_1",
+        "processors": "minecraft:street_plains",
+        "projection": "terrain_matching"
+      },
+      "weight": 3
+    }
+  ]
+}

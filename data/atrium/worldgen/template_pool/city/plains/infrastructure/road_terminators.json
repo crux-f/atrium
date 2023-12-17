@@ -1,0 +1,16 @@
+{
+    "name": "atrium:city/plains/infrastructure/road_terminators",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 10,
+        "element": {
+          "location": "atrium:city/plains/infrastructure/dirt_road_end_0",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      }
+    ]
+  }
+  

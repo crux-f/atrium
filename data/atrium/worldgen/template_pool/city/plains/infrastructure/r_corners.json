@@ -1,0 +1,16 @@
+{
+    "name": "atrium:city/plains/infrastructure/r_corners",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 10,
+        "element": {
+          "location": "atrium:city/plains/infrastructure/paved_big_r_corner_0",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      }
+    ]
+  }
+  

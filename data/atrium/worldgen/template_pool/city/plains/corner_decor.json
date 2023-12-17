@@ -1,0 +1,142 @@
+{
+    "name": "atrium:city/plains/infrastructure/corner_decor",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 3,
+        "element": {
+          "location": "atrium:city/plains/decor/paved_square_airship_0",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 7,
+        "element": {
+          "location": "atrium:city/plains/decor/paved_square_bee_grove_0",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 10,
+        "element": {
+          "location": "atrium:city/plains/decor/paved_square_big_frog_0",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 10,
+        "element": {
+          "location": "atrium:city/plains/decor/paved_square_blossom_maze_0",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 10,
+        "element": {
+          "location": "atrium:city/plains/decor/paved_square_chess_0",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 10,
+        "element": {
+          "location": "atrium:city/plains/decor/paved_square_excavation_0",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 10,
+        "element": {
+          "location": "atrium:city/plains/decor/paved_square_geota_0",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 10,
+        "element": {
+          "location": "atrium:city/plains/decor/paved_square_horse_pen_0",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 5,
+        "element": {
+          "location": "atrium:city/plains/decor/paved_square_mushroom_0",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 10,
+        "element": {
+          "location": "atrium:city/plains/decor/paved_square_picnic_0",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 10,
+        "element": {
+          "location": "atrium:city/plains/decor/paved_square_playground_0",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 10,
+        "element": {
+          "location": "atrium:city/plains/decor/paved_square_pond_0",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 3,
+        "element": {
+          "location": "atrium:city/plains/decor/paved_square_ravager_cage_0",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 10,
+        "element": {
+          "location": "atrium:city/plains/decor/paved_square_treehouse_0",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 10,
+        "element": {
+          "location": "atrium:city/plains/decor/paved_square_work_site_0",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      }
+    ]
+}
+  

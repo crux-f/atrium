@@ -1,0 +1,438 @@
+{
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 10,
+        "element": {
+          "location": "atrium:items/on_floor/misc/copper_ingot_0",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 10,
+        "element": {
+          "location": "atrium:items/on_floor/misc/copper_ingot_1",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 10,
+        "element": {
+          "location": "atrium:items/on_floor/misc/copper_ingot_2",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 10,
+        "element": {
+          "location": "atrium:items/on_floor/misc/copper_ingot_3",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 10,
+        "element": {
+          "location": "atrium:items/on_floor/misc/copper_ingot_4",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 10,
+        "element": {
+          "location": "atrium:items/on_floor/misc/copper_ingot_5",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 10,
+        "element": {
+          "location": "atrium:items/on_floor/misc/copper_ingot_6",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 10,
+        "element": {
+          "location": "atrium:items/on_floor/misc/copper_ingot_7",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 10,
+        "element": {
+          "location": "atrium:items/on_floor/misc/iron_ingot_0",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 10,
+        "element": {
+          "location": "atrium:items/on_floor/misc/iron_ingot_1",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 10,
+        "element": {
+          "location": "atrium:items/on_floor/misc/iron_ingot_2",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 10,
+        "element": {
+          "location": "atrium:items/on_floor/misc/iron_ingot_3",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 10,
+        "element": {
+          "location": "atrium:items/on_floor/misc/iron_ingot_4",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 10,
+        "element": {
+          "location": "atrium:items/on_floor/misc/iron_ingot_5",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 10,
+        "element": {
+          "location": "atrium:items/on_floor/misc/iron_ingot_6",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 10,
+        "element": {
+          "location": "atrium:items/on_floor/misc/iron_ingot_7",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 10,
+        "element": {
+          "location": "atrium:items/on_floor/misc/gold_ingot_0",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 10,
+        "element": {
+          "location": "atrium:items/on_floor/misc/gold_ingot_1",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 10,
+        "element": {
+          "location": "atrium:items/on_floor/misc/gold_ingot_2",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 10,
+        "element": {
+          "location": "atrium:items/on_floor/misc/gold_ingot_3",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 10,
+        "element": {
+          "location": "atrium:items/on_floor/misc/gold_ingot_4",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 10,
+        "element": {
+          "location": "atrium:items/on_floor/misc/gold_ingot_5",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 10,
+        "element": {
+          "location": "atrium:items/on_floor/misc/gold_ingot_6",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 10,
+        "element": {
+          "location": "atrium:items/on_floor/misc/gold_ingot_7",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 3,
+        "element": {
+          "location": "atrium:items/on_floor/misc/diamond_0",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 3,
+        "element": {
+          "location": "atrium:items/on_floor/misc/diamond_1",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 3,
+        "element": {
+          "location": "atrium:items/on_floor/misc/diamond_2",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 3,
+        "element": {
+          "location": "atrium:items/on_floor/misc/diamond_3",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 3,
+        "element": {
+          "location": "atrium:items/on_floor/misc/diamond_4",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 3,
+        "element": {
+          "location": "atrium:items/on_floor/misc/diamond_5",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 3,
+        "element": {
+          "location": "atrium:items/on_floor/misc/diamond_6",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 3,
+        "element": {
+          "location": "atrium:items/on_floor/misc/diamond_7",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 10,
+        "element": {
+          "location": "atrium:items/on_floor/misc/emerald_0",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 10,
+        "element": {
+          "location": "atrium:items/on_floor/misc/emerald_1",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 10,
+        "element": {
+          "location": "atrium:items/on_floor/misc/emerald_2",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 10,
+        "element": {
+          "location": "atrium:items/on_floor/misc/emerald_3",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 10,
+        "element": {
+          "location": "atrium:items/on_floor/misc/emerald_4",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 10,
+        "element": {
+          "location": "atrium:items/on_floor/misc/emerald_5",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 10,
+        "element": {
+          "location": "atrium:items/on_floor/misc/emerald_6",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 10,
+        "element": {
+          "location": "atrium:items/on_floor/misc/emerald_7",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 5,
+        "element": {
+          "location": "atrium:items/on_floor/misc/lapis_lazuli_0",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 5,
+        "element": {
+          "location": "atrium:items/on_floor/misc/lapis_lazuli_1",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 5,
+        "element": {
+          "location": "atrium:items/on_floor/misc/lapis_lazuli_2",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 5,
+        "element": {
+          "location": "atrium:items/on_floor/misc/lapis_lazuli_3",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 5,
+        "element": {
+          "location": "atrium:items/on_floor/misc/lapis_lazuli_4",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 5,
+        "element": {
+          "location": "atrium:items/on_floor/misc/lapis_lazuli_5",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 5,
+        "element": {
+          "location": "atrium:items/on_floor/misc/lapis_lazuli_6",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 5,
+        "element": {
+          "location": "atrium:items/on_floor/misc/lapis_lazuli_7",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      }
+    ]
+  }
+  

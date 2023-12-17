@@ -10,6 +10,15 @@
           "projection": "rigid",
           "element_type": "minecraft:single_pool_element"
         }
+      },
+      {
+        "weight": 10,
+        "element": {
+          "location": "atrium:city/plains/infrastructure/guild_gate_district_b1",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
       }
     ]
   }

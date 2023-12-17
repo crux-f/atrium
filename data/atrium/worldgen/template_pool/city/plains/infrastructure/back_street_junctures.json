@@ -3,9 +3,27 @@
     "fallback": "atrium:city/plains/infrastructure/culdesacs",
     "elements": [
       {
-        "weight": 10,
+        "weight": 13,
         "element": {
           "location": "atrium:city/plains/infrastructure/paved_three_way_stop_0",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 5,
+        "element": {
+          "location": "atrium:city/plains/infrastructure/paved_culdesac_lamp_0",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 5,
+        "element": {
+          "location": "atrium:city/plains/infrastructure/paved_culdesac_mini_0",
           "processors": "minecraft:empty",
           "projection": "rigid",
           "element_type": "minecraft:single_pool_element"

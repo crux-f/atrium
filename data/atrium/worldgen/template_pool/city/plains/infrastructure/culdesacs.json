@@ -5,7 +5,7 @@
       {
         "weight": 10,
         "element": {
-          "location": "atrium:city/plains/infrastructure/boring_road_end",
+          "location": "atrium:city/plains/infrastructure/paved_culdesac_lamp_0",
           "processors": "minecraft:empty",
           "projection": "rigid",
           "element_type": "minecraft:single_pool_element"

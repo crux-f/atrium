@@ -23,12 +23,16 @@
     {
       "structure": "atrium:waystone_the_depths",
       "weight": 1
+    },
+    {
+      "structure": "atrium:waystone_the_abyss",
+      "weight": 1
     }
   ],
   "placement": {
     "salt": 999999999,
     "spacing": 41,
-    "separation": 15,
+    "separation": 18,
     "type": "minecraft:random_spread"
   }
 }

@@ -3,7 +3,7 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "atrium:city/plains/outer/apiary_0",
+        "location": "atrium:city/plains/outer/plains_apiary_0",
         "processors": "minecraft:mossify_10_percent",
         "projection": "rigid"
       },
@@ -12,7 +12,7 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "atrium:city/plains/outer/art_studio_0",
+        "location": "atrium:city/plains/outer/plains_art_studio_0",
         "processors": "minecraft:mossify_10_percent",
         "projection": "rigid"
       },
@@ -21,7 +21,7 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "atrium:city/plains/outer/barn_with_pasture_0",
+        "location": "atrium:city/plains/outer/plains_barn_with_pasture_0",
         "processors": "minecraft:mossify_10_percent",
         "projection": "rigid"
       },
@@ -30,7 +30,7 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "atrium:city/plains/outer/golem_repair_shop_0",
+        "location": "atrium:city/plains/outer/plains_golem_repair_shop_0",
         "processors": "minecraft:mossify_10_percent",
         "projection": "rigid"
       },
@@ -39,7 +39,7 @@
     {
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
-        "location": "atrium:city/plains/outer/guard_post_0",
+        "location": "atrium:city/plains/outer/plains_guard_post_0",
         "processors": "minecraft:mossify_10_percent",
         "projection": "rigid"
       },
@@ -48,7 +48,7 @@
     {
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
-        "location": "atrium:city/plains/outer/guard_tower_0",
+        "location": "atrium:city/plains/outer/plains_guard_tower_0",
         "processors": "minecraft:mossify_10_percent",
         "projection": "rigid"
       },
@@ -57,7 +57,7 @@
     {
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
-        "location": "atrium:city/plains/outer/large_farm_0",
+        "location": "atrium:city/plains/outer/plains_large_farm_0",
         "processors": "minecraft:mossify_10_percent",
         "projection": "rigid"
       },
@@ -66,7 +66,7 @@
     {
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
-        "location": "atrium:city/plains/outer/large_farm_1",
+        "location": "atrium:city/plains/outer/medium_farm_0",
         "processors": "minecraft:mossify_10_percent",
         "projection": "rigid"
       },
@@ -75,7 +75,7 @@
     {
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
-        "location": "atrium:city/plains/outer/observatory_0",
+        "location": "atrium:city/plains/outer/plains_observatory_0",
         "processors": "minecraft:mossify_10_percent",
         "projection": "rigid"
       },
@@ -84,7 +84,7 @@
     {
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
-        "location": "atrium:city/plains/outer/small_house_0",
+        "location": "atrium:city/plains/outer/plains_small_house_0",
         "processors": "minecraft:mossify_10_percent",
         "projection": "rigid"
       },
@@ -93,7 +93,7 @@
     {
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
-        "location": "atrium:city/plains/outer/small_house_1",
+        "location": "atrium:city/plains/outer/plains_small_house_1",
         "processors": "minecraft:mossify_10_percent",
         "projection": "rigid"
       },
@@ -102,7 +102,7 @@
     {
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
-        "location": "atrium:city/plains/outer/stables_0",
+        "location": "atrium:city/plains/outer/plains_stables_0",
         "processors": "minecraft:mossify_10_percent",
         "projection": "rigid"
       },
@@ -111,7 +111,7 @@
     {
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
-        "location": "atrium:city/plains/outer/trading_post_0",
+        "location": "atrium:city/plains/outer/plains_trading_post_0",
         "processors": "minecraft:mossify_10_percent",
         "projection": "rigid"
       },
@@ -120,7 +120,16 @@
     {
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
-        "location": "atrium:city/plains/outer/warehouse_0",
+        "location": "atrium:city/plains/outer/plains_large_warehouse_0",
+        "processors": "minecraft:mossify_10_percent",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "atrium:city/plains/outer/plains_large_barracks_0",
         "processors": "minecraft:mossify_10_percent",
         "projection": "rigid"
       },
