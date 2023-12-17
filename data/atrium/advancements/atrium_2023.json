@@ -1,0 +1,30 @@
+{
+    "__comment": "Exclusive to players who played in 2023.",
+    "display": {
+        "title": {
+            "text": "Hermit",
+            "color": "green",
+            "bold": true
+        },
+        "description": {
+            "text": "You played in 2023!",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:diamond_pickaxe"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "join_2023": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+        "rewards": {
+		"experience": 85
+	},
+        "parent": "atrium:atrium_2022"
+}

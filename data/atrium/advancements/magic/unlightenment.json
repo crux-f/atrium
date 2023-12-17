@@ -1,0 +1,25 @@
+{
+    "__comment": "Acquired by reaching 100 levels (triggered by atrium:triggers/player_check_each_second)",
+    "display": {
+        "title": {
+            "text": "Unlightenment",
+            "color": "white"
+        },
+        "description": {
+            "text": "Reach 100 levels of Experience"
+        },
+        "icon": {
+            "item": "minecraft:experience_bottle"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "reach_100_levels": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "atrium:magic/enchanter_ii"
+}

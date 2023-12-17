@@ -6,14 +6,13 @@
         "player": [],
         "damage": {
           "source_entity": {
-            "type": "minecraft:cave_spider",
-            "nbt": "{Tags:[\"deep_spider\"]}"
+            "nbt": "{Tags:[\"atrium_intensifies_poison\"]}"
           }
         }
       }
     }
   },
   "rewards": {
-    "function": "atrium:triggers/special_abilities/intensify_poison"
+    "function": "atrium:triggers/entity_abilities/intensify_poison"
   }
 }

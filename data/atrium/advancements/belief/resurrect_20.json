@@ -5,10 +5,23 @@
             "text": "Lag Doctor",
             "color": "white"
         },
-        "description": {
-            "text": "Perform 20 Resurrections",
-            "color": "green"
-        },
+        "description": [
+            {
+                "text": "Perform 20 Resurrections"
+            },
+            {
+              "color": "gray",
+              "text": "\n \nReward:"
+            },
+            {
+                "color": "blue",
+                "text": "\n1 Totem of Undying"
+            },
+            {
+              "color": "yellow",
+              "text": "\n50 XP"
+            }
+          ],
         "icon": {
             "item": "minecraft:soul_campfire"
         },
@@ -25,7 +38,7 @@
     "rewards": {
         "experience": 50,
         "loot": [
-            "atrium:advancements/resurrection"
+            "atrium:advancements/belief/resurrection_advancements"
         ]
     },
     "parent": "atrium:belief/resurrect_10"

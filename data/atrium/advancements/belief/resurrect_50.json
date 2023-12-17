@@ -5,10 +5,23 @@
             "text": "Messorum's Bane",
             "color": "white"
         },
-        "description": {
-            "text": "Perform 50 Resurrections",
-            "color": "green"
-        },
+        "description": [
+            {
+                "text": "Perform 50 Resurrections"
+            },
+            {
+              "color": "gray",
+              "text": "\n \nReward:"
+            },
+            {
+                "color": "blue",
+                "text": "\n1 Totem of Undying"
+            },
+            {
+              "color": "yellow",
+              "text": "\n250 XP"
+            }
+          ],
         "icon": {
             "item": "minecraft:enchanted_golden_apple"
         },
@@ -23,9 +36,9 @@
         }
     },
     "rewards": {
-        "experience": 200,
+        "experience": 250,
         "loot": [
-            "atrium:advancements/resurrection"
+            "atrium:advancements/belief/resurrection_advancements"
         ]
     },
     "parent": "atrium:belief/resurrect_20"

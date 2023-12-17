@@ -6,13 +6,18 @@ scoreboard players set @s valid_ingredients 0
 # Start Cinder Solution - Check NORTH for Magma Cream
 execute positioned ~ ~ ~-2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:magma_cream",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
 execute positioned ~ ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:magma_cream",Count:1b}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/cinder_solution
-#
 # Start Peculiar Prism - Check NORTH for Nether Quartz
 execute positioned ~ ~ ~-2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:quartz",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
 execute positioned ~ ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:quartz",Count:1b}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/peculiar_prism
-# Start Peculiar Prism - Check NORTH for Crying Obsidian
+# Start Essence of Anachronism - Check NORTH for Crying Obsidian
 execute positioned ~ ~ ~-2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:crying_obsidian",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
 execute positioned ~ ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:crying_obsidian",Count:1b}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/essence_of_anachronism
+# Start Alchemy Catalyst [Priming] - Check NORTH for Block of Redstone
+execute positioned ~ ~ ~-2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:redstone_block",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:redstone_block",Count:1b}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/catalyst_priming
+# Start Alchemy Catalyst [Galvanizing] - Check NORTH for Glowstone
+execute positioned ~ ~ ~-2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:glowstone",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:glowstone",Count:1b}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/catalyst_galvanizing
 #
 # Tier 3 Potions
 #

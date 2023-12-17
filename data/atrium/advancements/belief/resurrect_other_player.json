@@ -2,12 +2,12 @@
     "__comment": "congrats!",
     "display": {
         "title": {
-            "text": "Medic!",
+            "text": "From Ashes",
             "color": "white"
         },
         "description": [
             {
-                "text": "Perform 10 Resurrections"
+                "text": "Bring another player back to life"
             },
             {
               "color": "gray",
@@ -19,16 +19,16 @@
             },
             {
               "color": "yellow",
-              "text": "\n50 XP"
+              "text": "\n25 XP"
             }
           ],
         "icon": {
-            "item": "minecraft:experience_bottle"
+            "item": "minecraft:golden_apple"
         },
-        "frame": "goal",
+        "frame": "task",
         "show_toast": true,
         "announce_to_chat": true,
-        "hidden": false
+        "hidden": true
     },
     "criteria": {
         "granted": {
@@ -36,10 +36,10 @@
         }
     },
     "rewards": {
-        "experience": 50,
+        "experience": 25,
         "loot": [
             "atrium:advancements/belief/resurrection_advancements"
         ]
     },
-    "parent": "atrium:belief/resurrect_other_player"
+    "parent": "atrium:belief/belief_root"
 }
