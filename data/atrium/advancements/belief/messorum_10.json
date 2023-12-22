@@ -2,14 +2,21 @@
     "__comment": "Granted when you reach 10 Favor with Messorum",
     "display": {
         "title": {
-            "text": "Morbid Curiosity",
-            "color": "white",
-            "bold": false
+            "text": "Morbid Curiosity"
         },
-        "description": {
-            "text": "Gain at least 10 Favor with Messorum",
-            "color": "green"
-        },
+        "description": [
+            {
+                "text": "Gain at least 10 Favor with Messorum"
+            },
+            {
+              "color": "gray",
+              "text": "\n \nReward:"
+            },
+            {
+              "color": "yellow",
+              "text": "\n25 XP"
+            }
+          ],
         "icon": {
             "item": "minecraft:purple_concrete"
         },
@@ -19,7 +26,7 @@
         "hidden": false
     },
     "criteria": {
-        "givewhenmax": {
+        "messorum_10_favor": {
             "trigger": "minecraft:impossible"
         }
     },

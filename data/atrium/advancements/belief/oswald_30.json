@@ -3,13 +3,21 @@
     "display": {
         "title": {
             "text": "The Peasant God",
-            "color": "white",
-            "bold": false
+            "color": "white"
         },
-        "description": {
-            "text": "Reach 30 favor with Oswald.",
-            "color": "green"
-        },
+        "description": [
+            {
+                "text": "Reach 30 Favor with Oswald"
+            },
+            {
+              "color": "gray",
+              "text": "\n \nReward:"
+            },
+            {
+              "color": "yellow",
+              "text": "\n50 XP"
+            }
+          ],
         "icon": {
             "item": "minecraft:player_head",
             "nbt": "{display:{Name:'{\"text\":\"Holy Symbol\",\"color\":\"yellow\",\"italic\":false}',Lore:['{\"text\":\"Oswald, The Peasant God\",\"color\":\"white\",\"italic\":false}']},oswald_symbol:1b,SkullOwner:{Id:[I;-1790895151,-987413066,-1568832100,-616345830],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjMzNmU5ZGMxMzZjMmI1MjQzYzg3OGNjMmNkYTQyMGEzYWM4ZWM4ZDIwMTk5NTExYWQwNjhkOTZlY2YxYWUxNCJ9fX0=\"}]}}}"
@@ -20,12 +28,12 @@
         "hidden": false
     },
     "criteria": {
-        "oswald_max": {
+        "oswald_max_favor": {
             "trigger": "minecraft:impossible"
         }
     },
     "rewards": {
         "experience": 50
     },
-    "parent": "atrium:belief/oswald_20"
+    "parent": "atrium:belief/oswald_10"
 }

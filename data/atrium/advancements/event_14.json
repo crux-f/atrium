@@ -6,11 +6,18 @@
             "color": "cyan",
             "bold": false
         },
-        "description": {
-            "text": "Pantheon IV - April 3rd, 2021",
-            "color": "green",
-            "italic": true
-        },
+        "description": [
+            {
+                "text": "Pantheon IV - April 3rd, 2021",
+                "color": "green",
+                "italic": true
+            },
+            {
+              "color": "dark_purple",
+              "italic": true,
+              "text": "\nAmid public uncertainty about the leadership in Atrocity, the feud between the Forks and Knives districts of Atrocity has come to a head; Each of the Twin Mayors of Atrocity is running their own campaign for Regent of Exorsa."
+            }
+          ],
         "icon": {
             "item": "minecraft:oak_sign"
         },

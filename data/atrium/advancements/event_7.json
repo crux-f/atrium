@@ -6,11 +6,18 @@
             "color": "red",
             "bold": false
         },
-        "description": {
-            "text": "Landfall III - September 5th, 2020",
-            "color": "green",
-            "italic": true
-        },
+        "description": [
+            {
+                "text": "Landfall III - September 5th, 2020",
+                "color": "green",
+                "italic": true
+            },
+            {
+              "color": "dark_purple",
+              "italic": true,
+              "text": "\nThe Armada have been keeping a low profile... Until today. Ships flying Armada banners have been spotted off the Emerald Coast."
+            }
+          ],
         "icon": {
             "item": "minecraft:acacia_boat"
         },

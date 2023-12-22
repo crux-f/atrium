@@ -2,8 +2,7 @@
     "__comment": "congrats!",
     "display": {
         "title": {
-            "text": "From Ashes",
-            "color": "white"
+            "text": "From Ashes"
         },
         "description": [
             {
@@ -31,7 +30,7 @@
         "hidden": true
     },
     "criteria": {
-        "granted": {
+        "granted_by_function": {
             "trigger": "minecraft:impossible"
         }
     },

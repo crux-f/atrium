@@ -4,7 +4,19 @@
         "item": "minecraft:soul_lantern"
       },
       "title": "No Trespassing",
-      "description": "Clamber your way into a Sanctum",
+      "description": [
+        {
+            "text": "Clamber your way into a Sanctum"
+        },
+        {
+          "color": "gray",
+          "text": "\n \nReward:"
+        },
+        {
+          "color": "yellow",
+          "text": "\n25 XP"
+        }
+      ],
       "frame": "task",
       "show_toast": true,
       "announce_to_chat": true,
@@ -28,6 +40,9 @@
           ]
         }
       }
-    }
+    },
+    "rewards": {
+      "experience": 25
+  }
   }
   

@@ -6,11 +6,18 @@
             "color": "white",
             "bold": false
         },
-        "description": {
-            "text": "Return To The Depths IV - May 6th, 2023",
-            "color": "green",
-            "italic": true
-        },
+        "description": [
+            {
+                "text": "Return To The Depths IV - May 6th, 2023",
+                "color": "green",
+                "italic": true
+            },
+            {
+              "color": "dark_purple",
+              "italic": true,
+              "text": "\nWhere did these foul creatures come from? Only one way to find out. In order to travel beneath the dark ocean that lies at the bottom of The Depths, you will need a vehicle."
+            }
+          ],
         "icon": {
             "item": "minecraft:potion",
             "nbt": "{Potion:\"minecraft:water_breathing\"}"

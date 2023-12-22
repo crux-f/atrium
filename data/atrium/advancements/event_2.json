@@ -6,11 +6,18 @@
             "color": "dark_green",
             "bold": false
         },
-        "description": {
-            "text": "April 4th, 2020",
-            "color": "green",
-            "italic": true
-        },
+        "description": [
+            {
+                "text": "April 4th, 2020",
+                "color": "green",
+                "italic": true
+            },
+            {
+              "color": "dark_purple",
+              "italic": true,
+              "text": "\nSargent Bracewell warns that the pillagers of Dread Valley Outpost are gathering their forces for an attack upon his watch post."
+            }
+          ],
         "icon": {
             "item": "minecraft:wooden_sword"
         },

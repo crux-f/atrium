@@ -2,14 +2,21 @@
     "__comment": "Granted when you reach 10 Favor with Chorus",
     "display": {
         "title": {
-            "text": "Seen",
-            "color": "white",
-            "bold": false
+            "text": "Seen"
         },
-        "description": {
-            "text": "Gain at least 10 Favor with Chorus",
-            "color": "green"
-        },
+        "description": [
+            {
+                "text": "Gain at least 10 Favor with Chorus"
+            },
+            {
+              "color": "gray",
+              "text": "\n \nReward:"
+            },
+            {
+              "color": "yellow",
+              "text": "\n25 XP"
+            }
+          ],
         "icon": {
             "item": "minecraft:magenta_concrete"
         },
@@ -19,7 +26,7 @@
         "hidden": false
     },
     "criteria": {
-        "givewhenmax": {
+        "chorus_10_favor": {
             "trigger": "minecraft:impossible"
         }
     },

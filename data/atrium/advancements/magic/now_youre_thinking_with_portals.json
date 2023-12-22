@@ -2,12 +2,21 @@
     "__comment": "Acquired by activating a Warp Gate",
     "display": {
         "title": {
-            "text": "Now You're Thinking With Portals",
-            "color": "white"
+            "text": "Now You're Thinking With Portals"
         },
-        "description": {
-            "text": "Open a portal using a Warp Gate"
-        },
+        "description": [
+            {
+                "text": "Open a portal using a Warp Gate"
+            },
+            {
+              "color": "gray",
+              "text": "\n \nReward:"
+            },
+            {
+              "color": "yellow",
+              "text": "\n50 XP"
+            }
+          ],
         "icon": {
             "item": "minecraft:lodestone"
         },
@@ -21,5 +30,8 @@
             "trigger": "minecraft:impossible"
         }
     },
+    "rewards": {
+        "experience": 50
+      },
     "parent": "atrium:magic/youve_redecorated"
 }

@@ -6,11 +6,18 @@
             "color": "aqua",
             "bold": false
         },
-        "description": {
-            "text": "Pantheon I - January 9th, 2021",
-            "color": "green",
-            "italic": true
-        },
+        "description": [
+            {
+                "text": "Pantheon I - January 9th, 2021",
+                "color": "green",
+                "italic": true
+            },
+            {
+              "color": "dark_purple",
+              "italic": true,
+              "text": "\nRumors are abound about The Armada's new advances into other planes; Choose an expedition: Meridian or Depths."
+            }
+          ],
         "icon": {
             "item": "minecraft:nether_star"
         },

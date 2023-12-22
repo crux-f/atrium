@@ -2,14 +2,23 @@
     "__comment": "Granted when you reach 10 Favor with Xenos",
     "display": {
         "title": {
-            "text": "Patience",
+            "text": "Slow Burn",
             "color": "white",
             "bold": false
         },
-        "description": {
-            "text": "Gain at least 10 Favor with Xenos",
-            "color": "green"
-        },
+        "description": [
+            {
+                "text": "Gain at least 10 Favor with Xenos"
+            },
+            {
+              "color": "gray",
+              "text": "\n \nReward:"
+            },
+            {
+              "color": "yellow",
+              "text": "\n25 XP"
+            }
+          ],
         "icon": {
             "item": "minecraft:pink_glazed_terracotta"
         },
@@ -19,7 +28,7 @@
         "hidden": true
     },
     "criteria": {
-        "givewhenmax": {
+        "xenos_10_favor": {
             "trigger": "minecraft:impossible"
         }
     },

@@ -6,11 +6,18 @@
             "color": "white",
             "bold": false
         },
-        "description": {
-            "text": "Journey to The Far Lands V - November 6th, 2021",
-            "color": "green",
-            "italic": true
-        },
+        "description": [
+            {
+                "text": "Journey to The Far Lands V - November 6th, 2021",
+                "color": "green",
+                "italic": true
+            },
+            {
+              "color": "dark_purple",
+              "italic": true,
+              "text": "\nYou have finally arrived upon the shores of the distant north. The Far Lands awaits you just beyond this frozen expanse of immense mountains and cold..."
+            }
+          ],
         "icon": {
             "item": "minecraft:snow_block"
         },

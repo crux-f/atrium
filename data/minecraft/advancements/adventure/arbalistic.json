@@ -24,7 +24,7 @@
       },
       {
         "color": "yellow",
-        "text": "\n100 XP"
+        "text": "\n175 XP"
       }
     ],
     "frame": "challenge",
@@ -47,7 +47,7 @@
     "loot": [
       "atrium:advancements/adventure/arbalistic"
     ],
-    "experience": 100
+    "experience": 175
   },
   "sends_telemetry_event": true
 }

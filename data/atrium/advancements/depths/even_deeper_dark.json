@@ -4,7 +4,19 @@
         "item": "minecraft:deepslate"
       },
       "title": "Even Deeper Dark",
-      "description": "Tumble into The Depths",
+      "description": [
+        {
+            "text": "Tumble into The Depths"
+        },
+        {
+          "color": "gray",
+          "text": "\n \nReward:"
+        },
+        {
+          "color": "yellow",
+          "text": "\n25 XP"
+        }
+      ],
       "frame": "task",
       "show_toast": true,
       "announce_to_chat": true,
@@ -15,7 +27,6 @@
       "requirement": {
         "trigger": "minecraft:fall_from_height",
         "conditions": {
-          "player": [],
           "start_position": {
             "position": {
               "y": {
@@ -33,6 +44,9 @@
           }
         }
       }
-    }
+    },
+    "rewards": {
+      "experience": 25
+  }
   }
   

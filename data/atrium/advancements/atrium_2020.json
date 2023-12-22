@@ -7,8 +7,7 @@
             "bold": true
         },
         "description": {
-            "text": "You survived 2020! Congrats!",
-            "color": "green"
+            "text": "You survived 2020! Congrats!"
         },
         "icon": {
             "item": "minecraft:stone_pickaxe"

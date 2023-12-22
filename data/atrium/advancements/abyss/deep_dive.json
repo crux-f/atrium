@@ -1,12 +1,21 @@
 {
     "display": {
         "title": {
-            "text": "Deep Dive",
-            "color": "white"
+            "text": "Deep Dive"
         },
-        "description": {
+        "description": [
+          {
             "text": "Explore all Abyss biomes"
-        },
+          },
+          {
+            "color": "gray",
+            "text": "\n \nReward:"
+          },
+          {
+            "color": "yellow",
+            "text": "\n175 XP"
+          }
+        ],
         "icon": {
             "item": "minecraft:diamond_boots"
         },
@@ -102,5 +111,8 @@
             }
         }
     },
+    "rewards": {
+      "experience": 175
+  },
     "parent": "atrium:abyss/abyss_root"
 }

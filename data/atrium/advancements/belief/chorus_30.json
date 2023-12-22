@@ -3,8 +3,7 @@
     "display": {
         "title": {
             "text": "The Argent Moon",
-            "color": "light_purple",
-            "bold": false
+            "color": "light_purple"
         },
         "description": {
             "text": "Reach 30 favor with Chorus",
@@ -20,12 +19,12 @@
         "hidden": false
     },
     "criteria": {
-        "chorus_max": {
+        "chorus_max_favor": {
             "trigger": "minecraft:impossible"
         }
     },
     "rewards": {
         "experience": 50
     },
-    "parent": "atrium:belief/chorus_20"
+    "parent": "atrium:belief/chorus_10"
 }

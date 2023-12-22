@@ -6,11 +6,18 @@
             "color": "white",
             "bold": false
         },
-        "description": {
-            "text": "Return To The Depths V - June 3rd, 2023",
-            "color": "green",
-            "italic": true
-        },
+        "description": [
+            {
+                "text": "Return To The Depths V - June 3rd, 2023",
+                "color": "green",
+                "italic": true
+            },
+            {
+              "color": "dark_purple",
+              "italic": true,
+              "text": "\nThe Oblivion Sect appear to worship an Old God without a name. The only way you can unravel this mystery any further is to explore the realm from which they came."
+            }
+          ],
         "icon": {
             "item": "minecraft:sea_lantern"
         },

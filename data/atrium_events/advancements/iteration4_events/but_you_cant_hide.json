@@ -6,11 +6,18 @@
             "color": "white",
             "bold": false
         },
-        "description": {
-            "text": "Return To The Depths I - February 4th, 2023",
-            "color": "green",
-            "italic": true
-        },
+        "description": [
+            {
+                "text": "Return To The Depths I - February 4th, 2023",
+                "color": "green",
+                "italic": true
+            },
+            {
+              "color": "dark_purple",
+              "italic": true,
+              "text": "\nThe server launch event for Iteration 4!"
+            }
+          ],
         "icon": {
             "item": "minecraft:ender_eye"
         },

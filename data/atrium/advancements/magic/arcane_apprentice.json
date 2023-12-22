@@ -2,12 +2,21 @@
     "__comment": "Acquired by crafting a staff",
     "display": {
         "title": {
-            "text": "Arcane Apprentice",
-            "color": "white"
+            "text": "Arcane Apprentice"
         },
-        "description": {
-            "text": "Construct an arcane Staff"
-        },
+        "description": [
+            {
+                "text": "Construct an arcane Staff"
+            },
+            {
+              "color": "gray",
+              "text": "\n \nReward:"
+            },
+            {
+              "color": "yellow",
+              "text": "\n25 XP"
+            }
+          ],
         "icon": {
             "item": "minecraft:stick",
             "nbt": "{CustomModelData:333059}"
@@ -18,9 +27,12 @@
         "hidden": false
     },
     "criteria": {
-        "spacialfocus": {
+        "craft_staff": {
             "trigger": "minecraft:impossible"
         }
     },
+    "rewards": {
+        "experience": 25
+      },
     "parent": "atrium:magic/some_assembly_required"
 }

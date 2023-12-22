@@ -3,13 +3,10 @@
     "display": {
         "title": {
             "text": "Sincerest Gratitude",
-            "color": "gold",
-            "bold": false
+            "color": "gold"
         },
         "description": {
-            "text": "Join the Patreon; Thank you so much!",
-            "color": "green",
-            "italic": true
+            "text": "Join the Patreon; Thank you so much!"
         },
         "icon": {
             "item": "minecraft:orange_candle",
@@ -24,9 +21,6 @@
         "join_patreon": {
             "trigger": "minecraft:impossible"
         }
-    },
-    "rewards": {
-        "experience": 300
     },
     "parent": "atrium:atrium_root"
 }

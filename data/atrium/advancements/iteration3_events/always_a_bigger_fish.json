@@ -6,11 +6,18 @@
             "color": "white",
             "bold": false
         },
-        "description": {
-            "text": "Snowfall IV - September 3rd, 2022",
-            "color": "green",
-            "italic": true
-        },
+        "description": [
+            {
+                "text": "Snowfall IV - September 3rd, 2022",
+                "color": "green",
+                "italic": true
+            },
+            {
+              "color": "dark_purple",
+              "italic": true,
+              "text": "\nAs the Order of the Emerald Eye uncovers dark powers beneath the ice to the West, something else stirs in the dark corners of the world."
+            }
+          ],
         "icon": {
             "item": "minecraft:cod"
         },

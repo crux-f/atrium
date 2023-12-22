@@ -6,11 +6,18 @@
             "color": "green",
             "bold": false
         },
-        "description": {
-            "text": "Landfall II - August 1st, 2020",
-            "color": "green",
-            "italic": true
-        },
+        "description": [
+            {
+                "text": "Landfall II - August 1st, 2020",
+                "color": "green",
+                "italic": true
+            },
+            {
+              "color": "dark_purple",
+              "italic": true,
+              "text": "\nFollowing the siege of Rhendara Cavalcade, Armada troops retreated to three occupied settlements within the Glittering Borderlands."
+            }
+          ],
         "icon": {
             "item": "minecraft:sand"
         },

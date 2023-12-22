@@ -2,13 +2,21 @@
   "__comment": "Granted when you defeat an Eye of The Nameless in a Palace",
   "display": {
       "title": {
-          "text": "Don't Blink",
-          "color": "white"
+          "text": "Don't Blink"
       },
-      "description": {
-          "text": "Defeat an Eye of The Nameless",
-          "color": "green"
-      },
+      "description": [
+        {
+          "text": "Defeat an Eye of The Nameless"
+        },
+        {
+          "color": "gray",
+          "text": "\n \nReward:"
+        },
+        {
+          "color": "yellow",
+          "text": "\n175 XP"
+        }
+      ],
       "icon": {
           "item": "minecraft:heart_of_the_sea"
       },
@@ -38,5 +46,8 @@
       "kill_eye_of_the_nameless"
     ]
   ],
+  "rewards": {
+    "experience": 175
+},
   "parent": "atrium:abyss/unredacted"
 }

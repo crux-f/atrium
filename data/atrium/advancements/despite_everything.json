@@ -2,14 +2,10 @@
     "__comment": "Designates players who get the same element more than once.",
     "display": {
         "title": {
-            "text": "Despite Everything",
-            "color": "white",
-            "bold": false
+            "text": "Despite Everything"
         },
         "description": {
-            "text": "Get the same element more than once",
-            "color": "green",
-            "italic": true
+            "text": "Get the same element more than once"
         },
         "icon": {
             "item": "minecraft:glass"

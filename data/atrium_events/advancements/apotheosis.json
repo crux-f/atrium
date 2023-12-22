@@ -6,9 +6,7 @@
             "color": "dark_aqua"
         },
         "description": {
-            "text": "Participate in at least 1 Apotheosis monthly event",
-            "color": "green",
-            "italic": true
+            "text": "Participate in at least 1 Apotheosis event"
         },
         "icon": {
             "item": "minecraft:elytra"

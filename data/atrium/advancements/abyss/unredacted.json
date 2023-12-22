@@ -2,13 +2,21 @@
   "__comment": "Granted when you loot a Palace library",
   "display": {
       "title": {
-          "text": "Unredacted",
-          "color": "white"
+          "text": "Unredacted"
       },
-      "description": {
-          "text": "Loot a Chest in a Palace library",
-          "color": "green"
-      },
+      "description": [
+        {
+          "text": "Loot a Chest in a Palace library"
+        },
+        {
+          "color": "gray",
+          "text": "\n \nReward:"
+        },
+        {
+          "color": "yellow",
+          "text": "\n25 XP"
+        }
+      ],
       "icon": {
           "item": "minecraft:trapped_chest"
       },
@@ -30,5 +38,8 @@
       "loot_palace_library"
     ]
   ],
+  "rewards": {
+    "experience": 25
+},
   "parent": "atrium:abyss/before_the_flood"
 }

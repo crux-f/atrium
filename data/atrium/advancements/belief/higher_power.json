@@ -2,14 +2,21 @@
     "__comment": "Acquired by interacting with a shrine",
     "display": {
         "title": {
-            "text": "Higher Power",
-            "color": "white",
-            "bold": false
+            "text": "Higher Power"
         },
-        "description": {
-            "text": "Pray at a shrine",
-            "color": "green"
-        },
+        "description": [
+            {
+                "text": "Pray at a shrine"
+            },
+            {
+              "color": "gray",
+              "text": "\n \nReward:"
+            },
+            {
+              "color": "yellow",
+              "text": "\n25 XP"
+            }
+          ],
         "icon": {
             "item": "minecraft:nether_star"
         },
@@ -24,7 +31,7 @@
         }
     },
     "rewards": {
-        "experience": 50
+        "experience": 25
     },
     "parent": "atrium:belief/belief_root"
 }

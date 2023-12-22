@@ -2,15 +2,24 @@
     "__comment": "Acquired by applying a runic enchantment",
     "display": {
         "title": {
-            "text": "Enchanter II",
-            "color": "white"
+            "text": "Enchanter II"
         },
-        "description": {
-            "text": "Enchant an item using a Runic Codex"
-        },
+        "description": [
+            {
+                "text": "Apply a runic enchantment to an item"
+            },
+            {
+              "color": "gray",
+              "text": "\n \nReward:"
+            },
+            {
+              "color": "yellow",
+              "text": "\n25 XP"
+            }
+          ],
         "icon": {
             "item": "minecraft:enchanted_book",
-            "nbt": "{Enchantments:[{id:\"minecraft:power\",lvl:1s}]}"
+            "nbt": "{Enchantments:[{id:\"minecraft:power\",lvl:2s}]}"
         },
         "frame": "task",
         "show_toast": true,
@@ -22,5 +31,8 @@
             "trigger": "minecraft:impossible"
         }
     },
+    "rewards": {
+        "experience": 25
+      },
     "parent": "atrium:magic/mightier_than_the_sword"
 }

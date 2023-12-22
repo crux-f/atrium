@@ -6,11 +6,18 @@
             "color": "white",
             "bold": false
         },
-        "description": {
-            "text": "March 5th, 2022",
-            "color": "green",
-            "italic": true
-        },
+        "description": [
+            {
+                "text": "March 5th, 2022",
+                "color": "green",
+                "italic": true
+            },
+            {
+              "color": "dark_purple",
+              "italic": true,
+              "text": "\nThree groups of refugees from other worlds have arrived from other regions, seeking asylum."
+            }
+          ],
         "icon": {
             "item": "minecraft:yellow_bed"
         },

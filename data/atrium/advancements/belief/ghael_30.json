@@ -3,13 +3,21 @@
     "display": {
         "title": {
             "text": "The Infidel",
-            "color": "gold",
-            "bold": false
+            "color": "gold"
         },
-        "description": {
-            "text": "Reach 30 favor with Ghael.",
-            "color": "green"
-        },
+        "description": [
+            {
+                "text": "Reach 30 Favor with Ghael"
+            },
+            {
+              "color": "gray",
+              "text": "\n \nReward:"
+            },
+            {
+              "color": "yellow",
+              "text": "\n50 XP"
+            }
+          ],
         "icon": {
             "item": "minecraft:player_head",
             "nbt": "{display:{Name:'{\"text\":\"Holy Symbol\",\"italic\":false}',Lore:['{\"text\":\"Ghael, The Infidel\",\"color\":\"gold\",\"italic\":false}']},ghael_symbol:1b,SkullOwner:{Id:[I;355317681,-1743372148,-1225562802,1464683116],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGZlMjdjMWZiOTNjMGFjNDNiMjBiMTIzNWE5ODUwMjYwYzllNDIwYmUxMGM1OWYxNGMyYzM3MzA1Njc1NzEwMSJ9fX0=\"}]}}}"
@@ -20,12 +28,12 @@
         "hidden": false
     },
     "criteria": {
-        "ghael_max": {
+        "ghael_max_favor": {
             "trigger": "minecraft:impossible"
         }
     },
     "rewards": {
         "experience": 50
     },
-    "parent": "atrium:belief/ghael_20"
+    "parent": "atrium:belief/ghael_10"
 }

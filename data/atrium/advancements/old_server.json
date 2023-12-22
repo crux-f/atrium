@@ -3,13 +3,10 @@
     "display": {
         "title": {
             "text": "Viator",
-            "color": "dark_green",
-            "bold": false
+            "color": "dark_green"
         },
         "description": {
-            "text": "Remember Exorsa",
-            "color": "green",
-            "italic": true
+            "text": "Remember Exorsa"
         },
         "icon": {
             "item": "minecraft:grass_block"

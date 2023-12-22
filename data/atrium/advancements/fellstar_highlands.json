@@ -4,14 +4,10 @@
       "item": "minecraft:powder_snow_bucket"
     },
         "title": {
-            "text": "Fellstar Highlands",
-            "color": "dark_purple",
-            "bold": false
+            "text": "Fellstar Highlands"
         },
         "description": {
-            "text": "Visit all vistas in Fellstar Highlands.",
-            "color": "green",
-            "italic": true
+            "text": "Visit all vistas in Fellstar Highlands."
         },
     "frame": "challenge",
     "show_toast": true,

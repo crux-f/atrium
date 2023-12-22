@@ -6,11 +6,18 @@
             "color": "dark_red",
             "bold": false
         },
-        "description": {
-            "text": "Landfall V - November 7th, 2020",
-            "color": "green",
-            "italic": true
-        },
+        "description": [
+            {
+                "text": "Landfall V - November 7th, 2020",
+                "color": "green",
+                "italic": true
+            },
+            {
+              "color": "dark_purple",
+              "italic": true,
+              "text": "\nFollowing a devastating defeat, the armies of Exorsa move to regroup within their capital city. Smoke on the western horizon. Panicked scouts. An advancing army."
+            }
+          ],
         "icon": {
             "item": "minecraft:wither_skeleton_skull"
         },

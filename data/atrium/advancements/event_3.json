@@ -6,11 +6,18 @@
             "color": "red",
             "bold": false
         },
-        "description": {
-            "text": "May 2nd, 2020",
-            "color": "green",
-            "italic": true
-        },
+        "description": [
+            {
+                "text": "May 2nd, 2020",
+                "color": "green",
+                "italic": true
+            },
+            {
+              "color": "dark_purple",
+              "italic": true,
+              "text": "\nThe Insolents of Ghael The Infidel are throwing a party in honor of their strange god."
+            }
+          ],
         "icon": {
             "item": "minecraft:campfire"
         },

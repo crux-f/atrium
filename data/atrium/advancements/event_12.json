@@ -6,11 +6,18 @@
             "color": "dark_aqua",
             "bold": false
         },
-        "description": {
-            "text": "Pantheon II - February 6th, 2021",
-            "color": "green",
-            "italic": true
-        },
+        "description": [
+            {
+                "text": "Pantheon II - February 6th, 2021",
+                "color": "green",
+                "italic": true
+            },
+            {
+              "color": "dark_purple",
+              "italic": true,
+              "text": "\nFollowing the thinning of the veil, The Infernal Inquisition is becoming a powerful player in world events; the splintered remains of the ancient Piglin Empire may be enough to stop them."
+            }
+          ],
         "icon": {
             "item": "minecraft:soul_sand"
         },

@@ -2,13 +2,21 @@
   "__comment": "Granted when you defeat a Lich",
   "display": {
       "title": {
-          "text": "Fallen Angel",
-          "color": "white"
+          "text": "Fallen Angel"
       },
-      "description": {
-          "text": "Fell a Lich",
-          "color": "green"
-      },
+      "description": [
+        {
+          "text": "Fell a Lich"
+        },
+        {
+          "color": "gray",
+          "text": "\n \nReward:"
+        },
+        {
+          "color": "yellow",
+          "text": "\n50 XP"
+        }
+      ],
       "icon": {
           "item": "minecraft:elytra",
           "nbt": "{CustomModelData:333142,Damage:432}"
@@ -39,5 +47,8 @@
       "kill_lich"
     ]
   ],
+  "rewards": {
+    "experience": 50
+  },
   "parent": "atrium:meridian/no_trespassing"
 }

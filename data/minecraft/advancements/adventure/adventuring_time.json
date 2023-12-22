@@ -862,13 +862,13 @@
       },
       {
         "color": "yellow",
-        "text": "\n250 XP"
+        "text": "\n500 XP"
       }
     ],
     "frame": "challenge",
     "hidden": false,
     "rewards": {
-      "experience": 250
+      "experience": 500
     },
     "icon": {
       "item": "minecraft:diamond_boots",
@@ -1040,8 +1040,5 @@
       "minecraft:deep_dark"
     ]
   ],
-  "rewards": {
-    "experience": 500
-  },
   "sends_telemetry_event": true
 }

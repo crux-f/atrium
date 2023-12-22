@@ -6,11 +6,18 @@
             "color": "aqua",
             "bold": false
         },
-        "description": {
-            "text": "Snowfall V - October 8th, 2022",
-            "color": "green",
-            "italic": true
-        },
+        "description": [
+            {
+                "text": "Snowfall V - October 8th, 2022",
+                "color": "green",
+                "italic": true
+            },
+            {
+              "color": "dark_purple",
+              "italic": true,
+              "text": "\nThe Armada have returned. Their agents spread rumors of Travelers bringing destruction and mayhem, and yet their focus seems to be on something else... Something bigger."
+            }
+          ],
         "icon": {
             "item": "minecraft:written_book"
         },

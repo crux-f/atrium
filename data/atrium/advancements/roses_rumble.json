@@ -6,11 +6,18 @@
             "color": "red",
             "bold": false
         },
-        "description": {
-            "text": "January 8th, 2022",
-            "color": "green",
-            "italic": true
-        },
+        "description": [
+            {
+                "text": "January 8th, 2022",
+                "color": "green",
+                "italic": true
+            },
+            {
+              "color": "dark_purple",
+              "italic": true,
+              "text": "\nThe Afalian Order of Ghael The Infidel invites you all to the first annual Rumble Tournament!"
+            }
+          ],
         "icon": {
             "item": "minecraft:polished_blackstone"
         },

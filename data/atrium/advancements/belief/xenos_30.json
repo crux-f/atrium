@@ -6,10 +6,19 @@
             "color": "#FFBADF",
             "bold": false
         },
-        "description": {
-            "text": "Reach 30 favor with Xenos",
-            "color": "green"
-        },
+        "description": [
+            {
+                "text": "Reach 30 Favor with Xenos"
+            },
+            {
+              "color": "gray",
+              "text": "\n \nReward:"
+            },
+            {
+              "color": "yellow",
+              "text": "\n50 XP"
+            }
+          ],
         "icon": {
             "item": "minecraft:player_head",
             "nbt": "{display:{Name:'{\"text\":\"Ancient Symbol\",\"color\":\"gray\",\"italic\":false}',Lore:['{\"text\":\"Xenos, The Endless Harmony\",\"color\":\"#FFBADF\",\"italic\":false}']},atrium_xenos_symbol:1b,SkullOwner:{Id:[I;-16274760,2027244544,-1080008088,-2011904636],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTE0ZjdiZDQwYWRmNGVmZmRkMTI0ZjcwNmFjZmY4OGNlZGFhZmJjMTExNGE4N2Q5OWZhZjNlYjI0NDczNmVlOSJ9fX0=\"}]}}}"
@@ -20,12 +29,12 @@
         "hidden": false
     },
     "criteria": {
-        "xenos_max": {
+        "xenos_max_favor": {
             "trigger": "minecraft:impossible"
         }
     },
     "rewards": {
         "experience": 50
     },
-    "parent": "atrium:belief/xenos_20"
+    "parent": "atrium:belief/xenos_10"
 }

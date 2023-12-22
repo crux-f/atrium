@@ -2,14 +2,10 @@
     "__comment": "All the events that took place in 2021 fall into this category.",
     "display": {
         "title": {
-            "text": "2021",
-            "color": "white",
-            "bold": false
+            "text": "2021"
         },
         "description": {
-            "text": "All Atrium Events in 2021.",
-            "color": "green",
-            "italic": true
+            "text": "All Atrium Events in 2021"
         },
         "icon": {
             "item": "minecraft:iron_pickaxe"

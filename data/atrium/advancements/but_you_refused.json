@@ -2,14 +2,10 @@
     "__comment": "Refuse to change elements",
     "display": {
         "title": {
-            "text": "But You Refused",
-            "color": "white",
-            "bold": false
+            "text": "But You Refused"
         },
         "description": {
-            "text": "Choose to hold on to the past",
-            "color": "green",
-            "italic": true
+            "text": "Choose to hold on to the past"
         },
         "icon": {
             "item": "minecraft:barrier"

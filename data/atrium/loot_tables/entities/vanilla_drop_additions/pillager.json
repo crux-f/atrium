@@ -55,7 +55,7 @@
         },
         {
           "type": "item",
-          "weight": 1,
+          "weight": 2,
           "quality": 5,
           "name": "minecraft:tripwire_hook",
           "functions": [
@@ -73,7 +73,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"§cOutpost Key\"}',Lore:['{\"text\":\"These pillagers have to\"}','{\"text\":\"keep their goodies\"}','{\"text\":\"somewhere, don\\'t they?\"}']},atrium_outpost_key:1b}"
+              "tag": "{display:{Name:'{\"text\":\"§cOutpost Key\"}',Lore:['{\"text\":\"These pillagers have to\"}','{\"text\":\"keep their goodies\"}','{\"text\":\"somewhere, don\\'t they?\"}']},CustomModelData:333172,atrium_outpost_key:1b}"
             }
           ]
         }

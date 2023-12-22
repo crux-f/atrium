@@ -2,8 +2,7 @@
     "__comment": "congrats!",
     "display": {
         "title": {
-            "text": "Messorum's Bane",
-            "color": "white"
+            "text": "Messorum's Bane"
         },
         "description": [
             {
@@ -31,7 +30,7 @@
         "hidden": false
     },
     "criteria": {
-        "granted": {
+        "granted_by_function": {
             "trigger": "minecraft:impossible"
         }
     },

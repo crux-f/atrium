@@ -6,11 +6,18 @@
             "color": "aqua",
             "bold": true
         },
-        "description": {
-            "text": "March 7th, 2020",
-            "color": "green",
-            "italic": true
-        },
+        "description": [
+            {
+                "text": "March 7th, 2020",
+                "color": "green",
+                "italic": true
+            },
+            {
+              "color": "dark_purple",
+              "italic": true,
+              "text": "\nThree groups of refugees from other worlds have arrived in Atrium."
+            }
+          ],
         "icon": {
             "item": "minecraft:bell"
         },

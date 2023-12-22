@@ -6,11 +6,18 @@
             "color": "white",
             "bold": false
         },
-        "description": {
-            "text": "Apotheosis II - August 5th, 2023",
-            "color": "green",
-            "italic": true
-        },
+        "description": [
+            {
+                "text": "Apotheosis II - August 5th, 2023",
+                "color": "green",
+                "italic": true
+            },
+            {
+              "color": "dark_purple",
+              "italic": true,
+              "text": "\nIn speaking with the sky-people of Quaint, they tell of an advanced method of arial combat practiced by an order of monks known as the Cloud-Dancers. Perhaps it would be a good idea to pay them a visit and see what they could teach us."
+            }
+          ],
         "icon": {
             "item": "minecraft:soul_lantern"
         },

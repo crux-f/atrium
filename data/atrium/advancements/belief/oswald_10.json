@@ -2,14 +2,21 @@
     "__comment": "Granted when you reach 10 Favor with Oswald",
     "display": {
         "title": {
-            "text": "Humility",
-            "color": "white",
-            "bold": false
+            "text": "Humility"
         },
-        "description": {
-            "text": "Gain at least 10 Favor with Oswald",
-            "color": "green"
-        },
+        "description": [
+            {
+                "text": "Gain at least 10 Favor with Oswald"
+            },
+            {
+              "color": "gray",
+              "text": "\n \nReward:"
+            },
+            {
+              "color": "yellow",
+              "text": "\n25 XP"
+            }
+          ],
         "icon": {
             "item": "minecraft:white_concrete"
         },
@@ -19,7 +26,7 @@
         "hidden": false
     },
     "criteria": {
-        "givewhenmax": {
+        "oswald_10_favor": {
             "trigger": "minecraft:impossible"
         }
     },

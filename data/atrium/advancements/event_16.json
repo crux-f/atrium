@@ -6,11 +6,18 @@
             "color": "white",
             "bold": false
         },
-        "description": {
-            "text": "June 5th, 2021",
-            "color": "green",
-            "italic": true
-        },
+        "description": [
+            {
+                "text": "June 5th, 2021",
+                "color": "green",
+                "italic": true
+            },
+            {
+              "color": "dark_purple",
+              "italic": true,
+              "text": "\nThe server launch event for Iteration 2!"
+            }
+          ],
         "icon": {
             "item": "minecraft:bell"
         },

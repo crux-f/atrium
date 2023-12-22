@@ -6,11 +6,18 @@
             "color": "white",
             "bold": false
         },
-        "description": {
-            "text": "Journey to The Far Lands II - September 4th, 2021",
-            "color": "green",
-            "italic": true
-        },
+        "description": [
+            {
+                "text": "Journey to The Far Lands II - September 4th, 2021",
+                "color": "green",
+                "italic": true
+            },
+            {
+              "color": "dark_purple",
+              "italic": true,
+              "text": "\nAfter traversing The Gray Valley, the northern end of Severed Reach stands in your way. The ancient Delvers had a secret passageway to quickly pass through the mountain range, or so the stories say."
+            }
+          ],
         "icon": {
             "item": "minecraft:sea_lantern"
         },

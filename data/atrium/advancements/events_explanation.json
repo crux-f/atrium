@@ -2,13 +2,10 @@
     "__comment": "New fork in the path for different event stuff",
     "display": {
         "title": {
-            "text": "Monthly Events",
-            "color": "dark_green"
+            "text": "Story Events"
         },
         "description": {
-            "text": "First Saturday of every month",
-            "color": "green",
-            "italic": true
+            "text": "Check the Discord for future events"
         },
         "icon": {
             "item": "minecraft:cake"

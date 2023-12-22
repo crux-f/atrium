@@ -6,9 +6,7 @@
             "color": "light_gray"
         },
         "description": {
-            "text": "Participate in at least 1 Journey to The Far Lands monthly event.",
-            "color": "green",
-            "italic": true
+            "text": "Participate in at least 1 Journey to The Far Lands event"
         },
         "icon": {
             "item": "minecraft:dirt_path"

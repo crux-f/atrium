@@ -6,11 +6,18 @@
             "color": "white",
             "bold": false
         },
-        "description": {
-            "text": "May 7th, 2022",
-            "color": "green",
-            "italic": true
-        },
+        "description": [
+            {
+                "text": "May 7th, 2022",
+                "color": "green",
+                "italic": true
+            },
+            {
+              "color": "dark_purple",
+              "italic": true,
+              "text": "\nWhile the battle to defend Holmstead took place, the town of Treadstone was ransacked, its people killed. ElderShrimp has requested that you come to aid in the rebuilding of Holmstead and stay afterword to discuss the threats from both without and within. "
+            }
+          ],
         "icon": {
             "item": "minecraft:shield"
         },

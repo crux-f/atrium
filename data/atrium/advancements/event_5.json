@@ -6,11 +6,18 @@
             "color": "red",
             "bold": false
         },
-        "description": {
-            "text": "Landfall I - July 11th, 2020",
-            "color": "green",
-            "italic": true
-        },
+        "description": [
+            {
+                "text": "Landfall I - July 11th, 2020",
+                "color": "green",
+                "italic": true
+            },
+            {
+              "color": "dark_purple",
+              "italic": true,
+              "text": "\nThe Armada is preparing to make landfall on the shores of Rhendara, and the Viators of Atrium must stand at the wall to defend their lands..."
+            }
+          ],
         "icon": {
             "item": "minecraft:iron_sword"
         },

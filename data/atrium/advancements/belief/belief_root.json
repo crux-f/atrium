@@ -7,11 +7,9 @@
     },
     "display": {
         "title": {
-            "color": "white",
             "text": "Belief"
         },
         "description": {
-            "color": "green",
             "text": "A complex topic, simplified"
         },
         "icon": {

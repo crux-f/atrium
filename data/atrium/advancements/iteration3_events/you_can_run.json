@@ -6,11 +6,18 @@
             "color": "white",
             "bold": false
         },
-        "description": {
-            "text": "Snowfall VII - December 3rd, 2022",
-            "color": "green",
-            "italic": true
-        },
+        "description": [
+            {
+                "text": "Snowfall VII - December 3rd, 2022",
+                "color": "green",
+                "italic": true
+            },
+            {
+              "color": "dark_purple",
+              "italic": true,
+              "text": "\nIf the prophecy speaks true, The Nameless - one of the Old Gods - will soon return. So, what can you do to stop the Old God? Well, the same thing anyone can do."
+            }
+          ],
         "icon": {
             "item": "minecraft:ender_pearl"
         },

@@ -4,7 +4,19 @@
         "item": "minecraft:snow_block"
       },
       "title": "Heavens Above!",
-      "description": "Ascend into The Meridian",
+      "description": [
+        {
+            "text": "Ascend into The Meridian"
+        },
+        {
+          "color": "gray",
+          "text": "\n \nReward:"
+        },
+        {
+          "color": "yellow",
+          "text": "\n25 XP"
+        }
+      ],
       "frame": "task",
       "show_toast": true,
       "announce_to_chat": true,
@@ -12,9 +24,12 @@
     },
     "parent": "atrium:meridian/meridian_root",
     "criteria": {
-      "custom_trigger": {
+      "granted_by_function": {
           "trigger": "minecraft:impossible"
       }
-    }
+    },
+    "rewards": {
+      "experience": 25
+  }
   }
   

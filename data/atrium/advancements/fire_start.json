@@ -2,14 +2,10 @@
     "__comment": "Designates players who started at the Fire start.",
     "display": {
         "title": {
-            "text": "Born of Fire",
-            "color": "red",
-            "bold": false
+            "text": "Born of Fire"
         },
         "description": {
-            "text": "The aspect to which you are attuned",
-            "color": "green",
-            "italic": true
+            "text": "The aspect to which you are attuned"
         },
         "icon": {
             "item": "minecraft:red_stained_glass"

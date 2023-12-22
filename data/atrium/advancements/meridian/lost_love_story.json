@@ -5,7 +5,19 @@
         "nbt": "{Enchantments:[{lvl:1s,id:\"minecraft:channeling\"}]}"
       },
       "title": "Lost Love Story",
-      "description": "Use a pickaxe enchanted with Shard Touch to acquire Vibrant Crystal",
+      "description": [
+        {
+            "text": "Use a pickaxe enchanted with Shard Touch to acquire Vibrant Crystal"
+        },
+        {
+          "color": "gray",
+          "text": "\n \nReward:"
+        },
+        {
+          "color": "yellow",
+          "text": "\n50 XP"
+        }
+      ],
       "frame": "goal",
       "show_toast": true,
       "announce_to_chat": true,
@@ -36,6 +48,9 @@
           ]
         }
       }
-    }
+    },
+    "rewards": {
+      "experience": 50
+  }
   }
   

@@ -2,8 +2,7 @@
     "__comment": "congrats!",
     "display": {
         "title": {
-            "text": "Medic!",
-            "color": "white"
+            "text": "Medic!"
         },
         "description": [
             {
@@ -31,7 +30,7 @@
         "hidden": false
     },
     "criteria": {
-        "granted": {
+        "granted_by_function": {
             "trigger": "minecraft:impossible"
         }
     },

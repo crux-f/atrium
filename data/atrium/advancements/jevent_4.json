@@ -6,11 +6,18 @@
             "color": "light_purple",
             "bold": false
         },
-        "description": {
-            "text": "Journey to The Far Lands IV - October 2nd, 2021",
-            "color": "green",
-            "italic": true
-        },
+        "description": [
+            {
+                "text": "Journey to The Far Lands IV - October 2nd, 2021",
+                "color": "green",
+                "italic": true
+            },
+            {
+              "color": "dark_purple",
+              "italic": true,
+              "text": "\nAs your crew makes landfall on The Lost Coast, a strange monument sits before you... Are the rumors true? Can this place truly catapult you into The Far Lands?"
+            }
+          ],
         "icon": {
             "item": "minecraft:lodestone"
         },

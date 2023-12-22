@@ -10,12 +10,9 @@
     },
     "display": {
         "title": {
-            "color": "white",
-            "text": "Depths",
-            "underlined": false
+            "text": "Depths"
         },
         "description": {
-            "color": "green",
             "text": "Drums, drums in the deep"
         },
         "icon": {

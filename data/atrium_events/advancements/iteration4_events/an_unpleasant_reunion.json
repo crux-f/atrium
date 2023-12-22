@@ -6,11 +6,18 @@
             "color": "white",
             "bold": false
         },
-        "description": {
-            "text": "Apotheosis I - July 1st, 2023",
-            "color": "green",
-            "italic": true
-        },
+        "description": [
+            {
+                "text": "Apotheosis I - July 1st, 2023",
+                "color": "green",
+                "italic": true
+            },
+            {
+              "color": "dark_purple",
+              "italic": true,
+              "text": "\nFollowing the banishment of The Oblivion Sect, the wildlands have been enjoying a quite peace. As usual, that didn't last long. A panicked sky-sailor has brought word that a small village in The Meridian has spotted a fleet of airships on the horizon; Airships bearing a familiar purple banner."
+            }
+          ],
         "icon": {
             "item": "minecraft:crossbow"
         },

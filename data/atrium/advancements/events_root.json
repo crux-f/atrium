@@ -7,7 +7,6 @@
     },
     "display": {
         "title": {
-            "bold": false,
             "color": "dark_green",
             "text": "Events"
         },

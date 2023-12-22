@@ -7,8 +7,7 @@
             "bold": true
         },
         "description": {
-            "text": "You helped beta test the server in 2019! Thanks!",
-            "color": "green"
+            "text": "You helped beta test the server in 2019! Thanks!"
         },
         "icon": {
             "item": "minecraft:wooden_pickaxe"

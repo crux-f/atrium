@@ -2,14 +2,10 @@
     "__comment": "Designates players who started at the Earth start.",
     "display": {
         "title": {
-            "text": "Born of Earth",
-            "color": "dark_green",
-            "bold": false
+            "text": "Born of Earth"
         },
         "description": {
-            "text": "The aspect to which you are attuned",
-            "color": "green",
-            "italic": true
+            "text": "The aspect to which you are attuned"
         },
         "icon": {
             "item": "minecraft:green_stained_glass"

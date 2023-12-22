@@ -7,8 +7,7 @@
             "bold": true
         },
         "description": {
-            "text": "You played in 2021! Lets hope for a less rocky start this time.",
-            "color": "green"
+            "text": "You played in 2021! Lets hope for a less rocky start this time."
         },
         "icon": {
             "item": "minecraft:iron_pickaxe"

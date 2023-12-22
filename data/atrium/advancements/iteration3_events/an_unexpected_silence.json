@@ -6,11 +6,18 @@
             "color": "white",
             "bold": false
         },
-        "description": {
-            "text": "Snowfall I - June 4th, 2022",
-            "color": "green",
-            "italic": true
-        },
+        "description": [
+            {
+                "text": "Snowfall I - June 4th, 2022",
+                "color": "green",
+                "italic": true
+            },
+            {
+              "color": "dark_purple",
+              "italic": true,
+              "text": "\nA scout from Ecotone Township reports seeing lit lanterns along the old road, and the local cleric suspects the Order are trying to salvage \"an old traveler ruin\"."
+            }
+          ],
         "icon": {
             "item": "minecraft:powder_snow_bucket"
         },

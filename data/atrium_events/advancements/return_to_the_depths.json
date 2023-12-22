@@ -6,9 +6,7 @@
             "color": "dark_blue"
         },
         "description": {
-            "text": "Participate in at least 1 Return To The Depths monthly event",
-            "color": "green",
-            "italic": true
+            "text": "Participate in at least 1 Return To The Depths event"
         },
         "icon": {
             "item": "minecraft:deepslate"

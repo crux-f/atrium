@@ -4,7 +4,19 @@
       "item": "minecraft:beacon"
     },
     "title": "Sunlight Not Required",
-    "description": "Construct a fully-powered Beacon below y=100 in The Depths",
+    "description": [
+      {
+          "text": "Construct a fully-powered Beacon below y=100 in The Depths"
+      },
+      {
+        "color": "gray",
+        "text": "\n \nReward:"
+      },
+      {
+        "color": "yellow",
+        "text": "\n250 XP"
+      }
+    ],
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
@@ -37,6 +49,6 @@
     }
   },
   "rewards": {
-    "experience": 150
+    "experience": 250
   }
 }

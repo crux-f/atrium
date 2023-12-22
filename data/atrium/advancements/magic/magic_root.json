@@ -1,18 +1,15 @@
 {
     "__comment": "Acquired by crafting something using a formula crafting recipe",
     "criteria": {
-        "useformulacrafting": {
+        "use_formula_crafting": {
             "trigger": "minecraft:impossible"
         }
     },
     "display": {
         "title": {
-            "bold": false,
-            "color": "white",
             "text": "Arcana"
         },
         "description": {
-            "color": "green",
             "text": "Time to hit the books"
         },
         "icon": {

@@ -2,13 +2,21 @@
   "__comment": "Granted when you enter a Palace",
   "display": {
       "title": {
-          "text": "Before The Flood",
-          "color": "white"
+          "text": "Before The Flood"
       },
-      "description": {
-          "text": "Enter a Palace",
-          "color": "green"
-      },
+      "description": [
+        {
+          "text": "Enter a Palace"
+        },
+        {
+          "color": "gray",
+          "text": "\n \nReward:"
+        },
+        {
+          "color": "yellow",
+          "text": "\n25 XP"
+        }
+      ],
       "icon": {
           "item": "minecraft:sea_lantern"
       },

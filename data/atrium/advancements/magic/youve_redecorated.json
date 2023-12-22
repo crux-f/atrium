@@ -2,12 +2,21 @@
     "__comment": "Acquired by using a Rod of Relocation to pack up a structure",
     "display": {
         "title": {
-            "text": "You've Redecorated!",
-            "color": "white"
+            "text": "You've Redecorated!"
         },
-        "description": {
-            "text": "Use a Rod of Relocation to pack up an arcane structure"
-        },
+        "description": [
+            {
+                "text": "Use a Rod of Relocation to pack up an arcane structure"
+            },
+            {
+              "color": "gray",
+              "text": "\n \nReward:"
+            },
+            {
+              "color": "yellow",
+              "text": "\n25 XP"
+            }
+          ],
         "icon": {
             "item": "minecraft:stick",
             "nbt": "{CustomModelData:333083}"
@@ -22,5 +31,8 @@
             "trigger": "minecraft:impossible"
         }
     },
+    "rewards": {
+        "experience": 25
+      },
     "parent": "atrium:magic/some_assembly_required"
 }

@@ -2,14 +2,10 @@
     "__comment": "All the events that took place in 2023 fall into this category.",
     "display": {
         "title": {
-            "text": "2023",
-            "color": "white",
-            "bold": false
+            "text": "2023"
         },
         "description": {
-            "text": "All Atrium Events in 2023.",
-            "color": "green",
-            "italic": true
+            "text": "All Atrium Events in 2023"
         },
         "icon": {
             "item": "minecraft:diamond_pickaxe"

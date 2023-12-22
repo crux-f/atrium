@@ -1,15 +1,11 @@
 {
-    "__comment": "Designates players who started at Air.",
+    "__comment": "Designates players who chose to change elements.",
     "display": {
         "title": {
-            "text": "New Year, New Me",
-            "color": "white",
-            "bold": false
+            "text": "New Year, New Me"
         },
         "description": {
-            "text": "Choose to accept change",
-            "color": "green",
-            "italic": true
+            "text": "Choose to accept change"
         },
         "icon": {
             "item": "minecraft:music_disc_otherside"

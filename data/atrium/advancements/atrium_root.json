@@ -7,13 +7,9 @@
     },
     "display": {
         "title": {
-            "bold": true,
-            "color": "dark_purple",
-            "text": "Atrium",
-            "underlined": false
+            "text": "Atrium"
         },
         "description": {
-            "color": "green",
             "text": "A choice is made"
         },
         "icon": {

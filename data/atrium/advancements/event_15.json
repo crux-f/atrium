@@ -6,11 +6,18 @@
             "color": "dark_purple",
             "bold": false
         },
-        "description": {
-            "text": "Pantheon V - May 1st, 2021",
-            "color": "green",
-            "italic": true
-        },
+        "description": [
+            {
+                "text": "Pantheon IV - April 3rd, 2021",
+                "color": "green",
+                "italic": true
+            },
+            {
+              "color": "dark_purple",
+              "italic": true,
+              "text": "\nThe Atrocity Committee of Arcane Affairs has detected a disturbance in The Atrium Network while researching Waystones, and requests your help gathering materials to discover its source."
+            }
+          ],
         "icon": {
             "item": "minecraft:purple_banner",
             "nbt": "{BlockEntityTag:{Patterns:[{Color:15,Pattern:\"cre\"},{Color:15,Pattern:\"mr\"}]}}"

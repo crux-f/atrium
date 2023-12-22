@@ -6,11 +6,18 @@
             "color": "dark_purple",
             "bold": false
         },
-        "description": {
-            "text": "Snowfall VI - November 5th, 2022",
-            "color": "green",
-            "italic": true
-        },
+        "description": [
+            {
+                "text": "Snowfall VI - November 5th, 2022",
+                "color": "green",
+                "italic": true
+            },
+            {
+              "color": "dark_purple",
+              "italic": true,
+              "text": "\nThe ominous ring of pale stone is all that stands between you and the realm of Chorus, The Argent Moon. The prophecy foretells a great danger, and according to E, only Chorus can help."
+            }
+          ],
         "icon": {
             "item": "minecraft:end_portal_frame"
         },

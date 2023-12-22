@@ -39,7 +39,7 @@
       },
       {
         "color": "yellow",
-        "text": "\n75 XP"
+        "text": "\n50 XP"
       }
     ],
     "frame": "task",
@@ -58,7 +58,7 @@
     ]
   ],
   "rewards": {
-    "experience": 75
+    "experience": 50
   },
   "sends_telemetry_event": true
 }

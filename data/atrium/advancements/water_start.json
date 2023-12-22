@@ -2,14 +2,10 @@
     "__comment": "Designates players who started at the Water start",
     "display": {
         "title": {
-            "text": "Born of Water",
-            "color": "blue",
-            "bold": false
+            "text": "Born of Water"
         },
         "description": {
-            "text": "The aspect to which you are attuned",
-            "color": "green",
-            "italic": true
+            "text": "The aspect to which you are attuned"
         },
         "icon": {
             "item": "minecraft:blue_stained_glass"

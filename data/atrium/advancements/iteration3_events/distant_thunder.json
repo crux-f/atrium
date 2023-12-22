@@ -6,11 +6,18 @@
             "color": "white",
             "bold": false
         },
-        "description": {
-            "text": "April 2nd, 2022",
-            "color": "green",
-            "italic": true
-        },
+        "description": [
+            {
+                "text": "April 2nd, 2022",
+                "color": "green",
+                "italic": true
+            },
+            {
+              "color": "dark_purple",
+              "italic": true,
+              "text": "\nIt seems that the foothold the Travelers have established in the Highlands has drawn the attention of a southern aggressor- The Order of The Emerald Eye."
+            }
+          ],
         "icon": {
             "item": "minecraft:iron_sword"
         },

@@ -2,15 +2,20 @@
     "__comment": "The second event of Return To The Depths. 03/04/2023.",
     "display": {
         "title": {
-            "text": "A Crack In Bedrock",
-            "color": "white",
-            "bold": false
+            "text": "A Crack In Bedrock"
         },
-        "description": {
-            "text": "Return To The Depths II - March 4th, 2023",
-            "color": "green",
-            "italic": true
-        },
+        "description": [
+            {
+                "text": "Return To The Depths II - March 4th, 2023",
+                "color": "green",
+                "italic": true
+            },
+            {
+              "color": "dark_purple",
+              "italic": true,
+              "text": "\nThose who fled the Fellstar Highlands warn of the return of something spoken of only in prophecy… Something Nameless."
+            }
+          ],
         "icon": {
             "item": "minecraft:bedrock"
         },

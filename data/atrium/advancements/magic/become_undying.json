@@ -3,12 +3,22 @@
     "display": {
         "title": {
             "text": "become undying",
-            "color": "green",
             "font": "illageralt"
         },
-        "description": {
-            "text": "Create your own Totem of Undying"
-        },
+        "description": [
+            {
+                "text": "Create your own Totem of Undying",
+                "font": "default"
+            },
+            {
+              "color": "gray",
+              "text": "\n \nReward:"
+            },
+            {
+              "color": "yellow",
+              "text": "\n175 XP"
+            }
+          ],
         "icon": {
             "item": "minecraft:totem_of_undying"
         },
@@ -18,9 +28,12 @@
         "hidden": true
     },
     "criteria": {
-        "create_totem_of_undying": {
+        "craft_totem_of_undying": {
             "trigger": "minecraft:impossible"
         }
     },
+    "rewards": {
+        "experience": 175
+      },
     "parent": "atrium:magic/secrets_of_the_deep"
 }

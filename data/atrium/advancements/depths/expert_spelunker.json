@@ -1,12 +1,21 @@
 {
     "display": {
         "title": {
-            "text": "Expert Spelunker",
-            "color": "white"
+            "text": "Expert Spelunker"
         },
-        "description": {
-            "text": "Explore all Depths biomes"
-        },
+        "description": [
+          {
+              "text": "Explore all Depths biomes"
+          },
+          {
+            "color": "gray",
+            "text": "\n \nReward:"
+          },
+          {
+            "color": "yellow",
+            "text": "\n175 XP"
+          }
+        ],
         "icon": {
             "item": "minecraft:iron_boots"
         },
@@ -136,5 +145,8 @@
             }
         }
     },
+    "rewards": {
+      "experience": 175
+  },
     "parent": "atrium:depths/even_deeper_dark"
 }

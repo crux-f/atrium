@@ -6,9 +6,7 @@
             "color": "gold"
         },
         "description": {
-            "text": "Participate in at least 1 Pantheon monthly event.",
-            "color": "green",
-            "italic": true
+            "text": "Participate in at least 1 Pantheon event"
         },
         "icon": {
             "item": "minecraft:nether_star"

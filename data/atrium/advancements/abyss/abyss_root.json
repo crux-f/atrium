@@ -10,11 +10,9 @@
     },
     "display": {
         "title": {
-            "color": "white",
             "text": "Abyss"
         },
         "description": {
-            "color": "green",
             "text": "Go with the floe"
         },
         "icon": {

@@ -6,11 +6,18 @@
             "color": "blue",
             "bold": false
         },
-        "description": {
-            "text": "Landfall IV - October 3rd, 2020",
-            "color": "green",
-            "italic": true
-        },
+        "description": [
+            {
+                "text": "Landfall IV - October 3rd, 2020",
+                "color": "green",
+                "italic": true
+            },
+            {
+              "color": "dark_purple",
+              "italic": true,
+              "text": "\nThe forces of Atrocity have constructed a port within The Emerald Coast, and have prepared a fleet of ships to sail The Scathing Sea and launch their own attack against the seaside town of Prospect."
+            }
+          ],
         "icon": {
             "item": "minecraft:oak_boat"
         },

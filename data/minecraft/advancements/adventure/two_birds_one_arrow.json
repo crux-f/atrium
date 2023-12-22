@@ -38,8 +38,12 @@
         "text": "\n \nReward:"
       },
       {
+        "color": "blue",
+        "text": "\n1 Bayonet Crossbow"
+      },
+      {
         "color": "yellow",
-        "text": "\n100 XP"
+        "text": "\n175 XP"
       }
     ],
     "frame": "challenge",
@@ -59,7 +63,10 @@
     ]
   ],
   "rewards": {
-    "experience": 100
+    "loot": [
+      "atrium:advancements/adventure/two_birds_one_arrow"
+    ],
+    "experience": 175
   },
   "sends_telemetry_event": true
 }

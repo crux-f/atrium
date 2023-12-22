@@ -6,11 +6,18 @@
             "color": "white",
             "bold": false
         },
-        "description": {
-            "text": "July 3rd, 2021",
-            "color": "green",
-            "italic": true
-        },
+        "description": [
+            {
+                "text": "July 3rd, 2021",
+                "color": "green",
+                "italic": true
+            },
+            {
+              "color": "dark_purple",
+              "italic": true,
+              "text": "\nAs the newcomers settle into the lands surrounding the Sunset Archipelago, the spirit of adventure is abound!"
+            }
+          ],
         "icon": {
             "item": "minecraft:oak_boat"
         },

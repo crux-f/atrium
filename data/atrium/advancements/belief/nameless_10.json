@@ -2,14 +2,21 @@
     "__comment": "Granted when you reach 10 Favor with The Nameless",
     "display": {
         "title": {
-            "text": "Unfathomable",
-            "color": "white",
-            "bold": false
+            "text": "Unfathomable"
         },
-        "description": {
-            "text": "Gain at least 10 Favor with The Nameless",
-            "color": "green"
-        },
+        "description": [
+            {
+                "text": "Gain at least 10 Favor with The Nameless"
+            },
+            {
+              "color": "gray",
+              "text": "\n \nReward:"
+            },
+            {
+              "color": "yellow",
+              "text": "\n25 XP"
+            }
+          ],
         "icon": {
             "item": "minecraft:blue_glazed_terracotta"
         },
@@ -19,7 +26,7 @@
         "hidden": true
     },
     "criteria": {
-        "givewhenmax": {
+        "nameless_10_favor": {
             "trigger": "minecraft:impossible"
         }
     },

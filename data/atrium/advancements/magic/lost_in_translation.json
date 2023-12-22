@@ -2,12 +2,21 @@
     "__comment": "Acquired by applying an occult enchantment",
     "display": {
         "title": {
-            "text": "Lost In Translation",
-            "color": "white"
+            "text": "Lost In Translation"
         },
-        "description": {
-            "text": "Enchant an item using an Occult Altar"
-        },
+        "description": [
+            {
+                "text": "Enchant an item using an Occult Altar"
+            },
+            {
+              "color": "gray",
+              "text": "\n \nReward:"
+            },
+            {
+              "color": "yellow",
+              "text": "\n25 XP"
+            }
+          ],
         "icon": {
             "item": "minecraft:flint",
             "nbt": "{CustomModelData:333116}"
@@ -22,5 +31,8 @@
             "trigger": "minecraft:impossible"
         }
     },
+    "rewards": {
+        "experience": 25
+      },
     "parent": "atrium:magic/mightier_than_the_sword"
 }

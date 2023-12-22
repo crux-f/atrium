@@ -6,11 +6,18 @@
             "color": "white",
             "bold": false
         },
-        "description": {
-            "text": "Snowfall III - August 6th, 2022",
-            "color": "green",
-            "italic": true
-        },
+        "description": [
+            {
+                "text": "Snowfall III - August 6th, 2022",
+                "color": "green",
+                "italic": true
+            },
+            {
+              "color": "dark_purple",
+              "italic": true,
+              "text": "\nThe Order lost many in their attack, and yet they continue to walk closer to your borders. Some might call it stupidity, others... Others might call it desperation."
+            }
+          ],
         "icon": {
             "item": "minecraft:sculk_sensor"
         },

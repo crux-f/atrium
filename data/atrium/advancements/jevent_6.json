@@ -6,11 +6,18 @@
             "color": "white",
             "bold": false
         },
-        "description": {
-            "text": "Journey to The Far Lands VI - December 4th, 2021",
-            "color": "green",
-            "italic": true
-        },
+        "description": [
+            {
+                "text": "Journey to The Far Lands VI - December 4th, 2021",
+                "color": "green",
+                "italic": true
+            },
+            {
+              "color": "dark_purple",
+              "italic": true,
+              "text": "\nHere you are, at The Far Lands. What will you leave here, at the brink of infinity, for history to remember?"
+            }
+          ],
         "icon": {
             "item": "minecraft:black_concrete"
         },

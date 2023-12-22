@@ -2,12 +2,21 @@
     "__comment": "Acquired by crafting a level 2 staff",
     "display": {
         "title": {
-            "text": "Learning To Spell",
-            "color": "white"
+            "text": "Learning To Spell"
         },
-        "description": {
-            "text": "Upgrade your arcane Staff"
-        },
+        "description": [
+            {
+                "text": "Upgrade your arcane Staff"
+            },
+            {
+              "color": "gray",
+              "text": "\n \nReward:"
+            },
+            {
+              "color": "yellow",
+              "text": "\n25 XP"
+            }
+          ],
         "icon": {
             "item": "minecraft:firework_star",
             "nbt": "{CustomModelData:333026}"
@@ -22,5 +31,8 @@
             "trigger": "minecraft:impossible"
         }
     },
+    "rewards": {
+        "experience": 25
+      },
     "parent": "atrium:magic/arcane_apprentice"
 }

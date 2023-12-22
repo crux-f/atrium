@@ -6,11 +6,18 @@
             "color": "dark_red",
             "bold": false
         },
-        "description": {
-            "text": "Pantheon III - March 6th, 2021",
-            "color": "green",
-            "italic": true
-        },
+        "description": [
+            {
+                "text": "Pantheon III - March 6th, 2021",
+                "color": "green",
+                "italic": true
+            },
+            {
+              "color": "dark_purple",
+              "italic": true,
+              "text": "\nThe Armada has been silent for far too long, and now word has spread of a large spike in recruitment on their side of the war."
+            }
+          ],
         "icon": {
             "item": "minecraft:diamond_sword"
         },

@@ -2,13 +2,21 @@
     "__comment": "Granted when you have collected all runestones at least once",
     "display": {
         "title": {
-            "text": "Runekeeper",
-            "color": "white"
+            "text": "Runekeeper"
         },
-        "description": {
-            "text": "Discover every Runestone",
-            "color": "green"
-        },
+        "description": [
+          {
+            "text": "Discover every Runestone"
+          },
+          {
+            "color": "gray",
+            "text": "\n \nReward:"
+          },
+          {
+            "color": "yellow",
+            "text": "\n250 XP"
+          }
+        ],
         "icon": {
             "item": "minecraft:flint",
             "nbt": "{CustomModelData:333128}"
@@ -421,7 +429,7 @@
       }
     },
     "rewards": {
-        "experience": 500
+        "experience": 250
       },
     "parent": "atrium:abyss/deep_dive"
   }

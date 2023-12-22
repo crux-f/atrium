@@ -7,8 +7,7 @@
             "bold": true
         },
         "description": {
-            "text": "You played in 2023!",
-            "color": "green"
+            "text": "You played in 2023!"
         },
         "icon": {
             "item": "minecraft:diamond_pickaxe"

@@ -1,12 +1,21 @@
 {
     "display": {
         "title": {
-            "text": "Golden Parachute",
-            "color": "white"
+            "text": "Golden Parachute"
         },
-        "description": {
-            "text": "Fall out of The Meridian with Slow Falling"
-        },
+        "description": [
+            {
+                "text": "Safely fall out of The Meridian using Slow Falling"
+            },
+            {
+              "color": "gray",
+              "text": "\n \nReward:"
+            },
+            {
+              "color": "yellow",
+              "text": "\n25 XP"
+            }
+          ],
         "icon": {
             "item": "minecraft:gold_nugget"
         },
@@ -21,7 +30,7 @@
         }
     },
     "rewards": {
-        "experience": 50
+        "experience": 25
     },
     "parent": "atrium:meridian/heavens_above"
 }

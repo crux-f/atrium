@@ -6,11 +6,18 @@
             "color": "dark_red",
             "bold": false
         },
-        "description": {
-            "text": "June 13th, 2020",
-            "color": "green",
-            "italic": true
-        },
+        "description": [
+            {
+                "text": "June 13th, 2020",
+                "color": "green",
+                "italic": true
+            },
+            {
+              "color": "dark_purple",
+              "italic": true,
+              "text": "\nA message requesting immediate help has been received from Prophet's Cauldron in The Sorrowborn Expanse..."
+            }
+          ],
         "icon": {
             "item": "minecraft:feather"
         },

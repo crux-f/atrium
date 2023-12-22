@@ -2,14 +2,10 @@
     "__comment": "For players who have started at the Air start at least once.",
     "display": {
         "title": {
-            "text": "Memory of Air",
-            "color": "yellow",
-            "bold": false
+            "text": "Memory of Air"
         },
         "description": {
-            "text": "A past self that deserves to be remembered",
-            "color": "green",
-            "italic": true
+            "text": "A past self that deserves to be remembered"
         },
         "icon": {
             "item": "minecraft:yellow_terracotta"

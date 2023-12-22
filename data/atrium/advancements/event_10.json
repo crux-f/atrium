@@ -6,11 +6,18 @@
             "color": "aqua",
             "bold": false
         },
-        "description": {
-            "text": "December 5th, 2020",
-            "color": "green",
-            "italic": true
-        },
+        "description": [
+            {
+                "text": "December 5th, 2020",
+                "color": "green",
+                "italic": true
+            },
+            {
+              "color": "dark_purple",
+              "italic": true,
+              "text": "\nThe peoples of Exorsa are celebrating The Festival of Lights, an annual feast honoring the gods, and preparing for the oncoming darkness of winter."
+            }
+          ],
         "icon": {
             "item": "minecraft:lantern"
         },

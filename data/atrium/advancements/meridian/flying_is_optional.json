@@ -1,12 +1,21 @@
 {
     "display": {
         "title": {
-            "text": "Flying is Optional",
-            "color": "white"
+            "text": "Flying is Optional"
         },
-        "description": {
-            "text": "Explore all Meridian biomes"
-        },
+        "description": [
+          {
+              "text": "Explore all Meridian biomes"
+          },
+          {
+            "color": "gray",
+            "text": "\n \nReward:"
+          },
+          {
+            "color": "yellow",
+            "text": "\n175 XP"
+          }
+        ],
         "icon": {
             "item": "minecraft:golden_boots"
         },
@@ -136,5 +145,8 @@
             }
         }
     },
+    "rewards": {
+      "experience": 175
+  },
     "parent": "atrium:meridian/golden_parachute"
 }

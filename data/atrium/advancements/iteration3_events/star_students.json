@@ -6,11 +6,18 @@
             "color": "white",
             "bold": false
         },
-        "description": {
-            "text": "Snowfall II - July 2nd, 2022",
-            "color": "green",
-            "italic": true
-        },
+        "description": [
+            {
+                "text": "Snowfall II - July 2nd, 2022",
+                "color": "green",
+                "italic": true
+            },
+            {
+              "color": "dark_purple",
+              "italic": true,
+              "text": "\nTwo peasant-warriors from the distant village of Naer-Morginn have arrived at the academy to report that the Order of the Emerald Eye intends to march on the ruins!"
+            }
+          ],
         "icon": {
             "item": "minecraft:nether_star"
         },

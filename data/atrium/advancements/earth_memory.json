@@ -2,14 +2,10 @@
     "__comment": "For players who have started at the Earth start at least once.",
     "display": {
         "title": {
-            "text": "Memory of Earth",
-            "color": "dark_green",
-            "bold": false
+            "text": "Memory of Earth"
         },
         "description": {
-            "text": "A past self that deserves to be remembered",
-            "color": "green",
-            "italic": true
+            "text": "A past self that deserves to be remembered"
         },
         "icon": {
             "item": "minecraft:green_terracotta"

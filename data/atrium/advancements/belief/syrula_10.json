@@ -2,14 +2,21 @@
     "__comment": "Granted when you reach 10 Favor with Syrula",
     "display": {
         "title": {
-            "text": "Ripples",
-            "color": "white",
-            "bold": false
+            "text": "Making Waves"
         },
-        "description": {
-            "text": "Gain at least 10 Favor with Syrula",
-            "color": "green"
-        },
+        "description": [
+            {
+                "text": "Gain at least 10 Favor with Syrula"
+            },
+            {
+              "color": "gray",
+              "text": "\n \nReward:"
+            },
+            {
+              "color": "yellow",
+              "text": "\n25 XP"
+            }
+          ],
         "icon": {
             "item": "minecraft:blue_concrete"
         },
@@ -19,7 +26,7 @@
         "hidden": false
     },
     "criteria": {
-        "givewhenmax": {
+        "syrula_10_favor": {
             "trigger": "minecraft:impossible"
         }
     },

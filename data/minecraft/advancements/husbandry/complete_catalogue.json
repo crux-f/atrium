@@ -201,7 +201,7 @@
       },
       {
         "color": "yellow",
-        "text": "\n250 XP"
+        "text": "\n175 XP"
       }
     ],
     "frame": "challenge",
@@ -250,7 +250,7 @@
     ]
   ],
   "rewards": {
-    "experience": 250
+    "experience": 175
   },
   "sends_telemetry_event": true
 }

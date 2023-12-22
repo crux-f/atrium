@@ -21,7 +21,7 @@ execute if entity @s[scores={quipster_favor=20}] run tellraw @s ["",{"text":"\u0
 execute if entity @s[scores={quipster_favor=20..29}] run xp add @s -3 levels
 # Text, ability and cost for favor 30
 execute if entity @s[scores={quipster_favor=30}] run effect give @s minecraft:luck 2400 0
-execute if entity @s[scores={quipster_favor=30}] run effect give @s minecraft:hero_of_the_village 2400 0
+execute if entity @s[scores={quipster_favor=30}] run effect give @s minecraft:hero_of_the_village 600 0
 execute if entity @s[scores={quipster_favor=30}] run tellraw @s ["",{"text":"\u06e9 ","color":"green"},{"text":"Whether it's magic or merely good company, your words seem to carry a subtle weight to them.","italic":true,"color":"green"},{"text":" \u06e9","color":"green"}]
 execute if entity @s[scores={quipster_favor=30}] run xp add @s -5 levels
 # Advancement progression

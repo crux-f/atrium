@@ -6,11 +6,18 @@
             "color": "white",
             "bold": false
         },
-        "description": {
-            "text": "Journey to The Far Lands I - August 7th, 2021",
-            "color": "green",
-            "italic": true
-        },
+        "description": [
+            {
+                "text": "Journey to The Far Lands I - August 7th, 2021",
+                "color": "green",
+                "italic": true
+            },
+            {
+              "color": "dark_purple",
+              "italic": true,
+              "text": "\nAfter the discovery of an ancient ritual site, a band of adventurers pledges to travel to the distant Far Lands, the mythical \"End of the World\"."
+            }
+          ],
         "icon": {
             "item": "minecraft:campfire"
         },

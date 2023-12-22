@@ -2,13 +2,10 @@
     "__comment": "New fork in the path for different event stuff",
     "display": {
         "title": {
-            "text": "World Events",
-            "color": "dark_green"
+            "text": "Campaigns"
         },
         "description": {
-            "text": "A series of many Monthly Events",
-            "color": "green",
-            "italic": true
+            "text": "A series of several Story Events"
         },
         "icon": {
             "item": "minecraft:dark_oak_sapling"

@@ -2,17 +2,25 @@
   "__comment": "Granted when you defeat a Phanta Ray",
   "display": {
       "title": {
-          "text": "Call Me Ishmael",
-          "color": "white"
+          "text": "Call Me Ishmael"
       },
-      "description": {
-          "text": "Defeat a Phanta Ray",
-          "color": "green"
-      },
+      "description": [
+        {
+          "text": "Defeat a Phanta Ray"
+        },
+        {
+          "color": "gray",
+          "text": "\n \nReward:"
+        },
+        {
+          "color": "yellow",
+          "text": "\n50 XP"
+        }
+      ],
       "icon": {
           "item": "minecraft:trident"
       },
-      "frame": "challenge",
+      "frame": "goal",
       "show_toast": true,
       "announce_to_chat": true,
       "hidden": true
@@ -38,5 +46,8 @@
       "kill_phanta_ray"
     ]
   ],
+  "rewards": {
+    "experience": 50
+},
   "parent": "atrium:abyss/abyss_root"
 }

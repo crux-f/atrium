@@ -2,14 +2,10 @@
     "__comment": "Designates players who started at the Air start.",
     "display": {
         "title": {
-            "text": "Born of Air",
-            "color": "yellow",
-            "bold": false
+            "text": "Born of Air"
         },
         "description": {
-            "text": "The aspect to which you are attuned",
-            "color": "green",
-            "italic": true
+            "text": "The aspect to which you are attuned"
         },
         "icon": {
             "item": "minecraft:yellow_stained_glass"

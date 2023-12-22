@@ -3,8 +3,7 @@
     "display": {
         "title": {
             "text": "The Underminer",
-            "color": "dark_green",
-            "bold": false
+            "color": "dark_green"
         },
         "description": {
             "text": "Reach 30 favor with Geota",
@@ -20,12 +19,12 @@
         "hidden": false
     },
     "criteria": {
-        "geota_max": {
+        "geota_max_favor": {
             "trigger": "minecraft:impossible"
         }
     },
     "rewards": {
         "experience": 50
     },
-    "parent": "atrium:belief/geota_20"
+    "parent": "atrium:belief/geota_10"
 }

@@ -4,14 +4,10 @@
       "item": "minecraft:tropical_fish_bucket"
     },
         "title": {
-            "text": "Sunset Archipelago",
-            "color": "dark_purple",
-            "bold": false
+            "text": "Sunset Archipelago"
         },
         "description": {
-            "text": "Visit all vistas in Sunset Archipelago (across all planes)",
-            "color": "green",
-            "italic": true
+            "text": "Visit all vistas in Sunset Archipelago (across all planes)"
         },
     "frame": "challenge",
     "show_toast": true,
