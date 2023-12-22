@@ -118,6 +118,29 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
+          "weight": 5,
+          "name": "atrium:quests/mineshaft_quest_rewards",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Inventory:[{tag:{atrium_mineshaft_quest_key:1b}}]}"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
           "name": "atrium:chests/base/abandoned_mineshaft"
         }
       ]

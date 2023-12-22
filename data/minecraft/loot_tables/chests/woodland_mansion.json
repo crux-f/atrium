@@ -1,312 +1,108 @@
 {
-  "type": "minecraft:chest",
   "pools": [
     {
       "rolls": {
-        "type": "minecraft:uniform",
-        "min": 1.0,
-        "max": 3.0
+        "min": 1,
+        "max": 3
       },
-      "bonus_rolls": 0.0,
+      "bonus_rolls": 0,
       "entries": [
         {
-          "type": "minecraft:item",
-          "weight": 20,
-          "name": "minecraft:lead"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 15,
-          "name": "minecraft:golden_apple"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 2,
-          "name": "minecraft:enchanted_golden_apple"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 15,
-          "name": "minecraft:music_disc_13"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 15,
-          "name": "minecraft:music_disc_cat"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 20,
-          "name": "minecraft:name_tag"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 10,
-          "name": "minecraft:chainmail_chestplate"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 15,
-          "name": "minecraft:diamond_hoe"
-        },
-        {
-          "type": "minecraft:item",
+          "type": "item",
           "weight": 5,
-          "name": "minecraft:diamond_chestplate"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 10,
+          "quality": 2,
+          "name": "minecraft:iron_axe",
           "functions": [
             {
-              "function": "minecraft:enchant_randomly"
-            }
-          ],
-          "name": "minecraft:book"
-        }
-      ]
-    },
-    {
-      "rolls": {
-        "type": "minecraft:uniform",
-        "min": 1.0,
-        "max": 4.0
-      },
-      "bonus_rolls": 0.0,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "weight": 10,
-          "functions": [
+              "function": "set_nbt",
+              "tag": "{RepairCost:15,atrium_handaxe_of_vindication:1b,Enchantments:[{id:\"minecraft:sharpness\",lvl:2s},{id:\"minecraft:looting\",lvl:3s},{id:\"minecraft:unbreaking\",lvl:1s}]}"
+            },
             {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1.0,
-                "max": 4.0
-              },
-              "add": false
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Hand-Axe of Vindication",
+                  "italic": false
+                }
+              ]
             }
-          ],
-          "name": "minecraft:iron_ingot"
+          ]
         },
         {
-          "type": "minecraft:item",
-          "weight": 5,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1.0,
-                "max": 4.0
-              },
-              "add": false
-            }
-          ],
-          "name": "minecraft:gold_ingot"
+          "type": "item",
+          "weight": 4,
+          "quality": 3,
+          "name": "minecraft:totem_of_undying"
         },
         {
-          "type": "minecraft:item",
-          "weight": 20,
-          "name": "minecraft:bread"
+          "type": "minecraft:loot_table",
+          "weight": 7,
+          "name": "atrium:curiosity/illager_curiosity"
         },
         {
-          "type": "minecraft:item",
-          "weight": 20,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1.0,
-                "max": 4.0
-              },
-              "add": false
-            }
-          ],
-          "name": "minecraft:wheat"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 10,
-          "name": "minecraft:bucket"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 15,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1.0,
-                "max": 4.0
-              },
-              "add": false
-            }
-          ],
-          "name": "minecraft:redstone"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 15,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1.0,
-                "max": 4.0
-              },
-              "add": false
-            }
-          ],
-          "name": "minecraft:coal"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 10,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 2.0,
-                "max": 4.0
-              },
-              "add": false
-            }
-          ],
-          "name": "minecraft:melon_seeds"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 10,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 2.0,
-                "max": 4.0
-              },
-              "add": false
-            }
-          ],
-          "name": "minecraft:pumpkin_seeds"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 10,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 2.0,
-                "max": 4.0
-              },
-              "add": false
-            }
-          ],
-          "name": "minecraft:beetroot_seeds"
-        },
-        {
-          "type": "loot_table",
-          "weight": 5,
-          "quality": 5,
-          "name": "atrium:world_forge/books_mansion",
+          "type": "item",
+          "weight": 7,
+          "quality": 2,
+          "name": "minecraft:clock",
           "functions": [
             {
               "function": "set_count",
               "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Pocketwatch of Timeliness\",\"color\":\"blue\",\"italic\":false}',Lore:['{\"text\":\"You feel like you\"}','{\"text\":\"remember this might happen.\"}']},pocketwatch_of_timeliness:1b,AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.08,Operation:1,UUID:[I;1416601660,-334870406,-2119993355,829091246],Slot:\"offhand\"}]}"
             }
           ]
         },
         {
           "type": "loot_table",
-          "weight": 8,
-          "quality": 5,
+          "weight": 5,
+          "name": "atrium:chests/illager_runes"
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 25
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "atrium:chests/base/woodland_mansion"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
           "name": "atrium:curiosity/illager_curiosity",
-          "functions": [
+          "conditions": [
             {
-              "function": "set_count",
-              "count": 1
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "head": {
+                    "nbt": "{atrium_curiosity_helmet:1b}"
+                  }
+                }
+              }
             }
           ]
-        }
-      ]
-    },
-    {
-      "rolls": 3.0,
-      "bonus_rolls": 0.0,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "weight": 10,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1.0,
-                "max": 8.0
-              },
-              "add": false
-            }
-          ],
-          "name": "minecraft:bone"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 10,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1.0,
-                "max": 8.0
-              },
-              "add": false
-            }
-          ],
-          "name": "minecraft:gunpowder"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 10,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1.0,
-                "max": 8.0
-              },
-              "add": false
-            }
-          ],
-          "name": "minecraft:rotten_flesh"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 10,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1.0,
-                "max": 8.0
-              },
-              "add": false
-            }
-          ],
-          "name": "minecraft:string"
         }
       ]
     }
-  ]
+  ],
+  "random_sequence": "minecraft:chests/woodland_mansion"
 }

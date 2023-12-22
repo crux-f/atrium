@@ -1,0 +1,24 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+            {
+                "type": "loot_table",
+                "name": "atrium:starting_equipment"
+            }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "name": "atrium:chests/base/spawn_bonus_chest"
+          }
+        ]
+      }
+    ],
+    "random_sequence": "minecraft:chests/spawn_bonus_chest"
+  }
+  

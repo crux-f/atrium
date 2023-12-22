@@ -1,7 +1,7 @@
 {
   "pools": [
     {
-      "rolls": 7,
+      "rolls": 5,
       "entries": [
         {
           "type": "item",
@@ -110,22 +110,6 @@
         {
           "type": "item",
           "weight": 1,
-          "name": "minecraft:totem_of_undying",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "item",
-          "weight": 1,
           "name": "minecraft:book",
           "functions": [
             {
@@ -209,7 +193,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{atrium_keepsake:4b,Enchantments:[{id:\"minecraft:smite\",lvl:1s}]}"
+              "tag": "{atrium_keepsake:4b,Enchantments:[{id:\"minecraft:smite\",lvl:2s}]}"
             },
             {
               "function": "set_name",
