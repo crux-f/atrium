@@ -1,0 +1,9 @@
+{
+    "__comment": "Exclusive to players who played on the server in 2024.",
+    "criteria": {
+        "join_2024": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+        "parent": "atrium:atrium_2023"
+}

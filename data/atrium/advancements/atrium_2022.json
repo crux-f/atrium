@@ -1,10 +1,8 @@
 {
-    "__comment": "Exclusive to players who played in 2022.",
+    "__comment": "Exclusive to players who played on the server in 2022.",
     "display": {
         "title": {
-            "text": "Designer",
-            "color": "green",
-            "bold": true
+            "text": "Designer"
         },
         "description": {
             "text": "You played in 2022! Fellstar wouldn't be the same without you."
@@ -22,8 +20,5 @@
             "trigger": "minecraft:impossible"
         }
     },
-        "rewards": {
-		"experience": 85
-	},
         "parent": "atrium:atrium_2021"
 }

@@ -1,10 +1,8 @@
 {
-    "__comment": "Exclusive",
+    "__comment": "Exclusive to players who played on the server in 2020.",
     "display": {
         "title": {
-            "text": "Survivor",
-            "color": "dark_aqua",
-            "bold": true
+            "text": "Survivor"
         },
         "description": {
             "text": "You survived 2020! Congrats!"
@@ -21,9 +19,6 @@
         "join_2020": {
             "trigger": "minecraft:impossible"
         }
-    },
-    "rewards": {
-        "experience": 100
     },
     "parent": "atrium:atrium_2019"
 }

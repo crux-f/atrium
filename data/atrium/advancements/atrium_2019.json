@@ -1,10 +1,8 @@
 {
-    "__comment": "Exclusive",
+    "__comment": "Exclusive to players who played on the server in 2019.",
     "display": {
         "title": {
-            "text": "Pioneer",
-            "color": "blue",
-            "bold": true
+            "text": "Pioneer"
         },
         "description": {
             "text": "You helped beta test the server in 2019! Thanks!"
@@ -21,9 +19,6 @@
         "join_2019": {
             "trigger": "minecraft:impossible"
         }
-    },
-    "rewards": {
-        "experience": 85
     },
     "parent": "atrium:atrium_root"
 }

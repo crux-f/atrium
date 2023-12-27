@@ -1,13 +1,11 @@
 {
-    "__comment": "Exclusive to players who played in 2023.",
+    "__comment": "Exclusive to players who played on the server in 2023.",
     "display": {
         "title": {
-            "text": "Hermit",
-            "color": "green",
-            "bold": true
+            "text": "Hermit"
         },
         "description": {
-            "text": "You played in 2023!"
+            "text": "You played in 2023! The wildlands are better than you found them."
         },
         "icon": {
             "item": "minecraft:diamond_pickaxe"
@@ -22,8 +20,5 @@
             "trigger": "minecraft:impossible"
         }
     },
-        "rewards": {
-		"experience": 85
-	},
         "parent": "atrium:atrium_2022"
 }

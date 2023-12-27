@@ -1,10 +1,8 @@
 {
-    "__comment": "Exclusive",
+    "__comment": "Exclusive to players who played on the server in 2021.",
     "display": {
         "title": {
-            "text": "Explorer",
-            "color": "aqua",
-            "bold": true
+            "text": "Explorer"
         },
         "description": {
             "text": "You played in 2021! Lets hope for a less rocky start this time."
@@ -22,8 +20,5 @@
             "trigger": "minecraft:impossible"
         }
     },
-        "rewards": {
-		"experience": 85
-	},
         "parent": "atrium:atrium_2020"
 }
