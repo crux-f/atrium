@@ -26,7 +26,6 @@ execute if entity @s[scores={nox_favor=30}] run tellraw @s ["",{"text":"\u06e9 "
 execute if entity @s[scores={nox_favor=30}] run xp add @s -5 levels
 # Advancement progression
 execute if entity @s[scores={nox_favor=10}] run advancement grant @s only atrium:belief/nox_10
-execute if entity @s[scores={nox_favor=20}] run advancement grant @s only atrium:belief/nox_20
 execute if entity @s[scores={nox_favor=30}] run advancement grant @s only atrium:belief/nox_30
 #
 # Tell the player their current Favor.

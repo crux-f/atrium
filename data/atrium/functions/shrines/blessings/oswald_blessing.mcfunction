@@ -26,7 +26,6 @@ execute if entity @s[scores={oswald_favor=30}] run tellraw @s ["",{"text":"\u06e
 execute if entity @s[scores={oswald_favor=30}] run xp add @s -5 levels
 # Advancement progression
 execute if entity @s[scores={oswald_favor=10}] run advancement grant @s only atrium:belief/oswald_10
-execute if entity @s[scores={oswald_favor=20}] run advancement grant @s only atrium:belief/oswald_20
 execute if entity @s[scores={oswald_favor=30}] run advancement grant @s only atrium:belief/oswald_30
 #
 # Tell the player their current Favor.
