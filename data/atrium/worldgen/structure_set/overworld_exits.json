@@ -9,6 +9,10 @@
     {
       "structure": "atrium:depths_entrance",
       "weight": 1
+    },
+    {
+      "structure": "atrium:meridian_entrance",
+      "weight": 1
     }
   ]
 }
