@@ -1,5 +1,5 @@
-# Teleport the player who fell below 1 in The Meridian to the same X + Z coords in The Overworld, except at Y=400.
-execute as @s at @s in minecraft:overworld run tp @s[gamemode=!spectator] ~ 400 ~
+# Teleport the player who fell below 1 in The Meridian to the same X + Z coords in The Overworld, except at Y=330.
+execute as @s at @s in minecraft:overworld run tp @s[gamemode=!spectator] ~ 330 ~
 #
 # If the player has slow falling, give them the "Golden Parachute" advancement.
 advancement grant @s[predicate=atrium:effects/if_slow_falling_any,gamemode=!spectator] only atrium:meridian/golden_parachute

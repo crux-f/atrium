@@ -1,5 +1,6 @@
-# Teleport the player who rose above 450 in The Overworld to the same X + Z coords in The Meridian, except at Y=-1.
-execute as @s at @s in atrium:the_meridian run tp @s ~ 2 ~
+# Teleport the player who rose above 340 in The Overworld to the same X + Z coords in The Meridian, except at Y=1.
+execute as @s at @s in atrium:the_meridian run tp @s ~ 1 ~
+execute as @s at @s run spreadplayers ~ ~ 0 10 false @s
 #
 # Give the player the "Heavens Above!" advancement.
 advancement grant @s only atrium:meridian/heavens_above
