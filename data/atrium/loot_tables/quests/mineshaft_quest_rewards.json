@@ -32,18 +32,6 @@
             {
               "function": "set_nbt",
               "tag": "{display:{Name:'{\"text\":\"Rubbleslayer\",\"color\":\"dark_green\",\"italic\":false}',Lore:['{\"text\":\"This... Could have been\"}','{\"text\":\"what they were looking for...?\"}','{\"text\":\"(Nearby gravel trembles\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"in its presence.)\",\"color\":\"gray\",\"italic\":false}']},RepairCost:99,atrium_delvers_quest_reward:1b,Enchantments:[{id:\"minecraft:sharpness\",lvl:3s},{id:\"minecraft:efficiency\",lvl:4s},{id:\"minecraft:unbreaking\",lvl:6s}]}"
-            },
-            {
-              "function": "set_attributes",
-              "modifiers": [
-                {
-                  "attribute": "generic.armor_toughness",
-                  "name": "generic.armor_toughness",
-                  "operation": "addition",
-                  "amount": 1,
-                  "slot": "mainhand"
-                }
-              ]
             }
           ]
         },
