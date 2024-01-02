@@ -1,0 +1,37 @@
+{
+  "__comment": "Granted when you swim into the void in The Depths",
+  "display": {
+      "title": {
+          "text": "Under Pressure"
+      },
+      "description": [
+        {
+          "text": "Swim down, down, down into The Abyss"
+        },
+        {
+          "color": "gray",
+          "text": "\n \nReward:"
+        },
+        {
+          "color": "yellow",
+          "text": "\n25 XP"
+        }
+      ],
+      "icon": {
+          "item": "minecraft:kelp"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+  },
+  "criteria": {
+    "granted_by_function": {
+        "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+      "experience": 25
+  },
+  "parent": "atrium:abyss/abyss_root"
+}
