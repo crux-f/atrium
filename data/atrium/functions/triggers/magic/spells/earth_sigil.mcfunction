@@ -8,9 +8,9 @@ execute as @e[type=minecraft:armor_stand,tag=atrium_earth_sigil_dummy] at @s unl
 summon armor_stand ~ ~ ~ {Silent:1b,Marker:1b,Invisible:1b,NoBasePlate:1b,Tags:["atrium_earth_sigil_dummy"]}
 #
 # Duration of field, radius of field, and duration of entity effect upgrade based on spell level
-execute if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_staff_lv:1b}}]} run summon area_effect_cloud ~ ~ ~ {Particle:"mycelium",Radius:1f,Duration:240,Tags:["atrium_earth_sigil"],Potion:"minecraft:empty",Effects:[{Id:3,Amplifier:0b,Duration:2400,ShowParticles:0b}],CustomName:'{"text":"Earth Sigil I"}'}
-execute if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_staff_lv:2b}}]} run summon area_effect_cloud ~ ~ ~ {Particle:"mycelium",Radius:2f,Duration:480,Tags:["atrium_earth_sigil"],Potion:"minecraft:empty",Effects:[{Id:3,Amplifier:0b,Duration:4800,ShowParticles:0b}],CustomName:'{"text":"Earth Sigil II"}'}
-execute if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_staff_lv:3b}}]} run summon area_effect_cloud ~ ~ ~ {Particle:"mycelium",Radius:3f,Duration:720,Tags:["atrium_earth_sigil"],Potion:"minecraft:empty",Effects:[{Id:3,Amplifier:0b,Duration:9600,ShowParticles:0b}],CustomName:'{"text":"Earth Sigil III"}'}
+execute if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_staff_lv:1b}}]} run summon area_effect_cloud ~ ~ ~ {Particle:"mycelium",Radius:1f,Duration:240,Tags:["atrium_earth_sigil"],Potion:"minecraft:empty",effects:[{id:"minecraft:haste",amplifier:0b,duration:2400,show_particles:1b}],CustomName:'{"text":"Earth Sigil I"}'}
+execute if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_staff_lv:2b}}]} run summon area_effect_cloud ~ ~ ~ {Particle:"mycelium",Radius:2f,Duration:480,Tags:["atrium_earth_sigil"],Potion:"minecraft:empty",effects:[{id:"minecraft:haste",amplifier:0b,duration:4800,show_particles:1b}],CustomName:'{"text":"Earth Sigil II"}'}
+execute if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_staff_lv:3b}}]} run summon area_effect_cloud ~ ~ ~ {Particle:"mycelium",Radius:3f,Duration:720,Tags:["atrium_earth_sigil"],Potion:"minecraft:empty",effects:[{id:"minecraft:haste",amplifier:0b,duration:9600,show_particles:1b}],CustomName:'{"text":"Earth Sigil III"}'}
 # Run repeat script to handle extra particles (runs until no atrium_earth_sigil entities exist)
 function atrium:triggers/magic/spells/earth_sigil_repeat
 #
