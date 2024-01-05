@@ -57,12 +57,8 @@
           "type": "item",
           "weight": 2,
           "quality": 5,
-          "name": "minecraft:tripwire_hook",
+          "name": "minecraft:iron_nugget",
           "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
             {
               "function": "minecraft:looting_enchant",
               "count": {
