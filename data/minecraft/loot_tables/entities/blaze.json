@@ -1,61 +1,82 @@
 {
-  "type": "minecraft:entity",
+  "type": "entity",
   "pools": [
     {
-      "rolls": 1.0,
-      "bonus_rolls": 0.0,
+      "rolls": 1,
+      "bonus_rolls": 0,
       "entries": [
         {
-          "type": "minecraft:item",
-          "weight": 100,
-          "quality": 0,
-          "functions": [
+          "type": "empty",
+          "weight": 30,
+          "quality": -5
+        },
+        {
+          "type": "item",
+          "conditions": [
             {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 0.0,
-                "max": 1.0
-              },
-              "add": false
-            },
-            {
-              "function": "minecraft:looting_enchant",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 0.0,
-                "max": 1.0
+              "condition": "minecraft:entity_properties",
+              "entity": "direct_killer",
+              "predicate": {
+                "type": "minecraft:wolf"
               }
             }
           ],
-          "name": "minecraft:blaze_rod"
+          "weight": 5,
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{atrium_blaze_trophy:1b,SkullOwner:\"MHF_Blaze\"}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Hunting Trophy",
+                  "color": "aqua",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Blaze",
+                  "color": "gold",
+                  "italic": false
+                }
+              ]
+            }
+          ]
         },
         {
-          "type": "loot_table",
-          "weight": 20,
-          "quality": 3,
-          "name": "atrium:entities/vanilla_drop_additions/blaze",
+          "type": "item",
+          "weight": 5,
+          "quality": 5,
+          "name": "minecraft:blaze_rod",
           "functions": [
             {
               "function": "set_count",
               "count": 1
             },
             {
-              "function": "minecraft:looting_enchant",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 0.0,
-                "max": 1.0
-              }
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Charged Blaze Rod\",\"italic\":false}',Lore:['{\"text\":\"It radiates more heat\"}','{\"text\":\"than the others.\"}']},CustomModelData:333068,atrium_charged_blaze_rod:1b}"
             }
           ]
         }
-      ],
-      "conditions": [
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
         {
-          "condition": "minecraft:killed_by_player"
+          "type": "minecraft:loot_table",
+          "name": "atrium:entities/base/blaze"
         }
       ]
     }
-  ]
+  ],
+  "random_sequence": "minecraft:entities/blaze"
 }
