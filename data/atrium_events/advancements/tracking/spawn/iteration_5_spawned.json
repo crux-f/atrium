@@ -1,0 +1,9 @@
+{
+    "__comment": "Given to players when they spawn in. Used to track who has or hasn't spawned in yet this iteration.",
+    "criteria": {
+        "finished_spawning_5": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+        "parent": "atrium:atrium_2024"
+}
