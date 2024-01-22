@@ -3,6 +3,7 @@ advancement revoke @s through minecraft:nether/root
 advancement revoke @s through minecraft:end/root
 advancement revoke @s through minecraft:adventure/root
 advancement revoke @s through minecraft:husbandry/root
+advancement revoke @s through atrium:abyss/abyss_root
 advancement revoke @s through atrium:depths/depths_root
 advancement revoke @s through atrium:meridian/meridian_root
 advancement revoke @s through atrium:magic/magic_root
