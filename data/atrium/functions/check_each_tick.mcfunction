@@ -1,5 +1,7 @@
 # Special Entity Manager
-execute if entity @e[tag=atrium_special] run function atrium:general/special_entity_manager
+execute if entity @e[tag=atrium_special] as @e[tag=atrium_special] run function atrium:general/special_entity_manager
+# Special Condition Manager
+execute if entity @e[tag=atrium_condition] as @e[tag=atrium_condition] run function atrium:entities/condition_manager
 # Ghost (Dead Player) Manager
 # execute if entity @a[gamemode=spectator] as @a[gamemode=spectator] at @s run function atrium:general/death/ghost_manager
 #

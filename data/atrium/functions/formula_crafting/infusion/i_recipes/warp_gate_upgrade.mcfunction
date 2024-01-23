@@ -77,5 +77,5 @@ execute if entity @s[scores={valid_ingredients=26..}] at @s run tag @s add warp_
 execute if entity @s[scores={valid_ingredients=26..}] at @s run tag @s add fx_build
 execute if entity @s[scores={valid_ingredients=26..}] at @s run function atrium:formula_crafting/infusion/additions/build_warp_gate
 execute if entity @s[scores={valid_ingredients=26..}] at @s run function atrium:formula_crafting/infusion/infusion_reset
-tellraw @a [{"text":"Validation reached: [","color":"gray"},{"score":{"name":"@s","objective":"valid_ingredients"},"bold":true,"color":"gray"},{"text":"]","color":"gray"}]
+# tellraw @a [{"text":"Validation reached: [","color":"gray"},{"score":{"name":"@s","objective":"valid_ingredients"},"bold":true,"color":"gray"},{"text":"]","color":"gray"}]
 scoreboard players set @s valid_ingredients 0

@@ -84,3 +84,5 @@ execute if predicate atrium:effects/duration/if_weakness_short run effect give @
 #
 # Remove tag at the end
 tag @s remove atrium_extend_next_potion
+# Remove powerful tag if they have it
+tag @s remove atrium_extend_next_powerful_potion

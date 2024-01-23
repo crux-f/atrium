@@ -20,7 +20,8 @@ execute at @e[tag=atrium_turn_tide_target] run particle minecraft:underwater ~ ~
 execute at @e[tag=atrium_turn_tide_target] run particle minecraft:heart ~ ~1.25 ~ 0.35 0.5 0.35 0.1 1
 #
 # Give target healing
-effect give @e[tag=atrium_turn_tide_target] minecraft:instant_health 1 1 false
+execute if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_staff_lv:2b}}]} run effect give @e[tag=atrium_turn_tide_target] minecraft:instant_health 1 1 false
+execute if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_staff_lv:3b}}]} run effect give @e[tag=atrium_turn_tide_target] minecraft:instant_health 2 1 false
 #
 # If the target is Poisoned, cure the poison and use the poison cure particles
 execute as @e[tag=atrium_turn_tide_target,predicate=atrium:effects/if_poison_any] at @s run particle minecraft:entity_effect ~ ~ ~ 0.094 0.420 0.212 2 0 normal

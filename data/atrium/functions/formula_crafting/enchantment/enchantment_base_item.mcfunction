@@ -23,6 +23,14 @@ execute positioned ~ ~ ~-3 if entity @e[type=minecraft:glow_item_frame,distance=
 execute positioned ~ ~ ~-3 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{tag:{atrium_rune_color:red}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
 execute positioned ~ ~ ~-3 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{tag:{atrium_rune_color:red}}}] at @s run function atrium:formula_crafting/enchantment/e_recipes/copy_red_rune
 # 
+# Start Forgotten Runestone - Check NORTH for Blank Slate
+execute positioned ~ ~ ~-3 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{tag:{atrium_rune:blank}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~-3 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{tag:{atrium_rune:blank}}}] at @s run function atrium:formula_crafting/enchantment/e_recipes/forgotten_runestone
+#
+# Start Dilution Matrix - Check NORTH for Blooming Crystal
+execute positioned ~ ~ ~-3 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{tag:{atrium_blooming_crystal:1b}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~-3 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{tag:{atrium_blooming_crystal:1b}}}] at @s run function atrium:formula_crafting/enchantment/e_recipes/dilution_matrix
+#
 # 
 # Other
 #

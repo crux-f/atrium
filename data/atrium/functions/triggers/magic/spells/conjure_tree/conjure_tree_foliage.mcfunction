@@ -10,4 +10,5 @@ execute if entity @s[tag=atrium_warped_tree] run setblock ~ ~ ~ minecraft:warped
 summon minecraft:marker ~ ~ ~ {Tags:["atrium_special","atrium_temporary_entity","atrium_temporary_block","atrium_conjured_tree_block"]}
 #
 # Set timer
-scoreboard players set @e[tag=atrium_temporary_block,distance=..1] charge -2400
+execute unless entity @s[tag=atrium_longer_duration] run scoreboard players set @e[tag=atrium_temporary_block,distance=..1] charge -2400
+execute if entity @s[tag=atrium_longer_duration] run scoreboard players set @e[tag=atrium_temporary_block,distance=..1] charge -6000

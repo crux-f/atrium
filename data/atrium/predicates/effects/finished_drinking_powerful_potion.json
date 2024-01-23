@@ -1,0 +1,66 @@
+{
+    "condition": "minecraft:any_of",
+    "terms": [
+        {
+            "condition": "minecraft:reference",
+            "name": "atrium:effects/duration/if_fire_resistance_longer"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "atrium:effects/duration/if_invisibility_longer"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "atrium:effects/duration/if_jump_boost_longer"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "atrium:effects/duration/if_jump_boost_stronger"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "atrium:effects/duration/if_night_vision_longer"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "atrium:effects/duration/if_poison_longer"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "atrium:effects/duration/if_poison_stronger"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "atrium:effects/duration/if_regeneration_longer"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "atrium:effects/duration/if_regeneration_stronger"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "atrium:effects/duration/if_slow_falling_longer"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "atrium:effects/duration/if_speed_longer"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "atrium:effects/duration/if_speed_stronger"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "atrium:effects/duration/if_strength_longer"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "atrium:effects/duration/if_strength_stronger"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "atrium:effects/duration/if_water_breathing_longer"
+        }
+    ]
+}
+  

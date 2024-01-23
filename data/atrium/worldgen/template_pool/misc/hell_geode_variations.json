@@ -5,7 +5,7 @@
       {
         "weight": 1,
         "element": {
-          "location": "atrium:misc/hell_geode",
+          "location": "atrium:natural/underground/hell_geode",
           "processors": "minecraft:empty",
           "projection": "rigid",
           "element_type": "minecraft:single_pool_element"

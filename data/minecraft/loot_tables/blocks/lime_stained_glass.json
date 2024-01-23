@@ -62,7 +62,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{HideFlags:1,atrium_vibrant_crystal:1b,Enchantments:[{id:\"minecraft:channeling\",lvl:1s}]}"
+              "tag": "{HideFlags:1,atrium_crystal:1,atrium_vibrant_crystal:1b,Enchantments:[{id:\"minecraft:channeling\",lvl:1s}]}"
             },
             {
               "function": "set_name",

@@ -38,8 +38,8 @@ execute if entity @s[predicate=atrium:in_the_end] run scoreboard players set @e[
 execute if entity @s[predicate=atrium:in_the_meridian] run scoreboard players set @e[tag=atrium_parallax_target,distance=..5] atrium_parallax_dim 3
 # Depths = 4
 execute if entity @s[predicate=atrium:in_the_depths] run scoreboard players set @e[tag=atrium_parallax_target,distance=..5] atrium_parallax_dim 4
-# LATER: Abyss = 5
-# execute if entity @s[predicate=atrium:in_the_abyss] run scoreboard players set @e[tag=atrium_parallax_target,distance=..5] atrium_parallax_dim 5
+# Abyss = 5
+execute if entity @s[predicate=atrium:in_the_abyss] run scoreboard players set @e[tag=atrium_parallax_target,distance=..5] atrium_parallax_dim 5
 #
 # Save return coordinates
 execute store result score @e[tag=atrium_parallax_target,distance=..5] atrium_parallax_x run data get entity @e[tag=atrium_parallax_target,distance=..5,limit=1] Pos[0]

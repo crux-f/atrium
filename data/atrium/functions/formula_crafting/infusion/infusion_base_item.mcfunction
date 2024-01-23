@@ -21,6 +21,15 @@ execute positioned ~ ~ ~-4 if entity @e[type=minecraft:glow_item_frame,distance=
 # Start Eager Crystal - Check NORTH for Blooming Crystal
 execute positioned ~ ~ ~-4 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{tag:{atrium_blooming_crystal:1b}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
 execute positioned ~ ~ ~-4 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{tag:{atrium_blooming_crystal:1b}}}] at @s run function atrium:formula_crafting/infusion/i_recipes/eager_crystal
+# Start Mountain's Root - Check NORTH for Stone
+execute positioned ~ ~ ~-4 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:stone",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~-4 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:stone",Count:1b}}] at @s run function atrium:formula_crafting/infusion/i_recipes/mountains_root
+# Start Hellish Lantern - Check CENTER NORTH for Carved Pumpkin
+execute positioned ~ ~ ~-2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:carved_pumpkin",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:carved_pumpkin",Count:1b}}] at @s run function atrium:formula_crafting/infusion/i_recipes/hellish_lantern
+# Start Life's Echo - Check CENTER NORTH for Stripped Crimson Hyphae
+execute positioned ~ ~ ~-2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:stripped_crimson_hyphae",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:stripped_crimson_hyphae",Count:1b}}] at @s run function atrium:formula_crafting/infusion/i_recipes/lifes_echo
 #
 # Equipment
 #
@@ -61,6 +70,44 @@ execute positioned ~ ~ ~-4 if entity @e[type=minecraft:glow_item_frame,distance=
 # Start Staff of Space (+2) - Check NORTH for Block of Coal
 execute positioned ~ ~ ~-4 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:coal_block",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
 execute positioned ~ ~ ~-4 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:coal_block",Count:1b}}] at @s run function atrium:formula_crafting/infusion/i_recipes/space_staff_2
+#
+# Start Staff of Air (+3) - Check NORTH for Ambient Crystal
+execute positioned ~ ~ ~-4 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{tag:{atrium_ambient_crystal:1b}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~-4 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{tag:{atrium_ambient_crystal:1b}}}] at @s run function atrium:formula_crafting/infusion/i_recipes/air_staff_3
+# Start Staff of Earth (+3) - Check NORTH for Mountain's Root
+execute positioned ~ ~ ~-4 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{tag:{atrium_mountains_root:1b}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~-4 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{tag:{atrium_mountains_root:1b}}}] at @s run function atrium:formula_crafting/infusion/i_recipes/earth_staff_3
+# Start Staff of Fire (+3) - Check NORTH for Hellish Lantern [Power III]
+execute positioned ~ ~ ~-4 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{tag:{atrium_hellish_lantern:1b,atrium_fireballs:10b}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~-4 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{tag:{atrium_hellish_lantern:1b,atrium_fireballs:10b}}}] at @s run function atrium:formula_crafting/infusion/i_recipes/fire_staff_3
+# Start Staff of Water (+3) - Check NORTH for Heart of the Sea
+execute positioned ~ ~ ~-4 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:heart_of_the_sea",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~-4 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:heart_of_the_sea",Count:1b}}] at @s run function atrium:formula_crafting/infusion/i_recipes/water_staff_3
+# Start Staff of Time (+3) - Check NORTH for Eternal Hourglass
+execute positioned ~ ~ ~-4 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{tag:{atrium_eternal_hourglass:1b}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~-4 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{tag:{atrium_eternal_hourglass:1b}}}] at @s run function atrium:formula_crafting/infusion/i_recipes/time_staff_3
+# Start Staff of Space (+3) - Check NORTH for Deep Crystal
+execute positioned ~ ~ ~-4 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{tag:{atrium_deep_crystal:1b}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~-4 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{tag:{atrium_deep_crystal:1b}}}] at @s run function atrium:formula_crafting/infusion/i_recipes/space_staff_3
+#
+# Start Frigid Staff - Check NORTH for Everglacier
+execute positioned ~ ~ ~-4 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{tag:{atrium_everglacier:1b}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~-4 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{tag:{atrium_everglacier:1b}}}] at @s run function atrium:formula_crafting/infusion/i_recipes/frigid_staff
+# Start Melodic Staff - Check NORTH for Jukebox
+execute positioned ~ ~ ~-4 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:jukebox",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~-4 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:jukebox",Count:1b}}] at @s run function atrium:formula_crafting/infusion/i_recipes/melodic_staff
+# Start Mercurial Staff - Check NORTH for Dilution Matrix
+execute positioned ~ ~ ~-4 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{tag:{atrium_dilution_matrix:1b}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~-4 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{tag:{atrium_dilution_matrix:1b}}}] at @s run function atrium:formula_crafting/infusion/i_recipes/mercurial_staff
+# Start Molten Staff - Check NORTH for Lava Bucket
+execute positioned ~ ~ ~-4 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:lava_bucket",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~-4 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:lava_bucket",Count:1b}}] at @s run function atrium:formula_crafting/infusion/i_recipes/molten_staff
+# Start Verdant Staff - Check NORTH for Spore Blossom
+execute positioned ~ ~ ~-4 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:spore_blossom",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~-4 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:spore_blossom",Count:1b}}] at @s run function atrium:formula_crafting/infusion/i_recipes/verdant_staff
+# Start Voltaic Staff - Check NORTH for Cyclone Cube
+execute positioned ~ ~ ~-4 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{tag:{atrium_cyclone_cube:1b}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~-4 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{tag:{atrium_cyclone_cube:1b}}}] at @s run function atrium:formula_crafting/infusion/i_recipes/voltaic_staff
 #
 # Start Rod of Relocation - Check CENTER NORTH for Slimeball
 execute positioned ~ ~ ~-2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:slime_ball",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal

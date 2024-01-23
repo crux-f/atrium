@@ -1,8 +1,9 @@
 {
   "type": "minecraft:jigsaw",
   "biomes": [
+    "minecraft:nether_wastes",
     "minecraft:crimson_forest",
-    "minecraft:basalt_deltas"
+    "minecraft:warped_forest"
   ],
   "step": "underground_decoration",
   "spawn_overrides": {

@@ -17,8 +17,8 @@ execute if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_staff_lv:1b}}]} ru
 execute if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_staff_lv:1b}}]} run summon area_effect_cloud ~ ~10 ~ {Particle:"minecraft:cloud",Radius:3f,Duration:1200}
 execute if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_staff_lv:2b}}]} run summon area_effect_cloud ~ ~10 ~ {Particle:"minecraft:rain",Radius:3f,Duration:2380}
 execute if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_staff_lv:2b}}]} run summon area_effect_cloud ~ ~10 ~ {Particle:"minecraft:cloud",Radius:3f,Duration:2400}
-execute if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_staff_lv:3b}}]} run summon area_effect_cloud ~ ~10 ~ {Particle:"minecraft:rain",Radius:3f,Duration:4780}
-execute if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_staff_lv:3b}}]} run summon area_effect_cloud ~ ~10 ~ {Particle:"minecraft:cloud",Radius:3f,Duration:4800}
+execute if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_staff_lv:3b}}]} run summon area_effect_cloud ~ ~10 ~ {Particle:"minecraft:rain",Radius:3f,Duration:5980}
+execute if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_staff_lv:3b}}]} run summon area_effect_cloud ~ ~10 ~ {Particle:"minecraft:cloud",Radius:3f,Duration:6000}
 #
 # Run repeat script (runs until no "atrium_water_sigil" entities exist)
 function atrium:triggers/magic/spells/water_sigil_repeat

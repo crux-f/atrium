@@ -10,7 +10,7 @@
             "predicate": {
               "equipment": {
                 "mainhand": {
-                  "nbt": "{hellish_lantern:1b}"
+                  "nbt": "{atrium_hellish_lantern:1b}"
                 }
               }
             }
@@ -25,6 +25,6 @@
     }
   },
   "rewards": {
-    "function": "atrium:triggers/treasure/hellish_lantern_charge"
+    "function": "atrium:triggers/items/hellish_lantern_charge"
   }
 }

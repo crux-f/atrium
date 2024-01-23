@@ -1,0 +1,38 @@
+{
+    "__comment": "Acquired by crafting a level 3 staff",
+    "display": {
+        "title": {
+            "text": "Octarine"
+        },
+        "description": [
+            {
+                "text": "Attain a mastery of spells"
+            },
+            {
+              "color": "gray",
+              "text": "\n \nReward:"
+            },
+            {
+              "color": "yellow",
+              "text": "\n175 XP"
+            }
+          ],
+        "icon": {
+            "item": "minecraft:written_book",
+            "nbt": "{CustomModelData:333150}"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "craft_level_3_staff": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 175
+      },
+    "parent": "atrium:magic/learning_to_spell"
+}

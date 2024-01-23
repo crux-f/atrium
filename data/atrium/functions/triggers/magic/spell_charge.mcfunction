@@ -48,3 +48,7 @@ execute if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_water_staff:1b}}]}
 execute if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_time_staff:1b}}]} at @s run function atrium:triggers/magic/cast/time_spell
 # Space
 execute if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_space_staff:1b}}]} at @s run function atrium:triggers/magic/cast/space_spell
+#
+#
+# Special (Any non-standard staff items)
+execute if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_special_staff:1b}}]} at @s run function atrium:triggers/magic/cast/special_spell

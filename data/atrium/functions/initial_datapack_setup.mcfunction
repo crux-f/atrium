@@ -8,6 +8,10 @@
 scoreboard objectives add static_values dummy
 # valid_ingredients is used by formula crafting systems to validate ingredients during crafting
 scoreboard objectives add valid_ingredients dummy
+# atrium_hiding is used for mobs that have a stealth ability and for players using the "Hush" spell
+scoreboard objectives add atrium_hiding dummy {"text":"Hiding"}
+# atrium_condition_timer is used for special conditions. ATM only used for the Moment spell
+scoreboard objectives add atrium_condition_timer dummy {"text":"Condition Timer"}
 #
 #
 #
@@ -28,6 +32,13 @@ scoreboard objectives add atrium_parallax_y dummy {"text":"Parallax [Y]","color"
 scoreboard objectives add atrium_parallax_z dummy {"text":"Parallax [Z]","color":"gray"}
 scoreboard objectives add atrium_parallax_dim dummy {"text":"Parallax [Dimension]","color":"gray"}
 scoreboard objectives add atrium_parallax_timer dummy {"text":"Parallax Spell Timer","color":"gray"}
+# atrium_return_x, atrium_return_y, atrium_return_z and atrium_return_dim are used for the Return spell
+scoreboard objectives add atrium_return_x dummy {"text":"Return [X]","color":"green"}
+scoreboard objectives add atrium_return_y dummy {"text":"Return [Y]","color":"green"}
+scoreboard objectives add atrium_return_z dummy {"text":"Return [Z]","color":"green"}
+scoreboard objectives add atrium_return_dim dummy {"text":"Return [Dimension]","color":"green"}
+# atrium_blizzard_spell is used by the Blizzard spell.
+scoreboard objectives add atrium_blizzard_spell dummy {"text":"Blizzard Spell Counter","color":"aqua"}
 # atrium_pocket_item_flag is used for the Pocket Item spell
 scoreboard objectives add atrium_pocket_item_flag dummy {"text":"Pocket Item Spell Success Flag","color":"gray"}
 # atrium_x_coordinate, atrium_y_coordinate, atrium_z_coordinate are used for Gust spell and Warp Gates

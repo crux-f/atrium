@@ -19,7 +19,7 @@ execute if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_staff_lv:3b}}]} ru
 # LEVEL 3 ONLY: Summon another dummy to handle secondary particle animation
 # First though, kill all the existing guys loaded that don't have a cloud (in case of people leaving it unloaded, letting the repeat script expire).
 execute as @e[type=minecraft:armor_stand,tag=atrium_fire_sigil_dummy_s] at @s unless entity @e[tag=atrium_fire_sigil,distance=..5] run kill @s
-execute if entity @e[tag=atrium_fire_sigil,sort=nearest,scores={charge=3..}] run summon armor_stand ~ ~ ~ {Silent:1b,Marker:1b,Invisible:1b,NoBasePlate:1b,Tags:["atrium_fire_sigil_dummy_s"]}
+execute if entity @s[nbt={Inventory:[{Slot:-106b,tag:{atrium_staff_lv:3b}}]}] run summon armor_stand ~ ~ ~ {Silent:1b,Marker:1b,Invisible:1b,NoBasePlate:1b,Tags:["atrium_fire_sigil_dummy_s"]}
 #
 # Run repeat script. Sigil triggers when area effect cloud runs out.
 function atrium:triggers/magic/spells/fire_sigil_repeat

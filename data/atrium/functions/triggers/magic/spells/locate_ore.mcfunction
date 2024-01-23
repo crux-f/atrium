@@ -19,7 +19,7 @@ execute positioned ~-3 ~1 ~ run function atrium:triggers/magic/spells/locate_ore
 # And another 3x3 cube on the +Y side...
 execute positioned ~ ~4 ~ run function atrium:triggers/magic/spells/locate_ore_3x3_cube
 # And finally, another 3x3 cube on the -Y side.
-execute positioned ~ ~-3 ~ run function atrium:triggers/magic/spells/locate_ore_3x3_cube
+execute positioned ~ ~-2 ~ run function atrium:triggers/magic/spells/locate_ore_3x3_cube
 #
 # Lets give the caster the corners, too.
 execute positioned ~3 ~ ~3 run function atrium:triggers/magic/spells/locate_ore_3x3_cube
@@ -27,15 +27,18 @@ execute positioned ~-3 ~ ~3 run function atrium:triggers/magic/spells/locate_ore
 execute positioned ~3 ~ ~-3 run function atrium:triggers/magic/spells/locate_ore_3x3_cube
 execute positioned ~-3 ~ ~-3 run function atrium:triggers/magic/spells/locate_ore_3x3_cube
 #
-execute positioned ~3 ~3 ~3 run function atrium:triggers/magic/spells/locate_ore_3x3_cube
-execute positioned ~-3 ~3 ~3 run function atrium:triggers/magic/spells/locate_ore_3x3_cube
-execute positioned ~3 ~3 ~-3 run function atrium:triggers/magic/spells/locate_ore_3x3_cube
-execute positioned ~-3 ~3 ~-3 run function atrium:triggers/magic/spells/locate_ore_3x3_cube
+execute positioned ~3 ~4 ~3 run function atrium:triggers/magic/spells/locate_ore_3x3_cube
+execute positioned ~-3 ~4 ~3 run function atrium:triggers/magic/spells/locate_ore_3x3_cube
+execute positioned ~3 ~4 ~-3 run function atrium:triggers/magic/spells/locate_ore_3x3_cube
+execute positioned ~-3 ~4 ~-3 run function atrium:triggers/magic/spells/locate_ore_3x3_cube
 #
-execute positioned ~3 ~-3 ~3 run function atrium:triggers/magic/spells/locate_ore_3x3_cube
-execute positioned ~-3 ~-3 ~3 run function atrium:triggers/magic/spells/locate_ore_3x3_cube
-execute positioned ~3 ~-3 ~-3 run function atrium:triggers/magic/spells/locate_ore_3x3_cube
-execute positioned ~-3 ~-3 ~-3 run function atrium:triggers/magic/spells/locate_ore_3x3_cube
+execute positioned ~3 ~-2 ~3 run function atrium:triggers/magic/spells/locate_ore_3x3_cube
+execute positioned ~-3 ~-2 ~3 run function atrium:triggers/magic/spells/locate_ore_3x3_cube
+execute positioned ~3 ~-2 ~-3 run function atrium:triggers/magic/spells/locate_ore_3x3_cube
+execute positioned ~-3 ~-2 ~-3 run function atrium:triggers/magic/spells/locate_ore_3x3_cube
+#
+# LEVEL 3 ONLY - Scan out to 15x15
+execute if entity @s[nbt={Inventory:[{Slot:-106b,tag:{atrium_staff_lv:3b}}]}] run function atrium:triggers/magic/spells/locate_ore_additional_range
 #
 # Glow
 team join atrium_glow_black @e[tag=atrium_coal_marker]

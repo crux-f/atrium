@@ -1,0 +1,51 @@
+[
+    {
+      "function": "minecraft:set_damage",
+      "damage": 0.20,
+      "add": true,
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "mainhand": {
+                "enchantments": [
+                  {
+                    "enchantment": "minecraft:vanishing_curse",
+                    "levels": 8
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_enchantments",
+      "enchantments": {
+        "minecraft:vanishing_curse": 1
+      },
+      "add": true,
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "mainhand": {
+                "enchantments": [
+                  {
+                    "enchantment": "minecraft:vanishing_curse",
+                    "levels": 8
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+  

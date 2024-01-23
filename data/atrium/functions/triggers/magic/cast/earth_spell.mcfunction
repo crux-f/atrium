@@ -17,4 +17,5 @@ execute if entity @s[scores={charge=120..}] if data entity @s {SelectedItem:{tag
 execute if entity @s[scores={charge=160..}] if data entity @s {SelectedItem:{tag:{atrium_power_slot:7b}},Inventory:[{Slot:-106b,tag:{atrium_staff_lv:3b}}]} run function atrium:triggers/magic/spells/conjure_tree
 #
 # Slot 4: Return
-execute if entity @s[scores={charge=160..}] if data entity @s {SelectedItem:{tag:{atrium_power_slot:4b}},Inventory:[{Slot:-106b,tag:{atrium_staff_lv:3b}}]} run function atrium:triggers/magic/spells/return
+execute if entity @s[scores={charge=160..}] if data entity @s {SelectedItem:{tag:{atrium_power_slot:4b}},Inventory:[{Slot:-106b,tag:{atrium_staff_lv:3b}}]} unless score @s atrium_return_dim matches 0.. run function atrium:triggers/magic/spells/return_setup
+execute if entity @s[scores={charge=160..}] if data entity @s {SelectedItem:{tag:{atrium_power_slot:4b}},Inventory:[{Slot:-106b,tag:{atrium_staff_lv:3b}}]} if score @s atrium_return_dim matches 0.. run function atrium:triggers/magic/spells/return_cast

@@ -9,7 +9,7 @@ execute if entity @s[scores={atrium_parallax_dim=1}] at @s in minecraft:the_neth
 execute if entity @s[scores={atrium_parallax_dim=2}] at @s in minecraft:the_end run tp @s ~ ~ ~
 execute if entity @s[scores={atrium_parallax_dim=3}] at @s in atrium:the_meridian run tp @s ~ ~ ~
 execute if entity @s[scores={atrium_parallax_dim=4}] at @s in atrium:the_depths run tp @s ~ ~ ~
-# execute if entity @s[scores={atrium_parallax_dim=5}] at @s in atrium:the_abyss run tp @s ~ ~ ~
+execute if entity @s[scores={atrium_parallax_dim=5}] at @s in atrium:the_abyss run tp @s ~ ~ ~
 #
 # Run particles + SFX for returning
 execute at @s run particle minecraft:flash ~ ~ ~ 0.25 0.25 0.25 1 20

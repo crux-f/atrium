@@ -62,7 +62,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{atrium_subdued_crystal:1b}"
+              "tag": "{atrium_crystal:1,atrium_subdued_crystal:1b}"
             },
             {
               "function": "set_name",
