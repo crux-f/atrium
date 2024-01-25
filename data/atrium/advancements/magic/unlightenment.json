@@ -13,8 +13,8 @@
               "text": "\n \nReward:"
             },
             {
-              "color": "yellow",
-              "text": "\n500 XP"
+              "color": "blue",
+              "text": "\n1 Forgotten Runestone"
             }
           ],
         "icon": {
@@ -31,7 +31,9 @@
         }
     },
     "rewards": {
-        "experience": 500
+      "loot": [
+        "atrium:advancements/magic/unlightenment"
+      ]
       },
     "parent": "atrium:magic/enchanter_ii"
 }

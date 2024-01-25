@@ -11,12 +11,16 @@
                 "text": "Reach 30 Favor with Syrula"
             },
             {
-              "color": "gray",
-              "text": "\n \nReward:"
+                "color": "gray",
+                "text": "\n \nReward:"
             },
             {
-              "color": "yellow",
-              "text": "\n50 XP"
+                "color": "blue",
+                "text": "\n1 Holy Symbol"
+            },
+            {
+                "color": "yellow",
+                "text": "\n50 XP"
             }
           ],
         "icon": {
@@ -34,6 +38,9 @@
         }
     },
     "rewards": {
+        "loot": [
+            "atrium:advancements/belief/syrula_30"
+          ],
         "experience": 50
     },
     "parent": "atrium:belief/syrula_10"

@@ -10,12 +10,16 @@
                 "text": "Reach 30 Favor with Ghael"
             },
             {
-              "color": "gray",
-              "text": "\n \nReward:"
+                "color": "gray",
+                "text": "\n \nReward:"
             },
             {
-              "color": "yellow",
-              "text": "\n50 XP"
+                "color": "blue",
+                "text": "\n1 Holy Symbol"
+            },
+            {
+                "color": "yellow",
+                "text": "\n50 XP"
             }
           ],
         "icon": {
@@ -33,6 +37,9 @@
         }
     },
     "rewards": {
+        "loot": [
+            "atrium:advancements/belief/ghael_30"
+          ],
         "experience": 50
     },
     "parent": "atrium:belief/ghael_10"

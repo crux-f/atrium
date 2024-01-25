@@ -1,0 +1,22 @@
+{
+    "type": "advancement_reward",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+            {
+                "type": "item",
+                "weight": 1,
+                "name": "minecraft:flint",
+                "functions": [
+                  {
+                    "function": "minecraft:set_nbt",
+                    "tag": "{display:{Name:'{\"text\":\"Forgotten Runestone\",\"italic\":false}',Lore:['{\"text\":\"Your hands ache with\"}','{\"text\":\"the effort of carving the\"}','{\"text\":\"symbol into it, but\"}','{\"text\":\"you no longer remember\"}','{\"text\":\"doing it.\"}']},CustomModelData:333173,atrium_forgotten_runestone:1b}"
+                  }
+                ]
+            }
+        ]
+      }
+    ]
+  }
+  
