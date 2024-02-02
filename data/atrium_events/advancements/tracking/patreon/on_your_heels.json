@@ -1,0 +1,8 @@
+{
+    "__comment": "Given to players an hour after they spawn in (while Anomaly lasts).",
+    "criteria": {
+        "on_your_heels_anomaly": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

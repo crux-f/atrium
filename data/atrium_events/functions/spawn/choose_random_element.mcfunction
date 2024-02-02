@@ -29,3 +29,9 @@ advancement grant @s only atrium_events:tracking/spawn/iteration_5_spawned
 #
 advancement grant @s only atrium:atrium_root
 advancement grant @s only atrium:events_root
+#
+# ANOMALY: On Your Heels
+# Each time a player enters the world for the first time, an hour after they spawn in, someone arrives looking for them.
+#
+# Set tracking score to -3600 (Seconds) (1 hour)
+scoreboard players set @s atrium_condition_timer -3600
