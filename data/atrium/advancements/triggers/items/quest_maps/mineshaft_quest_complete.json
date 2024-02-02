@@ -8,7 +8,7 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "nbt": "{Inventory:[{tag:{atrium_mineshaft_quest_key:1b}}]}"
+              "nbt": "{Inventory:[{tag:{atrium_mineshaft_quest_map:1b}}]}"
             }
           }
         ],
@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "atrium:triggers/chests/unlock/mineshaft_quest_rewards"
+    "function": "atrium:triggers/items/quest_maps/unlock/mineshaft_quest_reward"
   }
 }

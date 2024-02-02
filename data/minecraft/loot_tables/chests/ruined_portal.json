@@ -14,10 +14,6 @@
           "name": "minecraft:map",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
               "function": "exploration_map",
               "destination": "mineshaft",
               "decoration": "red_x",
@@ -25,14 +21,14 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{atrium_delvers_map:1b,atrium_mineshaft_quest_key:1b}"
+              "tag": "{atrium_delvers_map:1b,atrium_mineshaft_quest_map:1b}"
             },
             {
               "function": "set_name",
               "name": [
                 {
-                  "text": "Ancient Map",
-                  "italic": false
+                  "text": "Quest Map",
+                  "italic": true
                 }
               ]
             },

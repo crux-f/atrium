@@ -8,6 +8,52 @@
       "entries": [
         {
           "type": "item",
+          "weight": 2,
+          "quality": 2,
+          "name": "minecraft:map",
+          "functions": [
+            {
+              "function": "exploration_map",
+              "destination": "atrium:ancient_city",
+              "decoration": "target_x",
+              "skip_existing_chunks": true
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{atrium_archive_map:1b,atrium_ancient_city_quest_map:1b}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Quest Map",
+                  "italic": true
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "There's an 'x' in white"
+                },
+                {
+                  "text": "ink, with a note:"
+                },
+                {
+                  "text": "\"Evacuation only.\""
+                },
+                {
+                  "text": "(Feels important.)",
+                  "color": "gray",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
           "weight": 8,
           "quality": 2,
           "name": "minecraft:nether_wart",

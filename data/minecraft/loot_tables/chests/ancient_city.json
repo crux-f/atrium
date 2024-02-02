@@ -97,6 +97,29 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
+          "weight": 100,
+          "name": "atrium:quests/ancient_city_quest_rewards",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Inventory:[{tag:{atrium_ancient_city_quest_map:1b}}]}"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
           "name": "atrium:chests/base/ancient_city"
         }
       ]

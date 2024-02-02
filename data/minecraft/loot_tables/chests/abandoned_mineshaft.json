@@ -68,7 +68,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Explorer Map\",\"italic\":false}',Lore:['{\"text\":\"Seems to lead... Somewhere\"}','{\"text\":\"beneath the bedrock layer?\"}'],MapColor:2694707},atrium_depths_entrance_map:1b}"
+              "tag": "{display:{Name:'{\"text\":\"Explorer Map\",\"italic\":true}',Lore:['{\"text\":\"Seems to lead... Somewhere\"}','{\"text\":\"beneath the bedrock layer?\"}'],MapColor:2694707},atrium_depths_entrance_map:1b}"
             }
           ]
         },
@@ -118,14 +118,14 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "weight": 5,
+          "weight": 50,
           "name": "atrium:quests/mineshaft_quest_rewards",
           "conditions": [
             {
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "nbt": "{Inventory:[{tag:{atrium_mineshaft_quest_key:1b}}]}"
+                "nbt": "{Inventory:[{tag:{atrium_mineshaft_quest_map:1b}}]}"
               }
             }
           ]

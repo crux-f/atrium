@@ -1,0 +1,71 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "weight": 100,
+            "type": "minecraft:loot_table",
+            "name": "atrium:archaeology/base/ocean_ruin_cold"
+          },
+          {
+            "type": "item",
+            "weight": 2,
+            "quality": 2,
+            "name": "minecraft:map",
+            "functions": [
+              {
+                "function": "exploration_map",
+                "destination": "minecraft:on_ocean_explorer_maps",
+                "decoration": "red_x",
+                "skip_existing_chunks": true
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{atrium_doctrine_map:1b,atrium_monument_quest_map:1b}"
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Quest Map",
+                    "italic": true
+                  }
+                ]
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "text": "This strange map is enchanted with"
+                  },
+                  {
+                    "text": "water resistance. Beside the red"
+                  },
+                  {
+                    "text": "'x' is a note in shaky handwriting:"
+                  },
+                  {
+                    "text": "\"The church was wrong. It didn't"
+                  },
+                  {
+                    "text": "want to be known. The Guardians"
+                  },
+                  {
+                    "text": "are Its eyes and ears.\""
+                  },
+                  {
+                    "text": "(Feels important.)",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ]
+              }
+            ]
+          }  
+        ]
+      }
+    ],
+    "random_sequence": "minecraft:archaeology/ocean_ruin_cold"
+  }
+  

@@ -1,0 +1,50 @@
+{
+  "type": "chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 5,
+          "name": "minecraft:trident",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Wavebender\",\"color\":\"blue\",\"italic\":false}',Lore:['{\"text\":\"This weapon was once\"}','{\"text\":\"wielded by a great \"}','{\"text\":\"priestess of The Doctrine.\"}','{\"text\":\"Use its power wisely.\"}']},RepairCost:99,atrium_wavebender:1b,Enchantments:[{id:\"minecraft:unbreaking\",lvl:6s},{id:\"minecraft:riptide\",lvl:2s},{id:\"minecraft:mending\",lvl:1s}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 5,
+          "name": "minecraft:fishing_rod",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Trawler\",\"color\":\"blue\",\"italic\":false}',Lore:['{\"text\":\"This strange fishing rod\"}','{\"text\":\"is very good at finding...\"}','{\"text\":\"just about anything that\"}','{\"text\":\"finds itself in a riverbed.\"}']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:5s},{id:\"minecraft:lure\",lvl:3s}],AttributeModifiers:[{AttributeName:\"generic.luck\",Name:\"generic.luck\",Amount:-1,Operation:0,UUID:[I;2084010244,-1297004181,-2136489695,-1337901432],Slot:\"mainhand\"},{AttributeName:\"generic.luck\",Name:\"generic.luck\",Amount:-1,Operation:0,UUID:[I;-395676543,-1893121103,-1806770973,1496146868],Slot:\"offhand\"}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 5,
+          "name": "minecraft:diamond_hoe",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Anointer\",\"italic\":false,\"color\":\"blue\"}',Lore:['{\"text\":\"SURGE\",\"color\":\"gray\",\"italic\":false,\"font\":\"illageralt\"}','{\"text\":\"Concentration II\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"◇ Water Sigil II\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"◇ Extinguish II\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"◇ Turn Tide I\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"◇ Undercurrent I\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"When in Off Hand:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"+2 Casting Power\",\"color\":\"blue\",\"italic\":false}']},Enchantments:[{}],CustomModelData:333063,RepairCost:10,atrium_staff:1b,atrium_staff_lv:2b,atrium_water_staff:1b,atrium_chargeable:1b,atrium_custom_enchantment:1b,atrium_concentration_enchanted:1b,atrium_concentration_lv:2b,atrium_surge_enchanted:1b,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:2,Operation:0,UUID:[I;637717026,1710441391,-1943706047,783506473],Slot:\"mainhand\"}]}"
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "minecraft:unbreaking"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

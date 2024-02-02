@@ -56,6 +56,29 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
+          "weight": 100,
+          "name": "atrium:quests/monument_quest_rewards",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "killer",
+              "predicate": {
+                "nbt": "{Inventory:[{tag:{atrium_monument_quest_map:1b}}]}"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
           "name": "atrium:entities/base/elder_guardian"
         }
       ]
