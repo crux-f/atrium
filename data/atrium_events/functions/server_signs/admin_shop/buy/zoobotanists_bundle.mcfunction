@@ -1,3 +1,3 @@
+execute unless entity @s[scores={atrium_reputation=64..}] run function atrium_events:server_signs/admin_shop/not_enough_reputation
 execute if entity @s[scores={atrium_reputation=64..}] run give @s chest{display:{Name:'{"text":"Zoobotanist\'s Bundle","color":"dark_green","italic":false}',Lore:['{"text":"Once unbound, you will find a"}','{"text":"variety of plant and animal life"}','{"text":"within, collected and preserved"}','{"text":"from all over the world."}']},BlockEntityTag:{LootTable:"atrium_events:rewards/zoobotanists_bundle/zoobotanists_bundle_master"}} 1
 execute if entity @s[scores={atrium_reputation=64..}] run scoreboard players remove @s atrium_reputation 64
-execute unless entity @s[scores={atrium_reputation=64..}] run function atrium_events:server_signs/admin_shop/not_enough_reputation
