@@ -1,0 +1,27 @@
+{
+    "__comment": "All the events that took place in 2024 fall into this category.",
+    "display": {
+        "title": {
+            "text": "2024"
+        },
+        "description": {
+            "text": "All Atrium Events in 2024"
+        },
+        "icon": {
+            "item": "minecraft:netherite_pickaxe"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "2024_events": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+        "rewards": {
+		"experience": 0
+	},
+        "parent": "atrium:events_explanation"
+}

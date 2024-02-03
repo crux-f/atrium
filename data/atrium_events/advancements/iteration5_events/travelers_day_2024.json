@@ -1,0 +1,58 @@
+{
+    "__comment": "Iteration 5 launch party! 02/03/2024.",
+    "display": {
+        "title": {
+            "text": "Traveler's Day (2024)"
+        },
+        "description": [
+            {
+                "text": "February 3rd, 2024",
+                "color": "green",
+                "italic": true
+            },
+            {
+              "color": "dark_purple",
+              "italic": true,
+              "text": "\nAcross many worlds, new Travelers arrive to Atrium. Where did you come from? Where are you going?"
+            },
+            {
+              "italic": false,
+              "color": "gray",
+              "text": "\n \nReward:"
+            },
+            {
+              "italic": false,
+              "color": "blue",
+              "text": "\n1 Arcane Starter Kit"
+            },
+            {
+                "italic": false,
+                "color": "blue",
+                "text": "\n64 ❤ Reputation"
+            },
+            {
+                "italic": false,
+                "color": "yellow",
+                "text": "\n25 XP"
+            }
+          ],
+        "icon": {
+            "item": "minecraft:diamond_hoe",
+            "nbt": "{CustomModelData:333185}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "travelers_day_2024": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+		"experience": 25,
+        "function": "atrium_events:rewards/events/iteration_5/travelers_day_2024"
+	},
+        "parent": "atrium_events:events_2024"
+}
