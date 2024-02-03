@@ -12,10 +12,6 @@
             "name": "minecraft:written_book",
             "functions": [
                 {
-                    "function": "set_count",
-                    "count": 1
-                },
-                {
                     "function": "set_nbt",
                     "tag": "{pages:['[\"\",{\"text\":\"Sentinel\\\\n\"},{\"text\":\"[Enchantment Entry]\",\"color\":\"gray\"},{\"text\":\"\\\\nBlocking with a Shield enchanted with Sentinel grants Resistance I (+20% Damage Resistance) to the wielder and to any entities standing within 2.5 blocks behind the wielder.\",\"color\":\"reset\"}]','[\"\",{\"text\":\"Sentinel\\\\n\"},{\"text\":\"Runic Formula\",\"underlined\":true,\"color\":\"gray\"},{\"text\":\"\\\\n\",\"color\":\"reset\"},{\"text\":\"[Enchantment]\",\"color\":\"gray\"},{\"text\":\"\\\\n\\\\n         \",\"color\":\"reset\"},{\"text\":\"@\",\"color\":\"dark_gray\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"[Any unenchanted shield]\"}},{\"text\":\"\\\\n     \",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"dark_aqua\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"[Any item enchanted with Unbreaking]\"}},{\"text\":\"       \",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"dark_green\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"[Any item enchanted with Projectile Protection]\"}},{\"text\":\"\\\\n x       \",\"color\":\"reset\"},{\"text\":\"!\",\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Minimum XP level requirement = 25 \\\\\\\\nXP level cost = 2\"}},{\"text\":\"       x\\\\n     x       x\\\\n         \",\"color\":\"reset\"},{\"text\":\"?\",\"color\":\"aqua\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Enchantment Catalyst [Transforming]\"}}]'],title:\"❇ Sentinel\",author:\"???\",generation:1,CustomModelData:333003,HideFlags:99,atrium_runic_formula:1}"
                 },

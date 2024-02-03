@@ -128,5 +128,6 @@ bossbar set atrium:lich color blue
 #
 # EVENTS
 #
+scoreboard objectives add atrium_reputation dummy {"text":"❤ Reputation","color":"blue"}
 scoreboard objectives add event_misc dummy {"text":"Event Misc","color":"light_purple"}
 scoreboard objectives add builder_last_mode dummy {"text":"Last Gamemode","color":"white"}
