@@ -1,13 +1,13 @@
 {
   "structures": [
     {
-      "structure": "atrium:natural/dream_isle",
-      "weight": 1
+      "structure": "atrium:natural/meridian_geode",
+      "weight": 8
     }
   ],
   "placement": {
-    "salt": 111111,
-    "spacing": 40,
+    "salt": 777,
+    "spacing": 30,
     "separation": 15,
     "type": "minecraft:random_spread"
   }

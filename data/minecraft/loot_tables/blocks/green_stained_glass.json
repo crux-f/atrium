@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:green_stained_glass"
+          "name": "minecraft:orange_stained_glass"
         }
       ],
       "conditions": [
@@ -25,12 +25,12 @@
         },
         {
           "condition": "minecraft:inverted",
-          "term": 	{
-			  "condition": "minecraft:location_check",
-			  "predicate": {
-				"dimension": "atrium:the_meridian"
-			  }
-			}
+          "term": {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "structure": "atrium:natural/meridian_geode"
+            }
+          }
         }
       ]
     },
@@ -46,12 +46,12 @@
                 "nbt": "{atrium_shard_touch_enchanted:1b}"
               }
             },
-			{
-			  "condition": "minecraft:location_check",
-			  "predicate": {
-				"dimension": "atrium:the_meridian"
-			  }
-			}
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "structure": "atrium:natural/meridian_geode"
+              }
+            }
           ],
           "weight": 1,
           "name": "minecraft:green_stained_glass",

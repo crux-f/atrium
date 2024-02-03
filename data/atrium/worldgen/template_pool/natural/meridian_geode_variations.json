@@ -1,11 +1,11 @@
 {
-    "name": "atrium:misc/hell_geode_variations",
+    "name": "atrium:natural/meridian_geode_variations",
     "fallback": "minecraft:empty",
     "elements": [
       {
         "weight": 1,
         "element": {
-          "location": "atrium:natural/underground/hell_geode",
+          "location": "atrium:natural/meridian_geode_0",
           "processors": "minecraft:empty",
           "projection": "rigid",
           "element_type": "minecraft:single_pool_element"

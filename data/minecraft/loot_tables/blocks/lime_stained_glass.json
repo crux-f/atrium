@@ -25,12 +25,12 @@
         },
         {
           "condition": "minecraft:inverted",
-          "term": 	{
-			  "condition": "minecraft:location_check",
-			  "predicate": {
-				"dimension": "atrium:the_meridian"
-			  }
-		   }
+          "term": {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "structure": "atrium:natural/meridian_geode"
+            }
+          }
         }
       ]
     },
@@ -47,11 +47,11 @@
               }
             },
             {
-			  "condition": "minecraft:location_check",
-			  "predicate": {
-				"dimension": "atrium:the_meridian"
-			  }
-			}
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "structure": "atrium:natural/meridian_geode"
+              }
+            }
           ],
           "weight": 1,
           "name": "minecraft:lime_stained_glass",
