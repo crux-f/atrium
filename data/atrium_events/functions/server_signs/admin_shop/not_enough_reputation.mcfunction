@@ -1,0 +1,2 @@
+# Used by all "Buy" signs in the event that the player does not have enough Reputation to get the thing they want.
+tellraw @s {"text":"You don't have enough Reputation to get that.","italic":true,"color":"red"}

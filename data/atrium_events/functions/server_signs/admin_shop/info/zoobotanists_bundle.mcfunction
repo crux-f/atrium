@@ -1,0 +1,1 @@
+tellraw @s {"text":"Once unbound, you will find a variety of plant and animal life within, collected and preserved from all over the world.","italic":true,"color":"gray"}

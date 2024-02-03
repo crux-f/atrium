@@ -1,0 +1,1 @@
+tellraw @s {"text":"Essence Jars are a fascinating decorative block provided by the local spirits, containing the bottled essence of... Well, we aren't quite sure.","italic":true,"color":"gray"}

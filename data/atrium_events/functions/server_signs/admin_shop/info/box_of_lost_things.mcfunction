@@ -1,0 +1,1 @@
+tellraw @s {"text":"The first of the Flotsam Boxes to ever be recovered. This one's a bit odd, but that's what you get when you fill a chest with flotsam.","italic":true,"color":"gray"}

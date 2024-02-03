@@ -1,0 +1,3 @@
+execute if entity @s[scores={atrium_reputation=64..}] run give @s chest{display:{Name:'{"text":"Traveller\'s Pack","color":"blue","italic":false}',Lore:['{"text":"A small pack of supplies for a"}','{"text":"long journey, including maps"}','{"text":"for navigation and potions to"}','{"text":"aid the weary trav-... how did"}','{"text":"they fit a boat in there?"}']},BlockEntityTag:{LootTable:"atrium_events:rewards/travelers_pack/travelers_pack_master"}} 1
+execute if entity @s[scores={atrium_reputation=64..}] run scoreboard players remove @s atrium_reputation 64
+execute unless entity @s[scores={atrium_reputation=64..}] run function atrium_events:server_signs/admin_shop/not_enough_reputation

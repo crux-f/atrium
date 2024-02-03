@@ -1,0 +1,1 @@
+tellraw @s {"text":"Plushies are decorative, collectable blocks that are very fuzzy and friendly. Need I say more?","italic":true,"color":"gray"}

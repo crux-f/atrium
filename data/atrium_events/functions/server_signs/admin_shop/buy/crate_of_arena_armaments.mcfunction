@@ -1,0 +1,3 @@
+execute if entity @s[scores={atrium_reputation=128..}] run give @s chest{display:{Name:'{"text":"Crate of Arena Armaments","color":"red","italic":false}',Lore:['{"text":"Arena gear that never made it"}','{"text":"through the portal. Some of"}','{"text":"of the tools and equipment in"}','{"text":"these have yet to be tested"}','{"text":"in the field of battle."}']},BlockEntityTag:{LootTable:"atrium_events:rewards/arena_armaments/arena_armaments_master"}} 1
+execute if entity @s[scores={atrium_reputation=128..}] run scoreboard players remove @s atrium_reputation 128
+execute unless entity @s[scores={atrium_reputation=128..}] run function atrium_events:server_signs/admin_shop/not_enough_reputation

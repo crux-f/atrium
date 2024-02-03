@@ -1,0 +1,1 @@
+tellraw @s {"text":"A small pack of supplies for a long journey, including maps for navigation and potions to aid the weary trav-... how did they fit a boat in there?","italic":true,"color":"gray"}

@@ -1,0 +1,3 @@
+execute if entity @s[scores={atrium_reputation=64..}] run give @s chest{display:{Name:'{"text":"Builder\'s Bulk Box","italic":false}',Lore:['{"text":"After enough shipments are"}','{"text":"misplaced and too many builders"}','{"text":"amass a surplus of supplies,"}','{"text":"a communal bulk box is built"}','{"text":"and stuffed to the brim with"}','{"text":"excess materials."}']},BlockEntityTag:{LootTable:"atrium_events:rewards/builders_bulk/builders_bulk_master"}} 1
+execute if entity @s[scores={atrium_reputation=64..}] run scoreboard players remove @s atrium_reputation 64
+execute unless entity @s[scores={atrium_reputation=64..}] run function atrium_events:server_signs/admin_shop/not_enough_reputation

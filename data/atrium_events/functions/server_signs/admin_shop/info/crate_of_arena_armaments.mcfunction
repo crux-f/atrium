@@ -1,0 +1,1 @@
+tellraw @s {"text":"Arena gear that never made it through the portal. Some of the tools and equipment in these have yet to be tested in the field of battle.","italic":true,"color":"gray"}

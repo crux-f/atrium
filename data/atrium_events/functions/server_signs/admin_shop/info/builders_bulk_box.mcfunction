@@ -1,0 +1,1 @@
+tellraw @s {"text":"After enough shipments are misplaced and too many builders amass a surplus of supplies, a communal bulk box is built and stuffed to the brim with excess materials.","italic":true,"color":"gray"}
