@@ -7,7 +7,7 @@ execute positioned ~-2 ~2 ~-2 unless entity @e[type=minecraft:glow_item_frame,di
 #
 # If all checks above pass...
 # Give the nearest player that isn't in Spectator mode Levitation.
-execute positioned ~ ~2 ~ as @p[gamemode=!spectator,distance=..2] run effect give @s minecraft:levitation 100 9 false
+execute positioned ~ ~2 ~ as @p[gamemode=!spectator,distance=..2] run effect give @s minecraft:levitation 50 9 false
 # execute positioned ~ ~2 ~ as @p[gamemode=!spectator,distance=..2] run effect give @s minecraft:levitation 60 4 false
 # execute positioned ~ ~2 ~ as @p[gamemode=!spectator,distance=..2] run effect give @s minecraft:levitation 120 0 false
 execute positioned ~ ~2 ~ as @p[gamemode=!spectator,distance=..2] run effect give @s minecraft:slow_falling 100 0 false
