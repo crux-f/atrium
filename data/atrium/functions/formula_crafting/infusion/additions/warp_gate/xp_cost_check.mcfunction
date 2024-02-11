@@ -9,6 +9,7 @@ execute at @s positioned ~-5 ~2 ~ as @e[type=minecraft:item_frame,distance=..1.5
 execute at @s positioned ~-5 ~2 ~ as @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{tag:{LodestoneTracked:1b}}}] run scoreboard players add @s atrium_xp_multiplier 100
 execute at @s positioned ~-5 ~2 ~ as @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{tag:{LodestoneTracked:1b}}}] run scoreboard players set @s charge 100
 #
+# tellraw crux_f [{"text":"multiplier is ","italic":true,"color":"gray"},{"score":{"name":"@e[limit=1,sort=nearest,type=minecraft:item_frame,distance=..1.5,nbt={Item:{tag:{LodestoneTracked:1b}}}]","objective":"atrium_xp_multiplier"},"color":"yellow"}]
 # Store the compass' coordinates into a score (stored on a per-entity basis) on the item frame its sitting in
 execute at @s positioned ~-5 ~2 ~ as @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{tag:{LodestoneTracked:1b}}}] store result score @s atrium_x_coordinate run data get entity @s Item.tag.LodestonePos.X 1
 execute at @s positioned ~-5 ~2 ~ as @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{tag:{LodestoneTracked:1b}}}] store result score @s atrium_y_coordinate run data get entity @s Item.tag.LodestonePos.Y 1
@@ -32,17 +33,20 @@ execute at @s positioned ~-5 ~2 ~ as @e[limit=1,type=minecraft:item_frame,distan
 execute at @s positioned ~-5 ~2 ~ as @e[limit=1,type=minecraft:item_frame,distance=..1.5,nbt={Item:{tag:{LodestoneTracked:1b}}}] run scoreboard players operation @s atrium_y_coordinate /= @s charge
 execute at @s positioned ~-5 ~2 ~ as @e[limit=1,type=minecraft:item_frame,distance=..1.5,nbt={Item:{tag:{LodestoneTracked:1b}}}] run scoreboard players operation @s atrium_z_coordinate /= @s charge
 #
-# Add all the numbers together to get the xp cost (in points) stored in 'charge' of the warp gate
+# Add all the numbers together to get the xp cost (in points) stored in 'charge' of the circle
 execute at @s positioned ~-5 ~2 ~ store result score @s charge run scoreboard players get @e[limit=1,type=minecraft:item_frame,distance=..1.5,nbt={Item:{tag:{LodestoneTracked:1b}}}] atrium_x_coordinate
+# tellraw crux_f [{"text":"cost after x = ","italic":true,"color":"gray"},{"score":{"name":"@s","objective":"charge"},"color":"yellow"}]
 scoreboard players operation @s charge += @e[limit=1,type=minecraft:item_frame,distance=..1.5,nbt={Item:{tag:{LodestoneTracked:1b}}}] atrium_z_coordinate
+# tellraw crux_f [{"text":"cost after z = ","italic":true,"color":"gray"},{"score":{"name":"@s","objective":"charge"},"color":"yellow"}]
 scoreboard players operation @s charge += @e[limit=1,type=minecraft:item_frame,distance=..1.5,nbt={Item:{tag:{LodestoneTracked:1b}}}] atrium_y_coordinate
+# tellraw crux_f [{"text":"cost after y = ","italic":true,"color":"gray"},{"score":{"name":"@s","objective":"charge"},"color":"yellow"}]
 #
-# Tag the closest player within 6 blocks who isn't dead.
-execute at @s as @p[distance=..6,gamemode=!spectator] run tag @s add atrium_gate_user
+# Tag the closest player within 20 blocks who isn't dead.
+execute at @s as @p[distance=..20,gamemode=!spectator] run tag @s add atrium_gate_user
 #
 # Give them a 'atrium_xp_debt' value equal to the total cost (if the number is negative, convert it to positive)
 execute unless entity @s[scores={charge=0..}] run scoreboard players set @p[tag=atrium_gate_user] atrium_xp_debt -1
-execute unless entity @s[scores={charge=0..}] run scoreboard players operation @p[tag=atrium_gate_user] atrium_xp_debt *= @s atrium_xp_debt
+execute unless entity @s[scores={charge=0..}] run scoreboard players operation @p[tag=atrium_gate_user] atrium_xp_debt *= @s charge
 execute if entity @s[scores={charge=0..}] run scoreboard players operation @p[tag=atrium_gate_user] atrium_xp_debt = @s charge
 # Calculate their total xp
 execute as @p[tag=atrium_gate_user] run function atrium:misc/xp_calculators/get_total_xp
