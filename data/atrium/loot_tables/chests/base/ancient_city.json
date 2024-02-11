@@ -2,7 +2,7 @@
   "type": "minecraft:chest",
   "pools": [
     {
-      "bonus_rolls": 1.0,
+      "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:item",
@@ -160,20 +160,6 @@
           ],
           "name": "minecraft:book",
           "weight": 3
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "enchantments": [
-                "minecraft:mending"
-              ],
-              "function": "minecraft:enchant_randomly"
-            }
-          ],
-          "name": "minecraft:book",
-          "weight": 1,
-          "quality": 1
         },
         {
           "type": "minecraft:item",
@@ -421,11 +407,24 @@
       }
     },
     {
-      "bonus_rolls": 1.0,
+      "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:empty",
-          "weight": 75
+          "weight": 71
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "enchantments": [
+                "minecraft:mending"
+              ],
+              "function": "minecraft:enchant_randomly"
+            }
+          ],
+          "name": "minecraft:book",
+          "weight": 4
         },
         {
           "type": "minecraft:item",
