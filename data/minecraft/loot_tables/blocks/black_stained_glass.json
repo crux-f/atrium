@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:green_stained_glass"
+          "name": "minecraft:black_stained_glass"
         }
       ],
       "conditions": [
@@ -28,7 +28,7 @@
           "term": {
             "condition": "minecraft:location_check",
             "predicate": {
-              "structure": "atrium:natural/meridian_geode"
+              "structure": "atrium:natural/abyssal_tendril"
             }
           }
         }
@@ -49,27 +49,22 @@
             {
               "condition": "minecraft:location_check",
               "predicate": {
-                "structure": "atrium:natural/meridian_geode"
+                "structure": "atrium:natural/abyssal_tendril"
               }
             }
           ],
           "weight": 1,
-          "name": "minecraft:green_stained_glass",
+          "name": "minecraft:black_stained_glass",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
               "function": "set_nbt",
-              "tag": "{atrium_crystal:1,atrium_subdued_crystal:1b}"
+              "tag": "{HideFlags:1,atrium_crystal:1,atrium_deep_crystal:1b,Enchantments:[{id:\"minecraft:power\",lvl:1s}]}"
             },
             {
               "function": "set_name",
               "name": [
                 {
-                  "text": "Subdued Crystal",
-                  "color": "dark_green",
+                  "text": "Deep Crystal",
                   "italic": false
                 }
               ]
@@ -78,13 +73,13 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "text": "This crystal glimmers with"
+                  "text": "It sits, utterly silent"
                 },
                 {
-                  "text": "discomfort in the sunlight,"
+                  "text": "and still. No light is"
                 },
                 {
-                  "text": "wishing to return to its dreams."
+                  "text": "enough to see inside."
                 }
               ]
             }

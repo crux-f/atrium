@@ -8,10 +8,14 @@
   "structures": [
     {
       "structure": "atrium:abyss_sparse_ruin_cold",
-      "weight": 1
+      "weight": 2
     },
     {
       "structure": "atrium:abyss_sparse_ruin_warm",
+      "weight": 2
+    },
+    {
+      "structure": "atrium:natural/abyssal_tendril",
       "weight": 1
     }
   ]

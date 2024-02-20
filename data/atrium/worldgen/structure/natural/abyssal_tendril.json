@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": [
+    "atrium:the_unfathoms",
+    "atrium:dead_zone",
+    "atrium:kelp_forest"
+  ],
+  "step": "underground_decoration",
+  "spawn_overrides": {},
+  "terrain_adaptation": "none",
+  "start_pool": "atrium:natural/abyssal_tendrils",
+  "size": 1,
+  "start_height": {
+    "type": "minecraft:uniform",
+    "min_inclusive": {
+      "absolute": -63
+    },
+    "max_inclusive": {
+      "absolute": 20
+    }
+  },
+  "max_distance_from_center": 40,
+  "use_expansion_hack": false
+}
