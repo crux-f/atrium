@@ -58,6 +58,13 @@ execute as @p[tag=atrium_gate_user] if score @s xp_calc_storage < @s atrium_xp_d
 execute as @p[tag=atrium_gate_user] if score @s xp_calc_storage < @s atrium_xp_debt run scoreboard players set @s atrium_xp_debt 0
 execute as @p[tag=atrium_gate_user] if score @s xp_calc_storage < @s atrium_xp_debt run scoreboard players set @s xp_calc_storage 0
 execute as @p[tag=atrium_gate_user] if score @s xp_calc_storage >= @s atrium_xp_debt run function atrium:formula_crafting/infusion/additions/warp_gate/xp_take_repeat
+#
+# Directional Insanity Advancement - - -
+# If the target is a Waystone and the cost is 120 or more, grant the advancement.
+execute at @s if score @p[tag=atrium_gate_user] atrium_xp_debt matches 120.. if score @p[tag=atrium_gate_user] xp_calc_storage >= @p[tag=atrium_gate_user] atrium_xp_debt positioned ~-5 ~2 ~ if score @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{tag:{LodestoneTracked:1b}}},limit=1,sort=nearest] atrium_xp_multiplier matches 1 positioned ~ ~ ~ run advancement grant @p[tag=atrium_gate_user] only atrium:magic/directional_insanity
+# If the target is not a Waystone and the cost is 600 or more, grant the advancement.
+execute at @s if score @p[tag=atrium_gate_user] atrium_xp_debt matches 600.. if score @p[tag=atrium_gate_user] xp_calc_storage >= @p[tag=atrium_gate_user] atrium_xp_debt positioned ~-5 ~2 ~ if score @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{tag:{LodestoneTracked:1b}}},limit=1,sort=nearest] atrium_xp_multiplier matches 5 positioned ~ ~ ~ run advancement grant @p[tag=atrium_gate_user] only atrium:magic/directional_insanity
+#
 # Clear the scores again
 # scoreboard players set @s atrium_x_coordinate 0
 # scoreboard players set @s atrium_y_coordinate 0

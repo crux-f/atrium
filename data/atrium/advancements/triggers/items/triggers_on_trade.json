@@ -1,0 +1,86 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:villager_trade",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:any_of",
+              "terms": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "head": {
+                        "nbt": "{atrium_triggers_on_trade:1b}"
+                      }
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "chest": {
+                        "nbt": "{atrium_triggers_on_trade:1b}"
+                      }
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "legs": {
+                        "nbt": "{atrium_triggers_on_trade:1b}"
+                      }
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "feet": {
+                        "nbt": "{atrium_triggers_on_trade:1b}"
+                      }
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "offhand": {
+                        "nbt": "{atrium_triggers_on_trade:1b}"
+                      }
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "mainhand": {
+                        "nbt": "{atrium_triggers_on_trade:1b}"
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+        "function": "atrium:triggers/items/triggers_on_trade"
+      }
+  }
+  

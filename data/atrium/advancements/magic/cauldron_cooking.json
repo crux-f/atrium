@@ -1,0 +1,38 @@
+{
+    "__comment": "Acquired by crafting an item using the Cooking Station",
+    "display": {
+        "title": {
+            "text": "Cauldron Cooking"
+        },
+        "description": [
+            {
+                "text": "Cook something with a Cooking Station"
+            },
+            {
+              "color": "gray",
+              "text": "\n \nReward:"
+            },
+            {
+              "color": "yellow",
+              "text": "\n25 XP"
+            }
+          ],
+        "icon": {
+            "item": "minecraft:beetroot_soup",
+            "nbt": "{CustomModelData:333168}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "use_cooking_station": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 25
+      },
+    "parent": "atrium:magic/arcane_brewery"
+}

@@ -111,3 +111,80 @@ execute positioned ~ ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=
 execute positioned ~ ~ ~-2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:fern",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
 execute positioned ~ ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:fern",Count:1b}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/potion_of_luck
 #
+# Food
+#
+# Start Butter - Check NORTH for Stick
+execute positioned ~ ~ ~-2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:stick",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:stick",Count:1b}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/butter
+# Start Pasta - Check NORTH for Egg
+execute positioned ~ ~ ~-2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:egg",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:egg",Count:1b}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/pasta
+# Start Wheat Beer - Check NORTH for Glow Berries
+execute positioned ~ ~ ~-2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:glow_berries",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:glow_berries",Count:1b}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/wheat_beer
+# Start Birch Beer - Check NORTH for Birch Wood
+execute positioned ~ ~ ~-2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:birch_wood",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:birch_wood",Count:1b}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/birch_beer
+# Start Root Beer - Check NORTH for Hanging Roots
+execute positioned ~ ~ ~-2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:hanging_roots",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:hanging_roots",Count:1b}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/root_beer
+# Start Sweet Berry Wine - Check NORTH for Sweet Berries
+execute positioned ~ ~ ~-2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:sweet_berries",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:sweet_berries",Count:1b}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/sweet_berry_wine
+# Start Fruit Salad - Check NORTH for Sugar
+execute positioned ~ ~ ~-2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:sugar",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:sugar",Count:1b}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/fruit_salad
+# Start Yellow Cheese - Check NORTH for Yellow Wool
+execute positioned ~ ~ ~-2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:yellow_wool",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:yellow_wool",Count:1b}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/yellow_cheese
+# Start Blue Cheese - Check NORTH for Blue Wool
+execute positioned ~ ~ ~-2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:blue_wool",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:blue_wool",Count:1b}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/blue_cheese
+# Start Red Cheese - Check NORTH for Red Wool
+execute positioned ~ ~ ~-2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:red_wool",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:red_wool",Count:1b}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/red_cheese
+# Start Mayo Bottle - Check NORTH for Milk Bucket
+execute positioned ~ ~ ~-2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:milk_bucket",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:milk_bucket",Count:1b}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/mayo_bottle
+# Start Shipwreck Sub - Check EAST for Dried Kelp
+execute positioned ~2 ~ ~ at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:dried_kelp",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~2 ~ ~ if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:dried_kelp",Count:1b}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/shipwreck_sub
+# Start Dark Sauce - Check WEST for Ink Sac
+execute positioned ~-2 ~ ~ at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:ink_sac",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~-2 ~ ~ if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:ink_sac",Count:1b}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/dark_sauce
+# Start Light Sauce - Check NORTH for Glowstone Dust
+execute positioned ~ ~ ~-2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:glowstone_dust",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:glowstone_dust",Count:1b}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/light_sauce
+# Start Burger - Check EAST for Yellow Cheese
+execute positioned ~2 ~ ~ at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{tag:{atrium_yellow_cheese:1b}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~2 ~ ~ if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{tag:{atrium_yellow_cheese:1b}}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/burger
+# Start Crimson Burger - Check EAST for Red Cheese
+execute positioned ~2 ~ ~ at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{tag:{atrium_red_cheese:1b}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~2 ~ ~ if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{tag:{atrium_red_cheese:1b}}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/crimson_burger
+# Start Warped Burger - Check EAST for Blue Cheese
+execute positioned ~2 ~ ~ at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{tag:{atrium_blue_cheese:1b}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~2 ~ ~ if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{tag:{atrium_blue_cheese:1b}}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/warped_burger
+# Start Mashed Potatoes - Check NORTH for Potato
+execute positioned ~ ~ ~-2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:potato",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:potato",Count:1b}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/mashed_potatoes
+# Start Cactus Juice - Check WEST for Sugar
+execute positioned ~-2 ~ ~ at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:sugar",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~-2 ~ ~ if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:sugar",Count:1b}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/cactus_juice
+# Start Taffy - Check NORTH for Honey Bottle
+execute positioned ~ ~ ~-2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:honey_bottle",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:honey_bottle",Count:1b}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/taffy
+# Start Crescent Cookie - Check NORTH for Cookie
+execute positioned ~ ~ ~-2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:cookie",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:cookie",Count:1b}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/crescent_cookie
+# Start Chow - Check NORTH for Raw Mutton
+execute positioned ~ ~ ~-2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:mutton",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:mutton",Count:1b}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/chow
+# Start Drumstick - Check NORTH for Raw Chicken
+execute positioned ~ ~ ~-2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:chicken",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:chicken",Count:1b}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/drumstick
+#
+# Upgrades
+#
+# Start Cooking Station - Check NORTH for Crafting Table
+execute positioned ~ ~ ~-2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:crafting_table",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:crafting_table",Count:1b}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/cooking_station_upgrade

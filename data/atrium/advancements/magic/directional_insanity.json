@@ -1,0 +1,37 @@
+{
+    "__comment": "Acquired by activating a Warp Gate traveling at least 12,000 blocks away",
+    "display": {
+        "title": {
+            "text": "Directional Insanity"
+        },
+        "description": [
+            {
+                "text": "Use a Warp Gate to travel at least 12km"
+            },
+            {
+              "color": "gray",
+              "text": "\n \nReward:"
+            },
+            {
+              "color": "yellow",
+              "text": "\n500 XP"
+            }
+          ],
+        "icon": {
+            "item": "minecraft:compass"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "portal_12000_blocks": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 500
+      },
+    "parent": "atrium:magic/now_youre_thinking_with_portals"
+}

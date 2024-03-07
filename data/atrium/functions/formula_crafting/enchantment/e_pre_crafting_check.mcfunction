@@ -52,3 +52,6 @@ execute unless entity @p[gamemode=!spectator,distance=..6,nbt={SelectedItem:{tag
 # If the player is holding a Rod of Relocation, run the pack it up script instead.
 execute if entity @p[gamemode=!spectator,distance=..6,nbt={SelectedItem:{tag:{atrium_rod_of_relocation:1b}}},level=5..] if entity @s[scores={valid_ingredients=9..}] unless data entity @s data.occult_altar_installed run function atrium:items/use/placeable_structures/runic_codex/pack_runic_codex
 #
+#
+# Reset Score
+scoreboard players reset @s valid_ingredients

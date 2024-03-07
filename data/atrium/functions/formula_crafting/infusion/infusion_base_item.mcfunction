@@ -116,15 +116,6 @@ execute positioned ~ ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=
 execute positioned ~ ~ ~-2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{tag:{atrium_corrupted_wings:1b}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
 execute positioned ~ ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{tag:{atrium_corrupted_wings:1b}}}] at @s run function atrium:formula_crafting/infusion/i_recipes/dreamers_wings
 #
-# Upgrades
-#
-# Start Warp Gate - Check NORTH for Lodestone
-execute positioned ~ ~ ~-4 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:lodestone",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
-execute positioned ~ ~ ~-4 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:lodestone",Count:1b}}] at @s run function atrium:formula_crafting/infusion/i_recipes/warp_gate_upgrade
-# Activate Warp Gate - Check WARP GATE for Lodestone Compass
-execute positioned ~-5 ~2 ~ at @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{tag:{LodestoneTracked:1b}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
-execute positioned ~-5 ~2 ~ if entity @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{tag:{LodestoneTracked:1b}}}] run execute at @s run function atrium:formula_crafting/infusion/additions/warp_gate/dimension_check
-#
 # Other
 #
 # Start Wolf Enchantment [Hunting] - Check CENTER NORTH for Hunting Trophy (Zombie)
@@ -139,3 +130,13 @@ execute positioned ~ ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=
 # Start Centurion Golem - Check NORTH for Jack o' Lantern
 execute positioned ~ ~ ~-4 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:jack_o_lantern",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
 execute positioned ~ ~ ~-4 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:jack_o_lantern",Count:1b}}] at @s run function atrium:formula_crafting/infusion/i_recipes/centurion_golem
+#
+# Upgrades
+#
+# Start Warp Gate - Check NORTH for Lodestone
+execute positioned ~ ~ ~-4 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:lodestone",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~-4 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:lodestone",Count:1b}}] at @s run function atrium:formula_crafting/infusion/i_recipes/warp_gate_upgrade
+# Activate Warp Gate - Check WARP GATE for Lodestone Compass
+execute positioned ~-5 ~2 ~ at @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{tag:{LodestoneTracked:1b}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~-5 ~2 ~ if entity @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{tag:{LodestoneTracked:1b}}}] run execute at @s run function atrium:formula_crafting/infusion/additions/warp_gate/dimension_check
+#

@@ -6,7 +6,8 @@
           "item": {
             "items": [
               "minecraft:goat_horn"
-            ]
+            ],
+            "nbt": "{atrium_horn_of_valor:1b}"
           }
         }
       }

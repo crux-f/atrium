@@ -17,9 +17,9 @@
         "hidden": true
     },
     "criteria": {
-        "advanced_alchemy": {
+        "mix_potions_together": {
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "atrium:magic/arcane_brewery"
+    "parent": "atrium:magic/secret_ingredient"
 }
