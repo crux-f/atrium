@@ -1,0 +1,11 @@
+{
+    "type": "minecraft:smelting",
+    "group": "greg",
+    "ingredient": {
+      "item": "minecraft:acacia_boat"
+    },
+    "result": "minecraft:acacia_chest_boat",
+    "experience": 25,
+    "cookingtime": 6000
+  }
+  
