@@ -16,7 +16,7 @@ execute positioned ~ ~ ~2 if entity @e[type=minecraft:glow_item_frame,distance=.
 execute positioned ~2 ~ ~-2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:sugar",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
 execute positioned ~2 ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:sugar",Count:1b}}] run scoreboard players add @s valid_ingredients 1
 #
-execute if entity @s[scores={valid_ingredients=4..}] at @s run summon item ~ ~1 ~ {Motion:[0.0,0.02,0.0],NoGravity:1b,Glowing:1b,Item:{id:"minecraft:cookie",Count:2b,tag:{display:{Name:'{"text":"Crescent Cookie","italic":false}'},CustomModelData:333201,atrium_crescent_cookie:1b}}}
+execute if entity @s[scores={valid_ingredients=4..}] at @s run summon item ~ ~1 ~ {Motion:[0.0,0.02,0.0],NoGravity:1b,Glowing:1b,Item:{id:"minecraft:cookie",Count:2b,tag:{display:{Name:'{"text":"Crescent Cookie","italic":false}',Lore:['{"text":" "}','{"text":"When Fed to a Allay:","color":"dark_purple","italic":false}','{"text":"Glowing (5:00)","color":"blue","italic":false}']},CustomModelData:333201,atrium_crescent_cookie:1b}}}
 execute if entity @s[scores={valid_ingredients=4..}] at @s run function atrium:formula_crafting/alchemy/alchemy_reset
 execute if entity @s[scores={valid_ingredients=4..}] at @s run function atrium:formula_crafting/alchemy/station_reset
 # Give items back
