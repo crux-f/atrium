@@ -17,6 +17,10 @@
     {
       "structure": "atrium:natural/abyssal_tendril",
       "weight": 1
+    },
+    {
+      "structure": "atrium:natural/abyss_sparse_mob",
+      "weight": 1
     }
   ]
 }
