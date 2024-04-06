@@ -10,10 +10,10 @@ execute if entity @s[level=100..] run advancement grant @s only atrium:magic/unl
 #
 # ANOMALY: Elemental Soul
 # Each player gains an effect based on their elemental attunement; Slow Falling, Haste, Fire Resistance, or Water Breathing.
-effect give @s[advancements={atrium:air_start=true}] slow_falling 10 0 true
-effect give @s[advancements={atrium:earth_start=true}] haste 10 0 true
-effect give @s[advancements={atrium:fire_start=true}] fire_resistance 10 0 true
-effect give @s[advancements={atrium:water_start=true}] water_breathing 10 0 true
+# effect give @s[advancements={atrium:air_start=true}] slow_falling 10 0 true
+# effect give @s[advancements={atrium:earth_start=true}] haste 10 0 true
+# effect give @s[advancements={atrium:fire_start=true}] fire_resistance 10 0 true
+# effect give @s[advancements={atrium:water_start=true}] water_breathing 10 0 true
 # ANOMALY: On Your Heels
 # Each time a player enters the world for the first time, an hour after they spawn in, someone arrives looking for them.
 # (Comment out when anomaly ends)
