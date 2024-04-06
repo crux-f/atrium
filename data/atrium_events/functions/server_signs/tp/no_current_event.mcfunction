@@ -1,0 +1,3 @@
+# Error for trying to use a sign when there isn't an event happening (or when the user doesn't have the tag for other reasons)
+tellraw @s ["",{"text":"It remains inert.","italic":true,"color":"gray"},{"text":"\n"},{"text":"(There aren't any active server events right now. If you believe this is a mistake, contact a staff member.)","color":"gray"}]
+execute at @s run playsound minecraft:block.redstone_torch.burnout block @s ~ ~ ~ 0.75 1 0.1
