@@ -1,0 +1,56 @@
+{
+    "__comment": "This event is dedicated to repairing the Warped Wind Bastion. 04/06/2024.",
+    "display": {
+        "title": {
+            "text": "Oath of Ash and Exiles"
+        },
+        "description": [
+            {
+                "text": "April 6th, 2024",
+                "color": "green",
+                "italic": true
+            },
+            {
+              "color": "dark_purple",
+              "italic": true,
+              "text": "\nThe Infernium stir from their eternal watch. If we have a chance to win the allegiance of a true Bastion, we must take it."
+            },
+            {
+              "italic": false,
+              "color": "gray",
+              "text": "\n \nRewards:"
+            },
+            {
+              "italic": false,
+              "color": "blue",
+              "text": "\n1 ۞ A Witch's Cookbook"
+            },
+            {
+                "italic": false,
+                "color": "blue",
+                "text": "\n4 Smithing Template [Snout]"
+            },
+            {
+                "italic": false,
+                "color": "blue",
+                "text": "\n128 ❤ Reputation"
+            }
+          ],
+        "icon": {
+            "item": "minecraft:gilded_blackstone"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "oath_of_ash_and_exiles": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "atrium_events:rewards/events/iteration_5/oath_of_ash_and_exiles"
+	},
+        "parent": "atrium_events:iteration5_events/travelers_day_2024"
+}

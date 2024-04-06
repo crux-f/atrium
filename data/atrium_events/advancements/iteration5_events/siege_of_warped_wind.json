@@ -1,0 +1,41 @@
+{
+    "__comment": "This event is dedicated to defending the Warped Wind Bastion. 04/20/2024.",
+    "display": {
+        "title": {
+            "text": "Siege of Warped Wind"
+        },
+        "description": [
+            {
+                "text": "April 20th, 2024",
+                "color": "green",
+                "italic": true
+            },
+            {
+              "italic": false,
+              "color": "gray",
+              "text": "\n \nRewards:"
+            },
+            {
+                "italic": false,
+                "color": "blue",
+                "text": "\n???"
+            }
+          ],
+        "icon": {
+            "item": "minecraft:warped_wart_block"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "siege_of_warped_wind": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "atrium_events:rewards/events/iteration_5/siege_of_warped_wind"
+	},
+        "parent": "atrium_events:iteration5_events/oath_of_ash_and_exiles"
+}
