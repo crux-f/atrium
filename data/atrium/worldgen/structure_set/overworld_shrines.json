@@ -37,6 +37,10 @@
       "weight": 10
     },
     {
+      "structure": "atrium:shrines/nameless/deep_dark_shrine",
+      "weight": 10
+    },
+    {
       "structure": "atrium:shrines/nox/challenge_shrine",
       "weight": 10
     },
