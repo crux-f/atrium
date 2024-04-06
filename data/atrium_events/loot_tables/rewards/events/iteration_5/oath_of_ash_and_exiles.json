@@ -1,0 +1,39 @@
+{
+    "type": "chest",
+    "pools": [
+      {
+        "rolls": 1,
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:written_book",
+            "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{pages:['{\"text\":\"Looking to get started in cauldron cooking?\\\\n\\\\nLook no further! Your new Alchemy Cauldron will make your culinary endeavors even more achievable!\"}','[\"\",{\"text\":\"Cooking Station\\\\n\"},{\"text\":\"Alchemy Formula\",\"underlined\":true,\"color\":\"gray\"},{\"text\":\"\\\\n[Upgrade]\",\"color\":\"gray\"},{\"text\":\"\\\\n\\\\n            \",\"color\":\"reset\"},{\"text\":\"#\",\"color\":\"#7D520B\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Crafting Table\"}},{\"text\":\"\\\\n          \",\"color\":\"reset\"},{\"text\":\"\\\\\\\\\",\"color\":\"gray\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Iron Ingot\"}},{\"text\":\"   \",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"#BB7000\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Oak Stairs\"}},{\"text\":\"\\\\n            \",\"color\":\"reset\"},{\"text\":\"-\",\"color\":\"gold\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Item Frame\"}}]','[\"\",{\"text\":\"Butter\\\\n\"},{\"text\":\"Alchemy Formula\",\"underlined\":true,\"color\":\"gray\"},{\"text\":\"\\\\n\\\\n            \",\"color\":\"reset\"},{\"text\":\"|\",\"color\":\"#7D520B\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Stick\"}},{\"text\":\" \",\"color\":\"reset\"},{\"text\":\"@\",\"color\":\"gray\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Milk Bucket\"}},{\"text\":\"\\\\n          x \",\"color\":\"reset\"},{\"text\":\"!\",\"color\":\"red\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"[Requires Cooking Station]\"}},{\"text\":\" \",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"#D8BAD8\",\"clickEvent\":{\"action\":\"change_page\",\"value\":7},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Sea Salt (click to see item entry on pg. 7)\"}},{\"text\":\"\\\\n            \",\"color\":\"reset\"},{\"text\":\"v\",\"color\":\"dark_gray\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Bowl\"}}]','[\"\",{\"text\":\"Mayo Bottle\\\\n\"},{\"text\":\"Alchemy Formula\",\"underlined\":true,\"color\":\"gray\"},{\"text\":\"\\\\n\\\\n            \",\"color\":\"reset\"},{\"text\":\"+\",\"color\":\"aqua\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Sugar\"}},{\"text\":\" \",\"color\":\"reset\"},{\"text\":\"@\",\"color\":\"gray\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Milk Bucket\"}},{\"text\":\"\\\\n          \",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"#D7CA7A\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Egg\"}},{\"text\":\" \",\"color\":\"reset\"},{\"text\":\"!\",\"color\":\"red\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"[Requires Cooking Station]\"}},{\"text\":\" \",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"#D7CA7A\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Egg\"}},{\"text\":\"\\\\n            \",\"color\":\"reset\"},{\"text\":\"v\",\"color\":\"dark_gray\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Glass Bottle\"}}]','[\"\",{\"text\":\"Mashed Potatoes\\\\n\"},{\"text\":\"Alchemy Formula\",\"underlined\":true,\"color\":\"gray\"},{\"text\":\"\\\\n\\\\n            \",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"dark_green\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Potato\"}},{\"text\":\" \",\"color\":\"reset\"},{\"text\":\"%\",\"color\":\"#B8B828\",\"clickEvent\":{\"action\":\"change_page\",\"value\":3},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Butter (click to see formula on pg. 3)\"}},{\"text\":\"\\\\n          \",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"dark_green\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Potato\"}},{\"text\":\" \",\"color\":\"reset\"},{\"text\":\"!\",\"color\":\"red\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"[Requires Cooking Station]\"}},{\"text\":\" \",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"dark_green\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Potato\"}},{\"text\":\"\\\\n            \",\"color\":\"reset\"},{\"text\":\"v\",\"color\":\"dark_gray\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Bowl\"}}]','[\"\",{\"text\":\"Pasta\\\\n\"},{\"text\":\"Alchemy Formula\",\"underlined\":true,\"color\":\"gray\"},{\"text\":\"\\\\n\\\\n            \",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"#D7CA7A\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Egg\"}},{\"text\":\" \",\"color\":\"reset\"},{\"text\":\"%\",\"color\":\"#B8B828\",\"clickEvent\":{\"action\":\"change_page\",\"value\":3},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Butter (click to see formula on pg. 3)\"}},{\"text\":\"\\\\n          \",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"gold\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Wheat\"}},{\"text\":\" \",\"color\":\"reset\"},{\"text\":\"!\",\"color\":\"red\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"[Requires Cooking Station]\"}},{\"text\":\" \",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"gold\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Wheat\"}},{\"text\":\"\\\\n            \",\"color\":\"reset\"},{\"text\":\"v\",\"color\":\"dark_gray\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Bowl\"}}]','[\"\",{\"text\":\"Sea Salt\\\\n\"},{\"text\":\"[Item Entry]\",\"color\":\"gray\"},{\"text\":\"\\\\nSea Salt is one of the non-fish items you can acquire while Fishing.\",\"color\":\"reset\"}]'],title:\"۞ A Witch's Cookbook\",author:\"???\",generation:1,CustomModelData:333001,HideFlags:32,display:{Lore:['{\"italic\":false,\"underlined\":true,\"color\":\"gray\",\"text\":\"Alchemy Cauldron Formulas:\"}','{\"italic\":false,\"color\":\"gray\",\"text\":\"Cooking Station [Upgrade]\"}','{\"italic\":false,\"color\":\"gray\",\"text\":\"Butter\"}','{\"italic\":false,\"color\":\"gray\",\"text\":\"Mayo Bottle\"}','{\"italic\":false,\"color\":\"gray\",\"text\":\"Mashed Potatoes\"}','{\"italic\":false,\"color\":\"gray\",\"text\":\"Pasta\"}'],Name:'{\"italic\":false,\"text\":\"۞ A Witch\\'s Cookbook\"}'}}"
+                }
+              ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "bonus_rolls": 0,
+        "entries": [
+            {
+                "type": "item",
+                "weight": 1,
+                "name": "minecraft:snout_armor_trim_smithing_template",
+                "functions": [
+                    {
+                        "function": "set_count",
+                        "count": 4
+                    }
+                ]
+            }
+        ]
+      }
+    ]
+}
