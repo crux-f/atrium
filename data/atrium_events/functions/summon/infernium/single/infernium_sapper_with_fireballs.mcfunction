@@ -1,0 +1,4 @@
+# Summon 1 Infernium Sapper with 2 Fireballs
+summon skeleton ~ ~ ~ {Team:"infernium",PersistenceRequired:1b,Health:15f,Tags:["atrium_infernium_sapper"],Passengers:[{id:"minecraft:fireball",ExplosionPower:6b,power:[0.0,-3.0,0.0],Passengers:[{id:"minecraft:fireball",ExplosionPower:3b,power:[0.0,-3.0,0.0]}]}],CustomName:'{"text":"Infernium Sapper","color":"red"}',HandItems:[{id:"minecraft:iron_pickaxe",Count:1b},{}],HandDropChances:[0.070F,0.085F],ArmorItems:[{id:"minecraft:iron_boots",Count:1b},{id:"minecraft:chainmail_leggings",Count:1b},{id:"minecraft:chainmail_chestplate",Count:1b},{id:"minecraft:chainmail_helmet",Count:1b}],ArmorDropChances:[0.050F,0.050F,0.050F,0.050F],Attributes:[{Name:"generic.max_health",Base:15},{Name:"generic.follow_range",Base:40}]}
+# Start behavior script
+function atrium_events:summon/infernium/behavior_scripts/sapper_mine_blocks

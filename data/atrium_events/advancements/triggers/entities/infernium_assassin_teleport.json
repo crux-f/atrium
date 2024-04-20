@@ -1,0 +1,32 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:entity_hurt_player",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.30
+            }
+          ],
+          "damage": {
+            "type": {
+              "tags": [
+                {
+                  "id": "minecraft:is_projectile",
+                  "expected": true
+                }
+              ],
+              "source_entity": {
+                "nbt": "{Tags:[\"atrium_infernium_assassin\",\"atrium_teleport_ready\"]}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "atrium_events:triggers/entities/infernium_assassin_teleport"
+    }
+  }
+  

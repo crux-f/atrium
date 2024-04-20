@@ -1,0 +1,2 @@
+# Summon 1 Infernium Footsoldier
+summon wither_skeleton ~ ~ ~ {Team:"infernium",PersistenceRequired:1b,Health:30f,Tags:["atrium_infernium_footsoldier"],CustomName:'{"text":"Infernium Footsoldier","color":"yellow"}',HandItems:[{id:"minecraft:stone_sword",Count:1b,tag:{display:{Name:'{"text":"Shale Blade"}',Lore:['{"text":"The war has gone on"}','{"text":"for so long, they\'ve run"}','{"text":"out of proper weapons."}']},atrium_shale_blade:1b}},{}],HandDropChances:[0.075F,0.000F],ArmorDropChances:[0.055F,0.055F,0.055F,0.055F],Attributes:[{Name:"generic.max_health",Base:30}]}
