@@ -19,7 +19,7 @@
             }
           ],
         "icon": {
-            "item": "minecraft:oak_sign"
+            "id": "minecraft:oak_sign"
         },
         "frame": "goal",
         "show_toast": true,

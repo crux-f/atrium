@@ -34,7 +34,7 @@
     "frame": "task",
     "hidden": false,
     "icon": {
-      "item": "minecraft:tropical_fish_bucket"
+      "id": "minecraft:tropical_fish_bucket"
     },
     "show_toast": true,
     "title": {

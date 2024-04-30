@@ -18,7 +18,7 @@
             }
           ],
         "icon": {
-            "item": "minecraft:purple_concrete"
+            "id": "minecraft:purple_concrete"
         },
         "frame": "task",
         "show_toast": true,

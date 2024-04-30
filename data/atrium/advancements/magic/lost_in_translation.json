@@ -18,8 +18,10 @@
             }
           ],
         "icon": {
-            "item": "minecraft:flint",
-            "nbt": "{CustomModelData:333116}"
+          "id": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_model_data": 333116
+          }
         },
         "frame": "task",
         "show_toast": true,

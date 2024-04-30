@@ -44,7 +44,7 @@
     "frame": "task",
     "hidden": false,
     "icon": {
-      "item": "minecraft:emerald"
+      "id": "minecraft:emerald"
     },
     "show_toast": true,
     "title": {

@@ -36,7 +36,7 @@
     "frame": "task",
     "hidden": false,
     "icon": {
-      "item": "minecraft:polished_blackstone_bricks"
+      "id": "minecraft:polished_blackstone_bricks"
     },
     "show_toast": true,
     "title": {

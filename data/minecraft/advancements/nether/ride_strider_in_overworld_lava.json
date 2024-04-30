@@ -44,8 +44,7 @@
     "frame": "task",
     "hidden": false,
     "icon": {
-      "item": "minecraft:warped_fungus_on_a_stick",
-      "nbt": "{Damage:0}"
+      "id": "minecraft:warped_fungus_on_a_stick"
     },
     "show_toast": true,
     "title": {

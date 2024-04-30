@@ -9,7 +9,7 @@
             "text": "Participate in at least 1 Journey to The Far Lands event"
         },
         "icon": {
-            "item": "minecraft:dirt_path"
+            "id": "minecraft:dirt_path"
         },
         "frame": "task",
         "show_toast": true,

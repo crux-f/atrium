@@ -32,7 +32,7 @@
     "frame": "task",
     "hidden": false,
     "icon": {
-      "item": "minecraft:crying_obsidian"
+      "id": "minecraft:crying_obsidian"
     },
     "show_toast": true,
     "title": {

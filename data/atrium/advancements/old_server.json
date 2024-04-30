@@ -9,7 +9,7 @@
             "text": "Remember Exorsa"
         },
         "icon": {
-            "item": "minecraft:grass_block"
+            "id": "minecraft:grass_block"
         },
         "frame": "task",
         "show_toast": true,

@@ -496,7 +496,7 @@
     "frame": "task",
     "hidden": false,
     "icon": {
-      "item": "minecraft:iron_sword",
+      "id": "minecraft:iron_sword",
       "nbt": "{Damage:0}"
     },
     "show_toast": true,

@@ -18,8 +18,11 @@
         }
       ],
       "icon": {
-          "item": "minecraft:elytra",
-          "nbt": "{CustomModelData:333142,Enchantments:[{}]}"
+        "id": "minecraft:elytra",
+        "components": {
+          "minecraft:enchantment_glint_override": true,
+          "minecraft:custom_model_data": 333142
+        }
       },
       "frame": "challenge",
       "show_toast": true,

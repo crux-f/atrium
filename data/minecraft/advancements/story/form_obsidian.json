@@ -32,7 +32,7 @@
     "frame": "task",
     "hidden": false,
     "icon": {
-      "item": "minecraft:obsidian"
+      "id": "minecraft:obsidian"
     },
     "show_toast": true,
     "title": {

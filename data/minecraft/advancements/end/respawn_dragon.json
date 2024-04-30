@@ -34,7 +34,7 @@
     "frame": "goal",
     "hidden": false,
     "icon": {
-      "item": "minecraft:end_crystal"
+      "id": "minecraft:end_crystal"
     },
     "show_toast": true,
     "title": {

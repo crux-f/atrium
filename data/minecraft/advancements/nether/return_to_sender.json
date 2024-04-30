@@ -45,7 +45,7 @@
     "frame": "challenge",
     "hidden": false,
     "icon": {
-      "item": "minecraft:fire_charge"
+      "id": "minecraft:fire_charge"
     },
     "show_toast": true,
     "title": {

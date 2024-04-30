@@ -1,8 +1,10 @@
 {
     "display": {
       "icon": {
-        "item": "minecraft:lime_stained_glass",
-        "nbt": "{Enchantments:[{lvl:1s,id:\"minecraft:channeling\"}]}"
+        "id": "minecraft:lime_stained_glass",
+        "components": {
+          "minecraft:enchantment_glint_override": true
+        }
       },
       "title": "Lost Love Story",
       "description": [

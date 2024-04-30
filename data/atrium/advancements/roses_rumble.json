@@ -19,7 +19,7 @@
             }
           ],
         "icon": {
-            "item": "minecraft:polished_blackstone"
+            "id": "minecraft:polished_blackstone"
         },
         "frame": "task",
         "show_toast": true,

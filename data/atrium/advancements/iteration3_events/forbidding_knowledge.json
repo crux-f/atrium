@@ -19,7 +19,7 @@
             }
           ],
         "icon": {
-            "item": "minecraft:written_book"
+            "id": "minecraft:written_book"
         },
         "frame": "goal",
         "show_toast": true,

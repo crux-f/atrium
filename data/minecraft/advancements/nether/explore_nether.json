@@ -100,8 +100,7 @@
     "frame": "challenge",
     "hidden": false,
     "icon": {
-      "item": "minecraft:netherite_boots",
-      "nbt": "{Damage:0}"
+      "id": "minecraft:netherite_boots"
     },
     "show_toast": true,
     "title": {

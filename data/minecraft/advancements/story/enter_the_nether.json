@@ -26,8 +26,7 @@
     "frame": "task",
     "hidden": false,
     "icon": {
-      "item": "minecraft:flint_and_steel",
-      "nbt": "{Damage:0}"
+      "id": "minecraft:flint_and_steel"
     },
     "show_toast": true,
     "title": {

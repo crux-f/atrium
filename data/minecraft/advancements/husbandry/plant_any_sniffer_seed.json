@@ -42,7 +42,7 @@
     "frame": "task",
     "hidden": true,
     "icon": {
-      "item": "minecraft:pitcher_pod"
+      "id": "minecraft:pitcher_pod"
     },
     "show_toast": true,
     "title": {

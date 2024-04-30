@@ -18,8 +18,11 @@
         }
       ],
       "icon": {
-          "item": "minecraft:elytra",
-          "nbt": "{CustomModelData:333142,Damage:432}"
+        "id": "minecraft:elytra",
+        "components": {
+          "minecraft:custom_model_data": 333142,
+          "minecraft:damage": 432
+        }
       },
       "frame": "goal",
       "show_toast": true,

@@ -9,7 +9,7 @@
             "text": "Participate in at least 1 Apotheosis event"
         },
         "icon": {
-            "item": "minecraft:elytra"
+            "id": "minecraft:elytra"
         },
         "frame": "task",
         "show_toast": true,

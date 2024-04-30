@@ -2,8 +2,7 @@
   "parent": "minecraft:end/find_end_city",
   "display": {
     "icon": {
-      "item": "minecraft:elytra",
-      "nbt": "{Damage:0}"
+      "id": "minecraft:elytra"
     },
     "title": {
       "translate": "advancements.end.elytra.title"

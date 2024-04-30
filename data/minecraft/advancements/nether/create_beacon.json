@@ -28,7 +28,7 @@
     "frame": "task",
     "hidden": false,
     "icon": {
-      "item": "minecraft:beacon"
+      "id": "minecraft:beacon"
     },
     "show_toast": true,
     "title": {

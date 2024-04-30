@@ -17,7 +17,7 @@
           }
         ],
         "icon": {
-            "item": "minecraft:golden_boots"
+            "id": "minecraft:golden_boots"
         },
         "frame": "challenge",
         "show_toast": true,

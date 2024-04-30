@@ -8,7 +8,7 @@
             "text": "Choose to hold on to the past"
         },
         "icon": {
-            "item": "minecraft:barrier"
+            "id": "minecraft:barrier"
         },
         "frame": "task",
         "show_toast": true,

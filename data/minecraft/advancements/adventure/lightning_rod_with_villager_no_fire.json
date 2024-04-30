@@ -51,7 +51,7 @@
     "frame": "task",
     "hidden": false,
     "icon": {
-      "item": "minecraft:lightning_rod"
+      "id": "minecraft:lightning_rod"
     },
     "show_toast": true,
     "title": {

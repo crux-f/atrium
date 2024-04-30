@@ -32,7 +32,7 @@
     "frame": "task",
     "hidden": false,
     "icon": {
-      "item": "minecraft:lava_bucket"
+      "id": "minecraft:lava_bucket"
     },
     "show_toast": true,
     "title": {

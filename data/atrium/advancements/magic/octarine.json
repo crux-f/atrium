@@ -18,8 +18,10 @@
             }
           ],
         "icon": {
-            "item": "minecraft:written_book",
-            "nbt": "{CustomModelData:333150}"
+          "id": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_model_data": 333150
+          }
         },
         "frame": "challenge",
         "show_toast": true,

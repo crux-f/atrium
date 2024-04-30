@@ -18,8 +18,10 @@
             }
           ],
         "icon": {
-            "item": "minecraft:beetroot_soup",
-            "nbt": "{CustomModelData:333168}"
+          "id": "minecraft:beetroot_soup",
+          "components": {
+            "minecraft:custom_model_data": 333168
+          }
         },
         "frame": "task",
         "show_toast": true,

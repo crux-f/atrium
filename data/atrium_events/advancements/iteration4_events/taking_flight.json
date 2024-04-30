@@ -19,7 +19,7 @@
             }
           ],
         "icon": {
-            "item": "minecraft:soul_lantern"
+            "id": "minecraft:soul_lantern"
         },
         "frame": "task",
         "show_toast": true,

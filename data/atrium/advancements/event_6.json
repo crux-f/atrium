@@ -19,7 +19,7 @@
             }
           ],
         "icon": {
-            "item": "minecraft:sand"
+            "id": "minecraft:sand"
         },
         "frame": "task",
         "show_toast": true,

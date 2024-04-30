@@ -37,7 +37,7 @@
     "frame": "task",
     "hidden": false,
     "icon": {
-      "item": "minecraft:ender_pearl"
+      "id": "minecraft:ender_pearl"
     },
     "show_toast": true,
     "title": {

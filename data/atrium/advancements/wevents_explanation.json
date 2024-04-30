@@ -8,7 +8,7 @@
             "text": "A series of several Story Events"
         },
         "icon": {
-            "item": "minecraft:dark_oak_sapling"
+            "id": "minecraft:dark_oak_sapling"
         },
         "frame": "task",
         "show_toast": false,

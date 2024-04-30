@@ -24,7 +24,7 @@
     "frame": "task",
     "hidden": false,
     "icon": {
-      "item": "minecraft:enchanted_book"
+      "id": "minecraft:enchanted_book"
     },
     "show_toast": true,
     "title": {

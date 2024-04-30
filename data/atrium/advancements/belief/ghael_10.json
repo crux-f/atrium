@@ -18,7 +18,7 @@
             }
           ],
         "icon": {
-            "item": "minecraft:orange_concrete"
+            "id": "minecraft:orange_concrete"
         },
         "frame": "task",
         "show_toast": true,

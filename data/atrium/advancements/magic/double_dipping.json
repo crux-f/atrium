@@ -9,7 +9,7 @@
             "text": "Mix two potions together"
         },
         "icon": {
-            "item": "minecraft:potion"
+            "id": "minecraft:potion"
         },
         "frame": "goal",
         "show_toast": true,

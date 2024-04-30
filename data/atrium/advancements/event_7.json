@@ -19,7 +19,7 @@
             }
           ],
         "icon": {
-            "item": "minecraft:acacia_boat"
+            "id": "minecraft:acacia_boat"
         },
         "frame": "task",
         "show_toast": true,

@@ -19,7 +19,7 @@
             }
           ],
         "icon": {
-            "item": "minecraft:wooden_sword"
+            "id": "minecraft:wooden_sword"
         },
         "frame": "task",
         "show_toast": true,

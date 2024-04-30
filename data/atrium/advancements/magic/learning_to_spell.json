@@ -18,8 +18,10 @@
             }
           ],
         "icon": {
-            "item": "minecraft:firework_star",
-            "nbt": "{CustomModelData:333026}"
+          "id": "minecraft:firework_star",
+          "components": {
+            "minecraft:custom_model_data": 333026
+          }
         },
         "frame": "goal",
         "show_toast": true,

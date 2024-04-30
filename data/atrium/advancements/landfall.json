@@ -9,7 +9,7 @@
             "text": "Participate in at least 1 Landfall event"
         },
         "icon": {
-            "item": "minecraft:iron_sword"
+            "id": "minecraft:iron_sword"
         },
         "frame": "task",
         "show_toast": true,

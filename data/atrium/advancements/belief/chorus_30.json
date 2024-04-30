@@ -22,10 +22,25 @@
                 "text": "\n50 XP"
             }
           ],
-        "icon": {
-            "item": "minecraft:player_head",
-            "nbt": "{display:{Name:'{\"text\":\"Holy Symbol\",\"italic\":false}',Lore:['{\"text\":\"Chorus, The Argent Moon\",\"color\":\"light_purple\",\"italic\":false}']},chorus_symbol:1b,SkullOwner:{Id:[I;-470691679,1949517324,-2054168775,-2089191452],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjYwYjFjOGQ2Yzc4YjkyNWVmYjVmMGNhZTZjNWM4ZGI4OWMyYjQ4ZTFkZGUwYzMyOWQ2MjY2MDZiNzQ5NmEwYSJ9fX0=\"}]}}}"
-        },
+          "icon": {
+            "id": "minecraft:player_head",
+            "components": {
+              "minecraft:profile": {
+                "id": [
+                  -1289766341,
+                  1755991332,
+                  -1598142157,
+                  1048575101
+                ],
+                "properties": [
+                  {
+                    "name": "textures",
+                    "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzk0MDY2MmFjMTdlOTU2YmFiMWE4YTI2NTFhMTE5NGM3ZmViOGY1ZDQ1Y2ZkZWIzMmY5NGJlMjhmNGRmYjU3MSJ9fX0="
+                  }
+                ]
+              }
+            }
+          },
         "frame": "goal",
         "show_toast": true,
         "announce_to_chat": true,

@@ -17,7 +17,7 @@
           }
         ],
         "icon": {
-            "item": "minecraft:iron_boots"
+            "id": "minecraft:iron_boots"
         },
         "frame": "challenge",
         "show_toast": true,

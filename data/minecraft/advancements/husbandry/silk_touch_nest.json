@@ -37,7 +37,7 @@
     "frame": "task",
     "hidden": false,
     "icon": {
-      "item": "minecraft:bee_nest"
+      "id": "minecraft:bee_nest"
     },
     "show_toast": true,
     "title": {

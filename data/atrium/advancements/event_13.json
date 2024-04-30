@@ -19,7 +19,7 @@
             }
           ],
         "icon": {
-            "item": "minecraft:diamond_sword"
+            "id": "minecraft:diamond_sword"
         },
         "frame": "goal",
         "show_toast": true,

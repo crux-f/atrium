@@ -47,7 +47,7 @@
     "frame": "challenge",
     "hidden": false,
     "icon": {
-      "item": "minecraft:arrow"
+      "id": "minecraft:arrow"
     },
     "show_toast": true,
     "title": {

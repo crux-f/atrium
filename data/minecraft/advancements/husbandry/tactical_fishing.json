@@ -60,7 +60,7 @@
     "frame": "task",
     "hidden": false,
     "icon": {
-      "item": "minecraft:pufferfish_bucket"
+      "id": "minecraft:pufferfish_bucket"
     },
     "show_toast": true,
     "title": {

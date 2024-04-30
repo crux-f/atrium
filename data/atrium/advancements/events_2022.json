@@ -8,7 +8,7 @@
             "text": "All Atrium Events in 2022"
         },
         "icon": {
-            "item": "minecraft:golden_pickaxe"
+            "id": "minecraft:golden_pickaxe"
         },
         "frame": "task",
         "show_toast": false,

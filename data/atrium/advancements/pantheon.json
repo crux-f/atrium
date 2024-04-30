@@ -9,7 +9,7 @@
             "text": "Participate in at least 1 Pantheon event"
         },
         "icon": {
-            "item": "minecraft:nether_star"
+            "id": "minecraft:nether_star"
         },
         "frame": "task",
         "show_toast": true,

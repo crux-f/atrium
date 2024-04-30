@@ -19,7 +19,7 @@
             }
           ],
         "icon": {
-            "item": "minecraft:sea_lantern"
+            "id": "minecraft:sea_lantern"
         },
         "frame": "task",
         "show_toast": true,

@@ -40,7 +40,7 @@
     "frame": "task",
     "hidden": false,
     "icon": {
-      "item": "minecraft:decorated_pot",
+      "id": "minecraft:decorated_pot",
       "nbt": "{BlockEntityTag:{id:\"minecraft:decorated_pot\",sherds:[\"minecraft:brick\",\"minecraft:heart_pottery_sherd\",\"minecraft:brick\",\"minecraft:explorer_pottery_sherd\"]}}"
     },
     "show_toast": true,

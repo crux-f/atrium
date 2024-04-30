@@ -32,7 +32,7 @@
     "frame": "task",
     "hidden": false,
     "icon": {
-      "item": "minecraft:iron_ingot"
+      "id": "minecraft:iron_ingot"
     },
     "show_toast": true,
     "title": {

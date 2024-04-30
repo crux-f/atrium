@@ -13,9 +13,11 @@
             "text": "Time to hit the books"
         },
         "icon": {
-            "item": "minecraft:written_book",
-            "nbt": "{CustomModelData:333000}"
-        },
+            "id": "minecraft:written_book",
+            "components": {
+              "minecraft:custom_model_data": 333000
+            }
+          },
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": false,

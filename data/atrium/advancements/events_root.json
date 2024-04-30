@@ -15,7 +15,7 @@
             "text": "A place to view official Atrium events"
         },
         "icon": {
-            "item": "minecraft:clock"
+            "id": "minecraft:clock"
         },
         "frame": "task",
         "show_toast": false,
