@@ -8,6 +8,8 @@ execute at @s positioned ^ ^ ^1.5 as @e[limit=1,type=minecraft:villager,nbt={Vil
 execute at @s positioned ^ ^ ^1.5 as @e[limit=1,type=minecraft:villager,nbt={VillagerData:{level:5}},sort=nearest,distance=..5] if data entity @s {Offers:{Recipes:[{buy:{tag:{atrium_shipment:1b}}}]}} run playsound minecraft:entity.villager.no player @a[distance=..5] ~ ~ ~ 0.5 1 0.1
 # Tag the villager if the villager is a valid target
 execute at @s positioned ^ ^ ^1.5 as @e[limit=1,type=minecraft:villager,nbt={VillagerData:{level:5}},sort=nearest,distance=..5] unless data entity @s {Offers:{Recipes:[{buy:{tag:{atrium_shipment:1b}}}]}} run tag @s add atrium_signing_agreement
+# PLUGIN FIX: Tag the villager to allow it to be exempt from vanilla trade removal in the CustomVillagerTrades plugin that we use on Atrium.
+execute at @s positioned ^ ^ ^1.5 as @e[limit=1,type=minecraft:villager,nbt={VillagerData:{level:5}},sort=nearest,distance=..5] unless data entity @s {Offers:{Recipes:[{buy:{tag:{atrium_shipment:1b}}}]}} run tag @s add cvt_trade_override
 # Success sound
 execute at @s if entity @e[limit=1,tag=atrium_signing_agreement,sort=nearest,distance=..5] run playsound minecraft:entity.villager.yes player @s ~ ~ ~ 0.5 1 0.1
 # Assign new Shipment trade depending on profession
