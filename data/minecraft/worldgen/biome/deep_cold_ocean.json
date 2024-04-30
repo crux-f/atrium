@@ -6,7 +6,7 @@
       "minecraft:canyon"
     ]
   },
-  "downfall": 0.9,
+  "downfall": 0.5,
   "effects": {
     "fog_color": 12638463,
     "mood_sound": {
@@ -17,14 +17,14 @@
     },
     "music": {
       "sound": {
-        "sound_id": "atrium:music.overworld.jungle"
+        "sound_id": "atrium:music.overworld.deep_cold_ocean"
       },
       "min_delay": 12000,
       "max_delay": 24000,
       "replace_current_music": false
     },
-    "sky_color": 7842047,
-    "water_color": 4159204,
+    "sky_color": 8103167,
+    "water_color": 4020182,
     "water_fog_color": 329011
   },
   "features": [
@@ -62,6 +62,7 @@
       "minecraft:ore_redstone",
       "minecraft:ore_redstone_lower",
       "minecraft:ore_diamond",
+      "minecraft:ore_diamond_medium",
       "minecraft:ore_diamond_large",
       "minecraft:ore_diamond_buried",
       "minecraft:ore_lapis",
@@ -79,22 +80,22 @@
     ],
     [
       "minecraft:glow_lichen",
-      "minecraft:bamboo_light",
-      "minecraft:trees_jungle",
-      "minecraft:flower_warm",
-      "minecraft:patch_grass_jungle",
+      "minecraft:trees_water",
+      "minecraft:flower_default",
+      "minecraft:patch_grass_badlands",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
       "minecraft:patch_sugar_cane",
       "minecraft:patch_pumpkin",
-      "minecraft:vines",
-      "minecraft:patch_melon"
+      "minecraft:seagrass_deep_cold",
+      "minecraft:seagrass_simple",
+      "minecraft:kelp_cold"
     ],
     [
       "minecraft:freeze_top_layer"
     ]
   ],
-  "precipitation": "rain",
+  "has_precipitation": true,
   "spawn_costs": {},
   "spawners": {
     "ambient": [
@@ -106,50 +107,7 @@
       }
     ],
     "axolotls": [],
-    "creature": [
-      {
-        "type": "minecraft:sheep",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 12
-      },
-      {
-        "type": "minecraft:pig",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 10
-      },
-      {
-        "type": "minecraft:chicken",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 10
-      },
-      {
-        "type": "minecraft:cow",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 8
-      },
-      {
-        "type": "minecraft:chicken",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 10
-      },
-      {
-        "type": "minecraft:parrot",
-        "maxCount": 2,
-        "minCount": 1,
-        "weight": 40
-      },
-      {
-        "type": "minecraft:panda",
-        "maxCount": 2,
-        "minCount": 1,
-        "weight": 1
-      }
-    ],
+    "creature": [],
     "misc": [],
     "monster": [
       {
@@ -201,10 +159,10 @@
         "weight": 5
       },
       {
-        "type": "minecraft:ocelot",
-        "maxCount": 3,
+        "type": "minecraft:drowned",
+        "maxCount": 1,
         "minCount": 1,
-        "weight": 2
+        "weight": 5
       }
     ],
     "underground_water_creature": [
@@ -215,9 +173,28 @@
         "weight": 10
       }
     ],
-    "water_ambient": [],
-    "water_creature": []
+    "water_ambient": [
+      {
+        "type": "minecraft:cod",
+        "maxCount": 6,
+        "minCount": 3,
+        "weight": 15
+      },
+      {
+        "type": "minecraft:salmon",
+        "maxCount": 5,
+        "minCount": 1,
+        "weight": 15
+      }
+    ],
+    "water_creature": [
+      {
+        "type": "minecraft:squid",
+        "maxCount": 4,
+        "minCount": 1,
+        "weight": 3
+      }
+    ]
   },
-  "temperature": 0.95,
-  "has_precipitation": true
+  "temperature": 0.5
 }

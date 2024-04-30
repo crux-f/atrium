@@ -7,12 +7,12 @@
       "entries": [
         {
           "type": "empty",
-          "weight": 100,
+          "weight": 125,
           "quality": -15
         },
         {
           "type": "item",
-          "weight": 2,
+          "weight": 5,
           "quality": 5,
           "name": "minecraft:iron_nugget",
           "functions": [
@@ -27,6 +27,278 @@
             {
               "function": "set_nbt",
               "tag": "{display:{Name:'{\"text\":\"§cOutpost Key\"}',Lore:['{\"text\":\"These pillagers have to\"}','{\"text\":\"keep their goodies\"}','{\"text\":\"somewhere, don\\'t they?\"}']},CustomModelData:333172,atrium_outpost_key:1b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:alternatives",
+          "weight": 1,
+          "quality": 2,
+          "children": [
+            {
+              "type": "item",
+              "name": "minecraft:map",
+              "functions": [
+                {
+                  "function": "exploration_map",
+                  "destination": "atrium:village_desert",
+                  "decoration": "village_desert",
+                  "skip_existing_chunks": true
+                },
+                {
+                  "function": "set_nbt",
+                  "tag": "{atrium_pillager_map:1b,atrium_desert_village_quest_map:1b}"
+                },
+                {
+                  "function": "set_name",
+                  "name": [
+                    {
+                      "text": "Quest Map",
+                      "italic": true
+                    }
+                  ]
+                },
+                {
+                  "function": "set_lore",
+                  "lore": [
+                    {
+                      "text": "This map shows the location"
+                    },
+                    {
+                      "text": "of a nearby village. It's odd"
+                    },
+                    {
+                      "text": "for Pillagers to target one"
+                    },
+                    {
+                      "text": "specific town without a good"
+                    },
+                    {
+                      "text": "reason; That village must have"
+                    },
+                    {
+                      "text": "something good."
+                    },
+                    {
+                      "text": "(Feels important.)",
+                      "color": "gray",
+                      "italic": false
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:map",
+              "functions": [
+                {
+                  "function": "exploration_map",
+                  "destination": "atrium:village_plains",
+                  "decoration": "village_plains",
+                  "skip_existing_chunks": true
+                },
+                {
+                  "function": "set_nbt",
+                  "tag": "{atrium_pillager_map:1b,atrium_plains_village_quest_map:1b}"
+                },
+                {
+                  "function": "set_name",
+                  "name": [
+                    {
+                      "text": "Quest Map",
+                      "italic": true
+                    }
+                  ]
+                },
+                {
+                  "function": "set_lore",
+                  "lore": [
+                    {
+                      "text": "This map shows the location"
+                    },
+                    {
+                      "text": "of a nearby village. It's odd"
+                    },
+                    {
+                      "text": "for Pillagers to target one"
+                    },
+                    {
+                      "text": "specific town without a good"
+                    },
+                    {
+                      "text": "reason; That village must have"
+                    },
+                    {
+                      "text": "something good."
+                    },
+                    {
+                      "text": "(Feels important.)",
+                      "color": "gray",
+                      "italic": false
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:map",
+              "functions": [
+                {
+                  "function": "exploration_map",
+                  "destination": "atrium:village_savanna",
+                  "decoration": "village_savanna",
+                  "skip_existing_chunks": true
+                },
+                {
+                  "function": "set_nbt",
+                  "tag": "{atrium_pillager_map:1b,atrium_savanna_village_quest_map:1b}"
+                },
+                {
+                  "function": "set_name",
+                  "name": [
+                    {
+                      "text": "Quest Map",
+                      "italic": true
+                    }
+                  ]
+                },
+                {
+                  "function": "set_lore",
+                  "lore": [
+                    {
+                      "text": "This map shows the location"
+                    },
+                    {
+                      "text": "of a nearby village. It's odd"
+                    },
+                    {
+                      "text": "for Pillagers to target one"
+                    },
+                    {
+                      "text": "specific town without a good"
+                    },
+                    {
+                      "text": "reason; That village must have"
+                    },
+                    {
+                      "text": "something good."
+                    },
+                    {
+                      "text": "(Feels important.)",
+                      "color": "gray",
+                      "italic": false
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:map",
+              "functions": [
+                {
+                  "function": "exploration_map",
+                  "destination": "atrium:village_snowy",
+                  "decoration": "village_snowy",
+                  "skip_existing_chunks": true
+                },
+                {
+                  "function": "set_nbt",
+                  "tag": "{atrium_pillager_map:1b,atrium_snowy_village_quest_map:1b}"
+                },
+                {
+                  "function": "set_name",
+                  "name": [
+                    {
+                      "text": "Quest Map",
+                      "italic": true
+                    }
+                  ]
+                },
+                {
+                  "function": "set_lore",
+                  "lore": [
+                    {
+                      "text": "This map shows the location"
+                    },
+                    {
+                      "text": "of a nearby village. It's odd"
+                    },
+                    {
+                      "text": "for Pillagers to target one"
+                    },
+                    {
+                      "text": "specific town without a good"
+                    },
+                    {
+                      "text": "reason; That village must have"
+                    },
+                    {
+                      "text": "something good."
+                    },
+                    {
+                      "text": "(Feels important.)",
+                      "color": "gray",
+                      "italic": false
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:map",
+              "functions": [
+                {
+                  "function": "exploration_map",
+                  "destination": "atrium:village_taiga",
+                  "decoration": "village_taiga",
+                  "skip_existing_chunks": true
+                },
+                {
+                  "function": "set_nbt",
+                  "tag": "{atrium_pillager_map:1b,atrium_taiga_village_quest_map:1b}"
+                },
+                {
+                  "function": "set_name",
+                  "name": [
+                    {
+                      "text": "Quest Map",
+                      "italic": true
+                    }
+                  ]
+                },
+                {
+                  "function": "set_lore",
+                  "lore": [
+                    {
+                      "text": "This map shows the location"
+                    },
+                    {
+                      "text": "of a nearby village. It's odd"
+                    },
+                    {
+                      "text": "for Pillagers to target one"
+                    },
+                    {
+                      "text": "specific town without a good"
+                    },
+                    {
+                      "text": "reason; That village must have"
+                    },
+                    {
+                      "text": "something good."
+                    },
+                    {
+                      "text": "(Feels important.)",
+                      "color": "gray",
+                      "italic": false
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
