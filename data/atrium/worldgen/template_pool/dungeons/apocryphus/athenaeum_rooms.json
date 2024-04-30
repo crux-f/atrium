@@ -1,0 +1,123 @@
+{
+    "fallback": "atrium:dungeons/apocryphus/athenaeum_terminators",
+    "elements": [
+      {
+        "weight": 10,
+        "element": {
+          "location": "atrium:dungeons/apocryphus/athenaeum/hall_0",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 10,
+        "element": {
+          "location": "atrium:dungeons/apocryphus/athenaeum/hall_1",
+          "processors": "atrium:apocryphus_bookshelf_population",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 10,
+        "element": {
+          "location": "atrium:dungeons/apocryphus/athenaeum/hall_2",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 10,
+        "element": {
+          "location": "atrium:dungeons/apocryphus/athenaeum/hall_3",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 10,
+        "element": {
+          "location": "atrium:dungeons/apocryphus/athenaeum/hall_4",
+          "processors": "atrium:apocryphus_bookshelf_population",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 10,
+        "element": {
+          "location": "atrium:dungeons/apocryphus/athenaeum/hall_5",
+          "processors": "atrium:apocryphus_bookshelf_population",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 10,
+        "element": {
+          "location": "atrium:dungeons/apocryphus/athenaeum/hall_6",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 10,
+        "element": {
+          "location": "atrium:dungeons/apocryphus/athenaeum/hall_7",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 10,
+        "element": {
+          "location": "atrium:dungeons/apocryphus/athenaeum/hall_8",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 10,
+        "element": {
+          "location": "atrium:dungeons/apocryphus/athenaeum/hall_9",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 30,
+        "element": {
+          "location": "atrium:dungeons/apocryphus/athenaeum/four_way_hall_0",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 15,
+        "element": {
+          "location": "atrium:dungeons/apocryphus/athenaeum/history_section_0",
+          "processors": "atrium:apocryphus_bookshelf_population",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 15,
+        "element": {
+          "location": "atrium:dungeons/apocryphus/athenaeum/history_section_1",
+          "processors": "atrium:apocryphus_bookshelf_population",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      }
+    ]
+  }
+  
