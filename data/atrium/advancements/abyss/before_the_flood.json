@@ -35,7 +35,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "structure": "atrium:dungeons/palace"
+                "structures": "atrium:dungeons/palace"
               }
             }
           }

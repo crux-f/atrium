@@ -34,7 +34,7 @@
                   "entity": "this",
                   "predicate": {
                     "location": {
-                        "biome": "atrium:the_unfathoms",
+                        "biomes": "atrium:the_unfathoms",
                         "dimension": "atrium:the_abyss"
                     }
                   }
@@ -51,7 +51,7 @@
                   "entity": "this",
                   "predicate": {
                     "location": {
-                        "biome": "atrium:kelp_forest",
+                        "biomes": "atrium:kelp_forest",
                         "dimension": "atrium:the_abyss"
                     }
                   }
@@ -68,7 +68,7 @@
                   "entity": "this",
                   "predicate": {
                     "location": {
-                        "biome": "atrium:scalding_reefs",
+                        "biomes": "atrium:scalding_reefs",
                         "dimension": "atrium:the_abyss"
                     }
                   }
@@ -85,7 +85,7 @@
                   "entity": "this",
                   "predicate": {
                     "location": {
-                        "biome": "atrium:forsaken_remains",
+                        "biomes": "atrium:forsaken_remains",
                         "dimension": "atrium:the_abyss"
                     }
                   }
@@ -102,8 +102,7 @@
                   "entity": "this",
                   "predicate": {
                     "location": {
-                        "biome": "atrium:dead_zone",
-                        "dimension": "atrium:the_abyss"
+                        "biomes": "atrium:dead_zone"
                     }
                   }
                 }
