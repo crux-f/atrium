@@ -9,7 +9,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "structure": "minecraft:bastion_remnant"
+                "structures": "minecraft:bastion_remnant"
               }
             }
           }
@@ -36,7 +36,7 @@
     "frame": "task",
     "hidden": false,
     "icon": {
-      "item": "minecraft:polished_blackstone_bricks"
+      "id": "minecraft:polished_blackstone_bricks"
     },
     "show_toast": true,
     "title": {

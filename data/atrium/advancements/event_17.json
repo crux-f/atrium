@@ -19,7 +19,7 @@
             }
           ],
         "icon": {
-            "item": "minecraft:oak_boat"
+            "id": "minecraft:oak_boat"
         },
         "frame": "task",
         "show_toast": true,

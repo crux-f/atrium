@@ -34,7 +34,7 @@
     "frame": "task",
     "hidden": false,
     "icon": {
-      "item": "minecraft:nether_star"
+      "id": "minecraft:nether_star"
     },
     "show_toast": true,
     "title": {

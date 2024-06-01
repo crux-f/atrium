@@ -19,7 +19,7 @@
             }
           ],
         "icon": {
-            "item": "minecraft:soul_sand"
+            "id": "minecraft:soul_sand"
         },
         "frame": "task",
         "show_toast": true,

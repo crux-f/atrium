@@ -13,7 +13,7 @@
             "text": "A complex topic, simplified"
         },
         "icon": {
-            "item": "minecraft:candle"
+            "id": "minecraft:candle"
         },
         "frame": "task",
         "show_toast": false,

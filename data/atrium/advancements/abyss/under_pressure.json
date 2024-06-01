@@ -18,7 +18,7 @@
         }
       ],
       "icon": {
-          "item": "minecraft:kelp"
+          "id": "minecraft:kelp"
       },
       "frame": "task",
       "show_toast": true,

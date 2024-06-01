@@ -1,7 +1,7 @@
 {
     "display": {
       "icon": {
-        "item": "minecraft:soul_lantern"
+        "id": "minecraft:soul_lantern"
       },
       "title": "No Trespassing",
       "description": [
@@ -33,7 +33,7 @@
               "entity": "this",
               "predicate": {
                 "location": {
-                  "structure": "atrium:dungeons/sanctum"
+                  "structures": "atrium:dungeons/sanctum"
                 }
               }
             }

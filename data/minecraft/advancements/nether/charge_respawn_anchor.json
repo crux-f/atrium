@@ -48,7 +48,7 @@
     "frame": "task",
     "hidden": false,
     "icon": {
-      "item": "minecraft:respawn_anchor"
+      "id": "minecraft:respawn_anchor"
     },
     "show_toast": true,
     "title": {

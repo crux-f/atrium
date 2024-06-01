@@ -23,7 +23,7 @@
     "frame": "task",
     "hidden": false,
     "icon": {
-      "item": "minecraft:wheat"
+      "id": "minecraft:wheat"
     },
     "show_toast": true,
     "title": {

@@ -30,7 +30,7 @@
     "frame": "task",
     "hidden": false,
     "icon": {
-      "item": "minecraft:axolotl_bucket"
+      "id": "minecraft:axolotl_bucket"
     },
     "show_toast": true,
     "title": {

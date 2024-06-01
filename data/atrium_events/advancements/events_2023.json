@@ -8,7 +8,7 @@
             "text": "All Atrium Events in 2023"
         },
         "icon": {
-            "item": "minecraft:diamond_pickaxe"
+            "id": "minecraft:diamond_pickaxe"
         },
         "frame": "task",
         "show_toast": false,

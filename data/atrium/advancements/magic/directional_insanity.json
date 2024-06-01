@@ -18,7 +18,7 @@
             }
           ],
         "icon": {
-            "item": "minecraft:compass"
+            "id": "minecraft:compass"
         },
         "frame": "challenge",
         "show_toast": true,

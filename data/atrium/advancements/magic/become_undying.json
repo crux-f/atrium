@@ -20,7 +20,7 @@
             }
           ],
         "icon": {
-            "item": "minecraft:totem_of_undying"
+            "id": "minecraft:totem_of_undying"
         },
         "frame": "challenge",
         "show_toast": true,

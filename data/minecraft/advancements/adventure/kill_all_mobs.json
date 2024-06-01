@@ -496,7 +496,7 @@
     "frame": "challenge",
     "hidden": false,
     "icon": {
-      "item": "minecraft:diamond_sword",
+      "id": "minecraft:diamond_sword",
       "nbt": "{Damage:0}"
     },
     "show_toast": true,

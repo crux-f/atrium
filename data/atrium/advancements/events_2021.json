@@ -8,7 +8,7 @@
             "text": "All Atrium Events in 2021"
         },
         "icon": {
-            "item": "minecraft:iron_pickaxe"
+            "id": "minecraft:iron_pickaxe"
         },
         "frame": "task",
         "show_toast": false,

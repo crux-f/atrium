@@ -30,7 +30,7 @@
     "frame": "challenge",
     "hidden": true,
     "icon": {
-      "item": "minecraft:crossbow",
+      "id": "minecraft:crossbow",
       "nbt": "{Damage:0}"
     },
     "show_toast": true,

@@ -207,7 +207,7 @@
     "frame": "challenge",
     "hidden": false,
     "icon": {
-      "item": "minecraft:cod"
+      "id": "minecraft:cod"
     },
     "show_toast": true,
     "title": {

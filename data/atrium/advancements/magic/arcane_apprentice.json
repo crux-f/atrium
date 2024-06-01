@@ -18,8 +18,10 @@
             }
           ],
         "icon": {
-            "item": "minecraft:stick",
-            "nbt": "{CustomModelData:333059}"
+          "id": "minecraft:stick",
+          "components": {
+            "minecraft:custom_model_data": 333059
+          }
         },
         "frame": "task",
         "show_toast": true,

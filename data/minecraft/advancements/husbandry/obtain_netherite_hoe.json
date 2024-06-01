@@ -32,8 +32,7 @@
     "frame": "challenge",
     "hidden": false,
     "icon": {
-      "item": "minecraft:netherite_hoe",
-      "nbt": "{Damage:0}"
+      "id": "minecraft:netherite_hoe"
     },
     "show_toast": true,
     "title": {

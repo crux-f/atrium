@@ -32,8 +32,7 @@
     "frame": "task",
     "hidden": false,
     "icon": {
-      "item": "minecraft:stone_pickaxe",
-      "nbt": "{Damage:0}"
+      "id": "minecraft:stone_pickaxe"
     },
     "show_toast": true,
     "title": {

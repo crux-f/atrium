@@ -8,7 +8,7 @@
             "text": "All Atrium Events in 2020"
         },
         "icon": {
-            "item": "minecraft:stone_pickaxe"
+            "id": "minecraft:stone_pickaxe"
         },
         "frame": "task",
         "show_toast": false,

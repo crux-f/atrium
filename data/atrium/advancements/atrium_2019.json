@@ -8,7 +8,7 @@
             "text": "You helped beta test the server in 2019! Thanks!"
         },
         "icon": {
-            "item": "minecraft:wooden_pickaxe"
+            "id": "minecraft:wooden_pickaxe"
         },
         "frame": "challenge",
         "show_toast": true,

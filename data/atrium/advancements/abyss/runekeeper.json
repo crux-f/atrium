@@ -18,8 +18,10 @@
           }
         ],
         "icon": {
-            "item": "minecraft:flint",
-            "nbt": "{CustomModelData:333128}"
+          "id": "minecraft:flint",
+          "components": {
+            "minecraft:custom_model_data": 333128
+          }
         },
         "frame": "challenge",
         "show_toast": true,

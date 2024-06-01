@@ -19,7 +19,7 @@
             }
           ],
         "icon": {
-            "item": "minecraft:yellow_bed"
+            "id": "minecraft:yellow_bed"
         },
         "frame": "task",
         "show_toast": true,

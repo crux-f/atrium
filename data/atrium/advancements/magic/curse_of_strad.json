@@ -18,7 +18,7 @@
             }
           ],
         "icon": {
-            "item": "minecraft:music_disc_strad"
+            "id": "minecraft:music_disc_strad"
         },
         "frame": "goal",
         "show_toast": true,

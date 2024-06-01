@@ -8,7 +8,7 @@
             "text": "Check the Discord for future events"
         },
         "icon": {
-            "item": "minecraft:cake"
+            "id": "minecraft:cake"
         },
         "frame": "task",
         "show_toast": false,

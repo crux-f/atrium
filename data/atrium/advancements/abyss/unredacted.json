@@ -18,7 +18,7 @@
         }
       ],
       "icon": {
-          "item": "minecraft:trapped_chest"
+          "id": "minecraft:trapped_chest"
       },
       "frame": "task",
       "show_toast": true,

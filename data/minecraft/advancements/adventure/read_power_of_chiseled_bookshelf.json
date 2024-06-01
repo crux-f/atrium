@@ -196,7 +196,7 @@
     "frame": "task",
     "hidden": false,
     "icon": {
-      "item": "minecraft:chiseled_bookshelf"
+      "id": "minecraft:chiseled_bookshelf"
     },
     "show_toast": true,
     "title": {

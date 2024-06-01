@@ -8,7 +8,7 @@
             "text": "All Atrium Events in 2024"
         },
         "icon": {
-            "item": "minecraft:netherite_pickaxe"
+            "id": "minecraft:netherite_pickaxe"
         },
         "frame": "task",
         "show_toast": false,

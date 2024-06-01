@@ -9,9 +9,11 @@
             "text": "Join the Patreon; Thank you so much!"
         },
         "icon": {
-            "item": "minecraft:orange_candle",
-            "nbt": "{CustomModelData:333003}"
-        },
+            "id": "minecraft:stick",
+            "components": {
+              "minecraft:custom_model_data": 333003
+            }
+          },
         "frame": "challenge",
         "show_toast": true,
         "announce_to_chat": true,

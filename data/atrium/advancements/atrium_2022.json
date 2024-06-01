@@ -8,7 +8,7 @@
             "text": "You played in 2022! Fellstar wouldn't be the same without you."
         },
         "icon": {
-            "item": "minecraft:golden_pickaxe"
+            "id": "minecraft:golden_pickaxe"
         },
         "frame": "challenge",
         "show_toast": true,

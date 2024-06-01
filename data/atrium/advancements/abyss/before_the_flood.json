@@ -18,7 +18,7 @@
         }
       ],
       "icon": {
-          "item": "minecraft:sea_lantern"
+          "id": "minecraft:sea_lantern"
       },
       "frame": "task",
       "show_toast": true,
@@ -35,7 +35,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "structure": "atrium:dungeons/palace"
+                "structures": "atrium:dungeons/palace"
               }
             }
           }

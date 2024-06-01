@@ -36,8 +36,7 @@
     "frame": "task",
     "hidden": false,
     "icon": {
-      "item": "minecraft:shield",
-      "nbt": "{Damage:0}"
+      "id": "minecraft:shield"
     },
     "show_toast": true,
     "title": {

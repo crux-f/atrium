@@ -22,7 +22,7 @@
             }
           ],
         "icon": {
-            "item": "minecraft:soul_campfire"
+            "id": "minecraft:soul_campfire"
         },
         "frame": "goal",
         "show_toast": true,

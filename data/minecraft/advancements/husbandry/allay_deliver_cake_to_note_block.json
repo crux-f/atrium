@@ -45,7 +45,7 @@
     "frame": "task",
     "hidden": true,
     "icon": {
-      "item": "minecraft:note_block"
+      "id": "minecraft:note_block"
     },
     "show_toast": true,
     "title": {

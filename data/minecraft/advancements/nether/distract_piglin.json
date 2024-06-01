@@ -194,7 +194,7 @@
     "frame": "task",
     "hidden": false,
     "icon": {
-      "item": "minecraft:gold_ingot"
+      "id": "minecraft:gold_ingot"
     },
     "show_toast": true,
     "title": {

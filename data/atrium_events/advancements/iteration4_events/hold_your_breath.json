@@ -18,10 +18,14 @@
               "text": "\nWhere did these foul creatures come from? Only one way to find out. In order to travel beneath the dark ocean that lies at the bottom of The Depths, you will need a vehicle."
             }
           ],
-        "icon": {
-            "item": "minecraft:potion",
-            "nbt": "{Potion:\"minecraft:water_breathing\"}"
-        },
+          "icon": {
+            "id": "minecraft:potion",
+            "components": {
+              "minecraft:potion_contents": {
+                "potion": "minecraft:water_breathing"
+              }
+            }
+          },
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": true,

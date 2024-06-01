@@ -32,7 +32,7 @@
     "frame": "task",
     "hidden": false,
     "icon": {
-      "item": "minecraft:blaze_rod"
+      "id": "minecraft:blaze_rod"
     },
     "show_toast": true,
     "title": {

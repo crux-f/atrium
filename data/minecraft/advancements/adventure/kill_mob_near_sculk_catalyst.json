@@ -23,7 +23,7 @@
     "frame": "challenge",
     "hidden": false,
     "icon": {
-      "item": "minecraft:sculk_catalyst"
+      "id": "minecraft:sculk_catalyst"
     },
     "show_toast": true,
     "title": {

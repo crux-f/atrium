@@ -30,7 +30,7 @@
     "frame": "challenge",
     "hidden": false,
     "icon": {
-      "item": "minecraft:map"
+      "id": "minecraft:map"
     },
     "show_toast": true,
     "title": {

@@ -32,7 +32,7 @@
     "frame": "task",
     "hidden": false,
     "icon": {
-      "item": "minecraft:ancient_debris"
+      "id": "minecraft:ancient_debris"
     },
     "show_toast": true,
     "title": {

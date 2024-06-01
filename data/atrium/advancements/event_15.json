@@ -19,7 +19,7 @@
             }
           ],
         "icon": {
-            "item": "minecraft:purple_banner",
+            "id": "minecraft:purple_banner",
             "nbt": "{BlockEntityTag:{Patterns:[{Color:15,Pattern:\"cre\"},{Color:15,Pattern:\"mr\"}]}}"
         },
         "frame": "challenge",

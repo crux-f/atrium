@@ -8,7 +8,7 @@
             "text": "You survived 2020! Congrats!"
         },
         "icon": {
-            "item": "minecraft:stone_pickaxe"
+            "id": "minecraft:stone_pickaxe"
         },
         "frame": "challenge",
         "show_toast": true,

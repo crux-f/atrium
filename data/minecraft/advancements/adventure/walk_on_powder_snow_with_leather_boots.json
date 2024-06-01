@@ -47,8 +47,7 @@
     "frame": "task",
     "hidden": false,
     "icon": {
-      "item": "minecraft:leather_boots",
-      "nbt": "{Damage:0}"
+      "id": "minecraft:leather_boots"
     },
     "show_toast": true,
     "title": {

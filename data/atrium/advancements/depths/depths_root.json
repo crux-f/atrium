@@ -16,7 +16,7 @@
             "text": "Drums, drums in the deep"
         },
         "icon": {
-            "item": "minecraft:bedrock"
+            "id": "minecraft:bedrock"
         },
         "frame": "task",
         "show_toast": false,

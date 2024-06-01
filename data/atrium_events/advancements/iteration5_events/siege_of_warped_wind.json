@@ -37,7 +37,7 @@
               }
           ],
         "icon": {
-            "item": "minecraft:chiseled_polished_blackstone"
+            "id": "minecraft:chiseled_polished_blackstone"
         },
         "frame": "task",
         "show_toast": true,

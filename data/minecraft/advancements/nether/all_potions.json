@@ -40,7 +40,7 @@
     "frame": "challenge",
     "hidden": false,
     "icon": {
-      "item": "minecraft:milk_bucket"
+      "id": "minecraft:milk_bucket"
     },
     "show_toast": true,
     "title": {

@@ -19,7 +19,7 @@
             }
           ],
         "icon": {
-            "item": "minecraft:feather"
+            "id": "minecraft:feather"
         },
         "frame": "challenge",
         "show_toast": true,

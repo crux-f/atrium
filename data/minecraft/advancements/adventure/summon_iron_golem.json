@@ -34,7 +34,7 @@
     "frame": "goal",
     "hidden": false,
     "icon": {
-      "item": "minecraft:carved_pumpkin"
+      "id": "minecraft:carved_pumpkin"
     },
     "show_toast": true,
     "title": {

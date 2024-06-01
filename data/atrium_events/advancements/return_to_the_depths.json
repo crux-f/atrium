@@ -9,7 +9,7 @@
             "text": "Participate in at least 1 Return To The Depths event"
         },
         "icon": {
-            "item": "minecraft:deepslate"
+            "id": "minecraft:deepslate"
         },
         "frame": "task",
         "show_toast": true,

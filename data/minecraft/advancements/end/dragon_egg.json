@@ -32,7 +32,7 @@
     "frame": "goal",
     "hidden": false,
     "icon": {
-      "item": "minecraft:dragon_egg"
+      "id": "minecraft:dragon_egg"
     },
     "show_toast": true,
     "title": {

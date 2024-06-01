@@ -17,7 +17,7 @@
             }
           ],
         "icon": {
-            "item": "minecraft:gold_nugget"
+            "id": "minecraft:gold_nugget"
         },
         "frame": "task",
         "show_toast": true,

@@ -30,7 +30,7 @@
     "frame": "task",
     "hidden": false,
     "icon": {
-      "item": "minecraft:tadpole_bucket"
+      "id": "minecraft:tadpole_bucket"
     },
     "show_toast": true,
     "title": {
