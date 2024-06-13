@@ -1,0 +1,3 @@
+# /give command for special items
+give @s minecraft:chest[minecraft:lore=['{"text":"Unlocked using a Fletcher Key."}'],minecraft:container_loot={loot_table:"atrium:chests/special/locked_village_fletcher_chest"},minecraft:lock="§aFletcher Key",minecraft:custom_name='{"text":"Fletcher\'s Chest","color":"green","italic":false}'] 1
+give @s minecraft:gold_nugget[minecraft:custom_model_data=333070,minecraft:item_name:'{"text":"Mangled Key"}',minecraft:custom_name='{"text":"§aFletcher Key","italic":false}',minecraft:custom_data={atrium_village_fletcher_key:1b}] 1

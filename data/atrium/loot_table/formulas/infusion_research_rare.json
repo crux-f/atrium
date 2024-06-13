@@ -1,0 +1,93 @@
+{
+    "type": "chest",
+    "pools": [
+      {
+        "rolls": 1,
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "item",
+            "weight": 10,
+            "quality": 0,
+            "name": "minecraft:paper",
+            "functions": [
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:rarity": "uncommon",
+                  "minecraft:custom_model_data": 333000,
+                  "minecraft:custom_data": {
+                    "atrium_research": 1,
+                    "atrium_research_type": "infusion",
+                    "atrium_topic": "report_42"
+                  }
+                }
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Infusion Research"
+                  }
+                ],
+                "target": "item_name"
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Infusion Circle Formulas:",
+                    "underlined": true
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Staff of Air [+3]"
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Staff of Earth [+3]"
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Staff of Fire [+3]"
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Staff of Water [+3]"
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Staff of Time [+3]"
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Staff of Space [+3]"
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Other Formulas:",
+                    "underlined": true
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "(8 Ingredients)"
+                  }
+                ],
+                "mode": "append"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

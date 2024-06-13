@@ -1,3 +1,0 @@
-# /give command for special items
-give @s chest{display:{Name:'{"text":"Tannery Chest","color":"green","italic":false}',Lore:['{"text":"Unlocked using a Tannery Key."}']},BlockEntityTag:{Lock:"§aTannery Key",LootTable:"atrium:chests/special/locked_village_tannery_chest"}} 1
-give @s gold_nugget{display:{Name:'{"text":"§aTannery Key","italic":false}'},CustomModelData:333070,atrium_village_tannery_key:1b} 1

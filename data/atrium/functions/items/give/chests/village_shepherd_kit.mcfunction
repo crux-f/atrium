@@ -1,3 +1,0 @@
-# /give command for special items
-give @s chest{display:{Name:'{"text":"Shepherd Chest","color":"green","italic":false}',Lore:['{"text":"Unlocked using a Shepherd Village Key."}']},BlockEntityTag:{Lock:"§aShepherd Key",LootTable:"atrium:chests/special/locked_village_shepherd_chest"}} 1
-give @s gold_nugget{display:{Name:'{"text":"§aShepherd Key","italic":false}'},CustomModelData:333070,atrium_village_shepherd_key:1b} 1

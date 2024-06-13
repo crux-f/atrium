@@ -1,3 +1,0 @@
-# /give command for special items
-give @s chest{display:{Name:'{"text":"Fisher\'s Chest","color":"green","italic":false}',Lore:['{"text":"Unlocked using a Fisher Key."}']},BlockEntityTag:{Lock:"§aFisher Key",LootTable:"atrium:chests/special/locked_village_fisher_chest"}} 1
-give @s gold_nugget{display:{Name:'{"text":"§aFisher Key","italic":false}'},CustomModelData:333070,atrium_village_fisher_key:1b} 1

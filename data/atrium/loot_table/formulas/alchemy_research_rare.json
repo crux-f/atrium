@@ -1,0 +1,67 @@
+{
+    "type": "chest",
+    "pools": [
+      {
+        "rolls": 1,
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "item",
+            "weight": 10,
+            "quality": 0,
+            "name": "minecraft:paper",
+            "functions": [
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:rarity": "uncommon",
+                  "minecraft:custom_model_data": 333001,
+                  "minecraft:custom_data": {
+                    "atrium_research": 1,
+                    "atrium_research_type": "alchemy",
+                    "atrium_topic": "advances_in_witchcraft"
+                  }
+                }
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Alchemy Research"
+                  }
+                ],
+                "target": "item_name"
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Alchemy Cauldron Formulas:",
+                    "underlined": true
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "(All Tier 3 Potions)"
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Cinder Solution"
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Peculiar Prism"
+                  }
+                ],
+                "mode": "append"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

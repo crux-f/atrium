@@ -1,0 +1,3 @@
+# /give command for special items
+give @s minecraft:chest[minecraft:lore=['{"text":"Unlocked using an Cartographer Key."}'],minecraft:container_loot={loot_table:"atrium:chests/special/locked_village_cartographer_chest"},minecraft:lock="§aCartographer Key",minecraft:custom_name='{"text":"Cartographer\'s Chest","color":"green","italic":false}'] 1
+give @s minecraft:gold_nugget[minecraft:custom_model_data=333070,minecraft:item_name:'{"text":"Mangled Key"}',minecraft:custom_name='{"text":"§aCartographer Key","italic":false}',minecraft:custom_data={atrium_village_cartographer_key:1b}] 1

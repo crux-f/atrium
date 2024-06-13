@@ -1,3 +1,0 @@
-# /give command for special items
-give @s chest{display:{Name:'{"text":"Plains Village Chest","color":"green","italic":false}',Lore:['{"text":"Unlocked using a Plains Village Key."}']},BlockEntityTag:{Lock:"§aPlains Village Key",LootTable:"atrium:chests/special/locked_village_plains_house_chest"}} 1
-give @s gold_nugget{display:{Name:'{"text":"§aPlains Village Key","italic":false}'},CustomModelData:333070,atrium_village_plains_house_key:1b} 1

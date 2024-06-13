@@ -1,3 +1,0 @@
-# /give command for special items
-give @s chest{display:{Name:'{"text":"Desert Village Chest","color":"green","italic":false}',Lore:['{"text":"Unlocked using a Desert Village Key."}']},BlockEntityTag:{Lock:"§aDesert Village Key",LootTable:"atrium:chests/special/locked_village_desert_house_chest"}} 1
-give @s gold_nugget{display:{Name:'{"text":"§aDesert Village Key","italic":false}'},CustomModelData:333070,atrium_village_desert_house_key:1b} 1

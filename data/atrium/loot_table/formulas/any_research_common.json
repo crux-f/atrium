@@ -1,0 +1,29 @@
+{
+    "type": "chest",
+    "pools": [
+      {
+        "rolls": 1,
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "loot_table",
+            "weight": 10,
+            "quality": 0,
+            "value": "atrium:formulas/alchemy_research_common"
+          },
+          {
+            "type": "loot_table",
+            "weight": 10,
+            "quality": 0,
+            "value": "atrium:formulas/infusion_research_common"
+          },
+          {
+            "type": "loot_table",
+            "weight": 10,
+            "quality": 0,
+            "value": "atrium:formulas/runic_research_common"
+          }
+        ]
+      }
+    ]
+  }

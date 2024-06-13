@@ -1,3 +1,0 @@
-# /give command for special items
-give @s chest{display:{Name:'{"text":"Savanna Village Chest","color":"green","italic":false}',Lore:['{"text":"Unlocked using a Savanna Village Key."}']},BlockEntityTag:{Lock:"§aSavanna Village Key",LootTable:"atrium:chests/special/locked_village_savanna_house_chest"}} 1
-give @s gold_nugget{display:{Name:'{"text":"§aSavanna Village Key","italic":false}'},CustomModelData:333070,atrium_village_savanna_house_key:1b} 1

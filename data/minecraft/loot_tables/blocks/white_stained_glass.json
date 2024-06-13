@@ -63,10 +63,6 @@
           "name": "minecraft:white_stained_glass",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
               "function": "set_nbt",
               "tag": "{HideFlags:1,atrium_crystal:1,atrium_gleaming_crystal:1b,Enchantments:[{id:\"minecraft:channeling\",lvl:1s}]}"
             },

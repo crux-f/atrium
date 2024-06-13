@@ -1,0 +1,683 @@
+{
+    "type": "chest",
+    "pools": [
+      {
+        "rolls": 1,
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "item",
+            "weight": 10,
+            "quality": 0,
+            "name": "minecraft:paper",
+            "functions": [
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:rarity": "common",
+                  "minecraft:custom_model_data": 333001,
+                  "minecraft:custom_data": {
+                    "atrium_research": 1,
+                    "atrium_research_type": "alchemy",
+                    "atrium_topic": "fire_in_water"
+                  }
+                }
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Alchemy Research"
+                  }
+                ],
+                "target": "item_name"
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Alchemy Cauldron Formulas:",
+                    "underlined": true
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Potion of Fire Resistance (17:00)"
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Potion of Water Breathing (17:00)"
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Cinder Solution"
+                  }
+                ],
+                "mode": "append"
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 10,
+            "quality": 0,
+            "name": "minecraft:paper",
+            "functions": [
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:rarity": "common",
+                  "minecraft:custom_model_data": 333001,
+                  "minecraft:custom_data": {
+                    "atrium_research": 1,
+                    "atrium_research_type": "alchemy",
+                    "atrium_topic": "do_no_harm"
+                  }
+                }
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Alchemy Research"
+                  }
+                ],
+                "target": "item_name"
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Alchemy Cauldron Formulas:",
+                    "underlined": true
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Potion of Healing III"
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Potion of Harming III"
+                  }
+                ],
+                "mode": "append"
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 10,
+            "quality": 0,
+            "name": "minecraft:paper",
+            "functions": [
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:rarity": "common",
+                  "minecraft:custom_model_data": 333001,
+                  "minecraft:custom_data": {
+                    "atrium_research": 1,
+                    "atrium_research_type": "alchemy",
+                    "atrium_topic": "sight_or_lack_thereof"
+                  }
+                }
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Alchemy Research"
+                  }
+                ],
+                "target": "item_name"
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Alchemy Cauldron Formulas:",
+                    "underlined": true
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Potion of Night Vision (17:00)"
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Potion of Invisibility (17:00)"
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Peculiar Prism"
+                  }
+                ],
+                "mode": "append"
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 10,
+            "quality": 0,
+            "name": "minecraft:paper",
+            "functions": [
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:rarity": "common",
+                  "minecraft:custom_model_data": 333001,
+                  "minecraft:custom_data": {
+                    "atrium_research": 1,
+                    "atrium_research_type": "alchemy",
+                    "atrium_topic": "adrenaline_and_the_arcane"
+                  }
+                }
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Alchemy Research"
+                  }
+                ],
+                "target": "item_name"
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Alchemy Cauldron Formulas:",
+                    "underlined": true
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Potion of Strength (17:00)"
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Potion of Strength III (0:45)"
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Potion of Swiftness (17:00)"
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Potion of Swiftness III (0:45)"
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Potion of Leaping (17:00)"
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Potion of Leaping III (0:45)"
+                  }
+                ],
+                "mode": "append"
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 10,
+            "quality": 0,
+            "name": "minecraft:paper",
+            "functions": [
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:rarity": "common",
+                  "minecraft:custom_model_data": 333001,
+                  "minecraft:custom_data": {
+                    "atrium_research": 1,
+                    "atrium_research_type": "alchemy",
+                    "atrium_topic": "plants_are_useful"
+                  }
+                }
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Alchemy Research"
+                  }
+                ],
+                "target": "item_name"
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Alchemy Cauldron Formulas:",
+                    "underlined": true
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Potion of Regeneration (4:00)"
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Potion of Regeneration III (0:22)"
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Potion of Poison (4:00)"
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Potion of Poison III (0:22)"
+                  }
+                ],
+                "mode": "append"
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 10,
+            "quality": 0,
+            "name": "minecraft:paper",
+            "functions": [
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:rarity": "common",
+                  "minecraft:custom_model_data": 333001,
+                  "minecraft:custom_data": {
+                    "atrium_research": 1,
+                    "atrium_research_type": "alchemy",
+                    "atrium_topic": "against_gravity"
+                  }
+                }
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Alchemy Research"
+                  }
+                ],
+                "target": "item_name"
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Alchemy Cauldron Formulas:",
+                    "underlined": true
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Potion of Slow Falling (8:00)"
+                  }
+                ],
+                "mode": "append"
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 10,
+            "quality": 0,
+            "name": "minecraft:paper",
+            "functions": [
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:rarity": "common",
+                  "minecraft:custom_model_data": 333001,
+                  "minecraft:custom_data": {
+                    "atrium_research": 1,
+                    "atrium_research_type": "alchemy",
+                    "atrium_topic": "fact_and_fortune"
+                  }
+                }
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Alchemy Research"
+                  }
+                ],
+                "target": "item_name"
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Alchemy Cauldron Formulas:",
+                    "underlined": true
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Bottle o' Enchanting"
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Potion of Luck"
+                  }
+                ],
+                "mode": "append"
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 10,
+            "quality": 0,
+            "name": "minecraft:paper",
+            "functions": [
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:rarity": "common",
+                  "minecraft:custom_model_data": 333001,
+                  "minecraft:custom_data": {
+                    "atrium_research": 1,
+                    "atrium_research_type": "alchemy",
+                    "atrium_topic": "a_witchs_cookbook"
+                  }
+                }
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Alchemy Research"
+                  }
+                ],
+                "target": "item_name"
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Alchemy Cauldron Formulas:",
+                    "underlined": true
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Cooking Station [Upgrade]"
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Butter"
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Mayo Bottle"
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Mashed Potatoes"
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Pasta"
+                  }
+                ],
+                "mode": "append"
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 10,
+            "quality": 0,
+            "name": "minecraft:paper",
+            "functions": [
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:rarity": "common",
+                  "minecraft:custom_model_data": 333001,
+                  "minecraft:custom_data": {
+                    "atrium_research": 1,
+                    "atrium_research_type": "alchemy",
+                    "atrium_topic": "magic_meals"
+                  }
+                }
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Alchemy Research"
+                  }
+                ],
+                "target": "item_name"
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Alchemy Cauldron Formulas:",
+                    "underlined": true
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Yellow Cheese"
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Blue Cheese"
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Red Cheese"
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Burger"
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Warped Burger"
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Crimson Burger"
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Shipwreck Sub"
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Dark Sauce"
+                  }
+                ],
+                "mode": "append"
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 10,
+            "quality": 0,
+            "name": "minecraft:paper",
+            "functions": [
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:rarity": "common",
+                  "minecraft:custom_model_data": 333001,
+                  "minecraft:custom_data": {
+                    "atrium_research": 1,
+                    "atrium_research_type": "alchemy",
+                    "atrium_topic": "strange_snacks"
+                  }
+                }
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Alchemy Research"
+                  }
+                ],
+                "target": "item_name"
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Alchemy Cauldron Formulas:",
+                    "underlined": true
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Chow"
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Drumstick"
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Crescent Cookie"
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Light Sauce"
+                  }
+                ],
+                "mode": "append"
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 10,
+            "quality": 0,
+            "name": "minecraft:paper",
+            "functions": [
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:rarity": "common",
+                  "minecraft:custom_model_data": 333001,
+                  "minecraft:custom_data": {
+                    "atrium_research": 1,
+                    "atrium_research_type": "alchemy",
+                    "atrium_topic": "beverage_charms"
+                  }
+                }
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Alchemy Research"
+                  }
+                ],
+                "target": "item_name"
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Alchemy Cauldron Formulas:",
+                    "underlined": true
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Sweet Berry Wine"
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Wheat Beer"
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Birch Beer"
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Root Beer"
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Cactus Juice"
+                  }
+                ],
+                "mode": "append"
+              }
+            ]
+          },
+          {
+            "type": "loot_table",
+            "weight": 5,
+            "quality": 5,
+            "value": "atrium:formulas/alchemy_research_rare"
+          }
+        ]
+      }
+    ]
+  }

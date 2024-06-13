@@ -1,3 +1,0 @@
-# /give command for special items
-give @s chest{display:{Name:'{"text":"Cartographer\'s Chest","color":"green","italic":false}',Lore:['{"text":"Unlocked using an Cartographer Key."}']},BlockEntityTag:{Lock:"§aCartographer Key",LootTable:"atrium:chests/special/locked_village_cartographer_chest"}} 1
-give @s gold_nugget{display:{Name:'{"text":"§aCartographer Key","italic":false}'},CustomModelData:333070,atrium_village_cartographer_key:1b} 1

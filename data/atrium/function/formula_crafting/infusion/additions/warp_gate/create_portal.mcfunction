@@ -1,0 +1,13 @@
+# Reset scores
+scoreboard players set @e[tag=warp_gate] warp_gate 0
+#
+execute if entity @a[tag=atrium_gate_user,predicate=atrium:in_overworld,distance=..12] positioned ~-5 ~2 ~ if entity @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{components:{"minecraft:lodestone_tracker":{target:{dimension:"minecraft:overworld"}}}}}] run function atrium:formula_crafting/infusion/additions/warp_gate/overworld_tp
+execute if entity @a[tag=atrium_gate_user,predicate=atrium:in_the_nether,distance=..12] positioned ~-5 ~2 ~ if entity @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{components:{"minecraft:lodestone_tracker":{target:{dimension:"minecraft:the_nether"}}}}}] run function atrium:formula_crafting/infusion/additions/warp_gate/nether_tp
+execute if entity @a[tag=atrium_gate_user,predicate=atrium:in_the_end,distance=..12] positioned ~-5 ~2 ~ if entity @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{components:{"minecraft:lodestone_tracker":{target:{dimension:"minecraft:the_end"}}}}}] run function atrium:formula_crafting/infusion/additions/warp_gate/end_tp
+execute if entity @a[tag=atrium_gate_user,predicate=atrium:in_between_worlds,distance=..12] positioned ~-5 ~2 ~ if entity @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{components:{"minecraft:lodestone_tracker":{target:{dimension:"atrium:between_worlds"}}}}}] run function atrium:formula_crafting/infusion/additions/warp_gate/between_worlds_tp
+execute if entity @a[tag=atrium_gate_user,predicate=atrium:in_the_depths,distance=..12] positioned ~-5 ~2 ~ if entity @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{components:{"minecraft:lodestone_tracker":{target:{dimension:"atrium:the_depths"}}}}}] run function atrium:formula_crafting/infusion/additions/warp_gate/depths_tp
+execute if entity @a[tag=atrium_gate_user,predicate=atrium:in_the_meridian,distance=..12] positioned ~-5 ~2 ~ if entity @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{components:{"minecraft:lodestone_tracker":{target:{dimension:"atrium:the_meridian"}}}}}] run function atrium:formula_crafting/infusion/additions/warp_gate/meridian_tp
+execute if entity @a[tag=atrium_gate_user,predicate=atrium:in_the_abyss,distance=..12] positioned ~-5 ~2 ~ if entity @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{components:{"minecraft:lodestone_tracker":{target:{dimension:"atrium:the_abyss"}}}}}] run function atrium:formula_crafting/infusion/additions/warp_gate/abyss_tp
+#
+# Remove tag
+tag @a[tag=atrium_gate_user,scores={atrium_xp_debt=..0}] remove atrium_gate_user
