@@ -1,0 +1,42 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "equipment": {
+                    "offhand": {
+                      "components": {
+                        "minecraft:custom_data": {
+                          "atrium_chargeable": 1
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "items": [
+            {
+              "components": {
+                "minecraft:custom_data": {
+                  "atrium_power": 1
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "atrium:triggers/magic/clear_slot_power"
+    }
+  }
+  

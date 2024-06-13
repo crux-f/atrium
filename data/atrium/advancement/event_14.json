@@ -1,0 +1,37 @@
+{
+    "__comment": "The Crossroads was an embassy building challenge event along with the election to choose either ElderShrimp or Teethbones for Regent of Exorsa. 4/3/2021",
+    "display": {
+        "title": {
+            "text": "The Crossroads",
+            "color": "aqua"
+        },
+        "description": [
+            {
+                "text": "Pantheon IV - April 3rd, 2021",
+                "color": "green",
+                "italic": true
+            },
+            {
+              "color": "dark_purple",
+              "italic": true,
+              "text": "\nAmid public uncertainty about the leadership in Atrocity, the feud between the Forks and Knives districts of Atrocity has come to a head; Each of the Twin Mayors of Atrocity is running their own campaign for Regent of Exorsa."
+            }
+          ],
+        "icon": {
+            "id": "minecraft:oak_sign"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "thecrossroads": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 50
+    },
+    "parent": "atrium:event_13"
+}

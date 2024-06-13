@@ -1,0 +1,50 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:enchanted_item",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:any_of",
+              "terms": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "offhand": {
+                        "components": {
+                          "minecraft:custom_data": {
+                            "atrium_concentration_enchanted": 1
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "mainhand": {
+                        "components": {
+                          "minecraft:custom_data": {
+                            "atrium_concentration_enchanted": 1
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "atrium:triggers/runic_enchantments/concentration"
+    }
+  }
+  

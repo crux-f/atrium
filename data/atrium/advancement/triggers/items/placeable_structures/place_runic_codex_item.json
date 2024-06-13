@@ -1,0 +1,26 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:player_head",
+                  "minecraft:player_wall_head"
+                ],
+                "nbt": "{components:{\"minecraft:custom_data\":{runic_codex_placer:1b}}}"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "atrium:triggers/items/placeable_structures/place_runic_codex_item"
+  }
+}

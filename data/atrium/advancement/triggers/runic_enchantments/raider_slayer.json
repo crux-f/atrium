@@ -1,0 +1,38 @@
+{
+  "criteria": {
+    "hit_raider_with_raider_slayer": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "components": {
+                    "minecraft:custom_data": {
+                      "atrium_raider_slayer_enchanted": 1
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "#minecraft:raiders"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "atrium:triggers/runic_enchantments/raider_slayer"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:honeycomb"
+            ],
+            "components": {
+              "minecraft:custom_data": {
+                "atrium_badge_of_honor": 1,
+                "atrium_used": 0
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "atrium:triggers/treasure/badge_of_honor"
+  }
+}

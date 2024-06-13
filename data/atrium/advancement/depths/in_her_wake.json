@@ -1,0 +1,49 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:purple_stained_glass",
+        "components": {
+          "minecraft:enchantment_glint_override": true
+        }
+      },
+      "title": "In Her Wake",
+      "description": [
+        {
+            "text": "Use a pickaxe enchanted with Shard Touch to acquire Blooming Crystal"
+        },
+        {
+          "color": "gray",
+          "text": "\n \nReward:"
+        },
+        {
+          "color": "yellow",
+          "text": "\n50 XP"
+        }
+      ],
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "atrium:depths/even_deeper_dark",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "components": {
+                "minecraft:custom_data": {
+                  "atrium_blooming_crystal": 1
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "experience": 25
+  }
+  }
+  
