@@ -1,7 +1,25 @@
 [
   {
-    "function": "minecraft:set_nbt",
-    "tag": "{display:{Name:'{\"text\":\"Hellish Lantern\",\"italic\":false}',Lore:['{\"text\":\"It hungers for flames.\"}','{\"text\":\" \"}','[{\"text\":\"Absorbed Ghast Fireballs:\",\"color\":\"gray\",\"italic\":false},{\"text\":\" 7\",\"color\":\"gold\"}]']},atrium_hellish_lantern:1b,atrium_fireballs:7b,Enchantments:[{id:\"minecraft:power\",lvl:2s}]}",
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": "It hungers for flames."
+      },
+      {
+        "text": ""
+      },
+      {
+        "text": "Absorbed Ghast Fireballs:",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "text": "7",
+        "color": "gold",
+        "italic": false
+      }
+    ],
+    "mode": "replace_all",
     "conditions": [
       {
         "condition": "minecraft:entity_properties",
@@ -9,8 +27,34 @@
         "predicate": {
           "equipment": {
             "mainhand": {
-              "count": 1,
-              "nbt": "{atrium_hellish_lantern:1b,atrium_fireballs:6b}"
+              "components": {
+                "minecraft:custom_data": {
+                  "atrium_hellish_lantern": 1,
+                  "atrium_fireballs": 6
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{atrium_hellish_lantern:1b,atrium_fireballs:7b}",
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "components": {
+                "minecraft:custom_data": {
+                  "atrium_hellish_lantern": 1,
+                  "atrium_fireballs": 6
+                }
+              }
             }
           }
         }
