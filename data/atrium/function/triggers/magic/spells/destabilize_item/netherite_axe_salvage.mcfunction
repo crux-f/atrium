@@ -1,8 +1,8 @@
 # Summon the salvaged pieces of the item.
-execute at @s run summon item ~ ~ ~ {Item:{id:"minecraft:diamond",Count:3b}}
-execute at @s run summon item ~ ~ ~ {Item:{id:"minecraft:gold_ingot",Count:1b}}
-execute at @s run summon item ~ ~ ~ {Item:{id:"minecraft:stick",Count:2b}}
-execute at @s run summon item ~ ~ ~ {Item:{id:"minecraft:netherite_scrap",Count:4b}}
+execute at @s run summon item ~ ~ ~ {Item:{id:"minecraft:diamond",count:3}}
+execute at @s run summon item ~ ~ ~ {Item:{id:"minecraft:gold_ingot",count:1}}
+execute at @s run summon item ~ ~ ~ {Item:{id:"minecraft:stick",count:2}}
+execute at @s run summon item ~ ~ ~ {Item:{id:"minecraft:netherite_scrap",count:4}}
 #
 # Particles!
 execute at @s run particle item netherite_axe ~ ~ ~ 0 0 0 0.01 3 normal

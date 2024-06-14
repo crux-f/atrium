@@ -1,6 +1,6 @@
 # Summon the salvaged pieces of the item.
-execute at @s run summon item ~ ~ ~ {Item:{id:"minecraft:gold_ingot",Count:2b}}
-execute at @s run summon item ~ ~ ~ {Item:{id:"minecraft:stick",Count:1b}}
+execute at @s run summon item ~ ~ ~ {Item:{id:"minecraft:gold_ingot",count:2}}
+execute at @s run summon item ~ ~ ~ {Item:{id:"minecraft:stick",count:1}}
 #
 # Particles!
 execute at @s run particle item golden_sword ~ ~ ~ 0 0 0 0.01 3 normal

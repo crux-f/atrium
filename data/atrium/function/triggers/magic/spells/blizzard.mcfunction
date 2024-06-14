@@ -1,6 +1,6 @@
 #
 # SFX
-execute at @s run particle dust_color_transition 0.710 0.973 1.000 2 1.000 1.000 1.000 ~ ~1 ~ 0.5 0.5 0.5 0.25 50 normal
+execute at @s run particle dust_color_transition{from_color:[0.710,0.973,1.000],scale:2,to_color:[1.000,1.000,1.000]} ~ ~ ~ 0.5 0.5 0.5 0.25 50 normal
 execute at @s run playsound minecraft:entity.player.hurt_freeze player @a[distance=..15] ~ ~ ~ 0.75 0.25 0.1
 #
 # Reset the blizzard counter in case the player disconnected mid spell.

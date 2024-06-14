@@ -1,5 +1,5 @@
 # Summon the salvaged pieces of the item.
-execute at @s run summon item ~ ~ ~ {Item:{id:"minecraft:diamond",Count:7b}}
+execute at @s run summon item ~ ~ ~ {Item:{id:"minecraft:diamond",count:7}}
 #
 # Particles!
 execute at @s run particle item diamond_leggings ~ ~ ~ 0 0 0 0.01 3 normal

@@ -7,7 +7,8 @@ execute at @s positioned ^ ^ ^3 run tag @e[distance=..2,tag=!atrium_catalyze_cas
 execute at @s positioned ^ ^ ^3 unless entity @e[distance=..2,tag=!atrium_catalyze_caster,predicate=!atrium:effects/if_no_effects] run tag @s add atrium_catalyze_target
 #
 # Particles + Sounds
-execute at @s run particle dust_color_transition 1.000 0.000 0.000 1 0.031 0.000 1.000 ^ ^1.5 ^1 0.5 0.5 0.5 0.1 50 normal
+
+execute at @s run particle dust_color_transition{from_color:[1.000,0.000,0.000],scale:1,to_color:[0.031,0.000,1.000]} ^ ^1.5 ^1 0.5 0.5 0.5 0.1 50 normal
 execute at @e[tag=atrium_catalyze_target] run particle dust_color_transition 0.031 0.000 1.000 1 1.000 0.000 0.000 ~ ~ ~ 0.5 0.5 0.5 0.1 50 normal
 execute at @s run playsound minecraft:block.brewing_stand.brew player @a[distance=..10] ~ ~ ~ 1 1.5 0.1
 execute at @s run playsound minecraft:block.portal.trigger player @a[distance=..10] ~ ~ ~ 0.1 2 0.01

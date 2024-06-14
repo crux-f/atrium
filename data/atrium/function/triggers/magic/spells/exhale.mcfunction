@@ -19,13 +19,13 @@ scoreboard players operation @e[tag=atrium_exhale_target,distance=..25] atrium_x
 scoreboard players operation @e[tag=atrium_exhale_target,distance=..25] atrium_y_coordinate -= @s atrium_y_coordinate
 scoreboard players operation @e[tag=atrium_exhale_target,distance=..25] atrium_z_coordinate -= @s atrium_z_coordinate
 # Spell Level 1 (Staff Lv 2) = Set the target's Motion to 2% of the resulting difference
-execute at @s[nbt={Inventory:[{Slot:-106b,tag:{atrium_staff_lv:2b}}]}] as @e[tag=atrium_exhale_target,distance=..25] store result entity @s Motion[0] double 0.02 run scoreboard players get @s atrium_x_coordinate
-execute at @s[nbt={Inventory:[{Slot:-106b,tag:{atrium_staff_lv:2b}}]}] as @e[tag=atrium_exhale_target,distance=..25] store result entity @s Motion[1] double 0.02 run scoreboard players get @s atrium_y_coordinate
-execute at @s[nbt={Inventory:[{Slot:-106b,tag:{atrium_staff_lv:2b}}]}] as @e[tag=atrium_exhale_target,distance=..25] store result entity @s Motion[2] double 0.02 run scoreboard players get @s atrium_z_coordinate
+execute at @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{atrium_staff_lv:2b}}}]}] as @e[tag=atrium_exhale_target,distance=..25] store result entity @s Motion[0] double 0.02 run scoreboard players get @s atrium_x_coordinate
+execute at @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{atrium_staff_lv:2b}}}]}] as @e[tag=atrium_exhale_target,distance=..25] store result entity @s Motion[1] double 0.02 run scoreboard players get @s atrium_y_coordinate
+execute at @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{atrium_staff_lv:2b}}}]}] as @e[tag=atrium_exhale_target,distance=..25] store result entity @s Motion[2] double 0.02 run scoreboard players get @s atrium_z_coordinate
 # Spell Level 2 (Staff Lv 3) = Set the target's Motion to 5% of the resulting difference
-execute at @s[nbt={Inventory:[{Slot:-106b,tag:{atrium_staff_lv:3b}}]}] as @e[tag=atrium_exhale_target,distance=..25] store result entity @s Motion[0] double 0.05 run scoreboard players get @s atrium_x_coordinate
-execute at @s[nbt={Inventory:[{Slot:-106b,tag:{atrium_staff_lv:3b}}]}] as @e[tag=atrium_exhale_target,distance=..25] store result entity @s Motion[1] double 0.05 run scoreboard players get @s atrium_y_coordinate
-execute at @s[nbt={Inventory:[{Slot:-106b,tag:{atrium_staff_lv:3b}}]}] as @e[tag=atrium_exhale_target,distance=..25] store result entity @s Motion[2] double 0.05 run scoreboard players get @s atrium_z_coordinate
+execute at @s[nbt={Inventory:[{Slot:-106b,tag:{"minecraft:custom_data":{atrium_staff_lv:3b}}}]}] as @e[tag=atrium_exhale_target,distance=..25] store result entity @s Motion[0] double 0.05 run scoreboard players get @s atrium_x_coordinate
+execute at @s[nbt={Inventory:[{Slot:-106b,tag:{"minecraft:custom_data":{atrium_staff_lv:3b}}}]}] as @e[tag=atrium_exhale_target,distance=..25] store result entity @s Motion[1] double 0.05 run scoreboard players get @s atrium_y_coordinate
+execute at @s[nbt={Inventory:[{Slot:-106b,tag:{"minecraft:custom_data":{atrium_staff_lv:3b}}}]}] as @e[tag=atrium_exhale_target,distance=..25] store result entity @s Motion[2] double 0.05 run scoreboard players get @s atrium_z_coordinate
 #
 # Reset coordinate scores
 execute as @e[tag=atrium_exhale_target,distance=..25] run scoreboard players reset @s

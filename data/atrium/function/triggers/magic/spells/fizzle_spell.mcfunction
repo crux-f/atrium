@@ -6,7 +6,7 @@ function atrium:triggers/magic/spells/fizzle_spell/fizzle_fx
 # Tag player to exclude from Fizzle Spell
 tag @s add atrium_fizzle_spell_caster
 # Counter a player who is holding a staff in their off hand
-execute positioned ^ ^ ^2.5 as @p[predicate=atrium:player/targetable_and_visible,tag=!atrium_fizzle_spell_caster,distance=..15,nbt={Inventory:[{Slot:-106b,tag:{atrium_staff:1b}}]}] run function atrium:triggers/magic/spells/fizzle_spell/counter_staff_player
+execute positioned ^ ^ ^2.5 as @p[predicate=atrium:player/targetable_and_visible,tag=!atrium_fizzle_spell_caster,distance=..15,nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{atrium_staff:1b}}}]}] run function atrium:triggers/magic/spells/fizzle_spell/counter_staff_player
 # Stop spell if it already found and dispelled a valid target.
 execute unless entity @s[tag=atrium_fizzle_spell_caster] run return 1
 #

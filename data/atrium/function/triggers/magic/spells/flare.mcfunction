@@ -1,6 +1,6 @@
 # Creates a light!
-execute if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_staff_lv:2b}}]} positioned ~ ~3 ~ if block ~ ~ ~ minecraft:air run summon minecraft:marker ~ ~ ~ {Tags:["atrium_special","atrium_temporary_entity","atrium_temporary_block","atrium_flare_spell","atrium_particle"],data:{Level:1}}
-execute if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_staff_lv:3b}}]} positioned ~ ~3 ~ if block ~ ~ ~ minecraft:air run summon minecraft:marker ~ ~ ~ {Tags:["atrium_special","atrium_temporary_entity","atrium_temporary_block","atrium_flare_spell","atrium_particle"],data:{Level:2}}
+execute if data entity @s {Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{atrium_staff_lv:2b}}}]} positioned ~ ~3 ~ if block ~ ~ ~ minecraft:air run summon minecraft:marker ~ ~ ~ {Tags:["atrium_special","atrium_temporary_entity","atrium_temporary_block","atrium_flare_spell","atrium_particle"],data:{Level:1}}
+execute if data entity @s {Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{atrium_staff_lv:3b}}}]} positioned ~ ~3 ~ if block ~ ~ ~ minecraft:air run summon minecraft:marker ~ ~ ~ {Tags:["atrium_special","atrium_temporary_entity","atrium_temporary_block","atrium_flare_spell","atrium_particle"],data:{Level:2}}
 #
 # Fail Particles
 execute unless entity @e[tag=atrium_flare_spell,distance=..5] run particle minecraft:smoke ~ ~1.25 ~ 0.25 0.25 0.25 0 15 normal
@@ -15,8 +15,8 @@ execute at @e[tag=atrium_flare_spell,distance=..5] run playsound minecraft:ui.to
 # Set the timer (how long until temporary_entity_manager removes the light):
 # Level 1 = 2 minutes / 2400 ticks
 # Level 2 = 5 minutes / 6000 ticks
-execute if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_staff_lv:2b}}]} run scoreboard players set @e[tag=atrium_flare_spell,distance=..5] charge -2400
-execute if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_staff_lv:3b}}]} run scoreboard players set @e[tag=atrium_flare_spell,distance=..5] charge -6000
+execute if data entity @s {Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{atrium_staff_lv:2b}}}]} run scoreboard players set @e[tag=atrium_flare_spell,distance=..5] charge -2400
+execute if data entity @s {Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{atrium_staff_lv:3b}}}]} run scoreboard players set @e[tag=atrium_flare_spell,distance=..5] charge -6000
 #
 # Create the light block
 execute at @e[tag=atrium_flare_spell,distance=..5] run setblock ~ ~ ~ minecraft:light[level=15]

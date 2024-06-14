@@ -18,9 +18,9 @@ tag @s remove atrium_parallax_immune
 execute at @e[tag=atrium_parallax_target] run particle minecraft:warped_spore ~ ~ ~ 0.5 0.5 0.5 1 150
 # Give target slow falling to keep them safe in the demiplane
 # I = 6 seconds, II = 8 seconds, III = 10 seconds | Adding +1 second for safety
-execute if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_staff_lv:1b}}]} run effect give @e[tag=atrium_parallax_target] minecraft:slow_falling 7 0 true
-execute if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_staff_lv:2b}}]} run effect give @e[tag=atrium_parallax_target] minecraft:slow_falling 9 0 true
-execute if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_staff_lv:3b}}]} run effect give @e[tag=atrium_parallax_target] minecraft:slow_falling 11 0 true
+execute if data entity @s {Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{atrium_staff_lv:1b}}}]} run effect give @e[tag=atrium_parallax_target] minecraft:slow_falling 7 0 true
+execute if data entity @s {Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{atrium_staff_lv:2b}}}]} run effect give @e[tag=atrium_parallax_target] minecraft:slow_falling 9 0 true
+execute if data entity @s {Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{atrium_staff_lv:3b}}}]} run effect give @e[tag=atrium_parallax_target] minecraft:slow_falling 11 0 true
 #
 # If the target isn't a player, set it to not despawn
 data merge entity @e[tag=atrium_parallax_target,type=!minecraft:player,limit=1] {PersistenceRequired:1b}
@@ -48,9 +48,9 @@ execute store result score @e[tag=atrium_parallax_target,distance=..5] atrium_pa
 #
 # Set the duration of the spell depending on staff level
 # I = 6 seconds, II = 8 seconds, III = 10 seconds
-execute if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_staff_lv:1b}}]} run scoreboard players set @e[tag=atrium_parallax_target,distance=..5] atrium_parallax_timer 120
-execute if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_staff_lv:2b}}]} run scoreboard players set @e[tag=atrium_parallax_target,distance=..5] atrium_parallax_timer 160
-execute if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_staff_lv:3b}}]} run scoreboard players set @e[tag=atrium_parallax_target,distance=..5] atrium_parallax_timer 200
+execute if data entity @s {Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{atrium_staff_lv:1b}}}]} run scoreboard players set @e[tag=atrium_parallax_target,distance=..5] atrium_parallax_timer 120
+execute if data entity @s {Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{atrium_staff_lv:2b}}}]} run scoreboard players set @e[tag=atrium_parallax_target,distance=..5] atrium_parallax_timer 160
+execute if data entity @s {Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{atrium_staff_lv:3b}}}]} run scoreboard players set @e[tag=atrium_parallax_target,distance=..5] atrium_parallax_timer 200
 #
 # If the target isn't a player, teleport them to y 2000
 execute as @e[tag=atrium_parallax_target,type=!minecraft:player] at @s run tp @s ~ 2000 ~

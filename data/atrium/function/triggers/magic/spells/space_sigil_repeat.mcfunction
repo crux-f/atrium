@@ -1,8 +1,9 @@
 # Particle animations
-execute at @e[tag=atrium_space_sigil_dummy] run particle dust_color_transition 0.318 0.267 0.431 1 0.180 0.180 0.180 ^0.4 ^ ^ 0 0 0 0.1 0 normal
-execute at @e[tag=atrium_space_sigil_dummy] run particle dust_color_transition 0.318 0.267 0.431 1 0.180 0.180 0.180 ^-0.4 ^ ^ 0 0 0 0.1 0 normal
-execute at @e[tag=atrium_space_sigil_dummy] run particle dust_color_transition 0.318 0.267 0.431 1 0.180 0.180 0.180 ^ ^ ^0.4 0 0 0 0.1 0 normal
-execute at @e[tag=atrium_space_sigil_dummy] run particle dust_color_transition 0.318 0.267 0.431 1 0.180 0.180 0.180 ^ ^ ^-0.4 0 0 0 0.1 0 normal
+
+execute at @e[tag=atrium_space_sigil_dummy] run particle dust_color_transition{from_color:[0.318,0.267,0.431],scale:1,to_color:[0.180,0.180,0.180]} ^0.4 ^ ^ 0 0 0 0.1 1 normal
+execute at @e[tag=atrium_space_sigil_dummy] run particle dust_color_transition{from_color:[0.318,0.267,0.431],scale:1,to_color:[0.180,0.180,0.180]} ^-0.4 ^ ^ 0 0 0 0.1 1 normal
+execute at @e[tag=atrium_space_sigil_dummy] run particle dust_color_transition{from_color:[0.318,0.267,0.431],scale:1,to_color:[0.180,0.180,0.180]} ^ ^ ^0.4 0 0 0 0.1 1 normal
+execute at @e[tag=atrium_space_sigil_dummy] run particle dust_color_transition{from_color:[0.318,0.267,0.431],scale:1,to_color:[0.180,0.180,0.180]} ^ ^ ^-0.4 0 0 0 0.1 1 normal
 execute as @e[tag=atrium_space_sigil_dummy] at @s run tp @s ~ ~ ~ ~-2.5 ~0
 #
 execute at @e[tag=atrium_space_sigil_decor_pearl] run particle minecraft:portal ~ ~ ~ 0 0 0 1.2 1 normal

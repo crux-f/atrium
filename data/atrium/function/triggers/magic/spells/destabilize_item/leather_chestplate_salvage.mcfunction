@@ -1,5 +1,5 @@
 # Summon the salvaged pieces of the item.
-execute at @s run summon item ~ ~ ~ {Item:{id:"minecraft:leather",Count:8b}}
+execute at @s run summon item ~ ~ ~ {Item:{id:"minecraft:leather",count:8}}
 #
 # Particles!
 execute at @s run particle item leather_chestplate ~ ~ ~ 0 0 0 0.01 3 normal

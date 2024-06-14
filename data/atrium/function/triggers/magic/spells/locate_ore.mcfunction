@@ -1,6 +1,6 @@
 # FX
-particle dust_color_transition 0.749 0.749 0.749 2 0.722 1.000 0.702 ~ ~ ~ 1.5 0 0 1 50 normal
-particle dust_color_transition 0.749 0.749 0.749 2 0.722 1.000 0.702 ~ ~ ~ 0 0 1.5 1 50 normal
+particle dust_color_transition{from_color:[0.749,0.749,0.749],scale:2,to_color:[0.722,1.000,0.702]} ~ ~ ~ 1.5 0 0 1 50 normal
+particle dust_color_transition{from_color:[0.749,0.749,0.749],scale:2,to_color:[0.722,1.000,0.702]} ~ ~ ~ 0 0 1.5 1 50 normal
 playsound minecraft:block.amethyst_block.step player @a[distance=..20] ~ ~ ~ 0.9 0.25 0.1
 #
 # Scan the 3x3 cube around you for ores...
@@ -38,7 +38,7 @@ execute positioned ~3 ~-2 ~-3 run function atrium:triggers/magic/spells/locate_o
 execute positioned ~-3 ~-2 ~-3 run function atrium:triggers/magic/spells/locate_ore_3x3_cube
 #
 # LEVEL 3 ONLY - Scan out to 15x15
-execute if entity @s[nbt={Inventory:[{Slot:-106b,tag:{atrium_staff_lv:3b}}]}] run function atrium:triggers/magic/spells/locate_ore_additional_range
+execute if entity @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{atrium_staff_lv:3b}}}]}] run function atrium:triggers/magic/spells/locate_ore_additional_range
 #
 # Glow
 team join atrium_glow_black @e[tag=atrium_coal_marker]

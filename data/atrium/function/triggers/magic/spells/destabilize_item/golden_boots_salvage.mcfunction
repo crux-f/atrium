@@ -1,5 +1,5 @@
 # Summon the salvaged pieces of the item.
-execute at @s run summon item ~ ~ ~ {Item:{id:"minecraft:gold_ingot",Count:4b}}
+execute at @s run summon item ~ ~ ~ {Item:{id:"minecraft:gold_ingot",count:4}}
 #
 # Particles!
 execute at @s run particle item golden_boots ~ ~ ~ 0 0 0 0.01 3 normal

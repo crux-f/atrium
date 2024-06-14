@@ -1,6 +1,6 @@
 # Summon the salvaged pieces of the item.
-execute at @s run summon item ~ ~ ~ {Item:{id:"minecraft:iron_ingot",Count:3b}}
-execute at @s run summon item ~ ~ ~ {Item:{id:"minecraft:stick",Count:2b}}
+execute at @s run summon item ~ ~ ~ {Item:{id:"minecraft:iron_ingot",count:3}}
+execute at @s run summon item ~ ~ ~ {Item:{id:"minecraft:stick",count:2}}
 #
 # Particles!
 execute at @s run particle item iron_pickaxe ~ ~ ~ 0 0 0 0.01 3 normal

@@ -8,7 +8,7 @@ execute at @s positioned ^ ^ ^1 run data modify entity @e[limit=1,tag=atrium_met
 # SFX
 #
 execute at @s anchored eyes run particle minecraft:flame ^ ^ ^1.5 0.25 0.25 0.25 0.1 50
-execute at @s anchored eyes run particle dust_color_transition 1.000 0.267 0.000 1 0.129 0.039 0.000 ^ ^ ^1.5 0.45 0.45 0.45 0.5 75 normal
+execute at @s anchored eyes run particle dust_color_transition{from_color:[1.000,0.267,0.000],scale:1,to_color:[0.129,0.039,0.000]} ^ ^ ^1.5 0.45 0.45 0.45 0.5 75 normal
 playsound minecraft:entity.player.attack.crit player @a[distance=..15] ~ ~ ~ 1 0 0.25
 #
 # Spell cleanup

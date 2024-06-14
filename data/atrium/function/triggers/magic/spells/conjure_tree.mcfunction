@@ -10,7 +10,7 @@ execute positioned ^ ^ ^3 if block ~ ~ ~ minecraft:warped_nylium run summon mine
 # That script also automatically removes blocks placed by this spell after 2 minutes for level I and 5 minutes after level II.
 # Now to actually place them! Run the script controlling the tree growth animation.
 #
-execute if entity @s[nbt={Inventory:[{Slot:-106b,tag:{atrium_staff_lv:3b}}]}] run tag @e[tag=atrium_conjured_tree_root,distance=..10] add atrium_longer_duration
+execute if entity @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{atrium_staff_lv:3b}}}]}] run tag @e[tag=atrium_conjured_tree_root,distance=..10] add atrium_longer_duration
 execute unless entity @e[tag=atrium_conjured_tree_root,distance=..10] run function atrium:triggers/magic/spells/conjure_tree/no_ground_err
 # Set timer
 execute as @e[tag=atrium_conjured_tree_root,distance=..10] run scoreboard players set @s charge -40

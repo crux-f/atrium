@@ -1,3 +1,3 @@
 # Splitting this into 2 different scripts to avoid confusion since Level II gets a totally new ability.
-execute if entity @s[nbt={Inventory:[{Slot:-106b,tag:{atrium_staff_lv:2b}}]}] run function atrium:triggers/magic/spells/pocket_item_1_setup
-execute if entity @s[nbt={Inventory:[{Slot:-106b,tag:{atrium_staff_lv:3b}}]}] run function atrium:triggers/magic/spells/pocket_item_2_setup
+execute if entity @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{atrium_staff_lv:2b}}}]}] run function atrium:triggers/magic/spells/pocket_item_1_setup
+execute if entity @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{atrium_staff_lv:3b}}}]}] run function atrium:triggers/magic/spells/pocket_item_2_setup

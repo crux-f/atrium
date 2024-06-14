@@ -1,5 +1,5 @@
 # Summon the salvaged pieces of the item.
-execute at @s run summon item ~ ~ ~ {Item:{id:"minecraft:iron_ingot",Count:5b}}
+execute at @s run summon item ~ ~ ~ {Item:{id:"minecraft:iron_ingot",count:5}}
 #
 # Particles!
 execute at @s run particle item iron_helmet ~ ~ ~ 0 0 0 0.01 3 normal

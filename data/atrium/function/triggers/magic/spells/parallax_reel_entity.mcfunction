@@ -11,4 +11,4 @@ execute if entity @s[predicate=atrium:in_the_nether] in minecraft:the_nether at 
 execute if entity @s[predicate=atrium:in_the_end] in minecraft:the_end at @s positioned ~0.5 ~ ~0.5 run tp @e[tag=atrium_parallax_target,limit=1,sort=random] ~ ~ ~
 execute if entity @s[predicate=atrium:in_the_meridian] in atrium:the_meridian at @s positioned ~0.5 ~ ~0.5 run tp @e[tag=atrium_parallax_target,limit=1,sort=random] ~ ~ ~
 execute if entity @s[predicate=atrium:in_the_depths] in atrium:the_depths at @s positioned ~0.5 ~ ~0.5 run tp @e[tag=atrium_parallax_target,limit=1,sort=random] ~ ~ ~
-# execute if entity @s[predicate=atrium:in_the_abyss] in atrium:the_abyss at @s positioned ~0.5 ~ ~0.5 run tp @e[tag=atrium_parallax_target,limit=1,sort=random] ~ ~ ~
+execute if entity @s[predicate=atrium:in_the_abyss] in atrium:the_abyss at @s positioned ~0.5 ~ ~0.5 run tp @e[tag=atrium_parallax_target,limit=1,sort=random] ~ ~ ~

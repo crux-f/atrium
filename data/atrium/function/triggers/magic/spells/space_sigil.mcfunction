@@ -13,13 +13,13 @@ summon ender_pearl ~ ~2 ~ {NoGravity:1b,Motion:[0.0,0.003,0.0],Tags:["atrium_spa
 # Tag the caster as "hooked" by this spell
 tag @s add atrium_space_sigil_hook
 # Radius of field upgrades based on spell level
-execute if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_staff_lv:1b}}]} run summon area_effect_cloud ~ ~ ~ {Particle:"reverse_portal",CustomNameVisible:0b,Radius:1f,Duration:200,Tags:["atrium_space_sigil"],Potion:"minecraft:empty",CustomName:'{"text":"Space Sigil I"}'}
-execute if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_staff_lv:2b}}]} run summon area_effect_cloud ~ ~ ~ {Particle:"reverse_portal",CustomNameVisible:0b,Radius:2f,Duration:300,Tags:["atrium_space_sigil"],Potion:"minecraft:empty",CustomName:'{"text":"Space Sigil II"}'}
-execute if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_staff_lv:3b}}]} run summon area_effect_cloud ~ ~ ~ {Particle:"reverse_portal",CustomNameVisible:0b,Radius:3f,Duration:400,Tags:["atrium_space_sigil"],Potion:"minecraft:empty",CustomName:'{"text":"Space Sigil III"}'}
+execute if data entity @s {Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{atrium_staff_lv:1b}}}]} run summon area_effect_cloud ~ ~ ~ {CustomName: '{"text":"Space Sigil I"}', CustomNameVisible: 0b, Duration: 200, Particle: {type: "minecraft:reverse_portal"}, Radius: 1.0f, Tags: ["atrium_space_sigil"], potion_contents: {potion: "minecraft:empty"}}
+execute if data entity @s {Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{atrium_staff_lv:2b}}}]} run summon area_effect_cloud ~ ~ ~ {CustomName: '{"text":"Space Sigil II"}', CustomNameVisible: 0b, Duration: 300, Particle: {type: "minecraft:reverse_portal"}, Radius: 2.0f, Tags: ["atrium_space_sigil"], potion_contents: {potion: "minecraft:empty"}}
+execute if data entity @s {Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{atrium_staff_lv:3b}}}]} run summon area_effect_cloud ~ ~ ~ {CustomName: '{"text":"Space Sigil III"}', CustomNameVisible: 0b, Duration: 400, Particle: {type: "minecraft:reverse_portal"}, Radius: 3.0f, Tags: ["atrium_space_sigil"], potion_contents: {potion: "minecraft:empty"}}
 # Set the 'charge' score of the new sigil to the spell level.
-execute if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_staff_lv:1b}}]} run scoreboard players set @e[tag=atrium_space_sigil,distance=..1,sort=nearest] charge 1
-execute if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_staff_lv:2b}}]} run scoreboard players set @e[tag=atrium_space_sigil,distance=..1,sort=nearest] charge 2
-execute if data entity @s {Inventory:[{Slot:-106b,tag:{atrium_staff_lv:3b}}]} run scoreboard players set @e[tag=atrium_space_sigil,distance=..1,sort=nearest] charge 3
+execute if data entity @s {Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{atrium_staff_lv:1b}}}]} run scoreboard players set @e[tag=atrium_space_sigil,distance=..1,sort=nearest] charge 1
+execute if data entity @s {Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{atrium_staff_lv:2b}}}]} run scoreboard players set @e[tag=atrium_space_sigil,distance=..1,sort=nearest] charge 2
+execute if data entity @s {Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{atrium_staff_lv:3b}}}]} run scoreboard players set @e[tag=atrium_space_sigil,distance=..1,sort=nearest] charge 3
 #
 # Run repeat script. Sigil triggers when area effect cloud runs out.
 function atrium:triggers/magic/spells/space_sigil_repeat

@@ -7,7 +7,7 @@ execute as @a[tag=atrium_pocket_item_caster] run scoreboard players set @s atriu
 # Teleport the held item into the player's Ender Chest. If the player is holding a power slot item, let them know it didn't work.
 #
 # If the item you are holding is a power slot, stop the show.
-execute as @a[tag=atrium_pocket_item_caster] if entity @s[nbt={SelectedItem:{tag:{atrium_power:1b}}}] run scoreboard players set @s atrium_pocket_item_flag 1
+execute as @a[tag=atrium_pocket_item_caster] if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{atrium_power:1b}}}}] run scoreboard players set @s atrium_pocket_item_flag 1
 #
 # Cycles through until it finds an available slot. atrium_pocket_item_flag is used to compress it into one command so I don't need to make 27 script files. (1 for each slot check)
 execute as @a[tag=atrium_pocket_item_caster,scores={atrium_pocket_item_flag=0}] unless entity @s[nbt={EnderItems:[{Slot:0b}]}] store success score @s atrium_pocket_item_flag run item replace entity @s enderchest.0 from entity @s weapon.mainhand
@@ -39,7 +39,7 @@ execute as @a[tag=atrium_pocket_item_caster,scores={atrium_pocket_item_flag=0}] 
 execute as @a[tag=atrium_pocket_item_caster,scores={atrium_pocket_item_flag=0}] unless entity @s[nbt={EnderItems:[{Slot:26b}]}] store success score @s atrium_pocket_item_flag run item replace entity @s enderchest.26 from entity @s weapon.mainhand
 #
 # If it was successful, remove the item in your main hand.
-execute as @a[tag=atrium_pocket_item_caster,scores={atrium_pocket_item_flag=1}] unless entity @s[nbt={SelectedItem:{tag:{atrium_power:1b}}}] run item replace entity @s weapon.mainhand with minecraft:air
+execute as @a[tag=atrium_pocket_item_caster,scores={atrium_pocket_item_flag=1}] unless entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{atrium_power:1b}}}}] run item replace entity @s weapon.mainhand with minecraft:air
 #
 # Remove success flag
 scoreboard players reset @a[tag=atrium_pocket_item_caster] atrium_pocket_item_flag
