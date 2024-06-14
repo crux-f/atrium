@@ -1,4 +1,4 @@
-{
+  {
     "type": "advancement_reward",
     "pools": [
       {
@@ -8,17 +8,37 @@
           {
             "type": "item",
             "weight": 1,
-            "name": "minecraft:map",
+            "name": "minecraft:filled_map",
             "functions": [
               {
-                "function": "minecraft:exploration_map",
-                "destination": "atrium:depths_entrances",
-                "decoration": "target_point",
-                "skip_existing_chunks": true
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "atrium_depths_entrance_map": 1
+                  },
+                  "minecraft:map_color": 2694707
+                }
               },
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{display:{Name:'{\"text\":\"Explorer Map\",\"italic\":false}',Lore:['{\"text\":\"Seems to lead... Somewhere\"}','{\"text\":\"beneath the bedrock layer?\"}'],MapColor:2694707},atrium_depths_entrance_map:1b}"
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Depths Explorer Map"
+                  }
+                ],
+                "target": "item_name"
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "text": "Seems to lead... Somewhere"
+                  },
+                  {
+                    "text": "beneath the bedrock layer?"
+                  }
+                ],
+                "mode": "append"
               }
             ]
           }

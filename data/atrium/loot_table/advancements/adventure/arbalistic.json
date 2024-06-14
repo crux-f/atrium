@@ -8,6 +8,7 @@
           {
             "type": "item",
             "weight": 1,
+            "quality": 0,
             "name": "minecraft:tipped_arrow",
             "functions": [
               {
@@ -15,8 +16,26 @@
                 "count": 4
               },
               {
-                "function": "set_nbt",
-                "tag": "{display:{Name:'{\"text\":\"Holy Arrow\",\"color\":\"yellow\",\"italic\":false}'},atrium_holy_arrow:1b,Potion:\"minecraft:strong_healing\",CustomPotionColor:16577536}"
+                "function": "set_components",
+                "components": {
+                  "minecraft:rarity": "uncommon",
+                  "minecraft:custom_data": {
+                    "atrium_holy_arrow": 1
+                  },
+                  "minecraft:potion_contents": {
+                    "potion": "minecraft:strong_healing",
+                    "custom_color": 16577536
+                  }
+                }
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Holy Arrow"
+                  }
+                ],
+                "target": "item_name"
               }
             ]
           }
