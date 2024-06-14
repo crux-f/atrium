@@ -1,3 +1,3 @@
 # /give command for special items
 give @s minecraft:chest[minecraft:lore=['{"text":"Unlocked using a Snowy House Key."}'],minecraft:container_loot={loot_table:"atrium:chests/special/locked_village_snowy_house"},minecraft:lock="§aSnowy House Key",minecraft:custom_name='{"text":"Snowy House Chest","color":"green","italic":false}'] 1
-give @s minecraft:gold_nugget[minecraft:custom_model_data=333070,minecraft:item_name:'{"text":"Mangled Key"}',minecraft:custom_name='{"text":"§aSnowy House Key","italic":false}',minecraft:custom_data={atrium_village_snowy_house_key:1b}] 1
+give @s minecraft:gold_nugget[minecraft:custom_model_data=333070,minecraft:item_name='{"text":"Mangled Key"}',minecraft:custom_name='{"text":"§aSnowy House Key","italic":false}',minecraft:custom_data={atrium_village_snowy_house_key:1b}] 1

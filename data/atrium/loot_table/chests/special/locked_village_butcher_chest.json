@@ -14,13 +14,17 @@
               "predicate": {
                 "equipment": {
                   "mainhand": {
-                    "nbt": "{atrium_village_butcher_key:1b}"
+                    "components": {
+                      "minecraft:custom_data": {
+                        "atrium_village_butcher_key": 1
+                      }
+                    }
                   }
                 }
               }
             }
           ],
-          "name": "atrium:chests/vanilla_chest_additions/village/village_butcher"
+          "value": "atrium:chests/vanilla_chest_additions/village/village_butcher"
         }
       ]
     }

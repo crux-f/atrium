@@ -14,13 +14,17 @@
               "predicate": {
                 "equipment": {
                   "mainhand": {
-                    "nbt": "{atrium_outpost_key:1b}"
+                    "components": {
+                      "minecraft:custom_data": {
+                        "atrium_outpost_key": 1
+                      }
+                    }
                   }
                 }
               }
             }
           ],
-          "name": "minecraft:chests/pillager_outpost"
+          "value": "minecraft:chests/pillager_outpost"
         }
       ]
     }

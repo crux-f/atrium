@@ -1,3 +1,3 @@
 # /give command for special items
 give @s minecraft:chest[minecraft:lore=['{"text":"Unlocked using an Farmer Key."}'],minecraft:container_loot={loot_table:"atrium:chests/special/locked_village_farmer_chest"},minecraft:lock="§aFarmer Key",minecraft:custom_name='{"text":"Farmer\'s Chest","color":"green","italic":false}'] 1
-give @s minecraft:gold_nugget[minecraft:custom_model_data=333070,minecraft:item_name:'{"text":"Mangled Key"}',minecraft:custom_name='{"text":"§aFarmer Key","italic":false}',minecraft:custom_data={atrium_village_farmer_key:1b}] 1
+give @s minecraft:gold_nugget[minecraft:custom_model_data=333070,minecraft:item_name='{"text":"Mangled Key"}',minecraft:custom_name='{"text":"§aFarmer Key","italic":false}',minecraft:custom_data={atrium_village_farmer_key:1b}] 1
