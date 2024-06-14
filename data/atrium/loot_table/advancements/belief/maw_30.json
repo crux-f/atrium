@@ -1,22 +1,61 @@
 {
-    "type": "advancement_reward",
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "item",
-            "weight": 1,
-            "name": "minecraft:player_head",
-            "functions": [
-              {
-                "function": "minecraft:set_nbt",
-                "tag": "{display:{Name:'{\"text\":\"Ancient Symbol\",\"color\":\"gray\",\"italic\":false}',Lore:['{\"text\":\"The Maw\",\"color\":\"dark_red\",\"italic\":false}']},atrium_maw_symbol:1b,SkullOwner:{Id:[I;81489484,-1263451975,-1084266018,2061566295],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmRjNDJiOWU2YzFlM2JjYjllMDRhYzdhOTE1YjVhNDQ3ZTc5MjVhMzYxZmNkNjg0YWVjN2UzNmY1YTljYTA3YyJ9fX0=\"}]}}}"
+  "type": "advancement_reward",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:rarity": "rare",
+                "minecraft:custom_data": {
+                  "atrium_maw_symbol": 1
+                },
+                "minecraft:profile": {
+                  "id": [
+                    81489484,
+                    -1263451975,
+                    -1084266018,
+                    2061566295
+                  ],
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmRjNDJiOWU2YzFlM2JjYjllMDRhYzdhOTE1YjVhNDQ3ZTc5MjVhMzYxZmNkNjg0YWVjN2UzNmY1YTljYTA3YyJ9fX0="
+                    }
+                  ]
+                },
+                "minecraft:note_block_sound": "atrium:favor.maw"
               }
-            ]
-          }
-        ]
-      }
-    ]
-  }
-  
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Ancient Symbol"
+                }
+              ],
+              "target": "item_name"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "color": "dark_red",
+                  "italic": false,
+                  "text": "The Maw"
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

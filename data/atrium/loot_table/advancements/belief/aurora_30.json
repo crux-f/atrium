@@ -1,22 +1,61 @@
 {
-    "type": "advancement_reward",
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
+  "type": "advancement_reward",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:player_head",
+          "functions": [
             {
-                "type": "item",
-                "weight": 1,
-                "name": "minecraft:player_head",
-                "functions": [
-                  {
-                    "function": "set_nbt",
-                    "tag": "{display:{Name:'{\"text\":\"Holy Symbol\",\"italic\":false}',Lore:['{\"text\":\"Aurora, The Hushed Horizon\",\"color\":\"gray\",\"italic\":false}']},atrium_aurora_symbol:1b,SkullOwner:{Id:[I;-235099828,820724806,-1336723071,-258799203],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTIzYjUyNWY2YjRhODJjYjExNzFhYzAyNWVlNzU2YjNjYmQxZTM1NDJkOTMwOGY2ZjU1MmUyZTFmZTc5YjMzZSJ9fX0=\"}]}}}"
-                  }
-                ]
+              "function": "set_components",
+              "components": {
+                "minecraft:rarity": "uncommon",
+                "minecraft:custom_data": {
+                  "atrium_aurora_symbol": 1
+                },
+                "minecraft:profile": {
+                  "id": [
+                    -235099828,
+                    820724806,
+                    -1336723071,
+                    -258799203
+                  ],
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTIzYjUyNWY2YjRhODJjYjExNzFhYzAyNWVlNzU2YjNjYmQxZTM1NDJkOTMwOGY2ZjU1MmUyZTFmZTc5YjMzZSJ9fX0="
+                    }
+                  ]
+                },
+                "minecraft:note_block_sound": "atrium:favor.aurora"
               }
-        ]
-      }
-    ]
-  }
-  
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Holy Symbol"
+                }
+              ],
+              "target": "item_name"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "color": "gray",
+                  "italic": false,
+                  "text": "Aurora, The Hushed Horizon"
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
