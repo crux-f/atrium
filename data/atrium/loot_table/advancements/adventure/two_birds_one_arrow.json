@@ -20,7 +20,6 @@
                     "minecraft:attribute_modifiers": [
                       {
                         "type": "generic.attack_speed",
-                        "name": "bayonet_attack_speed",
                         "amount": -2.8,
                         "operation": "add_value",
                         "slot": "mainhand",
@@ -28,7 +27,6 @@
                       },
                       {
                         "type": "generic.attack_damage",
-                        "name": "bayonet_attack_damage",
                         "amount": 5,
                         "operation": "add_value",
                         "slot": "mainhand",
