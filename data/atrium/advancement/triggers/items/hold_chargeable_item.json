@@ -16,7 +16,7 @@
               },
               "equipment": {
                 "offhand": {
-                  "components": {
+                  "predicates": {
                     "minecraft:custom_data": {
                       "atrium_chargeable": 1
                     }
