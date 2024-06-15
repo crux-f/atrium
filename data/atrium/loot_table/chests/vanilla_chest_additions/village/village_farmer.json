@@ -112,25 +112,13 @@
           "type": "item",
           "weight": 15,
           "quality": 3,
-          "name": "minecraft:golden_apple",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            }
-          ]
+          "name": "minecraft:golden_apple"
         },
         {
           "type": "item",
           "weight": 15,
           "quality": 3,
-          "name": "minecraft:cake",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            }
-          ]
+          "name": "minecraft:cake"
         },
         {
           "type": "item",
@@ -207,6 +195,20 @@
           "type": "item",
           "weight": 30,
           "name": "minecraft:acacia_sapling",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:cherry_sapling",
           "functions": [
             {
               "function": "set_count",

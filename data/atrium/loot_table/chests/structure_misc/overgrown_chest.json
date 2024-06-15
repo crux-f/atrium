@@ -12,12 +12,15 @@
           "name": "minecraft:suspicious_stew",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{Effects:[{EffectId:9,EffectDuration:40}]}"
+              "function": "set_components",
+              "components": {
+                "minecraft:suspicious_stew_effects": [
+                  {
+                    "id": "minecraft:nausea",
+                    "duration": 40
+                  }
+                ]
+              }
             }
           ]
         },
@@ -25,37 +28,19 @@
           "type": "item",
           "weight": 1,
           "quality": 1,
-          "name": "minecraft:mushroom_stew",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            }
-          ]
+          "name": "minecraft:mushroom_stew"
         },
         {
           "type": "item",
           "weight": 1,
           "quality": -1,
-          "name": "minecraft:bowl",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            }
-          ]
+          "name": "minecraft:bowl"
         },
         {
           "type": "item",
           "weight": 2,
           "quality": -1,
-          "name": "minecraft:lantern",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            }
-          ]
+          "name": "minecraft:lantern"
         },
         {
           "type": "item",
@@ -63,10 +48,6 @@
           "quality": 0,
           "name": "minecraft:iron_pickaxe",
           "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
             {
               "function": "set_damage",
               "damage": {
@@ -115,25 +96,13 @@
         {
           "type": "item",
           "weight": 3,
-          "name": "minecraft:vine",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            }
-          ]
+          "name": "minecraft:vine"
         },
         {
           "type": "item",
           "weight": 2,
           "quality": 0,
-          "name": "minecraft:stick",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            }
-          ]
+          "name": "minecraft:stick"
         },
         {
           "type": "item",

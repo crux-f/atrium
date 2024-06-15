@@ -11,12 +11,48 @@
             "name": "minecraft:player_head",
             "functions": [
               {
-                "function": "set_count",
-                "count": 1
+                "function": "set_components",
+                "components": {
+                  "minecraft:rarity": "uncommon",
+                  "minecraft:custom_data": {
+                    "atrium_aurora_symbol": 1
+                  },
+                  "minecraft:profile": {
+                    "id": [
+                      -235099828,
+                      820724806,
+                      -1336723071,
+                      -258799203
+                    ],
+                    "properties": [
+                      {
+                        "name": "textures",
+                        "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTIzYjUyNWY2YjRhODJjYjExNzFhYzAyNWVlNzU2YjNjYmQxZTM1NDJkOTMwOGY2ZjU1MmUyZTFmZTc5YjMzZSJ9fX0="
+                      }
+                    ]
+                  },
+                  "minecraft:note_block_sound": "atrium:favor.aurora"
+                }
               },
               {
-                "function": "set_nbt",
-                "tag": "{display:{Name:'{\"text\":\"Holy Symbol\",\"italic\":false}',Lore:['{\"text\":\"Aurora, The Hushed Horizon\",\"color\":\"gray\",\"italic\":false}']},aurora_symbol:1b,SkullOwner:{Id:[I;-235099828,820724806,-1336723071,-258799203],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTIzYjUyNWY2YjRhODJjYjExNzFhYzAyNWVlNzU2YjNjYmQxZTM1NDJkOTMwOGY2ZjU1MmUyZTFmZTc5YjMzZSJ9fX0=\"}]}}}"
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Holy Symbol"
+                  }
+                ],
+                "target": "item_name"
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Aurora, The Hushed Horizon"
+                  }
+                ],
+                "mode": "append"
               }
             ]
           },
@@ -26,12 +62,48 @@
             "name": "minecraft:player_head",
             "functions": [
               {
-                "function": "set_count",
-                "count": 1
+                "function": "set_components",
+                "components": {
+                  "minecraft:rarity": "uncommon",
+                  "minecraft:custom_data": {
+                    "atrium_chorus_symbol": 1
+                  },
+                  "minecraft:profile": {
+                    "id": [
+                      -470691679,
+                      1949517324,
+                      -2054168775,
+                      -2089191452
+                    ],
+                    "properties": [
+                      {
+                        "name": "textures",
+                        "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjYwYjFjOGQ2Yzc4YjkyNWVmYjVmMGNhZTZjNWM4ZGI4OWMyYjQ4ZTFkZGUwYzMyOWQ2MjY2MDZiNzQ5NmEwYSJ9fX0="
+                      }
+                    ]
+                  },
+                  "minecraft:note_block_sound": "atrium:favor.chorus"
+                }
               },
               {
-                "function": "set_nbt",
-                "tag": "{display:{Name:'{\"text\":\"Holy Symbol\",\"italic\":false}',Lore:['{\"text\":\"Chorus, The Argent Moon\",\"color\":\"light_purple\",\"italic\":false}']},chorus_symbol:1b,SkullOwner:{Id:[I;-470691679,1949517324,-2054168775,-2089191452],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjYwYjFjOGQ2Yzc4YjkyNWVmYjVmMGNhZTZjNWM4ZGI4OWMyYjQ4ZTFkZGUwYzMyOWQ2MjY2MDZiNzQ5NmEwYSJ9fX0=\"}]}}}"
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Holy Symbol"
+                  }
+                ],
+                "target": "item_name"
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "color": "light_purple",
+                    "italic": false,
+                    "text": "Chorus, The Argent Moon"
+                  }
+                ],
+                "mode": "append"
               }
             ]
           },
@@ -41,12 +113,48 @@
             "name": "minecraft:player_head",
             "functions": [
               {
-                "function": "set_count",
-                "count": 1
+                "function": "set_components",
+                "components": {
+                  "minecraft:rarity": "uncommon",
+                  "minecraft:custom_data": {
+                    "atrium_geota_symbol": 1
+                  },
+                  "minecraft:profile": {
+                    "id": [
+                      -1289766341,
+                      1755991332,
+                      -1598142157,
+                      1048575101
+                    ],
+                    "properties": [
+                      {
+                        "name": "textures",
+                        "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzk0MDY2MmFjMTdlOTU2YmFiMWE4YTI2NTFhMTE5NGM3ZmViOGY1ZDQ1Y2ZkZWIzMmY5NGJlMjhmNGRmYjU3MSJ9fX0="
+                      }
+                    ]
+                  },
+                  "minecraft:note_block_sound": "atrium:favor.geota"
+                }
               },
               {
-                "function": "set_nbt",
-                "tag": "{display:{Name:'{\"text\":\"Holy Symbol\",\"italic\":false}',Lore:['{\"text\":\"Geota, The Underminer\",\"color\":\"dark_green\",\"italic\":false}']},geota_symbol:1b,SkullOwner:{Id:[I;-1289766341,1755991332,-1598142157,1048575101],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzk0MDY2MmFjMTdlOTU2YmFiMWE4YTI2NTFhMTE5NGM3ZmViOGY1ZDQ1Y2ZkZWIzMmY5NGJlMjhmNGRmYjU3MSJ9fX0=\"}]}}}"
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Holy Symbol"
+                  }
+                ],
+                "target": "item_name"
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "color": "dark_green",
+                    "italic": false,
+                    "text": "Geota, The Underminer"
+                  }
+                ],
+                "mode": "append"
               }
             ]
           },
@@ -56,12 +164,48 @@
             "name": "minecraft:player_head",
             "functions": [
               {
-                "function": "set_count",
-                "count": 1
+                "function": "set_components",
+                "components": {
+                  "minecraft:rarity": "uncommon",
+                  "minecraft:custom_data": {
+                    "atrium_ghael_symbol": 1
+                  },
+                  "minecraft:profile": {
+                    "id": [
+                      355317681,
+                      -1743372148,
+                      -1225562802,
+                      1464683116
+                    ],
+                    "properties": [
+                      {
+                        "name": "textures",
+                        "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGZlMjdjMWZiOTNjMGFjNDNiMjBiMTIzNWE5ODUwMjYwYzllNDIwYmUxMGM1OWYxNGMyYzM3MzA1Njc1NzEwMSJ9fX0="
+                      }
+                    ]
+                  },
+                  "minecraft:note_block_sound": "atrium:favor.ghael"
+                }
               },
               {
-                "function": "set_nbt",
-                "tag": "{display:{Name:'{\"text\":\"Holy Symbol\",\"italic\":false}',Lore:['{\"text\":\"Ghael, The Infidel\",\"color\":\"gold\",\"italic\":false}']},ghael_symbol:1b,SkullOwner:{Id:[I;355317681,-1743372148,-1225562802,1464683116],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGZlMjdjMWZiOTNjMGFjNDNiMjBiMTIzNWE5ODUwMjYwYzllNDIwYmUxMGM1OWYxNGMyYzM3MzA1Njc1NzEwMSJ9fX0=\"}]}}}"
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Holy Symbol"
+                  }
+                ],
+                "target": "item_name"
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "color": "gold",
+                    "italic": false,
+                    "text": "Ghael, The Infidel"
+                  }
+                ],
+                "mode": "append"
               }
             ]
           },
@@ -71,12 +215,48 @@
             "name": "minecraft:player_head",
             "functions": [
               {
-                "function": "set_count",
-                "count": 1
+                "function": "set_components",
+                "components": {
+                  "minecraft:rarity": "uncommon",
+                  "minecraft:custom_data": {
+                    "atrium_messorum_symbol": 1
+                  },
+                  "minecraft:profile": {
+                    "id": [
+                      504165790,
+                      1355890953,
+                      -1902204017,
+                      -692411453
+                    ],
+                    "properties": [
+                      {
+                        "name": "textures",
+                        "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzY4Zjc4NzAwNDBjMTU2NTJlMjRmM2UwMDllZWIxMjlkMjQxYTNiOTI5YjIwMjFlZDFkNmU0NmVmZmU1MGIxMiJ9fX0="
+                      }
+                    ]
+                  },
+                  "minecraft:note_block_sound": "atrium:favor.messorum"
+                }
               },
               {
-                "function": "set_nbt",
-                "tag": "{display:{Name:'{\"text\":\"Holy Symbol\",\"color\":\"yellow\",\"italic\":false}',Lore:['{\"text\":\"Messorum, The Hallowed End\",\"color\":\"dark_purple\",\"italic\":false}']},messorum_symbol:1b,SkullOwner:{Id:[I;504165790,1355890953,-1902204017,-692411453],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzY4Zjc4NzAwNDBjMTU2NTJlMjRmM2UwMDllZWIxMjlkMjQxYTNiOTI5YjIwMjFlZDFkNmU0NmVmZmU1MGIxMiJ9fX0=\"}]}}}"
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Holy Symbol"
+                  }
+                ],
+                "target": "item_name"
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "color": "dark_purple",
+                    "italic": false,
+                    "text": "Messorum, The Hallowed End"
+                  }
+                ],
+                "mode": "append"
               }
             ]
           },
@@ -86,12 +266,56 @@
             "name": "minecraft:player_head",
             "functions": [
               {
-                "function": "set_count",
-                "count": 1
+                "function": "set_components",
+                "components": {
+                  "minecraft:rarity": "uncommon",
+                  "minecraft:custom_data": {
+                    "atrium_nox_symbol": 1
+                  },
+                  "minecraft:profile": {
+                    "id": [
+                      -1538063860,
+                      -1358017242,
+                      -1429658611,
+                      -1863382418
+                    ],
+                    "properties": [
+                      {
+                        "name": "textures",
+                        "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTExM2E4OTcxYTMzM2M4NzE4NWJhNWNhMmVhMmM1ODEwOTM1ZGJlYjA3NTA5ZjA1M2M5MDJlMmEyYmRmMmE3NiJ9fX0="
+                      }
+                    ]
+                  },
+                  "minecraft:note_block_sound": "atrium:favor.nox"
+                }
               },
               {
-                "function": "set_nbt",
-                "tag": "{display:{Name:'{\"text\":\"Holy Symbol\",\"color\":\"yellow\",\"italic\":false}',Lore:['[{\"text\":\"Nox, \",\"color\":\"red\",\"italic\":false},{\"text\":\"Think You\\'re Clever?\",\"obfuscated\":true}]']},nox_symbol:1b,SkullOwner:{Id:[I;-1538063860,-1358017242,-1429658611,-1863382418],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTExM2E4OTcxYTMzM2M4NzE4NWJhNWNhMmVhMmM1ODEwOTM1ZGJlYjA3NTA5ZjA1M2M5MDJlMmEyYmRmMmE3NiJ9fX0=\"}]}}}"
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Holy Symbol"
+                  }
+                ],
+                "target": "item_name"
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  [
+                    {
+                      "color": "red",
+                      "italic": false,
+                      "text": "Nox, "
+                    },
+                    {
+                      "color": "red",
+                      "italic": false,
+                      "obfuscated": true,
+                      "text": "[But it was lost]"
+                    }
+                  ]
+                ],
+                "mode": "append"
               }
             ]
           },
@@ -101,12 +325,48 @@
             "name": "minecraft:player_head",
             "functions": [
               {
-                "function": "set_count",
-                "count": 1
+                "function": "set_components",
+                "components": {
+                  "minecraft:rarity": "uncommon",
+                  "minecraft:custom_data": {
+                    "atrium_oswald_symbol": 1
+                  },
+                  "minecraft:profile": {
+                    "id": [
+                      -1790895151,
+                      -987413066,
+                      -1568832100,
+                      -616345830
+                    ],
+                    "properties": [
+                      {
+                        "name": "textures",
+                        "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjMzNmU5ZGMxMzZjMmI1MjQzYzg3OGNjMmNkYTQyMGEzYWM4ZWM4ZDIwMTk5NTExYWQwNjhkOTZlY2YxYWUxNCJ9fX0="
+                      }
+                    ]
+                  },
+                  "minecraft:note_block_sound": "atrium:favor.oswald"
+                }
               },
               {
-                "function": "set_nbt",
-                "tag": "{display:{Name:'{\"text\":\"Holy Symbol\",\"color\":\"yellow\",\"italic\":false}',Lore:['{\"text\":\"Oswald, The Peasant God\",\"color\":\"white\",\"italic\":false}']},oswald_symbol:1b,SkullOwner:{Id:[I;-1790895151,-987413066,-1568832100,-616345830],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjMzNmU5ZGMxMzZjMmI1MjQzYzg3OGNjMmNkYTQyMGEzYWM4ZWM4ZDIwMTk5NTExYWQwNjhkOTZlY2YxYWUxNCJ9fX0=\"}]}}}"
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Holy Symbol"
+                  }
+                ],
+                "target": "item_name"
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "color": "white",
+                    "italic": false,
+                    "text": "Oswald, The Peasant God"
+                  }
+                ],
+                "mode": "append"
               }
             ]
           },
@@ -116,12 +376,48 @@
             "name": "minecraft:player_head",
             "functions": [
               {
-                "function": "set_count",
-                "count": 1
+                "function": "set_components",
+                "components": {
+                  "minecraft:rarity": "uncommon",
+                  "minecraft:custom_data": {
+                    "atrium_quipster_symbol": 1
+                  },
+                  "minecraft:profile": {
+                    "id": [
+                      -1234546654,
+                      1910916340,
+                      -2078531395,
+                      1967161826
+                    ],
+                    "properties": [
+                      {
+                        "name": "textures",
+                        "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWE4NTc2OGQ1MjhjZGFmNmQ5YzM2ZDRkMWI1NjkwZDQ4NjgzOGE3NDdjYWJiZWUzMTk4ZmFlMDVmNTQxMTFlMiJ9fX0="
+                      }
+                    ]
+                  },
+                  "minecraft:note_block_sound": "atrium:favor.quipster"
+                }
               },
               {
-                "function": "set_nbt",
-                "tag": "{display:{Name:'{\"text\":\"Holy Symbol\",\"color\":\"yellow\",\"italic\":false}',Lore:['{\"text\":\"The Quipster\",\"color\":\"green\",\"italic\":false}']},quipster_symbol:1b,SkullOwner:{Id:[I;-1234546654,1910916340,-2078531395,1967161826],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWE4NTc2OGQ1MjhjZGFmNmQ5YzM2ZDRkMWI1NjkwZDQ4NjgzOGE3NDdjYWJiZWUzMTk4ZmFlMDVmNTQxMTFlMiJ9fX0=\"}]}}}"
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Holy Symbol"
+                  }
+                ],
+                "target": "item_name"
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "color": "green",
+                    "italic": false,
+                    "text": "The Quipster"
+                  }
+                ],
+                "mode": "append"
               }
             ]
           },
@@ -131,12 +427,48 @@
             "name": "minecraft:player_head",
             "functions": [
               {
-                "function": "set_count",
-                "count": 1
+                "function": "set_components",
+                "components": {
+                  "minecraft:rarity": "uncommon",
+                  "minecraft:custom_data": {
+                    "atrium_syrula_symbol": 1
+                  },
+                  "minecraft:profile": {
+                    "id": [
+                      -1494650084,
+                      1303595359,
+                      -2050742066,
+                      64202142
+                    ],
+                    "properties": [
+                      {
+                        "name": "textures",
+                        "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWZlMjBiMzJlMDAwNzVhNTdkYzU4NWE2ZjVjNDc2N2FkNDc1MDY2ZDE4NDZjYjE0ZTE5ODkzODFkMWZlMTYwNyJ9fX0="
+                      }
+                    ]
+                  },
+                  "minecraft:note_block_sound": "atrium:favor.syrula"
+                }
               },
               {
-                "function": "set_nbt",
-                "tag": "{display:{Name:'{\"text\":\"Holy Symbol\",\"italic\":false}',Lore:['{\"text\":\"Syrula, The Wavemother\",\"color\":\"blue\",\"italic\":false}']},syrula_symbol:1b,SkullOwner:{Id:[I;-1494650084,1303595359,-2050742066,64202142],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWZlMjBiMzJlMDAwNzVhNTdkYzU4NWE2ZjVjNDc2N2FkNDc1MDY2ZDE4NDZjYjE0ZTE5ODkzODFkMWZlMTYwNyJ9fX0=\"}]}}}"
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Holy Symbol"
+                  }
+                ],
+                "target": "item_name"
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "color": "blue",
+                    "italic": false,
+                    "text": "Syrula, The Wavemother"
+                  }
+                ],
+                "mode": "append"
               }
             ]
           },
@@ -146,12 +478,48 @@
             "name": "minecraft:player_head",
             "functions": [
               {
-                "function": "set_count",
-                "count": 1
+                "function": "set_components",
+                "components": {
+                  "minecraft:rarity": "uncommon",
+                  "minecraft:custom_data": {
+                    "atrium_taraqsol_symbol": 1
+                  },
+                  "minecraft:profile": {
+                    "id": [
+                      -1104258812,
+                      -689224708,
+                      -2090439247,
+                      -1857791374
+                    ],
+                    "properties": [
+                      {
+                        "name": "textures",
+                        "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmJjNTA2MjlkMzdhZWU1MGY4ZDcxNTQ4OTRkZTRhYzk0NWQxNGYwMzYzZTZkYjAzNmQyY2Q5Y2RlOTBmNDJlNyJ9fX0="
+                      }
+                    ]
+                  },
+                  "minecraft:note_block_sound": "atrium:favor.taraqsol"
+                }
               },
               {
-                "function": "set_nbt",
-                "tag": "{display:{Name:'{\"text\":\"Holy Symbol\",\"color\":\"yellow\",\"italic\":false}',Lore:['{\"text\":\"Taraq-sol, The Old Hand\",\"color\":\"yellow\",\"italic\":false}']},taraq_sol_symbol:1b,SkullOwner:{Id:[I;-1104258812,-689224708,-2090439247,-1857791374],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmJjNTA2MjlkMzdhZWU1MGY4ZDcxNTQ4OTRkZTRhYzk0NWQxNGYwMzYzZTZkYjAzNmQyY2Q5Y2RlOTBmNDJlNyJ9fX0=\"}]}}}"
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Holy Symbol"
+                  }
+                ],
+                "target": "item_name"
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "color": "yellow",
+                    "italic": false,
+                    "text": "Taraq-Sol, The Old Hand"
+                  }
+                ],
+                "mode": "append"
               }
             ]
           }

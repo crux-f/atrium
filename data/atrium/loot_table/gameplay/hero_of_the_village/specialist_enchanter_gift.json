@@ -38,7 +38,7 @@
                 "max": 8.0,
                 "min": 1.0
               },
-              "treasure": false
+              "options": "#minecraft:on_random_loot"
             }
           ]
         }

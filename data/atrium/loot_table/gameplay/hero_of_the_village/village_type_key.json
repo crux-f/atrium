@@ -10,15 +10,37 @@
             "weight": 1,
             "name": "minecraft:gold_nugget",
             "functions": [
-                {
-                  "function": "set_count",
-                  "count": 1
-                },
-                {
-                  "function": "set_nbt",
-                  "tag": "{display:{Name:'{\"text\":\"§aPlains Village Key\",\"italic\":false}'},CustomModelData:333070,atrium_village_key:1b,atrium_village_plains_house_key:1b}"
+              {
+                "function": "set_name",
+                "target": "custom_name",
+                "name": [
+                  {
+                    "italic": false,
+                    "text": "§aPlains House Key"
+                  }
+                ]
+              },
+              {
+                "function": "set_name",
+                "target": "item_name",
+                "name": [
+                  {
+                    "italic": false,
+                    "text": "Mangled Key"
+                  }
+                ]
+              },
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_model_data": 333070,
+                  "minecraft:custom_data": {
+                    "atrium_village_key": 1,
+                    "atrium_village_plains_house_key": 1
+                  }
                 }
-              ],
+              }
+            ],
               "conditions": [
                 {
                     "condition": "minecraft:entity_properties",
@@ -35,12 +57,34 @@
             "name": "minecraft:gold_nugget",
             "functions": [
               {
-                "function": "set_count",
-                "count": 1
+                "function": "set_name",
+                "target": "custom_name",
+                "name": [
+                  {
+                    "italic": false,
+                    "text": "§aDesert House Key"
+                  }
+                ]
               },
               {
-                "function": "set_nbt",
-                "tag": "{display:{Name:'{\"text\":\"§aDesert Village Key\",\"italic\":false}'},CustomModelData:333070,atrium_village_key:1b,atrium_village_desert_house_key:1b}"
+                "function": "set_name",
+                "target": "item_name",
+                "name": [
+                  {
+                    "italic": false,
+                    "text": "Mangled Key"
+                  }
+                ]
+              },
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_model_data": 333070,
+                  "minecraft:custom_data": {
+                    "atrium_village_key": 1,
+                    "atrium_village_desert_house_key": 1
+                  }
+                }
               }
             ],
             "conditions": [
@@ -59,12 +103,34 @@
             "name": "minecraft:gold_nugget",
             "functions": [
               {
-                "function": "set_count",
-                "count": 1
+                "function": "set_name",
+                "target": "custom_name",
+                "name": [
+                  {
+                    "italic": false,
+                    "text": "§aSavanna House Key"
+                  }
+                ]
               },
               {
-                "function": "set_nbt",
-                "tag": "{display:{Name:'{\"text\":\"§aSavanna Village Key\",\"italic\":false}'},CustomModelData:333070,atrium_village_key:1b,atrium_village_savanna_house_key:1b}"
+                "function": "set_name",
+                "target": "item_name",
+                "name": [
+                  {
+                    "italic": false,
+                    "text": "Mangled Key"
+                  }
+                ]
+              },
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_model_data": 333070,
+                  "minecraft:custom_data": {
+                    "atrium_village_key": 1,
+                    "atrium_village_savanna_house_key": 1
+                  }
+                }
               }
             ],
             "conditions": [
@@ -83,12 +149,34 @@
             "name": "minecraft:gold_nugget",
             "functions": [
               {
-                "function": "set_count",
-                "count": 1
+                "function": "set_name",
+                "target": "custom_name",
+                "name": [
+                  {
+                    "italic": false,
+                    "text": "§aTaiga House Key"
+                  }
+                ]
               },
               {
-                "function": "set_nbt",
-                "tag": "{display:{Name:'{\"text\":\"§aTaiga Village Key\",\"italic\":false}'},CustomModelData:333070,atrium_village_key:1b,atrium_village_taiga_house_key:1b}"
+                "function": "set_name",
+                "target": "item_name",
+                "name": [
+                  {
+                    "italic": false,
+                    "text": "Mangled Key"
+                  }
+                ]
+              },
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_model_data": 333070,
+                  "minecraft:custom_data": {
+                    "atrium_village_key": 1,
+                    "atrium_village_taiga_house_key": 1
+                  }
+                }
               }
             ],
             "conditions": [
@@ -107,12 +195,34 @@
             "name": "minecraft:gold_nugget",
             "functions": [
               {
-                "function": "set_count",
-                "count": 1
+                "function": "set_name",
+                "target": "custom_name",
+                "name": [
+                  {
+                    "italic": false,
+                    "text": "§aSnowy House Key"
+                  }
+                ]
               },
               {
-                "function": "set_nbt",
-                "tag": "{display:{Name:'{\"text\":\"§aSnowy Village Key\",\"italic\":false}'},CustomModelData:333070,atrium_village_key:1b,atrium_village_snowy_house_key:1b}"
+                "function": "set_name",
+                "target": "item_name",
+                "name": [
+                  {
+                    "italic": false,
+                    "text": "Mangled Key"
+                  }
+                ]
+              },
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_model_data": 333070,
+                  "minecraft:custom_data": {
+                    "atrium_village_key": 1,
+                    "atrium_village_snowy_house_key": 1
+                  }
+                }
               }
             ],
             "conditions": [

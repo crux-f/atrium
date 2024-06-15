@@ -20,7 +20,7 @@
                 "max": 20.0,
                 "min": 10.0
               },
-              "treasure": true
+              "options": "#minecraft:on_random_loot"
             }
           ]
         }
@@ -58,7 +58,8 @@
                   "text": "...odd.",
                   "color": "gray"
                 }
-              ]
+              ],
+              "mode": "append"
             }
           ]
         },
@@ -76,8 +77,12 @@
               }
             },
             {
-              "function": "set_nbt",
-              "tag": "{Potion:\"minecraft:strong_swiftness\"}"
+              "function": "set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:strong_swiftness"
+                }
+              }
             }
           ]
         },
@@ -95,8 +100,12 @@
               }
             },
             {
-              "function": "set_nbt",
-              "tag": "{Potion:\"minecraft:slowness\"}"
+              "function": "set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:slowness"
+                }
+              }
             },
             {
               "function": "set_lore",
@@ -105,7 +114,8 @@
                   "text": "Feels heavy.",
                   "color": "gray"
                 }
-              ]
+              ],
+              "mode": "append"
             }
           ]
         },
@@ -123,8 +133,12 @@
               }
             },
             {
-              "function": "set_nbt",
-              "tag": "{Potion:\"minecraft:slow_falling\"}"
+              "function": "set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:slow_falling"
+                }
+              }
             },
             {
               "function": "set_lore",
@@ -134,10 +148,11 @@
                   "color": "gray"
                 },
                 {
-                  "text": "cloudblossom oil.",
+                  "text": "Cloudblossom oil.",
                   "color": "gray"
                 }
-              ]
+              ],
+              "mode": "append"
             }
           ]
         },
@@ -219,36 +234,22 @@
           "name": "minecraft:goat_horn",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{instrument:\"minecraft:admire_goat_horn\"}"
+              "function": "set_components",
+              "components": {
+                "minecraft:instrument": "minecraft:admire_goat_horn"
+              }
             }
           ]
         },
         {
           "type": "item",
           "weight": 9,
-          "name": "minecraft:bow",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            }
-          ]
+          "name": "minecraft:bow"
         },
         {
           "type": "item",
           "weight": 8,
-          "name": "minecraft:crossbow",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            }
-          ]
+          "name": "minecraft:crossbow"
         },
         {
           "type": "item",
@@ -257,17 +258,13 @@
           "name": "minecraft:crossbow",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
               "function": "minecraft:enchant_with_levels",
               "levels": {
                 "type": "minecraft:uniform",
                 "max": 20.0,
                 "min": 0.0
               },
-              "treasure": true
+              "options": "#minecraft:on_random_loot"
             }
           ]
         },
@@ -278,17 +275,13 @@
           "name": "minecraft:bow",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
               "function": "minecraft:enchant_with_levels",
               "levels": {
                 "type": "minecraft:uniform",
                 "max": 20.0,
                 "min": 0.0
               },
-              "treasure": true
+              "options": "#minecraft:on_random_loot"
             }
           ]
         }

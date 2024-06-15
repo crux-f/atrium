@@ -14,8 +14,22 @@
             "name": "minecraft:iron_sword",
             "functions": [
               {
-                "function": "set_nbt",
-                "tag": "{atrium_ruined_blade:1b,CustomModelData:333086}"
+                "function": "minecraft:set_name",
+                "target": "item_name",
+                "name": [
+                  {
+                    "text": "Ruined Blade"
+                  }
+                ]
+              },
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_model_data": 333086,
+                  "minecraft:custom_data": {
+                    "atrium_ruined_blade": 1
+                  }
+                }
               },
               {
                 "function": "set_damage",
@@ -23,15 +37,6 @@
                   "min": 0.1,
                   "max": 0.5
                 }
-              },
-              {
-                  "function": "minecraft:set_name",
-                  "name": [
-                    {
-                      "text": "Ruined Blade",
-                      "italic": false
-                    }
-                  ]
               }
             ]
           },
@@ -42,27 +47,38 @@
             "name": "minecraft:iron_sword",
             "functions": [
               {
-                "function": "set_nbt",
-                "tag": "{atrium_ruined_blade:1b,CustomModelData:333086}"
+                "function": "minecraft:set_name",
+                "target": "item_name",
+                "name": [
+                  {
+                    "text": "Ruined Blade"
+                  }
+                ]
+              },
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_model_data": 333086,
+                  "minecraft:custom_data": {
+                    "atrium_ruined_blade": 1
+                  }
+                }
               },
               {
                 "function": "set_damage",
                 "damage": {
-                  "min": 0.25,
-                  "max": 0.6
+                  "min": 0.1,
+                  "max": 0.5
                 }
               },
               {
-                "function": "minecraft:enchant_randomly"
-              },
-              {
-                  "function": "minecraft:set_name",
-                  "name": [
-                    {
-                      "text": "Ruined Blade",
-                      "italic": false
-                    }
-                  ]
+                "function": "minecraft:enchant_with_levels",
+                "levels": {
+                  "type": "minecraft:uniform",
+                  "max": 15.0,
+                  "min": 1.0
+                },
+                "options": "#minecraft:on_random_loot"
               }
             ]
           },
@@ -73,10 +89,6 @@
             "name": "minecraft:trident",
             "functions": [
               {
-                "function": "set_count",
-                "count": 1
-              },
-              {
                 "function": "set_damage",
                 "damage": {
                   "min": 0.8,
@@ -84,7 +96,13 @@
                 }
               },
               {
-                "function": "minecraft:enchant_randomly"
+                "function": "minecraft:enchant_with_levels",
+                "levels": {
+                  "type": "minecraft:uniform",
+                  "max": 18.0,
+                  "min": 10.0
+                },
+                "options": "#minecraft:on_random_loot"
               }
             ]
           },
@@ -92,13 +110,7 @@
             "type": "item",
             "weight": 10,
             "quality": 2,
-            "name": "minecraft:trident",
-            "functions": [
-              {
-                "function": "set_count",
-                "count": 1
-              }
-            ]
+            "name": "minecraft:trident"
           },
           {
             "type": "item",
@@ -107,10 +119,6 @@
             "name": "minecraft:diamond_helmet",
             "functions": [
               {
-                "function": "set_count",
-                "count": 1
-              },
-              {
                 "function": "set_damage",
                 "damage": {
                   "min": 0.8,
@@ -118,7 +126,13 @@
                 }
               },
               {
-                "function": "minecraft:enchant_randomly"
+                "function": "minecraft:enchant_with_levels",
+                "levels": {
+                  "type": "minecraft:uniform",
+                  "max": 15.0,
+                  "min": 8.0
+                },
+                "options": "#minecraft:on_random_loot"
               }
             ]
           },
@@ -129,10 +143,6 @@
             "name": "minecraft:diamond_chestplate",
             "functions": [
               {
-                "function": "set_count",
-                "count": 1
-              },
-              {
                 "function": "set_damage",
                 "damage": {
                   "min": 0.8,
@@ -140,7 +150,13 @@
                 }
               },
               {
-                "function": "minecraft:enchant_randomly"
+                "function": "minecraft:enchant_with_levels",
+                "levels": {
+                  "type": "minecraft:uniform",
+                  "max": 15.0,
+                  "min": 8.0
+                },
+                "options": "#minecraft:on_random_loot"
               }
             ]
           },
@@ -151,10 +167,6 @@
             "name": "minecraft:diamond_leggings",
             "functions": [
               {
-                "function": "set_count",
-                "count": 1
-              },
-              {
                 "function": "set_damage",
                 "damage": {
                   "min": 0.8,
@@ -162,7 +174,13 @@
                 }
               },
               {
-                "function": "minecraft:enchant_randomly"
+                "function": "minecraft:enchant_with_levels",
+                "levels": {
+                  "type": "minecraft:uniform",
+                  "max": 15.0,
+                  "min": 8.0
+                },
+                "options": "#minecraft:on_random_loot"
               }
             ]
           },
@@ -173,10 +191,6 @@
             "name": "minecraft:diamond_boots",
             "functions": [
               {
-                "function": "set_count",
-                "count": 1
-              },
-              {
                 "function": "set_damage",
                 "damage": {
                   "min": 0.8,
@@ -184,7 +198,13 @@
                 }
               },
               {
-                "function": "minecraft:enchant_randomly"
+                "function": "minecraft:enchant_with_levels",
+                "levels": {
+                  "type": "minecraft:uniform",
+                  "max": 15.0,
+                  "min": 8.0
+                },
+                "options": "#minecraft:on_random_loot"
               }
             ]
           },
@@ -195,10 +215,6 @@
             "name": "minecraft:diamond_boots",
             "functions": [
               {
-                "function": "set_count",
-                "count": 1
-              },
-              {
                 "function": "set_damage",
                 "damage": {
                   "min": 0.8,
@@ -206,56 +222,35 @@
                 }
               },
               {
-                "function": "minecraft:enchant_randomly",
-                "enchantments": [
-                  "minecraft:depth_strider"
-                ]
+                "function": "minecraft:enchant_with_levels",
+                "levels": {
+                  "type": "minecraft:uniform",
+                  "max": 15.0,
+                  "min": 8.0
+                },
+                "options": "#minecraft:on_random_loot"
               }
             ]
           },
           {
             "type": "item",
             "weight": 10,
-            "name": "minecraft:diamond_helmet",
-            "functions": [
-              {
-                "function": "set_count",
-                "count": 1
-              }
-            ]
+            "name": "minecraft:diamond_helmet"
           },
           {
             "type": "item",
             "weight": 10,
-            "name": "minecraft:diamond_chestplate",
-            "functions": [
-              {
-                "function": "set_count",
-                "count": 1
-              }
-            ]
+            "name": "minecraft:diamond_chestplate"
           },
           {
             "type": "item",
             "weight": 10,
-            "name": "minecraft:diamond_leggings",
-            "functions": [
-              {
-                "function": "set_count",
-                "count": 1
-              }
-            ]
+            "name": "minecraft:diamond_leggings"
           },
           {
             "type": "item",
             "weight": 10,
-            "name": "minecraft:diamond_boots",
-            "functions": [
-              {
-                "function": "set_count",
-                "count": 1
-              }
-            ]
+            "name": "minecraft:diamond_boots"
           }
         ]
       }

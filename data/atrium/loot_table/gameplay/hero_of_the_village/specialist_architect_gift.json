@@ -7,18 +7,6 @@
         "entries": [
           {
             "type": "item",
-            "weight": 16,
-            "quality": 2,
-            "name": "minecraft:stone_pickaxe",
-            "functions": [
-              {
-                "function": "minecraft:set_nbt",
-                "tag": "{display:{Name:'{\"text\":\"Stone Hammer\",\"italic\":false}',Lore:['{\"text\":\" \"}','{\"text\":\"When in Main Hand:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" 5 Attack Damage\",\"color\":\"dark_green\",\"italic\":false}','{\"text\":\" 1.2 Attack Speed\",\"color\":\"dark_green\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"When in Both Hands:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"Crushes Blocks\",\"color\":\"blue\",\"italic\":false}']},HideFlags:2,CustomModelData:333143,atrium_hammer:1b,atrium_stone_hammer:1b,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:5,Operation:0,UUID:[I;116955196,760695514,-1418748397,-607753438],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-2.8,Operation:0,UUID:[I;972577395,-100775099,-1248507235,-1301602438],Slot:\"mainhand\"}]}"
-              }
-            ]
-          },
-          {
-            "type": "item",
             "weight": 1,
             "quality": 0,
             "name": "minecraft:white_concrete"

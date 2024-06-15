@@ -20,37 +20,45 @@
           {
             "type": "item",
             "weight": 1,
-            "quality": 1,
             "name": "minecraft:phantom_spawn_egg",
             "functions": [
-              {
-                "function": "set_count",
-                "count": 1
-              },
-              {
-                "function": "set_nbt",
-                "tag": "{EntityTag:{DeathLootTable:\"atrium:entities/nightmare_phantom\",PersistenceRequired:1b,Health:25f,Size:2,CustomName:'{\"text\":\"Nightmare\",\"color\":\"light_purple\",\"italic\":false}',ActiveEffects:[{Id:12b,Amplifier:0b,Duration:199980,ShowParticles:0b}],Attributes:[{Name:generic.max_health,Base:25}]}}"
-              },
               {
                 "function": "set_name",
                 "name": [
                   {
-                    "text": "Nightmare Stone",
                     "color": "light_purple",
-                    "italic": false
+                    "text": "Nightmare Stone"
                   }
-                ]
+                ],
+                "target": "item_name"
               },
               {
-                "function": "set_lore",
-                "lore": [
-                  {
-                    "text": "A nightmare swirls angrily"
-                  },
-                  {
-                    "text": "within. Do not break."
+                "function": "set_components",
+                "components": {
+                  "minecraft:entity_data": {
+                    "id": "minecraft:phantom",
+                    "DeathLootTable": "atrium:entities/nightmare_phantom",
+                    "PersistenceRequired": 1,
+                    "Health": 25,
+                    "Size": 2,
+                    "CustomName": "Nightmare",
+                    "active_effects": [
+                      {
+                        "id": "minecraft:fire_resistance",
+                        "amplifier": 0,
+                        "duration": -1,
+                        "show_particles": 1,
+                        "ambient": 1
+                      }
+                    ],
+                    "attributes": [
+                      {
+                        "id": "minecraft:generic.max_health",
+                        "base": 25
+                      }
+                    ]
                   }
-                ]
+                }
               }
             ]
           }

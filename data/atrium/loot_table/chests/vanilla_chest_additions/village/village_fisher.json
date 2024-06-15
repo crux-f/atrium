@@ -11,10 +11,6 @@
           "name": "minecraft:fishing_rod",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
               "function": "set_name",
               "name": [
                 {
@@ -30,7 +26,8 @@
                   "text": "Never leave home without it.",
                   "color": "gray"
                 }
-              ]
+              ],
+              "mode": "append"
             },
             {
               "function": "minecraft:enchant_with_levels",
@@ -170,41 +167,8 @@
                   "text": "Free the little wiggles!",
                   "color": "gray"
                 }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "weight": 5,
-          "quality": 1,
-          "name": "minecraft:axolotl_bucket",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{EntityTag:{Age:-1000}}"
-            },
-            {
-              "function": "set_name",
-              "name": [
-                {
-                  "text": "Bucket Baby",
-                  "italic": false
-                }
-              ]
-            },
-            {
-              "function": "set_lore",
-              "lore": [
-                {
-                  "text": "They grow up so fast...",
-                  "color": "gray"
-                }
-              ]
+              ],
+              "mode": "append"
             }
           ]
         },
@@ -212,26 +176,7 @@
           "type": "item",
           "weight": 15,
           "quality": 1,
-          "name": "minecraft:salmon_bucket",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{EntityTag:{CustomName:'{\"text\":\"Slammy\",\"italic\":false}'}}"
-            },
-            {
-              "function": "set_name",
-              "name": [
-                {
-                  "text": "Bucket of Slamon",
-                  "italic": false
-                }
-              ]
-            }
-          ]
+          "name": "minecraft:salmon_bucket"
         },
         {
           "type": "item",

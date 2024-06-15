@@ -9,13 +9,7 @@
             "type": "item",
             "weight": 7,
             "quality": 3,
-            "name": "minecraft:music_disc_chirp",
-            "functions": [
-              {
-                "function": "set_count",
-                "count": 1
-              }
-            ]
+            "name": "minecraft:music_disc_chirp"
           },
           {
             "type": "item",
@@ -150,21 +144,41 @@
             "name": "minecraft:wooden_hoe",
             "functions": [
               {
-                "function": "set_count",
-                "count": 1
-              },
-              {
-                "function": "set_nbt",
-                "tag": "{atrium_walking_stick:1b,AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.1,Operation:1,UUID:[I;-1856119110,1434537360,-1733250982,-1665381476],Slot:\"mainhand\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.05,Operation:1,UUID:[I;-1486456337,1605652038,-1093944683,931169976],Slot:\"offhand\"}]}"
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "atrium_walking_stick": 1
+                  },
+                  "minecraft:attribute_modifiers": [
+                    {
+                      "id": "atrium:walking_stick_speed_mainhand",
+                      "type": "generic.movement_speed",
+                      "amount": 0.1,
+                      "operation": "add_multiplied_base",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "atrium:walking_stick_speed_offhand",
+                      "type": "generic.movement_speed",
+                      "amount": 0.05,
+                      "operation": "add_multiplied_base",
+                      "slot": "offhand"
+                    }
+                  ],
+                  "minecraft:tool": {
+                    "default_mining_speed": 0,
+                    "damage_per_block": 3
+                  }
+                }
               },
               {
                 "function": "set_name",
                 "name": [
                   {
-                    "text": "Walking Stick",
-                    "italic": false
+                    "text": "Walking Stick"
                   }
-                ]
+                ],
+                "target": "item_name"
               }
             ]
           },
@@ -172,23 +186,13 @@
             "type": "item",
             "weight": 25,
             "quality": 1,
-            "name": "minecraft:milk_bucket",
-            "functions": [
-              {
-                "function": "set_count",
-                "count": 1
-              }
-            ]
+            "name": "minecraft:milk_bucket"
           },
           {
             "type": "item",
             "weight": 30,
             "name": "minecraft:wheat",
             "functions": [
-              {
-                "function": "set_count",
-                "count": 1
-              },
               {
                 "function": "set_name",
                 "name": [
@@ -204,13 +208,7 @@
             "type": "item",
             "weight": 20,
             "quality": 2,
-            "name": "minecraft:saddle",
-            "functions": [
-              {
-                "function": "set_count",
-                "count": 1
-              }
-            ]
+            "name": "minecraft:saddle"
           },
           {
             "type": "item",

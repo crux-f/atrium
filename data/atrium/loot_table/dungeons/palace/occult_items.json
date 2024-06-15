@@ -12,24 +12,18 @@
           "type": "loot_table",
           "weight": 2,
           "quality": 1,
-          "name": "atrium:formulas/recipes_occult",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            }
-          ]
+          "value": "atrium:formulas/recipes_occult"
         },
         {
           "type": "loot_table",
           "weight": 15,
-          "name": "atrium:chests/illager_runes"
+          "value": "atrium:chests/illager_runes"
         },
         {
           "type": "loot_table",
           "weight": 1,
           "quality": 1,
-          "name": "atrium:chests/illager_modifier_runes"
+          "value": "atrium:chests/illager_modifier_runes"
         }
       ]
     },
@@ -49,17 +43,23 @@
               }
             },
             {
-              "function": "set_nbt",
-              "tag": "{CustomModelData:333089,atrium_runestone:1b,atrium_rune:blank}"
-            },
-            {
               "function": "set_name",
+              "target": "item_name",
               "name": [
                 {
-                  "text": "Blank Slate",
-                  "italic": false
+                  "text": "Blank Slate"
                 }
               ]
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_model_data": 333083,
+                "minecraft:custom_data": {
+                  "atrium_rune": "blank",
+                  "atrium_runestone": 1
+                }
+              }
             }
           ]
         },
@@ -70,21 +70,22 @@
           "name": "minecraft:glass_bottle",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{CustomModelData:333087,atrium_essence_of_anachronism:1b}"
-            },
-            {
               "function": "set_name",
+              "target": "item_name",
               "name": [
                 {
-                  "text": "Essence of Anachronism",
-                  "italic": false
+                  "text": "Essence of Anachronism"
                 }
               ]
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_model_data": 333087,
+                "minecraft:custom_data": {
+                  "atrium_essence_of_anachronism": 1
+                }
+              }
             }
           ]
         },

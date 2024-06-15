@@ -31,12 +31,12 @@
           "name": "minecraft:potion",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{Potion:\"minecraft:invisibility\"}"
+              "function": "set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:invisibility"
+                }
+              }
             }
           ]
         },
@@ -45,10 +45,6 @@
           "weight": 5,
           "name": "minecraft:string",
           "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
             {
               "function": "set_name",
               "name": [
@@ -66,12 +62,12 @@
           "name": "minecraft:potion",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{Potion:\"minecraft:night_vision\",CustomPotionColor:7504356}"
+              "function": "set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:night_vision"
+                }
+              }
             },
             {
               "function": "set_name",
@@ -86,11 +82,11 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "This potion seems unfinished,"
+                  "text": "This potion seems unfinished,"
                 },
-				{
-					"translate": "but not ineffective"
-				}
+                {
+                  "text": "but not ineffective."
+                }
               ]
             }
           ]
@@ -106,22 +102,6 @@
                 "min": 1,
                 "max": 3
               }
-            },
-            {
-              "function": "set_name",
-              "name": [
-                {
-                  "translate": "Stale Bread"
-                }
-              ]
-            },
-            {
-              "function": "set_lore",
-              "lore": [
-                {
-                  "translate": "This has clearly been here for a while"
-                }
-              ]
             }
           ]
         }

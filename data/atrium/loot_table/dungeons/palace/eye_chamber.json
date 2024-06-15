@@ -12,105 +12,377 @@
             "type": "loot_table",
             "weight": 2,
             "quality": 1,
-            "name": "atrium:chests/illager_modifier_runes",
-            "functions": [
-              {
-                "function": "set_count",
-                "count": 1
-              }
-            ]
+            "value": "atrium:chests/illager_modifier_runes"
           },
           {
             "type": "item",
             "weight": 1,
             "name": "minecraft:player_head",
             "functions": [
-                {
-                    "function": "set_nbt",
-                    "tag": "{display:{Name:'{\"text\":\"Infusion Circle\",\"color\":\"light_purple\",\"italic\":false}',Lore:['{\"text\":\"Space Required:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"x9,y3,z11\",\"color\":\"dark_gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"When Placed:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"Generates a structure \",\"color\":\"blue\",\"italic\":false}']},infusion_circle_placer:1b,SkullOwner:{Id:[I;-510246894,-974372697,-1324757754,-2046207321],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTIyNzYzMDkzNzc0NjkzYjI2MzkyNzhhMWMyYzY5OGFkMTFkYjQ5Mjg5NmU5YmYxNjcxNGQ4NTdlOThjYTFkZCJ9fX0=\"}]}}}"
-                }
-            ]
-          },
-          {
-            "type": "item",
-            "weight": 1,
-            "name": "minecraft:diamond_hoe",
-            "functions": [
-                {
-                    "function": "minecraft:set_nbt",
-                    "tag": "{display:{Name:'{\"text\":\"Staff of Air\",\"italic\":false}',Lore:['{\"text\":\"◇ Air Sigil II\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"◇ Increase Velocity II\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"◇ Inhale I\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"◇ Exhale I\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"When in Off Hand:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"+2 Casting Power\",\"color\":\"blue\",\"italic\":false}']},CustomModelData:333060,atrium_staff:1b,atrium_staff_lv:2b,atrium_air_staff:1b,atrium_chargeable:1b,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:2,Operation:0,UUID:[I;637717026,1710441391,-1943706047,783506473],Slot:\"mainhand\"}]}"
-                }
-            ]
-          },
-          {
-            "type": "item",
-            "weight": 1,
-            "name": "minecraft:diamond_hoe",
-            "functions": [
-                {
-                    "function": "minecraft:set_nbt",
-                    "tag": "{display:{Name:'{\"text\":\"Staff of Earth\",\"italic\":false}',Lore:['{\"text\":\"◇ Earth Sigil II\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"◇ Natural Armor II\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"◇ Locate Ore I\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"◇ Conjure Tree I\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"When in Off Hand:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"+2 Casting Power\",\"color\":\"blue\",\"italic\":false}']},CustomModelData:333061,atrium_staff:1b,atrium_staff_lv:2b,atrium_earth_staff:1b,atrium_chargeable:1b,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:2,Operation:0,UUID:[I;637717026,1710441391,-1943706047,783506473],Slot:\"mainhand\"}]}"
-                }
-            ]
-          },
-          {
-            "type": "item",
-            "weight": 1,
-            "name": "minecraft:diamond_hoe",
-            "functions": [
-                {
-                    "function": "minecraft:set_nbt",
-                    "tag": "{display:{Name:'{\"text\":\"Staff of Fire\",\"italic\":false}',Lore:['{\"text\":\"◇ Fire Sigil II\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"◇ Throw Flames II\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"◇ Flare I\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"◇ Stoke Furnace I\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"When in Off Hand:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"+2 Casting Power\",\"color\":\"blue\",\"italic\":false}']},CustomModelData:333062,atrium_staff:1b,atrium_staff_lv:2b,atrium_fire_staff:1b,atrium_chargeable:1b,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:2,Operation:0,UUID:[I;637717026,1710441391,-1943706047,783506473],Slot:\"mainhand\"}]}"
-                }
-            ]
-          },
-          {
-            "type": "item",
-            "weight": 1,
-            "name": "minecraft:diamond_hoe",
-            "functions": [
-                {
-                    "function": "minecraft:set_nbt",
-                    "tag": "{display:{Name:'{\"text\":\"Staff of Water\",\"italic\":false}',Lore:['{\"text\":\"◇ Water Sigil II\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"◇ Extinguish II\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"◇ Turn Tide I\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"◇ Undercurrent I\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"When in Off Hand:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"+2 Casting Power\",\"color\":\"blue\",\"italic\":false}']},CustomModelData:333063,atrium_staff:1b,atrium_staff_lv:2b,atrium_water_staff:1b,atrium_chargeable:1b,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:2,Operation:0,UUID:[I;637717026,1710441391,-1943706047,783506473],Slot:\"mainhand\"}]}"
-                }
-            ]
-          },
-          {
-            "type": "item",
-            "weight": 1,
-            "quality": 1,
-            "name": "minecraft:blue_stained_glass",
-            "functions": [
               {
-                "function": "set_count",
-                "count": 1
-              },
-              {
-                "function": "set_nbt",
-                "tag": "{HideFlags:1,atrium_calm_crystal:1b,Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:4,Operation:0,UUID:[I;-2012325303,1093551221,-1724274320,-59501518],Slot:\"mainhand\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;-452620633,977750010,-1994822826,-1854319908],Slot:\"mainhand\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:2,Operation:0,UUID:[I;-1834962643,-1948890380,-1111233404,1356796815],Slot:\"offhand\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:1,Operation:0,UUID:[I;-1570033359,-1861926307,-2012034339,-1927915762],Slot:\"offhand\"}]}"
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "infusion_circle_placer": 1
+                  },
+                  "minecraft:profile": {
+                    "name": "",
+                    "id": [
+                      -510246894,
+                      -974372697,
+                      -1324757754,
+                      -2046207321
+                    ],
+                    "properties": [
+                      {
+                        "name": "textures",
+                        "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTIyNzYzMDkzNzc0NjkzYjI2MzkyNzhhMWMyYzY5OGFkMTFkYjQ5Mjg5NmU5YmYxNjcxNGQ4NTdlOThjYTFkZCJ9fX0="
+                      }
+                    ]
+                  }
+                }
               },
               {
                 "function": "set_name",
                 "name": [
                   {
-                    "text": "Calm Crystal",
-                    "italic": false
+                    "text": "Infusion Circle"
                   }
-                ]
+                ],
+                "target": "item_name"
               },
               {
                 "function": "set_lore",
                 "lore": [
                   {
-                    "text": "It feels like chilled"
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Space Required:"
                   },
                   {
-                    "text": "glass. You can almost"
+                    "color": "dark_gray",
+                    "italic": false,
+                    "text": "x9,y5,z11"
                   },
                   {
-                    "text": "feel it contemplating."
+                    "text": " "
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "When Placed:"
+                  },
+                  {
+                    "color": "blue",
+                    "italic": false,
+                    "text": "Generates a structure"
                   }
-                ]
+                ],
+                "mode": "append"
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:diamond_hoe",
+            "functions": [
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_model_data": 333060,
+                  "minecraft:custom_data": {
+                    "atrium_staff": 1,
+                    "atrium_staff_lv": 2,
+                    "atrium_air_staff": 1,
+                    "atrium_chargeable": 1
+                  },
+                  "minecraft:attribute_modifiers": [
+                    {
+                      "id": "atrium:staff_attack_damage",
+                      "type": "generic.attack_damage",
+                      "amount": 2,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    }
+                  ]
+                }
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Staff of Air"
+                  }
+                ],
+                "target": "item_name"
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "◇ Air Sigil II"
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "◇ Increase Velocity II"
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "◇ Inhale I"
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "◇ Exhale I"
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "When in Off Hand:"
+                  },
+                  {
+                    "color": "blue",
+                    "italic": false,
+                    "text": "+2 Casting Power"
+                  }
+                ],
+                "mode": "append"
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:diamond_hoe",
+            "functions": [
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_model_data": 333061,
+                  "minecraft:custom_data": {
+                    "atrium_staff": 1,
+                    "atrium_staff_lv": 2,
+                    "atrium_earth_staff": 1,
+                    "atrium_chargeable": 1
+                  },
+                  "minecraft:attribute_modifiers": [
+                    {
+                      "id": "atrium:staff_attack_damage",
+                      "type": "generic.attack_damage",
+                      "amount": 2,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    }
+                  ]
+                }
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Staff of Earth"
+                  }
+                ],
+                "target": "item_name"
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "◇ Earth Sigil II"
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "◇ Natural Armor II"
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "◇ Locate Ore I"
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "◇ Conjure Tree I"
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "When in Off Hand:"
+                  },
+                  {
+                    "color": "blue",
+                    "italic": false,
+                    "text": "+2 Casting Power"
+                  }
+                ],
+                "mode": "append"
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:diamond_hoe",
+            "functions": [
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_model_data": 333060,
+                  "minecraft:custom_data": {
+                    "atrium_staff": 1,
+                    "atrium_staff_lv": 2,
+                    "atrium_fire_staff": 1,
+                    "atrium_chargeable": 1
+                  },
+                  "minecraft:attribute_modifiers": [
+                    {
+                      "id": "atrium:staff_attack_damage",
+                      "type": "generic.attack_damage",
+                      "amount": 2,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    }
+                  ]
+                }
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Staff of Fire"
+                  }
+                ],
+                "target": "item_name"
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "◇ Fire Sigil II"
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "◇ Throw Flames II"
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "◇ Stoke Furnace I"
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "◇ Flare I"
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "When in Off Hand:"
+                  },
+                  {
+                    "color": "blue",
+                    "italic": false,
+                    "text": "+2 Casting Power"
+                  }
+                ],
+                "mode": "append"
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:diamond_hoe",
+            "functions": [
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_model_data": 333060,
+                  "minecraft:custom_data": {
+                    "atrium_staff": 1,
+                    "atrium_staff_lv": 2,
+                    "atrium_water_staff": 1,
+                    "atrium_chargeable": 1
+                  },
+                  "minecraft:attribute_modifiers": [
+                    {
+                      "id": "atrium:staff_attack_damage",
+                      "type": "generic.attack_damage",
+                      "amount": 2,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    }
+                  ]
+                }
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Staff of Water"
+                  }
+                ],
+                "target": "item_name"
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "◇ Water Sigil II"
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "◇ Extinguish II"
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "◇ Turn Tide I"
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "◇ Undercurrent I"
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "When in Off Hand:"
+                  },
+                  {
+                    "color": "blue",
+                    "italic": false,
+                    "text": "+2 Casting Power"
+                  }
+                ],
+                "mode": "append"
               }
             ]
           },
@@ -131,13 +403,7 @@
           {
             "type": "item",
             "weight": 2,
-            "name": "minecraft:enchanted_golden_apple",
-            "functions": [
-              {
-                "function": "set_count",
-                "count": 1
-              }
-            ]
+            "name": "minecraft:enchanted_golden_apple"
           },
           {
             "type": "item",
@@ -151,7 +417,7 @@
                     "min": 30,
                     "max": 50
                   },
-                  "treasure": true
+                "options": "#minecraft:on_random_loot"
                 }
               ]
           },
@@ -167,7 +433,7 @@
                     "min": 30,
                     "max": 50
                   },
-                  "treasure": true
+                "options": "#minecraft:on_random_loot"
                 }
               ]
           },
@@ -183,7 +449,7 @@
                     "min": 30,
                     "max": 50
                   },
-                  "treasure": true
+                "options": "#minecraft:on_random_loot"
                 }
               ]
           },
@@ -193,10 +459,6 @@
             "name": "minecraft:potion",
             "functions": [
               {
-                "function": "set_count",
-                "count": 1
-              },
-              {
                 "function": "set_nbt",
                 "tag": "{Potion:\"minecraft:turtle_master\"}"
               }
@@ -205,13 +467,7 @@
           {
             "type": "item",
             "weight": 2,
-            "name": "minecraft:music_disc_11",
-            "functions": [
-              {
-                "function": "set_count",
-                "count": 1
-              }
-            ]
+            "name": "minecraft:music_disc_11"
           },
           {
             "type": "item",
@@ -242,17 +498,23 @@
                 }
               },
               {
-                "function": "set_nbt",
-                "tag": "{HideFlags:1,atrium_crystal:1,atrium_deep_crystal:1b,Enchantments:[{id:\"minecraft:power\",lvl:1s}]}"
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "atrium_crystal": 1,
+                    "atrium_deep_crystal": 1
+                  },
+                  "minecraft:enchantment_glint_override": true
+                }
               },
               {
                 "function": "set_name",
                 "name": [
                   {
-                    "text": "Deep Crystal",
-                    "italic": false
+                    "text": "Deep Crystal"
                   }
-                ]
+                ],
+                "target": "item_name"
               },
               {
                 "function": "set_lore",
@@ -266,7 +528,8 @@
                   {
                     "text": "enough to see inside."
                   }
-                ]
+                ],
+                "mode": "append"
               }
             ]
           },
@@ -347,25 +610,21 @@
             "name": "minecraft:enchanted_book",
             "functions": [
               {
-                "function": "set_count",
-                "count": 1
-              },
-              {
-                "function": "set_nbt",
-                "tag": "{StoredEnchantments:[{id:\"minecraft:mending\",lvl:1s}]}"
+                "function": "set_components",
+                "components": {
+                  "minecraft:stored_enchantments": {
+                    "levels": {
+                      "minecraft:mending": 1
+                    }
+                  }
+                }
               }
             ]
           },
           {
             "type": "item",
             "weight": 1,
-            "name": "minecraft:music_disc_wait",
-            "functions": [
-              {
-                "function": "set_count",
-                "count": 1
-              }
-            ]
+            "name": "minecraft:music_disc_wait"
           },
           {
             "type": "item",
@@ -373,12 +632,12 @@
             "name": "minecraft:splash_potion",
             "functions": [
               {
-                "function": "set_count",
-                "count": 1
-              },
-              {
-                "function": "set_nbt",
-                "tag": "{Potion:\"minecraft:strong_regeneration\"}"
+                "function": "set_components",
+                "components": {
+                  "minecraft:potion_contents": {
+                    "potion": "minecraft:strong_regeneration"
+                  }
+                }
               }
             ]
           },
@@ -394,7 +653,7 @@
                     "min": 30,
                     "max": 50
                   },
-                  "treasure": true
+                "options": "#minecraft:on_random_loot"
                 }
               ]
           },
@@ -429,13 +688,7 @@
           {
             "type": "item",
             "weight": 7,
-            "name": "minecraft:diamond_block",
-            "functions": [
-              {
-                "function": "set_count",
-                "count": 1
-              }
-            ]
+            "name": "minecraft:diamond_block"
           }
         ]
       }

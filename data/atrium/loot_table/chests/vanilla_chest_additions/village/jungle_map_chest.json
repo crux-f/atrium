@@ -27,13 +27,7 @@
           "type": "item",
           "weight": 2,
           "quality": 1,
-          "name": "minecraft:map",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            }
-          ]
+          "name": "minecraft:map"
         }
       ]
     },
@@ -48,18 +42,25 @@
           "name": "minecraft:map",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
               "function": "exploration_map",
               "destination": "atrium:village_savanna",
               "decoration": "village_savanna",
               "skip_existing_chunks": true
             },
             {
-              "function": "set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Explorer Map\",\"italic\":false}',Lore:['{\"text\":\"Directions to a village.\"}'],MapColor:14383389}}"
+              "function": "set_components",
+              "components": {
+                "minecraft:map_color": 14383389
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Savanna Village Explorer Map"
+                }
+              ],
+              "target": "item_name"
             }
           ]
         },
@@ -69,10 +70,6 @@
           "quality": 0,
           "name": "minecraft:map",
           "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
             {
               "function": "exploration_map",
               "destination": "atrium:village_desert",
@@ -80,8 +77,19 @@
               "skip_existing_chunks": true
             },
             {
-              "function": "set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Explorer Map\",\"italic\":false}',Lore:['{\"text\":\"Directions to a village.\"}'],MapColor:16776268}}"
+              "function": "set_components",
+              "components": {
+                "minecraft:map_color": 16776268
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Desert Village Explorer Map"
+                }
+              ],
+              "target": "item_name"
             }
           ]
         },
@@ -92,18 +100,25 @@
           "name": "minecraft:map",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
               "function": "exploration_map",
               "destination": "atrium:swamp_hut",
               "decoration": "swamp_hut",
               "skip_existing_chunks": true
             },
             {
-              "function": "set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Explorer Map\",\"italic\":false}',Lore:['{\"text\":\"This map has a bottle and\"}','{\"text\":\"a lightning bolt on it.\"}'],MapColor:4287752}}"
+              "function": "set_components",
+              "components": {
+                "minecraft:map_color": 4287752
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Swamp Hut Explorer Map"
+                }
+              ],
+              "target": "item_name"
             }
           ]
         }

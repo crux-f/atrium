@@ -20,12 +20,34 @@
           "name": "minecraft:gold_nugget",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
+              "function": "set_name",
+              "target": "custom_name",
+              "name": [
+                {
+                  "italic": false,
+                  "text": "§aCartographer Key"
+                }
+              ]
             },
             {
-              "function": "set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"§aCartographer Key\",\"italic\":false}'},CustomModelData:333070,atrium_village_key:1b,atrium_village_cartographer_key:1b}"
+              "function": "set_name",
+              "target": "item_name",
+              "name": [
+                {
+                  "italic": false,
+                  "text": "Mangled Key"
+                }
+              ]
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_model_data": 333070,
+                "minecraft:custom_data": {
+                  "atrium_village_key": 1,
+                  "atrium_village_cartographer_key": 1
+                }
+              }
             }
           ]
         },
@@ -33,7 +55,7 @@
           "type": "loot_table",
           "weight": 3,
           "quality": 1,
-          "name": "atrium:gameplay/hero_of_the_village/village_type_key"
+          "value": "atrium:gameplay/hero_of_the_village/village_type_key"
         }
       ],
       "rolls": 1.0

@@ -7,12 +7,12 @@
               {
                 "type": "loot_table",
                 "weight": 10,
-                "name": "atrium:dungeons/palace/occult_items"
+                "value": "atrium:dungeons/palace/occult_items"
               },
               {
                 "type": "loot_table",
                 "weight": 25,
-                "name": "atrium:dungeons/palace/failed_experiments"
+                "value": "atrium:dungeons/palace/failed_experiments"
               }
             ]
           },
@@ -28,15 +28,16 @@
             "name": "minecraft:potion",
             "functions": [
               {
-                "function": "set_count",
-                "count": 1
-              },
-              {
-                "function": "set_nbt",
-                "tag": "{Potion:\"minecraft:empty\",CustomPotionColor:11775487}"
+                "function": "set_components",
+                "components": {
+                  "minecraft:potion_contents": {
+                    "custom_color": 11775487
+                  }
+                }
               },
               {
                 "function": "set_name",
+                "target": "item_name",
                 "name": [
                   {
                     "text": "Diluted Awkward Potion",
@@ -52,12 +53,12 @@
             "name": "minecraft:potion",
             "functions": [
               {
-                "function": "set_count",
-                "count": 1
-              },
-              {
-                "function": "set_nbt",
-                "tag": "{Potion:\"minecraft:awkward\"}"
+                "function": "set_components",
+                "components": {
+                  "minecraft:potion_contents": {
+                    "potion": "minecraft:awkward"
+                  }
+                }
               }
             ]
           },
@@ -133,8 +134,12 @@
                 }
               },
               {
-                "function": "set_nbt",
-                "tag": "{Potion:\"minecraft:water\"}"
+                "function": "set_components",
+                "components": {
+                  "minecraft:potion_contents": {
+                    "potion": "minecraft:water"
+                  }
+                }
               }
             ]
           }
@@ -153,12 +158,12 @@
             "name": "minecraft:potion",
             "functions": [
               {
-                "function": "set_count",
-                "count": 1
-              },
-              {
-                "function": "set_nbt",
-                "tag": "{Potion:\"minecraft:invisibility\"}"
+                "function": "set_components",
+                "components": {
+                  "minecraft:potion_contents": {
+                    "potion": "minecraft:invisibility"
+                  }
+                }
               }
             ]
           },
@@ -168,21 +173,28 @@
             "name": "minecraft:splash_potion",
             "functions": [
               {
-                "function": "set_count",
-                "count": 1
-              },
-              {
-                "function": "set_nbt",
-                "tag": "{CustomPotionEffects:[{Id:18,Amplifier:0b,Duration:2400,ShowParticles:1b}],Potion:\"minecraft:empty\",CustomPotionColor:8950152}"
-              },
-              {
                 "function": "set_name",
+                "target": "item_name",
                 "name": [
                   {
-                    "text": "Diluted Splash Potion of Weakness",
-                    "italic": false
+                    "text": "Diluted Splash Potion of Weakness"
                   }
                 ]
+              },
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:potion_contents": {
+                    "custom_effects": [
+                      {
+                        "id": "minecraft:weakness",
+                        "amplifier": 0,
+                        "duration": 2400,
+                        "show_particles": 1
+                      }
+                    ]
+                  }
+                }
               }
             ]
           },
@@ -192,12 +204,12 @@
             "name": "minecraft:splash_potion",
             "functions": [
               {
-                "function": "set_count",
-                "count": 1
-              },
-              {
-                "function": "set_nbt",
-                "tag": "{Potion:\"minecraft:long_weakness\"}"
+                "function": "set_components",
+                "components": {
+                  "minecraft:potion_contents": {
+                    "potion": "minecraft:long_weakness"
+                  }
+                }
               }
             ]
           },
@@ -207,21 +219,28 @@
             "name": "minecraft:potion",
             "functions": [
               {
-                "function": "set_count",
-                "count": 1
-              },
-              {
-                "function": "set_nbt",
-                "tag": "{CustomPotionEffects:[{Id:16,Amplifier:0b,Duration:1800,ShowParticles:1b}],Potion:\"minecraft:empty\",CustomPotionColor:5065377}"
-              },
-              {
                 "function": "set_name",
+                "target": "item_name",
                 "name": [
                   {
-                    "text": "Diluted Potion of Night Vision",
-                    "italic": false
+                    "text": "Diluted Potion of Night Vision"
                   }
                 ]
+              },
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:potion_contents": {
+                    "custom_effects": [
+                      {
+                        "id": "minecraft:night_vision",
+                        "amplifier": 0,
+                        "duration": 1800,
+                        "show_particles": 1
+                      }
+                    ]
+                  }
+                }
               }
             ]
           },
@@ -231,12 +250,12 @@
             "name": "minecraft:potion",
             "functions": [
               {
-                "function": "set_count",
-                "count": 1
-              },
-              {
-                "function": "set_nbt",
-                "tag": "{Potion:\"minecraft:night_vision\"}"
+                "function": "set_components",
+                "components": {
+                  "minecraft:potion_contents": {
+                    "potion": "minecraft:night_vision"
+                  }
+                }
               }
             ]
           },
@@ -246,21 +265,28 @@
             "name": "minecraft:potion",
             "functions": [
               {
-                "function": "set_count",
-                "count": 1
-              },
-              {
-                "function": "set_nbt",
-                "tag": "{CustomPotionEffects:[{Id:13,Amplifier:0b,Duration:4800,ShowParticles:1b}],Potion:\"minecraft:empty\",CustomPotionColor:5466777}"
-              },
-              {
                 "function": "set_name",
+                "target": "item_name",
                 "name": [
                   {
-                    "text": "Diluted Potion of Water Breathing",
-                    "italic": false
+                    "text": "Diluted Potion of Water Breathing"
                   }
                 ]
+              },
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:potion_contents": {
+                    "custom_effects": [
+                      {
+                        "id": "minecraft:water_breathing",
+                        "amplifier": 0,
+                        "duration": 4800,
+                        "show_particles": 1
+                      }
+                    ]
+                  }
+                }
               }
             ]
           },
@@ -270,21 +296,28 @@
             "name": "minecraft:potion",
             "functions": [
               {
-                "function": "set_count",
-                "count": 1
-              },
-              {
-                "function": "set_nbt",
-                "tag": "{CustomPotionEffects:[{Id:13,Amplifier:0b,Duration:1800,ShowParticles:1b}],Potion:\"minecraft:empty\",CustomPotionColor:5466777}"
-              },
-              {
                 "function": "set_name",
+                "target": "item_name",
                 "name": [
                   {
-                    "text": "Diluted Potion of Water Breathing",
-                    "italic": false
+                    "text": "Diluted Potion of Water Breathing"
                   }
                 ]
+              },
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:potion_contents": {
+                    "custom_effects": [
+                      {
+                        "id": "minecraft:water_breathing",
+                        "amplifier": 0,
+                        "duration": 1800,
+                        "show_particles": 1
+                      }
+                    ]
+                  }
+                }
               }
             ]
           },
@@ -294,12 +327,12 @@
             "name": "minecraft:potion",
             "functions": [
               {
-                "function": "set_count",
-                "count": 1
-              },
-              {
-                "function": "set_nbt",
-                "tag": "{Potion:\"minecraft:long_water_breathing\"}"
+                "function": "set_components",
+                "components": {
+                  "minecraft:potion_contents": {
+                    "potion": "minecraft:long_water_breathing"
+                  }
+                }
               }
             ]
           },
@@ -309,12 +342,12 @@
             "name": "minecraft:potion",
             "functions": [
               {
-                "function": "set_count",
-                "count": 1
-              },
-              {
-                "function": "set_nbt",
-                "tag": "{Potion:\"minecraft:water_breathing\"}"
+                "function": "set_components",
+                "components": {
+                  "minecraft:potion_contents": {
+                    "potion": "minecraft:water_breathing"
+                  }
+                }
               }
             ]
           }

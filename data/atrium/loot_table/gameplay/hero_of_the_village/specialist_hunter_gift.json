@@ -7,15 +7,9 @@
         "entries": [
           {
             "type": "item",
-            "weight": 5,
-            "quality": 2,
-            "name": "minecraft:rotten_flesh",
-            "functions": [
-              {
-                "function": "minecraft:set_nbt",
-                "tag": "{display:{Name:'{\"text\":\"Chow\",\"italic\":false}',Lore:['{\"text\":\" \"}','{\"text\":\"When Fed to a Wolf:\",\"color\":\"dark_purple\",\"italic\":false}','{\"text\":\"Regeneration (5:00)\",\"color\":\"blue\",\"italic\":false}']},CustomModelData:333149,atrium_chow:1b}"
-              }
-            ]
+            "weight": 4,
+            "quality": 1,
+            "name": "minecraft:armadillo_scute"
           },
           {
             "type": "item",

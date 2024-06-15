@@ -12,17 +12,14 @@
           "name": "minecraft:clock",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
               "function": "set_lore",
               "lore": [
                 {
                   "text": "Helps pass the time.",
                   "color": "gray"
                 }
-              ]
+              ],
+              "mode": "append"
             }
           ]
         },
@@ -32,10 +29,6 @@
           "quality": 2,
           "name": "minecraft:leather_boots",
           "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
             {
               "function": "set_name",
               "name": [
@@ -71,7 +64,8 @@
                   "text": "Almost too hot.",
                   "color": "gray"
                 }
-              ]
+              ],
+              "mode": "append"
             }
           ]
         },
@@ -112,12 +106,10 @@
           "name": "minecraft:goat_horn",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{instrument:\"minecraft:call_goat_horn\"}"
+              "function": "set_components",
+              "components": {
+                "minecraft:instrument": "minecraft:call_goat_horn"
+              }
             }
           ]
         },
@@ -139,13 +131,7 @@
           "type": "item",
           "weight": 20,
           "quality": 2,
-          "name": "minecraft:powder_snow_bucket",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            }
-          ]
+          "name": "minecraft:powder_snow_bucket"
         },
         {
           "type": "item",
@@ -225,7 +211,8 @@
                   "text": "It's still warm.",
                   "color": "gray"
                 }
-              ]
+              ],
+              "mode": "append"
             }
           ]
         },

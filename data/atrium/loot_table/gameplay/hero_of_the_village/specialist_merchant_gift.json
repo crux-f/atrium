@@ -45,7 +45,7 @@
             "type": "item",
             "weight": 10,
             "quality": 0,
-            "name": "minecraft:scute"
+            "name": "minecraft:turtle_scute"
           }
         ]
       }

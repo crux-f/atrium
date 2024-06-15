@@ -25,12 +25,34 @@
           "name": "minecraft:gold_nugget",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
+              "function": "set_name",
+              "target": "custom_name",
+              "name": [
+                {
+                  "italic": false,
+                  "text": "§aWeaponsmith Key"
+                }
+              ]
             },
             {
-              "function": "set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"§aWeaponsmith Key\",\"italic\":false}'},CustomModelData:333070,atrium_village_key:1b,atrium_village_weaponsmith_key:1b}"
+              "function": "set_name",
+              "target": "item_name",
+              "name": [
+                {
+                  "italic": false,
+                  "text": "Mangled Key"
+                }
+              ]
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_model_data": 333070,
+                "minecraft:custom_data": {
+                  "atrium_village_key": 1,
+                  "atrium_village_weaponsmith_key": 1
+                }
+              }
             }
           ]
         },

@@ -12,12 +12,12 @@
             "type": "loot_table",
             "weight": 1,
             "quality": 1,
-            "name": "atrium:chests/illager_modifier_runes"
+            "value": "atrium:chests/illager_modifier_runes"
           },
           {
             "type": "loot_table",
             "weight": 7,
-            "name": "atrium:chests/illager_runes"
+            "value": "atrium:chests/illager_runes"
           }
         ]
       },
@@ -27,7 +27,6 @@
         "entries": [
           {
             "type": "item",
-            "weight": 1,
             "name": "minecraft:heart_of_the_sea"
           }
         ]

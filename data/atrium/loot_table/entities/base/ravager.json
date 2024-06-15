@@ -5,11 +5,14 @@
       "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "empty",
-          "weight": 7
-        },
-        {
           "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
           "name": "minecraft:saddle"
         }
       ],

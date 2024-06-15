@@ -121,7 +121,8 @@
             "name": "minecraft:book",
             "functions": [
               {
-                "function": "minecraft:enchant_randomly"
+                "function": "minecraft:enchant_randomly",
+                "options": "#minecraft:on_random_loot"
               }
             ]
           }
@@ -138,7 +139,7 @@
             {
               "type": "loot_table",
               "weight": 10,
-              "name": "atrium:dungeons/palace/armaments"
+              "value": "atrium:dungeons/palace/armaments"
             }
           ]
       },
@@ -209,15 +210,31 @@
               ]
           },
           {
+            "type": "item",
             "weight": 1,
-            "type": "minecraft:item",
             "name": "minecraft:potion",
             "functions": [
-                {
-                    "function": "minecraft:set_nbt",
-                    "tag": "{display:{Name:'{\"text\":\"Potion of Water Breathing\",\"italic\":false}'},CustomModelData:333067,atrium_longer_water_breathing:1b,atrium_tier_3_potion:1b,CustomPotionEffects:[{Id:13,Amplifier:0b,Duration:20400,ShowParticles:1b}],Potion:\"minecraft:empty\",CustomPotionColor:3035801}"
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_model_data": 333067,
+                  "minecraft:custom_data": {
+                    "atrium_tier_3_potion": 1,
+                    "atrium_potion": "longer_water_breathing"
+                  },
+                  "minecraft:potion_contents": {
+                    "custom_effects": [
+                      {
+                        "id": "minecraft:water_breathing",
+                        "amplifier": 0,
+                        "duration": 20400,
+                        "show_particles": 1
+                      }
+                    ]
+                  }
                 }
-              ]
+              }
+            ]
           }
         ]
       }

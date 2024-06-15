@@ -9,19 +9,13 @@
           "type": "loot_table",
           "weight": 10,
           "quality": 2,
-          "name": "atrium:formulas/infusion_recipes_1"
+          "value": "atrium:formulas/infusion_research_common"
         },
         {
           "type": "loot_table",
           "weight": 10,
           "quality": 2,
-          "name": "atrium:formulas/runic_recipes_1"
-        },
-        {
-          "type": "loot_table",
-          "weight": 10,
-          "quality": 2,
-          "name": "atrium:formulas/alchemy_recipes_1"
+          "value": "atrium:formulas/alchemy_research_common"
         },
         {
           "type": "minecraft:empty",
@@ -39,14 +33,7 @@
         {
           "type": "loot_table",
           "weight": 2,
-          "quality": 0,
-          "name": "atrium:curiosity/doctrine_curiosity",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            }
-          ]
+          "value": "atrium:curiosity/doctrine_curiosity"
         },
         {
           "type": "empty",
@@ -56,39 +43,11 @@
       ]
     },
     {
-      "rolls": {
-        "min": 1,
-        "max": 2
-      },
-      "bonus_rolls": 0,
-      "entries": [
-        {
-          "type": "loot_table",
-          "conditions": [
-                {
-                  "condition": "minecraft:entity_properties",
-                  "entity": "this",
-                  "predicate": {
-                  "nbt": "{Inventory:[{tag:{atrium_curiosity_helmet:1b}}]}"
-                    }
-                }
-          ],
-          "name": "atrium:curiosity/doctrine_curiosity",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            }
-          ]
-        }
-      ]
-    },
-    {
       "rolls": 1,
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "atrium:chests/base/underwater_ruin_big"
+          "value": "atrium:chests/base/underwater_ruin_big"
         }
       ]
     }

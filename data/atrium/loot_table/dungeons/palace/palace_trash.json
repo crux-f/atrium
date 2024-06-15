@@ -42,25 +42,13 @@
           "type": "item",
           "weight": 1,
           "quality": 2,
-          "name": "minecraft:turtle_egg",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            }
-          ]
+          "name": "minecraft:turtle_egg"
         },
         {
           "type": "item",
           "weight": 1,
           "quality": 2,
-          "name": "minecraft:wet_sponge",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            }
-          ]
+          "name": "minecraft:wet_sponge"
         }
       ]
     },
@@ -105,61 +93,31 @@
           "type": "item",
           "weight": 2,
           "quality": 1,
-          "name": "minecraft:paper",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            }
-          ]
+          "name": "minecraft:paper"
         },
         {
           "type": "item",
           "weight": 1,
           "quality": 1,
-          "name": "minecraft:coal",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            }
-          ]
+          "name": "minecraft:coal"
         },
         {
           "type": "item",
           "weight": 2,
           "quality": 0,
-          "name": "minecraft:dead_fire_coral",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            }
-          ]
+          "name": "minecraft:dead_fire_coral"
         },
         {
           "type": "item",
           "weight": 2,
           "quality": 0,
-          "name": "minecraft:dead_horn_coral",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            }
-          ]
+          "name": "minecraft:dead_horn_coral"
         },
         {
           "type": "item",
           "weight": 1,
           "quality": -1,
-          "name": "minecraft:pufferfish",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            }
-          ]
+          "name": "minecraft:pufferfish"
         },
         {
           "type": "item",

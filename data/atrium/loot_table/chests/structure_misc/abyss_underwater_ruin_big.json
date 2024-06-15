@@ -11,60 +11,30 @@
           {
             "type": "loot_table",
             "weight": 20,
-            "name": "atrium:chests/illager_runes",
-            "functions": [
-              {
-                "function": "set_count",
-                "count": 1
-              }
-            ]
+            "value": "atrium:chests/illager_runes"
           },
           {
             "type": "loot_table",
             "weight": 2,
             "quality": 1,
-            "name": "atrium:chests/illager_modifier_runes",
-            "functions": [
-              {
-                "function": "set_count",
-                "count": 1
-              }
-            ]
+            "value": "atrium:chests/illager_modifier_runes"
           },
           {
             "type": "loot_table",
             "weight": 3,
-            "name": "atrium:formulas/infusion_recipes_1",
-            "functions": [
-              {
-                "function": "set_count",
-                "count": 1
-              }
-            ]
+            "value": "atrium:formulas/infusion_research_common"
           },
           {
             "type": "loot_table",
-            "weight": 3,
+            "weight": 1,
             "quality": 1,
-            "name": "atrium:formulas/infusion_recipes_2",
-            "functions": [
-              {
-                "function": "set_count",
-                "count": 1
-              }
-            ]
+            "value": "atrium:formulas/infusion_research_rare"
           },
           {
             "type": "loot_table",
             "weight": 3,
             "quality": 2,
-            "name": "atrium:formulas/recipes_occult",
-            "functions": [
-              {
-                "function": "set_count",
-                "count": 1
-              }
-            ]
+            "value": "atrium:formulas/recipes_occult"
           },
           {
             "type": "item",
@@ -85,13 +55,7 @@
           {
             "type": "loot_table",
             "weight": 3,
-            "name": "atrium:curiosity/doctrine_curiosity",
-            "functions": [
-              {
-                "function": "set_count",
-                "count": 1
-              }
-            ]
+            "value": "atrium:curiosity/doctrine_curiosity"
           }
         ]
       },
@@ -114,24 +78,12 @@
           {
             "type": "item",
             "weight": 5,
-            "name": "minecraft:copper_ingot",
-            "functions": [
-              {
-                "function": "set_count",
-                "count": 1
-              }
-            ]
+            "name": "minecraft:copper_ingot"
           },
           {
             "type": "item",
             "weight": 10,
-            "name": "minecraft:stone_bricks",
-            "functions": [
-              {
-                "function": "set_count",
-                "count": 1
-              }
-            ]
+            "name": "minecraft:stone_bricks"
           },
           {
             "type": "item",

@@ -23,25 +23,13 @@
           "type": "item",
           "weight": 4,
           "quality": 1,
-          "name": "minecraft:deepslate_gold_ore",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            }
-          ]
+          "name": "minecraft:deepslate_gold_ore"
         },
         {
           "type": "item",
           "weight": 4,
           "quality": 1,
-          "name": "minecraft:water_bucket",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            }
-          ]
+          "name": "minecraft:water_bucket"
         },
         {
           "type": "item",
@@ -108,32 +96,48 @@
           "name": "minecraft:player_head",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{SkullOwner:{Id:[I;-1234546654,1910916340,-2078531395,1967161826],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWE4NTc2OGQ1MjhjZGFmNmQ5YzM2ZDRkMWI1NjkwZDQ4NjgzOGE3NDdjYWJiZWUzMTk4ZmFlMDVmNTQxMTFlMiJ9fX0=\"}]}}}"
+              "function": "set_components",
+              "components": {
+                "minecraft:rarity": "uncommon",
+                "minecraft:custom_data": {
+                  "atrium_quipster_symbol": 1
+                },
+                "minecraft:profile": {
+                  "id": [
+                    -1234546654,
+                    1910916340,
+                    -2078531395,
+                    1967161826
+                  ],
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWE4NTc2OGQ1MjhjZGFmNmQ5YzM2ZDRkMWI1NjkwZDQ4NjgzOGE3NDdjYWJiZWUzMTk4ZmFlMDVmNTQxMTFlMiJ9fX0="
+                    }
+                  ]
+                },
+                "minecraft:note_block_sound": "atrium:favor.quipster"
+              }
             },
             {
               "function": "set_name",
               "name": [
                 {
-                  "text": "Holy Symbol",
-                  "color": "yellow",
-                  "italic": false
+                  "text": "Holy Symbol"
                 }
-              ]
+              ],
+              "target": "item_name"
             },
             {
               "function": "set_lore",
               "lore": [
                 {
-                  "text": "The Quipster",
                   "color": "green",
-                  "italic": false
+                  "italic": false,
+                  "text": "The Quipster"
                 }
-              ]
+              ],
+              "mode": "append"
             }
           ]
         },
@@ -159,10 +163,6 @@
           "name": "minecraft:map",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
               "function": "exploration_map",
               "destination": "mineshaft",
               "decoration": "red_x",
@@ -172,10 +172,10 @@
               "function": "set_name",
               "name": [
                 {
-                  "text": "Prospector's Map",
-                  "italic": true
+                  "text": "Mineshaft Explorer Map"
                 }
-              ]
+              ],
+              "target": "item_name"
             }
           ]
         }

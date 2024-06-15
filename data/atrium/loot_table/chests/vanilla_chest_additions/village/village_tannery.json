@@ -24,7 +24,7 @@
                 "max": 20.0,
                 "min": 10.0
               },
-              "treasure": true
+              "options": "#minecraft:on_random_loot"
             }
           ]
         },
@@ -48,7 +48,7 @@
                 "max": 10.0,
                 "min": 0.0
               },
-              "treasure": true
+              "options": "#minecraft:on_random_loot"
             }
           ]
         },
@@ -57,10 +57,6 @@
           "weight": 6,
           "name": "minecraft:leather_leggings",
           "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
             {
               "function": "minecraft:enchant_with_levels",
               "levels": {
@@ -78,17 +74,13 @@
           "name": "minecraft:leather_chestplate",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
               "function": "minecraft:enchant_with_levels",
               "levels": {
                 "type": "minecraft:uniform",
                 "max": 10.0,
                 "min": 0.0
               },
-              "treasure": true
+              "options": "#minecraft:on_random_loot"
             }
           ]
         },
@@ -98,17 +90,13 @@
           "name": "minecraft:leather_helmet",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
               "function": "minecraft:enchant_with_levels",
               "levels": {
                 "type": "minecraft:uniform",
                 "max": 10.0,
                 "min": 0.0
               },
-              "treasure": true
+              "options": "#minecraft:on_random_loot"
             }
           ]
         }
@@ -166,23 +154,13 @@
           "type": "item",
           "weight": 8,
           "quality": 2,
-          "name": "minecraft:rabbit_foot",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            }
-          ]
+          "name": "minecraft:rabbit_foot"
         },
         {
           "type": "item",
           "weight": 8,
           "name": "minecraft:carrot_on_a_stick",
           "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
             {
               "function": "set_lore",
               "lore": [
@@ -194,7 +172,8 @@
                   "text": "but no.",
                   "color": "gray"
                 }
-              ]
+              ],
+              "mode": "append"
             }
           ]
         },
@@ -217,13 +196,7 @@
           "type": "item",
           "weight": 6,
           "quality": 1,
-          "name": "minecraft:leather_horse_armor",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            }
-          ]
+          "name": "minecraft:leather_horse_armor"
         },
         {
           "type": "item",
@@ -243,35 +216,17 @@
         {
           "type": "item",
           "weight": 6,
-          "name": "minecraft:leather_leggings",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            }
-          ]
+          "name": "minecraft:leather_leggings"
         },
         {
           "type": "item",
           "weight": 6,
-          "name": "minecraft:leather_chestplate",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            }
-          ]
+          "name": "minecraft:leather_chestplate"
         },
         {
           "type": "item",
           "weight": 6,
-          "name": "minecraft:leather_helmet",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            }
-          ]
+          "name": "minecraft:leather_helmet"
         }
       ]
     }

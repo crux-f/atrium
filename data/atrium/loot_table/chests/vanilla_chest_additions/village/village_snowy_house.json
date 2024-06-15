@@ -12,10 +12,6 @@
           "name": "minecraft:lava_bucket",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
               "function": "set_lore",
               "lore": [
                 {
@@ -26,7 +22,8 @@
                   "text": "whole house warm for months!",
                   "color": "gray"
                 }
-              ]
+              ],
+              "mode": "append"
             }
           ]
         },
@@ -63,13 +60,7 @@
           "type": "item",
           "weight": 20,
           "quality": 1,
-          "name": "minecraft:powder_snow_bucket",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            }
-          ]
+          "name": "minecraft:powder_snow_bucket"
         },
         {
           "type": "item",
@@ -78,17 +69,14 @@
           "name": "minecraft:rabbit_stew",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
               "function": "set_lore",
               "lore": [
                 {
                   "text": "Frozen, but better than nothing.",
                   "color": "gray"
                 }
-              ]
+              ],
+              "mode": "append"
             }
           ]
         },
@@ -98,10 +86,6 @@
           "quality": 2,
           "name": "minecraft:iron_shovel",
           "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
             {
               "function": "set_name",
               "name": [
@@ -120,16 +104,13 @@
           "name": "minecraft:echo_shard",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
               "function": "set_lore",
               "lore": [
                 {
                   "text": "How did this get here???"
                 }
-              ]
+              ],
+              "mode": "append"
             }
           ]
         },
@@ -196,7 +177,8 @@
                   "text": "Even the soup here is cold.",
                   "color": "gray"
                 }
-              ]
+              ],
+              "mode": "append"
             }
           ]
         },
@@ -262,7 +244,8 @@
                   "text": "Almost too slippery to hold.",
                   "color": "gray"
                 }
-              ]
+              ],
+              "mode": "append"
             }
           ]
         }

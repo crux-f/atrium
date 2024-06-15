@@ -52,7 +52,8 @@
                     "text": "...for now.",
                     "color": "gray"
                   }
-                ]
+                ],
+              "mode": "append"
               }
             ]
           },
@@ -110,10 +111,6 @@
                   "min": 1,
                   "max": 2
                 }
-              },
-              {
-                "function": "set_nbt",
-                "tag": "{pages:[\"\"]}"
               }
             ]
           },
@@ -179,13 +176,7 @@
             "type": "item",
             "weight": 3,
             "quality": 1,
-            "name": "minecraft:enchanting_table",
-            "functions": [
-              {
-                "function": "set_count",
-                "count": 1
-              }
-            ]
+            "name": "minecraft:enchanting_table"
           },
           {
             "type": "item",
@@ -193,10 +184,6 @@
             "quality": 1,
             "name": "minecraft:book",
             "functions": [
-              {
-                "function": "set_count",
-                "count": 1
-              },
               {
                 "function": "minecraft:enchant_with_levels",
                 "levels": {

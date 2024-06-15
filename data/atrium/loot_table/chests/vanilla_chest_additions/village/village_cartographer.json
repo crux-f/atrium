@@ -233,8 +233,51 @@
           "name": "minecraft:chest",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Map Chest\",\"italic\":false}',Lore:['{\"text\":\"Desert\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Contains a map to\"}','{\"text\":\"a Savanna or Plains village,\"}','{\"text\":\"or to a Jungle Temple.\"}','{\"text\":\"Highly tradable.\"}']},atrium_desert_map_chest:1b,BlockEntityTag:{LootTable:\"atrium:chests/vanilla_chest_additions/village/desert_map_chest\"}}"
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "atrium_map_atlas": 1,
+                  "atrium_map_of": "desert"
+                },
+                "minecraft:container_loot": {
+                  "loot_table": "atrium:chests/vanilla_chest_additions/village/desert_map_chest"
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "italic": false,
+                  "text": "Map Atlas"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Desert",
+                  "color": "yellow",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "Contains a map to a"
+                },
+                {
+                  "text": "Savanna or Plains village,"
+                },
+                {
+                  "text": "or to a Jungle Temple."
+                },
+                {
+                  "text": "Highly tradable."
+                }
+              ],
+              "mode": "append"
             }
           ],
           "conditions": [
@@ -253,8 +296,51 @@
           "name": "minecraft:chest",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Map Chest\",\"italic\":false}',Lore:['{\"text\":\"Jungle\",\"color\":\"dark_green\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Contains a map to\"}','{\"text\":\"a Savanna or Desert village,\"}','{\"text\":\"or to a Witch\\'s Hut.\"}','{\"text\":\"Highly tradable.\"}']},atrium_jungle_map_chest:1b,BlockEntityTag:{LootTable:\"atrium:chests/vanilla_chest_additions/village/jungle_map_chest\"}}"
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "atrium_map_atlas": 1,
+                  "atrium_map_of": "jungle"
+                },
+                "minecraft:container_loot": {
+                  "loot_table": "atrium:chests/vanilla_chest_additions/village/jungle_map_chest"
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "italic": false,
+                  "text": "Map Atlas"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Jungle",
+                  "color": "dark_green",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "Contains a map to a"
+                },
+                {
+                  "text": "Savanna or Desert village,"
+                },
+                {
+                  "text": "or to a Swamp Hut."
+                },
+                {
+                  "text": "Highly tradable."
+                }
+              ],
+              "mode": "append"
             }
           ],
           "conditions": [
@@ -273,8 +359,51 @@
           "name": "minecraft:chest",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Map Chest\",\"italic\":false}',Lore:['{\"text\":\"Plains\",\"color\":\"green\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Contains a map to\"}','{\"text\":\"a Savanna or Taiga village,\"}','{\"text\":\"or to an Abandoned Mineshaft.\"}','{\"text\":\"Highly tradable.\"}']},atrium_plains_map_chest:1b,BlockEntityTag:{LootTable:\"atrium:chests/vanilla_chest_additions/village/plains_map_chest\"}}"
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "atrium_map_atlas": 1,
+                  "atrium_map_of": "plains"
+                },
+                "minecraft:container_loot": {
+                  "loot_table": "atrium:chests/vanilla_chest_additions/village/plains_map_chest"
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "italic": false,
+                  "text": "Map Atlas"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Plains",
+                  "color": "green",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "Contains a map to a"
+                },
+                {
+                  "text": "Savanna or Taiga village,"
+                },
+                {
+                  "text": "or to an Abandoned Mineshaft."
+                },
+                {
+                  "text": "Highly tradable."
+                }
+              ],
+              "mode": "append"
             }
           ],
           "conditions": [
@@ -293,8 +422,51 @@
           "name": "minecraft:chest",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Map Chest\",\"italic\":false}',Lore:['{\"text\":\"Savanna\",\"color\":\"red\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Contains a map to\"}','{\"text\":\"a Desert or Plains village,\"}','{\"text\":\"or to a Jungle Temple.\"}','{\"text\":\"Highly tradable.\"}']},atrium_savanna_map_chest:1b,BlockEntityTag:{LootTable:\"atrium:chests/vanilla_chest_additions/village/savanna_map_chest\"}}"
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "atrium_map_atlas": 1,
+                  "atrium_map_of": "savanna"
+                },
+                "minecraft:container_loot": {
+                  "loot_table": "atrium:chests/vanilla_chest_additions/village/savanna_map_chest"
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "italic": false,
+                  "text": "Map Atlas"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Savanna",
+                  "color": "red",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "Contains a map to a"
+                },
+                {
+                  "text": "Desert or Plains village,"
+                },
+                {
+                  "text": "or to an Jungle Temple."
+                },
+                {
+                  "text": "Highly tradable."
+                }
+              ],
+              "mode": "append"
             }
           ],
           "conditions": [
@@ -313,8 +485,51 @@
           "name": "minecraft:chest",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Map Chest\",\"italic\":false}',Lore:['{\"text\":\"Snow\",\"color\":\"aqua\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Contains a map to\"}','{\"text\":\"a Plains or Taiga village,\"}','{\"text\":\"or to a Witch\\'s Hut.\"}','{\"text\":\"Highly tradable.\"}']},atrium_snow_map_chest:1b,BlockEntityTag:{LootTable:\"atrium:chests/vanilla_chest_additions/village/snow_map_chest\"}}"
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "atrium_map_atlas": 1,
+                  "atrium_map_of": "plains"
+                },
+                "minecraft:container_loot": {
+                  "loot_table": "atrium:chests/vanilla_chest_additions/village/snow_map_chest"
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "italic": false,
+                  "text": "Map Atlas"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Snow",
+                  "color": "aqua",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "Contains a map to a"
+                },
+                {
+                  "text": "Plains or Taiga village,"
+                },
+                {
+                  "text": "or to an Witch's Hut."
+                },
+                {
+                  "text": "Highly tradable."
+                }
+              ],
+              "mode": "append"
             }
           ],
           "conditions": [
@@ -333,8 +548,51 @@
           "name": "minecraft:chest",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Map Chest\",\"italic\":false}',Lore:['{\"text\":\"Swamp\",\"color\":\"blue\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Contains a map to\"}','{\"text\":\"a Snow or Taiga village,\"}','{\"text\":\"or to a Jungle Temple.\"}','{\"text\":\"Highly tradable.\"}']},atrium_swamp_map_chest:1b,BlockEntityTag:{LootTable:\"atrium:chests/vanilla_chest_additions/village/swamp_map_chest\"}}"
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "atrium_map_atlas": 1,
+                  "atrium_map_of": "swamp"
+                },
+                "minecraft:container_loot": {
+                  "loot_table": "atrium:chests/vanilla_chest_additions/village/swamp_map_chest"
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "italic": false,
+                  "text": "Map Atlas"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Swamp",
+                  "color": "blue",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "Contains a map to a"
+                },
+                {
+                  "text": "Snow or Taiga village,"
+                },
+                {
+                  "text": "or to an Jungle Temple."
+                },
+                {
+                  "text": "Highly tradable."
+                }
+              ],
+              "mode": "append"
             }
           ],
           "conditions": [
@@ -353,8 +611,51 @@
           "name": "minecraft:chest",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Map Chest\",\"italic\":false}',Lore:['{\"text\":\"Taiga\",\"color\":\"dark_aqua\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Contains a map to\"}','{\"text\":\"a Plains or Snow village,\"}','{\"text\":\"or to a Witch\\'s Hut.\"}','{\"text\":\"Highly tradable.\"}']},atrium_taiga_map_chest:1b,BlockEntityTag:{LootTable:\"atrium:chests/vanilla_chest_additions/village/taiga_map_chest\"}}"
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "atrium_map_atlas": 1,
+                  "atrium_map_of": "taiga"
+                },
+                "minecraft:container_loot": {
+                  "loot_table": "atrium:chests/vanilla_chest_additions/village/taiga_map_chest"
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "italic": false,
+                  "text": "Map Atlas"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Taiga",
+                  "color": "dark_aqua",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "Contains a map to a"
+                },
+                {
+                  "text": "Plains or Snow village,"
+                },
+                {
+                  "text": "or to an Witch's Hut."
+                },
+                {
+                  "text": "Highly tradable."
+                }
+              ],
+              "mode": "append"
             }
           ],
           "conditions": [
@@ -377,18 +678,50 @@
           "name": "minecraft:map",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
               "function": "exploration_map",
               "destination": "atrium:city_plains",
               "decoration": "village_plains",
               "skip_existing_chunks": true
             },
             {
-              "function": "set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Explorer Map\",\"italic\":false,\"color\":\"yellow\"}',Lore:['{\"text\":\"A rare map to a city.\"}'],MapColor:10672925}}"
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "City Explorer Map"
+                }
+              ],
+              "target": "item_name"
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:rarity": "uncommon",
+                "minecraft:map_color": 10672925
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Cities are few and far"
+                },
+                {
+                  "text": "between in this age."
+                },
+                {
+                  "text": "This rare map- kept out"
+                },
+                {
+                  "text": "of the hands of raiders"
+                },
+                {
+                  "text": "for a generation-"
+                },
+                {
+                  "text": "is entrusted to you now."
+                }
+              ],
+              "mode": "append"
             }
           ]
         }

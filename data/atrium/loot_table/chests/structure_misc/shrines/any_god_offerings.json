@@ -152,13 +152,7 @@
           {
             "type": "loot_table",
             "weight": 1,
-            "name": "atrium:chests/structure_misc/shrines/holy_symbols",
-            "functions": [
-              {
-                "function": "set_count",
-                "count": 1
-              }
-            ]
+            "value": "atrium:chests/structure_misc/shrines/holy_symbols"
           }
         ]
       }

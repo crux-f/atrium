@@ -7,30 +7,6 @@
         "entries": [
           {
             "type": "item",
-            "weight": 10,
-            "quality": 2,
-            "name": "minecraft:stone_axe",
-            "functions": [
-              {
-                "function": "set_nbt",
-                "tag": "{display:{Name:'{\"text\":\"Stone Battleaxe\",\"italic\":false}',Lore:['{\"text\":\" \"}','{\"text\":\"When in Main Hand:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" 9 Attack Damage\",\"color\":\"dark_green\",\"italic\":false}','{\"text\":\" 0.8 Attack Speed\",\"color\":\"dark_green\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"When in Both Hands:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" 12 Attack Damage\",\"color\":\"dark_green\",\"italic\":false}','{\"text\":\" 0.8 Attack Speed\",\"color\":\"dark_green\",\"italic\":false}']},HideFlags:2,CustomModelData:333132,atrium_battleaxe:1b,atrium_stone_battleaxe:1b,AttributeModifiers:[{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-3.2,Operation:0,UUID:[I;353573072,1913209126,-2083568596,-1504060613],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:9,Operation:0,UUID:[I;-1960756177,-122272270,-2047366149,-1527687539],Slot:\"mainhand\"}]}"
-              }
-            ]
-          },
-          {
-            "type": "item",
-            "weight": 10,
-            "quality": 2,
-            "name": "minecraft:stone_sword",
-            "functions": [
-              {
-                "function": "set_nbt",
-                "tag": "{display:{Name:'{\"text\":\"Stone Dagger\",\"italic\":false}',Lore:['{\"text\":\" \"}','{\"text\":\"When in Main Hand:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" 2.5 Attack Damage\",\"color\":\"dark_green\",\"italic\":false}','{\"text\":\" 2.2 Attack Speed\",\"color\":\"dark_green\",\"italic\":false}']},HideFlags:2,CustomModelData:333137,atrium_dagger:1b,atrium_stone_dagger:1b,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:2.5,Operation:0,UUID:[I;-1590116165,837960468,-1267528834,-1834274199],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-1.8,Operation:0,UUID:[I;-2141543910,829441012,-1156642295,665869591],Slot:\"mainhand\"}]}"
-              }
-            ]
-          },
-          {
-            "type": "item",
             "weight": 2,
             "quality": -1,
             "name": "minecraft:chainmail_helmet"

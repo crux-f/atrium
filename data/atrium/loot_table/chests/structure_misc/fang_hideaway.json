@@ -12,48 +12,14 @@
             "name": "minecraft:bow",
             "functions": [
               {
-                "function": "set_count",
-                "count": 1
-              },
-              {
-                "function": "set_nbt",
-                "tag": "{atrium_fang_bow:1b,Enchantments:[{id:\"minecraft:unbreaking\",lvl:3s},{id:\"minecraft:power\",lvl:1s}]}"
-              },
-              {
-                "function": "set_damage",
-                "damage": 0
-              },
-              {
-                "function": "set_name",
-                "name": [
-                  {
-                    "text": "Fang",
-                    "color": "green",
-                    "italic": true
+                "function": "set_components",
+                "components": {
+                  "minecraft:enchantments": {
+                    "levels": {
+                      "minecraft:power": 3,
+                      "minecraft:unbreaking": 2
+                    }
                   }
-                ]
-              }
-            ]
-          },
-          {
-            "type": "item",
-            "weight": 1,
-            "quality": 0,
-            "name": "minecraft:bow",
-            "functions": [
-              {
-                "function": "set_count",
-                "count": 1
-              },
-              {
-                "function": "set_nbt",
-                "tag": "{atrium_fang_bow:2b,Enchantments:[{id:\"minecraft:unbreaking\",lvl:2s},{id:\"minecraft:power\",lvl:2s}]}"
-              },
-              {
-                "function": "set_damage",
-                "damage": {
-                  "min": 0.95,
-                  "max": 0.9
                 }
               },
               {
@@ -61,41 +27,7 @@
                 "name": [
                   {
                     "text": "Fang",
-                    "color": "green",
-                    "italic": true
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "type": "item",
-            "weight": 1,
-            "quality": 0,
-            "name": "minecraft:bow",
-            "functions": [
-              {
-                "function": "set_count",
-                "count": 1
-              },
-              {
-                "function": "set_nbt",
-                "tag": "{RepairCost:2,atrium_fang_bow:3b,Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s},{id:\"minecraft:power\",lvl:3s}]}"
-              },
-              {
-                "function": "set_damage",
-                "damage": {
-                  "min": 0.95,
-                  "max": 0.9
-                }
-              },
-              {
-                "function": "set_name",
-                "name": [
-                  {
-                    "text": "Fang",
-                    "color": "green",
-                    "italic": true
+                    "color": "green"
                   }
                 ]
               }
@@ -105,13 +37,7 @@
             "type": "loot_table",
             "weight": 1,
             "quality": 1,
-            "name": "atrium:formulas/infusion_recipes_1",
-            "functions": [
-              {
-                "function": "set_count",
-                "count": 1
-              }
-            ]
+            "value": "atrium:formulas/infusion_research_common"
           }
         ]
       },
@@ -126,12 +52,12 @@
             "name": "minecraft:potion",
             "functions": [
               {
-                "function": "set_count",
-                "count": 1
-              },
-              {
-                "function": "set_nbt",
-                "tag": "{Potion:\"minecraft:poison\"}"
+                "function": "set_components",
+                "components": {
+                  "minecraft:potion_contents": {
+                    "potion": "minecraft:poison"
+                  }
+                }
               }
             ]
           },
@@ -149,8 +75,12 @@
                 }
               },
               {
-                "function": "set_nbt",
-                "tag": "{Potion:\"minecraft:strong_poison\"}"
+                "function": "set_components",
+                "components": {
+                  "minecraft:potion_contents": {
+                    "potion": "minecraft:strong_poison"
+                  }
+                }
               }
             ]
           },
@@ -168,8 +98,12 @@
                 }
               },
               {
-                "function": "set_nbt",
-                "tag": "{Potion:\"minecraft:poison\"}"
+                "function": "set_components",
+                "components": {
+                  "minecraft:potion_contents": {
+                    "potion": "minecraft:poison"
+                  }
+                }
               }
             ]
           },

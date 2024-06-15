@@ -8,25 +8,13 @@
           {
             "type": "loot_table",
             "weight": 1,
-            "name": "atrium:formulas/any_formula_1",
-            "functions": [
-              {
-                "function": "set_count",
-                "count": 1
-              }
-            ]
+            "value": "atrium:formulas/any_research_common"
           },
           {
             "type": "loot_table",
             "weight": 1,
             "quality": 1,
-            "name": "atrium:dungeons/palace/occult_items",
-            "functions": [
-              {
-                "function": "set_count",
-                "count": 1
-              }
-            ]
+            "value": "atrium:dungeons/palace/occult_items"
           }
         ]
       },
@@ -44,12 +32,14 @@
             "name": "minecraft:enchanted_book",
             "functions": [
               {
-                "function": "set_count",
-                "count": 1
-              },
-              {
-                "function": "set_nbt",
-                "tag": "{StoredEnchantments:[{id:\"minecraft:mending\",lvl:1s}]}"
+                "function": "set_components",
+                "components": {
+                  "minecraft:stored_enchantments": {
+                    "levels": {
+                      "minecraft:mending": 1
+                    }
+                  }
+                }
               }
             ]
           },
@@ -59,11 +49,15 @@
             "quality": 2,
             "name": "minecraft:book",
             "functions": [
-                {
-                  "function": "minecraft:enchant_with_levels",
-                  "levels": 30,
-                  "treasure": true
-                }
+              {
+                "function": "minecraft:enchant_with_levels",
+                "levels": {
+                  "type": "minecraft:uniform",
+                  "max": 35.0,
+                  "min": 25.0
+                },
+                "options": "#minecraft:on_random_loot"
+              }
               ]
           },
           {

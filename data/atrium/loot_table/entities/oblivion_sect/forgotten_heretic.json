@@ -12,13 +12,7 @@
           {
             "type": "item",
             "weight": 1,
-            "name": "minecraft:prismarine_shard",
-            "functions": [
-              {
-                "function": "set_count",
-                "count": 1
-              }
-            ]
+            "name": "minecraft:prismarine_shard"
           }
         ]
       },
@@ -32,13 +26,7 @@
           {
             "type": "item",
             "weight": 1,
-            "name": "minecraft:rotten_flesh",
-            "functions": [
-              {
-                "function": "set_count",
-                "count": 1
-              }
-            ]
+            "name": "minecraft:rotten_flesh"
           }
         ]
       }

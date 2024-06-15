@@ -10,21 +10,22 @@
             "name": "minecraft:emerald",
             "functions": [
               {
-                "function": "set_count",
-                "count": 1
-              },
-              {
-                "function": "set_nbt",
-                "tag": "{CustomModelData:333088,atrium_palace_door_key:1b}"
-              },
-              {
                 "function": "set_name",
                 "name": [
                   {
-                    "text": "Keystone",
-                    "italic": false
+                    "text": "Keystone"
                   }
-                ]
+                ],
+                "target": "item_name"
+              },
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_model_data": 333088,
+                  "minecraft:custom_data": {
+                    "atrium_palace_door_key": 1
+                  }
+                }
               }
             ]
           }
@@ -36,7 +37,7 @@
           {
             "type": "loot_table",
             "weight": 1,
-            "name": "atrium:dungeons/palace/palace_treasure"
+            "value": "atrium:dungeons/palace/palace_treasure"
           }
         ]
       }

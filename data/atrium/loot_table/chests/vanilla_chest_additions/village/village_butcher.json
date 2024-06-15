@@ -47,14 +47,6 @@
                 "min": 1,
                 "max": 4
               }
-            },
-            {
-              "function": "set_name",
-              "name": [
-                {
-                  "text": "Dry Ice"
-                }
-              ]
             }
           ]
         },
@@ -113,15 +105,6 @@
                 "min": 1,
                 "max": 10
               }
-            },
-            {
-              "function": "set_name",
-              "name": [
-                {
-                  "text": "Butcher Paper",
-                  "italic": false
-                }
-              ]
             }
           ]
         },
@@ -174,12 +157,14 @@
           "name": "minecraft:iron_axe",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:looting\",lvl:1s}]}"
+              "function": "set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:looting": 1
+                  }
+                }
+              }
             },
             {
               "function": "set_damage",
@@ -203,7 +188,8 @@
                 {
                   "text": "It's very sanitary."
                 }
-              ]
+              ],
+              "mode": "append"
             }
           ]
         },
@@ -263,28 +249,25 @@
         {
           "type": "item",
           "weight": 15,
-          "quality": 0,
           "name": "minecraft:sugar",
           "functions": [
             {
-              "function": "set_count",
-              "count": {
-                "min": 2,
-                "max": 10
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_model_data": 333080,
+                "minecraft:custom_data": {
+                  "atrium_sea_salt": 1
+                }
               }
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{CustomModelData:333080,atrium_sea_salt:1b}"
             },
             {
               "function": "set_name",
               "name": [
                 {
-                  "text": "Sea Salt",
-                  "italic": false
+                  "text": "Sea Salt"
                 }
-              ]
+              ],
+              "target": "item_name"
             }
           ]
         }

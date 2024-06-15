@@ -41,10 +41,6 @@
           "name": "minecraft:bell",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
               "function": "set_lore",
               "lore": [
                 {
@@ -58,13 +54,7 @@
           "type": "item",
           "weight": 25,
           "quality": 2,
-          "name": "minecraft:lava_bucket",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            }
-          ]
+          "name": "minecraft:lava_bucket"
         },
         {
           "type": "item",
@@ -112,104 +102,188 @@
         },
         {
           "type": "item",
-          "weight": 8,
+          "weight": 15,
           "quality": 3,
-          "name": "minecraft:trident",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "weight": 17,
-          "quality": 2,
-          "name": "minecraft:diamond_sword",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "weight": 17,
-          "quality": 2,
-          "name": "minecraft:diamond_axe",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            }
-          ]
+          "name": "minecraft:diamond_sword"
         },
         {
           "type": "item",
           "weight": 15,
           "quality": 3,
-          "name": "minecraft:iron_sword",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Dueling Sword\",\"italic\":false}',Lore:['{\"text\":\"Unrepairable\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"A bastard sword made\"}','{\"text\":\"to throw enemies off\"}','{\"text\":\"their rhythm.\"}']},RepairCost:99,dueling_sword:1b,Enchantments:[{id:\"minecraft:sweeping\",lvl:1s},{id:\"minecraft:unbreaking\",lvl:3s}]}"
-            }
-          ]
+          "name": "minecraft:diamond_axe"
         },
         {
           "type": "item",
-          "weight": 15,
-          "quality": 3,
+          "weight": 17,
+          "quality": 2,
           "name": "minecraft:iron_axe",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_model_data": 333133,
+                "minecraft:custom_data": {
+                  "atrium_battleaxe": 1,
+                  "atrium_iron_battleaxe": 1
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "atrium:battleaxe_base_attack_damage",
+                      "type": "generic.attack_damage",
+                      "amount": 9,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "atrium:battleaxe_attack_speed",
+                      "type": "generic.attack_speed",
+                      "amount": -3.1,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    }
+                  ],
+                  "show_in_tooltip": false
+                }
+              }
             },
             {
-              "function": "set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Traditional Waraxe\",\"italic\":false}',Lore:['{\"text\":\"Unrepairable\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Old habits die hard.\"}']},RepairCost:99,traditional_waraxe:1b,Enchantments:[{id:\"minecraft:sharpness\",lvl:1s},{id:\"minecraft:unbreaking\",lvl:3s}]}"
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Iron Battleaxe"
+                }
+              ],
+              "target": "item_name"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": " "
+                },
+                {
+                  "color": "gray",
+                  "italic": false,
+                  "text": "When in Main Hand:"
+                },
+                {
+                  "color": "dark_green",
+                  "italic": false,
+                  "text": " 9 Attack Damage"
+                },
+                {
+                  "color": "dark_green",
+                  "italic": false,
+                  "text": " 0.9 Attack Speed"
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "color": "gray",
+                  "italic": false,
+                  "text": "When in Both Hands:"
+                },
+                {
+                  "color": "dark_green",
+                  "italic": false,
+                  "text": " 12 Attack Damage"
+                },
+                {
+                  "color": "dark_green",
+                  "italic": false,
+                  "text": " 0.9 Attack Speed"
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 17,
+          "quality": 2,
+          "name": "minecraft:iron_sword",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_model_data": 333138,
+                "minecraft:custom_data": {
+                  "atrium_dagger": 1,
+                  "atrium_iron_dagger": 1
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "atrium:dagger_attack_damage",
+                      "type": "generic.attack_damage",
+                      "amount": 3,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "atrium:dagger_attack_speed",
+                      "type": "generic.attack_speed",
+                      "amount": -1.8,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    }
+                  ],
+                  "show_in_tooltip": false
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Iron Dagger"
+                }
+              ],
+              "target": "item_name"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": " "
+                },
+                {
+                  "color": "gray",
+                  "italic": false,
+                  "text": "When in Main Hand:"
+                },
+                {
+                  "color": "dark_green",
+                  "italic": false,
+                  "text": " 3 Attack Damage"
+                },
+                {
+                  "color": "dark_green",
+                  "italic": false,
+                  "text": " 2.2 Attack Speed"
+                }
+              ],
+              "mode": "append"
             }
           ]
         },
         {
           "type": "item",
           "weight": 33,
-          "name": "minecraft:shield",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            }
-          ]
+          "name": "minecraft:shield"
         },
         {
           "type": "item",
           "weight": 23,
-          "name": "minecraft:iron_sword",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            }
-          ]
+          "name": "minecraft:iron_sword"
         },
         {
           "type": "item",
           "weight": 23,
-          "name": "minecraft:iron_axe",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            }
-          ]
+          "name": "minecraft:iron_axe"
         },
         {
           "type": "item",
@@ -217,17 +291,13 @@
           "name": "minecraft:iron_sword",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
               "function": "minecraft:enchant_with_levels",
               "levels": {
                 "type": "minecraft:uniform",
                 "max": 10.0,
                 "min": 0.0
               },
-              "treasure": true
+              "options": "#minecraft:on_random_loot"
             }
           ]
         },
@@ -237,17 +307,13 @@
           "name": "minecraft:iron_axe",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
               "function": "minecraft:enchant_with_levels",
               "levels": {
                 "type": "minecraft:uniform",
                 "max": 10.0,
                 "min": 0.0
               },
-              "treasure": true
+              "options": "#minecraft:on_random_loot"
             }
           ]
         }
