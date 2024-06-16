@@ -9,8 +9,13 @@
             "name": "minecraft:firework_star",
             "functions": [
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{atrium_specialist_trade:1,atrium_sell_8_egg:1}"
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "atrium_specialist_trade": 1,
+                    "atrium_sell_8_egg": 1
+                  }
+                }
               }
             ],
             "conditions": [
@@ -41,8 +46,13 @@
             "name": "minecraft:firework_star",
             "functions": [
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{atrium_specialist_trade:1,atrium_buy_1_butter:1}"
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "atrium_specialist_trade": 1,
+                    "atrium_buy_1_butter": 1
+                  }
+                }
               }
             ],
             "conditions": [
@@ -59,7 +69,7 @@
                       "condition": "minecraft:entity_properties",
                       "entity": "this",
                       "predicate": {
-                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:cod\",Count:1b,tag:{display:{Name:'{\"text\":\"Butter\",\"italic\":false}'},CustomModelData:333161,atrium_butter:1b}}}]}}"
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:raw_cod\",count:1,components:{\"minecraft:custom_data\":{atrium_butter:1b}}}}]}}"
                       }
                     }
                   }
@@ -73,8 +83,13 @@
             "name": "minecraft:firework_star",
             "functions": [
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{atrium_specialist_trade:1,atrium_sell_8_red_mushroom:1}"
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "atrium_specialist_trade": 1,
+                    "atrium_sell_8_red_mushroom": 1
+                  }
+                }
               }
             ],
             "conditions": [
@@ -91,7 +106,7 @@
                       "condition": "minecraft:entity_properties",
                       "entity": "this",
                       "predicate": {
-                        "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:red_mushroom\",Count:8b}}]}}"
+                        "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:red_mushroom\",count:8}}]}}"
                       }
                     }
                   }
@@ -105,8 +120,13 @@
             "name": "minecraft:firework_star",
             "functions": [
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{atrium_specialist_trade:1,atrium_sell_8_brown_mushroom:1}"
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "atrium_specialist_trade": 1,
+                    "atrium_sell_8_brown_mushroom": 1
+                  }
+                }
               }
             ],
             "conditions": [
@@ -123,7 +143,7 @@
                       "condition": "minecraft:entity_properties",
                       "entity": "this",
                       "predicate": {
-                        "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:brown_mushroom\",Count:8b}}]}}"
+                        "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:brown_mushroom\",count:8}}]}}"
                       }
                     }
                   }
@@ -137,8 +157,13 @@
             "name": "minecraft:firework_star",
             "functions": [
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{atrium_specialist_trade:1,atrium_buy_1_beetroot_soup:1}"
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "atrium_specialist_trade": 1,
+                    "atrium_buy_1_beetroot_soup": 1
+                  }
+                }
               }
             ],
             "conditions": [
@@ -155,7 +180,7 @@
                       "condition": "minecraft:entity_properties",
                       "entity": "this",
                       "predicate": {
-                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:beetroot_soup\",Count:1b}}]}}"
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:beetroot_soup\",count:1}}]}}"
                       }
                     }
                   }
@@ -169,8 +194,13 @@
             "name": "minecraft:firework_star",
             "functions": [
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{atrium_specialist_trade:1,atrium_buy_1_mushroom_stew:1}"
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "atrium_specialist_trade": 1,
+                    "atrium_buy_1_mushroom_stew": 1
+                  }
+                }
               }
             ],
             "conditions": [
@@ -187,7 +217,7 @@
                       "condition": "minecraft:entity_properties",
                       "entity": "this",
                       "predicate": {
-                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:mushroom_stew\",Count:1b}}]}}"
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:mushroom_stew\",count:1}}]}}"
                       }
                     }
                   }
@@ -201,8 +231,13 @@
             "name": "minecraft:firework_star",
             "functions": [
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{atrium_specialist_trade:1,atrium_buy_1_rabbit_stew:1}"
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "atrium_specialist_trade": 1,
+                    "atrium_buy_1_rabbit_stew": 1
+                  }
+                }
               }
             ],
             "conditions": [
@@ -219,7 +254,7 @@
                       "condition": "minecraft:entity_properties",
                       "entity": "this",
                       "predicate": {
-                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:rabbit_stew\",Count:1b}}]}}"
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:rabbit_stew\",count:1}}]}}"
                       }
                     }
                   }
@@ -233,8 +268,13 @@
             "name": "minecraft:firework_star",
             "functions": [
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{atrium_specialist_trade:1,atrium_sell_8_crimson_fungus:1}"
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "atrium_specialist_trade": 1,
+                    "atrium_sell_8_crimson_fungus": 1
+                  }
+                }
               }
             ],
             "conditions": [
@@ -251,7 +291,7 @@
                       "condition": "minecraft:entity_properties",
                       "entity": "this",
                       "predicate": {
-                        "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:crimson_fungus\",Count:6b}}]}}"
+                        "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:crimson_fungus\",count:8}}]}}"
                       }
                     }
                   }
@@ -265,8 +305,13 @@
             "name": "minecraft:firework_star",
             "functions": [
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{atrium_specialist_trade:1,atrium_sell_8_warped_fungus:1}"
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "atrium_specialist_trade": 1,
+                    "atrium_sell_8_warped_fungus": 1
+                  }
+                }
               }
             ],
             "conditions": [
@@ -283,7 +328,7 @@
                       "condition": "minecraft:entity_properties",
                       "entity": "this",
                       "predicate": {
-                        "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:warped_fungus\",Count:6b}}]}}"
+                        "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:warped_fungus\",count:8}}]}}"
                       }
                     }
                   }
@@ -297,8 +342,13 @@
             "name": "minecraft:firework_star",
             "functions": [
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{atrium_specialist_trade:1,atrium_buy_1_pumpkin_pie:1}"
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "atrium_specialist_trade": 1,
+                    "atrium_buy_1_pumpkin_pie": 1
+                  }
+                }
               }
             ],
             "conditions": [
@@ -315,7 +365,7 @@
                       "condition": "minecraft:entity_properties",
                       "entity": "this",
                       "predicate": {
-                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:pumpkin_pie\",Count:1b}}]}}"
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:pumpkin_pie\",count:1}}]}}"
                       }
                     }
                   }
@@ -329,8 +379,13 @@
             "name": "minecraft:firework_star",
             "functions": [
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{atrium_specialist_trade:1,atrium_buy_1_blue_cheese:1}"
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "atrium_specialist_trade": 1,
+                    "atrium_buy_1_blue_cheese": 1
+                  }
+                }
               }
             ],
             "conditions": [
@@ -347,7 +402,7 @@
                       "condition": "minecraft:entity_properties",
                       "entity": "this",
                       "predicate": {
-                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:baked_potato\",Count:1b,tag:{display:{Name:'{\"text\":\"Blue Cheese\",\"italic\":false}'},CustomModelData:333162,atrium_blue_cheese:1b}}}]}}"
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:baked_potato\",count:1,components:{\"minecraft:custom_data\":{atrium_blue_cheese:1b}}}}]}}"
                       }
                     }
                   }
@@ -361,8 +416,13 @@
             "name": "minecraft:firework_star",
             "functions": [
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{atrium_specialist_trade:1,atrium_buy_1_red_cheese:1}"
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "atrium_specialist_trade": 1,
+                    "atrium_buy_1_red_cheese": 1
+                  }
+                }
               }
             ],
             "conditions": [
@@ -379,7 +439,7 @@
                       "condition": "minecraft:entity_properties",
                       "entity": "this",
                       "predicate": {
-                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:baked_potato\",Count:1b,tag:{display:{Name:'{\"text\":\"Red Cheese\",\"italic\":false}'},CustomModelData:333163,atrium_red_cheese:1b}}}]}}"
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:baked_potato\",count:1,components:{\"minecraft:custom_data\":{atrium_red_cheese:1b}}}}]}}"
                       }
                     }
                   }
@@ -393,8 +453,13 @@
             "name": "minecraft:firework_star",
             "functions": [
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{atrium_specialist_trade:1,atrium_buy_1_yellow_cheese:1}"
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "atrium_specialist_trade": 1,
+                    "atrium_buy_1_yellow_cheese": 1
+                  }
+                }
               }
             ],
             "conditions": [
@@ -411,7 +476,7 @@
                       "condition": "minecraft:entity_properties",
                       "entity": "this",
                       "predicate": {
-                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:baked_potato\",Count:1b,tag:{display:{Name:'{\"text\":\"Yellow Cheese\",\"italic\":false}'},CustomModelData:333164,atrium_yellow_cheese:1b}}}]}}"
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:baked_potato\",count:1,components:{\"minecraft:custom_data\":{atrium_yellow_cheese:1b}}}}]}}"
                       }
                     }
                   }
@@ -425,8 +490,13 @@
             "name": "minecraft:firework_star",
             "functions": [
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{atrium_specialist_trade:1,atrium_buy_1_shipwreck_sub:1}"
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "atrium_specialist_trade": 1,
+                    "atrium_buy_1_shipwreck_sub": 1
+                  }
+                }
               }
             ],
             "conditions": [
@@ -443,7 +513,7 @@
                       "condition": "minecraft:entity_properties",
                       "entity": "this",
                       "predicate": {
-                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:bread\",Count:1b,tag:{display:{Name:'{\"text\":\"Shipwreck Sub\",\"italic\":false}'},CustomModelData:333171,atrium_shipwreck_sub:1b}}}]}}"
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:bread\",count:1,components:{\"minecraft:custom_data\":{atrium_shipwreck_sub:1b}}}}]}}"
                       }
                     }
                   }
@@ -457,8 +527,13 @@
             "name": "minecraft:firework_star",
             "functions": [
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{atrium_specialist_trade:1,atrium_buy_1_pasta:1}"
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "atrium_specialist_trade": 1,
+                    "atrium_buy_1_pasta": 1
+                  }
+                }
               }
             ],
             "conditions": [
@@ -475,7 +550,7 @@
                       "condition": "minecraft:entity_properties",
                       "entity": "this",
                       "predicate": {
-                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:beetroot_soup\",Count:1b,tag:{display:{Name:'{\"text\":\"Pasta\",\"italic\":false}'},CustomModelData:333170,atrium_pasta:1b}}}]}}"
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:beetroot_soup\",count:1,components:{\"minecraft:custom_data\":{atrium_pasta:1b}}}}]}}"
                       }
                     }
                   }
@@ -489,8 +564,13 @@
             "name": "minecraft:firework_star",
             "functions": [
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{atrium_specialist_trade:1,atrium_buy_2_taffy:1}"
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "atrium_specialist_trade": 1,
+                    "atrium_buy_1_buy_2_taffy": 1
+                  }
+                }
               }
             ],
             "conditions": [
@@ -507,7 +587,7 @@
                       "condition": "minecraft:entity_properties",
                       "entity": "this",
                       "predicate": {
-                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:cookie\",Count:2b,tag:{display:{Name:'{\"text\":\"Taffy\",\"italic\":false}'},CustomModelData:333154,atrium_taffy:1b}}}]}}"
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:cookie\",count:2,components:{\"minecraft:custom_data\":{atrium_taffy:1b}}}}]}}"
                       }
                     }
                   }
@@ -521,8 +601,13 @@
             "name": "minecraft:firework_star",
             "functions": [
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{atrium_specialist_trade:1,atrium_buy_1_cake:1}"
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "atrium_specialist_trade": 1,
+                    "atrium_buy_1_cake": 1
+                  }
+                }
               }
             ],
             "conditions": [
@@ -539,7 +624,7 @@
                       "condition": "minecraft:entity_properties",
                       "entity": "this",
                       "predicate": {
-                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:cake\",Count:1b}}]}}"
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:cake\",count:1}}]}}"
                       }
                     }
                   }
@@ -553,8 +638,13 @@
             "name": "minecraft:firework_star",
             "functions": [
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{atrium_specialist_trade:1,atrium_buy_1_golden_apple:1}"
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "atrium_specialist_trade": 1,
+                    "atrium_buy_1_golden_apple": 1
+                  }
+                }
               }
             ],
             "conditions": [
@@ -571,7 +661,7 @@
                       "condition": "minecraft:entity_properties",
                       "entity": "this",
                       "predicate": {
-                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:golden_apple\",Count:1b}}]}}"
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:golden_apple\",count:1}}]}}"
                       }
                     }
                   }

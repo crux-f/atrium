@@ -5,7 +5,7 @@
         "entries": [
           {
             "type": "minecraft:loot_table",
-            "name": "atrium:technical/specialists/tinker_new_trade",
+            "value": "atrium:technical/specialists/tinker_new_trade",
             "conditions": [
               {
                 "condition": "minecraft:entity_properties",
@@ -18,7 +18,7 @@
           },
           {
             "type": "minecraft:loot_table",
-            "name": "atrium:technical/specialists/chef_new_trade",
+            "value": "atrium:technical/specialists/chef_new_trade",
             "conditions": [
               {
                 "condition": "minecraft:entity_properties",
@@ -31,7 +31,7 @@
           },
           {
             "type": "minecraft:loot_table",
-            "name": "atrium:technical/specialists/collector_new_trade",
+            "value": "atrium:technical/specialists/collector_new_trade",
             "conditions": [
               {
                 "condition": "minecraft:entity_properties",
@@ -44,7 +44,7 @@
           },
           {
             "type": "minecraft:loot_table",
-            "name": "atrium:technical/specialists/alienist_new_trade",
+            "value": "atrium:technical/specialists/alienist_new_trade",
             "conditions": [
               {
                 "condition": "minecraft:entity_properties",
@@ -57,7 +57,7 @@
           },
           {
             "type": "minecraft:loot_table",
-            "name": "atrium:technical/specialists/beekeeper_new_trade",
+            "value": "atrium:technical/specialists/beekeeper_new_trade",
             "conditions": [
               {
                 "condition": "minecraft:entity_properties",
@@ -70,7 +70,7 @@
           },
           {
             "type": "minecraft:loot_table",
-            "name": "atrium:technical/specialists/merchant_new_trade",
+            "value": "atrium:technical/specialists/merchant_new_trade",
             "conditions": [
               {
                 "condition": "minecraft:entity_properties",
@@ -83,7 +83,7 @@
           },
           {
             "type": "minecraft:loot_table",
-            "name": "atrium:technical/specialists/hunter_new_trade",
+            "value": "atrium:technical/specialists/hunter_new_trade",
             "conditions": [
               {
                 "condition": "minecraft:entity_properties",
@@ -96,7 +96,7 @@
           },
           {
             "type": "minecraft:loot_table",
-            "name": "atrium:technical/specialists/alchemist_new_trade",
+            "value": "atrium:technical/specialists/alchemist_new_trade",
             "conditions": [
               {
                 "condition": "minecraft:entity_properties",
@@ -109,7 +109,7 @@
           },
           {
             "type": "minecraft:loot_table",
-            "name": "atrium:technical/specialists/enchanter_new_trade",
+            "value": "atrium:technical/specialists/enchanter_new_trade",
             "conditions": [
               {
                 "condition": "minecraft:entity_properties",
@@ -122,7 +122,7 @@
           },
           {
             "type": "minecraft:loot_table",
-            "name": "atrium:technical/specialists/engineer_new_trade",
+            "value": "atrium:technical/specialists/engineer_new_trade",
             "conditions": [
               {
                 "condition": "minecraft:entity_properties",
@@ -135,7 +135,7 @@
           },
           {
             "type": "minecraft:loot_table",
-            "name": "atrium:technical/specialists/artist_new_trade",
+            "value": "atrium:technical/specialists/artist_new_trade",
             "conditions": [
               {
                 "condition": "minecraft:entity_properties",
@@ -148,7 +148,7 @@
           },
           {
             "type": "minecraft:loot_table",
-            "name": "atrium:technical/specialists/architect_new_trade",
+            "value": "atrium:technical/specialists/architect_new_trade",
             "conditions": [
               {
                 "condition": "minecraft:entity_properties",
@@ -161,7 +161,7 @@
           },
           {
             "type": "minecraft:loot_table",
-            "name": "atrium:technical/specialists/warrior_new_trade",
+            "value": "atrium:technical/specialists/warrior_new_trade",
             "conditions": [
               {
                 "condition": "minecraft:entity_properties",

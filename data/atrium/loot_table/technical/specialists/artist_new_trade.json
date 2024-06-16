@@ -9,8 +9,13 @@
           "name": "minecraft:firework_star",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{atrium_specialist_trade:1,atrium_sell_10_clay_ball:1}"
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "atrium_specialist_trade": 1,
+                  "atrium_sell_10_clay_ball": 1
+                }
+              }
             }
           ],
           "conditions": [
@@ -27,7 +32,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:clay_ball\",Count:10b}}]}}"
+                      "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:clay_ball\",count:10}}]}}"
                     }
                   }
                 }
@@ -41,8 +46,13 @@
           "name": "minecraft:firework_star",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{atrium_specialist_trade:1,atrium_sell_12_white_dye:1}"
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "atrium_specialist_trade": 1,
+                  "atrium_sell_12_white_dye": 1
+                }
+              }
             }
           ],
           "conditions": [
@@ -59,7 +69,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:white_dye\",Count:12b}}]}}"
+                      "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:white_dye\",count:12}}]}}"
                     }
                   }
                 }
@@ -73,8 +83,13 @@
           "name": "minecraft:firework_star",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{atrium_specialist_trade:1,atrium_sell_12_light_gray_dye:1}"
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "atrium_specialist_trade": 1,
+                  "atrium_sell_12_light_gray_dye": 1
+                }
+              }
             }
           ],
           "conditions": [
@@ -91,7 +106,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:light_gray_dye\",Count:12b}}]}}"
+                      "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:light_gray_dye\",count:12}}]}}"
                     }
                   }
                 }
@@ -105,8 +120,13 @@
           "name": "minecraft:firework_star",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{atrium_specialist_trade:1,atrium_sell_12_gray_dye:1}"
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "atrium_specialist_trade": 1,
+                  "atrium_sell_12_gray_dye": 1
+                }
+              }
             }
           ],
           "conditions": [
@@ -123,7 +143,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:gray_dye\",Count:12b}}]}}"
+                      "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:gray_dye\",count:12}}]}}"
                     }
                   }
                 }
@@ -137,8 +157,13 @@
           "name": "minecraft:firework_star",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{atrium_specialist_trade:1,atrium_sell_12_black_dye:1}"
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "atrium_specialist_trade": 1,
+                  "atrium_sell_12_black_dye": 1
+                }
+              }
             }
           ],
           "conditions": [
@@ -155,7 +180,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:black_dye\",Count:12b}}]}}"
+                      "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:black_dye\",count:12}}]}}"
                     }
                   }
                 }
@@ -169,8 +194,13 @@
           "name": "minecraft:firework_star",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{atrium_specialist_trade:1,atrium_sell_12_brown_dye:1}"
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "atrium_specialist_trade": 1,
+                  "atrium_sell_12_brown_dye": 1
+                }
+              }
             }
           ],
           "conditions": [
@@ -187,7 +217,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:brown_dye\",Count:12b}}]}}"
+                      "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:brown_dye\",count:12}}]}}"
                     }
                   }
                 }
@@ -201,8 +231,13 @@
           "name": "minecraft:firework_star",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{atrium_specialist_trade:1,atrium_sell_12_red_dye:1}"
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "atrium_specialist_trade": 1,
+                  "atrium_sell_12_red_dye": 1
+                }
+              }
             }
           ],
           "conditions": [
@@ -219,7 +254,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:red_dye\",Count:12b}}]}}"
+                      "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:red_dye\",count:12}}]}}"
                     }
                   }
                 }
@@ -233,8 +268,13 @@
           "name": "minecraft:firework_star",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{atrium_specialist_trade:1,atrium_sell_12_orange_dye:1}"
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "atrium_specialist_trade": 1,
+                  "atrium_sell_12_orange_dye": 1
+                }
+              }
             }
           ],
           "conditions": [
@@ -251,7 +291,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:orange_dye\",Count:12b}}]}}"
+                      "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:orange_dye\",count:12}}]}}"
                     }
                   }
                 }
@@ -265,8 +305,13 @@
           "name": "minecraft:firework_star",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{atrium_specialist_trade:1,atrium_sell_12_yellow_dye:1}"
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "atrium_specialist_trade": 1,
+                  "atrium_sell_12_yellow_dye": 1
+                }
+              }
             }
           ],
           "conditions": [
@@ -283,7 +328,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:yellow_dye\",Count:12b}}]}}"
+                      "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:yellow_dye\",count:12}}]}}"
                     }
                   }
                 }
@@ -297,8 +342,13 @@
           "name": "minecraft:firework_star",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{atrium_specialist_trade:1,atrium_sell_12_lime_dye:1}"
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "atrium_specialist_trade": 1,
+                  "atrium_sell_12_lime_dye": 1
+                }
+              }
             }
           ],
           "conditions": [
@@ -315,7 +365,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:lime_dye\",Count:12b}}]}}"
+                      "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:lime_dye\",count:12}}]}}"
                     }
                   }
                 }
@@ -329,8 +379,13 @@
           "name": "minecraft:firework_star",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{atrium_specialist_trade:1,atrium_sell_12_green_dye:1}"
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "atrium_specialist_trade": 1,
+                  "atrium_sell_12_green_dye": 1
+                }
+              }
             }
           ],
           "conditions": [
@@ -347,7 +402,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:green_dye\",Count:12b}}]}}"
+                      "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:green_dye\",count:12}}]}}"
                     }
                   }
                 }
@@ -361,8 +416,13 @@
           "name": "minecraft:firework_star",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{atrium_specialist_trade:1,atrium_sell_12_cyan_dye:1}"
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "atrium_specialist_trade": 1,
+                  "atrium_sell_12_cyan_dye": 1
+                }
+              }
             }
           ],
           "conditions": [
@@ -379,7 +439,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:cyan_dye\",Count:12b}}]}}"
+                      "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:cyan_dye\",count:12}}]}}"
                     }
                   }
                 }
@@ -393,8 +453,13 @@
           "name": "minecraft:firework_star",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{atrium_specialist_trade:1,atrium_sell_12_light_blue_dye:1}"
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "atrium_specialist_trade": 1,
+                  "atrium_sell_12_light_blue_dye": 1
+                }
+              }
             }
           ],
           "conditions": [
@@ -411,7 +476,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:light_blue_dye\",Count:12b}}]}}"
+                      "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:light_blue_dye\",count:12}}]}}"
                     }
                   }
                 }
@@ -425,8 +490,13 @@
           "name": "minecraft:firework_star",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{atrium_specialist_trade:1,atrium_sell_12_blue_dye:1}"
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "atrium_specialist_trade": 1,
+                  "atrium_sell_12_blue_dye": 1
+                }
+              }
             }
           ],
           "conditions": [
@@ -443,7 +513,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:blue_dye\",Count:12b}}]}}"
+                      "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:blue_dye\",count:12}}]}}"
                     }
                   }
                 }
@@ -457,8 +527,13 @@
           "name": "minecraft:firework_star",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{atrium_specialist_trade:1,atrium_sell_12_purple_dye:1}"
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "atrium_specialist_trade": 1,
+                  "atrium_sell_12_purple_dye": 1
+                }
+              }
             }
           ],
           "conditions": [
@@ -475,7 +550,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:purple_dye\",Count:12b}}]}}"
+                      "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:purple_dye\",count:12}}]}}"
                     }
                   }
                 }
@@ -489,8 +564,13 @@
           "name": "minecraft:firework_star",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{atrium_specialist_trade:1,atrium_sell_12_magenta_dye:1}"
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "atrium_specialist_trade": 1,
+                  "atrium_sell_12_magenta_dye": 1
+                }
+              }
             }
           ],
           "conditions": [
@@ -507,7 +587,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:magenta_dye\",Count:12b}}]}}"
+                      "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:magenta_dye\",count:12}}]}}"
                     }
                   }
                 }
@@ -521,8 +601,13 @@
           "name": "minecraft:firework_star",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{atrium_specialist_trade:1,atrium_sell_12_pink_dye:1}"
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "atrium_specialist_trade": 1,
+                  "atrium_sell_12_pink_dye": 1
+                }
+              }
             }
           ],
           "conditions": [
@@ -539,7 +624,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:pink_dye\",Count:12b}}]}}"
+                      "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:pink_dye\",count:12}}]}}"
                     }
                   }
                 }
@@ -553,8 +638,13 @@
           "name": "minecraft:firework_star",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{atrium_specialist_trade:1,atrium_sell_1_music_disc_13:1}"
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "atrium_specialist_trade": 1,
+                  "atrium_sell_1_music_disc_13": 1
+                }
+              }
             }
           ],
           "conditions": [
@@ -571,7 +661,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:music_disc_13\",Count:1b}}]}}"
+                      "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:music_disc_13\",count:1}}]}}"
                     }
                   }
                 }
@@ -585,8 +675,13 @@
           "name": "minecraft:firework_star",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{atrium_specialist_trade:1,atrium_sell_1_music_disc_cat:1}"
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "atrium_specialist_trade": 1,
+                  "atrium_sell_1_music_disc_cat": 1
+                }
+              }
             }
           ],
           "conditions": [
@@ -603,7 +698,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:music_disc_cat\",Count:1b}}]}}"
+                      "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:music_disc_cat\",count:1}}]}}"
                     }
                   }
                 }
@@ -617,8 +712,13 @@
           "name": "minecraft:firework_star",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{atrium_specialist_trade:1,atrium_buy_1_music_disc_blocks:1}"
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "atrium_specialist_trade": 1,
+                  "atrium_sell_1_music_disc_blocks": 1
+                }
+              }
             }
           ],
           "conditions": [
@@ -635,7 +735,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:music_disc_blocks\",Count:1b}}]}}"
+                      "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:music_disc_blocks\",count:1}}]}}"
                     }
                   }
                 }
@@ -649,8 +749,13 @@
           "name": "minecraft:firework_star",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{atrium_specialist_trade:1,atrium_sell_1_music_disc_chirp:1}"
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "atrium_specialist_trade": 1,
+                  "atrium_sell_1_music_disc_chirp": 1
+                }
+              }
             }
           ],
           "conditions": [
@@ -667,7 +772,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:music_disc_chirp\",Count:1b}}]}}"
+                      "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:music_disc_chirp\",count:1}}]}}"
                     }
                   }
                 }
@@ -681,8 +786,13 @@
           "name": "minecraft:firework_star",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{atrium_specialist_trade:1,atrium_buy_1_music_disc_far:1}"
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "atrium_specialist_trade": 1,
+                  "atrium_buy_1_music_disc_far": 1
+                }
+              }
             }
           ],
           "conditions": [
@@ -699,7 +809,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:music_disc_far\",Count:1b}}]}}"
+                      "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:music_disc_far\",count:1}}]}}"
                     }
                   }
                 }
@@ -713,8 +823,13 @@
           "name": "minecraft:firework_star",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{atrium_specialist_trade:1,atrium_buy_1_music_disc_mall:1}"
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "atrium_specialist_trade": 1,
+                  "atrium_buy_1_music_disc_mall": 1
+                }
+              }
             }
           ],
           "conditions": [
@@ -731,7 +846,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:music_disc_mall\",Count:1b}}]}}"
+                      "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:music_disc_mall\",count:1}}]}}"
                     }
                   }
                 }
@@ -745,8 +860,13 @@
           "name": "minecraft:firework_star",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{atrium_specialist_trade:1,atrium_buy_1_music_disc_mellohi:1}"
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "atrium_specialist_trade": 1,
+                  "atrium_buy_1_music_disc_mellohi": 1
+                }
+              }
             }
           ],
           "conditions": [
@@ -763,7 +883,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:music_disc_mellohi\",Count:1b}}]}}"
+                      "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:music_disc_mellohi\",count:1}}]}}"
                     }
                   }
                 }
@@ -777,8 +897,13 @@
           "name": "minecraft:firework_star",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{atrium_specialist_trade:1,atrium_buy_1_music_disc_stal:1}"
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "atrium_specialist_trade": 1,
+                  "atrium_buy_1_music_disc_stal": 1
+                }
+              }
             }
           ],
           "conditions": [
@@ -795,7 +920,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:music_disc_stal\",Count:1b}}]}}"
+                      "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:music_disc_stal\",count:1}}]}}"
                     }
                   }
                 }
@@ -809,8 +934,13 @@
           "name": "minecraft:firework_star",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{atrium_specialist_trade:1,atrium_buy_1_music_disc_ward:1}"
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "atrium_specialist_trade": 1,
+                  "atrium_buy_1_music_disc_ward": 1
+                }
+              }
             }
           ],
           "conditions": [
@@ -827,7 +957,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:music_disc_ward\",Count:1b}}]}}"
+                      "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:music_disc_ward\",count:1}}]}}"
                     }
                   }
                 }
@@ -841,8 +971,13 @@
           "name": "minecraft:firework_star",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{atrium_specialist_trade:1,atrium_sell_1_music_disc_11:1}"
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "atrium_specialist_trade": 1,
+                  "atrium_buy_1_music_disc_11": 1
+                }
+              }
             }
           ],
           "conditions": [
@@ -859,7 +994,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:music_disc_11\",Count:1b}}]}}"
+                      "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:music_disc_11\",count:1}}]}}"
                     }
                   }
                 }
@@ -873,8 +1008,13 @@
           "name": "minecraft:firework_star",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{atrium_specialist_trade:1,atrium_buy_1_music_disc_wait:1}"
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "atrium_specialist_trade": 1,
+                  "atrium_buy_1_music_disc_wait": 1
+                }
+              }
             }
           ],
           "conditions": [
@@ -891,7 +1031,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:music_disc_wait\",Count:1b}}]}}"
+                      "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:music_disc_wait\",count:1}}]}}"
                     }
                   }
                 }
@@ -905,8 +1045,13 @@
           "name": "minecraft:firework_star",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{atrium_specialist_trade:1,atrium_sell_1_music_disc_otherside:1}"
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "atrium_specialist_trade": 1,
+                  "atrium_sell_1_music_disc_otherside": 1
+                }
+              }
             }
           ],
           "conditions": [
@@ -923,7 +1068,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:music_disc_otherside\",Count:1b}}]}}"
+                      "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:music_disc_otherside\",count:1}}]}}"
                     }
                   }
                 }
@@ -937,8 +1082,13 @@
           "name": "minecraft:firework_star",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{atrium_specialist_trade:1,atrium_sell_1_music_disc_5:1}"
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "atrium_specialist_trade": 1,
+                  "atrium_sell_1_music_disc_5": 1
+                }
+              }
             }
           ],
           "conditions": [
@@ -955,7 +1105,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:music_disc_5\",Count:1b}}]}}"
+                      "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:music_disc_5\",count:1}}]}}"
                     }
                   }
                 }
@@ -969,8 +1119,13 @@
           "name": "minecraft:firework_star",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{atrium_specialist_trade:1,atrium_sell_1_music_disc_pigstep:1}"
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "atrium_specialist_trade": 1,
+                  "atrium_sell_1_music_disc_pigstep": 1
+                }
+              }
             }
           ],
           "conditions": [
@@ -987,7 +1142,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:music_disc_pigstep\",Count:1b}}]}}"
+                      "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:music_disc_pigstep\",count:1}}]}}"
                     }
                   }
                 }
@@ -1001,8 +1156,13 @@
           "name": "minecraft:firework_star",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{atrium_specialist_trade:1,atrium_sell_1_music_disc_relic:1}"
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "atrium_specialist_trade": 1,
+                  "atrium_sell_1_music_disc_relic": 1
+                }
+              }
             }
           ],
           "conditions": [
@@ -1019,7 +1179,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:music_disc_relic\",Count:1b}}]}}"
+                      "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:music_disc_relic\",count:1}}]}}"
                     }
                   }
                 }
@@ -1033,8 +1193,13 @@
           "name": "minecraft:firework_star",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{atrium_specialist_trade:1,atrium_buy_1_painting:1}"
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "atrium_specialist_trade": 1,
+                  "atrium_buy_1_painting": 1
+                }
+              }
             }
           ],
           "conditions": [
@@ -1051,7 +1216,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:painting\",Count:1b}}]}}"
+                      "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:painting\",count:1}}]}}"
                     }
                   }
                 }
@@ -1065,8 +1230,13 @@
           "name": "minecraft:firework_star",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{atrium_specialist_trade:1,atrium_buy_1_shaper_stencil:1}"
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "atrium_specialist_trade": 1,
+                  "atrium_buy_1_stencil": 1
+                }
+              }
             }
           ],
           "conditions": [
@@ -1083,7 +1253,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:shaper_armor_trim_smithing_template\",Count:1b}}]}}"
+                      "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:shaper_armor_trim_smithing_template\",count:1}}]}}"
                     }
                   }
                 }
@@ -1097,8 +1267,13 @@
           "name": "minecraft:firework_star",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{atrium_specialist_trade:1,atrium_buy_1_magical_painting_earth:1}"
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "atrium_specialist_trade": 1,
+                  "atrium_buy_1_magical_painting_earth": 1
+                }
+              }
             }
           ],
           "conditions": [
@@ -1115,7 +1290,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:painting\",Count:1b,tag:{display:{Name:'{\"text\":\"Magical Painting\",\"color\":\"aqua\",\"italic\":false}'},Enchantments:[{}],EntityTag:{variant:\"minecraft:earth\",Tags:[\"atrium_special\",\"atrium_particle\",\"atrium_dust_sometimes\"]}}}}]}}"
+                      "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:painting\",count:1,components:{\"minecraft:custom_data\":{atrium_painting_type:\"earth\"}}}}]}}"
                     }
                   }
                 }
@@ -1129,8 +1304,13 @@
           "name": "minecraft:firework_star",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{atrium_specialist_trade:1,atrium_buy_1_magical_painting_fire:1}"
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "atrium_specialist_trade": 1,
+                  "atrium_buy_1_magical_painting_fire": 1
+                }
+              }
             }
           ],
           "conditions": [
@@ -1147,7 +1327,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:painting\",Count:1b,tag:{display:{Name:'{\"text\":\"Magical Painting\",\"color\":\"aqua\",\"italic\":false}'},Enchantments:[{}],EntityTag:{variant:\"minecraft:fire\",Tags:[\"atrium_special\",\"atrium_particle\",\"atrium_fire_sometimes\"]}}}}]}}"
+                      "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:painting\",count:1,components:{\"minecraft:custom_data\":{atrium_painting_type:\"fire\"}}}}]}}"
                     }
                   }
                 }
@@ -1161,8 +1341,13 @@
           "name": "minecraft:firework_star",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{atrium_specialist_trade:1,atrium_buy_1_magical_painting_water:1}"
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "atrium_specialist_trade": 1,
+                  "atrium_buy_1_magical_painting_water": 1
+                }
+              }
             }
           ],
           "conditions": [
@@ -1179,7 +1364,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:painting\",Count:1b,tag:{display:{Name:'{\"text\":\"Magical Painting\",\"color\":\"aqua\",\"italic\":false}'},Enchantments:[{}],EntityTag:{variant:\"minecraft:water\",Tags:[\"atrium_special\",\"atrium_particle\",\"atrium_drip_water_sometimes\"]}}}}]}}"
+                      "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:painting\",count:1,components:{\"minecraft:custom_data\":{atrium_painting_type:\"water\"}}}}]}}"
                     }
                   }
                 }
@@ -1193,8 +1378,13 @@
           "name": "minecraft:firework_star",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{atrium_specialist_trade:1,atrium_buy_1_magical_painting_wind:1}"
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "atrium_specialist_trade": 1,
+                  "atrium_buy_1_magical_painting_wind": 1
+                }
+              }
             }
           ],
           "conditions": [
@@ -1211,7 +1401,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                      "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:painting\",Count:1b,tag:{display:{Name:'{\"text\":\"Magical Painting\",\"color\":\"aqua\",\"italic\":false}'},Enchantments:[{}],EntityTag:{variant:\"minecraft:wind\",Tags:[\"atrium_special\",\"atrium_particle\",\"atrium_glimmer_sometimes\"]}}}}]}}"
+                      "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:painting\",count:1,components:{\"minecraft:custom_data\":{atrium_painting_type:\"wind\"}}}}]}}"
                     }
                   }
                 }

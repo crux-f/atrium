@@ -11,8 +11,13 @@
             "name": "minecraft:firework_star",
             "functions": [
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{atrium_specialist_trade:1,atrium_buy_1_cooling_core:1}"
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "atrium_specialist_trade": 1,
+                    "atrium_buy_1_golem_core_cooling": 1
+                  }
+                }
               }
             ],
             "conditions": [
@@ -29,7 +34,7 @@
                       "condition": "minecraft:entity_properties",
                       "entity": "this",
                       "predicate": {
-                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:iron_ingot\",Count:1b,tag:{display:{Name:'{\"text\":\"Golem Core\",\"italic\":false}',Lore:['{\"text\":\"Cooling\",\"color\":\"aqua\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"When Used on Damaged Iron Golem:\",\"color\":\"dark_purple\",\"italic\":false}','{\"text\":\"Fire Resistance (∞)\",\"color\":\"blue\",\"italic\":false}']},CustomModelData:333155,atrium_golem_core:1b,atrium_core_type:cooling}}}]}}"
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:iron_ingot\",count:1,components:{\"minecraft:custom_data\":{atrium_core_type:\"cooling\",atrium_golem_core:1b}}}}]}}"
                       }
                     }
                   }
@@ -43,8 +48,13 @@
             "name": "minecraft:firework_star",
             "functions": [
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{atrium_specialist_trade:1,atrium_buy_1_empathic_core:1}"
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "atrium_specialist_trade": 1,
+                    "atrium_buy_1_golem_core_empathic": 1
+                  }
+                }
               }
             ],
             "conditions": [
@@ -61,7 +71,7 @@
                       "condition": "minecraft:entity_properties",
                       "entity": "this",
                       "predicate": {
-                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:iron_ingot\",Count:1b,tag:{display:{Name:'{\"text\":\"Golem Core\",\"italic\":false}',Lore:['{\"text\":\"Empathic\",\"color\":\"light_purple\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"When Used on Damaged Iron Golem:\",\"color\":\"dark_purple\",\"italic\":false}','{\"text\":\"+4 Health to Player on Repair\",\"color\":\"blue\",\"italic\":false}']},CustomModelData:333156,atrium_golem_core:1b,atrium_core_type:empathic}}}]}}"
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:iron_ingot\",count:1,components:{\"minecraft:custom_data\":{atrium_core_type:\"empathic\",atrium_golem_core:1b}}}}]}}"
                       }
                     }
                   }
@@ -75,8 +85,13 @@
             "name": "minecraft:firework_star",
             "functions": [
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{atrium_specialist_trade:1,atrium_buy_1_flowering_core:1}"
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "atrium_specialist_trade": 1,
+                    "atrium_buy_1_golem_core_flowering": 1
+                  }
+                }
               }
             ],
             "conditions": [
@@ -93,7 +108,7 @@
                       "condition": "minecraft:entity_properties",
                       "entity": "this",
                       "predicate": {
-                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:iron_ingot\",Count:1b,tag:{display:{Name:'{\"text\":\"Golem Core\",\"italic\":false}',Lore:['{\"text\":\"Flowering\",\"color\":\"green\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"When Used on Damaged Iron Golem:\",\"color\":\"dark_purple\",\"italic\":false}','{\"text\":\"Regeneration (∞)\",\"color\":\"blue\",\"italic\":false}']},CustomModelData:333157,atrium_golem_core:1b,atrium_core_type:flowering}}}]}}"
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:iron_ingot\",count:1,components:{\"minecraft:custom_data\":{atrium_core_type:\"flowering\",atrium_golem_core:1b}}}}]}}"
                       }
                     }
                   }
@@ -107,8 +122,13 @@
             "name": "minecraft:firework_star",
             "functions": [
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{atrium_specialist_trade:1,atrium_buy_1_heartwarming_core:1}"
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "atrium_specialist_trade": 1,
+                    "atrium_buy_1_golem_core_heartwarming": 1
+                  }
+                }
               }
             ],
             "conditions": [
@@ -125,7 +145,7 @@
                       "condition": "minecraft:entity_properties",
                       "entity": "this",
                       "predicate": {
-                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:iron_ingot\",Count:1b,tag:{display:{Name:'{\"text\":\"Golem Core\",\"italic\":false}',Lore:['{\"text\":\"Heartwarming\",\"color\":\"gold\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"When Used on Damaged Iron Golem:\",\"color\":\"dark_purple\",\"italic\":false}','{\"text\":\"Cold Resistance (∞)\",\"color\":\"blue\",\"italic\":false}']},CustomModelData:333158,atrium_golem_core:1b,atrium_core_type:heartwarming}}}]}}"
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:iron_ingot\",count:1,components:{\"minecraft:custom_data\":{atrium_core_type:\"heartwarming\",atrium_golem_core:1b}}}}]}}"
                       }
                     }
                   }
@@ -139,8 +159,13 @@
             "name": "minecraft:firework_star",
             "functions": [
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{atrium_specialist_trade:1,atrium_buy_1_holy_core:1}"
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "atrium_specialist_trade": 1,
+                    "atrium_buy_1_golem_core_holy": 1
+                  }
+                }
               }
             ],
             "conditions": [
@@ -157,7 +182,7 @@
                       "condition": "minecraft:entity_properties",
                       "entity": "this",
                       "predicate": {
-                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:iron_ingot\",Count:1b,tag:{display:{Name:'{\"text\":\"Golem Core\",\"italic\":false}',Lore:['{\"text\":\"Holy\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"When Used on Damaged Iron Golem:\",\"color\":\"dark_purple\",\"italic\":false}','{\"text\":\"Smite II\",\"color\":\"gray\",\"italic\":false}']},CustomModelData:333159,atrium_golem_core:1b,atrium_core_type:holy}}}]}}"
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:iron_ingot\",count:1,components:{\"minecraft:custom_data\":{atrium_core_type:\"holy\",atrium_golem_core:1b}}}}]}}"
                       }
                     }
                   }
@@ -171,8 +196,13 @@
             "name": "minecraft:firework_star",
             "functions": [
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{atrium_specialist_trade:1,atrium_buy_1_overclocked_core:1}"
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "atrium_specialist_trade": 1,
+                    "atrium_buy_1_golem_core_overclocked": 1
+                  }
+                }
               }
             ],
             "conditions": [
@@ -189,7 +219,7 @@
                       "condition": "minecraft:entity_properties",
                       "entity": "this",
                       "predicate": {
-                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:iron_ingot\",Count:1b,tag:{display:{Name:'{\"text\":\"Golem Core\",\"italic\":false}',Lore:['{\"text\":\"Overclocked\",\"color\":\"red\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"When Used on Damaged Iron Golem:\",\"color\":\"dark_purple\",\"italic\":false}','{\"text\":\"Speed (∞)\",\"color\":\"blue\",\"italic\":false}']},CustomModelData:333160,atrium_golem_core:1b,atrium_core_type:overclocked}}}]}}"
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:iron_ingot\",count:1,components:{\"minecraft:custom_data\":{atrium_core_type:\"overclocked\",atrium_golem_core:1b}}}}]}}"
                       }
                     }
                   }
@@ -203,8 +233,13 @@
             "name": "minecraft:firework_star",
             "functions": [
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{atrium_specialist_trade:1,atrium_buy_1_a_village_champion_formula:1}"
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "atrium_specialist_trade": 1,
+                    "atrium_buy_1_a_village_champion_research": 1
+                  }
+                }
               }
             ],
             "conditions": [
@@ -221,7 +256,7 @@
                       "condition": "minecraft:entity_properties",
                       "entity": "this",
                       "predicate": {
-                        "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:written_book\",Count:1b,tag:{pages:['[\"\",{\"text\":\"Centurion Golem\\\\n\"},{\"text\":\"Infusion Formula\",\"underlined\":true,\"color\":\"gray\"},{\"text\":\"\\\\n\\\\n          \",\"color\":\"reset\"},{\"text\":\"@\",\"color\":\"#CAD200\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Jack o\\' Lantern\"}},{\"text\":\"\\\\n       \",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"dark_red\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Redstone\"}},{\"text\":\"  \",\"color\":\"reset\"},{\"text\":\"%\",\"color\":\"red\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"2\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Eager Crystal (click to see formula on pg. 2)\"}},{\"text\":\"  \",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"dark_red\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Redstone\"}},{\"text\":\"\\\\n    \",\"color\":\"reset\"},{\"text\":\"[\",\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Glow Lichen\"}},{\"text\":\"  \",\"color\":\"reset\"},{\"text\":\"#\",\"color\":\"gray\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Block of Iron\"}},{\"text\":\"     \",\"color\":\"reset\"},{\"text\":\"#\",\"color\":\"gray\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Block of Iron\"}},{\"text\":\"  \",\"color\":\"reset\"},{\"text\":\"]\",\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Glow Lichen\"}},{\"text\":\"\\\\n       \",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"gold\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Gold Nugget\"}},{\"text\":\"  \",\"color\":\"reset\"},{\"text\":\"#\",\"color\":\"gray\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Block of Iron\"}},{\"text\":\"  \",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"gold\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Gold Nugget\"}},{\"text\":\"\\\\n          \",\"color\":\"reset\"},{\"text\":\"#\",\"color\":\"gray\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Block of Iron\"}}]','[\"\",{\"text\":\"Eager Crystal\\\\n\"},{\"text\":\"Infusion Formula\",\"underlined\":true,\"color\":\"gray\"},{\"text\":\"\\\\n\\\\n             \",\"color\":\"reset\"},{\"text\":\"o\",\"color\":\"dark_purple\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"3\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Blooming Crystal (click to see item entry on pg. 3)\"}},{\"text\":\"\\\\n          \",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"red\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Red Mushroom\"}},{\"text\":\"  \",\"color\":\"reset\"},{\"text\":\"&\",\"color\":\"gold\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Blaze Powder\"}},{\"text\":\"  \",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"gray\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"4\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Dull Crystal (click to see item entry on pg. 4)\"}},{\"text\":\"\\\\n       \",\"color\":\"reset\"},{\"text\":\"(\",\"color\":\"dark_red\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"5\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Pure Redstone (click to see item entry on pg. 5)\"}},{\"text\":\"  \",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"gray\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"4\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Dull Crystal (click to see item entry on pg. 4)\"}},{\"text\":\"     \",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"gray\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"4\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Dull Crystal (click to see item entry on pg. 4)\"}},{\"text\":\"  \",\"color\":\"reset\"},{\"text\":\")\",\"color\":\"dark_red\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"5\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Pure Redstone (click to see item entry on pg. 5)\"}},{\"text\":\"\\\\n          \",\"color\":\"reset\"},{\"text\":\"*\",\"color\":\"gray\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"4\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Dull Crystal (click to see item entry on pg. 4)\"}},{\"text\":\"  \",\"color\":\"reset\"},{\"text\":\"&\",\"color\":\"gold\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Blaze Powder\"}},{\"text\":\"  \",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"dark_red\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Crimson Fungus\"}},{\"text\":\"\\\\n             \",\"color\":\"reset\"},{\"text\":\"o\",\"color\":\"dark_purple\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"3\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Blooming Crystal (click to see item entry on pg. 3)\"}},{\"text\":\"\\\\n \",\"color\":\"reset\"}]','[\"\",{\"text\":\"Blooming Crystal\\\\n\"},{\"text\":\"[Item Entry]\",\"color\":\"gray\"},{\"text\":\"\\\\nThis deep purple crystal is found in plentiful deposits throughout Crystal Caves biomes in The Depths.\\\\nIt can only be harvested using a pickaxe enchanted with Shard Touch.\",\"color\":\"reset\"}]','[\"\",{\"text\":\"Dull Crystal\\\\n\"},{\"text\":\"[Item Entry]\",\"color\":\"gray\"},{\"text\":\"\\\\nThis chunky gray mineral may be mistaken for quartz at first glance. It is found in Crystal Caves biomes in The Depths.\\\\nLike other such crystals, it can only be harvested using a pickaxe enchanted with Shard Touch.\",\"color\":\"reset\"}]','[\"\",{\"text\":\"Pure Redstone\\\\n\"},{\"text\":\"[Item Entry]\",\"color\":\"gray\"},{\"text\":\"\\\\nRedstone is a delicate material, crumbling to dust the instant it is freed from stone. But with the Shard Touch enchantment, it can occasionally be extracted whole.\",\"color\":\"reset\"}]'],title:\"A Village Champion\",author:\"???\",generation:1,CustomModelData:333000,HideFlags:32,display:{Lore:['{\"italic\":false,\"underlined\":true,\"color\":\"gray\",\"text\":\"Infusion Circle Formulas:\"}','{\"italic\":false,\"color\":\"gray\",\"text\":\"Centurion Golem\"}','{\"italic\":false,\"color\":\"gray\",\"text\":\"Eager Crystal\"}'],Name:'{\"italic\":false,\"text\":\"✦ A Village Champion\"}'}}}}]}}"
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:paper\",count:1,components:{\"minecraft:custom_data\":{atrium_research:1b,atrium_research_type:\"infusion\",atrium_topic:\"a_village_champion\"}}}}]}}"
                       }
                     }
                   }

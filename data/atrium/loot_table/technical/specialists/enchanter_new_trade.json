@@ -11,8 +11,13 @@
             "name": "minecraft:firework_star",
             "functions": [
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{atrium_specialist_trade:1,atrium_buy_1_aqua_affinity_book:1}"
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "atrium_specialist_trade": 1,
+                    "atrium_buy_1_aqua_affinity_storybook": 1
+                  }
+                }
               }
             ],
             "conditions": [
@@ -29,7 +34,7 @@
                       "condition": "minecraft:entity_properties",
                       "entity": "this",
                       "predicate": {
-                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:enchanted_book\",Count:1b,tag:{display:{Lore:['{\"text\":\"This book contains\"}','{\"text\":\"eldritch runes, interspersed\"}','{\"text\":\"with excited observations\"}','{\"text\":\"about marine biology.\"}']},atrium_aqua_affinity_storybook:1b,StoredEnchantments:[{id:\"minecraft:aqua_affinity\",lvl:1s}]}}}]}}"
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:enchanted_book\",count:1,components:{\"minecraft:custom_data\":{atrium_aqua_affinity_storybook:1b}}}}]}}"
                       }
                     }
                   }
@@ -43,40 +48,13 @@
             "name": "minecraft:firework_star",
             "functions": [
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{atrium_specialist_trade:1,atrium_buy_1_shard_touch_pickaxe:1}"
-              }
-            ],
-            "conditions": [
-              {
-                "condition": "minecraft:all_of",
-                "terms": [
-                  {
-                    "condition": "minecraft:reference",
-                    "name": "atrium:entity/villager/is_level_1"
-                  },
-                  {
-                    "condition": "minecraft:inverted",
-                    "term": {
-                      "condition": "minecraft:entity_properties",
-                      "entity": "this",
-                      "predicate": {
-                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:golden_pickaxe\",Count:1b,tag:{RepairCost:3,Enchantments:[{}],display:{Lore:['{\"text\":\"Shard Touch\",\"italic\":false,\"color\":\"gray\"}']},atrium_custom_enchantment:1b,atrium_shard_touch_enchanted:1b}}}]}}"
-                      }
-                    }
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "atrium_specialist_trade": 1,
+                    "atrium_sell_1_enchantment_catalyst_focusing": 1
                   }
-                ]
-              }
-            ]
-          },
-          {
-            "weight": 10,
-            "type": "minecraft:item",
-            "name": "minecraft:firework_star",
-            "functions": [
-              {
-                "function": "minecraft:set_nbt",
-                "tag": "{atrium_specialist_trade:1,atrium_sell_1_enchantment_catalyst_focusing:1}"
+                }
               }
             ],
             "conditions": [
@@ -93,7 +71,7 @@
                       "condition": "minecraft:entity_properties",
                       "entity": "this",
                       "predicate": {
-                        "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:lapis_block\",Count:1b,tag:{display:{Name:'{\"text\":\"Enchantment Catalyst\",\"italic\":false}',Lore:['{\"text\":\"Focusing\",\"color\":\"blue\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Now that you have an\"}','{\"text\":\"enchantment you understand,\"}','{\"text\":\"it shouldn\\'t be too difficult\"}','{\"text\":\"to turn up the power a little...\"}']},atrium_catalyst_focusing:1b,Enchantments:[{}]}}}]}}"
+                        "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:lapis_block\",count:1,components:{\"minecraft:custom_data\":{atrium_catalyst_focusing:1b}}}}]}}"
                       }
                     }
                   }
@@ -107,8 +85,13 @@
             "name": "minecraft:firework_star",
             "functions": [
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{atrium_specialist_trade:1,atrium_sell_1_enchantment_catalyst_transforming:1}"
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "atrium_specialist_trade": 1,
+                    "atrium_sell_1_enchantment_catalyst_transforming": 1
+                  }
+                }
               }
             ],
             "conditions": [
@@ -125,7 +108,7 @@
                       "condition": "minecraft:entity_properties",
                       "entity": "this",
                       "predicate": {
-                        "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:diamond_block\",Count:1b,tag:{display:{Name:'{\"text\":\"Enchantment Catalyst\",\"italic\":false}',Lore:['{\"text\":\"Transforming\",\"color\":\"dark_aqua\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Diamonds change the equation,\"}','{\"text\":\"somehow. It\\'s the basis of\"}','{\"text\":\"this whole process. Now\"}','{\"text\":\"all you have to figure out\"}','{\"text\":\"is... Why.\"}']},atrium_catalyst_transforming:1b,Enchantments:[{}]}}}]}}"
+                        "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:diamond_block\",count:1,components:{\"minecraft:custom_data\":{atrium_catalyst_transforming:1b}}}}]}}"
                       }
                     }
                   }
@@ -139,8 +122,13 @@
             "name": "minecraft:firework_star",
             "functions": [
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{atrium_specialist_trade:1,atrium_buy_1_silk_touch_book:1}"
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "atrium_specialist_trade": 1,
+                    "atrium_buy_1_silk_touch_storybook": 1
+                  }
+                }
               }
             ],
             "conditions": [
@@ -157,7 +145,7 @@
                       "condition": "minecraft:entity_properties",
                       "entity": "this",
                       "predicate": {
-                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:enchanted_book\",Count:1b,tag:{StoredEnchantments:[{id:\"minecraft:silk_touch\",lvl:1s}]}}}]}}"
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:enchanted_book\",count:1,components:{\"minecraft:custom_data\":{atrium_silk_touch_storybook:1b}}}}]}}"
                       }
                     }
                   }
@@ -171,8 +159,13 @@
             "name": "minecraft:firework_star",
             "functions": [
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{atrium_specialist_trade:1,atrium_buy_1_shard_touch_formula:1}"
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "atrium_specialist_trade": 1,
+                    "atrium_buy_1_infinity_storybook": 1
+                  }
+                }
               }
             ],
             "conditions": [
@@ -189,7 +182,7 @@
                       "condition": "minecraft:entity_properties",
                       "entity": "this",
                       "predicate": {
-                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:enchanted_book\",Count:1b,tag:{pages:['[\"\",{\"text\":\"Shard Touch\\\\n\"},{\"text\":\"[Enchantment Entry]\",\"color\":\"gray\"},{\"text\":\"\\\\n\\\\nPickaxes enchanted with Shard Touch are capable of harvesting rare gems and crystals too delicate for a mundane pickaxe (or even one enchanted with Silk Touch).\",\"color\":\"reset\"}]','[\"\",{\"text\":\"Shard Touch\\\\n\"},{\"text\":\"Runic Formula\",\"underlined\":true,\"color\":\"gray\"},{\"text\":\"\\\\n[Enchantment]\",\"color\":\"gray\"},{\"text\":\"\\\\n\\\\n         \",\"color\":\"reset\"},{\"text\":\"@\",\"color\":\"dark_gray\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"[Any unenchanted pickaxe]\"}},{\"text\":\"\\\\n     \",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"dark_aqua\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"[Any item enchanted with Silk Touch]\"}},{\"text\":\"       \",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"[Any item enchanted with Fortune]\"}},{\"text\":\"\\\\n x       \",\"color\":\"reset\"},{\"text\":\"!\",\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Minimum XP level requirement = 25\\\\nXP level cost = 2\"}},{\"text\":\"       x\\\\n     x       x\\\\n         \",\"color\":\"reset\"},{\"text\":\"?\",\"color\":\"aqua\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Enchantment Catalyst [Transforming]\"}}]'],title:\"❇ Shard Touch\",author:\"???\",generation:1,CustomModelData:333002,HideFlags:32,display:{Lore:['{\"italic\":false,\"underlined\":true,\"color\":\"gray\",\"text\":\"Runic Codex Formulas:\"}','{\"italic\":false,\"color\":\"gray\",\"text\":\"[Enchantment] Shard Touch\"}'],Name:'{\"italic\":false,\"text\":\"❇ Shard Touch\"}'}}}}]}}"
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:enchanted_book\",count:1,components:{\"minecraft:custom_data\":{atrium_infinity_storybook:1b}}}}]}}"
                       }
                     }
                   }
@@ -203,40 +196,13 @@
             "name": "minecraft:firework_star",
             "functions": [
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{atrium_specialist_trade:1,atrium_buy_1_sentinel_formula:1}"
-              }
-            ],
-            "conditions": [
-              {
-                "condition": "minecraft:all_of",
-                "terms": [
-                  {
-                    "condition": "minecraft:reference",
-                    "name": "atrium:entity/villager/is_level_2"
-                  },
-                  {
-                    "condition": "minecraft:inverted",
-                    "term": {
-                      "condition": "minecraft:entity_properties",
-                      "entity": "this",
-                      "predicate": {
-                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:written_book\",Count:1b,tag:{pages:['[\"\",{\"text\":\"Sentinel\\\\n\"},{\"text\":\"[Enchantment Entry]\",\"color\":\"gray\"},{\"text\":\"\\\\nBlocking with a Shield enchanted with Sentinel grants Resistance I (+20% Damage Resistance) to the wielder and to any entities standing within 2.5 blocks behind the wielder.\",\"color\":\"reset\"}]','[\"\",{\"text\":\"Sentinel\\\\n\"},{\"text\":\"Runic Formula\",\"underlined\":true,\"color\":\"gray\"},{\"text\":\"\\\\n\",\"color\":\"reset\"},{\"text\":\"[Enchantment]\",\"color\":\"gray\"},{\"text\":\"\\\\n\\\\n     \t\",\"color\":\"reset\"},{\"text\":\"@\",\"color\":\"dark_gray\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"[Any unenchanted shield]\"}},{\"text\":\"\\\\n \t\",\"color\":\"reset\"},{\"text\":\">\",\"color\":\"dark_aqua\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"[Any item enchanted with Unbreaking]\"}},{\"text\":\"   \t\",\"color\":\"reset\"},{\"text\":\"<\",\"color\":\"dark_green\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"[Any item enchanted with Projectile Protection]\"}},{\"text\":\"\\\\n x   \t\",\"color\":\"reset\"},{\"text\":\"!\",\"color\":\"green\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Minimum XP level requirement = 25 \\\\nXP level cost = 2\"}},{\"text\":\"   \tx\\\\n \tx   \tx\\\\n     \t\",\"color\":\"reset\"},{\"text\":\"?\",\"color\":\"aqua\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Enchantment Catalyst [Transforming]\"}}]'],title:\"❇ Sentinel\",author:\"???\",generation:1,CustomModelData:333002,HideFlags:32,display:{Lore:['{\"italic\":false,\"underlined\":true,\"color\":\"gray\",\"text\":\"Runic Codex Formulas:\"}','{\"italic\":false,\"color\":\"gray\",\"text\":\"[Enchantment] Sentinel\"}'],Name:'{\"italic\":false,\"text\":\"❇ Sentinel\"}'}}}}]}}"
-                      }
-                    }
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "atrium_specialist_trade": 1,
+                    "atrium_buy_1_shard_touch_research": 1
                   }
-                ]
-              }
-            ]
-          },
-          {
-            "weight": 7,
-            "type": "minecraft:item",
-            "name": "minecraft:firework_star",
-            "functions": [
-              {
-                "function": "minecraft:set_nbt",
-                "tag": "{atrium_specialist_trade:1,atrium_buy_1_unbreaking_5_pickaxe:1}"
+                }
               }
             ],
             "conditions": [
@@ -253,71 +219,7 @@
                       "condition": "minecraft:entity_properties",
                       "entity": "this",
                       "predicate": {
-                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:diamond_pickaxe\",Count:1b,tag:{Enchantments:[{id:\"minecraft:unbreaking\",lvl:5s}]}}}]}}"
-                      }
-                    }
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "weight": 7,
-            "type": "minecraft:item",
-            "name": "minecraft:firework_star",
-            "functions": [
-              {
-                "function": "minecraft:set_nbt",
-                "tag": "{atrium_specialist_trade:1,atrium_buy_1_unbreaking_5_axe:1}"
-              }
-            ],
-            "conditions": [
-              {
-                "condition": "minecraft:all_of",
-                "terms": [
-                  {
-                    "condition": "minecraft:reference",
-                    "name": "atrium:entity/villager/is_level_2"
-                  },
-                  {
-                    "condition": "minecraft:inverted",
-                    "term": {
-                      "condition": "minecraft:entity_properties",
-                      "entity": "this",
-                      "predicate": {
-                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:diamond_axe\",Count:1b,tag:{Enchantments:[{id:\"minecraft:unbreaking\",lvl:5s}]}}}]}}"
-                      }
-                    }
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "weight": 7,
-            "type": "minecraft:item",
-            "name": "minecraft:firework_star",
-            "functions": [
-              {
-                "function": "minecraft:set_nbt",
-                "tag": "{atrium_specialist_trade:1,atrium_buy_1_unbreaking_5_shovel:1}"
-              }
-            ],
-            "conditions": [
-              {
-                "condition": "minecraft:all_of",
-                "terms": [
-                  {
-                    "condition": "minecraft:reference",
-                    "name": "atrium:entity/villager/is_level_2"
-                  },
-                  {
-                    "condition": "minecraft:inverted",
-                    "term": {
-                      "condition": "minecraft:entity_properties",
-                      "entity": "this",
-                      "predicate": {
-                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:diamond_shovel\",Count:1b,tag:{Enchantments:[{id:\"minecraft:unbreaking\",lvl:5s}]}}}]}}"
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:paper\",count:1,components:{\"minecraft:custom_data\":{atrium_research:1b,atrium_research_type:\"runic\",atrium_topic:\"shard_touch\"}}}}]}}"
                       }
                     }
                   }
@@ -331,8 +233,161 @@
             "name": "minecraft:firework_star",
             "functions": [
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{atrium_specialist_trade:1,atrium_buy_1_mending_trident:1}"
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "atrium_specialist_trade": 1,
+                    "atrium_buy_1_sentinel_research": 1
+                  }
+                }
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "atrium:entity/villager/is_level_2"
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:paper\",count:1,components:{\"minecraft:custom_data\":{atrium_research:1b,atrium_research_type:\"runic\",atrium_topic:\"sentinel\"}}}}]}}"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "weight": 7,
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "atrium_specialist_trade": 1,
+                    "atrium_buy_1_unbreaking_5_pickaxe_upgrade": 1
+                  }
+                }
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "atrium:entity/villager/is_level_2"
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:diamond_pickaxe\",count:1,components:{\"minecraft:enchantments\":{levels:{\"minecraft:unbreaking\":5}}}}}]}}"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "weight": 7,
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "atrium_specialist_trade": 1,
+                    "atrium_buy_1_unbreaking_5_axe_upgrade": 1
+                  }
+                }
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "atrium:entity/villager/is_level_2"
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:diamond_axe\",count:1,components:{\"minecraft:enchantments\":{levels:{\"minecraft:unbreaking\":5}}}}}]}}"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "weight": 7,
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "atrium_specialist_trade": 1,
+                    "atrium_buy_1_unbreaking_5_shovel_upgrade": 1
+                  }
+                }
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "atrium:entity/villager/is_level_2"
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:diamond_shovel\",count:1,components:{\"minecraft:enchantments\":{levels:{\"minecraft:unbreaking\":5}}}}}]}}"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "weight": 10,
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "atrium_specialist_trade": 1,
+                    "atrium_buy_1_mending_trident_upgrade": 1
+                  }
+                }
               }
             ],
             "conditions": [
@@ -349,7 +404,7 @@
                       "condition": "minecraft:entity_properties",
                       "entity": "this",
                       "predicate": {
-                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:trident\",Count:1b,tag:{Enchantments:[{id:\"minecraft:mending\",lvl:1s}]}}}]}}"
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:trident\",count:1,components:{\"minecraft:enchantments\":{levels:{\"minecraft:mending\":1}}}}}]}}"
                       }
                     }
                   }
@@ -363,8 +418,13 @@
             "name": "minecraft:firework_star",
             "functions": [
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{atrium_specialist_trade:1,atrium_buy_1_thorns_5_chestplate:1}"
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "atrium_specialist_trade": 1,
+                    "atrium_buy_1_thorns_5_chestplate_upgrade": 1
+                  }
+                }
               }
             ],
             "conditions": [
@@ -381,7 +441,7 @@
                       "condition": "minecraft:entity_properties",
                       "entity": "this",
                       "predicate": {
-                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:diamond_chestplate\",Count:1b,tag:{Enchantments:[{id:\"minecraft:thorns\",lvl:5s}]}}}]}}"
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:diamond_chestplate\",count:1,components:{\"minecraft:enchantments\":{levels:{\"minecraft:thorns\":5}}}}}]}}"
                       }
                     }
                   }
@@ -395,8 +455,13 @@
             "name": "minecraft:firework_star",
             "functions": [
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{atrium_specialist_trade:1,atrium_buy_1_fire_aspect_3_sword:1}"
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "atrium_specialist_trade": 1,
+                    "atrium_buy_1_fire_aspect_3_sword_upgrade": 1
+                  }
+                }
               }
             ],
             "conditions": [
@@ -413,7 +478,7 @@
                       "condition": "minecraft:entity_properties",
                       "entity": "this",
                       "predicate": {
-                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:diamond_sword\",Count:1b,tag:{Enchantments:[{id:\"minecraft:fire_aspect\",lvl:3s}]}}}]}}"
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:diamond_sword\",count:1,components:{\"minecraft:enchantments\":{levels:{\"minecraft:fire_aspect\":3}}}}}]}}"
                       }
                     }
                   }
@@ -427,8 +492,13 @@
             "name": "minecraft:firework_star",
             "functions": [
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{atrium_specialist_trade:1,atrium_buy_1_runic_codex:1}"
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "atrium_specialist_trade": 1,
+                    "atrium_buy_1_runic_codex": 1
+                  }
+                }
               }
             ],
             "conditions": [
@@ -445,7 +515,7 @@
                       "condition": "minecraft:entity_properties",
                       "entity": "this",
                       "predicate": {
-                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:player_head\",Count:1b,tag:{display:{Name:'{\"text\":\"Runic Codex\",\"color\":\"light_purple\",\"italic\":false}',Lore:['{\"text\":\"Space Required:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"x9,y6,z10\",\"color\":\"dark_gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"When Placed:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"Generates a structure \",\"color\":\"blue\",\"italic\":false}']},runic_codex_placer:1b,SkullOwner:{Id:[I;453648658,-1501608406,-1743325056,-1172242773],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTUyNjgwNzc0MDkwYTVjZDFjNmZkMDgwYjZkNGFkOTkwZWViYzA0MTE4MjBlMTkyNmM5OWIyMTExZTJjYjRiNyJ9fX0=\"}]}}}}}]}}"
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:player_head\",count:1,components:{\"minecraft:custom_data\":{runic_codex_placer:1b}}}}]}}"
                       }
                     }
                   }

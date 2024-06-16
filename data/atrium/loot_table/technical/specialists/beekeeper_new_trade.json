@@ -11,8 +11,13 @@
             "name": "minecraft:firework_star",
             "functions": [
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{atrium_specialist_trade:1,atrium_sell_10_dandelion:1}"
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "atrium_specialist_trade": 1,
+                    "atrium_sell_10_dandelion": 1
+                  }
+                }
               }
             ],
             "conditions": [
@@ -29,7 +34,7 @@
                       "condition": "minecraft:entity_properties",
                       "entity": "this",
                       "predicate": {
-                        "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:dandelion\",Count:10b}}]}}"
+                        "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:dandelion\",count:10}}]}}"
                       }
                     }
                   }
@@ -43,8 +48,13 @@
             "name": "minecraft:firework_star",
             "functions": [
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{atrium_specialist_trade:1,atrium_sell_10_poppy:1}"
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "atrium_specialist_trade": 1,
+                    "atrium_sell_10_poppy": 1
+                  }
+                }
               }
             ],
             "conditions": [
@@ -61,7 +71,7 @@
                       "condition": "minecraft:entity_properties",
                       "entity": "this",
                       "predicate": {
-                        "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:poppy\",Count:10b}}]}}"
+                        "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:poppy\",count:10}}]}}"
                       }
                     }
                   }
@@ -75,8 +85,13 @@
             "name": "minecraft:firework_star",
             "functions": [
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{atrium_specialist_trade:1,atrium_sell_10_blue_orchid:1}"
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "atrium_specialist_trade": 1,
+                    "atrium_sell_10_blue_orchid": 1
+                  }
+                }
               }
             ],
             "conditions": [
@@ -93,7 +108,7 @@
                       "condition": "minecraft:entity_properties",
                       "entity": "this",
                       "predicate": {
-                        "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:blue_orchid\",Count:10b}}]}}"
+                        "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:blue_orchid\",count:10}}]}}"
                       }
                     }
                   }
@@ -107,8 +122,13 @@
             "name": "minecraft:firework_star",
             "functions": [
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{atrium_specialist_trade:1,atrium_sell_10_allium:1}"
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "atrium_specialist_trade": 1,
+                    "atrium_sell_10_allium": 1
+                  }
+                }
               }
             ],
             "conditions": [
@@ -125,7 +145,7 @@
                       "condition": "minecraft:entity_properties",
                       "entity": "this",
                       "predicate": {
-                        "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:allium\",Count:10b}}]}}"
+                        "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:allium\",count:10}}]}}"
                       }
                     }
                   }
@@ -139,8 +159,13 @@
             "name": "minecraft:firework_star",
             "functions": [
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{atrium_specialist_trade:1,atrium_sell_10_azure_bluet:1}"
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "atrium_specialist_trade": 1,
+                    "atrium_sell_10_azure_bluet": 1
+                  }
+                }
               }
             ],
             "conditions": [
@@ -157,7 +182,7 @@
                       "condition": "minecraft:entity_properties",
                       "entity": "this",
                       "predicate": {
-                        "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:azure_bluet\",Count:10b}}]}}"
+                        "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:azure_bluet\",count:10}}]}}"
                       }
                     }
                   }
@@ -171,8 +196,13 @@
             "name": "minecraft:firework_star",
             "functions": [
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{atrium_specialist_trade:1,atrium_sell_10_red_tulip:1}"
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "atrium_specialist_trade": 1,
+                    "atrium_sell_10_red_tulip": 1
+                  }
+                }
               }
             ],
             "conditions": [
@@ -189,7 +219,7 @@
                       "condition": "minecraft:entity_properties",
                       "entity": "this",
                       "predicate": {
-                        "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:red_tulip\",Count:10b}}]}}"
+                        "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:red_tulip\",count:10}}]}}"
                       }
                     }
                   }
@@ -203,8 +233,13 @@
             "name": "minecraft:firework_star",
             "functions": [
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{atrium_specialist_trade:1,atrium_sell_10_orange_tulip:1}"
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "atrium_specialist_trade": 1,
+                    "atrium_sell_10_orange_tulip": 1
+                  }
+                }
               }
             ],
             "conditions": [
@@ -221,7 +256,7 @@
                       "condition": "minecraft:entity_properties",
                       "entity": "this",
                       "predicate": {
-                        "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:orange_tulip\",Count:10b}}]}}"
+                        "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:orange_tulip\",count:10}}]}}"
                       }
                     }
                   }
@@ -235,8 +270,13 @@
             "name": "minecraft:firework_star",
             "functions": [
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{atrium_specialist_trade:1,atrium_sell_10_white_tulip:1}"
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "atrium_specialist_trade": 1,
+                    "atrium_sell_10_white_tulip": 1
+                  }
+                }
               }
             ],
             "conditions": [
@@ -253,7 +293,7 @@
                       "condition": "minecraft:entity_properties",
                       "entity": "this",
                       "predicate": {
-                        "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:white_tulip\",Count:10b}}]}}"
+                        "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:white_tulip\",count:10}}]}}"
                       }
                     }
                   }
@@ -267,8 +307,13 @@
             "name": "minecraft:firework_star",
             "functions": [
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{atrium_specialist_trade:1,atrium_sell_10_pink_tulip:1}"
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "atrium_specialist_trade": 1,
+                    "atrium_sell_10_pink_tulip": 1
+                  }
+                }
               }
             ],
             "conditions": [
@@ -285,7 +330,7 @@
                       "condition": "minecraft:entity_properties",
                       "entity": "this",
                       "predicate": {
-                        "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:pink_tulip\",Count:10b}}]}}"
+                        "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:pink_tulip\",count:10}}]}}"
                       }
                     }
                   }
@@ -299,8 +344,13 @@
             "name": "minecraft:firework_star",
             "functions": [
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{atrium_specialist_trade:1,atrium_sell_10_oxeye_daisy:1}"
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "atrium_specialist_trade": 1,
+                    "atrium_sell_10_oxeye_daisy": 1
+                  }
+                }
               }
             ],
             "conditions": [
@@ -317,7 +367,7 @@
                       "condition": "minecraft:entity_properties",
                       "entity": "this",
                       "predicate": {
-                        "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:oxeye_daisy\",Count:10b}}]}}"
+                        "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:oxeye_daisy\",count:10}}]}}"
                       }
                     }
                   }
@@ -331,8 +381,13 @@
             "name": "minecraft:firework_star",
             "functions": [
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{atrium_specialist_trade:1,atrium_buy_1_campfire:1}"
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "atrium_specialist_trade": 1,
+                    "atrium_buy_1_campfire": 1
+                  }
+                }
               }
             ],
             "conditions": [
@@ -349,7 +404,7 @@
                       "condition": "minecraft:entity_properties",
                       "entity": "this",
                       "predicate": {
-                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:campfire\",Count:1b}}]}}"
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:campfire\",count:1}}]}}"
                       }
                     }
                   }
@@ -363,8 +418,13 @@
             "name": "minecraft:firework_star",
             "functions": [
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{atrium_specialist_trade:1,atrium_buy_1_shears:1}"
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "atrium_specialist_trade": 1,
+                    "atrium_buy_1_shears": 1
+                  }
+                }
               }
             ],
             "conditions": [
@@ -381,7 +441,7 @@
                       "condition": "minecraft:entity_properties",
                       "entity": "this",
                       "predicate": {
-                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:shears\",Count:1b}}]}}"
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:shears\",count:1}}]}}"
                       }
                     }
                   }
@@ -395,8 +455,13 @@
             "name": "minecraft:firework_star",
             "functions": [
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{atrium_specialist_trade:1,atrium_buy_1_honeycomb:1}"
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "atrium_specialist_trade": 1,
+                    "atrium_buy_1_honeycomb": 1
+                  }
+                }
               }
             ],
             "conditions": [
@@ -413,7 +478,7 @@
                       "condition": "minecraft:entity_properties",
                       "entity": "this",
                       "predicate": {
-                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:honeycomb\",Count:1b}}]}}"
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:honeycomb\",count:1}}]}}"
                       }
                     }
                   }
@@ -427,8 +492,13 @@
             "name": "minecraft:firework_star",
             "functions": [
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{atrium_specialist_trade:1,atrium_buy_2_candle:1}"
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "atrium_specialist_trade": 1,
+                    "atrium_buy_2_candle": 1
+                  }
+                }
               }
             ],
             "conditions": [
@@ -445,7 +515,7 @@
                       "condition": "minecraft:entity_properties",
                       "entity": "this",
                       "predicate": {
-                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:candle\",Count:2b}}]}}"
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:candle\",count:2}}]}}"
                       }
                     }
                   }
@@ -459,8 +529,13 @@
             "name": "minecraft:firework_star",
             "functions": [
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{atrium_specialist_trade:1,atrium_sell_8_cobweb:1}"
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "atrium_specialist_trade": 1,
+                    "atrium_sell_8_cobweb": 1
+                  }
+                }
               }
             ],
             "conditions": [
@@ -477,7 +552,7 @@
                       "condition": "minecraft:entity_properties",
                       "entity": "this",
                       "predicate": {
-                        "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:cobweb\",Count:8b}}]}}"
+                        "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:cobweb\",count:8}}]}}"
                       }
                     }
                   }
@@ -491,8 +566,13 @@
             "name": "minecraft:firework_star",
             "functions": [
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{atrium_specialist_trade:1,atrium_buy_1_honey_bottle:1}"
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "atrium_specialist_trade": 1,
+                    "atrium_buy_1_honey_bottle": 1
+                  }
+                }
               }
             ],
             "conditions": [
@@ -509,7 +589,7 @@
                       "condition": "minecraft:entity_properties",
                       "entity": "this",
                       "predicate": {
-                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:honey_bottle\",Count:1b}}]}}"
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:honey_bottle\",count:1}}]}}"
                       }
                     }
                   }
@@ -523,8 +603,13 @@
             "name": "minecraft:firework_star",
             "functions": [
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{atrium_specialist_trade:1,atrium_buy_2_taffy:1}"
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "atrium_specialist_trade": 1,
+                    "atrium_buy_2_taffy": 1
+                  }
+                }
               }
             ],
             "conditions": [
@@ -541,7 +626,7 @@
                       "condition": "minecraft:entity_properties",
                       "entity": "this",
                       "predicate": {
-                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:cookie\",Count:2b,tag:{display:{Name:'{\"text\":\"Taffy\",\"italic\":false}'},CustomModelData:333154,atrium_taffy:1b}}}]}}"
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:cookie\",count:2,components:{\"minecraft:custom_data\":{atrium_taffy:1b}}}}]}}"
                       }
                     }
                   }
@@ -555,8 +640,13 @@
             "name": "minecraft:firework_star",
             "functions": [
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{atrium_specialist_trade:1,atrium_buy_1_beehive:1}"
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "atrium_specialist_trade": 1,
+                    "atrium_buy_1_beehive": 1
+                  }
+                }
               }
             ],
             "conditions": [
@@ -573,7 +663,7 @@
                       "condition": "minecraft:entity_properties",
                       "entity": "this",
                       "predicate": {
-                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:beehive\",Count:1b,tag:{display:{Lore:['{\"text\":\"There are buzzing sounds\"}','{\"text\":\"coming from inside.\"}','{\"text\":\" \"}','{\"text\":\"(Houses 2 Bees.)\",\"color\":\"gray\",\"italic\":false}']},BlockEntityTag:{Bees:[{EntityData:{id:\"minecraft:bee\"}},{EntityData:{id:\"minecraft:bee\"}}]}}}}]}}"
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:beehive\",count:1}}]}}"
                       }
                     }
                   }
