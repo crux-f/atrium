@@ -8,11 +8,156 @@
         {
           "type": "item",
           "weight": 5,
+          "name": "minecraft:golden_pickaxe",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_model_data": 333145,
+                "minecraft:custom_data": {
+                  "atrium_hammer": 1,
+                  "atrium_golden_hammer": 1,
+                  "atrium_delvers_quest_reward": 1
+                },
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:unbreaking": 6
+                  }
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "atrium:hammer_attack_damage",
+                      "type": "generic.attack_damage",
+                      "amount": 4,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "atrium:hammer_attack_speed",
+                      "type": "generic.attack_speed",
+                      "amount": -2.8,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    }
+                  ],
+                  "show_in_tooltip": false
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Delver's Hammer"
+                }
+              ],
+              "target": "item_name"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": " "
+                },
+                {
+                  "color": "gray",
+                  "italic": false,
+                  "text": "When in Main Hand:"
+                },
+                {
+                  "color": "dark_green",
+                  "italic": false,
+                  "text": " 4 Attack Damage"
+                },
+                {
+                  "color": "dark_green",
+                  "italic": false,
+                  "text": " 1.2 Attack Speed"
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "color": "gray",
+                  "italic": false,
+                  "text": "When in Both Hands:"
+                },
+                {
+                  "color": "blue",
+                  "italic": false,
+                  "text": "Crushes Blocks"
+                }
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 15,
+                "max": 25
+              },
+                "options": "#minecraft:on_random_loot"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 5,
           "name": "minecraft:iron_pickaxe",
           "functions": [
             {
-              "function": "set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Gleamfinder\",\"color\":\"green\",\"italic\":false}',Lore:['{\"text\":\"Shard Touch\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"A fine pickaxe. Clearly\"}','{\"text\":\"an ancient Delver design.\"}','{\"text\":\"This must have been\"}','{\"text\":\"what the Infernium were\"}','{\"text\":\"looking for.\"}']},RepairCost:3,atrium_delvers_quest_reward:1b,atrium_custom_enchantment:1b,atrium_shard_touch_enchanted:1b,Enchantments:[{id:\"minecraft:efficiency\",lvl:2s},{id:\"minecraft:unbreaking\",lvl:4s}]}"
+              "function": "set_components",
+              "components": {
+                "minecraft:repair_cost": 3,
+                "minecraft:custom_model_data": 333076,
+                "minecraft:custom_data": {
+                  "atrium_delvers_quest_reward": 1,
+                  "atrium_custom_enchantment": 1,
+                  "atrium_shard_touch_enchanted": 1
+                },
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:efficiency": 2,
+                    "minecraft:unbreaking": 4
+                  }
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "color": "dark_green",
+                  "text": "Gleamfinder"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "color": "gray",
+                  "italic": false,
+                  "text": "Shard Touch"
+                },
+                {
+                  "text": "A fine pickaxe. Clearly"
+                },
+                {
+                  "text": "an ancient Delver design."
+                },
+                {
+                  "text": "This must have been"
+                },
+                {
+                  "text": "what the Infernium were"
+                },
+                {
+                  "text": "looking for."
+                }
+              ],
+              "mode": "append"
             }
           ]
         },
@@ -22,26 +167,51 @@
           "name": "minecraft:diamond_shovel",
           "functions": [
             {
-              "function": "set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Rubbleslayer\",\"color\":\"dark_green\",\"italic\":false}',Lore:['{\"text\":\"This... Could have been\"}','{\"text\":\"what they were looking for...?\"}','{\"text\":\"(Nearby gravel trembles\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"in its presence.)\",\"color\":\"gray\",\"italic\":false}']},RepairCost:99,atrium_delvers_quest_reward:1b,Enchantments:[{id:\"minecraft:sharpness\",lvl:3s},{id:\"minecraft:efficiency\",lvl:4s},{id:\"minecraft:unbreaking\",lvl:6s}]}"
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "weight": 5,
-          "name": "minecraft:golden_pickaxe",
-          "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Delvers\\' Hammer\",\"italic\":false}',Lore:['{\"text\":\" \"}','{\"text\":\"When in Main Hand:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" 4 Attack Damage\",\"color\":\"dark_green\",\"italic\":false}','{\"text\":\" 1.2 Attack Speed\",\"color\":\"dark_green\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"When in Both Hands:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"Crushes Blocks\",\"color\":\"blue\",\"italic\":false}']},HideFlags:2,CustomModelData:333145,atrium_hammer:1b,atrium_golden_hammer:1b,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:4,Operation:0,UUID:[I;116955196,760695514,-1418748397,-607753438],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-2.8,Operation:0,UUID:[I;972577395,-100775099,-1248507235,-1301602438],Slot:\"mainhand\"}],Enchantments:[{id:\"minecraft:efficiency\",lvl:1s},{id:\"minecraft:unbreaking\",lvl:6s}]}"
+              "function": "set_components",
+              "components": {
+                "minecraft:repair_cost": 15,
+                "minecraft:custom_data": {
+                  "atrium_delvers_quest_reward": 1
+                },
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:sharpness": 3,
+                    "minecraft:efficiency": 4,
+                    "minecraft:unbreaking": 6
+                  }
+                }
+              }
             },
             {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "min": 12,
-                "max": 24
-              }
+              "function": "set_name",
+              "name": [
+                {
+                  "color": "dark_green",
+                  "text": "Rubbleslayer"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "This... Could have been"
+                },
+                {
+                  "text": "what they were looking for...?"
+                },
+                {
+                  "color": "gray",
+                  "italic": false,
+                  "text": "(Nearby gravel trembles"
+                },
+                {
+                  "color": "gray",
+                  "italic": false,
+                  "text": "in its presence.)"
+                }
+              ],
+              "mode": "append"
             }
           ]
         }

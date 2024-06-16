@@ -8,11 +8,54 @@
         {
           "type": "item",
           "weight": 5,
-          "name": "minecraft:stick",
+          "name": "minecraft:golden_helmet",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Rod of Remembering\",\"italic\":false}',Lore:['{\"text\":\"Concentration IV\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"This arcane device allows\"}','{\"text\":\"the user to remember\"}','{\"text\":\"fragments of their lost\"}','{\"text\":\"experiences.\"}']},CustomModelData:333178,atrium_rod_of_remembering:1b,atrium_custom_enchantment:1b,atrium_concentration_enchanted:1b,atrium_concentration_lv:4b}"
+              "function": "set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:unbreaking": 6
+                  }
+                },
+                "minecraft:trim": {
+                  "material": "minecraft:diamond",
+                  "pattern": "minecraft:ward",
+                  "show_in_tooltip": false
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Ancient Crown"
+                }
+              ],
+              "target": "item_name"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Worn by a leader of this"
+                },
+                {
+                  "text": "ancient city, and imbued"
+                },
+                {
+                  "text": "with powerful magic."
+                }
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 20,
+                "max": 30
+              },
+                "options": "#minecraft:on_random_loot"
             }
           ]
         },
@@ -22,26 +65,102 @@
           "name": "minecraft:diamond_sword",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Null\",\"color\":\"dark_aqua\",\"italic\":false}',Lore:['{\"text\":\"ANNIHILATE\",\"font\":\"minecraft:illageralt\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"This diamond blade is\"}','{\"text\":\"imbued with Sculk. The\"}','{\"text\":\"knowledge of how it was\"}','{\"text\":\"made died with its\"}','{\"text\":\"last owner.\"}']},CustomModelData:333177,atrium_null:1b,atrium_custom_enchantment:1b,atrium_annihilate_enchanted:1b}"
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_model_data": 333177,
+                "minecraft:custom_data": {
+                  "atrium_null": 1,
+                  "atrium_custom_enchantment": 1,
+                  "atrium_annihilate_enchanted": 1
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "color": "dark_aqua",
+                  "text": "Null"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "color": "gray",
+                  "font": "minecraft:illageralt",
+                  "italic": false,
+                  "text": "ANNIHILATE"
+                },
+                {
+                  "text": "This diamond blade is"
+                },
+                {
+                  "text": "imbued with Sculk. The"
+                },
+                {
+                  "text": "knowledge of how it was"
+                },
+                {
+                  "text": "made died with its"
+                },
+                {
+                  "text": "last owner."
+                }
+              ],
+              "mode": "append"
             }
           ]
         },
         {
           "type": "item",
           "weight": 5,
-          "name": "minecraft:golden_helmet",
+          "name": "minecraft:stick",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Ancient Crown\",\"italic\":false}',Lore:['{\"text\":\"Worn by a leader of this\"}','{\"text\":\"ancient city, and imbued\"}','{\"text\":\"with powerful magic.\"}']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:6s}],Trim:{material:\"minecraft:diamond\",pattern:\"minecraft:ward\"}}"
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_model_data": 333178,
+                "minecraft:custom_data": {
+                  "atrium_rod_of_remembering": 1,
+                  "atrium_custom_enchantment": 1,
+                  "atrium_concentration_enchanted": 1,
+                  "atrium_concentration_lv": 4
+                }
+              }
             },
             {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "min": 20,
-                "max": 30
-              }
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Rod of Remembering"
+                }
+              ],
+              "target": "item_name"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "color": "gray",
+                  "italic": false,
+                  "text": "Concentration IV"
+                },
+                {
+                  "text": "This arcane device allows"
+                },
+                {
+                  "text": "the user to remember"
+                },
+                {
+                  "text": "fragments of their lost"
+                },
+                {
+                  "text": "experiences."
+                }
+              ],
+              "mode": "append"
             }
           ]
         }

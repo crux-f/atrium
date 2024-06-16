@@ -8,11 +8,106 @@
         {
           "type": "item",
           "weight": 5,
-          "name": "minecraft:trident",
+          "name": "minecraft:diamond_hoe",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Wavebender\",\"color\":\"blue\",\"italic\":false}',Lore:['{\"text\":\"This weapon was once\"}','{\"text\":\"wielded by a great \"}','{\"text\":\"priestess of The Doctrine.\"}','{\"text\":\"Use its power wisely.\"}']},RepairCost:99,atrium_wavebender:1b,Enchantments:[{id:\"minecraft:unbreaking\",lvl:6s},{id:\"minecraft:riptide\",lvl:2s},{id:\"minecraft:mending\",lvl:1s}]}"
+              "function": "set_components",
+              "components": {
+                "minecraft:repair_cost": 10,
+                "minecraft:custom_model_data": 333063,
+                "minecraft:custom_data": {
+                  "atrium_staff": 1,
+                  "atrium_staff_lv": 2,
+                  "atrium_water_staff": 1,
+                  "atrium_chargeable": 1,
+                  "atrium_custom_enchantment": 1,
+                  "atrium_concentration_enchanted": 1,
+                  "atrium_concentration_lv": 2,
+                  "atrium_surge_enchanted": 1
+                },
+                "minecraft:enchantments": {
+                  "levels": {}
+                },
+                "minecraft:enchantment_glint_override": true,
+                "minecraft:attribute_modifiers": [
+                  {
+                    "id": "atrium:staff_attack_damage",
+                    "type": "generic.attack_damage",
+                    "amount": 2,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  }
+                ]
+              }
+            },
+            {
+              "function": "set_name",
+              "target": "custom_name",
+              "name": [
+                {
+                  "color": "blue",
+                  "text": "Anointer"
+                }
+              ]
+            },
+            {
+              "function": "set_name",
+              "target": "item_name",
+              "name": [
+                {
+                  "text": "Staff of Water"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "color": "gray",
+                  "italic": false,
+                  "text": "Concentration II"
+                },
+                {
+                  "color": "gray",
+                  "font": "minecraft:illageralt",
+                  "italic": false,
+                  "text": "SURGE"
+                },
+                {
+                  "color": "gray",
+                  "italic": false,
+                  "text": "◇ Water Sigil II"
+                },
+                {
+                  "color": "gray",
+                  "italic": false,
+                  "text": "◇ Extinguish II"
+                },
+                {
+                  "color": "gray",
+                  "italic": false,
+                  "text": "◇ Turn Tide I"
+                },
+                {
+                  "color": "gray",
+                  "italic": false,
+                  "text": "◇ Undercurrent I"
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "color": "gray",
+                  "italic": false,
+                  "text": "When in Off Hand:"
+                },
+                {
+                  "color": "blue",
+                  "italic": false,
+                  "text": "+2 Casting Power"
+                }
+              ],
+              "mode": "append"
             }
           ]
         },
@@ -22,25 +117,108 @@
           "name": "minecraft:fishing_rod",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Trawler\",\"color\":\"blue\",\"italic\":false}',Lore:['{\"text\":\"This strange fishing rod\"}','{\"text\":\"is very good at finding...\"}','{\"text\":\"just about anything that\"}','{\"text\":\"finds itself in a riverbed.\"}']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:5s},{id:\"minecraft:lure\",lvl:3s}],AttributeModifiers:[{AttributeName:\"generic.luck\",Name:\"generic.luck\",Amount:-1,Operation:0,UUID:[I;2084010244,-1297004181,-2136489695,-1337901432],Slot:\"mainhand\"},{AttributeName:\"generic.luck\",Name:\"generic.luck\",Amount:-1,Operation:0,UUID:[I;-395676543,-1893121103,-1806770973,1496146868],Slot:\"offhand\"}]}"
+              "function": "set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:unbreaking": 5,
+                    "minecraft:lure": 3
+                  }
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "id": "atrium:trawler_unlucky_mainhand",
+                    "type": "generic.luck",
+                    "amount": -1,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  },
+                  {
+                    "id": "luck",
+                    "type": "generic.luck",
+                    "amount": -1,
+                    "operation": "add_value",
+                    "slot": "offhand"
+                  }
+                ]
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "color": "blue",
+                  "text": "Trawler"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "This strange fishing rod"
+                },
+                {
+                  "text": "is very good at finding..."
+                },
+                {
+                  "text": "just about anything that"
+                },
+                {
+                  "text": "finds itself in a riverbed."
+                }
+              ],
+              "mode": "append"
             }
           ]
         },
         {
           "type": "item",
           "weight": 5,
-          "name": "minecraft:diamond_hoe",
+          "name": "minecraft:trident",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Anointer\",\"italic\":false,\"color\":\"blue\"}',Lore:['{\"text\":\"SURGE\",\"color\":\"gray\",\"italic\":false,\"font\":\"illageralt\"}','{\"text\":\"Concentration II\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"◇ Water Sigil II\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"◇ Extinguish II\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"◇ Turn Tide I\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"◇ Undercurrent I\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"When in Off Hand:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"+2 Casting Power\",\"color\":\"blue\",\"italic\":false}']},Enchantments:[{}],CustomModelData:333063,RepairCost:10,atrium_staff:1b,atrium_staff_lv:2b,atrium_water_staff:1b,atrium_chargeable:1b,atrium_custom_enchantment:1b,atrium_concentration_enchanted:1b,atrium_concentration_lv:2b,atrium_surge_enchanted:1b,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:2,Operation:0,UUID:[I;637717026,1710441391,-1943706047,783506473],Slot:\"mainhand\"}]}"
+              "function": "set_components",
+              "components": {
+                "minecraft:repair_cost": 99,
+                "minecraft:custom_data": {
+                  "atrium_wavebender": 1
+                },
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:riptide": 2,
+                    "minecraft:mending": 1,
+                    "minecraft:unbreaking": 6
+                  }
+                }
+              }
             },
             {
-              "function": "minecraft:enchant_randomly",
-              "enchantments": [
-                "minecraft:unbreaking"
+              "function": "set_name",
+              "name": [
+                {
+                  "color": "blue",
+                  "text": "Wavebender"
+                }
               ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "This weapon was once"
+                },
+                {
+                  "text": "wielded by a great"
+                },
+                {
+                  "text": "priestess of The Doctrine."
+                },
+                {
+                  "text": "Use its power wisely."
+                }
+              ],
+              "mode": "append"
             }
           ]
         }
