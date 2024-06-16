@@ -18,8 +18,13 @@
               }
             },
             {
-              "function": "set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Mysterious Remains\",\"italic\":false}'}}"
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Mysterious Remains"
+                }
+              ],
+              "target": "item_name"
             }
           ]
         },
@@ -64,23 +69,100 @@
               }
             },
             {
-              "function": "set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Shiny Bauble\",\"italic\":false}'}}"
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Shiny Bauble"
+                }
+              ],
+              "target": "item_name"
             }
           ]
         },
         {
           "type": "item",
-          "weight": 10,
+          "weight": 1,
           "name": "minecraft:potion",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
+              "function": "set_components",
+              "components": {
+                "minecraft:rarity": "epic",
+                "minecraft:custom_model_data": 333067,
+                "minecraft:custom_data": {
+                  "atrium_the_juice": 1
+                },
+                "minecraft:potion_contents": {
+                  "custom_color": 16759032,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:hunger",
+                      "amplifier": 15,
+                      "duration": 140,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:nausea",
+                      "amplifier": 0,
+                      "duration": 140,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:jump_boost",
+                      "amplifier": 15,
+                      "duration": 140,
+                      "show_particles": true
+                    },
+                    {
+                      "id": "minecraft:speed",
+                      "amplifier": 15,
+                      "duration": 140,
+                      "show_particles": true
+                    }
+                  ]
+                }
+              }
             },
             {
-              "function": "set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"\\\\\"The Juice\\\\\"\",\"color\":\"light_purple\",\"italic\":false}',Lore:['{\"text\":\"The Flavor (0:07)\",\"color\":\"blue\",\"italic\":false}','{\"text\":\"The label is torn off.\"}','{\"text\":\"The label is torn off.\"}','{\"text\":\"The label is torn off.\"}','{\"text\":\"Don\\'t go looking for it!\"}','{\"text\":\"The label is torn off.\"}','{\"text\":\"Tasteful.\"}']},HideFlags:32,juice:1b,CustomPotionEffects:[{Id:1,Amplifier:15b,Duration:140,ShowParticles:1b},{Id:8,Amplifier:15b,Duration:140,ShowParticles:1b},{Id:9,Amplifier:0b,Duration:140,ShowParticles:1b},{Id:17,Amplifier:15b,Duration:140,ShowParticles:1b}],CustomPotionColor:16759032,CustomModelData:333067}"
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "\"The Juice\""
+                }
+              ],
+              "target": "item_name"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "color": "blue",
+                  "italic": false,
+                  "text": "The Flavor (0:07)"
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "The label is torn off."
+                },
+                {
+                  "text": "The label is torn off."
+                },
+                {
+                  "text": "The label is torn off."
+                },
+                {
+                  "text": "Don't go looking for it!"
+                },
+                {
+                  "text": "The label is torn off."
+                },
+                {
+                  "text": "Tasteful."
+                }
+              ],
+              "mode": "append"
             }
           ]
         },
@@ -89,16 +171,50 @@
           "weight": 10,
           "name": "minecraft:firework_rocket",
           "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:fireworks": {
+                  "explosions": [
+                    {
+                      "shape": "small_ball",
+                      "has_trail": true,
+                      "colors": [
+                        10354688,
+                        14221312,
+                        7208960,
+                        3866624,
+                        0,
+                        16711680
+                      ],
+                      "fade_colors": [
+                        10235181,
+                        7214357,
+                        4330002,
+                        7029003
+                      ]
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "color": "dark_purple",
+                  "italic": false,
+                  "text": "Dried Up"
+                }
+              ],
+              "mode": "append"
+            },
             {
               "function": "set_count",
               "count": {
                 "min": 1,
                 "max": 3
               }
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{display:{Lore:['{\"text\":\"Dried Up\",\"color\":\"gray\",\"italic\":false}']},HideFlags:32,Fireworks:{Flight:2b,Explosions:[{Type:0,Trail:1b,Colors:[I;10354688,14221312,7208960,3866624,0,16711680],FadeColors:[I;10235181,7214357,4330002,7029003]}]}}"
             }
           ]
         },
@@ -107,16 +223,43 @@
           "weight": 10,
           "name": "minecraft:firework_rocket",
           "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:fireworks": {
+                  "explosions": [
+                    {
+                      "shape": "small_ball",
+                      "colors": [
+                        4456238,
+                        2370559,
+                        16756967
+                      ],
+                      "fade_colors": [
+                        16711680
+                      ]
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "color": "dark_purple",
+                  "italic": false,
+                  "text": "Ham-Colored"
+                }
+              ],
+              "mode": "append"
+            },
             {
               "function": "set_count",
               "count": {
                 "min": 1,
                 "max": 3
               }
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{display:{Lore:['{\"text\":\"Ham-Colored\",\"color\":\"gray\",\"italic\":false}']},HideFlags:32,Fireworks:{Flight:2b,Explosions:[{Type:0,Colors:[I;4456238,2370559,16756967],FadeColors:[I;16711680]}]}}"
             }
           ]
         },
@@ -126,15 +269,45 @@
           "name": "minecraft:firework_rocket",
           "functions": [
             {
+              "function": "set_components",
+              "components": {
+                "minecraft:fireworks": {
+                  "explosions": [
+                    {
+                      "shape": "creeper",
+                      "has_trail": true,
+                      "colors": [
+                        16711680,
+                        16745224,
+                        16252680,
+                        3735321,
+                        1572747,
+                        913407,
+                        528639,
+                        9442047
+                      ]
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "color": "dark_purple",
+                  "italic": false,
+                  "text": "Gay Creep"
+                }
+              ],
+              "mode": "append"
+            },
+            {
               "function": "set_count",
               "count": {
-                "min": 2,
+                "min": 1,
                 "max": 3
               }
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{display:{Lore:['{\"text\":\"Gay Creep\",\"color\":\"gray\",\"italic\":false}']},HideFlags:32,Fireworks:{Flight:4b,Explosions:[{Type:3,Trail:1b,Colors:[I;16711680,16745224,16252680,3735321,1572747,913407,528639,9442047]}]}}"
             }
           ]
         },
@@ -143,16 +316,41 @@
           "weight": 10,
           "name": "minecraft:firework_rocket",
           "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:fireworks": {
+                  "flight_duration": -1,
+                  "explosions": [
+                    {
+                      "shape": "large_ball",
+                      "has_trail": true,
+                      "colors": [
+                        15125276,
+                        10251818
+                      ]
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "color": "dark_purple",
+                  "italic": false,
+                  "text": "Banana From Hell"
+                }
+              ],
+              "mode": "append"
+            },
             {
               "function": "set_count",
               "count": {
                 "min": 1,
-                "max": 2
+                "max": 3
               }
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{display:{Lore:['{\"text\":\"Banana From Hell\",\"color\":\"gray\",\"italic\":false}']},HideFlags:32,Fireworks:{Flight:-1b,Explosions:[{Type:4,Colors:[I;15125276,10251818]}]}}"
             }
           ]
         },
@@ -161,16 +359,47 @@
           "weight": 10,
           "name": "minecraft:firework_rocket",
           "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:fireworks": {
+                  "flight_duration": -2,
+                  "explosions": [
+                    {
+                      "shape": "large_ball",
+                      "has_trail": true,
+                      "colors": [
+                        16740096,
+                        2293504,
+                        7799039
+                      ],
+                      "fade_colors": [
+                        0,
+                        16777215,
+                        16252672
+                      ]
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "color": "dark_purple",
+                  "italic": false,
+                  "text": "Heather"
+                }
+              ],
+              "mode": "append"
+            },
             {
               "function": "set_count",
               "count": {
                 "min": 1,
-                "max": 2
+                "max": 3
               }
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{display:{Lore:['{\"text\":\"Heather\",\"color\":\"gray\",\"italic\":false}']},HideFlags:32,Fireworks:{Flight:-2b,Explosions:[{Type:2,Colors:[I;16740096,2293504,7799039],FadeColors:[I;0,16777215,16252672]}]}}"
             }
           ]
         },
@@ -179,16 +408,44 @@
           "weight": 10,
           "name": "minecraft:firework_rocket",
           "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:fireworks": {
+                  "flight_duration": -1,
+                  "explosions": [
+                    {
+                      "shape": "small_ball",
+                      "has_flicker": true,
+                      "colors": [
+                        10075903,
+                        16777215,
+                        7246079,
+                        3169023,
+                        0
+                      ]
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "color": "dark_purple",
+                  "italic": false,
+                  "text": "Fade to JORTS"
+                }
+              ],
+              "mode": "append"
+            },
             {
               "function": "set_count",
               "count": {
                 "min": 1,
-                "max": 8
+                "max": 3
               }
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{display:{Lore:['{\"text\":\"Fade to JORTS\",\"color\":\"gray\",\"italic\":false}']},HideFlags:32,Fireworks:{Flight:-1b,Explosions:[{Type:1,Flicker:1b,Colors:[I;10075903,16777215,7246079,3169023,0]}]}}"
             }
           ]
         },
@@ -197,16 +454,44 @@
           "weight": 10,
           "name": "minecraft:firework_rocket",
           "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:fireworks": {
+                  "explosions": [
+                    {
+                      "shape": "large_ball",
+                      "colors": [
+                        12859912,
+                        6233044,
+                        16100120,
+                        3314709
+                      ],
+                      "fade_colors": [
+                        8060923
+                      ]
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "color": "dark_purple",
+                  "italic": false,
+                  "text": "When can I go out on my own?"
+                }
+              ],
+              "mode": "append"
+            },
             {
               "function": "set_count",
               "count": {
                 "min": 1,
-                "max": 2
+                "max": 3
               }
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{display:{Lore:['{\"text\":\"When can I go out on my own?\",\"color\":\"gray\",\"italic\":false}']},HideFlags:32,Fireworks:{Flight:1b,Explosions:[{Type:2,Colors:[I;12859912,6233044,16100120,3314709],FadeColors:[I;8060923]}]}}"
             }
           ]
         },
@@ -216,12 +501,43 @@
           "name": "minecraft:firework_rocket",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
+              "function": "set_components",
+              "components": {
+                "minecraft:fireworks": {
+                  "flight_duration": 1,
+                  "explosions": [
+                    {
+                      "shape": "small_ball",
+                      "colors": [
+                        8257422,
+                        16711680
+                      ],
+                      "fade_colors": [
+                        0,
+                        16188415
+                      ]
+                    }
+                  ]
+                }
+              }
             },
             {
-              "function": "set_nbt",
-              "tag": "{display:{Lore:['{\"text\":\"Optimus Prime\",\"color\":\"gray\",\"italic\":false}']},HideFlags:32,Fireworks:{Flight:1b,Explosions:[{Type:0,Colors:[I;8257422,16711680],FadeColors:[I;0,16188415]}]}}"
+              "function": "set_lore",
+              "lore": [
+                {
+                  "color": "dark_purple",
+                  "italic": false,
+                  "text": "Optimus Prime"
+                }
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
             }
           ]
         },
@@ -301,42 +617,33 @@
           "name": "minecraft:light_blue_dye",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "atrium_pipis": 1
+                }
+              }
             },
             {
-              "function": "set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"pipis\",\"italic\":false}',Lore:['{\"text\":\"An invasive species of\"}','{\"text\":\"freshwater clam.\"}']},atrium_pipis:1b}"
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "weight": 5,
-          "name": "minecraft:birch_sign",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "pipis"
+                }
+              ],
+              "target": "item_name"
             },
             {
-              "function": "set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"pipis room\",\"italic\":false}'},BlockEntityTag:{is_waxed:1b,front_text:{messages:['[{\"text\":\"p\",\"color\":\"#14FFEF\"},{\"text\":\"i\",\"color\":\"#17F0FF\"},{\"text\":\"p\",\"color\":\"#19D1FF\"},{\"text\":\"i\",\"color\":\"#19ABFF\"},{\"text\":\"s \",\"color\":\"#1985FF\"},{\"text\":\"r\",\"color\":\"#1F5AFF\"},{\"text\":\"o\",\"color\":\"#2643FF\"},{\"text\":\"o\",\"color\":\"#2323DE\"},{\"text\":\"m\",\"color\":\"#1C1CB0\"}]','{\"text\":\"\"}','{\"text\":\"\"}','{\"text\":\"\"}']}}}"
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "weight": 3,
-          "name": "minecraft:tripwire_hook",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"§cOutpost Key\",\"italic\":false}',Lore:['{\"text\":\"Take!\"}']},atrium_outpost_key:1b}"
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "An invasive species"
+                },
+                {
+                  "text": "of freshwater clam."
+                }
+              ],
+              "mode": "append"
             }
           ]
         },
@@ -347,19 +654,20 @@
           "name": "minecraft:egg",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{silas_egg:1b,CustomModelData:333081}"
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_model_data": 333081,
+                "minecraft:custom_data": {
+                  "atrium_silas_egg": 1
+                }
+              }
             },
             {
               "function": "set_name",
+              "target": "item_name",
               "name": [
                 {
-                  "text": "egg",
-                  "italic": false
+                  "text": "egg"
                 }
               ]
             }
