@@ -10,7 +10,7 @@ execute if data entity @s[gamemode=!creative] {Inventory:[{Slot:-106b,components
 # (Ultimate spells use the equivalent of 3 casts; break an additional 0.5% each cast)
 execute if data entity @s[gamemode=!creative] {SelectedItem:{components:{"minecraft:custom_data":{atrium_power_slot:4b}}}} run item modify entity @s weapon.offhand atrium:chargeable/break_0005_p
 # Remove power items
-clear @s minecraft:firework_star{atrium_power:1b}
+clear @s *[minecraft:custom_data~{atrium_power:1b}]
 #
 # If the item in your off hand has been used up, break it.
 execute if data entity @s {Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{atrium_staff:1b},"minecraft:damage":1561}}]} run function atrium:items/use/chargeable/staves/break_staff

@@ -5,10 +5,10 @@ execute if data entity @s {Inventory:[{Slot:0b}]} unless data entity @s {Invento
 execute if data entity @s {Inventory:[{Slot:8b}]} unless data entity @s {Inventory:[{Slot:8b,components:{"minecraft:custom_data":{atrium_power:1b}}}]} run function atrium:items/slot_control/drop_item_8
 execute if data entity @s {Inventory:[{Slot:1b}]} unless data entity @s {Inventory:[{Slot:1b,components:{"minecraft:custom_data":{atrium_power:1b}}}]} run function atrium:items/slot_control/drop_item_1
 execute if data entity @s {Inventory:[{Slot:7b}]} unless data entity @s {Inventory:[{Slot:7b,components:{"minecraft:custom_data":{atrium_power:1b}}}]} run function atrium:items/slot_control/drop_item_7
-# ^ These are for new spells later
+# 
 # Now that the slots are empty (items cannot be picked up again for 2 ticks), give the caster their spell options.
 #
-#
+#   
 # Air | Slot 0: Air Sigil II | Slot 8: Increase Velocity II | Slot 1: Inhale I | Slot 7: Exhale I
 execute if data entity @s {Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{atrium_air_staff:1b}}}]} run item replace entity @s hotbar.0 with minecraft:firework_star[minecraft:custom_model_data=333004,minecraft:lore=['{"text":"When Cast:","color":"gray","italic":false}','{"text":"A 1-block radius wind column"}','{"text":"is created at your location for"}','{"text":"24 seconds. The column"}','{"text":"levitates entities for "}','{"text":"3.5 seconds each time they enter"}','{"text":"the column. Additionally,"}','{"text":"the column causes arrows"}','{"text":"that fly into it to be"}','{"text":"thrown directly upwards."}'],minecraft:item_name='{"text":"Spell: Air Sigil II","color":"gray"}',minecraft:custom_data={atrium_power:1b,atrium_power_slot:0b}] 1
 execute if data entity @s {Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{atrium_air_staff:1b}}}]} run item replace entity @s hotbar.8 with minecraft:firework_star[minecraft:custom_model_data=333005,minecraft:lore=['{"text":"When Cast:","color":"gray","italic":false}','{"text":"Grants the caster Jump Boost II"}','{"text":"for 120 seconds, or Speed II"}','{"text":"for 120 seconds if the caster"}','{"text":"is Sprinting."}'],minecraft:item_name='{"text":"Spell: Increase Velocity II","color":"gray"}',minecraft:custom_data={atrium_power:1b,atrium_power_slot:8b}] 1
