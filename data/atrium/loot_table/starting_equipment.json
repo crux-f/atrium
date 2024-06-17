@@ -9,15 +9,11 @@
           "name": "minecraft:cooked_beef",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
               "function": "set_name",
+              "target": "item_name",
               "name": [
                 {
-                  "text": "Jerky",
-                  "italic": false
+                  "text": "Jerky"
                 }
               ]
             }
@@ -29,15 +25,11 @@
           "name": "minecraft:rotten_flesh",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
               "function": "set_name",
+              "target": "item_name",
               "name": [
                 {
-                  "text": "Rotting Jerky",
-                  "italic": false
+                  "text": "Rotting Jerky"
                 }
               ]
             }
@@ -54,10 +46,6 @@
           "name": "minecraft:wooden_pickaxe",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
               "function": "set_damage",
               "damage": {
                 "min": 0.5,
@@ -66,10 +54,10 @@
             },
             {
               "function": "set_name",
+              "target": "item_name",
               "name": [
                 {
-                  "text": "Makeshift Pickaxe",
-                  "italic": false
+                  "text": "Makeshift Pickaxe"
                 }
               ]
             }
@@ -93,10 +81,10 @@
             },
             {
               "function": "set_name",
+              "target": "item_name",
               "name": [
                 {
-                  "text": "Makeshift Sword",
-                  "italic": false
+                  "text": "Makeshift Sword"
                 }
               ]
             }
@@ -113,20 +101,25 @@
           "name": "minecraft:book",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{atrium_keepsake:1b,Enchantments:[{id:\"minecraft:efficiency\",lvl:1s}]}"
+              "function": "set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:efficiency": 1
+                  }
+                },
+                "minecraft:custom_data": {
+                  "atrium_keepsake": 1
+                }
+              }
             },
             {
               "function": "set_name",
+              "target": "item_name",
               "name": [
                 {
                   "text": "Intellectual Keepsake",
-                  "color": "dark_aqua",
-                  "italic": false
+                  "color": "dark_aqua"
                 }
               ]
             }
@@ -138,20 +131,25 @@
           "name": "minecraft:music_disc_wait",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{atrium_keepsake:2b,Enchantments:[{id:\"minecraft:silk_touch\",lvl:1s}]}"
+              "function": "set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:silk_touch": 1
+                  }
+                },
+                "minecraft:custom_data": {
+                  "atrium_keepsake": 2
+                }
+              }
             },
             {
               "function": "set_name",
+              "target": "item_name",
               "name": [
                 {
                   "text": "Creative Keepsake",
-                  "color": "light_purple",
-                  "italic": false
+                  "color": "light_purple"
                 }
               ]
             }
@@ -163,20 +161,25 @@
           "name": "minecraft:ender_pearl",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{atrium_keepsake:3b,Enchantments:[{id:\"minecraft:power\",lvl:1s}]}"
+              "function": "set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:power": 1
+                  }
+                },
+                "minecraft:custom_data": {
+                  "atrium_keepsake": 3
+                }
+              }
             },
             {
               "function": "set_name",
+              "target": "item_name",
               "name": [
                 {
                   "text": "Mystical Keepsake",
-                  "color": "dark_purple",
-                  "italic": false
+                  "color": "dark_purple"
                 }
               ]
             }
@@ -188,20 +191,25 @@
           "name": "minecraft:globe_banner_pattern",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{atrium_keepsake:4b,Enchantments:[{id:\"minecraft:smite\",lvl:2s}]}"
+              "function": "set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:smite": 2
+                  }
+                },
+                "minecraft:custom_data": {
+                  "atrium_keepsake": 4
+                }
+              }
             },
             {
               "function": "set_name",
+              "target": "item_name",
               "name": [
                 {
                   "text": "Religious Keepsake",
-                  "color": "yellow",
-                  "italic": false
+                  "color": "yellow"
                 }
               ]
             }
@@ -213,20 +221,25 @@
           "name": "minecraft:snowball",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{atrium_keepsake:5b,Enchantments:[{id:\"minecraft:fortune\",lvl:1s}]}"
+              "function": "set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:fortune": 1
+                  }
+                },
+                "minecraft:custom_data": {
+                  "atrium_keepsake": 5
+                }
+              }
             },
             {
               "function": "set_name",
+              "target": "item_name",
               "name": [
                 {
                   "text": "Sentimental Keepsake",
-                  "color": "aqua",
-                  "italic": false
+                  "color": "aqua"
                 }
               ]
             }
@@ -238,20 +251,25 @@
           "name": "minecraft:experience_bottle",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{atrium_keepsake:6b,Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}]}"
+              "function": "set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:unbreaking": 1
+                  }
+                },
+                "minecraft:custom_data": {
+                  "atrium_keepsake": 6
+                }
+              }
             },
             {
               "function": "set_name",
+              "target": "item_name",
               "name": [
                 {
                   "text": "Traditional Keepsake",
-                  "color": "green",
-                  "italic": false
+                  "color": "green"
                 }
               ]
             }
@@ -269,6 +287,7 @@
           "functions": [
             {
               "function": "set_name",
+              "target": "custom_name",
               "name": [
                 {
                   "text": "Land Claim Shovel",
@@ -282,7 +301,8 @@
                 {
                   "text": "(Any Golden Shovel will do.)"
                 }
-              ]
+              ],
+              "mode": "append"
             }
           ]
         }
