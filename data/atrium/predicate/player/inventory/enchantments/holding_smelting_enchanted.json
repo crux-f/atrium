@@ -6,14 +6,9 @@
         "mainhand": {
           "predicates": {
             "minecraft:custom_data": {
-              "atrium_hammer": 1
+              "atrium_smelting_enchanted": 1
             }
           }
-        },
-        "offhand": {
-          "items": [
-            "minecraft:air"
-          ]
         }
       }
     }
