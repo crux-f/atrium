@@ -1,0 +1,164 @@
+{
+    "type": "chest",
+    "pools": [
+      {
+        "rolls": 1,
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:player_head",
+            "functions": [
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:rarity": "uncommon",
+                  "minecraft:custom_data": {
+                    "atrium_maw_symbol": 1
+                  },
+                  "minecraft:profile": {
+                    "id": [
+                      81489484,
+                      -1263451975,
+                      -1084266018,
+                      2061566295
+                    ],
+                    "properties": [
+                      {
+                        "name": "textures",
+                        "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmRjNDJiOWU2YzFlM2JjYjllMDRhYzdhOTE1YjVhNDQ3ZTc5MjVhMzYxZmNkNjg0YWVjN2UzNmY1YTljYTA3YyJ9fX0="
+                      }
+                    ]
+                  },
+                  "minecraft:note_block_sound": "atrium:favor.maw"
+                }
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Ancient Symbol"
+                  }
+                ],
+                "target": "item_name"
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "color": "dark_red",
+                    "italic": false,
+                    "text": "The Maw"
+                  }
+                ],
+                "mode": "append"
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:player_head",
+            "functions": [
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:rarity": "uncommon",
+                  "minecraft:custom_data": {
+                    "atrium_nameless_symbol": 1
+                  },
+                  "minecraft:profile": {
+                    "id": [
+                      -544299348,
+                      1558596997,
+                      -2068327581,
+                      -1929284218
+                    ],
+                    "properties": [
+                      {
+                        "name": "textures",
+                        "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWI0YzYwNGJjYTU1MzIyNDA0MTEyOGNhZjEyZTU2NjA0NTZmNGZmN2JjNjJjZjdjNWViODYzYjhjZWFmOTRlIn19fQ=="
+                      }
+                    ]
+                  },
+                  "minecraft:note_block_sound": "atrium:favor.nameless"
+                }
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Ancient Symbol"
+                  }
+                ],
+                "target": "item_name"
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "color": "dark_blue",
+                    "italic": false,
+                    "text": "The Nameless"
+                  }
+                ],
+                "mode": "append"
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:player_head",
+            "functions": [
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:rarity": "uncommon",
+                  "minecraft:custom_data": {
+                    "atrium_xenos_symbol": 1
+                  },
+                  "minecraft:profile": {
+                    "id": [
+                      -16274760,
+                      2027244544,
+                      -1080008088,
+                      -2011904636
+                    ],
+                    "properties": [
+                      {
+                        "name": "textures",
+                        "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTE0ZjdiZDQwYWRmNGVmZmRkMTI0ZjcwNmFjZmY4OGNlZGFhZmJjMTExNGE4N2Q5OWZhZjNlYjI0NDczNmVlOSJ9fX0="
+                      }
+                    ]
+                  },
+                  "minecraft:note_block_sound": "atrium:favor.xenos"
+                }
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Ancient Symbol"
+                  }
+                ],
+                "target": "item_name"
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "color": "#FFBADF",
+                    "italic": false,
+                    "text": "Xenos, The Endless Harmony"
+                  }
+                ],
+                "mode": "append"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
