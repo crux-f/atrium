@@ -239,7 +239,8 @@
               "function": "set_components",
               "components": {
                 "minecraft:custom_data": {
-                  "atrium_subdued_crystal": 1
+                  "atrium_subdued_crystal": 1,
+                  "atrium_crystal": 1
                 }
               }
             },
@@ -287,7 +288,8 @@
               "function": "set_components",
               "components": {
                 "minecraft:custom_data": {
-                  "atrium_vibrant_crystal": 1
+                  "atrium_vibrant_crystal": 1,
+                  "atrium_crystal": 1
                 },
                 "minecraft:enchantment_glint_override": true
               }
@@ -326,7 +328,8 @@
               "function": "set_components",
               "components": {
                 "minecraft:custom_data": {
-                  "atrium_fading_crystal": 1
+                  "atrium_fading_crystal": 1,
+                  "atrium_crystal": 1
                 }
               }
             },
@@ -374,7 +377,8 @@
               "function": "set_components",
               "components": {
                 "minecraft:custom_data": {
-                  "atrium_rumbling_crystal": 1
+                  "atrium_rumbling_crystal": 1,
+                  "atrium_crystal": 1
                 }
               }
             },
@@ -425,7 +429,8 @@
               "function": "set_components",
               "components": {
                 "minecraft:custom_data": {
-                  "atrium_blooming_crystal": 1
+                  "atrium_blooming_crystal": 1,
+                  "atrium_crystal": 1
                 },
                 "minecraft:enchantment_glint_override": true
               }
@@ -477,7 +482,8 @@
               "function": "set_components",
               "components": {
                 "minecraft:custom_data": {
-                  "atrium_dull_crystal": 1
+                  "atrium_dull_crystal": 1,
+                  "atrium_crystal": 1
                 }
               }
             },

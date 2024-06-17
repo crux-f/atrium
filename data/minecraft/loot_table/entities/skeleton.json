@@ -15,7 +15,7 @@
           "conditions": [
             {
               "condition": "minecraft:entity_properties",
-              "entity": "direct_killer",
+              "entity": "direct_attacker",
               "predicate": {
                 "type": "minecraft:wolf"
               }
@@ -25,20 +25,20 @@
           "name": "minecraft:skeleton_skull",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{atrium_skeleton_trophy:1b}"
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "atrium_trophy": 1,
+                  "atrium_trophy_type": "skeleton"
+                }
+              }
             },
             {
               "function": "set_name",
+              "target": "item_name",
               "name": [
                 {
-                  "text": "Hunting Trophy",
-                  "color": "yellow",
-                  "italic": false
+                  "text": "Hunting Trophy"
                 }
               ]
             },
@@ -50,7 +50,8 @@
                   "color": "gray",
                   "italic": false
                 }
-              ]
+              ],
+              "mode": "append"
             }
           ]
         }
@@ -61,7 +62,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "atrium:entities/base/skeleton"
+          "value": "atrium:entities/base/skeleton"
         }
       ]
     }

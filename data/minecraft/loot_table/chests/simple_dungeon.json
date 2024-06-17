@@ -9,13 +9,7 @@
           "type": "item",
           "weight": 6,
           "quality": -2,
-          "name": "minecraft:leather_horse_armor",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            }
-          ]
+          "name": "minecraft:leather_horse_armor"
         },
         {
           "type": "item",
@@ -38,27 +32,34 @@
           "name": "minecraft:iron_sword",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{atrium_niche_sword:1b,Enchantments:[{id:\"minecraft:bane_of_arthropods\",lvl:5s},{id:\"minecraft:unbreaking\",lvl:3s}]}"
+              "function": "set_components",
+              "components": {
+                "minecraft:repair_cost": 8,
+                "minecraft:custom_data": {
+                  "atrium_niche": 1
+                },
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:unbreaking": 2,
+                    "minecraft:bane_of_arthropods": 5
+                  }
+                }
+              }
             },
             {
               "function": "set_damage",
               "damage": {
                 "min": 1,
-                "max": 0.45
+                "max": 0.75
               }
             },
             {
               "function": "set_name",
+              "target": "custom_name",
               "name": [
                 {
                   "text": "Niche",
-                  "color": "blue",
-                  "italic": false
+                  "color": "blue"
                 }
               ]
             },
@@ -77,7 +78,8 @@
                 {
                   "text": "frustration."
                 }
-              ]
+              ],
+              "mode": "append"
             }
           ]
         },
@@ -85,7 +87,7 @@
           "type": "loot_table",
           "weight": 5,
           "quality": 3,
-          "name": "atrium:formulas/infusion_recipes_1"
+          "value": "atrium:formulas/infusion_research_common"
         },
         {
           "type": "minecraft:empty",
@@ -95,46 +97,10 @@
     },
     {
       "rolls": 1,
-      "bonus_rolls": 0,
-      "entries": [
-       {
-          "type": "loot_table",
-          "weight": 1,
-          "quality": 0,
-          "name": "atrium:curiosity/legion_curiosity"
-        },
-       {
-          "type": "loot_table",
-          "conditions": [
-                {
-                  "condition": "minecraft:entity_properties",
-                  "entity": "this",
-                  "predicate": {
-                  "nbt": "{Inventory:[{tag:{atrium_curiosity_helmet:1b}}]}"
-                      }
-                }
-          ],
-          "weight": 100,
-          "quality": 0,
-          "name": "atrium:curiosity/legion_curiosity",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 2
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "atrium:chests/base/simple_dungeon"
+          "value": "atrium:chests/base/simple_dungeon"
         }
       ]
     }

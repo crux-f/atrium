@@ -41,10 +41,8 @@
           "type": "item",
           "conditions": [
             {
-              "condition": "minecraft:match_tool",
-              "predicate": {
-                "nbt": "{atrium_shard_touch_enchanted:1b}"
-              }
+              "condition": "minecraft:reference",
+              "name": "atrium:player/inventory/enchantments/holding_shard_touch_enchanted"
             },
             {
               "condition": "minecraft:location_check",
@@ -57,20 +55,12 @@
           "name": "minecraft:green_stained_glass",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{atrium_crystal:1,atrium_subdued_crystal:1b}"
-            },
-            {
               "function": "set_name",
+              "target": "item_name",
               "name": [
                 {
                   "text": "Subdued Crystal",
-                  "color": "dark_green",
-                  "italic": false
+                  "color": "dark_green"
                 }
               ]
             },
@@ -86,7 +76,17 @@
                 {
                   "text": "wishing to return to its dreams."
                 }
-              ]
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "atrium_subdued_crystal": 1,
+                  "atrium_crystal": 1
+                }
+              }
             }
           ]
         }

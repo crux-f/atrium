@@ -13,50 +13,172 @@
           "name": "minecraft:stick",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Inert Focus\",\"italic\":false}'},CustomModelData:333059,atrium_inert_focus:1b}"
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "atrium_inert_focus": 1
+                },
+                "minecraft:custom_model_data": 333059
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Inert Focus"
+                }
+              ],
+              "target": "item_name"
             }
           ]
         },
         {
           "type": "minecraft:loot_table",
           "weight": 10,
-          "name": "atrium:formulas/runic_recipes_1"
+          "value": "atrium:formulas/runic_research_common"
         },
         {
           "type": "minecraft:loot_table",
           "weight": 8,
-          "name": "atrium:formulas/infusion_recipes_1"
+          "value": "atrium:formulas/infusion_research_common"
         },
         {
-          "type": "minecraft:item",
+          "type": "item",
           "weight": 4,
           "quality": 2,
           "name": "minecraft:player_head",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Runic Codex\",\"color\":\"light_purple\",\"italic\":false}',Lore:['{\"text\":\"Space Required:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"x9,y6,z10\",\"color\":\"dark_gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"When Placed:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"Generates a structure \",\"color\":\"blue\",\"italic\":false}']},runic_codex_placer:1b,SkullOwner:{Id:[I;453648658,-1501608406,-1743325056,-1172242773],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTUyNjgwNzc0MDkwYTVjZDFjNmZkMDgwYjZkNGFkOTkwZWViYzA0MTE4MjBlMTkyNmM5OWIyMTExZTJjYjRiNyJ9fX0=\"}]}}}"
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "runic_codex_placer": 1
+                },
+                "minecraft:profile": {
+                  "name": "",
+                  "id": [
+                    453648658,
+                    -1501608406,
+                    -1743325056,
+                    -1172242773
+                  ],
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTUyNjgwNzc0MDkwYTVjZDFjNmZkMDgwYjZkNGFkOTkwZWViYzA0MTE4MjBlMTkyNmM5OWIyMTExZTJjYjRiNyJ9fX0="
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Runic Codex"
+                }
+              ],
+              "target": "item_name"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "color": "gray",
+                  "italic": false,
+                  "text": "Space Required:"
+                },
+                {
+                  "color": "dark_gray",
+                  "italic": false,
+                  "text": "x9,y6,z10"
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "color": "gray",
+                  "italic": false,
+                  "text": "When Placed:"
+                },
+                {
+                  "color": "blue",
+                  "italic": false,
+                  "text": "Generates a structure"
+                }
+              ],
+              "mode": "append"
             }
           ]
         },
         {
-          "type": "minecraft:item",
-          "weight": 4,
+          "type": "item",
+          "weight": 3,
           "quality": 1,
           "name": "minecraft:player_head",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Infusion Circle\",\"color\":\"light_purple\",\"italic\":false}',Lore:['{\"text\":\"Space Required:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"x9,y5,z11\",\"color\":\"dark_gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"When Placed:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"Generates a structure \",\"color\":\"blue\",\"italic\":false}']},infusion_circle_placer:1b,SkullOwner:{Id:[I;-510246894,-974372697,-1324757754,-2046207321],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTIyNzYzMDkzNzc0NjkzYjI2MzkyNzhhMWMyYzY5OGFkMTFkYjQ5Mjg5NmU5YmYxNjcxNGQ4NTdlOThjYTFkZCJ9fX0=\"}]}}}"
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "infusion_circle_placer": 1
+                },
+                "minecraft:profile": {
+                  "name": "",
+                  "id": [
+                    -510246894,
+                    -974372697,
+                    -1324757754,
+                    -2046207321
+                  ],
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTIyNzYzMDkzNzc0NjkzYjI2MzkyNzhhMWMyYzY5OGFkMTFkYjQ5Mjg5NmU5YmYxNjcxNGQ4NTdlOThjYTFkZCJ9fX0="
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Infusion Circle"
+                }
+              ],
+              "target": "item_name"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "color": "gray",
+                  "italic": false,
+                  "text": "Space Required:"
+                },
+                {
+                  "color": "dark_gray",
+                  "italic": false,
+                  "text": "x9,y5,z11"
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "color": "gray",
+                  "italic": false,
+                  "text": "When Placed:"
+                },
+                {
+                  "color": "blue",
+                  "italic": false,
+                  "text": "Generates a structure"
+                }
+              ],
+              "mode": "append"
             }
           ]
-        },
-        {
-          "type": "minecraft:loot_table",
-          "weight": 2,
-          "quality": 1,
-          "name": "atrium:curiosity/archive_curiosity"
         },
         {
           "type": "minecraft:empty",
@@ -66,45 +188,17 @@
     },
     {
       "rolls": 1,
-      "bonus_rolls": 0,
-      "entries": [
-        {
-          "type": "minecraft:loot_table",
-          "weight": 1,
-          "name": "atrium:curiosity/archive_curiosity",
-          "conditions": [
-            {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "equipment": {
-                  "head": {
-                    "nbt": "{atrium_curiosity_helmet:1b}"
-                  }
-                }
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:empty",
-          "weight": 3
-        }
-      ]
-    },
-    {
-      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:loot_table",
           "weight": 100,
-          "name": "atrium:quests/ancient_city_quest_rewards",
+          "value": "atrium:quests/ancient_city_quest_rewards",
           "conditions": [
             {
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "nbt": "{Inventory:[{tag:{atrium_ancient_city_quest_map:1b}}]}"
+                "nbt": "{Inventory:[{components:{\"minecraft:custom_data\":{atrium_ancient_city_quest_map:1b}}}]}"
               }
             }
           ]
@@ -120,7 +214,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "atrium:chests/base/ancient_city"
+          "value": "atrium:chests/base/ancient_city"
         }
       ]
     }

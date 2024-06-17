@@ -10,7 +10,7 @@
           "conditions": [
             {
               "condition": "minecraft:entity_properties",
-              "entity": "direct_killer",
+              "entity": "direct_attacker",
               "predicate": {
                 "type": "minecraft:wolf"
               }
@@ -20,20 +20,35 @@
           "name": "minecraft:player_head",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{atrium_elder_guardian_trophy:1b,SkullOwner:{Id:[I;-2099301300,637488734,-1188482528,1503333],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTkyMDg5NjE4NDM1YTBlZjYzZTk1ZWU5NWE5MmI4MzA3M2Y4YzMzZmE3N2RjNTM2NTE5OWJhZDMzYjYyNTYifX19\"}]}}}"
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "atrium_trophy": 1,
+                  "atrium_trophy_type": "elder_guardian"
+                },
+                "minecraft:profile": {
+                  "id": [
+                    -2099301300,
+                    637488734,
+                    -1188482528,
+                    1503333
+                  ],
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTkyMDg5NjE4NDM1YTBlZjYzZTk1ZWU5NWE5MmI4MzA3M2Y4YzMzZmE3N2RjNTM2NTE5OWJhZDMzYjYyNTYifX19"
+                    }
+                  ]
+                },
+                "minecraft:rarity": "epic"
+              }
             },
             {
               "function": "set_name",
+              "target": "item_name",
               "name": [
                 {
-                  "text": "Hunting Trophy",
-                  "color": "dark_purple",
-                  "italic": false
+                  "text": "Hunting Trophy"
                 }
               ]
             },
@@ -42,10 +57,11 @@
               "lore": [
                 {
                   "text": "Elder Guardian",
-                  "color": "white",
+                  "color": "dark_aqua",
                   "italic": false
                 }
-              ]
+              ],
+              "mode": "append"
             }
           ]
         }
@@ -57,13 +73,13 @@
         {
           "type": "minecraft:loot_table",
           "weight": 100,
-          "name": "atrium:quests/monument_quest_rewards",
+          "value": "atrium:quests/monument_quest_rewards",
           "conditions": [
             {
               "condition": "minecraft:entity_properties",
-              "entity": "killer",
+              "entity": "attacker",
               "predicate": {
-                "nbt": "{Inventory:[{tag:{atrium_monument_quest_map:1b}}]}"
+                "nbt": "{Inventory:[{components:{\"minecraft:custom_data\":{atrium_monument_quest_map:1b}}]}"
               }
             }
           ]
@@ -79,7 +95,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "atrium:entities/base/elder_guardian"
+          "value": "atrium:entities/base/elder_guardian"
         }
       ]
     }

@@ -66,10 +66,8 @@
           "type": "item",
           "conditions": [
             {
-              "condition": "minecraft:match_tool",
-              "predicate": {
-                "nbt": "{atrium_shard_touch_enchanted:1b}"
-              }
+              "condition": "minecraft:reference",
+              "name": "atrium:player/inventory/enchantments/holding_shard_touch_enchanted"
             }
           ],
           "weight": 100,
@@ -89,10 +87,8 @@
           "type": "item",
           "conditions": [
             {
-              "condition": "minecraft:match_tool",
-              "predicate": {
-                "nbt": "{atrium_shard_touch_enchanted:1b}"
-              }
+              "condition": "minecraft:reference",
+              "name": "atrium:player/inventory/enchantments/holding_shard_touch_enchanted"
             }
           ],
           "weight": 15,
@@ -100,20 +96,11 @@
           "name": "minecraft:red_dye",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{atrium_pure_redstone:1b,CustomModelData:333084}"
-            },
-            {
               "function": "set_name",
+              "target": "item_name",
               "name": [
                 {
-                  "text": "Pure Redstone",
-                  "color": "dark_red",
-                  "italic": false
+                  "text": "Pure Redstone"
                 }
               ]
             },
@@ -135,7 +122,17 @@
                 {
                   "text": "could you do with this?"
                 }
-              ]
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "atrium_pure_redstone": 1
+                },
+                "minecraft:custom_model_data": 333084
+              }
             }
           ]
         }

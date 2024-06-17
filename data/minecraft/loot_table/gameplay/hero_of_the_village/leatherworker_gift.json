@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "atrium:gameplay/hero_of_the_village/leatherworker_gift",
+          "value": "atrium:gameplay/hero_of_the_village/leatherworker_gift",
           "conditions": [
             {
               "condition": "minecraft:inverted",
@@ -23,7 +23,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "name": "atrium:gameplay/hero_of_the_village/specialist_alchemist_gift",
+          "value": "atrium:gameplay/hero_of_the_village/specialist_alchemist_gift",
           "conditions": [
             {
               "condition": "minecraft:entity_properties",

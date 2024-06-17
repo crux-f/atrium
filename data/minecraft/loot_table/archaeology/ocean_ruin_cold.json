@@ -6,12 +6,7 @@
           {
             "weight": 100,
             "type": "minecraft:loot_table",
-            "name": "atrium:archaeology/base/ocean_ruin_cold"
-          },
-          {
-            "type": "minecraft:loot_table",
-            "weight": 8,
-            "name": "atrium:patreon/blessing_of_taraq_sol"
+            "value": "atrium:archaeology/base/ocean_ruin_cold"
           },
           {
             "type": "item",
@@ -26,15 +21,20 @@
                 "skip_existing_chunks": true
               },
               {
-                "function": "set_nbt",
-                "tag": "{atrium_doctrine_map:1b,atrium_monument_quest_map:1b}"
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "atrium_doctrine_map": 1,
+                    "atrium_monument_quest_map": 1
+                  }
+                }
               },
               {
                 "function": "set_name",
+                "target": "item_name",
                 "name": [
                   {
-                    "text": "Quest Map",
-                    "italic": true
+                    "text": "Quest Map"
                   }
                 ]
               },
@@ -64,7 +64,8 @@
                     "color": "gray",
                     "italic": false
                   }
-                ]
+                ],
+                "mode": "append"
               }
             ]
           }  

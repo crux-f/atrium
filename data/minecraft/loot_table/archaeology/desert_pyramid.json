@@ -35,11 +35,6 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:emerald"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "weight": 1,
-          "name": "atrium:patreon/blessing_of_taraq_sol"
         }
       ],
       "rolls": 1.0

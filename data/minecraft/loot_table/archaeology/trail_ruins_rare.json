@@ -51,10 +51,6 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:music_disc_relic"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "atrium:patreon/blessing_of_taraq_sol"
         }
       ],
       "rolls": 1.0

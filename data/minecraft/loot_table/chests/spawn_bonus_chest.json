@@ -5,7 +5,7 @@
         "entries": [
             {
                 "type": "loot_table",
-                "name": "atrium:starting_equipment"
+                "value": "atrium:starting_equipment"
             }
         ]
       },
@@ -14,7 +14,7 @@
         "entries": [
           {
             "type": "minecraft:loot_table",
-            "name": "atrium:chests/base/spawn_bonus_chest"
+            "value": "atrium:chests/base/spawn_bonus_chest"
           }
         ]
       }

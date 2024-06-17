@@ -8,7 +8,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "atrium:formulas/alchemy_recipes_1"
+          "value": "atrium:formulas/alchemy_research_common"
         },
         {
           "type": "minecraft:empty",
@@ -18,36 +18,142 @@
     },
     {
       "rolls": {
-        "min": 1,
-        "max": 2
+        "min": 0,
+        "max": 1
       },
       "bonus_rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
+          "type": "item",
           "weight": 10,
           "name": "minecraft:player_head",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Holy Symbol\",\"color\":\"yellow\",\"italic\":false}',Lore:['[{\"text\":\"Nox, \",\"color\":\"red\",\"italic\":false},{\"text\":\"Think You\\'re Clever?\",\"obfuscated\":true}]']},atrium_nox_symbol:1b,SkullOwner:{Id:[I;-1538063860,-1358017242,-1429658611,-1863382418],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTExM2E4OTcxYTMzM2M4NzE4NWJhNWNhMmVhMmM1ODEwOTM1ZGJlYjA3NTA5ZjA1M2M5MDJlMmEyYmRmMmE3NiJ9fX0=\"}]}}}"
+              "function": "set_components",
+              "components": {
+                "minecraft:rarity": "uncommon",
+                "minecraft:custom_data": {
+                  "atrium_nox_symbol": 1
+                },
+                "minecraft:profile": {
+                  "id": [
+                    -1538063860,
+                    -1358017242,
+                    -1429658611,
+                    -1863382418
+                  ],
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTExM2E4OTcxYTMzM2M4NzE4NWJhNWNhMmVhMmM1ODEwOTM1ZGJlYjA3NTA5ZjA1M2M5MDJlMmEyYmRmMmE3NiJ9fX0="
+                    }
+                  ]
+                },
+                "minecraft:note_block_sound": "atrium:favor.nox"
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Holy Symbol"
+                }
+              ],
+              "target": "item_name"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                [
+                  {
+                    "color": "red",
+                    "italic": false,
+                    "text": "Nox, "
+                  },
+                  {
+                    "color": "red",
+                    "italic": false,
+                    "obfuscated": true,
+                    "text": "[But it was lost]"
+                  }
+                ]
+              ],
+              "mode": "append"
             }
           ]
         },
         {
-          "type": "minecraft:item",
-          "weight": 5,
+          "type": "item",
+          "weight": 4,
+          "quality": 1,
           "name": "minecraft:player_head",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Alchemy Cauldron\",\"color\":\"light_purple\",\"italic\":false}',Lore:['{\"text\":\"Space Required:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"x5,y6,z8\",\"color\":\"dark_gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"When Placed:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"Generates a structure \",\"color\":\"blue\",\"italic\":false}']},alchemy_cauldron_placer:1b,SkullOwner:{Id:[I;-1085889659,1085099926,-1904448482,-822335963],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmZiNzA3NjhjZDMwNGQwZTQ5MzMyMGU0MjRiY2I2MTE2OTcyN2NmNjQ4YzBkNGRkZTRkZTg0ZWYyZmFjOWVlZSJ9fX0=\"}]}}}"
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "alchemy_cauldron_placer": 1
+                },
+                "minecraft:profile": {
+                  "name": "",
+                  "id": [
+                    1085889659,
+                    1085099926,
+                    -1904448482,
+                    -822335963
+                  ],
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmZiNzA3NjhjZDMwNGQwZTQ5MzMyMGU0MjRiY2I2MTE2OTcyN2NmNjQ4YzBkNGRkZTRkZTg0ZWYyZmFjOWVlZSJ9fX0="
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Alchemy Cauldron"
+                }
+              ],
+              "target": "item_name"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "color": "gray",
+                  "italic": false,
+                  "text": "Space Required:"
+                },
+                {
+                  "color": "dark_gray",
+                  "italic": false,
+                  "text": "x5,y6,z8"
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "color": "gray",
+                  "italic": false,
+                  "text": "When Placed:"
+                },
+                {
+                  "color": "blue",
+                  "italic": false,
+                  "text": "Generates a structure"
+                }
+              ],
+              "mode": "append"
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "weight": 2,
+          "weight": 3,
           "quality": 2,
           "name": "minecraft:map",
           "functions": [
@@ -58,15 +164,32 @@
               "skip_existing_chunks": true
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Explorer Map\",\"italic\":false}',Lore:['{\"text\":\"Looks like a mining spot.\"}'],MapColor:16749576},atrium_crystal_geode_map:1b}"
+              "function": "set_name",
+              "target": "item_name",
+              "name": [
+                {
+                  "text": "Scorched Explorer Map"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Seems like it could be a mining spot...?"
+                }
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "atrium_geode_explorer_map": 1
+                }
+              }
             }
           ]
-        },
-        {
-          "type": "minecraft:loot_table",
-          "weight": 7,
-          "name": "atrium:curiosity/infernium_curiosity"
         },
         {
           "type": "minecraft:empty",
@@ -79,35 +202,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "atrium:chests/base/nether_bridge"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "bonus_rolls": 0,
-      "entries": [
-        {
-          "type": "minecraft:empty",
-          "weight": 2
-        },
-        {
-          "type": "minecraft:loot_table",
-          "weight": 1,
-          "name": "atrium:curiosity/infernium_curiosity",
-          "conditions": [
-            {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "equipment": {
-                  "head": {
-                    "nbt": "{atrium_curiosity_helmet:1b}"
-                  }
-                }
-              }
-            }
-          ]
+          "value": "atrium:chests/base/nether_bridge"
         }
       ]
     }

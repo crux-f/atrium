@@ -20,15 +20,11 @@
               "skip_existing_chunks": true
             },
             {
-              "function": "set_nbt",
-              "tag": "{atrium_delvers_map:1b,atrium_mineshaft_quest_map:1b}"
-            },
-            {
               "function": "set_name",
+              "target": "item_name",
               "name": [
                 {
-                  "text": "Quest Map",
-                  "italic": true
+                  "text": "Quest Map"
                 }
               ]
             },
@@ -61,14 +57,23 @@
                   "color": "gray",
                   "italic": false
                 }
-              ]
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "atrium_mineshaft_quest_map": 1
+                }
+              }
             }
           ]
         },
         {
           "type": "loot_table",
           "weight": 2,
-          "name": "atrium:formulas/alchemy_recipes_1"
+          "value": "atrium:formulas/alchemy_research_common"
         },
         {
           "type": "minecraft:empty",
@@ -81,7 +86,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "atrium:chests/base/ruined_portal"
+          "value": "atrium:chests/base/ruined_portal"
         }
       ]
     }

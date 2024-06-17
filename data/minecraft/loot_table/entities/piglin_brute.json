@@ -15,7 +15,7 @@
           "conditions": [
             {
               "condition": "minecraft:entity_properties",
-              "entity": "direct_killer",
+              "entity": "direct_attacker",
               "predicate": {
                 "type": "minecraft:wolf"
               }
@@ -25,20 +25,35 @@
           "name": "minecraft:player_head",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{atrium_piglin_brute_trophy:1b,SkullOwner:{Id:[I;-1495583819,509627582,-1550874603,2046378806],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2UzMDBlOTAyNzM0OWM0OTA3NDk3NDM4YmFjMjllM2E0Yzg3YTg0OGM1MGIzNGMyMTI0MjcyN2I1N2Y0ZTFjZiJ9fX0=\"}]}}}"
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "atrium_trophy": 1,
+                  "atrium_trophy_type": "piglin_brute"
+                },
+                "minecraft:profile": {
+                  "id": [
+                    -1495583819,
+                    509627582,
+                    -1550874603,
+                    2046378806
+                  ],
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2UzMDBlOTAyNzM0OWM0OTA3NDk3NDM4YmFjMjllM2E0Yzg3YTg0OGM1MGIzNGMyMTI0MjcyN2I1N2Y0ZTFjZiJ9fX0="
+                    }
+                  ]
+                },
+                "minecraft:rarity": "epic"
+              }
             },
             {
               "function": "set_name",
+              "target": "item_name",
               "name": [
                 {
-                  "text": "Hunting Trophy",
-                  "color": "dark_purple",
-                  "italic": false
+                  "text": "Hunting Trophy"
                 }
               ]
             },
@@ -50,7 +65,8 @@
                   "color": "dark_red",
                   "italic": false
                 }
-              ]
+              ],
+              "mode": "append"
             }
           ]
         }

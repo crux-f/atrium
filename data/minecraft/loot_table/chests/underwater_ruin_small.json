@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "atrium:chests/structure_misc/abyss_underwater_ruin_small",
+          "value": "atrium:chests/structure_misc/abyss_underwater_ruin_small",
           "conditions": [
             {
               "condition": "minecraft:location_check",
@@ -17,7 +17,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "name": "atrium:chests/structure_misc/overworld_underwater_ruin_small",
+          "value": "atrium:chests/structure_misc/overworld_underwater_ruin_small",
           "conditions": [
             {
               "condition": "minecraft:location_check",

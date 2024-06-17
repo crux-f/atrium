@@ -53,11 +53,6 @@
           "type": "minecraft:item",
           "name": "minecraft:gold_nugget",
           "weight": 4
-        },
-        {
-          "type": "minecraft:loot_table",
-          "weight": 1,
-          "name": "atrium:patreon/blessing_of_taraq_sol"
         }
       ],
       "rolls": 1.0

@@ -15,7 +15,7 @@
           "conditions": [
             {
               "condition": "minecraft:entity_properties",
-              "entity": "direct_killer",
+              "entity": "direct_attacker",
               "predicate": {
                 "type": "minecraft:wolf"
               }
@@ -25,16 +25,23 @@
           "name": "minecraft:player_head",
           "functions": [
             {
-              "function": "set_nbt",
-              "tag": "{atrium_blaze_trophy:1b,SkullOwner:\"MHF_Blaze\"}"
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "atrium_trophy": 1,
+                  "atrium_trophy_type": "blaze"
+                },
+                "minecraft:profile": {
+                  "name": "MHF_Blaze"
+                }
+              }
             },
             {
               "function": "set_name",
+              "target": "item_name",
               "name": [
                 {
-                  "text": "Hunting Trophy",
-                  "color": "aqua",
-                  "italic": false
+                  "text": "Hunting Trophy"
                 }
               ]
             },
@@ -46,26 +53,49 @@
                   "color": "gold",
                   "italic": false
                 }
-              ]
+              ],
+              "mode": "append"
             }
           ]
         },
-        {
-          "type": "item",
-          "weight": 5,
-          "quality": 5,
-          "name": "minecraft:blaze_rod",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Charged Blaze Rod\",\"italic\":false}',Lore:['{\"text\":\"It radiates more heat\"}','{\"text\":\"than the others.\"}']},CustomModelData:333068,atrium_charged_blaze_rod:1b}"
-            }
-          ]
-        }
+				{
+					"type": "item",
+					"weight": 5,
+					"quality": 5,
+					"name": "minecraft:blaze_rod",
+					"functions": [
+					  {
+						"function": "set_components",
+						"components": {
+						  "minecraft:custom_model_data": 333068,
+						  "minecraft:custom_data": {
+							"atrium_charged_blaze_rod": 1
+						  }
+						}
+					  },
+					  {
+						"function": "set_name",
+						"name": [
+						  {
+							"text": "Charged Blaze Rod"
+						  }
+						],
+						"target": "item_name"
+					  },
+					  {
+						"function": "set_lore",
+						"lore": [
+						  {
+							"text": "It radiates more heat"
+						  },
+						  {
+							"text": "than the others."
+						  }
+						],
+						"mode": "append"
+					  }
+					]
+				  }
       ]
     },
     {
@@ -73,7 +103,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "atrium:entities/base/blaze"
+          "value": "atrium:entities/base/blaze"
         }
       ]
     }

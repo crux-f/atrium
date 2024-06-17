@@ -44,10 +44,8 @@
           "type": "item",
           "conditions": [
             {
-              "condition": "minecraft:match_tool",
-              "predicate": {
-                "nbt": "{atrium_shard_touch_enchanted:1b}"
-              }
+              "condition": "minecraft:reference",
+              "name": "atrium:player/inventory/enchantments/holding_shard_touch_enchanted"
             },
             {
               "condition": "minecraft:entity_properties",
@@ -63,20 +61,12 @@
           "name": "minecraft:purple_stained_glass",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{HideFlags:1,atrium_crystal:1,atrium_blooming_crystal:1b,Enchantments:[{id:\"minecraft:channeling\",lvl:1s}]}"
-            },
-            {
               "function": "set_name",
+              "target": "item_name",
               "name": [
                 {
                   "text": "Blooming Crystal",
-                  "color": "light_purple",
-                  "italic": false
+                  "color": "light_purple"
                 }
               ]
             },
@@ -95,7 +85,17 @@
                 {
                   "text": "into strange shapes nearby."
                 }
-              ]
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "atrium_blooming_crystal": 1,
+                  "atrium_crystal": 1
+                }
+              }
             }
           ]
         }

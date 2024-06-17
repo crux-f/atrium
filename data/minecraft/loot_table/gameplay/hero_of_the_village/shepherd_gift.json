@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "atrium:gameplay/hero_of_the_village/shepherd_gift",
+          "value": "atrium:gameplay/hero_of_the_village/shepherd_gift",
           "conditions": [
             {
               "condition": "minecraft:inverted",
@@ -23,7 +23,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "name": "atrium:gameplay/hero_of_the_village/specialist_artist_gift",
+          "value": "atrium:gameplay/hero_of_the_village/specialist_artist_gift",
           "conditions": [
             {
               "condition": "minecraft:entity_properties",

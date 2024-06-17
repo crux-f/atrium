@@ -15,7 +15,7 @@
           "conditions": [
             {
               "condition": "minecraft:entity_properties",
-              "entity": "direct_killer",
+              "entity": "direct_attacker",
               "predicate": {
                 "type": "minecraft:wolf"
               }
@@ -25,20 +25,22 @@
           "name": "minecraft:player_head",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{atrium_magma_cube_trophy:1b,SkullOwner:\"MHF_LavaSlime\"}"
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "atrium_trophy": 1,
+                  "atrium_trophy_type": "magma_cube"
+                },
+                "minecraft:profile": {
+                  "name": "MHF_LavaSlime"
+                }
+              }
             },
             {
               "function": "set_name",
               "name": [
                 {
-                  "text": "Hunting Trophy",
-                  "color": "aqua",
-                  "italic": false
+                  "text": "Hunting Trophy"
                 }
               ]
             },
@@ -50,7 +52,8 @@
                   "color": "dark_red",
                   "italic": false
                 }
-              ]
+              ],
+              "mode": "append"
             }
           ]
         }
@@ -61,7 +64,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "atrium:entities/base/magma_cube"
+          "value": "atrium:entities/base/magma_cube"
         }
       ]
     }

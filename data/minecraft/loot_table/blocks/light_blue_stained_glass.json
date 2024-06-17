@@ -44,10 +44,8 @@
           "type": "item",
           "conditions": [
             {
-              "condition": "minecraft:match_tool",
-              "predicate": {
-                "nbt": "{atrium_shard_touch_enchanted:1b}"
-              }
+              "condition": "minecraft:reference",
+              "name": "atrium:player/inventory/enchantments/holding_shard_touch_enchanted"
             },
             {
               "condition": "minecraft:entity_properties",
@@ -63,20 +61,12 @@
           "name": "minecraft:light_blue_stained_glass",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{atrium_crystal:1,atrium_fading_crystal:1b}"
-            },
-            {
               "function": "set_name",
+              "target": "item_name",
               "name": [
                 {
                   "text": "Fading Crystal",
-                  "color": "dark_aqua",
-                  "italic": false
+                  "color": "dark_aqua"
                 }
               ]
             },
@@ -92,7 +82,17 @@
                 {
                   "text": "in there, though."
                 }
-              ]
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "atrium_fading_crystal": 1,
+                  "atrium_crystal": 1
+                }
+              }
             }
           ]
         }

@@ -9,12 +9,53 @@
         {
           "type": "item",
           "weight": 15,
-          "quality": 0,
+          "quality": -2,
           "name": "minecraft:potion",
           "functions": [
             {
-              "function": "set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Grungy Greg\\'s Ralcoholic Rum\",\"color\":\"red\",\"italic\":false}',Lore:['{\"text\":\"Gotta get your\"}','{\"text\":\"vitamin R.\"}']},atrium_grungy_greg_item:1b,atrium_grungy_gregs_ralcoholic_rum:1b,custom_potion_effects:[{id:\"minecraft:nausea\",amplifier:0b,duration:200,show_particles:1b},{id:\"minecraft:saturation\",amplifier:1b,duration:400,show_particles:0b}],CustomPotionColor:5520154}"
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "atrium_grungy_greg_drink": 1,
+                  "atrium_greg_drink_type": "ralcoholic_rum"
+                },
+                "minecraft:potion_contents": {
+                  "custom_color": 5520154,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:nausea",
+                      "amplifier": 0,
+                      "duration": 200
+                    },
+                    {
+                      "id": "minecraft:slowness",
+                      "amplifier": 1,
+                      "duration": 400
+                    }
+                  ]
+                },
+                "minecraft:custom_model_data": 333165
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Grungy Greg's Ralcoholic Rum"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Gotta get your"
+                },
+                {
+                  "text": "vitamin R."
+                }
+              ],
+              "mode": "append"
             }
           ]
         },
@@ -25,32 +66,38 @@
           "name": "minecraft:spyglass",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{atrium_curiosity:1b,atrium_shorefinder_spyglass:1b,AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.1,Operation:1,UUID:[I;-2001919824,2075151071,-1653696267,-1191293749],Slot:\"mainhand\"}]}"
+              "function": "set_components",
+              "components": {
+                "minecraft:rarity": "uncommon",
+                "minecraft:custom_data": {
+                  "atrium_shorefinder_spyglass": 1
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "id": "atrium:shorefinder_spyglass_movement_speed",
+                    "type": "generic.movement_speed",
+                    "amount": 0.1,
+                    "operation": "add_multiplied_base",
+                    "slot": "mainhand"
+                  },
+                  {
+                    "id": "atrium:shorefinder_spyglass_water_movement_efficiency",
+                    "type": "generic.water_movement_efficiency",
+                    "amount": 0.33,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  }
+                ]
+              }
             },
             {
               "function": "set_name",
               "name": [
                 {
-                  "text": "Shorefinder Spyglass",
-                  "color": "blue",
-                  "italic": false
+                  "text": "Shorefinder Spyglass"
                 }
-              ]
-            },
-            {
-              "function": "set_lore",
-              "lore": [
-                {
-                  "text": "Curiosity",
-                  "color": "aqua",
-                  "italic": false
-                }
-              ]
+              ],
+              "target": "item_name"
             }
           ]
         },
@@ -65,7 +112,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "atrium:chests/base/buried_treasure"
+          "value": "atrium:chests/base/buried_treasure"
         }
       ]
     }

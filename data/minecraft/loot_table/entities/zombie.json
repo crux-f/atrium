@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "empty",
-          "weight": 30,
+          "weight": 20,
           "quality": -5
         },
         {
@@ -15,7 +15,7 @@
           "conditions": [
             {
               "condition": "minecraft:entity_properties",
-              "entity": "direct_killer",
+              "entity": "direct_attacker",
               "predicate": {
                 "type": "minecraft:wolf"
               }
@@ -25,16 +25,20 @@
           "name": "minecraft:zombie_head",
           "functions": [
             {
-              "function": "set_nbt",
-              "tag": "{atrium_zombie_trophy:1b}"
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "atrium_trophy": 1,
+                  "atrium_trophy_type": "zombie"
+                }
+              }
             },
             {
               "function": "set_name",
+              "target": "item_name",
               "name": [
                 {
-                  "text": "Hunting Trophy",
-                  "color": "yellow",
-                  "italic": false
+                  "text": "Hunting Trophy"
                 }
               ]
             },
@@ -46,7 +50,8 @@
                   "color": "dark_green",
                   "italic": false
                 }
-              ]
+              ],
+              "mode": "append"
             }
           ]
         }
@@ -57,7 +62,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "atrium:entities/base/zombie"
+          "value": "atrium:entities/base/zombie"
         }
       ]
     }

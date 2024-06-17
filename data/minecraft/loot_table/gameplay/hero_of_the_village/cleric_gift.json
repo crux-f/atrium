@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "atrium:gameplay/hero_of_the_village/cleric_gift",
+          "value": "atrium:gameplay/hero_of_the_village/cleric_gift",
           "conditions": [
             {
               "condition": "minecraft:inverted",
@@ -23,7 +23,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "name": "atrium:gameplay/hero_of_the_village/specialist_alienist_gift",
+          "value": "atrium:gameplay/hero_of_the_village/specialist_alienist_gift",
           "conditions": [
             {
               "condition": "minecraft:entity_properties",

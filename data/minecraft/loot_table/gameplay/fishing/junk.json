@@ -134,17 +134,22 @@
           "name": "minecraft:sugar",
           "functions": [
             {
-              "function": "set_nbt",
-              "tag": "{CustomModelData:333080,atrium_sea_salt:1b}"
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_model_data": 333080,
+                "minecraft:custom_data": {
+                  "atrium_sea_salt": 1
+                }
+              }
             },
             {
               "function": "set_name",
               "name": [
                 {
-                  "text": "Sea Salt",
-                  "italic": false
+                  "text": "Sea Salt"
                 }
-              ]
+              ],
+              "target": "item_name"
             }
           ]
         }

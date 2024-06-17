@@ -12,24 +12,36 @@
         },
         {
           "type": "item",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "direct_attacker",
+              "predicate": {
+                "type": "minecraft:wolf"
+              }
+            }
+          ],
           "weight": 5,
           "name": "minecraft:player_head",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{atrium_cave_spider_trophy:1b,SkullOwner:\"MHF_CaveSpider\"}"
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "atrium_trophy": 1,
+                  "atrium_trophy_type": "cave_spider"
+                },
+                "minecraft:profile": {
+                  "name": "MHF_CaveSpider"
+                }
+              }
             },
             {
               "function": "set_name",
+              "target": "item_name",
               "name": [
                 {
-                  "text": "Hunting Trophy",
-                  "color": "aqua",
-                  "italic": false
+                  "text": "Hunting Trophy"
                 }
               ]
             },
@@ -41,16 +53,8 @@
                   "color": "dark_blue",
                   "italic": false
                 }
-              ]
-            }
-          ],
-          "conditions": [
-            {
-              "condition": "minecraft:entity_properties",
-              "entity": "direct_killer",
-              "predicate": {
-                "type": "minecraft:wolf"
-              }
+              ],
+              "mode": "append"
             }
           ]
         }
@@ -61,7 +65,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "atrium:entities/base/cave_spider"
+          "value": "atrium:entities/base/cave_spider"
         }
       ]
     }

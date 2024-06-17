@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "atrium:gameplay/hero_of_the_village/mason_gift",
+          "value": "atrium:gameplay/hero_of_the_village/mason_gift",
           "conditions": [
             {
               "condition": "minecraft:inverted",
@@ -23,7 +23,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "name": "atrium:gameplay/hero_of_the_village/specialist_architect_gift",
+          "value": "atrium:gameplay/hero_of_the_village/specialist_architect_gift",
           "conditions": [
             {
               "condition": "minecraft:entity_properties",
