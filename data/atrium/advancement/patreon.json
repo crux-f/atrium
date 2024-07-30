@@ -9,7 +9,7 @@
             "text": "Join the Patreon; Thank you so much!"
         },
         "icon": {
-            "id": "minecraft:stick",
+            "id": "minecraft:orange_candle",
             "components": {
               "minecraft:custom_model_data": 333003
             }
