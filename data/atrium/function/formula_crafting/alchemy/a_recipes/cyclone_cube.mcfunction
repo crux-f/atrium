@@ -19,7 +19,7 @@ execute if predicate atrium:weather/is_storming run scoreboard players add @s va
 execute unless predicate atrium:weather/is_storming run tellraw @p[distance=..5,gamemode=!spectator] {"text":"(This ritual requires a storm.)","italic":true,"color":"gray"}
 #
 # If the ritual succeeds, do a theatrical lightning strike (above the area so it doesn't hurt anyone)
-execute if entity @s[scores={valid_ingredients=4..}] at @s run summon lightning_bolt ~ ~10 ~ 
+execute if entity @s[scores={valid_ingredients=4..}] at @s run summon lightning_bolt ~ ~10 ~
 execute if entity @s[scores={valid_ingredients=4..}] at @s run summon item ~ ~1 ~ {Motion:[0.0,0.02,0.0],NoGravity:1b,Glowing:1b,Item:{id:"minecraft:white_stained_glass",components:{"minecraft:item_name":'{"text":"Cyclone Cube"}',"minecraft:lore":['{"text":"Muted howling emits"}','{"text":"from the intense winds"}','{"text":"trapped within."}'],"minecraft:custom_data":{atrium_cyclone_cube:1b},"minecraft:enchantment_glint_override":true}}}
 execute if entity @s[scores={valid_ingredients=4..}] at @s run function atrium:formula_crafting/alchemy/alchemy_reset
 execute if entity @s[scores={valid_ingredients=4..}] at @s positioned ~ ~ ~-2 run advancement grant @p[distance=..5,gamemode=!spectator] only atrium:magic/secret_ingredient
