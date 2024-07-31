@@ -1,7 +1,7 @@
 # Enchantment particles
 execute at @s anchored eyes positioned ^ ^ ^2 at @e[limit=1,nbt=!{HurtTime:0s},distance=..4,sort=nearest] run particle minecraft:enchanted_hit ~ ~1 ~ 0.1 0.1 0.1 0.5 15
 # Sculk Particles
-execute at @s anchored eyes positioned ^ ^ ^2 at @e[limit=1,nbt=!{HurtTime:0s},distance=..4,sort=nearest] run particle minecraft:sculk_charge 0 ~ ~1 ~ 0.25 0.5 0.25 0 10
+execute at @s anchored eyes positioned ^ ^ ^2 at @e[limit=1,nbt=!{HurtTime:0s},distance=..4,sort=nearest] run particle minecraft:sculk_charge{roll:0} ~ ~1 ~ 0.25 0.5 0.25 0 10
 # Extra damage.
 execute at @s anchored eyes positioned ^ ^ ^2 at @e[limit=1,nbt=!{HurtTime:0s},distance=..4,sort=nearest] run damage @e[limit=1,nbt=!{HurtTime:0s},sort=nearest] 8 atrium:extra_weapon_damage by @s
 #

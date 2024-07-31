@@ -6,7 +6,7 @@
 playsound minecraft:entity.elder_guardian.curse hostile @a[distance=..15] ~ ~ ~ 1 0.5 0.5
 # Particles
 particle minecraft:bubble_column_up ~ ~1.25 ~ 0.1 0.1 0.1 1 75
-particle minecraft:dust_color_transition 0.161 0.525 1.000 1 0.047 0.055 0.278 ~ ~1 ~ 0.5 0.5 0.5 0.2 50 normal
+particle dust_color_transition{from_color:[0.161,0.525,1.000],scale:1,to_color:[0.047,0.055,0.278]} ~ ~ ~ 0.5 0.5 0.5 0.2 50 normal
 #
 # Start repeat script
 schedule function atrium:entities/mob_spells/eternal_silence_repeat 1s

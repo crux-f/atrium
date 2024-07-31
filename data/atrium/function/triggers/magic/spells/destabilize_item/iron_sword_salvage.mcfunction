@@ -3,6 +3,6 @@ execute at @s run summon item ~ ~ ~ {Item:{id:"minecraft:iron_ingot",count:2}}
 execute at @s run summon item ~ ~ ~ {Item:{id:"minecraft:stick",count:1}}
 #
 # Particles!
-execute at @s run particle item iron_sword ~ ~ ~ 0 0 0 0.01 3 normal
+execute at @s run particle item{item:"minecraft:iron_sword"} ~ ~ ~ 0 0 0 0.01 3 normal
 # SFX!
 execute at @s run playsound minecraft:item.shield.break neutral @a[distance=..5] ~ ~ ~ 0.65 1.5 0.1

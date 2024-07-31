@@ -1,5 +1,5 @@
 # Casting particles
-particle minecraft:block minecraft:mossy_cobblestone ~ ~ ~ 0.3 1.25 0.3 0.05 70
+particle minecraft:block{block_state:"minecraft:mossy_cobblestone"} ~ ~ ~ 0.3 1.25 0.3 0.05 70
 # Casting sfx
 execute unless entity @s[predicate=atrium:player/inventory/wearing_any_armor] run playsound minecraft:block.lodestone.place player @a[distance=..15] ~ ~ ~ 1 1.5 0.1
 # Failure to cast sfx

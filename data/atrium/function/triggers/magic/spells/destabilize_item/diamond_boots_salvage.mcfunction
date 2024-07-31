@@ -2,6 +2,6 @@
 execute at @s run summon item ~ ~ ~ {Item:{id:"minecraft:diamond",count:4}}
 #
 # Particles!
-execute at @s run particle item diamond_boots ~ ~ ~ 0 0 0 0.01 3 normal
+execute at @s run particle item{item:"minecraft:diamond_boots"} ~ ~ ~ 0 0 0 0.01 3 normal
 # SFX!
 execute at @s run playsound minecraft:item.shield.break neutral @a[distance=..5] ~ ~ ~ 0.65 1.5 0.1

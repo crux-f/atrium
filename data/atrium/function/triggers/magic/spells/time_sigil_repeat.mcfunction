@@ -5,10 +5,10 @@ execute at @e[tag=atrium_time_sigil_dummy] run particle end_rod ^ ^ ^0.5 0 0 0 0
 execute at @e[tag=atrium_time_sigil_dummy] run particle end_rod ^ ^ ^-0.5 0 0 0 0 1 normal
 execute as @e[tag=atrium_time_sigil_dummy] at @s run tp @s ~ ~ ~ ~-2 ~0
 # LEVEL 3 ONLY: Secondary particle ring that rotates the other direction
-execute at @e[tag=atrium_time_sigil_dummy_s] run particle falling_dust chiseled_quartz_block ^0.25 ^ ^ 0 0 0 0 1 normal
-execute at @e[tag=atrium_time_sigil_dummy_s] run particle falling_dust chiseled_quartz_block ^-0.25 ^ ^ 0 0 0 0 1 normal
-execute at @e[tag=atrium_time_sigil_dummy_s] run particle falling_dust chiseled_quartz_block ^ ^ ^0.25 0 0 0 0 1 normal
-execute at @e[tag=atrium_time_sigil_dummy_s] run particle falling_dust chiseled_quartz_block ^ ^ ^-0.25 0 0 0 0 1 normal
+execute at @e[tag=atrium_time_sigil_dummy_s] run particle falling_dust{block_state:"chiseled_quartz_block"} ^0.25 ^ ^ 0 0 0 0 1 normal
+execute at @e[tag=atrium_time_sigil_dummy_s] run particle falling_dust{block_state:"chiseled_quartz_block"} ^-0.25 ^ ^ 0 0 0 0 1 normal
+execute at @e[tag=atrium_time_sigil_dummy_s] run particle falling_dust{block_state:"chiseled_quartz_block"} ^ ^ ^0.25 0 0 0 0 1 normal
+execute at @e[tag=atrium_time_sigil_dummy_s] run particle falling_dust{block_state:"chiseled_quartz_block"} ^ ^ ^-0.25 0 0 0 0 1 normal
 execute at @e[tag=atrium_time_sigil_dummy_s] run particle end_rod ^2.75 ^ ^ 0 0 0 0 1 normal
 execute at @e[tag=atrium_time_sigil_dummy_s] run particle end_rod ^-2.75 ^ ^ 0 0 0 0 1 normal
 execute at @e[tag=atrium_time_sigil_dummy_s] run particle end_rod ^ ^ ^2.75 0 0 0 0 1 normal
