@@ -7,8 +7,6 @@
       "entries": [
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:bread",
           "functions": [
             {
@@ -22,32 +20,19 @@
               "function": "set_name",
               "name": [
                 {
-                  "text": "Rations",
-                  "italic": "false"
+                  "text": "Rations"
                 }
-              ]
+              ],
+              "target": "item_name"
             }
           ]
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
-          "name": "minecraft:leather_boots",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 3
-              }
-            }
-          ]
+          "name": "minecraft:leather_boots"
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:oak_boat",
           "functions": [
             {
@@ -61,8 +46,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:saddle",
           "functions": [
             {
@@ -76,8 +59,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:firework_rocket",
           "functions": [
             {
@@ -88,30 +69,66 @@
               }
             },
             {
-              "function": "set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Flare\",\"italic\":false}',Lore:['{\"text\":\"For signaling (or causing)\"}','{\"text\":\"emergencies.\"}']},HideFlags:32,flare:1b,Fireworks:{Flight:2b,Explosions:[{Type:4,Flicker:1b,Colors:[I;16711680],FadeColors:[I;16728338,16748800,16770560]}]}}"
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "weight": 1,
-          "quality": 0,
-          "name": "minecraft:map",
-          "functions": [
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Flare"
+                }
+              ],
+              "target": "item_name"
+            },
             {
-              "function": "set_count",
-              "count": {
-                "min": 4,
-                "max": 12
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "For signaling (or causing)"
+                },
+                {
+                  "text": "emergencies."
+                }
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:fireworks": {
+                  "flight_duration": 2,
+                  "explosions": [
+                    {
+                      "shape": "burst",
+                      "has_flicker": true,
+                      "colors": [
+                        16711680
+                      ],
+                      "fade_colors": [
+                        16728338,
+                        16748800,
+                        16770560
+                      ]
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {}
               }
             }
           ]
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
+          "name": "minecraft:map",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
           "name": "minecraft:paper",
           "functions": [
             {
@@ -125,8 +142,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:potion",
           "functions": [
             {
@@ -137,8 +152,25 @@
               }
             },
             {
-              "function": "set_nbt",
-              "tag": "{Potion:\"minecraft:swiftness\"}"
+              "function": "minecraft:set_potion",
+              "id": "minecraft:swiftness"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            },
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:leaping"
             }
           ]
         },
@@ -156,27 +188,8 @@
               }
             },
             {
-              "function": "set_nbt",
-              "tag": "{Potion:\"minecraft:leaping\"}"
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "weight": 1,
-          "quality": 0,
-          "name": "minecraft:potion",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 3
-              }
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{Potion:\"minecraft:slow_falling\"}"
+              "function": "minecraft:set_potion",
+              "id": "minecraft:slow_falling"
             }
           ]
         }

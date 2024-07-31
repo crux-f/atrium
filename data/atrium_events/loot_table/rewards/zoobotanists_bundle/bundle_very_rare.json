@@ -7,8 +7,6 @@
       "entries": [
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:cow_spawn_egg",
           "functions": [
             {
@@ -22,8 +20,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:pig_spawn_egg",
           "functions": [
             {
@@ -37,8 +33,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:horse_spawn_egg",
           "functions": [
             {
@@ -47,17 +41,11 @@
                 "min": 1,
                 "max": 2
               }
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{EntityTag:{ArmorItem:{}}}"
             }
           ]
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:sheep_spawn_egg",
           "functions": [
             {
@@ -71,8 +59,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:chicken_spawn_egg",
           "functions": [
             {
@@ -86,8 +72,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:cat_spawn_egg",
           "functions": [
             {
@@ -101,8 +85,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:wolf_spawn_egg",
           "functions": [
             {
@@ -116,8 +98,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:parrot_spawn_egg",
           "functions": [
             {
@@ -131,8 +111,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:bat_spawn_egg",
           "functions": [
             {
@@ -146,8 +124,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:goat_spawn_egg",
           "functions": [
             {
@@ -161,8 +137,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:donkey_spawn_egg",
           "functions": [
             {
@@ -176,8 +150,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:fox_spawn_egg",
           "functions": [
             {
@@ -191,8 +163,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:llama_spawn_egg",
           "functions": [
             {
@@ -201,17 +171,11 @@
                 "min": 1,
                 "max": 2
               }
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{EntityTag:{DecorItem:{id:\"minecraft:-1\",Count:1b}}}"
             }
           ]
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:rabbit_spawn_egg",
           "functions": [
             {
@@ -225,8 +189,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:squid_spawn_egg",
           "functions": [
             {
@@ -240,8 +202,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:turtle_egg",
           "functions": [
             {
@@ -255,8 +215,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:tube_coral",
           "functions": [
             {
@@ -270,8 +228,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:brain_coral",
           "functions": [
             {
@@ -285,8 +241,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:bubble_coral",
           "functions": [
             {
@@ -300,8 +254,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:fire_coral",
           "functions": [
             {
@@ -315,8 +267,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:horn_coral",
           "functions": [
             {
@@ -330,8 +280,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:tube_coral_fan",
           "functions": [
             {
@@ -345,8 +293,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:brain_coral_fan",
           "functions": [
             {
@@ -360,8 +306,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:bubble_coral_fan",
           "functions": [
             {
@@ -375,8 +319,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:fire_coral_fan",
           "functions": [
             {
@@ -390,8 +332,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:horn_coral_fan",
           "functions": [
             {

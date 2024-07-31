@@ -7,8 +7,6 @@
       "entries": [
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:spyglass",
           "functions": [
             {
@@ -22,8 +20,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:compass",
           "functions": [
             {
@@ -37,8 +33,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:item_frame",
           "functions": [
             {
@@ -52,33 +46,25 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:leather_boots",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:depth_strider\",lvl:1s}]}"
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:depth_strider": 1
+              }
             }
           ]
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:leather_boots",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:feather_falling\",lvl:1s}]}"
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:feather_falling": 1
+              }
             }
           ]
         },
@@ -96,8 +82,8 @@
               }
             },
             {
-              "function": "set_nbt",
-              "tag": "{Potion:\"minecraft:strong_swiftness\"}"
+              "function": "minecraft:set_potion",
+              "id": "minecraft:strong_swiftness"
             }
           ]
         },
@@ -115,8 +101,8 @@
               }
             },
             {
-              "function": "set_nbt",
-              "tag": "{Potion:\"minecraft:fire_resistance\"}"
+              "function": "minecraft:set_potion",
+              "id": "minecraft:fire_resistance"
             }
           ]
         },
@@ -134,8 +120,8 @@
               }
             },
             {
-              "function": "set_nbt",
-              "tag": "{Potion:\"minecraft:water_breathing\"}"
+              "function": "minecraft:set_potion",
+              "id": "minecraft:water_breathing"
             }
           ]
         },
@@ -153,8 +139,8 @@
               }
             },
             {
-              "function": "set_nbt",
-              "tag": "{Potion:\"minecraft:night_vision\"}"
+              "function": "minecraft:set_potion",
+              "id": "minecraft:night_vision"
             }
           ]
         },
@@ -172,8 +158,8 @@
               }
             },
             {
-              "function": "set_nbt",
-              "tag": "{Potion:\"minecraft:long_leaping\"}"
+              "function": "minecraft:set_potion",
+              "id": "minecraft:long_leaping"
             }
           ]
         },
@@ -191,8 +177,8 @@
               }
             },
             {
-              "function": "set_nbt",
-              "tag": "{Potion:\"minecraft:long_slow_falling\"}"
+              "function": "minecraft:set_potion",
+              "id": "minecraft:long_slow_falling"
             }
           ]
         }

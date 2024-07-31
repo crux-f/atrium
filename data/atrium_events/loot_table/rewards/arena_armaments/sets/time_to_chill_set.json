@@ -7,26 +7,44 @@
       "entries": [
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:leather_helmet",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{display:{color:4712447},HideFlags:64,RepairCost:99,Enchantments:[{id:\"minecraft:protection\",lvl:1s},{id:\"minecraft:fire_protection\",lvl:1s},{id:\"minecraft:unbreaking\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:2,Operation:0,UUID:[I;1785582509,-746437774,-1140169987,-1582763900],Slot:\"head\"}]}"
+              "function": "set_components",
+              "components": {
+                "minecraft:repair_cost": 99,
+                "minecraft:custom_data": {
+                  "atrium_time_to_chill_set": 1
+                },
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:fire_protection": 2,
+                    "minecraft:unbreaking": 1
+                  }
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "id": "atrium:frosted_hood_armor",
+                    "type": "generic.armor",
+                    "amount": 2,
+                    "operation": "add_value",
+                    "slot": "head"
+                  }
+                ],
+                "minecraft:dyed_color": {
+                  "rgb": 4712447,
+                  "show_in_tooltip": false
+                }
+              }
             },
             {
               "function": "set_name",
               "name": [
                 {
-                  "text": "Frosted Hood",
-                  "italic": "false"
+                  "text": "Frosted Hood"
                 }
-              ]
+              ],
+              "target": "item_name"
             },
             {
               "function": "set_lore",
@@ -34,7 +52,7 @@
                 {
                   "text": "Unrepairable",
                   "color": "dark_gray",
-                  "italic": "false"
+                  "italic": false
                 },
                 {
                   "text": " "
@@ -45,7 +63,8 @@
                 {
                   "text": "to ward off the cold."
                 }
-              ]
+              ],
+              "mode": "append"
             }
           ]
         }
@@ -57,26 +76,51 @@
       "entries": [
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:leather_chestplate",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{display:{color:6057215},HideFlags:64,RepairCost:99,Enchantments:[{id:\"minecraft:protection\",lvl:1s},{id:\"minecraft:fire_protection\",lvl:1s},{id:\"minecraft:unbreaking\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:4,Operation:0,UUID:[I;-636463385,-905687468,-1430671484,1432375385],Slot:\"chest\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:1,Operation:0,UUID:[I;-1801320948,1001279119,-1391007671,694777140],Slot:\"chest\"}]}"
+              "function": "set_components",
+              "components": {
+                "minecraft:repair_cost": 99,
+                "minecraft:custom_data": {
+                  "atrium_time_to_chill_set": 1
+                },
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:protection": 1,
+                    "minecraft:unbreaking": 1
+                  }
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "id": "atrium:tundramancers_robes_armor",
+                    "type": "generic.armor",
+                    "amount": 4,
+                    "operation": "add_value",
+                    "slot": "chest"
+                  },
+                  {
+                    "id": "atrium:tundramancers_robes_armor_toughness",
+                    "type": "generic.armor_toughness",
+                    "amount": 1,
+                    "operation": "add_value",
+                    "slot": "chest"
+                  }
+                ],
+                "minecraft:dyed_color": {
+                  "rgb": 6057215,
+                  "show_in_tooltip": false
+                }
+              }
             },
             {
               "function": "set_name",
               "name": [
                 {
-                  "text": "Tundramancer's Robes",
-                  "italic": "false"
+                  "text": "Tundramancer's Robes"
                 }
-              ]
+              ],
+              "target": "item_name"
             },
             {
               "function": "set_lore",
@@ -84,7 +128,7 @@
                 {
                   "text": "Unrepairable",
                   "color": "dark_gray",
-                  "italic": "false"
+                  "italic": false
                 },
                 {
                   "text": " "
@@ -101,7 +145,8 @@
                 {
                   "text": "warm inside."
                 }
-              ]
+              ],
+              "mode": "append"
             }
           ]
         }
@@ -113,26 +158,51 @@
       "entries": [
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:leather_boots",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{display:{color:6057215},HideFlags:64,RepairCost:99,Enchantments:[{id:\"minecraft:protection\",lvl:1s},{id:\"minecraft:frost_walker\",lvl:1s},{id:\"minecraft:unbreaking\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.10,Operation:1,UUID:[I;619062711,1262765599,-1728336872,626651265],Slot:\"feet\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:1,Operation:0,UUID:[I;-1350856188,-931901473,-1697166908,1889218708],Slot:\"feet\"}]}"
+              "function": "set_components",
+              "components": {
+                "minecraft:repair_cost": 99,
+                "minecraft:custom_data": {
+                  "atrium_time_to_chill_set": 1
+                },
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:protection": 1,
+                    "minecraft:frost_walker": 1
+                  }
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "id": "atrium:shimmering_snow_shoes_armor",
+                    "type": "generic.armor",
+                    "amount": 1,
+                    "operation": "add_value",
+                    "slot": "feet"
+                  },
+                  {
+                    "id": "atrium:shimmering_snow_shoes_movement_speed",
+                    "type": "generic.armor",
+                    "amount": 0.1,
+                    "operation": "add_multiplied_base",
+                    "slot": "feet"
+                  }
+                ],
+                "minecraft:dyed_color": {
+                  "rgb": 6057215,
+                  "show_in_tooltip": false
+                }
+              }
             },
             {
               "function": "set_name",
               "name": [
                 {
-                  "text": "Shimmering Snow Shoes",
-                  "italic": "false"
+                  "text": "Shimmering Snow Shoes"
                 }
-              ]
+              ],
+              "target": "item_name"
             },
             {
               "function": "set_lore",
@@ -140,7 +210,7 @@
                 {
                   "text": "Unrepairable",
                   "color": "dark_gray",
-                  "italic": "false"
+                  "italic": false
                 },
                 {
                   "text": " "
@@ -148,7 +218,8 @@
                 {
                   "text": "Both cozy and fashionable!"
                 }
-              ]
+              ],
+              "mode": "append"
             }
           ]
         }
@@ -160,17 +231,66 @@
       "entries": [
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
-          "name": "minecraft:trident",
+          "name": "minecraft:diamond_hoe",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_model_data": 333063,
+                "minecraft:custom_data": {
+                  "atrium_staff": 1,
+                  "atrium_staff_lv": 1,
+                  "atrium_water_staff": 1,
+                  "atrium_chargeable": 1
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "id": "atrium:staff_attack_damage",
+                    "type": "generic.attack_damage",
+                    "amount": 2,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  }
+                ]
+              }
             },
             {
-              "function": "set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Staff of Water\",\"color\":\"blue\",\"italic\":false}',Lore:['{\"text\":\"Mending\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"Nourishment I\",\"color\":\"#FFBFBF\",\"italic\":false}','{\"text\":\"Extinguish I\",\"color\":\"#FFF29E\",\"italic\":false}','{\"keybind\":\"\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"When in Off Hand:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"+1 Casting Power\",\"color\":\"blue\",\"italic\":false}']},HideFlags:1,RepairCost:99,waterstaff:1b,staff:1b,lv1:1b,Enchantments:[{id:\"minecraft:riptide\",lvl:3s},{id:\"minecraft:mending\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:2,Operation:0,UUID:[I;-398377370,-1777316415,-1450025143,-577324410],Slot:\"mainhand\"}]}"
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Staff of Water"
+                }
+              ],
+              "target": "item_name"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "color": "gray",
+                  "italic": false,
+                  "text": "◇ Water Sigil I"
+                },
+                {
+                  "color": "gray",
+                  "italic": false,
+                  "text": "◇ Extinguish I"
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "color": "gray",
+                  "italic": false,
+                  "text": "When in Off Hand:"
+                },
+                {
+                  "color": "blue",
+                  "italic": false,
+                  "text": "+1 Casting Power"
+                }
+              ],
+              "mode": "append"
             }
           ]
         }
@@ -182,63 +302,35 @@
       "entries": [
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
-          "name": "minecraft:glowstone_dust",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 64
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "weight": 1,
-          "quality": 0,
-          "name": "minecraft:redstone",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 64
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "bonus_rolls": 0,
-      "entries": [
-        {
-          "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:splash_potion",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{Potion:\"minecraft:long_slowness\"}"
+              "function": "set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:long_turtle_master"
+                }
+              }
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:splash_potion",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{Potion:\"minecraft:long_turtle_master\"}"
+              "function": "set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:long_slowness"
+                }
+              }
             }
           ]
         }

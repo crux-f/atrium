@@ -7,17 +7,25 @@
       "entries": [
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:leather_boots",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:frost_walker": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:leather_boots",
+          "functions": [
             {
-              "function": "set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:frost_walker\",lvl:1s}]}"
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:depth_strider": 2
+              }
             }
           ]
         },
@@ -28,12 +36,10 @@
           "name": "minecraft:leather_boots",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:depth_strider\",lvl:2s}]}"
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:feather_falling": 2
+              }
             }
           ]
         },
@@ -44,67 +50,85 @@
           "name": "minecraft:leather_boots",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:feather_falling\",lvl:2s}]}"
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:soul_speed": 2
+              }
             }
           ]
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:leather_boots",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "atrium_running_boots": 1
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "id": "atrium:running_boots_armor",
+                    "type": "generic.armor",
+                    "amount": 2,
+                    "operation": "add_value",
+                    "slot": "feet"
+                  },
+                  {
+                    "id": "atrium:running_boots_movement_speed",
+                    "type": "generic.armor",
+                    "amount": 0.08,
+                    "operation": "add_multiplied_base",
+                    "slot": "feet"
+                  }
+                ],
+                "minecraft:dyed_color": {
+                  "rgb": 4746041,
+                  "show_in_tooltip": false
+                }
+              }
             },
             {
-              "function": "set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:soul_speed\",lvl:1s}]}"
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Running Boots"
+                }
+              ],
+              "target": "item_name"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "The heel is spongy."
+                },
+                {
+                  "text": "Good for putting a"
+                },
+                {
+                  "text": "spring in your step."
+                }
+              ],
+              "mode": "append"
             }
           ]
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
-          "name": "minecraft:leather_boots",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-                "function": "set_nbt",
-                "tag": "{display:{Name:'{\"text\":\"Running Boots\",\"color\":\"yellow\",\"italic\":false}',Lore:['{\"text\":\"The heel is spongy.\"}','{\"text\":\"Good for putting a\"}','{\"text\":\"spring in your step.\"}'],color:4746041},HideFlags:64,AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:2,Operation:0,UUID:[I;-1187617483,-410759481,-1239344797,1924761483],Slot:\"feet\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.08,Operation:1,UUID:[I;1468506834,1162691852,-1296349607,105410707],Slot:\"feet\"}]}"
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:turtle_helmet",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:respiration\",lvl:1s}]}"
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:respiration": 1
+              }
             }
           ]
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:potion",
           "functions": [
             {
@@ -115,15 +139,13 @@
               }
             },
             {
-              "function": "set_nbt",
-              "tag": "{Potion:\"minecraft:strong_leaping\"}"
+              "function": "minecraft:set_potion",
+              "id": "minecraft:strong_leaping"
             }
           ]
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:potion",
           "functions": [
             {
@@ -134,15 +156,13 @@
               }
             },
             {
-              "function": "set_nbt",
-              "tag": "{Potion:\"minecraft:long_fire_resistance\"}"
+              "function": "minecraft:set_potion",
+              "id": "minecraft:long_fire_resistance"
             }
           ]
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:potion",
           "functions": [
             {
@@ -153,15 +173,13 @@
               }
             },
             {
-              "function": "set_nbt",
-              "tag": "{Potion:\"minecraft:long_water_breathing\"}"
+              "function": "minecraft:set_potion",
+              "id": "minecraft:long_water_breathing"
             }
           ]
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:potion",
           "functions": [
             {
@@ -172,8 +190,8 @@
               }
             },
             {
-              "function": "set_nbt",
-              "tag": "{Potion:\"minecraft:long_night_vision\"}"
+              "function": "minecraft:set_potion",
+              "id": "minecraft:long_night_vision"
             }
           ]
         }

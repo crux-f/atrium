@@ -12,12 +12,8 @@
           "name": "minecraft:potion",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{Potion:\"minecraft:invisibility\"}"
+              "function": "minecraft:set_potion",
+              "id": "minecraft:invisibility"
             }
           ]
         },
@@ -28,12 +24,8 @@
           "name": "minecraft:potion",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{Potion:\"minecraft:strength\"}"
+              "function": "minecraft:set_potion",
+              "id": "minecraft:strength"
             }
           ]
         },
@@ -44,12 +36,8 @@
           "name": "minecraft:potion",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{Potion:\"minecraft:healing\"}"
+              "function": "minecraft:set_potion",
+              "id": "minecraft:healing"
             }
           ]
         },
@@ -60,12 +48,8 @@
           "name": "minecraft:potion",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{Potion:\"minecraft:swiftness\"}"
+              "function": "minecraft:set_potion",
+              "id": "minecraft:swiftness"
             }
           ]
         },
@@ -76,12 +60,8 @@
           "name": "minecraft:potion",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{Potion:\"minecraft:regeneration\"}"
+              "function": "minecraft:set_potion",
+              "id": "minecraft:regeneration"
             }
           ]
         },
@@ -99,8 +79,8 @@
               }
             },
             {
-              "function": "set_nbt",
-              "tag": "{Potion:\"minecraft:strength\"}"
+              "function": "minecraft:set_potion",
+              "id": "minecraft:strength"
             }
           ]
         },
@@ -118,8 +98,8 @@
               }
             },
             {
-              "function": "set_nbt",
-              "tag": "{Potion:\"minecraft:slow_falling\"}"
+              "function": "minecraft:set_potion",
+              "id": "minecraft:slow_falling"
             }
           ]
         },
@@ -137,8 +117,8 @@
               }
             },
             {
-              "function": "set_nbt",
-              "tag": "{Potion:\"minecraft:leaping\"}"
+              "function": "minecraft:set_potion",
+              "id": "minecraft:leaping"
             }
           ]
         },
@@ -156,8 +136,8 @@
               }
             },
             {
-              "function": "set_nbt",
-              "tag": "{Potion:\"minecraft:swiftness\"}"
+              "function": "minecraft:set_potion",
+              "id": "minecraft:swiftness"
             }
           ]
         },

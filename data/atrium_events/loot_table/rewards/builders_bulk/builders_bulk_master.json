@@ -9,19 +9,19 @@
           "type": "loot_table",
           "weight": 67,
           "quality": 0,
-          "name": "atrium_events:rewards/builders_bulk/bulk_common"
+          "value": "atrium_events:rewards/builders_bulk/bulk_common"
         },
         {
           "type": "loot_table",
           "weight": 32,
           "quality": 2,
-          "name": "atrium_events:rewards/builders_bulk/bulk_uncommon"
+          "value": "atrium_events:rewards/builders_bulk/bulk_uncommon"
         },
         {
           "type": "loot_table",
           "weight": 1,
           "quality": 4,
-          "name": "atrium_events:rewards/builders_bulk/bulk_rare"
+          "value": "atrium_events:rewards/builders_bulk/bulk_rare"
         }
       ]
     }

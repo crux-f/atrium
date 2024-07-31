@@ -12,12 +12,10 @@
           "name": "minecraft:leather_boots",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:frost_walker\",lvl:2s}]}"
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:frost_walker": 1
+              }
             }
           ]
         },
@@ -28,12 +26,10 @@
           "name": "minecraft:leather_boots",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:depth_strider\",lvl:3s}]}"
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:depth_strider": 3
+              }
             }
           ]
         },
@@ -44,12 +40,10 @@
           "name": "minecraft:leather_boots",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:feather_falling\",lvl:3s}]}"
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:feather_falling": 3
+              }
             }
           ]
         },
@@ -60,12 +54,10 @@
           "name": "minecraft:leather_boots",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:soul_speed\",lvl:2s}]}"
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:soul_speed": 2
+              }
             }
           ]
         },
@@ -76,53 +68,54 @@
           "name": "minecraft:turtle_helmet",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:respiration\",lvl:2s}]}"
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:respiration": 2
+              }
             }
           ]
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
-          "name": "minecraft:iron_boots",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-                "function": "set_nbt",
-                "tag": "{display:{Name:'{\"text\":\"Marching Boots\",\"color\":\"yellow\",\"italic\":false}',Lore:['{\"text\":\"These boots... are\"}','{\"text\":\"made for marching.\"}','{\"text\":\"Long distances, it seems.\"}']},AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:1,Operation:0,UUID:[I;437743368,1593590952,-2128028122,-1684670975],Slot:\"feet\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:1,Operation:0,UUID:[I;-354596613,103433757,-2022150248,-303074266],Slot:\"feet\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.08,Operation:1,UUID:[I;-1835155834,-1028897954,-1413860152,-263678042],Slot:\"feet\"}]}"
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:clock",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.05,Operation:1,UUID:[I;-288269848,-2108733957,-1080693698,-1682397558],Slot:\"offhand\"}]}"
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "atrium_pocketwatch_of_timeliness": 1
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "id": "atrium:pocketwatch_of_timeliness_speed",
+                    "type": "generic.movement_speed",
+                    "amount": 0.08,
+                    "operation": "add_multiplied_base",
+                    "slot": "offhand"
+                  }
+                ]
+              }
             },
             {
               "function": "set_name",
               "name": [
                 {
-                  "text": "Traveller's Timepiece",
-                  "italic": "false"
+                  "text": "Pocketwatch of Timeliness"
                 }
-              ]
+              ],
+              "target": "item_name"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "You feel like you"
+                },
+                {
+                  "text": "remember this might happen."
+                }
+              ],
+              "mode": "append"
             }
           ]
         },
@@ -140,8 +133,8 @@
               }
             },
             {
-              "function": "set_nbt",
-              "tag": "{Potion:\"minecraft:luck\"}"
+              "function": "minecraft:set_potion",
+              "id": "minecraft:luck"
             }
           ]
         }

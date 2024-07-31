@@ -11,7 +11,7 @@
         {
           "type": "loot_table",
           "weight": 1,
-          "name": "minecraft:chests/village/village_armorer",
+          "value": "minecraft:chests/village/village_armorer",
           "functions": [
             {
               "function": "set_count",
@@ -22,7 +22,7 @@
         {
           "type": "loot_table",
           "weight": 1,
-          "name": "minecraft:chests/village/village_butcher",
+          "value": "minecraft:chests/village/village_butcher",
           "functions": [
             {
               "function": "set_count",
@@ -33,7 +33,7 @@
         {
           "type": "loot_table",
           "weight": 1,
-          "name": "minecraft:chests/village/village_cartographer",
+          "value": "minecraft:chests/village/village_cartographer",
           "functions": [
             {
               "function": "set_count",
@@ -44,7 +44,7 @@
         {
           "type": "loot_table",
           "weight": 10,
-          "name": "minecraft:chests/village/village_fisher",
+          "value": "minecraft:chests/village/village_fisher",
           "functions": [
             {
               "function": "set_count",
@@ -55,7 +55,7 @@
         {
           "type": "loot_table",
           "weight": 10,
-          "name": "minecraft:chests/village/village_fletcher",
+          "value": "minecraft:chests/village/village_fletcher",
           "functions": [
             {
               "function": "set_count",
@@ -66,7 +66,7 @@
         {
           "type": "loot_table",
           "weight": 10,
-          "name": "minecraft:chests/village/village_mason",
+          "value": "minecraft:chests/village/village_mason",
           "functions": [
             {
               "function": "set_count",
@@ -77,7 +77,7 @@
         {
           "type": "loot_table",
           "weight": 10,
-          "name": "minecraft:chests/village/village_shepherd",
+          "value": "minecraft:chests/village/village_shepherd",
           "functions": [
             {
               "function": "set_count",
@@ -88,7 +88,7 @@
         {
           "type": "loot_table",
           "weight": 10,
-          "name": "minecraft:chests/village/village_tannery",
+          "value": "minecraft:chests/village/village_tannery",
           "functions": [
             {
               "function": "set_count",
@@ -99,7 +99,7 @@
         {
           "type": "loot_table",
           "weight": 10,
-          "name": "minecraft:chests/village/village_temple",
+          "value": "minecraft:chests/village/village_temple",
           "functions": [
             {
               "function": "set_count",
@@ -110,7 +110,7 @@
         {
           "type": "loot_table",
           "weight": 10,
-          "name": "minecraft:chests/village/village_toolsmith",
+          "value": "minecraft:chests/village/village_toolsmith",
           "functions": [
             {
               "function": "set_count",
@@ -121,7 +121,7 @@
         {
           "type": "loot_table",
           "weight": 10,
-          "name": "minecraft:chests/village/village_weaponsmith",
+          "value": "minecraft:chests/village/village_weaponsmith",
           "functions": [
             {
               "function": "set_count",
@@ -141,7 +141,7 @@
         {
           "type": "item",
           "weight": 7,
-          "name": "minecraft:cod",
+          "value": "minecraft:cod",
           "functions": [
             {
               "function": "set_count",
@@ -152,10 +152,10 @@
             },
             {
               "function": "set_name",
-              "name": [
+              "value": [
                 {
                   "text": "Cat Treat",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             }
@@ -164,18 +164,12 @@
         {
           "type": "item",
           "weight": 5,
-          "name": "minecraft:golden_apple",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            }
-          ]
+          "value": "minecraft:golden_apple"
         },
         {
           "type": "item",
           "weight": 5,
-          "name": "minecraft:golden_carrot",
+          "value": "minecraft:golden_carrot",
           "functions": [
             {
               "function": "set_count",
@@ -189,98 +183,25 @@
         {
           "type": "item",
           "weight": 7,
-          "name": "minecraft:honeycomb",
+          "value": "minecraft:chipped_anvil",
           "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{HideFlags:1,badge_of_honor:1b,used:0b,Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}]}"
-            },
-            {
-              "function": "set_name",
-              "name": [
-                {
-                  "text": "Badge of Honor",
-                  "color": "gold",
-                  "italic": "false"
-                }
-              ]
-            },
-            {
-              "function": "set_lore",
-              "lore": [
-                [
-                  {
-                    "text": "Grants ",
-                    "color": "gray",
-                    "italic": "false"
-                  },
-                  {
-                    "text": "32 ❤ Reputation",
-                    "color": "blue"
-                  }
-                ],
-                {
-                  "text": "the first time it's picked up.",
-                  "color": "gray",
-                  "italic": "false"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "weight": 10,
-          "name": "minecraft:paper",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{HideFlags:1,library_card:1b,Enchantments:[{id:\"minecraft:loyalty\",lvl:1s}]}"
-            },
-            {
-              "function": "set_name",
-              "name": [
-                {
-                  "text": "Library Card",
-                  "italic": "false"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "weight": 7,
-          "name": "minecraft:chipped_anvil",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
             {
               "function": "set_lore",
               "lore": [
                 {
                   "text": "'Gently Used'",
                   "color": "gray",
-                  "italic": "false"
+                  "italic": false
                 }
-              ]
+              ],
+              "mode": "append"
             }
           ]
         },
         {
           "type": "item",
           "weight": 13,
-          "name": "minecraft:emerald",
+          "value": "minecraft:emerald",
           "functions": [
             {
               "function": "set_count",
@@ -300,25 +221,23 @@
         {
           "type": "item",
           "weight": 5,
-          "name": "minecraft:golden_axe",
+          "value": "minecraft:golden_axe",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:efficiency\",lvl:3s},{id:\"minecraft:unbreaking\",lvl:6s}]}"
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:efficiency": 3,
+                "minecraft:unbreaking": 6
+              }
             },
             {
               "function": "set_name",
-              "name": [
+              "value": [
                 {
-                  "text": "Lumberjack's Prize",
-                  "color": "green",
-                  "italic": "false"
+                  "text": "Lumberjack's Prize"
                 }
-              ]
+              ],
+              "target": "item_name"
             },
             {
               "function": "set_lore",
@@ -326,22 +245,22 @@
                 {
                   "text": "It seems almost decorative."
                 }
-              ]
+              ],
+              "mode": "append"
             }
           ]
         },
         {
           "type": "item",
           "weight": 5,
-          "name": "minecraft:fishing_rod",
+          "value": "minecraft:fishing_rod",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{ol_reliable:1b,Enchantments:[{id:\"minecraft:lure\",lvl:3s},{id:\"minecraft:mending\",lvl:1s}]}"
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:lure": 3,
+                "minecraft:mending": 1
+              }
             },
             {
               "function": "set_damage",
@@ -352,13 +271,12 @@
             },
             {
               "function": "set_name",
-              "name": [
+              "value": [
                 {
-                  "text": "Ol' Reliable",
-                  "color": "dark_purple",
-                  "italic": "false"
+                  "text": "Ol' Reliable"
                 }
-              ]
+              ],
+              "target": "custom_name"
             },
             {
               "function": "set_lore",
@@ -366,32 +284,26 @@
                 {
                   "text": "\"She's never let me down.\""
                 }
-              ]
+              ],
+              "mode": "append"
             }
           ]
         },
         {
           "type": "item",
           "weight": 5,
-          "name": "minecraft:wooden_hoe",
+          "value": "minecraft:wooden_hoe",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{tenders_crook:1b,Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s},{id:\"minecraft:fortune\",lvl:2s},{id:\"minecraft:mending\",lvl:1s}]}"
-            },
-            {
               "function": "set_name",
-              "name": [
+              "value": [
                 {
                   "text": "Tender's Crook",
                   "color": "dark_green",
-                  "italic": "false"
+                  "italic": false
                 }
-              ]
+              ],
+              "mode": "append"
             },
             {
               "function": "set_lore",
@@ -405,23 +317,24 @@
                 {
                   "text": "cares for them."
                 }
-              ]
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:fortune": 2,
+                "minecraft:unbreaking": 1,
+                "minecraft:mending": 1
+              }
             }
           ]
         },
         {
           "type": "item",
           "weight": 5,
-          "name": "minecraft:iron_pickaxe",
+          "value": "minecraft:iron_pickaxe",
           "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{archologists_pick:1b,Enchantments:[{id:\"minecraft:silk_touch\",lvl:1s},{id:\"minecraft:unbreaking\",lvl:3s}]}"
-            },
             {
               "function": "set_damage",
               "damage": {
@@ -431,13 +344,12 @@
             },
             {
               "function": "set_name",
-              "name": [
+              "value": [
                 {
-                  "text": "Archeologist's Pick",
-                  "color": "blue",
-                  "italic": "false"
+                  "text": "Archeologist's Pick"
                 }
-              ]
+              ],
+              "target": "item_name"
             },
             {
               "function": "set_lore",
@@ -460,23 +372,23 @@
                 {
                   "text": "as possible."
                 }
-              ]
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:unbreaking": 3,
+                "minecraft:silk_touch": 1
+              }
             }
           ]
         },
         {
           "type": "item",
           "weight": 5,
-          "name": "minecraft:stone_shovel",
+          "value": "minecraft:stone_shovel",
           "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{pathmaker:1b,Enchantments:[{id:\"minecraft:efficiency\",lvl:4s},{id:\"minecraft:unbreaking\",lvl:6s}]}"
-            },
             {
               "function": "set_damage",
               "damage": {
@@ -486,13 +398,12 @@
             },
             {
               "function": "set_name",
-              "name": [
+              "value": [
                 {
-                  "text": "Pathmaker",
-                  "color": "dark_gray",
-                  "italic": "false"
+                  "text": "Pathmaker"
                 }
-              ]
+              ],
+              "target": "custom_name"
             },
             {
               "function": "set_lore",
@@ -509,39 +420,31 @@
                 {
                   "text": "had a positive effect on it."
                 }
-              ]
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:efficiency": 4,
+                "minecraft:unbreaking": 6
+              }
             }
           ]
         },
         {
           "type": "item",
           "weight": 5,
-          "name": "minecraft:diamond_sword",
+          "value": "minecraft:diamond_sword",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{raider_slayer_enchant:1b,lv3:1b,heros_blade:1b,Enchantments:[{id:\"minecraft:smite\",lvl:2s},{id:\"minecraft:unbreaking\",lvl:3s}]}"
-            },
-            {
-              "function": "set_damage",
-              "damage": {
-                "min": 0.95,
-                "max": 0.9
-              }
-            },
-            {
               "function": "set_name",
-              "name": [
+              "value": [
                 {
-                  "text": "Hero's Blade",
-                  "color": "yellow",
-                  "italic": "false"
+                  "text": "Hero's Blade"
                 }
-              ]
+              ],
+              "target": "item_name"
             },
             {
               "function": "set_lore",
@@ -549,7 +452,7 @@
                 {
                   "text": "Raider Slayer III",
                   "color": "gray",
-                  "italic": "false"
+                  "italic": false
                 },
                 {
                   "text": " "
@@ -563,7 +466,32 @@
                 {
                   "text": "Villager, now returned."
                 }
-              ]
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:smite": 2,
+                "minecraft:unbreaking": 3
+              }
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "atrium_custom_enchantment": 1,
+                  "atrium_raider_slayer_enchanted": 1,
+                  "atrium_raider_slayer_lv": 3
+                }
+              }
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0.95,
+                "max": 0.9
+              }
             }
           ]
         }

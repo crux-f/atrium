@@ -9,7 +9,7 @@
           "type": "loot_table",
           "weight": 1,
           "quality": 0,
-          "name": "atrium_events:rewards/arena_armaments/sets/ashsworn_knight_set"
+          "value": "atrium_events:rewards/arena_armaments/sets/ashsworn_knight_set"
         }
       ]
     }

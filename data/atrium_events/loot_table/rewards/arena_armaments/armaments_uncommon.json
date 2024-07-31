@@ -9,25 +9,25 @@
           "type": "loot_table",
           "weight": 1,
           "quality": 0,
-          "name": "atrium_events:rewards/arena_armaments/sets/im_a_marine_set"
+          "value": "atrium_events:rewards/arena_armaments/sets/im_a_marine_set"
         },
         {
           "type": "loot_table",
           "weight": 1,
           "quality": 0,
-          "name": "atrium_events:rewards/arena_armaments/sets/now_you_see_me_set"
+          "value": "atrium_events:rewards/arena_armaments/sets/now_you_see_me_set"
         },
         {
           "type": "loot_table",
           "weight": 1,
           "quality": 0,
-          "name": "atrium_events:rewards/arena_armaments/sets/time_to_chill_set"
+          "value": "atrium_events:rewards/arena_armaments/sets/time_to_chill_set"
         },
         {
           "type": "loot_table",
           "weight": 1,
           "quality": 0,
-          "name": "atrium_events:rewards/arena_armaments/sets/holiest_of_thou_set"
+          "value": "atrium_events:rewards/arena_armaments/sets/holiest_of_thou_set"
         }
       ]
     }

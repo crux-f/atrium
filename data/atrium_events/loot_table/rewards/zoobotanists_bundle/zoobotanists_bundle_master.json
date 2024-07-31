@@ -9,31 +9,31 @@
           "type": "loot_table",
           "weight": 50,
           "quality": 0,
-          "name": "atrium_events:rewards/zoobotanists_bundle/bundle_common"
+          "value": "atrium_events:rewards/zoobotanists_bundle/bundle_common"
         },
         {
           "type": "loot_table",
           "weight": 30,
           "quality": 2,
-          "name": "atrium_events:rewards/zoobotanists_bundle/bundle_uncommon"
+          "value": "atrium_events:rewards/zoobotanists_bundle/bundle_uncommon"
         },
         {
           "type": "loot_table",
           "weight": 15,
           "quality": 4,
-          "name": "atrium_events:rewards/zoobotanists_bundle/bundle_rare"
+          "value": "atrium_events:rewards/zoobotanists_bundle/bundle_rare"
         },
         {
           "type": "loot_table",
           "weight": 4,
           "quality": 6,
-          "name": "atrium_events:rewards/zoobotanists_bundle/bundle_very_rare"
+          "value": "atrium_events:rewards/zoobotanists_bundle/bundle_very_rare"
         },
         {
           "type": "loot_table",
           "weight": 1,
           "quality": 8,
-          "name": "atrium_events:rewards/zoobotanists_bundle/bundle_extremely_rare"
+          "value": "atrium_events:rewards/zoobotanists_bundle/bundle_extremely_rare"
         }
       ]
     }

@@ -7,38 +7,63 @@
       "entries": [
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:golden_helmet",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{RepairCost:99,Enchantments:[{id:\"minecraft:fire_protection\",lvl:3s},{id:\"minecraft:thorns\",lvl:1s},{id:\"minecraft:unbreaking\",lvl:3s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUID:[I;-246487650,1193887872,-1749663511,-790335038],Slot:\"head\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;-486423044,1816740956,-1789177773,-1345073242],Slot:\"head\"}]}"
+              "function": "set_components",
+              "components": {
+                "minecraft:rarity": "uncommon",
+                "minecraft:repair_cost": 99,
+                "minecraft:custom_data": {
+                  "atrium_ashsworn_set": 1
+                },
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:fire_protection": 3,
+                    "minecraft:unbreaking": 4
+                  }
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "id": "atrium:ashsworn_helm_armor",
+                    "type": "generic.armor",
+                    "amount": 3,
+                    "operation": "add_value",
+                    "slot": "head"
+                  },
+                  {
+                    "id": "atrium:ashsworn_helm_armor_toughness",
+                    "type": "generic.armor_toughness",
+                    "amount": 2,
+                    "operation": "add_value",
+                    "slot": "head"
+                  }
+                ],
+                "minecraft:trim": {
+                  "material": "minecraft:gold",
+                  "pattern": "minecraft:snout"
+                }
+              }
             },
             {
               "function": "set_name",
               "name": [
                 {
-                  "text": "Ashsworn Helm",
-                  "color": "gold",
-                  "italic": "false"
+                  "text": "Ashsworn Helm"
                 }
-              ]
+              ],
+              "target": "item_name"
             },
             {
               "function": "set_lore",
               "lore": [
                 {
                   "text": "Unrepairable",
-                  "color": "dark_gray",
-                  "italic": "false"
+                  "italic": false,
+                  "color": "dark_gray"
                 },
                 {
-                  "text": " "
+                  "text": ""
                 },
                 {
                   "text": "The symbol of Ghael is"
@@ -52,7 +77,8 @@
                 {
                   "text": "head like a halo."
                 }
-              ]
+              ],
+              "mode": "append"
             }
           ]
         }
@@ -64,49 +90,79 @@
       "entries": [
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:golden_chestplate",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{RepairCost:99,Enchantments:[{id:\"minecraft:fire_protection\",lvl:3s},{id:\"minecraft:thorns\",lvl:2s},{id:\"minecraft:unbreaking\",lvl:5s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:8,Operation:0,UUID:[I;-558230205,1042695390,-1139351076,1687787426],Slot:\"chest\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;2042677739,1159286173,-1150520561,1530730139],Slot:\"chest\"}]}"
+              "function": "set_components",
+              "components": {
+                "minecraft:rarity": "uncommon",
+                "minecraft:repair_cost": 99,
+                "minecraft:custom_data": {
+                  "atrium_ashsworn_set": 1
+                },
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:fire_protection": 3,
+                    "minecraft:thorns": 2,
+                    "minecraft:unbreaking": 4
+                  }
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "id": "atrium:ashsworn_platemail_armor",
+                    "type": "generic.armor",
+                    "amount": 8,
+                    "operation": "add_value",
+                    "slot": "chest"
+                  },
+                  {
+                    "id": "atrium:ashsworn_platemail_armor_toughness",
+                    "type": "generic.armor_toughness",
+                    "amount": 2,
+                    "operation": "add_value",
+                    "slot": "chest"
+                  }
+                ],
+                "minecraft:trim": {
+                  "material": "minecraft:gold",
+                  "pattern": "minecraft:snout"
+                }
+              }
             },
             {
               "function": "set_name",
               "name": [
                 {
-                  "text": "Ashsworn Platemail",
-                  "color": "gold",
-                  "italic": "false"
+                  "text": "Ashsworn Platemail"
                 }
-              ]
+              ],
+              "target": "item_name"
             },
             {
               "function": "set_lore",
               "lore": [
                 {
                   "text": "Unrepairable",
-                  "color": "dark_gray",
-                  "italic": "false"
+                  "italic": false,
+                  "color": "dark_gray"
                 },
                 {
-                  "text": " "
+                  "text": ""
                 },
                 {
                   "text": "Ornate platemail, made"
                 },
                 {
-                  "text": "to fit those who swear"
+                  "text": "to fit those who"
                 },
                 {
-                  "text": "the Oath of the Ashsworn."
+                  "text": "swear the Oath of the"
+                },
+                {
+                  "text": "Ashsworn."
                 }
-              ]
+              ],
+              "mode": "append"
             }
           ]
         }
@@ -118,38 +174,63 @@
       "entries": [
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:golden_leggings",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{RepairCost:99,Enchantments:[{id:\"minecraft:fire_protection\",lvl:3s},{id:\"minecraft:thorns\",lvl:1s},{id:\"minecraft:unbreaking\",lvl:3s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:7,Operation:0,UUID:[I;2093898336,205016539,-2141616012,-873666884],Slot:\"legs\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;1405451175,-1073328234,-1835209074,-2067546865],Slot:\"legs\"}]}"
+              "function": "set_components",
+              "components": {
+                "minecraft:rarity": "uncommon",
+                "minecraft:repair_cost": 99,
+                "minecraft:custom_data": {
+                  "atrium_ashsworn_set": 1
+                },
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:fire_protection": 3,
+                    "minecraft:unbreaking": 4
+                  }
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "id": "atrium:ashsworn_greaves_armor",
+                    "type": "generic.armor",
+                    "amount": 7,
+                    "operation": "add_value",
+                    "slot": "legs"
+                  },
+                  {
+                    "id": "atrium:ashsworn_greaves_armor_toughness",
+                    "type": "generic.armor_toughness",
+                    "amount": 2,
+                    "operation": "add_value",
+                    "slot": "legs"
+                  }
+                ],
+                "minecraft:trim": {
+                  "material": "minecraft:gold",
+                  "pattern": "minecraft:snout"
+                }
+              }
             },
             {
               "function": "set_name",
               "name": [
                 {
-                  "text": "Ashsworn Greaves",
-                  "color": "gold",
-                  "italic": "false"
+                  "text": "Ashsworn Greaves"
                 }
-              ]
+              ],
+              "target": "item_name"
             },
             {
               "function": "set_lore",
               "lore": [
                 {
                   "text": "Unrepairable",
-                  "color": "dark_gray",
-                  "italic": "false"
+                  "italic": false,
+                  "color": "dark_gray"
                 },
                 {
-                  "text": " "
+                  "text": ""
                 },
                 {
                   "text": "With armor this heavy,"
@@ -163,7 +244,8 @@
                 {
                   "text": "fight at all."
                 }
-              ]
+              ],
+              "mode": "append"
             }
           ]
         }
@@ -175,38 +257,69 @@
       "entries": [
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:golden_boots",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{RepairCost:99,Enchantments:[{id:\"minecraft:unbreaking\",lvl:3s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUID:[I;175902702,1444301369,-1849928234,-676597361],Slot:\"feet\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.25,Operation:0,UUID:[I;-124329827,-808759625,-1413554596,1216306125],Slot:\"feet\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:1,Operation:0,UUID:[I;923243285,-2045623956,-1259968994,-505643761],Slot:\"feet\"}]}"
+              "function": "set_components",
+              "components": {
+                "minecraft:rarity": "uncommon",
+                "minecraft:repair_cost": 99,
+                "minecraft:custom_data": {
+                  "atrium_ashsworn_set": 1
+                },
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:unbreaking": 4
+                  }
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "id": "atrium:ashsworn_boots_armor",
+                    "type": "generic.armor",
+                    "amount": 3,
+                    "operation": "add_value",
+                    "slot": "feet"
+                  },
+                  {
+                    "id": "atrium:ashsworn_boots_armor_toughness",
+                    "type": "generic.armor_toughness",
+                    "amount": 2,
+                    "operation": "add_value",
+                    "slot": "feet"
+                  },
+                  {
+                    "id": "atrium:ashsworn_boots_knockback_resistance",
+                    "type": "generic.knockback_resistance",
+                    "amount": 0.2,
+                    "operation": "add_value",
+                    "slot": "feet"
+                  }
+                ],
+                "minecraft:trim": {
+                  "material": "minecraft:gold",
+                  "pattern": "minecraft:snout"
+                }
+              }
             },
             {
               "function": "set_name",
               "name": [
                 {
-                  "text": "Ashsworn Boots",
-                  "color": "gold",
-                  "italic": "false"
+                  "text": "Ashsworn Boots"
                 }
-              ]
+              ],
+              "target": "item_name"
             },
             {
               "function": "set_lore",
               "lore": [
                 {
                   "text": "Unrepairable",
-                  "color": "dark_gray",
-                  "italic": "false"
+                  "italic": false,
+                  "color": "dark_gray"
                 },
                 {
-                  "text": " "
+                  "text": ""
                 },
                 {
                   "text": "They have spikes on the"
@@ -217,7 +330,8 @@
                 {
                   "text": "the basalt cliffs."
                 }
-              ]
+              ],
+              "mode": "append"
             }
           ]
         }
@@ -229,55 +343,101 @@
       "entries": [
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:golden_axe",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{RepairCost:99,Enchantments:[{id:\"minecraft:sharpness\",lvl:2s},{id:\"minecraft:smite\",lvl:4s},{id:\"minecraft:unbreaking\",lvl:5s}]}"
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_model_data": 333134,
+                "minecraft:rarity": "uncommon",
+                "minecraft:repair_cost": 99,
+                "minecraft:custom_data": {
+                  "atrium_battleaxe": 1,
+                  "atrium_golden_battleaxe": 1,
+                  "atrium_ashsworn_set": 1
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "atrium:battleaxe_attack_damage",
+                      "type": "generic.attack_damage",
+                      "amount": 7,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "atrium:battleaxe_attack_speed",
+                      "type": "generic.attack_speed",
+                      "amount": -3,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    }
+                  ],
+                  "show_in_tooltip": false
+                },
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:smite": 3,
+                    "minecraft:unbreaking": 2
+                  }
+                }
+              }
             },
             {
               "function": "set_name",
               "name": [
                 {
-                  "text": "Ashsworn Battleaxe",
-                  "color": "gold",
-                  "italic": "false"
+                  "text": "Ashsworn Battleaxe"
                 }
-              ]
+              ],
+              "target": "item_name"
             },
             {
               "function": "set_lore",
               "lore": [
                 {
                   "text": "Unrepairable",
-                  "color": "dark_gray",
-                  "italic": "false"
+                  "italic": false,
+                  "color": "dark_gray"
+                },
+                {
+                  "text": ""
+                },
+                {
+                  "color": "gray",
+                  "italic": false,
+                  "text": "When in Main Hand:"
+                },
+                {
+                  "color": "dark_green",
+                  "italic": false,
+                  "text": " 7 Attack Damage"
+                },
+                {
+                  "color": "dark_green",
+                  "italic": false,
+                  "text": " 1 Attack Speed"
                 },
                 {
                   "text": " "
                 },
                 {
-                  "text": "The Ashsworn Knights"
+                  "color": "gray",
+                  "italic": false,
+                  "text": "When in Both Hands:"
                 },
                 {
-                  "text": "are but a remnant of"
+                  "color": "dark_green",
+                  "italic": false,
+                  "text": " 10 Attack Damage"
                 },
                 {
-                  "text": "the bastions they"
-                },
-                {
-                  "text": "represent, but a"
-                },
-                {
-                  "text": "powerful remnant, still."
+                  "color": "dark_green",
+                  "italic": false,
+                  "text": " 1 Attack Speed"
                 }
-              ]
+              ],
+              "mode": "append"
             }
           ]
         }
@@ -291,13 +451,7 @@
           "type": "item",
           "weight": 1,
           "quality": 0,
-          "name": "minecraft:music_disc_pigstep",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            }
-          ]
+          "name": "minecraft:music_disc_pigstep"
         },
         {
           "type": "item",

@@ -49,8 +49,14 @@
               }
             },
             {
-              "function": "set_nbt",
-              "tag": "{EntityTag:{MainGene:\"normal\",HiddenGene:\"normal\"}}"
+              "function": "set_components",
+              "components": {
+                "minecraft:entity_data": {
+                  "id": "minecraft:panda",
+                  "MainGene": "normal",
+                  "HiddenGene": "normal"
+                }
+              }
             }
           ]
         },
@@ -156,10 +162,6 @@
                 "min": 1,
                 "max": 2
               }
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{EntityTag:{DecorItem:{id:\"minecraft:-1\",Count:1b}}}"
             }
           ]
         }

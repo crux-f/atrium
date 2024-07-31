@@ -7,8 +7,6 @@
       "entries": [
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:oak_leaves",
           "functions": [
             {
@@ -22,8 +20,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:birch_leaves",
           "functions": [
             {
@@ -37,8 +33,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:spruce_leaves",
           "functions": [
             {
@@ -52,8 +46,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:jungle_leaves",
           "functions": [
             {
@@ -67,8 +59,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:dark_oak_leaves",
           "functions": [
             {
@@ -82,8 +72,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:acacia_leaves",
           "functions": [
             {
@@ -97,8 +85,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:vine",
           "functions": [
             {
@@ -112,8 +98,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:lily_pad",
           "functions": [
             {
@@ -127,8 +111,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:bamboo",
           "functions": [
             {
@@ -142,8 +124,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:seagrass",
           "functions": [
             {
@@ -157,8 +137,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:sea_pickle",
           "functions": [
             {
@@ -172,8 +150,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:cactus",
           "functions": [
             {
@@ -187,8 +163,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:red_mushroom",
           "functions": [
             {
@@ -202,8 +176,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:brown_mushroom",
           "functions": [
             {
@@ -217,8 +189,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:glow_lichen",
           "functions": [
             {
@@ -232,8 +202,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:sunflower",
           "functions": [
             {
@@ -247,8 +215,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:lilac",
           "functions": [
             {
@@ -262,8 +228,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:rose_bush",
           "functions": [
             {
@@ -277,8 +241,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:peony",
           "functions": [
             {
@@ -292,8 +254,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:tall_grass",
           "functions": [
             {
@@ -307,8 +267,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:large_fern",
           "functions": [
             {
@@ -322,8 +280,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:cocoa_beans",
           "functions": [
             {
@@ -337,8 +293,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:tropical_fish_bucket",
           "functions": [
             {
@@ -352,8 +306,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:pufferfish_bucket",
           "functions": [
             {
@@ -367,8 +319,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:melon_seeds",
           "functions": [
             {
@@ -382,8 +332,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:nether_wart",
           "functions": [
             {
@@ -397,8 +345,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:sweet_berries",
           "functions": [
             {
@@ -412,8 +358,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:beehive",
           "functions": [
             {
@@ -424,15 +368,21 @@
               }
             },
             {
-              "function": "set_nbt",
-              "tag": "{BlockEntityTag:{Bees:[{EntityData:{id:\"minecraft:bee\"}}]}}"
+              "function": "set_components",
+              "components": {
+                "minecraft:bees": [
+                  {
+                    "entity_data": {
+                      "id": "minecraft:bee"
+                    }
+                  }
+                ]
+              }
             }
           ]
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:sponge",
           "functions": [
             {

@@ -12,12 +12,8 @@
           "name": "minecraft:splash_potion",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{Potion:\"minecraft:poison\"}"
+              "function": "minecraft:set_potion",
+              "id": "minecraft:poison"
             }
           ]
         },
@@ -28,12 +24,8 @@
           "name": "minecraft:splash_potion",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{Potion:\"minecraft:harming\"}"
+              "function": "minecraft:set_potion",
+              "id": "minecraft:harming"
             }
           ]
         },
@@ -44,12 +36,8 @@
           "name": "minecraft:potion",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{Potion:\"minecraft:long_invisibility\"}"
+              "function": "minecraft:set_potion",
+              "id": "minecraft:long_invisibility"
             }
           ]
         },
@@ -60,12 +48,8 @@
           "name": "minecraft:potion",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{Potion:\"minecraft:strong_strength\"}"
+              "function": "minecraft:set_potion",
+              "id": "minecraft:strong_strength"
             }
           ]
         },
@@ -76,12 +60,8 @@
           "name": "minecraft:potion",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{Potion:\"minecraft:strong_healing\"}"
+              "function": "minecraft:set_potion",
+              "id": "minecraft:strong_healing"
             }
           ]
         },
@@ -92,12 +72,8 @@
           "name": "minecraft:potion",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{Potion:\"minecraft:strong_swiftness\"}"
+              "function": "minecraft:set_potion",
+              "id": "minecraft:strong_swiftness"
             }
           ]
         },
@@ -108,12 +84,8 @@
           "name": "minecraft:potion",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{Potion:\"minecraft:strong_regeneration\"}"
+              "function": "minecraft:set_potion",
+              "id": "minecraft:strong_regeneration"
             }
           ]
         },
@@ -131,8 +103,8 @@
               }
             },
             {
-              "function": "set_nbt",
-              "tag": "{Potion:\"minecraft:weakness\"}"
+              "function": "minecraft:set_potion",
+              "id": "minecraft:weakness"
             }
           ]
         },
@@ -150,8 +122,8 @@
               }
             },
             {
-              "function": "set_nbt",
-              "tag": "{Potion:\"minecraft:poison\"}"
+              "function": "minecraft:set_potion",
+              "id": "minecraft:poison"
             }
           ]
         },
@@ -169,8 +141,8 @@
               }
             },
             {
-              "function": "set_nbt",
-              "tag": "{Potion:\"minecraft:harming\"}"
+              "function": "minecraft:set_potion",
+              "id": "minecraft:harming"
             }
           ]
         },
@@ -188,8 +160,8 @@
               }
             },
             {
-              "function": "set_nbt",
-              "tag": "{Potion:\"minecraft:slowness\"}"
+              "function": "minecraft:set_potion",
+              "id": "minecraft:slowness"
             }
           ]
         }

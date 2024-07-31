@@ -7,26 +7,40 @@
       "entries": [
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:creeper_head",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:1,Operation:0,UUID:[I;277733396,1302678214,-1228840295,-1128935354],Slot:\"head\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.05,Operation:1,UUID:[I;177740556,-1963635922,-1141767457,1052194672],Slot:\"head\"}]}"
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "atrium_now_you_see_me_set": 1
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "id": "atrium:clever_disguise_armor",
+                    "type": "generic.armor",
+                    "amount": 1,
+                    "operation": "add_value",
+                    "slot": "head"
+                  },
+                  {
+                    "id": "atrium:clever_disguise_movement_speed",
+                    "type": "generic.movement_speed",
+                    "amount": 0.05,
+                    "operation": "add_multiplied_base",
+                    "slot": "head"
+                  }
+                ]
+              }
             },
             {
               "function": "set_name",
               "name": [
                 {
-                  "text": "Clever Disguise",
-                  "italic": "false"
+                  "text": "Clever Disguise"
                 }
-              ]
+              ],
+              "target": "item_name"
             },
             {
               "function": "set_lore",
@@ -34,32 +48,47 @@
                 {
                   "text": "Who do you want to be today?"
                 }
-              ]
+              ],
+              "mode": "append"
             }
           ]
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:skeleton_skull",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:1,Operation:0,UUID:[I;-791370146,1403143742,-1782791043,-634233551],Slot:\"head\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.05,Operation:1,UUID:[I;-626811019,-331004423,-1433322419,-482113328],Slot:\"head\"}]}"
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "atrium_now_you_see_me_set": 1
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "id": "atrium:clever_disguise_armor",
+                    "type": "generic.armor",
+                    "amount": 1,
+                    "operation": "add_value",
+                    "slot": "head"
+                  },
+                  {
+                    "id": "atrium:clever_disguise_movement_speed",
+                    "type": "generic.movement_speed",
+                    "amount": 0.05,
+                    "operation": "add_multiplied_base",
+                    "slot": "head"
+                  }
+                ]
+              }
             },
             {
               "function": "set_name",
               "name": [
                 {
-                  "text": "Clever Disguise",
-                  "italic": "false"
+                  "text": "Clever Disguise"
                 }
-              ]
+              ],
+              "target": "item_name"
             },
             {
               "function": "set_lore",
@@ -67,32 +96,47 @@
                 {
                   "text": "Who do you want to be today?"
                 }
-              ]
+              ],
+              "mode": "append"
             }
           ]
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:zombie_head",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:1,Operation:0,UUID:[I;700223923,-1308668740,-1673478388,-1085666197],Slot:\"head\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.05,Operation:1,UUID:[I;-837984947,-1197584565,-2057676662,-1875219293],Slot:\"head\"}]}"
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "atrium_now_you_see_me_set": 1
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "id": "atrium:clever_disguise_armor",
+                    "type": "generic.armor",
+                    "amount": 1,
+                    "operation": "add_value",
+                    "slot": "head"
+                  },
+                  {
+                    "id": "atrium:clever_disguise_movement_speed",
+                    "type": "generic.movement_speed",
+                    "amount": 0.05,
+                    "operation": "add_multiplied_base",
+                    "slot": "head"
+                  }
+                ]
+              }
             },
             {
               "function": "set_name",
               "name": [
                 {
-                  "text": "Clever Disguise",
-                  "italic": "false"
+                  "text": "Clever Disguise"
                 }
-              ]
+              ],
+              "target": "item_name"
             },
             {
               "function": "set_lore",
@@ -100,7 +144,56 @@
                 {
                   "text": "Who do you want to be today?"
                 }
-              ]
+              ],
+              "mode": "append"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:piglin_head",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "atrium_now_you_see_me_set": 1
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "id": "atrium:clever_disguise_armor",
+                    "type": "generic.armor",
+                    "amount": 1,
+                    "operation": "add_value",
+                    "slot": "head"
+                  },
+                  {
+                    "id": "atrium:clever_disguise_movement_speed",
+                    "type": "generic.movement_speed",
+                    "amount": 0.05,
+                    "operation": "add_multiplied_base",
+                    "slot": "head"
+                  }
+                ]
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Clever Disguise"
+                }
+              ],
+              "target": "item_name"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Who do you want to be today?"
+                }
+              ],
+              "mode": "append"
             }
           ]
         }
@@ -112,26 +205,51 @@
       "entries": [
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:leather_chestplate",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{display:{color:0},HideFlags:64,RepairCost:99,AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:5,Operation:0,UUID:[I;779065926,823936152,-1997953962,-1062106422],Slot:\"chest\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.10,Operation:1,UUID:[I;78435654,653412574,-1248899678,-2133166245],Slot:\"chest\"}]}"
+              "function": "set_components",
+              "components": {
+                "minecraft:repair_cost": 99,
+                "minecraft:custom_data": {
+                  "atrium_now_you_see_me_set": 1
+                },
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:protection": 1,
+                    "minecraft:unbreaking": 1
+                  }
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "id": "atrium:sleek_cape_armor",
+                    "type": "generic.armor",
+                    "amount": 5,
+                    "operation": "add_value",
+                    "slot": "chest"
+                  },
+                  {
+                    "id": "atrium:sleek_cape_movement_speed",
+                    "type": "generic.movement_speed",
+                    "amount": 0.1,
+                    "operation": "add_multiplied_base",
+                    "slot": "chest"
+                  }
+                ],
+                "minecraft:dyed_color": {
+                  "rgb": 0,
+                  "show_in_tooltip": false
+                }
+              }
             },
             {
               "function": "set_name",
               "name": [
                 {
-                  "text": "Sleek Cape",
-                  "italic": "false"
+                  "text": "Sleek Cape"
                 }
-              ]
+              ],
+              "target": "item_name"
             },
             {
               "function": "set_lore",
@@ -139,7 +257,7 @@
                 {
                   "text": "Unrepairable",
                   "color": "dark_gray",
-                  "italic": "false"
+                  "italic": false
                 },
                 {
                   "text": " "
@@ -150,7 +268,8 @@
                 {
                   "text": "hide behind your cape!"
                 }
-              ]
+              ],
+              "mode": "append"
             }
           ]
         }
@@ -162,26 +281,50 @@
       "entries": [
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:leather_leggings",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{display:{color:0},HideFlags:64,RepairCost:99,Enchantments:[{id:\"minecraft:swift_sneak\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:2,Operation:0,UUID:[I;1697921854,-2136783433,-1423279040,-1645903666],Slot:\"legs\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.10,Operation:1,UUID:[I;46882595,-1181660399,-1535641107,2116130153],Slot:\"legs\"}]}"
+              "function": "set_components",
+              "components": {
+                "minecraft:repair_cost": 99,
+                "minecraft:custom_data": {
+                  "atrium_now_you_see_me_set": 1
+                },
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:swift_sneak": 1
+                  }
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "id": "atrium:silky_pants_armor",
+                    "type": "generic.armor",
+                    "amount": 2,
+                    "operation": "add_value",
+                    "slot": "legs"
+                  },
+                  {
+                    "id": "atrium:silky_pants_movement_speed",
+                    "type": "generic.movement_speed",
+                    "amount": 0.1,
+                    "operation": "add_multiplied_base",
+                    "slot": "chest"
+                  }
+                ],
+                "minecraft:dyed_color": {
+                  "rgb": 0,
+                  "show_in_tooltip": false
+                }
+              }
             },
             {
               "function": "set_name",
               "name": [
                 {
-                  "text": "Silky Pants",
-                  "italic": "false"
+                  "text": "Silky Pants"
                 }
-              ]
+              ],
+              "target": "item_name"
             },
             {
               "function": "set_lore",
@@ -189,7 +332,7 @@
                 {
                   "text": "Unrepairable",
                   "color": "dark_gray",
-                  "italic": "false"
+                  "italic": false
                 },
                 {
                   "text": " "
@@ -200,7 +343,8 @@
                 {
                   "text": "who needs enemies?"
                 }
-              ]
+              ],
+              "mode": "append"
             }
           ]
         }
@@ -212,26 +356,34 @@
       "entries": [
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:iron_sword",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{RepairCost:99,backstabbing_enchant:1b,backstabbing_lv:1b,Enchantments:[{id:\"minecraft:sharpness\",lvl:3s},{id:\"minecraft:unbreaking\",lvl:2s}]}"
+              "function": "set_components",
+              "components": {
+                "minecraft:repair_cost": 99,
+                "minecraft:custom_data": {
+                  "atrium_now_you_see_me_set": 1,
+                  "atrium_custom_enchantment": 1,
+                  "atrium_backstabbing_enchanted": 1,
+                  "atrium_backstabbing_lv": 1
+                },
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:unbreaking": 2,
+                    "minecraft:sharpness": 3
+                  }
+                }
+              }
             },
             {
               "function": "set_name",
               "name": [
                 {
-                  "text": "Hidden Blade",
-                  "italic": "false"
+                  "text": "Hidden Blade"
                 }
-              ]
+              ],
+              "target": "item_name"
             },
             {
               "function": "set_lore",
@@ -239,12 +391,12 @@
                 {
                   "text": "Backstabbing I",
                   "color": "gray",
-                  "italic": "false"
+                  "italic": false
                 },
                 {
                   "text": "Unrepairable",
                   "color": "dark_gray",
-                  "italic": "false"
+                  "italic": false
                 },
                 {
                   "text": "Who needs friends when you have"
@@ -252,7 +404,8 @@
                 {
                   "text": "KNIVES!"
                 }
-              ]
+              ],
+              "mode": "append"
             }
           ]
         }
@@ -264,8 +417,6 @@
       "entries": [
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:ender_pearl",
           "functions": [
             {
@@ -282,17 +433,15 @@
       "entries": [
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:potion",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{Potion:\"minecraft:long_invisibility\"}"
+              "function": "set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:long_invisibility"
+                }
+              }
             }
           ]
         }

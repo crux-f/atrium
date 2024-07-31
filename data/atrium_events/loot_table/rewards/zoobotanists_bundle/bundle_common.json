@@ -7,8 +7,6 @@
       "entries": [
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:lead",
           "functions": [
             {
@@ -22,8 +20,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:saddle",
           "functions": [
             {
@@ -37,8 +33,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:fishing_rod",
           "functions": [
             {
@@ -52,8 +46,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:bone_meal",
           "functions": [
             {
@@ -67,8 +59,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:oak_sapling",
           "functions": [
             {
@@ -82,8 +72,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:birch_sapling",
           "functions": [
             {
@@ -97,8 +85,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:spruce_sapling",
           "functions": [
             {
@@ -112,8 +98,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:jungle_sapling",
           "functions": [
             {
@@ -127,8 +111,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:dark_oak_sapling",
           "functions": [
             {
@@ -142,8 +124,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:acacia_sapling",
           "functions": [
             {
@@ -157,9 +137,7 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
-          "name": "minecraft:grass",
+          "name": "minecraft:grass_block",
           "functions": [
             {
               "function": "set_count",
@@ -172,8 +150,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:fern",
           "functions": [
             {
@@ -187,8 +163,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:dead_bush",
           "functions": [
             {
@@ -202,8 +176,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:dandelion",
           "functions": [
             {
@@ -217,8 +189,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:poppy",
           "functions": [
             {
@@ -232,8 +202,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:blue_orchid",
           "functions": [
             {
@@ -247,8 +215,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:allium",
           "functions": [
             {
@@ -262,8 +228,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:azure_bluet",
           "functions": [
             {
@@ -277,8 +241,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:red_tulip",
           "functions": [
             {
@@ -292,8 +254,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:orange_tulip",
           "functions": [
             {
@@ -307,8 +267,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:white_tulip",
           "functions": [
             {
@@ -322,8 +280,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:pink_tulip",
           "functions": [
             {
@@ -337,8 +293,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:oxeye_daisy",
           "functions": [
             {
@@ -352,8 +306,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:cornflower",
           "functions": [
             {
@@ -367,8 +319,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:lily_of_the_valley",
           "functions": [
             {
@@ -382,8 +332,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:sugar_cane",
           "functions": [
             {
@@ -397,8 +345,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:wheat_seeds",
           "functions": [
             {
@@ -412,8 +358,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:beetroot_seeds",
           "functions": [
             {
@@ -427,8 +371,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:pumpkin_seeds",
           "functions": [
             {
@@ -442,8 +384,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:carrot",
           "functions": [
             {
@@ -457,8 +397,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:potato",
           "functions": [
             {
@@ -472,8 +410,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:apple",
           "functions": [
             {
@@ -487,8 +423,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:wheat",
           "functions": [
             {
@@ -502,8 +436,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:cod",
           "functions": [
             {
@@ -517,8 +449,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:beef",
           "functions": [
             {
@@ -532,8 +462,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:hay_block",
           "functions": [
             {
@@ -547,8 +475,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:cod_bucket",
           "functions": [
             {
@@ -562,8 +488,6 @@
         },
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:salmon_bucket",
           "functions": [
             {

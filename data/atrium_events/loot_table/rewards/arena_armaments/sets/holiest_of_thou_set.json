@@ -1,40 +1,63 @@
 {
-  "type": "chest",
   "pools": [
     {
       "rolls": 1,
-      "bonus_rolls": 0,
       "entries": [
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:leather_chestplate",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{display:{color:9175180},HideFlags:64,RepairCost:99,Enchantments:[{id:\"minecraft:protection\",lvl:3s},{id:\"minecraft:unbreaking\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:1,Operation:0,UUID:[I;-1894608145,-992066576,-1679501193,91023240],Slot:\"chest\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUID:[I;361200058,-172407989,-1897341940,1194952786],Slot:\"chest\"}]}"
+              "function": "set_components",
+              "components": {
+                "minecraft:repair_cost": 99,
+                "minecraft:custom_data": {
+                  "atrium_holiest_of_thou_set": 1
+                },
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:protection": 3,
+                    "minecraft:unbreaking": 1
+                  }
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "id": "atrium:blessed_tunic_armor",
+                    "type": "generic.armor",
+                    "amount": 3,
+                    "operation": "add_value",
+                    "slot": "chest"
+                  },
+                  {
+                    "id": "atrium:blessed_tunic_max_health",
+                    "type": "generic.max_health",
+                    "amount": 1,
+                    "operation": "add_value",
+                    "slot": "chest"
+                  }
+                ],
+                "minecraft:dyed_color": {
+                  "rgb": 9175180,
+                  "show_in_tooltip": false
+                }
+              }
             },
             {
               "function": "set_name",
               "name": [
                 {
-                  "text": "Blessed Vestments",
-                  "italic": "false"
+                  "text": "Blessed Vestments"
                 }
-              ]
+              ],
+              "target": "item_name"
             },
             {
               "function": "set_lore",
               "lore": [
                 {
-                  "text": "Unrepairable",
                   "color": "dark_gray",
-                  "italic": "false"
+                  "italic": false,
+                  "text": "Unrepairable"
                 },
                 {
                   "text": " "
@@ -48,7 +71,8 @@
                 {
                   "text": "holy symbols."
                 }
-              ]
+              ],
+              "mode": "append"
             }
           ]
         }
@@ -56,38 +80,62 @@
     },
     {
       "rolls": 1,
-      "bonus_rolls": 0,
       "entries": [
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:leather_leggings",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{display:{color:9175180},HideFlags:64,RepairCost:99,Enchantments:[{id:\"minecraft:protection\",lvl:3s},{id:\"minecraft:unbreaking\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:1,Operation:0,UUID:[I;-2083023838,-864337715,-1971979500,-886629287],Slot:\"legs\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:2,Operation:0,UUID:[I;-2063714763,1634353411,-1240202589,-1197530976],Slot:\"legs\"}]}"
+              "function": "set_components",
+              "components": {
+                "minecraft:repair_cost": 99,
+                "minecraft:custom_data": {
+                  "atrium_holiest_of_thou_set": 1
+                },
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:protection": 3,
+                    "minecraft:unbreaking": 1
+                  }
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "id": "atrium:blessed_leggings_armor",
+                    "type": "generic.armor",
+                    "amount": 2,
+                    "operation": "add_value",
+                    "slot": "legs"
+                  },
+                  {
+                    "id": "atrium:blessed_leggings_max_health",
+                    "type": "generic.max_health",
+                    "amount": 1,
+                    "operation": "add_value",
+                    "slot": "legs"
+                  }
+                ],
+                "minecraft:dyed_color": {
+                  "rgb": 9175180,
+                  "show_in_tooltip": false
+                }
+              }
             },
             {
               "function": "set_name",
               "name": [
                 {
-                  "text": "Cleric's Leggings",
-                  "italic": "false"
+                  "text": "Cleric's Leggings"
                 }
-              ]
+              ],
+              "target": "item_name"
             },
             {
               "function": "set_lore",
               "lore": [
                 {
-                  "text": "Unrepairable",
                   "color": "dark_gray",
-                  "italic": "false"
+                  "italic": false,
+                  "text": "Unrepairable"
                 },
                 {
                   "text": " "
@@ -95,7 +143,8 @@
                 {
                   "text": "Pants worthy of the gods!"
                 }
-              ]
+              ],
+              "mode": "append"
             }
           ]
         }
@@ -103,38 +152,42 @@
     },
     {
       "rolls": 1,
-      "bonus_rolls": 0,
       "entries": [
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:iron_sword",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{RepairCost:99,Enchantments:[{id:\"minecraft:smite\",lvl:5s},{id:\"minecraft:unbreaking\",lvl:2s}]}"
+              "function": "set_components",
+              "components": {
+                "minecraft:repair_cost": 99,
+                "minecraft:custom_data": {
+                  "atrium_holiest_of_thou_set": 1
+                },
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:smite": 4,
+                    "minecraft:unbreaking": 2
+                  }
+                }
+              }
             },
             {
               "function": "set_name",
               "name": [
                 {
-                  "text": "Holy Weapon",
-                  "italic": "false"
+                  "text": "Holy Weapon"
                 }
-              ]
+              ],
+              "target": "item_name"
             },
             {
               "function": "set_lore",
               "lore": [
                 {
-                  "text": "Unrepairable",
                   "color": "dark_gray",
-                  "italic": "false"
+                  "italic": false,
+                  "text": "Unrepairable"
                 },
                 {
                   "text": " "
@@ -145,7 +198,8 @@
                 {
                   "text": "of some god or other!"
                 }
-              ]
+              ],
+              "mode": "append"
             }
           ]
         }
@@ -153,21 +207,18 @@
     },
     {
       "rolls": 1,
-      "bonus_rolls": 0,
       "entries": [
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:lingering_potion",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{Potion:\"minecraft:strong_strength\"}"
+              "function": "set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:strong_strength"
+                }
+              }
             }
           ]
         }
@@ -175,21 +226,18 @@
     },
     {
       "rolls": 1,
-      "bonus_rolls": 0,
       "entries": [
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:lingering_potion",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{Potion:\"minecraft:long_regeneration\"}"
+              "function": "set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:long_regeneration"
+                }
+              }
             }
           ]
         }
@@ -197,12 +245,9 @@
     },
     {
       "rolls": 1,
-      "bonus_rolls": 0,
       "entries": [
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:golden_apple",
           "functions": [
             {

@@ -24,7 +24,8 @@
                 {
                   "text": "Dried plants, without a pot."
                 }
-              ]
+              ],
+              "mode": "append"
             }
           ]
         },
@@ -50,7 +51,8 @@
                 {
                   "text": "attempt, perhaps?"
                 }
-              ]
+              ],
+              "mode": "append"
             }
           ]
         },
@@ -76,7 +78,8 @@
                 {
                   "text": "attempt, perhaps?"
                 }
-              ]
+              ],
+              "mode": "append"
             }
           ]
         },
@@ -102,7 +105,8 @@
                 {
                   "text": "attempt, perhaps?"
                 }
-              ]
+              ],
+              "mode": "append"
             }
           ]
         },
@@ -113,10 +117,6 @@
           "name": "minecraft:dead_brain_coral",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
               "function": "set_lore",
               "lore": [
                 {
@@ -125,7 +125,8 @@
                 {
                   "text": "attempt, perhaps?"
                 }
-              ]
+              ],
+              "mode": "append"
             }
           ]
         },
@@ -136,10 +137,6 @@
           "name": "minecraft:dead_bubble_coral",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
               "function": "set_lore",
               "lore": [
                 {
@@ -148,7 +145,8 @@
                 {
                   "text": "attempt, perhaps?"
                 }
-              ]
+              ],
+              "mode": "append"
             }
           ]
         },
@@ -171,7 +169,8 @@
                 {
                   "text": "Dried pot, without any plants."
                 }
-              ]
+              ],
+              "mode": "append"
             }
           ]
         },
@@ -197,7 +196,8 @@
                 {
                   "text": "the bottom of the box."
                 }
-              ]
+              ],
+              "mode": "append"
             }
           ]
         },
@@ -223,7 +223,8 @@
                 {
                   "text": "the bottom of the box."
                 }
-              ]
+              ],
+              "mode": "append"
             }
           ]
         },
@@ -234,21 +235,13 @@
           "name": "minecraft:pink_tulip",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{lost_flower:1b}"
-            },
-            {
               "function": "set_name",
               "name": [
                 {
-                  "text": "Lost Flower",
-                  "italic": false
+                  "text": "Lost Flower"
                 }
-              ]
+              ],
+              "target": "item_name"
             },
             {
               "function": "set_lore",
@@ -262,7 +255,8 @@
                 {
                   "text": "a pot. I wonder who...?"
                 }
-              ]
+              ],
+              "mode": "append"
             }
           ]
         },
@@ -273,21 +267,13 @@
           "name": "minecraft:nautilus_shell",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{fossil:1b}"
-            },
-            {
               "function": "set_name",
               "name": [
                 {
-                  "text": "Fossil",
-                  "italic": false
+                  "text": "Fossil"
                 }
-              ]
+              ],
+              "target": "item_name"
             }
           ]
         },
@@ -295,13 +281,7 @@
           "type": "item",
           "weight": 3,
           "quality": 2,
-          "name": "minecraft:damaged_anvil",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            }
-          ]
+          "name": "minecraft:damaged_anvil"
         },
         {
           "type": "item",
@@ -320,10 +300,10 @@
               "function": "set_name",
               "name": [
                 {
-                  "text": "Metal Scrap",
-                  "italic": false
+                  "text": "Metal Scrap"
                 }
-              ]
+              ],
+              "target": "item_name"
             }
           ]
         },
@@ -334,21 +314,23 @@
           "name": "minecraft:enchanted_book",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{StoredEnchantments:[{id:\"minecraft:binding_curse\",lvl:1s}]}"
+              "function": "set_components",
+              "components": {
+                "minecraft:stored_enchantments": {
+                  "levels": {
+                    "minecraft:binding_curse": 1
+                  }
+                }
+              }
             },
             {
               "function": "set_name",
               "name": [
                 {
-                  "text": "Forbidden Book",
-                  "italic": false
+                  "text": "Forbidden Book"
                 }
-              ]
+              ],
+              "target": "item_name"
             }
           ]
         },
@@ -356,31 +338,6 @@
           "type": "empty",
           "weight": 8,
           "quality": -2
-        },
-        {
-          "type": "item",
-          "weight": 4,
-          "quality": 3,
-          "name": "minecraft:potion",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{HideFlags:32,CustomPotionEffects:[{Id:9,Amplifier:0b,Duration:600,ShowParticles:1b},{Id:10,Amplifier:1b,Duration:100,ShowParticles:1b},{Id:14,Amplifier:0b,Duration:600,ShowParticles:1b},{Id:17,Amplifier:1b,Duration:900,ShowParticles:1b}],Potion:\"minecraft:empty\",CustomPotionColor:15061503}"
-            },
-            {
-              "function": "set_name",
-              "name": [
-                {
-                  "text": "Mysterious Potion",
-                  "italic": false
-                }
-              ]
-            }
-          ]
         },
         {
           "type": "item",
@@ -404,21 +361,21 @@
           "name": "minecraft:ender_chest",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{BlockStateTag:{waterlogged:\"true\"}}"
-            },
-            {
               "function": "set_name",
               "name": [
                 {
-                  "text": "Soggy Ender Chest",
-                  "italic": false
+                  "text": "Soggy Ender Chest"
                 }
-              ]
+              ],
+              "target": "item_name"
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:block_state": {
+                  "waterlogged": true
+                }
+              }
             }
           ]
         },
@@ -429,16 +386,13 @@
           "name": "minecraft:wither_rose",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
               "function": "set_lore",
               "lore": [
                 {
                   "text": "Smells like unease."
                 }
-              ]
+              ],
+              "mode": "append"
             }
           ]
         },
@@ -449,22 +403,14 @@
           "name": "minecraft:potion",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{CustomPotionEffects:[{Id:7,Amplifier:1b,Duration:1},{Id:9,Amplifier:0b,Duration:1200,ShowParticles:1b},{Id:20,Amplifier:1b,Duration:1200,ShowParticles:1b}],Potion:\"minecraft:empty\",CustomPotionColor:4530816}"
-            },
-            {
               "function": "set_name",
               "name": [
                 {
                   "text": "Liquid Flux",
-                  "color": "#441BA6",
-                  "italic": false
+                  "color": "#441BA6"
                 }
-              ]
+              ],
+              "target": "item_name"
             },
             {
               "function": "set_lore",
@@ -475,7 +421,30 @@
                 {
                   "text": "from another world."
                 }
-              ]
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:empty",
+                  "custom_color": 2820024,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:instant_damage",
+                      "amplifier": 1,
+                      "duration": 1
+                    },
+                    {
+                      "id": "minecraft:wither",
+                      "amplifier": 2,
+                      "duration": 2400,
+                      "show_particles": true
+                    }
+                  ]
+                }
+              }
             }
           ]
         },
@@ -485,10 +454,6 @@
           "quality": 0,
           "name": "minecraft:cake",
           "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
             {
               "function": "set_name",
               "name": [
@@ -501,54 +466,10 @@
           ]
         },
         {
-          "type": "item",
-          "weight": 3,
-          "quality": 3,
-          "name": "minecraft:painting",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{EntityTag:{Motive:\"minecraft:void\"}}"
-            },
-            {
-              "function": "set_name",
-              "name": [
-                {
-                  "text": "'Void'"
-                }
-              ]
-            },
-            {
-              "function": "set_lore",
-              "lore": [
-                {
-                  "text": "Stolen? Hidden away for"
-                },
-                {
-                  "text": "safekeeping?"
-                },
-                {
-                  "text": "Who knows."
-                }
-              ]
-            }
-          ]
-        },
-        {
           "type": "loot_table",
           "weight": 6,
           "quality": 3,
-          "name": "atrium:formulas/infusion_recipes_1",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            }
-          ]
+          "name": "atrium:formulas/infusion_research_common"
         },
         {
           "type": "item",
@@ -557,48 +478,42 @@
           "name": "minecraft:clock",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.05,Operation:1,UUID:[I;267370416,1074219380,-2029726928,1927273792],Slot:\"mainhand\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.05,Operation:1,UUID:[I;1679407619,-391886043,-1584261430,-840662154],Slot:\"offhand\"}]}"
-            },
-            {
-              "function": "set_name",
-              "name": [
-                {
-                  "text": "Pocketwatch of Timeliness",
-                  "color": "aqua",
-                  "italic": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "weight": 3,
-          "quality": 3,
-          "name": "minecraft:suspicious_stew",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{Effects:[{EffectId:1,EffectDuration:100},{EffectId:2,EffectDuration:100},{EffectId:3,EffectDuration:100},{EffectId:5,EffectDuration:100},{EffectId:8,EffectDuration:100},{EffectId:11,EffectDuration:100},{EffectId:12,EffectDuration:100},{EffectId:13,EffectDuration:100},{EffectId:14,EffectDuration:100},{EffectId:16,EffectDuration:100},{EffectId:18,EffectDuration:100},{EffectId:19,EffectDuration:100},{EffectId:28,EffectDuration:100}]}"
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "atrium_pocketwatch_of_timeliness": 1
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "id": "atrium:pocketwatch_of_timeliness_speed",
+                    "type": "generic.movement_speed",
+                    "amount": 0.08,
+                    "operation": "add_multiplied_base",
+                    "slot": "offhand"
+                  }
+                ]
+              }
             },
             {
               "function": "set_name",
               "name": [
                 {
-                  "text": "A Furious Cocktail",
-                  "color": "dark_red",
-                  "italic": false
+                  "text": "Pocketwatch of Timeliness"
                 }
-              ]
+              ],
+              "target": "item_name"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "You feel like you"
+                },
+                {
+                  "text": "remember this might happen."
+                }
+              ],
+              "mode": "append"
             }
           ]
         },
@@ -608,6 +523,14 @@
           "quality": 3,
           "name": "minecraft:tipped_arrow",
           "functions": [
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Arrow of Ultimate Inspiration"
+                }
+              ]
+            },
             {
               "function": "set_count",
               "count": {
@@ -616,96 +539,67 @@
               }
             },
             {
-              "function": "set_nbt",
-              "tag": "{CustomPotionEffects:[{Id:1,Amplifier:19b,Duration:140,ShowParticles:1b}],Potion:\"minecraft:empty\",CustomPotionColor:16773145}"
-            },
-            {
-              "function": "set_name",
-              "name": [
-                {
-                  "text": "Arrow of Ultimate Inspiration",
-                  "color": "yellow",
-                  "italic": false
+              "function": "set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_color": 16773145,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:speed",
+                      "amplifier": 19,
+                      "duration": 120
+                    }
+                  ]
                 }
-              ]
+              }
             }
           ]
         },
         {
           "type": "item",
           "weight": 5,
-          "quality": 2,
           "name": "minecraft:totem_of_undying",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:-0.5,Operation:0,UUID:[I;-1125725399,-1437776681,-1164730837,1642132160],Slot:\"offhand\"}]}"
-            },
-            {
-              "function": "set_name",
-              "name": [
-                {
-                  "text": "False Idol",
-                  "italic": false
-                }
-              ]
-            },
-            {
-              "function": "set_lore",
-              "lore": [
-                {
-                  "text": "You aren't familiar with"
-                },
-                {
-                  "text": "the religious markings,"
-                },
-                {
-                  "text": "but they look sinister."
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "weight": 6,
-          "quality": 2,
-          "name": "minecraft:tipped_arrow",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{CustomPotionEffects:[{Id:6,Amplifier:1b,Duration:1,ShowParticles:1b},{Id:10,Amplifier:1b,Duration:60,ShowParticles:1b}],CustomPotionColor:6094711}"
+              "function": "set_components",
+              "components": {
+                "minecraft:attribute_modifiers": [
+                  {
+                    "id": "atrium:false_idol_max_health",
+                    "type": "generic.max_health",
+                    "amount": -4,
+                    "operation": "add_value",
+                    "slot": "hand"
+                  }
+                ]
+              }
             },
             {
               "function": "set_name",
               "name": [
                 {
-                  "text": "Encouragement Arrow",
-                  "italic": false
+                  "text": "False Idol"
                 }
-              ]
+              ],
+              "target": "item_name"
             },
             {
               "function": "set_lore",
               "lore": [
                 {
-                  "text": "There's note wound around"
+                  "text": "You aren't familiar"
                 },
                 {
-                  "text": "the arrow:"
+                  "text": "with the religious"
                 },
                 {
-                  "text": "\"Get well soon!\""
+                  "text": "markings, but they"
+                },
+                {
+                  "text": "look sinister."
                 }
-              ]
+              ],
+              "mode": "append"
             }
           ]
         },
@@ -720,16 +614,11 @@
               "count": 3
             },
             {
-              "function": "set_nbt",
-              "tag": "{comet_berries:1b,Enchantments:[{id:\"minecraft:power\",lvl:1s}]}"
-            },
-            {
               "function": "set_name",
+              "target": "item_name",
               "name": [
                 {
-                  "text": "Comet Berries",
-                  "color": "yellow",
-                  "italic": false
+                  "text": "Comet Berries"
                 }
               ]
             },
@@ -748,7 +637,18 @@
                 {
                   "text": "your hand."
                 }
-              ]
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "atrium_comet_berries": 1
+                },
+                "minecraft:custom_model_data": 333082,
+                "minecraft:enchantment_glint_override": true
+              }
             }
           ]
         },
@@ -758,10 +658,6 @@
           "quality": 2,
           "name": "minecraft:lead",
           "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
             {
               "function": "set_name",
               "name": [
@@ -783,7 +679,8 @@
                 {
                   "text": "\"Fluffy\""
                 }
-              ]
+              ],
+              "mode": "append"
             }
           ]
         },
@@ -794,12 +691,10 @@
           "name": "minecraft:golden_sword",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:looting\",lvl:1s}]}"
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:looting": 1
+              }
             },
             {
               "function": "set_damage",
@@ -810,11 +705,10 @@
             },
             {
               "function": "set_name",
+              "target": "item_name",
               "name": [
                 {
-                  "text": "Ornate Gladius",
-                  "color": "gold",
-                  "italic": false
+                  "text": "Ornate Gladius"
                 }
               ]
             },
@@ -830,7 +724,8 @@
                 {
                   "text": "display shelf."
                 }
-              ]
+              ],
+              "mode": "append"
             }
           ]
         },
@@ -841,12 +736,10 @@
           "name": "minecraft:diamond_shovel",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}]}"
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:unbreaking": 1
+              }
             },
             {
               "function": "set_damage",
@@ -859,8 +752,7 @@
               "function": "set_name",
               "name": [
                 {
-                  "text": "Roadbuilder's Spade",
-                  "italic": false
+                  "text": "Roadbuilder's Spade"
                 }
               ]
             },
@@ -882,124 +774,8 @@
                 {
                   "text": "'Property of Ctenophor5'."
                 }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "weight": 5,
-          "quality": 2,
-          "name": "minecraft:glowstone_dust",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 2
-              }
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{atrium_stardust:1b}"
-            },
-            {
-              "function": "set_name",
-              "name": [
-                {
-                  "text": "Stardust",
-                  "color": "yellow",
-                  "italic": false
-                }
-              ]
-            },
-            {
-              "function": "set_lore",
-              "lore": [
-                {
-                  "text": "It glimmers with cosmic"
-                },
-                {
-                  "text": "glee. Very difficult to"
-                },
-                {
-                  "text": "get out of the carpet."
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "weight": 3,
-          "quality": 2,
-          "name": "minecraft:cod_bucket",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{EntityTag:{CustomNameVisible:1b,PersistenceRequired:1b,Health:99f,CustomName:'{\"text\":\"A Very Confused Fish\",\"color\":\"blue\"}',Attributes:[{Name:generic.max_health,Base:99}]}}"
-            },
-            {
-              "function": "set_name",
-              "name": [
-                {
-                  "text": "Very Confused Fish",
-                  "color": "blue",
-                  "italic": false
-                }
-              ]
-            },
-            {
-              "function": "set_lore",
-              "lore": [
-                {
-                  "text": "Where did it come from?"
-                },
-                {
-                  "text": "Why is it in a bucket??"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "weight": 3,
-          "quality": 1,
-          "name": "minecraft:phantom_spawn_egg",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{EntityTag:{DeathLootTable:\"atrium:entities/nightmare_phantom\",PersistenceRequired:1b,Health:25f,Size:2,CustomName:'{\"text\":\"Nightmare\",\"color\":\"light_purple\",\"italic\":false}',ActiveEffects:[{Id:12b,Amplifier:0b,Duration:199980,ShowParticles:0b}],Attributes:[{Name:generic.max_health,Base:25}]}}"
-            },
-            {
-              "function": "set_name",
-              "name": [
-                {
-                  "text": "Nightmare Stone",
-                  "color": "light_purple",
-                  "italic": false
-                }
-              ]
-            },
-            {
-              "function": "set_lore",
-              "lore": [
-                {
-                  "text": "A nightmare swirls angrily"
-                },
-                {
-                  "text": "within. Do not break."
-                }
-              ]
+              ],
+              "mode": "append"
             }
           ]
         }

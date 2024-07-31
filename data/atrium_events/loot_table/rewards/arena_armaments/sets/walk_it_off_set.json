@@ -7,26 +7,45 @@
       "entries": [
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:leather_helmet",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{display:{color:52354},HideFlags:64,RepairCost:99,AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:2,Operation:0,UUID:[I;1211226388,-970766094,-1145281455,504395189],Slot:\"head\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.05,Operation:1,UUID:[I;-1107869820,-881639098,-2108684237,-609372300],Slot:\"head\"}]}"
+              "function": "set_components",
+              "components": {
+                "minecraft:repair_cost": 99,
+                "minecraft:custom_data": {
+                  "atrium_walk_it_off_set": 1
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "id": "atrium:feathered_cap_armor",
+                    "type": "generic.armor",
+                    "amount": 2,
+                    "operation": "add_value",
+                    "slot": "head"
+                  },
+                  {
+                    "id": "atrium:feathered_cap_movement_speed",
+                    "type": "generic.movement_speed",
+                    "amount": 0.05,
+                    "operation": "add_multiplied_base",
+                    "slot": "head"
+                  }
+                ],
+                "minecraft:dyed_color": {
+                  "rgb": 52354,
+                  "show_in_tooltip": false
+                }
+              }
             },
             {
               "function": "set_name",
               "name": [
                 {
-                  "text": "Feathered Cap",
-                  "italic": "false"
+                  "text": "Feathered Cap"
                 }
-              ]
+              ],
+              "target": "item_name"
             },
             {
               "function": "set_lore",
@@ -34,7 +53,7 @@
                 {
                   "text": "Unrepairable",
                   "color": "dark_gray",
-                  "italic": "false"
+                  "italic": false
                 },
                 {
                   "text": " "
@@ -42,7 +61,8 @@
                 {
                   "text": "Style and speed."
                 }
-              ]
+              ],
+              "mode": "append"
             }
           ]
         }
@@ -54,26 +74,45 @@
       "entries": [
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:leather_chestplate",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{display:{color:52354},HideFlags:64,RepairCost:99,AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.10,Operation:1,UUID:[I;1794740964,46415960,-1266669363,1069883977],Slot:\"chest\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUID:[I;-457233539,-1915269537,-1223920568,1266435061],Slot:\"chest\"}]}"
+              "function": "set_components",
+              "components": {
+                "minecraft:repair_cost": 99,
+                "minecraft:custom_data": {
+                  "atrium_walk_it_off_set": 1
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "id": "atrium:aquamarine_armor_armor",
+                    "type": "generic.armor",
+                    "amount": 3,
+                    "operation": "add_value",
+                    "slot": "chest"
+                  },
+                  {
+                    "id": "atrium:aquamarine_armor_movement_speed",
+                    "type": "generic.movement_speed",
+                    "amount": 0.1,
+                    "operation": "add_multiplied_base",
+                    "slot": "chest"
+                  }
+                ],
+                "minecraft:dyed_color": {
+                  "rgb": 52354,
+                  "show_in_tooltip": false
+                }
+              }
             },
             {
               "function": "set_name",
               "name": [
                 {
-                  "text": "Aquamarine Armor",
-                  "italic": "false"
+                  "text": "Aquamarine Armor"
                 }
-              ]
+              ],
+              "target": "item_name"
             },
             {
               "function": "set_lore",
@@ -81,7 +120,7 @@
                 {
                   "text": "Unrepairable",
                   "color": "dark_gray",
-                  "italic": "false"
+                  "italic": false
                 },
                 {
                   "text": " "
@@ -92,7 +131,8 @@
                 {
                   "text": "protective."
                 }
-              ]
+              ],
+              "mode": "append"
             }
           ]
         }
@@ -104,26 +144,45 @@
       "entries": [
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:leather_leggings",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{display:{color:52354},HideFlags:64,RepairCost:99,AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.05,Operation:1,UUID:[I;15389951,-1661318666,-1410118396,1078298826],Slot:\"legs\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:2,Operation:0,UUID:[I;-1617131898,321930567,-1161481283,1716106599],Slot:\"legs\"}]}"
+              "function": "set_components",
+              "components": {
+                "minecraft:repair_cost": 99,
+                "minecraft:custom_data": {
+                  "atrium_walk_it_off_set": 1
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "id": "atrium:leather_shinguards_armor",
+                    "type": "generic.armor",
+                    "amount": 2,
+                    "operation": "add_value",
+                    "slot": "legs"
+                  },
+                  {
+                    "id": "atrium:leather_shinguards_movement_speed",
+                    "type": "generic.movement_speed",
+                    "amount": 0.05,
+                    "operation": "add_multiplied_base",
+                    "slot": "legs"
+                  }
+                ],
+                "minecraft:dyed_color": {
+                  "rgb": 52354,
+                  "show_in_tooltip": false
+                }
+              }
             },
             {
               "function": "set_name",
               "name": [
                 {
-                  "text": "Leather Shinguards",
-                  "italic": "false"
+                  "text": "Leather Shinguards"
                 }
-              ]
+              ],
+              "target": "item_name"
             },
             {
               "function": "set_lore",
@@ -131,7 +190,7 @@
                 {
                   "text": "Unrepairable",
                   "color": "dark_gray",
-                  "italic": "false"
+                  "italic": false
                 },
                 {
                   "text": " "
@@ -139,7 +198,8 @@
                 {
                   "text": "Shins are important."
                 }
-              ]
+              ],
+              "mode": "append"
             }
           ]
         }
@@ -151,26 +211,50 @@
       "entries": [
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:leather_boots",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{display:{color:52354},HideFlags:64,RepairCost:99,Enchantments:[{id:\"minecraft:feather_falling\",lvl:2s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:2,Operation:0,UUID:[I;866581370,265374264,-1653974934,1276967666],Slot:\"feet\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.05,Operation:1,UUID:[I;796008537,1237667067,-1423975768,-876204692],Slot:\"feet\"}]}"
+              "function": "set_components",
+              "components": {
+                "minecraft:repair_cost": 99,
+                "minecraft:custom_data": {
+                  "atrium_walk_it_off_set": 1
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "id": "atrium:hiking_boots_armor",
+                    "type": "generic.armor",
+                    "amount": 2,
+                    "operation": "add_value",
+                    "slot": "feet"
+                  },
+                  {
+                    "id": "atrium:hiking_boots_movement_speed",
+                    "type": "generic.movement_speed",
+                    "amount": 0.05,
+                    "operation": "add_multiplied_base",
+                    "slot": "feet"
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:feather_falling": 2
+                  }
+                },
+                "minecraft:dyed_color": {
+                  "rgb": 52354,
+                  "show_in_tooltip": false
+                }
+              }
             },
             {
               "function": "set_name",
               "name": [
                 {
-                  "text": "Hiking Boots",
-                  "italic": "false"
+                  "text": "Hiking Boots"
                 }
-              ]
+              ],
+              "target": "item_name"
             },
             {
               "function": "set_lore",
@@ -178,7 +262,7 @@
                 {
                   "text": "Unrepairable",
                   "color": "dark_gray",
-                  "italic": "false"
+                  "italic": false
                 },
                 {
                   "text": " "
@@ -189,7 +273,8 @@
                 {
                   "text": "of there."
                 }
-              ]
+              ],
+              "mode": "append"
             }
           ]
         }
@@ -201,26 +286,39 @@
       "entries": [
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:bow",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{RepairCost:99,Enchantments:[{id:\"minecraft:punch\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.10,Operation:1,UUID:[I;-724708537,-302625177,-1619897103,1478398361],Slot:\"mainhand\"}]}"
+              "function": "set_components",
+              "components": {
+                "minecraft:repair_cost": 99,
+                "minecraft:custom_data": {
+                  "atrium_walk_it_off_set": 1
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "id": "atrium:composite_bow_movement_speed",
+                    "type": "generic.movement_speed",
+                    "amount": 0.10,
+                    "operation": "add_multiplied_base",
+                    "slot": "mainhand"
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:punch": 1
+                  }
+                }
+              }
             },
             {
               "function": "set_name",
               "name": [
                 {
-                  "text": "Composite Bow",
-                  "italic": "false"
+                  "text": "Composite Bow"
                 }
-              ]
+              ],
+              "target": "item_name"
             },
             {
               "function": "set_lore",
@@ -228,7 +326,7 @@
                 {
                   "text": "Unrepairable",
                   "color": "dark_gray",
-                  "italic": "false"
+                  "italic": false
                 },
                 {
                   "text": " "
@@ -242,7 +340,8 @@
                 {
                   "text": "More time to get away."
                 }
-              ]
+              ],
+              "mode": "append"
             }
           ]
         }
@@ -254,8 +353,6 @@
       "entries": [
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:arrow",
           "functions": [
             {

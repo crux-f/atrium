@@ -9,19 +9,19 @@
           "type": "loot_table",
           "weight": 54,
           "quality": 0,
-          "name": "atrium_events:rewards/arena_armaments/armaments_common"
+          "value": "atrium_events:rewards/arena_armaments/armaments_common"
         },
         {
           "type": "loot_table",
           "weight": 42,
           "quality": 2,
-          "name": "atrium_events:rewards/arena_armaments/armaments_uncommon"
+          "value": "atrium_events:rewards/arena_armaments/armaments_uncommon"
         },
         {
           "type": "loot_table",
           "weight": 4,
           "quality": 4,
-          "name": "atrium_events:rewards/arena_armaments/armaments_rare"
+          "value": "atrium_events:rewards/arena_armaments/armaments_rare"
         }
       ]
     },
@@ -33,25 +33,25 @@
           "type": "loot_table",
           "weight": 60,
           "quality": 0,
-          "name": "atrium_events:rewards/arena_armaments/armaments_common_2"
+          "value": "atrium_events:rewards/arena_armaments/armaments_common_2"
         },
         {
           "type": "loot_table",
           "weight": 30,
           "quality": 2,
-          "name": "atrium_events:rewards/arena_armaments/armaments_uncommon_2"
+          "value": "atrium_events:rewards/arena_armaments/armaments_uncommon_2"
         },
         {
           "type": "loot_table",
           "weight": 9,
           "quality": 4,
-          "name": "atrium_events:rewards/arena_armaments/armaments_rare_2"
+          "value": "atrium_events:rewards/arena_armaments/armaments_rare_2"
         },
         {
           "type": "loot_table",
           "weight": 1,
           "quality": 6,
-          "name": "atrium_events:rewards/arena_armaments/armaments_very_rare_2"
+          "value": "atrium_events:rewards/arena_armaments/armaments_very_rare_2"
         }
       ]
     }

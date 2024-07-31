@@ -7,34 +7,39 @@
       "entries": [
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:turtle_helmet",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{RepairCost:99,Enchantments:[{id:\"minecraft:projectile_protection\",lvl:1s},{id:\"minecraft:unbreaking\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUID:[I;-600273472,-1705750719,-1331482611,-305217091],Slot:\"head\"}]}"
+              "function": "set_components",
+              "components": {
+                "minecraft:repair_cost": 99,
+                "minecraft:custom_data": {
+                  "atrium_im_a_marine_set": 1
+                },
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:projectile_protection": 1,
+                    "minecraft:unbreaking": 1
+                  }
+                }
+              }
             },
             {
               "function": "set_name",
               "name": [
                 {
-                  "text": "Soldier's Helmet",
-                  "italic": "false"
+                  "text": "Soldier's Helmet"
                 }
-              ]
+              ],
+              "target": "item_name"
             },
             {
               "function": "set_lore",
               "lore": [
                 {
-                  "text": "Unrepairable",
                   "color": "dark_gray",
-                  "italic": "false"
+                  "italic": false,
+                  "text": "Unrepairable"
                 },
                 {
                   "text": " "
@@ -45,7 +50,8 @@
                 {
                   "text": "dinks in it from the war..."
                 }
-              ]
+              ],
+              "mode": "append"
             }
           ]
         }
@@ -57,34 +63,62 @@
       "entries": [
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:iron_chestplate",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{RepairCost:99,Enchantments:[{id:\"minecraft:blast_protection\",lvl:2s},{id:\"minecraft:unbreaking\",lvl:2s}],AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-0.15,Operation:1,UUID:[I;-2020583934,1529237141,-2059756283,548667318],Slot:\"chest\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:6,Operation:0,UUID:[I;1113922067,1854164986,-1136792084,-78297326],Slot:\"chest\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:1,Operation:0,UUID:[I;-614582276,1331904657,-1963714830,700492935],Slot:\"chest\"}]}"
+              "function": "set_components",
+              "components": {
+                "minecraft:repair_cost": 99,
+                "minecraft:custom_data": {
+                  "atrium_im_a_marine_set": 1
+                },
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:blast_protection": 2,
+                    "minecraft:unbreaking": 2
+                  }
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "id": "atrium:hardened_carapace_armor",
+                    "type": "generic.armor",
+                    "amount": 6,
+                    "operation": "add_value",
+                    "slot": "chest"
+                  },
+                  {
+                    "id": "atrium:hardened_carapace_armor_toughness",
+                    "type": "generic.armor_toughness",
+                    "amount": 1,
+                    "operation": "add_value",
+                    "slot": "chest"
+                  },
+                  {
+                    "id": "atrium:hardened_carapace_movement_speed",
+                    "type": "generic.movement_speed",
+                    "amount": -0.15,
+                    "operation": "add_multiplied_base",
+                    "slot": "chest"
+                  }
+                ]
+              }
             },
             {
               "function": "set_name",
               "name": [
                 {
-                  "text": "Hardened Carapace",
-                  "italic": "false"
+                  "text": "Hardened Carapace"
                 }
-              ]
+              ],
+              "target": "item_name"
             },
             {
               "function": "set_lore",
               "lore": [
                 {
-                  "text": "Unrepairable",
                   "color": "dark_gray",
-                  "italic": "false"
+                  "italic": false,
+                  "text": "Unrepairable"
                 },
                 {
                   "text": " "
@@ -95,7 +129,8 @@
                 {
                   "text": "for creeper defusals."
                 }
-              ]
+              ],
+              "mode": "append"
             }
           ]
         }
@@ -107,34 +142,51 @@
       "entries": [
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:leather_leggings",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{display:{color:2263842},HideFlags:64,RepairCost:99,Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:4,Operation:0,UUID:[I;86687030,208752023,-1423449882,-1713705479],Slot:\"legs\"}]}"
+              "function": "set_components",
+              "components": {
+                "minecraft:repair_cost": 99,
+                "minecraft:custom_data": {
+                  "atrium_im_a_marine_set": 1
+                },
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:unbreaking": 1
+                  }
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "id": "atrium:standard_issue_trousers_armor",
+                    "type": "generic.armor",
+                    "amount": 4,
+                    "operation": "add_value",
+                    "slot": "legs"
+                  }
+                ],
+                "minecraft:dyed_color": {
+                  "rgb": 2263842,
+                  "show_in_tooltip": false
+                }
+              }
             },
             {
               "function": "set_name",
               "name": [
                 {
-                  "text": "Standard Issue Trousers",
-                  "italic": "false"
+                  "text": "Standard Issue Trousers"
                 }
-              ]
+              ],
+              "target": "item_name"
             },
             {
               "function": "set_lore",
               "lore": [
                 {
-                  "text": "Unrepairable",
                   "color": "dark_gray",
-                  "italic": "false"
+                  "italic": false,
+                  "text": "Unrepairable"
                 },
                 {
                   "text": " "
@@ -145,7 +197,8 @@
                 {
                   "text": "Maybe a few too many pockets."
                 }
-              ]
+              ],
+              "mode": "append"
             }
           ]
         }
@@ -157,34 +210,52 @@
       "entries": [
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:leather_boots",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{display:{color:2263842},HideFlags:64,RepairCost:99,Enchantments:[{id:\"minecraft:depth_strider\",lvl:2s},{id:\"minecraft:unbreaking\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:1,Operation:0,UUID:[I;677611735,-561561180,-1775024186,2125109635],Slot:\"feet\"}]}"
+              "function": "set_components",
+              "components": {
+                "minecraft:repair_cost": 99,
+                "minecraft:custom_data": {
+                  "atrium_im_a_marine_set": 1
+                },
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:depth_strider": 2,
+                    "minecraft:unbreaking": 1
+                  }
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "id": "atrium:tactical_flippers_armor",
+                    "type": "generic.armor",
+                    "amount": 1,
+                    "operation": "add_value",
+                    "slot": "feet"
+                  }
+                ],
+                "minecraft:dyed_color": {
+                  "rgb": 2263842,
+                  "show_in_tooltip": false
+                }
+              }
             },
             {
               "function": "set_name",
               "name": [
                 {
-                  "text": "Tactical Flippers",
-                  "italic": "false"
+                  "text": "Tactical Flippers"
                 }
-              ]
+              ],
+              "target": "item_name"
             },
             {
               "function": "set_lore",
               "lore": [
                 {
-                  "text": "Unrepairable",
                   "color": "dark_gray",
-                  "italic": "false"
+                  "italic": false,
+                  "text": "Unrepairable"
                 },
                 {
                   "text": " "
@@ -201,7 +272,8 @@
                 {
                   "text": "bottom of each flipper."
                 }
-              ]
+              ],
+              "mode": "append"
             }
           ]
         }
@@ -213,26 +285,41 @@
       "entries": [
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:crossbow",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{RepairCost:99,Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s},{id:\"minecraft:piercing\",lvl:1s},{id:\"minecraft:quick_charge\",lvl:2s}],AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-0.10,Operation:1,UUID:[I;-1343604594,-1023588902,-2035002848,-1138833361],Slot:\"mainhand\"}]}"
+              "function": "set_components",
+              "components": {
+                "minecraft:repair_cost": 99,
+                "minecraft:custom_data": {
+                  "atrium_im_a_marine_set": 1
+                },
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:piercing": 1,
+                    "minecraft:quick_charge": 2,
+                    "minecraft:unbreaking": 1
+                  }
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "id": "atrium:auto_crossbow_movement_speed",
+                    "type": "generic.movement_speed",
+                    "amount": -0.1,
+                    "operation": "add_multiplied_base",
+                    "slot": "hand"
+                  }
+                ]
+              }
             },
             {
               "function": "set_name",
               "name": [
                 {
-                  "text": "Auto Crossbow",
-                  "italic": "false"
+                  "text": "Auto Crossbow"
                 }
-              ]
+              ],
+              "target": "item_name"
             },
             {
               "function": "set_lore",
@@ -240,7 +327,7 @@
                 {
                   "text": "Unrepairable",
                   "color": "dark_gray",
-                  "italic": "false"
+                  "italic": false
                 },
                 {
                   "text": " "
@@ -254,7 +341,8 @@
                 {
                   "text": "it gets the job done."
                 }
-              ]
+              ],
+              "mode": "append"
             }
           ]
         }
@@ -266,8 +354,6 @@
       "entries": [
         {
           "type": "item",
-          "weight": 1,
-          "quality": 0,
           "name": "minecraft:arrow",
           "functions": [
             {
