@@ -90,7 +90,8 @@
                 "minecraft:custom_model_data": 333134,
                 "minecraft:custom_data": {
                   "atrium_battleaxe": 1,
-                  "atrium_golden_battleaxe": 1
+                  "atrium_golden_battleaxe": 1,
+                  "atrium_ashsworn_set": 1
                 },
                 "minecraft:attribute_modifiers": {
                   "modifiers": [
@@ -185,7 +186,7 @@
                 "minecraft:rarity": "uncommon",
                 "minecraft:repair_cost": 5,
                 "minecraft:custom_data": {
-                  "atrium_ashsworn_armor": 1
+                  "atrium_ashsworn_set": 1
                 },
                 "minecraft:enchantments": {
                   "levels": {
@@ -259,7 +260,7 @@
                 "minecraft:rarity": "uncommon",
                 "minecraft:repair_cost": 5,
                 "minecraft:custom_data": {
-                  "atrium_ashsworn_armor": 1
+                  "atrium_ashsworn_set": 1
                 },
                 "minecraft:enchantments": {
                   "levels": {
@@ -330,7 +331,7 @@
                 "minecraft:rarity": "uncommon",
                 "minecraft:repair_cost": 5,
                 "minecraft:custom_data": {
-                  "atrium_ashsworn_armor": 1
+                  "atrium_ashsworn_set": 1
                 },
                 "minecraft:enchantments": {
                   "levels": {
@@ -402,7 +403,7 @@
                 "minecraft:rarity": "uncommon",
                 "minecraft:repair_cost": 5,
                 "minecraft:custom_data": {
-                  "atrium_ashsworn_armor": 1
+                  "atrium_ashsworn_set": 1
                 },
                 "minecraft:enchantments": {
                   "levels": {

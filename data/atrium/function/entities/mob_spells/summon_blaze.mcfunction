@@ -24,4 +24,4 @@ execute if predicate atrium:percentage_chances/0.25_p run scoreboard players rem
 function atrium:entities/mob_spells/mob_spell_cast_complete
 #
 # If spell cleanup broke the staff, remove the atrium_special tag.
-execute if entity @s[nbt=!{HandItems:[{},{tag:{atrium_staff:1b}}]}] run tag @s remove atrium_special
+execute if entity @s[nbt=!{HandItems:[{},{components:{"minecraft:custom_data":{atrium_staff:1b}}}]}] run tag @s remove atrium_special
