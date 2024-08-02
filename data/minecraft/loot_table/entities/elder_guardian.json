@@ -79,7 +79,7 @@
               "condition": "minecraft:entity_properties",
               "entity": "attacker",
               "predicate": {
-                "nbt": "{Inventory:[{components:{\"minecraft:custom_data\":{atrium_monument_quest_map:1b}}]}"
+                "nbt": "{Inventory:[{components:{\"minecraft:custom_data\":{atrium_monument_quest_map:1b}}}]}"
               }
             }
           ]
