@@ -17,7 +17,7 @@ scoreboard players set @s messorum_favor 0
 scoreboard players set @s nox_favor 0
 scoreboard players set @s quipster_favor 0
 scoreboard players set @s syrula_favor 0
-scoreboard players set @s tarqsol_favor 0
+scoreboard players set @s taraqsol_favor 0
 scoreboard players set @s reputation 0
 scoreboard players set @s resurrect_others 0
 xp set @s 0 levels
