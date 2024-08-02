@@ -1,5 +1,5 @@
 # Since their war has been going for long enough that the fortresses are crumbling to ruin, each footsoldier gets random armor.
-execute as @e[tag=atrium_infernium_footsoldier,distance=..1] if predicate atrium:percentage_chances/0.35_p run item replace entity @s armor.head with minecraft:iron_helmet{Damage:100}
-execute as @e[tag=atrium_infernium_footsoldier,distance=..1] if predicate atrium:percentage_chances/0.35_p run item replace entity @s armor.chest with minecraft:chainmail_chestplate{Damage:200}
-execute as @e[tag=atrium_infernium_footsoldier,distance=..1] if predicate atrium:percentage_chances/0.35_p run item replace entity @s armor.legs with minecraft:chainmail_leggings{Damage:195}
-execute as @e[tag=atrium_infernium_footsoldier,distance=..1] if predicate atrium:percentage_chances/0.35_p run item replace entity @s armor.feet with minecraft:iron_boots{Damage:160}
+execute as @e[tag=atrium_infernium_footsoldier,distance=..1] if predicate atrium:percentage_chances/0.35_p run item replace entity @s armor.head with minecraft:iron_helmet[minecraft:damage=100]
+execute as @e[tag=atrium_infernium_footsoldier,distance=..1] if predicate atrium:percentage_chances/0.35_p run item replace entity @s armor.chest with minecraft:chainmail_chestplate[minecraft:damage=200]
+execute as @e[tag=atrium_infernium_footsoldier,distance=..1] if predicate atrium:percentage_chances/0.35_p run item replace entity @s armor.legs with minecraft:chainmail_leggings[minecraft:damage=195]
+execute as @e[tag=atrium_infernium_footsoldier,distance=..1] if predicate atrium:percentage_chances/0.35_p run item replace entity @s armor.feet with minecraft:iron_boots[minecraft:damage=160]

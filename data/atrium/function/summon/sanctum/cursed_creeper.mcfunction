@@ -1,3 +1,3 @@
 # Summons 1 Cursed Creeper.
 # Used in the Sanctum dungeons.
-summon creeper ~ ~ ~ {ActiveEffects: [{Amplifier: 2b, Duration: 999999999, Id: 4, ShowParticles: 1b}], Attributes: [{Base: 30, Name: "generic.max_health"}, {Base: 40, Name: "generic.follow_range"}], CustomName: '{"text":"Enchanted Creeper","color":"dark_gray","italic":false}', Health: 30.0f, PersistenceRequired: 1b, Tags: ["atrium_cursed_creeper"], powered: 1b}
+summon creeper ~ ~ ~ {active_effects:[{id:"minecraft:mining_fatigue",amplifier:2,duration:-1,show_particles:1b}], attributes: [{base: 30, id: "generic.max_health"}, {base: 40, id: "generic.follow_range"}], CustomName: '{"text":"Enchanted Creeper","color":"dark_gray","italic":false}', Health: 30.0f, PersistenceRequired: 1b, Tags: ["atrium_cursed_creeper"], powered: 1b}

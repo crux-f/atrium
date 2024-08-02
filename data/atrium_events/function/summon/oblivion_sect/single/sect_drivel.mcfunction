@@ -1,10 +1,10 @@
 # Summon 1 Sect Drivel
 # Essentially cannon fodder. Sometimes have gear, always pick up someone else's gear when it falls.
-summon minecraft:drowned ~ ~ ~ {PersistenceRequired:1b,CanPickUpLoot:1b,Tags:["atrium_sect_drivel"],CustomName:'{"text":"Sect Drivel","color":"gray","italic":false}',Attributes:[{Name:"generic.follow_range",Base:60}],ArmorDropChances:[0.25F,0.25F,0.25F,0.25F],HandDropChances:[0.250F,0.085F]}
+summon minecraft:drowned ~ ~ ~ {ArmorDropChances: [0.25f, 0.25f, 0.25f, 0.25f], attributes: [{base: 60, id: "generic.follow_range"}], CanPickUpLoot: 1b, CustomName: '{"text":"Sect Drivel","color":"gray","italic":false}', HandDropChances: [0.25f, 0.085f], PersistenceRequired: 1b, Tags: ["atrium_sect_drivel"]}
 #
 # Sometimes have gear
-execute as @e[tag=atrium_sect_drivel,distance=..1] if predicate atrium:percentage_chances/0.25_p run item replace entity @s armor.head with minecraft:iron_helmet{Damage:140}
-execute as @e[tag=atrium_sect_drivel,distance=..1] if predicate atrium:percentage_chances/0.25_p run item replace entity @s armor.chest with minecraft:iron_chestplate{Damage:210}
-execute as @e[tag=atrium_sect_drivel,distance=..1] if predicate atrium:percentage_chances/0.25_p run item replace entity @s armor.legs with minecraft:iron_leggings{Damage:190}
-execute as @e[tag=atrium_sect_drivel,distance=..1] if predicate atrium:percentage_chances/0.25_p run item replace entity @s armor.feet with minecraft:iron_boots{Damage:160,tag:{Enchantments:[{id:"minecraft:depth_strider",lvl:2s}]}}
-execute as @e[tag=atrium_sect_drivel,distance=..1] if predicate atrium:percentage_chances/0.50_p run item replace entity @s weapon.mainhand with iron_sword{display:{Name:'{"text":"Ruined Blade","italic":false}'},Damage:230,CustomModelData:333086,atrium_ruined_blade:1b,AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:2,Operation:0,UUID:[I;624984712,1200570591,-1448101242,1012217807],Slot:"mainhand"}]}
+execute as @e[tag=atrium_sect_drivel,distance=..1] if predicate atrium:percentage_chances/0.25_p run item replace entity @s armor.head with minecraft:iron_helmet[minecraft:damage=140]
+execute as @e[tag=atrium_sect_drivel,distance=..1] if predicate atrium:percentage_chances/0.25_p run item replace entity @s armor.chest with minecraft:iron_chestplate[minecraft:damage=210]
+execute as @e[tag=atrium_sect_drivel,distance=..1] if predicate atrium:percentage_chances/0.25_p run item replace entity @s armor.legs with minecraft:iron_leggings[minecraft:damage=190]
+execute as @e[tag=atrium_sect_drivel,distance=..1] if predicate atrium:percentage_chances/0.25_p run item replace entity @s armor.feet with minecraft:iron_boots[minecraft:damage=160,minecraft:custom_data={tag:{Enchantments:[{id:"minecraft:depth_strider",lvl:2s}]}}]
+execute as @e[tag=atrium_sect_drivel,distance=..1] if predicate atrium:percentage_chances/0.50_p run item replace entity @s weapon.mainhand with minecraft:iron_sword[minecraft:custom_model_data=333086,minecraft:attribute_modifiers={modifiers:[{amount:2,id:"atrium:ruined_blade_attack_damage",operation:"add_value",slot:"mainhand",type:"generic.attack_damage"}]},minecraft:damage=230,minecraft:item_name='{"text":"Ruined Blade","italic":false}',minecraft:custom_data={atrium_ruined_blade:1b}]
