@@ -13,7 +13,7 @@ execute as @e[type=!minecraft:player,distance=..30] run data remove entity @s Mo
 # Disable all non-player entities' AI for 5 seconds. (Note: re-enabled by condition manager)
 execute as @e[type=!minecraft:player,distance=..30] run tag @s add atrium_condition
 execute as @e[type=!minecraft:player,distance=..30] run tag @s add atrium_ai_disabled
-execute as @e[type=!minecraft:player,distance=..30] run data modify entity @s NoAI set value 1
+execute as @e[type=!minecraft:player,distance=..30] run data modify entity @s NoAI set value true
 # Set timer
 execute as @e[type=!minecraft:player,distance=..30] run scoreboard players set @s atrium_condition_timer -100
 #

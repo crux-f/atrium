@@ -9,8 +9,8 @@ summon marker ~ ~ ~ {Tags:["atrium_special","atrium_temporary_entity","atrium_er
 scoreboard players set @e[limit=1,sort=nearest,tag=atrium_eruption_spell,type=marker] charge -1200
 #
 # Summon ash cloud
-execute at @s run summon area_effect_cloud ~ ~10 ~ {Particle:"large_smoke",Radius:5f,Duration:1180}
-execute at @s run summon area_effect_cloud ~ ~10 ~ {Particle:"dripping_lava",Radius:5f,Duration:1180,Tags:["atrium_eruption_cloud"]}
+execute at @s run summon area_effect_cloud ~ ~10 ~ {Particle:{type:"large_smoke"},Radius:5f,Duration:1180}
+execute at @s run summon area_effect_cloud ~ ~10 ~ {Particle:{type:"dripping_lava"},Radius:5f,Duration:1180,Tags:["atrium_eruption_cloud"]}
 # Give the caster Fire Resistance for 10 seconds
 effect give @s minecraft:fire_resistance 10 0 true
 #

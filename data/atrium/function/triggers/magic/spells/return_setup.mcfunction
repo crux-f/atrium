@@ -31,7 +31,7 @@ execute if entity @s[scores={atrium_return_dim=0..}] store result score @s atriu
 #
 execute if entity @s[scores={atrium_return_dim=0..}] at @s anchored feet run particle minecraft:happy_villager ~ ~ ~ 0.35 0 0 0.5 50 normal
 execute if entity @s[scores={atrium_return_dim=0..}] at @s anchored feet run particle minecraft:happy_villager ~ ~ ~ 0 0 0.35 0.5 50 normal
-execute if entity @s[scores={atrium_return_dim=0..}] at @s anchored feet run summon area_effect_cloud ~ ~ ~ {Particle:"totem_of_undying",Radius:0.25f,Duration:200,Potion:"minecraft:empty"}
+execute if entity @s[scores={atrium_return_dim=0..}] at @s anchored feet run summon area_effect_cloud ~ ~ ~ {Particle:{type:"totem_of_undying"},Radius:0.25f,Duration:200}
 execute if entity @s[scores={atrium_return_dim=0..}] at @s run playsound minecraft:block.rooted_dirt.step player @a[distance=..10] ~ ~ ~ 0.5 0 0.1
 # Decorative plant marker.
 execute if entity @s[scores={atrium_return_dim=0}] at @s anchored feet run setblock ~ ~ ~ minecraft:oxeye_daisy
