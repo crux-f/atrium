@@ -373,7 +373,7 @@
               "function": "set_components",
               "components": {
                 "minecraft:block_state": {
-                  "waterlogged": true
+                  "waterlogged": "true"
                 }
               }
             }
@@ -428,7 +428,6 @@
               "function": "set_components",
               "components": {
                 "minecraft:potion_contents": {
-                  "potion": "minecraft:empty",
                   "custom_color": 2820024,
                   "custom_effects": [
                     {
@@ -469,7 +468,7 @@
           "type": "loot_table",
           "weight": 6,
           "quality": 3,
-          "name": "atrium:formulas/infusion_research_common"
+          "value": "atrium:formulas/infusion_research_common"
         },
         {
           "type": "item",

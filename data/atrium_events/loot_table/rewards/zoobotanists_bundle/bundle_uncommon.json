@@ -372,6 +372,8 @@
               "components": {
                 "minecraft:bees": [
                   {
+                    "min_ticks_in_hive": 2400,
+                    "ticks_in_hive": 5,
                     "entity_data": {
                       "id": "minecraft:bee"
                     }

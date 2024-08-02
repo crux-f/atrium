@@ -97,7 +97,7 @@
                   "explosions": [
                     {
                       "shape": "burst",
-                      "has_flicker": true,
+                      "has_twinkle": true,
                       "colors": [
                         16711680
                       ],
