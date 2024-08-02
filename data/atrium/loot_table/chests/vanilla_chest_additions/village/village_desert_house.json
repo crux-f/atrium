@@ -147,7 +147,14 @@
                   ],
                   "minecraft:tool": {
                     "default_mining_speed": 0,
-                    "damage_per_block": 3
+                    "damage_per_block": 3,
+                    "rules": [
+                    {
+                      "speed": 0,
+                      "correct_for_drops": false,
+                      "blocks": "dirt_path"
+                    }
+                  ]
                   }
                 }
               },
