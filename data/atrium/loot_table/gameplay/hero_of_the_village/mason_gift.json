@@ -50,7 +50,7 @@
           "type": "loot_table",
           "weight": 3,
           "quality": 1,
-          "name": "atrium:gameplay/hero_of_the_village/village_type_key"
+          "value": "atrium:gameplay/hero_of_the_village/village_type_key"
         }
       ],
       "rolls": 1.0
