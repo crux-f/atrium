@@ -3,7 +3,7 @@ execute at @s run gamemode survival @p[tag=resurrectee,distance=..10]
 # Increase the counter for having resurrected other players by 1
 scoreboard players add @a[tag=resurrector] resurrect_others 1
 # Give each Resurrector an advancement
-advancement grant @s only atrium:belief/resurrect_1
+advancement grant @s only atrium:belief/resurrect_other_player
 advancement grant @s[scores={resurrect_others=10..}] only atrium:belief/resurrect_10
 advancement grant @s[scores={resurrect_others=20..}] only atrium:belief/resurrect_20
 advancement grant @s[scores={resurrect_others=50..}] only atrium:belief/resurrect_50
