@@ -4,13 +4,14 @@
 # Note: alchemy_base_item handles the first item - this script will handle any remaining item checks.
 #
 # Check NORTH EAST for Charcoal
-execute positioned ~2 ~ ~-2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:charcoal",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
-execute positioned ~2 ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:charcoal",Count:1b}}] run scoreboard players add @s valid_ingredients 1
+execute positioned ~2 ~ ~-2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:charcoal",count:1}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~2 ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:charcoal",count:1}}] run scoreboard players add @s valid_ingredients 1
 # Check NORTH WEST for Charcoal
-execute positioned ~-2 ~ ~-2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:charcoal",Count:1b}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
-execute positioned ~-2 ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:charcoal",Count:1b}}] run scoreboard players add @s valid_ingredients 1
+execute positioned ~-2 ~ ~-2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:charcoal",count:1}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~-2 ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:charcoal",count:1}}] run scoreboard players add @s valid_ingredients 1
 #
-execute if entity @s[scores={valid_ingredients=2..}] at @s run summon item ~ ~1 ~ {NoGravity:1b,Glowing:1b,Item:{id:"minecraft:flint",Count:1b,tag:{display:{Name:'{"text":"Blank Slate","italic":false}'},CustomModelData:333089,atrium_runestone:1b,atrium_rune:blank}}}
+execute if entity @s[scores={valid_ingredients=2..}] at @s run summon item ~ ~0.5 ~ {Tags:["atrium_formula_product"],Motion:[0.0,0.02,0.0],NoGravity:1b,Glowing:1b,Item:{id:"minecraft:egg",count:1,components:{"minecraft:item_name":'{"text":"Extremely Reportable Egg"}',"minecraft:lore":['{"text":"Seems like something you"}','{"text":"should report to the Admins."}'],"minecraft:custom_model_data":333081,"minecraft:custom_data":{atrium_extremely_reportable_egg:1}}}}
+execute if entity @s[scores={valid_ingredients=2..}] at @s run item replace entity @e[limit=1,sort=nearest,tag=atrium_formula_product] container.0 with minecraft:flint[minecraft:custom_model_data=333089,minecraft:item_name='{"text":"Blank Slate"}',minecraft:custom_data={atrium_rune:"blank",atrium_runestone:1b}] 1
 execute if entity @s[scores={valid_ingredients=2..}] run function atrium:formula_crafting/enchantment/enchantment_reset
 # tellraw @a [{"text":"Validation reached: [","color":"gray"},{"score":{"name":"@s","objective":"valid_ingredients"},"bold":true,"color":"gray"},{"text":"]","color":"gray"}]
 scoreboard players set @s valid_ingredients 0
