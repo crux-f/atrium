@@ -12,10 +12,12 @@
                   "entity": "this",
                   "predicate": {
                     "equipment": {
-                      "offhand": {
+                      "mainhand": {
                         "components": {
-                          "minecraft:custom_data": {
-                            "atrium_concentration_enchanted": 1
+                          "minecraft:enchantments": {
+                            "levels": {
+                              "atrium:concentration": 1
+                            }
                           }
                         }
                       }
@@ -29,8 +31,112 @@
                     "equipment": {
                       "mainhand": {
                         "components": {
-                          "minecraft:custom_data": {
-                            "atrium_concentration_enchanted": 1
+                          "minecraft:enchantments": {
+                            "levels": {
+                              "atrium:concentration": 2
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "mainhand": {
+                        "components": {
+                          "minecraft:enchantments": {
+                            "levels": {
+                              "atrium:concentration": 3
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "mainhand": {
+                        "components": {
+                          "minecraft:enchantments": {
+                            "levels": {
+                              "atrium:concentration": 4
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "offhand": {
+                        "components": {
+                          "minecraft:enchantments": {
+                            "levels": {
+                              "atrium:concentration": 1
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "offhand": {
+                        "components": {
+                          "minecraft:enchantments": {
+                            "levels": {
+                              "atrium:concentration": 2
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "offhand": {
+                        "components": {
+                          "minecraft:enchantments": {
+                            "levels": {
+                              "atrium:concentration": 3
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "offhand": {
+                        "components": {
+                          "minecraft:enchantments": {
+                            "levels": {
+                              "atrium:concentration": 4
+                            }
                           }
                         }
                       }

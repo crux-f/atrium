@@ -8,8 +8,10 @@
             "equipment": {
               "mainhand": {
                 "components": {
-                  "minecraft:custom_data": {
-                    "atrium_feast_enchanted": 1
+                  "minecraft:enchantments": {
+                    "levels": {
+                      "atrium:feast": 1
+                    }
                   }
                 }
               }

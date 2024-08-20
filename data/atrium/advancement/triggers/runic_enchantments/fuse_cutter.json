@@ -11,8 +11,10 @@
               "equipment": {
                 "mainhand": {
                   "components": {
-                    "minecraft:custom_data": {
-                      "atrium_fuse_cutter_enchanted": 1
+                    "minecraft:enchantments": {
+                      "levels": {
+                        "atrium:fuse_cutter": 1
+                      }
                     }
                   }
                 }

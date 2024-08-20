@@ -8,8 +8,10 @@
               "minecraft:shield"
             ],
             "components": {
-              "minecraft:custom_data": {
-                "atrium_sentinel_enchanted": 1
+              "minecraft:enchantments": {
+                "levels": {
+                  "atrium:sentinel": 1
+                }
               }
             }
           }
