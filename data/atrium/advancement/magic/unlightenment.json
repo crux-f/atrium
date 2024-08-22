@@ -1,5 +1,4 @@
 {
-    "__comment": "Acquired by reaching 100 levels (triggered by atrium:triggers/player_check_each_second)",
     "display": {
         "title": {
             "text": "Unlightenment"

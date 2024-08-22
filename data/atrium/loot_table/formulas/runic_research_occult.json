@@ -1,0 +1,270 @@
+{
+    "type": "chest",
+    "pools": [
+      {
+        "rolls": 1,
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "item",
+            "weight": 10,
+            "quality": 0,
+            "name": "minecraft:paper",
+            "functions": [
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:rarity": "common",
+                  "minecraft:custom_model_data": 333002,
+                  "minecraft:custom_data": {
+                    "atrium_research": 1,
+                    "atrium_research_type": "runic",
+                    "atrium_topic": "words_of_power"
+                  }
+                }
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Runic Research"
+                  }
+                ],
+                "target": "item_name"
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Runic Codex Formulas:",
+                    "underlined": true
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Occult Altar [Upgrade]"
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Copy Rune [Green]"
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Copy Rune [Red]"
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Blank Slate"
+                  }
+                ],
+                "mode": "append"
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 10,
+            "quality": 0,
+            "name": "minecraft:paper",
+            "functions": [
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:rarity": "common",
+                  "minecraft:custom_model_data": 333002,
+                  "minecraft:custom_data": {
+                    "atrium_research": 1,
+                    "atrium_research_type": "runic",
+                    "atrium_topic": "feast"
+                  }
+                }
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Runic Research"
+                  }
+                ],
+                "target": "item_name"
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Runic Codex Formulas:",
+                    "underlined": true
+                  },
+                  {
+                     "text": "[Enchantment] ",
+                     "color": "gray",
+                     "italic": false
+                  },
+                  {
+                      "text": "FEAST",
+                      "color": "gray",
+                      "italic": false,
+                      "font": "illageralt"
+                  }
+                ],
+                "mode": "append"
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 10,
+            "quality": 0,
+            "name": "minecraft:paper",
+            "functions": [
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:rarity": "common",
+                  "minecraft:custom_model_data": 333002,
+                  "minecraft:custom_data": {
+                    "atrium_research": 1,
+                    "atrium_research_type": "runic",
+                    "atrium_topic": "surge"
+                  }
+                }
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Runic Research"
+                  }
+                ],
+                "target": "item_name"
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                    {
+                        "text": "Runic Codex Formulas:",
+                        "color": "gray",
+                        "italic": false,
+                        "underlined": true
+                    },
+                    [
+                        {
+                            "text": "[Enchantment] ",
+                            "color": "gray",
+                            "italic": false
+                        },
+                        {
+                            "text": "SURGE",
+                            "color": "gray",
+                            "italic": false,
+                            "font": "illageralt"
+                        }
+                    ]
+                ],
+                "mode": "append"
+            }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 10,
+            "quality": 0,
+            "name": "minecraft:paper",
+            "functions": [
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:rarity": "common",
+                  "minecraft:custom_model_data": 333002,
+                  "minecraft:custom_data": {
+                    "atrium_research": 1,
+                    "atrium_research_type": "runic",
+                    "atrium_topic": "trident"
+                  }
+                }
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Runic Research"
+                  }
+                ],
+                "target": "item_name"
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Runic Codex Formulas:",
+                    "underlined": true
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Trident"
+                  }
+                ],
+                "mode": "append"
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "quality": 2,
+            "name": "minecraft:paper",
+            "functions": [
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:rarity": "uncommon",
+                  "minecraft:custom_model_data": 333002,
+                  "minecraft:custom_data": {
+                    "atrium_research": 1,
+                    "atrium_research_type": "runic",
+                    "atrium_topic": "totem_of_undying"
+                  }
+                }
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Runic Research"
+                  }
+                ],
+                "target": "item_name"
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Runic Codex Formulas:",
+                    "underlined": true
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Totem of Undying"
+                  }
+                ],
+                "mode": "append"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

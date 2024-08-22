@@ -1,5 +1,4 @@
 {
-    "__comment": "Acquired by crafting something using a formula crafting recipe",
     "criteria": {
         "use_formula_crafting": {
             "trigger": "minecraft:impossible"
@@ -15,7 +14,7 @@
         "icon": {
             "id": "minecraft:written_book",
             "components": {
-              "minecraft:custom_model_data": 333000
+              "minecraft:custom_model_data": 333202
             }
           },
         "frame": "task",
