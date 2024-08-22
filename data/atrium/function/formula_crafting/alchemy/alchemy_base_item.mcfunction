@@ -1,6 +1,10 @@
 # Reset score
 scoreboard players set @s valid_ingredients 0
 #
+# Research Alchemy (Transform Alchemy Research items into Formulas) - Check NORTH for Alchemy Research
+execute positioned ~ ~ ~-2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:paper",components:{"minecraft:custom_data":{atrium_research_type:"alchemy"}}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:paper",components:{"minecraft:custom_data":{atrium_research_type:"alchemy"}}}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/create_alchemy_formula
+#
 # Crafting Components
 #
 # Start Cinder Solution - Check NORTH for Magma Cream
@@ -23,7 +27,7 @@ execute positioned ~ ~ ~-2 at @e[type=minecraft:glow_item_frame,distance=..1.5,n
 execute positioned ~ ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:sand"}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/eternal_hourglass
 # Start Everglacier - Check NORTH for Calm Crystal
 execute positioned ~ ~ ~-2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{components:{"minecraft:custom_data":{atrium_calm_crystal:1b}}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
-execute positioned ~ ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{tag:{"minecraft:custom_data":{atrium_calm_crystal:1b}}}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/everglacier
+execute positioned ~ ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{components:{"minecraft:custom_data":{atrium_calm_crystal:1b}}}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/everglacier
 # Start Cyclone Cube - Check NORTH for Glass
 execute positioned ~ ~ ~-2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:glass"}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
 execute positioned ~ ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:glass"}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/cyclone_cube
@@ -34,72 +38,72 @@ execute positioned ~ ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=
 # Tier 3 Potions
 #
 # Start Potion of Swiftness (17:00) - Check SOUTH for Potion of Swiftness (8:00)
-execute positioned ~ ~ ~2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:potion",components:{"potion_contents":{potion:"minecraft:long_swiftness"}}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
-execute positioned ~ ~ ~2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:potion",components:{"potion_contents":{potion:"minecraft:long_swiftness"}}}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/longer_swiftness
+execute positioned ~ ~ ~2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:potion",components:{"minecraft:potion_contents":{potion:"minecraft:long_swiftness"}}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:potion",components:{"minecraft:potion_contents":{potion:"minecraft:long_swiftness"}}}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/longer_swiftness
 #
 # Start Potion of Swiftness III (0:45) - Check SOUTH for Potion of Swiftness II (1:30)
-execute positioned ~ ~ ~2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:potion",components:{"potion_contents":{potion:"minecraft:strong_swiftness"}}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
-execute positioned ~ ~ ~2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:potion",components:{"potion_contents":{potion:"minecraft:strong_swiftness"}}}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/stronger_swiftness
+execute positioned ~ ~ ~2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:potion",components:{"minecraft:potion_contents":{potion:"minecraft:strong_swiftness"}}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:potion",components:{"minecraft:potion_contents":{potion:"minecraft:strong_swiftness"}}}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/stronger_swiftness
 #
 # Start Potion of Strength (17:00) - Check SOUTH for Potion of Strength (8:00)
-execute positioned ~ ~ ~2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:potion",components:{"potion_contents":{potion:"minecraft:long_strength"}}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
-execute positioned ~ ~ ~2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:potion",components:{"potion_contents":{potion:"minecraft:long_strength"}}}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/longer_strength
+execute positioned ~ ~ ~2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:potion",components:{"minecraft:potion_contents":{potion:"minecraft:long_strength"}}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:potion",components:{"minecraft:potion_contents":{potion:"minecraft:long_strength"}}}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/longer_strength
 #
 # Start Potion of Strength III (0:45) - Check SOUTH for Potion of Strength II (1:30)
-execute positioned ~ ~ ~2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:potion",components:{"potion_contents":{potion:"minecraft:strong_strength"}}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
-execute positioned ~ ~ ~2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:potion",components:{"potion_contents":{potion:"minecraft:strong_strength"}}}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/stronger_strength
+execute positioned ~ ~ ~2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:potion",components:{"minecraft:potion_contents":{potion:"minecraft:strong_strength"}}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:potion",components:{"minecraft:potion_contents":{potion:"minecraft:strong_strength"}}}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/stronger_strength
 #
 # Start Potion of Healing III - Check SOUTH for Potion of Healing II
-execute positioned ~ ~ ~2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:potion",components:{"potion_contents":{potion:"minecraft:strong_healing"}}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
-execute positioned ~ ~ ~2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:potion",components:{"potion_contents":{potion:"minecraft:strong_healing"}}}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/stronger_healing
+execute positioned ~ ~ ~2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:potion",components:{"minecraft:potion_contents":{potion:"minecraft:strong_healing"}}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:potion",components:{"minecraft:potion_contents":{potion:"minecraft:strong_healing"}}}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/stronger_healing
 #
 # Start Potion of Harming III - Check SOUTH for Potion of Harming II
-execute positioned ~ ~ ~2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:potion",components:{"potion_contents":{potion:"minecraft:strong_harming"}}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
-execute positioned ~ ~ ~2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:potion",components:{"potion_contents":{potion:"minecraft:strong_harming"}}}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/stronger_harming
+execute positioned ~ ~ ~2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:potion",components:{"minecraft:potion_contents":{potion:"minecraft:strong_harming"}}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:potion",components:{"minecraft:potion_contents":{potion:"minecraft:strong_harming"}}}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/stronger_harming
 #
 # Start Potion of Leaping (17:00) - Check SOUTH for Potion of Leaping (8:00)
-execute positioned ~ ~ ~2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:potion",components:{"potion_contents":{potion:"minecraft:long_leaping"}}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
-execute positioned ~ ~ ~2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:potion",components:{"potion_contents":{potion:"minecraft:long_leaping"}}}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/longer_leaping
+execute positioned ~ ~ ~2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:potion",components:{"minecraft:potion_contents":{potion:"minecraft:long_leaping"}}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:potion",components:{"minecraft:potion_contents":{potion:"minecraft:long_leaping"}}}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/longer_leaping
 #
 # Start Potion of Leaping III (0:45) - Check SOUTH for Potion of Leaping II (1:30)
-execute positioned ~ ~ ~2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:potion",components:{"potion_contents":{potion:"minecraft:strong_leaping"}}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
-execute positioned ~ ~ ~2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:potion",components:{"potion_contents":{potion:"minecraft:strong_leaping"}}}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/stronger_leaping
+execute positioned ~ ~ ~2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:potion",components:{"minecraft:potion_contents":{potion:"minecraft:strong_leaping"}}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:potion",components:{"minecraft:potion_contents":{potion:"minecraft:strong_leaping"}}}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/stronger_leaping
 #
 # Start Potion of Regeneration (4:00) - Check SOUTH for Potion of Regeneration (1:30)
-execute positioned ~ ~ ~2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:potion",components:{"potion_contents":{potion:"minecraft:long_regeneration"}}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
-execute positioned ~ ~ ~2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:potion",components:{"potion_contents":{potion:"minecraft:long_regeneration"}}}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/longer_regeneration
+execute positioned ~ ~ ~2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:potion",components:{"minecraft:potion_contents":{potion:"minecraft:long_regeneration"}}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:potion",components:{"minecraft:potion_contents":{potion:"minecraft:long_regeneration"}}}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/longer_regeneration
 #
 # Start Potion of Regeneration III (0:22) - Check SOUTH for Potion of Regeneration II (0:45)
-execute positioned ~ ~ ~2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:potion",components:{"potion_contents":{potion:"minecraft:strong_regeneration"}}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
-execute positioned ~ ~ ~2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:potion",components:{"potion_contents":{potion:"minecraft:strong_regeneration"}}}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/stronger_regeneration
+execute positioned ~ ~ ~2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:potion",components:{"minecraft:potion_contents":{potion:"minecraft:strong_regeneration"}}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:potion",components:{"minecraft:potion_contents":{potion:"minecraft:strong_regeneration"}}}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/stronger_regeneration
 #
 # Start Potion of Fire Resistance (17:00) - Check SOUTH for Potion of Fire Resistance (8:00)
-execute positioned ~ ~ ~2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:potion",components:{"potion_contents":{potion:"minecraft:long_fire_resistance"}}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
-execute positioned ~ ~ ~2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:potion",components:{"potion_contents":{potion:"minecraft:long_fire_resistance"}}}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/longer_fire_resistance
+execute positioned ~ ~ ~2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:potion",components:{"minecraft:potion_contents":{potion:"minecraft:long_fire_resistance"}}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:potion",components:{"minecraft:potion_contents":{potion:"minecraft:long_fire_resistance"}}}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/longer_fire_resistance
 #
 # Start Potion of Water Breathing (17:00) - Check SOUTH for Potion of Water Breathing (8:00)
-execute positioned ~ ~ ~2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:potion",components:{"potion_contents":{potion:"minecraft:long_water_breathing"}}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
-execute positioned ~ ~ ~2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:potion",components:{"potion_contents":{potion:"minecraft:long_water_breathing"}}}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/longer_water_breathing
+execute positioned ~ ~ ~2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:potion",components:{"minecraft:potion_contents":{potion:"minecraft:long_water_breathing"}}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:potion",components:{"minecraft:potion_contents":{potion:"minecraft:long_water_breathing"}}}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/longer_water_breathing
 #
 # Start Potion of Invisibility (17:00) - Check SOUTH for Potion of Invisibility (8:00)
-execute positioned ~ ~ ~2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:potion",components:{"potion_contents":{potion:"minecraft:long_invisibility"}}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
-execute positioned ~ ~ ~2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:potion",components:{"potion_contents":{potion:"minecraft:long_invisibility"}}}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/longer_invisibility
+execute positioned ~ ~ ~2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:potion",components:{"minecraft:potion_contents":{potion:"minecraft:long_invisibility"}}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:potion",components:{"minecraft:potion_contents":{potion:"minecraft:long_invisibility"}}}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/longer_invisibility
 #
 # Start Potion of Night Vision (17:00) - Check SOUTH for Potion of Night Vision (8:00)
-execute positioned ~ ~ ~2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:potion",components:{"potion_contents":{potion:"minecraft:long_night_vision"}}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
-execute positioned ~ ~ ~2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:potion",components:{"potion_contents":{potion:"minecraft:long_night_vision"}}}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/longer_night_vision
+execute positioned ~ ~ ~2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:potion",components:{"minecraft:potion_contents":{potion:"minecraft:long_night_vision"}}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:potion",components:{"minecraft:potion_contents":{potion:"minecraft:long_night_vision"}}}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/longer_night_vision
 #
 # Start Potion of Poison (4:00) - Check SOUTH for Potion of Poison (1:30)
-execute positioned ~ ~ ~2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:potion",components:{"potion_contents":{potion:"minecraft:long_poison"}}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
-execute positioned ~ ~ ~2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:potion",components:{"potion_contents":{potion:"minecraft:long_poison"}}}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/longer_poison
+execute positioned ~ ~ ~2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:potion",components:{"minecraft:potion_contents":{potion:"minecraft:long_poison"}}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:potion",components:{"minecraft:potion_contents":{potion:"minecraft:long_poison"}}}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/longer_poison
 #
 # Start Potion of Poison III (0:22) - Check SOUTH for Potion of Poison II (0:45)
-execute positioned ~ ~ ~2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:potion",components:{"potion_contents":{potion:"minecraft:strong_poison"}}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
-execute positioned ~ ~ ~2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:potion",components:{"potion_contents":{potion:"minecraft:strong_poison"}}}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/stronger_poison
+execute positioned ~ ~ ~2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:potion",components:{"minecraft:potion_contents":{potion:"minecraft:strong_poison"}}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:potion",components:{"minecraft:potion_contents":{potion:"minecraft:strong_poison"}}}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/stronger_poison
 #
 # Start Slow Falling (8:00) - Check SOUTH for Potion of Slow Falling (8:00)
-execute positioned ~ ~ ~2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:potion",components:{"potion_contents":{potion:"minecraft:long_slow_falling"}}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
-execute positioned ~ ~ ~2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:potion",components:{"potion_contents":{potion:"minecraft:long_slow_falling"}}}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/longer_slow_falling
+execute positioned ~ ~ ~2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:potion",components:{"minecraft:potion_contents":{potion:"minecraft:long_slow_falling"}}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:potion",components:{"minecraft:potion_contents":{potion:"minecraft:long_slow_falling"}}}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/longer_slow_falling
 #
 # Other Potions
 #

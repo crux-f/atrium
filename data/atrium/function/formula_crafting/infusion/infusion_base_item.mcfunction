@@ -1,6 +1,10 @@
 # Reset score
 scoreboard players set @s valid_ingredients 0
 #
+# Research Infusion (Transform Infusion Research items into Formulas) - Check NORTH for Infusion Research
+execute positioned ~ ~ ~-2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:paper",components:{"minecraft:custom_data":{atrium_research_type:"infusion"}}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:paper",components:{"minecraft:custom_data":{atrium_research_type:"infusion"}}}}] at @s run function atrium:formula_crafting/infusion/i_recipes/create_infusion_formula
+#
 # Crafting Components
 #
 # Start Inert Focus - Check CENTER SOUTH for Diamond

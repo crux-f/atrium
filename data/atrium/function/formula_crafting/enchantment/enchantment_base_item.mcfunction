@@ -1,6 +1,10 @@
 # Reset score
 scoreboard players set @s valid_ingredients 0
 #
+# Research Enchantment (Transform Runic Research items into Formulas) - Check NORTH for Runic Research
+execute positioned ~ ~ ~-3 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:paper",components:{"minecraft:custom_data":{atrium_research_type:"runic"}}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~-3 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:paper",components:{"minecraft:custom_data":{atrium_research_type:"runic"}}}}] at @s run function atrium:formula_crafting/enchantment/e_recipes/create_runic_formula
+#
 # Ingredients
 #
 # Start Enchantment Catalyst [Transforming] - Check SOUTH for Block of Diamond
