@@ -18,7 +18,7 @@ execute as @e[tag=atrium_hidden_saboteur,predicate=atrium:time_check/village_mee
 execute as @e[tag=atrium_hidden_saboteur] if predicate atrium:percentage_chances/0.01_p at @s unless entity @p[gamemode=survival,distance=..10,predicate=!atrium:completely_invisible] run function atrium:summon/armada/behavior_scripts/interfere_in_general
 #
 # Give Haywire Golems particles
-execute at @e[tag=atrium_haywire_golem] run particle dust 1.000 0.000 0.000 1 ~ ~1 ~ 0.5 1 0.5 1 50 normal
+execute at @e[tag=atrium_haywire_golem] run particle dust{color:[1.000,0.000,0.000],scale:1} ~ ~1 ~ 0.5 1 0.5 1 50 normal
 #
 # Increase each revealed agent's hiding score by 1 if they aren't currently targeting a player
 scoreboard players add @e[tag=atrium_revealed,predicate=!atrium:entity/is_targeting_player] hiding 1
