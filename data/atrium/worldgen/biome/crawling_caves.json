@@ -109,9 +109,7 @@
     "misc": []
   },
   "spawn_costs": {},
-  "precipitation": "none",
   "temperature": 0,
   "downfall": 0,
-  "has_precipitation": false,
-  "category": "underground"
+  "has_precipitation": false
 }

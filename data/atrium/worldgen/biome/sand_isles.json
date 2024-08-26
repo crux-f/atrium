@@ -29,8 +29,8 @@
     "fog_color": 15395562,
     "water_color": 6095,
     "water_fog_color": 6095,
-    "foliage color": 10343085,
-    "grass_color": 10343085
+    "grass_color": 10343085,
+    "foliage_color": 10343085
   },
   "carvers": {
     "air": [
@@ -118,9 +118,7 @@
     "misc": []
   },
   "spawn_costs": {},
-  "precipitation": "none",
   "temperature": 2,
   "downfall": 0,
-  "has_precipitation": false,
-  "category": "none"
+  "has_precipitation": false
 }
