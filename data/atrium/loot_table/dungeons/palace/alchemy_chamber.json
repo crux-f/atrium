@@ -189,8 +189,7 @@
                       {
                         "id": "minecraft:weakness",
                         "amplifier": 0,
-                        "duration": 2400,
-                        "show_particles": 1
+                        "duration": 2400
                       }
                     ]
                   }
@@ -235,8 +234,7 @@
                       {
                         "id": "minecraft:night_vision",
                         "amplifier": 0,
-                        "duration": 1800,
-                        "show_particles": 1
+                        "duration": 1800
                       }
                     ]
                   }
@@ -281,8 +279,7 @@
                       {
                         "id": "minecraft:water_breathing",
                         "amplifier": 0,
-                        "duration": 4800,
-                        "show_particles": 1
+                        "duration": 4800
                       }
                     ]
                   }
@@ -312,8 +309,7 @@
                       {
                         "id": "minecraft:water_breathing",
                         "amplifier": 0,
-                        "duration": 1800,
-                        "show_particles": 1
+                        "duration": 1800
                       }
                     ]
                   }

@@ -12,7 +12,7 @@
           "type": "loot_table",
           "weight": 2,
           "quality": 1,
-          "value": "atrium:formulas/recipes_occult"
+          "value": "atrium:formulas/any_research_occult"
         },
         {
           "type": "loot_table",

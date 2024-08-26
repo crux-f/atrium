@@ -8,7 +8,7 @@
         {
           "type": "loot_table",
           "weight": 3,
-          "name": "atrium:formulas/infusion_research_common"
+          "value": "atrium:formulas/infusion_research_common"
         },
         {
           "type": "item",

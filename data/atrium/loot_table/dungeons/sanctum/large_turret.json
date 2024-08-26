@@ -191,9 +191,7 @@
             "functions": [
               {
                 "function": "minecraft:enchant_randomly",
-                "enchantments": [
-                  "minecraft:swift_sneak"
-                ]
+                "options": "minecraft:swift_sneak"
               }
             ]
           },
@@ -406,7 +404,7 @@
               {
                 "function": "set_components",
                 "components": {
-                  "minecraft:custom_model_data": 333060,
+                  "minecraft:custom_model_data": 333062,
                   "minecraft:custom_data": {
                     "atrium_staff": 1,
                     "atrium_staff_lv": 1,
@@ -472,7 +470,7 @@
               {
                 "function": "set_components",
                 "components": {
-                  "minecraft:custom_model_data": 333060,
+                  "minecraft:custom_model_data": 333063,
                   "minecraft:custom_data": {
                     "atrium_staff": 1,
                     "atrium_staff_lv": 1,

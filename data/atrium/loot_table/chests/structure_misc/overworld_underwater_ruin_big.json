@@ -92,59 +92,11 @@
       ]
     },
     {
-      "rolls": {
-        "min": 1,
-        "max": 2
-      },
-      "bonus_rolls": 0,
-      "entries": [
-        {
-          "type": "loot_table",
-          "weight": 2,
-          "quality": 0,
-          "value": "atrium:curiosity/doctrine_curiosity"
-        },
-        {
-          "type": "empty",
-          "weight": 3,
-          "quality": -3
-        }
-      ]
-    },
-    {
-      "rolls": {
-        "min": 1,
-        "max": 2
-      },
-      "bonus_rolls": 0,
-      "entries": [
-        {
-          "type": "loot_table",
-          "conditions": [
-                {
-                  "condition": "minecraft:entity_properties",
-                  "entity": "this",
-                  "predicate": {
-                  "nbt": "{Inventory:[{tag:{atrium_curiosity_helmet:1b}}]}"
-                    }
-                }
-          ],
-          "name": "atrium:curiosity/doctrine_curiosity",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            }
-          ]
-        }
-      ]
-    },
-    {
       "rolls": 1,
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "atrium:chests/base/underwater_ruin_big"
+          "value": "atrium:chests/base/underwater_ruin_big"
         }
       ]
     }

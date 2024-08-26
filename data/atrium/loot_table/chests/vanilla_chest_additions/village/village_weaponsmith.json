@@ -46,7 +46,8 @@
                 {
                   "text": "The heart of any village."
                 }
-              ]
+              ],
+              "mode": "append"
             }
           ]
         },

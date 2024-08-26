@@ -27,7 +27,7 @@
           {
             "type": "loot_table",
             "weight": 100,
-            "value": "atrium:formulas/any_formula_2"
+            "value": "atrium:formulas/any_research_rare"
           }
         ]
       },
