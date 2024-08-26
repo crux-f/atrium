@@ -1,0 +1,17 @@
+{
+    "type": "chest",
+    "pools": [
+      {
+        "rolls": 1,
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "loot_table",
+            "weight": 10,
+            "quality": 0,
+            "value": "atrium:formulas/runic_research_occult"
+          }
+        ]
+      }
+    ]
+  }
