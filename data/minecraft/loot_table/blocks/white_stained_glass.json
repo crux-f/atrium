@@ -13,14 +13,16 @@
         {
           "condition": "minecraft:match_tool",
           "predicate": {
-            "enchantments": [
-              {
-                "enchantment": "minecraft:silk_touch",
-                "levels": {
-                  "min": 1
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "minecraft:silk_touch",
+                  "levels": {
+                    "min": 1
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         },
         {
@@ -30,7 +32,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "biome": "atrium:crystal_caves"
+                "biomes": "atrium:crystal_caves"
               }
             }
           }
@@ -52,7 +54,7 @@
               "entity": "this",
               "predicate": {
                 "location": {
-                  "biome": "atrium:crystal_caves"
+                  "biomes": "atrium:crystal_caves"
                 }
               }
             }

@@ -13,14 +13,16 @@
         {
           "condition": "minecraft:match_tool",
           "predicate": {
-            "enchantments": [
-              {
-                "enchantment": "minecraft:silk_touch",
-                "levels": {
-                  "min": 1
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "minecraft:silk_touch",
+                  "levels": {
+                    "min": 1
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         },
         {
@@ -28,7 +30,7 @@
           "term": {
             "condition": "minecraft:location_check",
             "predicate": {
-              "structure": "atrium:natural/abyssal_tendril"
+              "structures": "atrium:natural/abyssal_tendril"
             }
           }
         }
@@ -47,7 +49,7 @@
             {
               "condition": "minecraft:location_check",
               "predicate": {
-                "structure": "atrium:natural/abyssal_tendril"
+                "structures": "atrium:natural/abyssal_tendril"
               }
             }
           ],
