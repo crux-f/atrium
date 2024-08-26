@@ -382,22 +382,6 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "weight": 5,
-          "quality": 0,
-          "value": "atrium:world_forge/books_mineshaft"
-        },
-        {
-          "type": "minecraft:empty",
-          "weight": 100,
-          "quality": -25
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:loot_table",
           "weight": 50,
           "value": "atrium:quests/mineshaft_quest_rewards",
           "conditions": [

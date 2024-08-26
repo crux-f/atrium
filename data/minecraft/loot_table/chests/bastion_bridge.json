@@ -259,22 +259,6 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "weight": 8,
-          "quality": 0,
-          "value": "atrium:world_forge/books_bastion_bridge"
-        },
-        {
-          "type": "minecraft:empty",
-          "weight": 100,
-          "quality": -25
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:loot_table",
           "value": "atrium:chests/base/bastion_bridge"
         }
       ]
