@@ -1,4 +1,4 @@
-scoreboard players add @s iteration 1
+# scoreboard players add @s iteration 1
 #
 #
 # OLD LOGIC 
