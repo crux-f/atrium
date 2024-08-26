@@ -5,7 +5,7 @@
       "condition": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
-        "nbt": "{Inventory:[{id:\"minecraft:potion\",tag:{Potion:\"minecraft:luck\"}}]}"
+        "nbt": "{Inventory:[{id:\"minecraft:potion\",components:{\"minecraft:potion_contents\":{potion:\"minecraft:luck\"}}}]}"
       }
     }
   ]

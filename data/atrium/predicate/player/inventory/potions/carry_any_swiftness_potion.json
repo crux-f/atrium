@@ -5,63 +5,63 @@
       "condition": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
-        "nbt": "{Inventory:[{id:\"minecraft:potion\",tag:{Potion:\"minecraft:swiftness\"}}]}"
+        "nbt": "{Inventory:[{id:\"minecraft:potion\",components:{\"minecraft:potion_contents\":{potion:\"minecraft:swiftness\"}}}]}"
       }
     },
     {
       "condition": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
-        "nbt": "{Inventory:[{id:\"minecraft:potion\",tag:{Potion:\"minecraft:strong_swiftness\"}}]}"
+        "nbt": "{Inventory:[{id:\"minecraft:potion\",components:{\"minecraft:potion_contents\":{potion:\"minecraft:strong_swiftness\"}}}]}"
       }
     },
     {
       "condition": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
-        "nbt": "{Inventory:[{id:\"minecraft:potion\",tag:{Potion:\"minecraft:long_swiftness\"}}]}"
+        "nbt": "{Inventory:[{id:\"minecraft:potion\",components:{\"minecraft:potion_contents\":{potion:\"minecraft:long_swiftness\"}}}]}"
       }
     },
     {
       "condition": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
-        "nbt": "{Inventory:[{id:\"minecraft:splash_potion\",tag:{Potion:\"minecraft:swiftness\"}}]}"
+        "nbt": "{Inventory:[{id:\"minecraft:splash_potion\",components:{\"minecraft:potion_contents\":{potion:\"minecraft:swiftness\"}}}]}"
       }
     },
     {
       "condition": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
-        "nbt": "{Inventory:[{id:\"minecraft:splash_potion\",tag:{Potion:\"minecraft:strong_swiftness\"}}]}"
+        "nbt": "{Inventory:[{id:\"minecraft:splash_potion\",components:{\"minecraft:potion_contents\":{potion:\"minecraft:strong_swiftness\"}}}]}"
       }
     },
     {
       "condition": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
-        "nbt": "{Inventory:[{id:\"minecraft:splash_potion\",tag:{Potion:\"minecraft:long_swiftness\"}}]}"
+        "nbt": "{Inventory:[{id:\"minecraft:splash_potion\",components:{\"minecraft:potion_contents\":{potion:\"minecraft:long_swiftness\"}}}]}"
       }
     },
     {
       "condition": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
-        "nbt": "{Inventory:[{id:\"minecraft:lingering_potion\",tag:{Potion:\"minecraft:swiftness\"}}]}"
+        "nbt": "{Inventory:[{id:\"minecraft:lingering_potion\",components:{\"minecraft:potion_contents\":{potion:\"minecraft:swiftness\"}}}]}"
       }
     },
     {
       "condition": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
-        "nbt": "{Inventory:[{id:\"minecraft:lingering_potion\",tag:{Potion:\"minecraft:strong_swiftness\"}}]}"
+        "nbt": "{Inventory:[{id:\"minecraft:lingering_potion\",components:{\"minecraft:potion_contents\":{potion:\"minecraft:strong_swiftness\"}}}]}"
       }
     },
     {
       "condition": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
-        "nbt": "{Inventory:[{id:\"minecraft:lingering_potion\",tag:{Potion:\"minecraft:long_swiftness\"}}]}"
+        "nbt": "{Inventory:[{id:\"minecraft:lingering_potion\",components:{\"minecraft:potion_contents\":{potion:\"minecraft:long_swiftness\"}}}]}"
       }
     }
   ]

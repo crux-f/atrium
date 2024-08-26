@@ -5,63 +5,63 @@
       "condition": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
-        "nbt": "{Inventory:[{id:\"minecraft:potion\",tag:{Potion:\"minecraft:regeneration\"}}]}"
+        "nbt": "{Inventory:[{id:\"minecraft:potion\",components:{\"minecraft:potion_contents\":{potion:\"minecraft:regeneration\"}}}]}"
       }
     },
     {
       "condition": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
-        "nbt": "{Inventory:[{id:\"minecraft:potion\",tag:{Potion:\"minecraft:strong_regeneration\"}}]}"
+        "nbt": "{Inventory:[{id:\"minecraft:potion\",components:{\"minecraft:potion_contents\":{potion:\"minecraft:strong_regeneration\"}}}]}"
       }
     },
     {
       "condition": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
-        "nbt": "{Inventory:[{id:\"minecraft:potion\",tag:{Potion:\"minecraft:long_regeneration\"}}]}"
+        "nbt": "{Inventory:[{id:\"minecraft:potion\",components:{\"minecraft:potion_contents\":{potion:\"minecraft:long_regeneration\"}}}]}"
       }
     },
     {
       "condition": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
-        "nbt": "{Inventory:[{id:\"minecraft:splash_potion\",tag:{Potion:\"minecraft:regeneration\"}}]}"
+        "nbt": "{Inventory:[{id:\"minecraft:splash_potion\",components:{\"minecraft:potion_contents\":{potion:\"minecraft:regeneration\"}}}]}"
       }
     },
     {
       "condition": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
-        "nbt": "{Inventory:[{id:\"minecraft:splash_potion\",tag:{Potion:\"minecraft:strong_regeneration\"}}]}"
+        "nbt": "{Inventory:[{id:\"minecraft:splash_potion\",components:{\"minecraft:potion_contents\":{potion:\"minecraft:strong_regeneration\"}}}]}"
       }
     },
     {
       "condition": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
-        "nbt": "{Inventory:[{id:\"minecraft:splash_potion\",tag:{Potion:\"minecraft:long_regeneration\"}}]}"
+        "nbt": "{Inventory:[{id:\"minecraft:splash_potion\",components:{\"minecraft:potion_contents\":{potion:\"minecraft:long_regeneration\"}}}]}"
       }
     },
     {
       "condition": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
-        "nbt": "{Inventory:[{id:\"minecraft:lingering_potion\",tag:{Potion:\"minecraft:regeneration\"}}]}"
+        "nbt": "{Inventory:[{id:\"minecraft:lingering_potion\",components:{\"minecraft:potion_contents\":{potion:\"minecraft:regeneration\"}}}]}"
       }
     },
     {
       "condition": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
-        "nbt": "{Inventory:[{id:\"minecraft:lingering_potion\",tag:{Potion:\"minecraft:strong_regeneration\"}}]}"
+        "nbt": "{Inventory:[{id:\"minecraft:lingering_potion\",components:{\"minecraft:potion_contents\":{potion:\"minecraft:strong_regeneration\"}}}]}"
       }
     },
     {
       "condition": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
-        "nbt": "{Inventory:[{id:\"minecraft:lingering_potion\",tag:{Potion:\"minecraft:long_regeneration\"}}]}"
+        "nbt": "{Inventory:[{id:\"minecraft:lingering_potion\",components:{\"minecraft:potion_contents\":{potion:\"minecraft:long_regeneration\"}}}]}"
       }
     }
   ]
