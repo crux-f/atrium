@@ -4,13 +4,13 @@
       {
         "condition": "minecraft:location_check",
         "predicate": {
-          "biome": "minecraft:swamp"
+          "biomes": "minecraft:swamp"
         }
       },
       {
         "condition": "minecraft:location_check",
         "predicate": {
-          "biome": "minecraft:mangrove_swamp"
+          "biomes": "minecraft:mangrove_swamp"
         }
       }
     ]
