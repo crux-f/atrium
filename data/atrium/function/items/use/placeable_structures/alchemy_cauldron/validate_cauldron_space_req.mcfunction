@@ -1,5 +1,5 @@
 # Place center block
-setblock ~ ~ ~ minecraft:water_cauldron[level=3] 
+setblock ~ ~ ~ minecraft:water_cauldron[level=3] replace
 #
 # Note: Using valid_ingredients score on the player who placed the circle to track successful validations.
 #
