@@ -5,9 +5,12 @@
       "equipment": {
         "mainhand": {
           "predicates": {
-            "minecraft:custom_data": {
-              "atrium_smelting_enchanted": 1
-            }
+            "minecraft:enchantments": [
+              {
+                "enchantments": "atrium:smelting",
+                "levels": 1
+              }
+            ]
           }
         }
       }

@@ -4,7 +4,7 @@
     "predicate": {
       "equipment": {
         "mainhand": {
-          "tag": "#atrium:destabilizable_items"
+          "items": "#atrium:destabilizable_items"
         }
       }
     }

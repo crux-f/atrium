@@ -5,9 +5,12 @@
       "equipment": {
         "mainhand": {
           "predicates": {
-            "minecraft:custom_data": {
-              "atrium_feast_enchanted": 1
-            }
+            "minecraft:enchantments": [
+              {
+                "enchantments": "atrium:feast",
+                "levels": 1
+              }
+            ]
           }
         }
       }

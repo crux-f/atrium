@@ -5,9 +5,12 @@
       "equipment": {
         "mainhand": {
           "predicates": {
-            "minecraft:custom_data": {
-              "atrium_shard_touch_enchanted": 1
-            }
+            "minecraft:enchantments": [
+              {
+                "enchantments": "atrium:shard_touch",
+                "levels": 1
+              }
+            ]
           }
         }
       }

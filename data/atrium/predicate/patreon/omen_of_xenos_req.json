@@ -23,7 +23,11 @@
                 "predicate": {
                 "equipment": {
                     "head": {
-                    "nbt": "{atrium_xenos_growth:1}"
+                    "components": {
+                        "minecraft:custom_data": {
+                            "atrium_xenos_growth": 1
+                        }
+                    }
                     }
                 }
                 }
@@ -52,7 +56,11 @@
                 "predicate": {
                 "equipment": {
                     "chest": {
-                    "nbt": "{atrium_xenos_growth:1}"
+                        "components": {
+                            "minecraft:custom_data": {
+                                "atrium_xenos_growth": 1
+                            }
+                        }
                     }
                 }
                 }
@@ -81,7 +89,11 @@
                 "predicate": {
                 "equipment": {
                     "legs": {
-                    "nbt": "{atrium_xenos_growth:1}"
+                        "components": {
+                            "minecraft:custom_data": {
+                                "atrium_xenos_growth": 1
+                            }
+                        }
                     }
                 }
                 }
@@ -110,7 +122,11 @@
                 "predicate": {
                 "equipment": {
                     "feet": {
-                    "nbt": "{atrium_xenos_growth:1}"
+                        "components": {
+                            "minecraft:custom_data": {
+                                "atrium_xenos_growth": 1
+                            }
+                        }
                     }
                 }
                 }

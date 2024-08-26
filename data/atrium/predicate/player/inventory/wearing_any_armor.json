@@ -7,7 +7,7 @@
       "predicate": {
         "equipment": {
           "head": {
-            "tag": "#atrium:armor"
+            "items": "#atrium:armor"
           }
         }
       }
@@ -18,7 +18,7 @@
       "predicate": {
         "equipment": {
           "chest": {
-            "tag": "#atrium:armor"
+            "items": "#atrium:armor"
           }
         }
       }
@@ -29,7 +29,7 @@
       "predicate": {
         "equipment": {
           "legs": {
-            "tag": "#atrium:armor"
+            "items": "#atrium:armor"
           }
         }
       }
@@ -40,7 +40,7 @@
       "predicate": {
         "equipment": {
           "feet": {
-            "tag": "#atrium:armor"
+            "items": "#atrium:armor"
           }
         }
       }
