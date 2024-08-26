@@ -9,7 +9,7 @@ advancement grant @s[scores={resurrect_others=20..}] only atrium:belief/resurrec
 advancement grant @s[scores={resurrect_others=50..}] only atrium:belief/resurrect_50
 #
 # Give the Resurrectee the 60 deaths advancement if they are in survival and have died 60+ times
-advancement grant @p[tag=resurrectee,gamemode=survival,scores={entropy=60..}] only atrium:belief/ive_come_to_bargain
+# advancement grant @p[tag=resurrectee,gamemode=survival,scores={entropy=60..}] only atrium:belief/ive_come_to_bargain
 # Reset the repeat counter
 scoreboard players set @a[tag=resurrector] resurrect 0
 # XP "exchange":
