@@ -94,7 +94,7 @@
         {
           "type": "loot_table",
           "weight": 5,
-          "name": "atrium:chests/illager_runes"
+          "value": "atrium:chests/illager_runes"
         },
         {
           "type": "item",
