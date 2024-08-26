@@ -34,7 +34,7 @@
             "type": "loot_table",
             "weight": 3,
             "quality": 2,
-            "value": "atrium:formulas/recipes_occult"
+            "value": "atrium:formulas/any_research_occult"
           },
           {
             "type": "item",
@@ -42,20 +42,14 @@
             "name": "minecraft:book",
             "functions": [
                 {
-                    "function": "minecraft:enchant_with_levels",
-                    "levels": {
-                      "type": "minecraft:uniform",
-                      "max": 40.0,
-                      "min": 20.0
-                    },
-                    "treasure": true
-                  }
+                  "function": "minecraft:enchant_with_levels",
+                  "levels": {
+                    "min": 20,
+                    "max": 40
+                  },
+                  "options": "#minecraft:on_random_loot"
+                }
               ]
-          },
-          {
-            "type": "loot_table",
-            "weight": 3,
-            "value": "atrium:curiosity/doctrine_curiosity"
           }
         ]
       },
@@ -71,7 +65,8 @@
                 "name": "minecraft:book",
                 "functions": [
                     {
-                      "function": "minecraft:enchant_randomly"
+                      "function": "minecraft:enchant_randomly",
+                      "options": "#minecraft:on_random_loot"
                     }
                   ]
               },

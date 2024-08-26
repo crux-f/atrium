@@ -416,7 +416,7 @@
                   "explosions": [
                     {
                       "shape": "small_ball",
-                      "has_flicker": true,
+                      "has_twinkle": true,
                       "colors": [
                         10075903,
                         16777215,

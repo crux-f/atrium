@@ -24,33 +24,14 @@
       ]
     },
     {
-      "rolls": {
-        "min": 1,
-        "max": 2
-      },
-      "bonus_rolls": 0,
-      "entries": [
-        {
-          "type": "loot_table",
-          "weight": 2,
-          "value": "atrium:curiosity/doctrine_curiosity"
-        },
-        {
-          "type": "empty",
-          "weight": 5,
-          "quality": -3
-        }
-      ]
-    },
-    {
       "rolls": 1,
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "atrium:chests/base/underwater_ruin_big"
+          "value": "atrium:chests/base/underwater_ruin_small"
         }
       ]
     }
   ],
-  "random_sequence": "minecraft:chests/underwater_ruin_big"
+  "random_sequence": "minecraft:chests/underwater_ruin_small"
 }

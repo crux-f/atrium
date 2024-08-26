@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "atrium:structure_misc/holy_symbols"
+          "value": "atrium:chests/structure_misc/shrines/holy_symbols"
         }
       ]
     },

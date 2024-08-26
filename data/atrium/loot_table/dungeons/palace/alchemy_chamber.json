@@ -8,11 +8,6 @@
                 "type": "loot_table",
                 "weight": 10,
                 "value": "atrium:dungeons/palace/occult_items"
-              },
-              {
-                "type": "loot_table",
-                "weight": 25,
-                "value": "atrium:dungeons/palace/failed_experiments"
               }
             ]
           },
