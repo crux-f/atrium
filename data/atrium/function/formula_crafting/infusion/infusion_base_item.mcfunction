@@ -123,14 +123,14 @@ execute positioned ~ ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=
 # Other
 #
 # Start Wolf Enchantment [Hunting] - Check CENTER NORTH for Hunting Trophy (Zombie)
-execute positioned ~ ~ ~-2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{components:{"minecraft:custom_data":{atrium_zombie_trophy:1b}}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
-execute positioned ~ ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{components:{"minecraft:custom_data":{atrium_zombie_trophy:1b}}}}] at @s run function atrium:formula_crafting/infusion/i_recipes/wolf_hunting
+execute positioned ~ ~ ~-2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{components:{"minecraft:custom_data":{atrium_trophy:1b,atrium_trophy_type:"zombie"}}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{components:{"minecraft:custom_data":{atrium_trophy:1b,atrium_trophy_type:"zombie"}}}}] at @s run function atrium:formula_crafting/infusion/i_recipes/wolf_hunting
 # Start Wolf Enchantment [Ricochet Pelt] - Check CENTER NORTH for Hunting Trophy (Skeleton)
-execute positioned ~ ~ ~-2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{components:{"minecraft:custom_data":{atrium_skeleton_trophy:1b}}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
-execute positioned ~ ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{components:{"minecraft:custom_data":{atrium_skeleton_trophy:1b}}}}] at @s run function atrium:formula_crafting/infusion/i_recipes/wolf_ricochet_pelt
+execute positioned ~ ~ ~-2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{components:{"minecraft:custom_data":{atrium_trophy:1b,atrium_trophy_type:"skeleton"}}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{components:{"minecraft:custom_data":{atrium_trophy:1b,atrium_trophy_type:"skeleton"}}}}] at @s run function atrium:formula_crafting/infusion/i_recipes/wolf_ricochet_pelt
 # Start Wolf Enchantment [Tracking] - Check CENTER NORTH for Hunting Trophy (Spider)
-execute positioned ~ ~ ~-2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{components:{"minecraft:custom_data":{atrium_spider_trophy:1b}}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
-execute positioned ~ ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{components:{"minecraft:custom_data":{atrium_spider_trophy:1b}}}}] at @s run function atrium:formula_crafting/infusion/i_recipes/wolf_tracking
+execute positioned ~ ~ ~-2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{components:{"minecraft:custom_data":{atrium_trophy:1b,atrium_trophy_type:"spider"}}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{components:{"minecraft:custom_data":{atrium_trophy:1b,atrium_trophy_type:"spider"}}}}] at @s run function atrium:formula_crafting/infusion/i_recipes/wolf_tracking
 # Start Centurion Golem - Check NORTH for Jack o' Lantern
 execute positioned ~ ~ ~-4 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:jack_o_lantern"}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
 execute positioned ~ ~ ~-4 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:jack_o_lantern"}}] at @s run function atrium:formula_crafting/infusion/i_recipes/centurion_golem

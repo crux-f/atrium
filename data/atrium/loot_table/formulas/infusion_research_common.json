@@ -1150,7 +1150,7 @@
             "type": "loot_table",
             "weight": 7,
             "quality": 5,
-            "value": "atrium:formulas/alchemy_research_rare"
+            "value": "atrium:formulas/infusion_research_rare"
           }
         ]
       }

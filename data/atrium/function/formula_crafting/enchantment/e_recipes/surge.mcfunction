@@ -10,9 +10,9 @@ execute positioned ~ ~ ~-3 if entity @e[type=minecraft:glow_item_frame,distance=
 # Check to make sure the Runic Codex has a Occult Altar upgrade installed
 execute if data entity @s data.occult_altar_installed run scoreboard players add @s valid_ingredients 1
 #
-# Check NORTH EAST for Steak
-execute positioned ~2 ~ ~-2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:cooked_beef",count:1}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
-execute positioned ~2 ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:cooked_beef",count:1}}] run scoreboard players add @s valid_ingredients 1
+# Check NORTH EAST for Diamond
+execute positioned ~2 ~ ~-2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:diamond",count:1}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~2 ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:diamond",count:1}}] run scoreboard players add @s valid_ingredients 1
 #
 # Check to make sure the enchantment target isn't already enchanted with an enchantment
 execute positioned ~ ~ ~-3 unless data entity @e[type=minecraft:glow_item_frame,distance=..1.5,limit=1] Item.components.minecraft:enchantments run scoreboard players add @s valid_ingredients 1
@@ -20,8 +20,8 @@ execute positioned ~ ~ ~-3 unless data entity @e[type=minecraft:glow_item_frame,
 execute positioned ~ ~ ~-3 if data entity @e[type=minecraft:glow_item_frame,distance=..1.5,limit=1] Item.components.minecraft:enchantments run function atrium:formula_crafting/enchantment/err_already_enchanted
 #
 # Check SOUTH for Enchantment Catalyst [Focusing]
-execute positioned ~ ~ ~3 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{components:{"minecraft:custom_data":{atrium_catalyst_transforming:1b}}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
-execute positioned ~ ~ ~3 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{components:{"minecraft:custom_data":{atrium_catalyst_transforming:1b}}}}] run scoreboard players add @s valid_ingredients 1
+execute positioned ~ ~ ~3 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{components:{"minecraft:custom_data":{atrium_catalyst_focusing:1b}}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~3 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{components:{"minecraft:custom_data":{atrium_catalyst_focusing:1b}}}}] run scoreboard players add @s valid_ingredients 1
 #
 # Check for a nearby player (within 10 blocks) who has at least 35 levels of XP
 execute if entity @a[distance=..10,gamemode=!spectator,level=40..] run scoreboard players add @s valid_ingredients 1

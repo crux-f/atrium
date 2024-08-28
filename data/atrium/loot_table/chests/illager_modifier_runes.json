@@ -468,8 +468,7 @@
                     "text": "Runestone",
                     "italic": false
                   }
-                ],
-              "mode": "append"
+                ]
               },
               {
                 "function": "set_lore",

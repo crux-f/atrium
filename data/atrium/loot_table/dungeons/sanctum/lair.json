@@ -114,7 +114,7 @@
               },
               {
                 "function": "set_damage",
-                "damage": 432
+                "damage": 0
               },
               {
                 "function": "set_name",
