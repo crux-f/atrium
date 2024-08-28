@@ -17,7 +17,7 @@
             }
           ],
         "icon": {
-          "id": "minecraft:firework_star",
+          "id": "minecraft:flint",
           "components": {
             "minecraft:custom_model_data": 333116
           }
