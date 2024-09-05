@@ -7,7 +7,7 @@
             "items": [
               "minecraft:goat_horn"
             ],
-            "components": {
+            "predicates": {
               "minecraft:custom_data": {
                 "atrium_horn_of_valor": 1
               }
