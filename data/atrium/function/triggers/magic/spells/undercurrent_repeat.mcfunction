@@ -16,5 +16,5 @@ execute as @e[tag=atrium_undercurrent_anchor,scores={charge=30..}] at @s run fun
 # Placing the thing removes the entity, thus this will stop running.
 execute if entity @e[tag=atrium_undercurrent_anchor] run schedule function atrium:triggers/magic/spells/undercurrent_repeat 1t
 #
-# Failsafe in case somehow things go bad
-kill @e[tag=atrium_undercurrent_anchor,distance=60..]
+# Failsafe in case somehow things go bad (somehow breaking it so im commenting it out)
+# kill @e[tag=atrium_undercurrent_anchor,distance=60..]

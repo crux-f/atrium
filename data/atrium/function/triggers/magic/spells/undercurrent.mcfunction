@@ -11,7 +11,6 @@ execute if entity @e[tag=atrium_undercurrent_anchor] run particle minecraft:bubb
 execute if entity @e[tag=atrium_undercurrent_anchor] run playsound minecraft:entity.generic.swim player @a[distance=..10] ~ ~ ~ 0.25 0.35 0.1
 #
 # If there was no valid target, run the particles + sfx for failure.
-execute unless entity @e[tag=atrium_undercurrent_anchor,distance=..3] run particle minecraft:smoke ^ ^ ^1.5 0.03 0.03 0.03 0 50
-execute unless entity @e[tag=atrium_undercurrent_anchor,distance=..3] run playsound minecraft:block.redstone_torch.burnout master @a[distance=..30] ~ ~ ~ 0.3 1 0.1
+execute unless entity @e[tag=atrium_undercurrent_anchor,distance=..3] run function atrium:triggers/magic/spell_failure_effects
 # Spell cleanup
 execute as @s run function atrium:triggers/magic/spell_cast_complete
