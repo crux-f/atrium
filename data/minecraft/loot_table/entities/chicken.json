@@ -48,6 +48,14 @@
 					],
 					"mode": "append"
 				  }
+				],
+				"conditions": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+						  "dimension": "atrium:the_meridian"
+						}
+					}
 				]
 			  }
 			]
