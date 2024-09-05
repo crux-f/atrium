@@ -1,0 +1,19 @@
+{
+  "anvil_cost": 6,
+  "description": {
+    "text": "Attunement"
+  },
+  "effects": {},
+  "max_cost": {
+    "base": 5,
+    "per_level_above_first": 5
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "slots": [],
+  "supported_items": "minecraft:compass",
+  "weight": 1
+}

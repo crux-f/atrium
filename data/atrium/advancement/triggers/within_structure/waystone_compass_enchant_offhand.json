@@ -40,37 +40,37 @@
               {
                 "condition": "minecraft:location_check",
                 "predicate": {
-                  "structure": "atrium:waystone_overworld_land"
+                  "structures": "atrium:waystone_overworld_land"
                 }
               },
               {
                 "condition": "minecraft:location_check",
                 "predicate": {
-                  "structure": "atrium:waystone_overworld_cave"
+                  "structures": "atrium:waystone_overworld_cave"
                 }
               },
               {
                 "condition": "minecraft:location_check",
                 "predicate": {
-                  "structure": "atrium:waystone_overworld_sea"
+                  "structures": "atrium:waystone_overworld_sea"
                 }
               },
               {
                 "condition": "minecraft:location_check",
                 "predicate": {
-                  "structure": "atrium:waystone_the_depths"
+                  "structures": "atrium:waystone_the_depths"
                 }
               },
               {
                 "condition": "minecraft:location_check",
                 "predicate": {
-                  "structure": "atrium:waystone_the_meridian"
+                  "structures": "atrium:waystone_the_meridian"
                 }
               },
               {
                 "condition": "minecraft:location_check",
                 "predicate": {
-                  "structure": "atrium:waystone_the_nether"
+                  "structures": "atrium:waystone_the_nether"
                 }
               }
             ]

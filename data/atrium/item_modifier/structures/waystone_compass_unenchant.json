@@ -2,7 +2,7 @@
     {
       "function": "minecraft:set_enchantments",
       "enchantments": {
-        "minecraft:lure": 0
+        "atrium:attunement": 0
       }
     }
   ]
