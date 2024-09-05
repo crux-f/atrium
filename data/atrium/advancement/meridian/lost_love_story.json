@@ -32,7 +32,7 @@
         "conditions": {
           "items": [
             {
-              "components": {
+              "predicates": {
                 "minecraft:custom_data": {
                   "atrium_vibrant_crystal": 1
                 }
