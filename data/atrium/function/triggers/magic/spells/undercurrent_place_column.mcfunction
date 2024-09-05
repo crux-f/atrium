@@ -3,7 +3,7 @@ execute if entity @s[tag=atrium_up_column] run setblock ~ ~ ~ minecraft:magma_bl
 execute if entity @s[tag=atrium_up_column] run summon minecraft:marker ~ ~ ~ {Tags:["atrium_special","atrium_temporary_entity","atrium_temporary_block","atrium_undercurrent_spell"]}
 execute if entity @s[tag=atrium_up_column] run setblock ~ ~1 ~ minecraft:soul_sand
 execute if entity @s[tag=atrium_up_column] run summon minecraft:marker ~ ~1 ~ {Tags:["atrium_special","atrium_temporary_entity","atrium_temporary_block","atrium_undercurrent_spell"]}
-# If the player was not sneaking, place a magma block and a soul sand block
+# If the player was sneaking, place a magma block
 execute if entity @s[tag=atrium_down_column] run setblock ~ ~ ~ minecraft:magma_block
 execute if entity @s[tag=atrium_down_column] run summon minecraft:marker ~ ~ ~ {Tags:["atrium_special","atrium_temporary_entity","atrium_temporary_block","atrium_undercurrent_spell"]}
 #
