@@ -10,12 +10,14 @@
           "predicate": {
             "equipment": {
               "mainhand": {
-                "enchantments": [
-                  {
-                    "enchantment": "minecraft:vanishing_curse",
-                    "levels": 3
-                  }
-                ]
+                "predicates": {
+                  "minecraft:enchantments": [
+                    {
+                      "enchantments": "atrium:rewound",
+                      "levels": 3
+                    }
+                  ]
+                }
               }
             }
           }
@@ -25,9 +27,9 @@
     {
       "function": "minecraft:set_enchantments",
       "enchantments": {
-        "minecraft:vanishing_curse": 1
+        "atrium:rewound": 4
       },
-      "add": true,
+      "add": false,
       "conditions": [
         {
           "condition": "minecraft:entity_properties",
@@ -35,12 +37,14 @@
           "predicate": {
             "equipment": {
               "mainhand": {
-                "enchantments": [
-                  {
-                    "enchantment": "minecraft:vanishing_curse",
-                    "levels": 3
-                  }
-                ]
+                "predicates": {
+                  "minecraft:enchantments": [
+                    {
+                      "enchantments": "atrium:rewound",
+                      "levels": 3
+                    }
+                  ]
+                }
               }
             }
           }
