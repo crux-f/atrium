@@ -1,6 +1,6 @@
 # Each disc does a different thing within a 15-block range
 #
-# Song: Mellohi | Duration: 1:38 | Slowness to all entities | Particles: Purple
+# Song: Mellohi | Duration: 1:38 | Slowness I to all entities | Particles: Purple
 execute at @e[tag=song_spell_mellohi] run effect give @e[distance=..15,gamemode=!spectator] minecraft:slowness 2 0 false
 execute at @e[tag=song_spell_mellohi] run particle minecraft:note ~ ~1 ~ 4.3 0 0 0.1 0 normal
 #

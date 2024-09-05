@@ -10,8 +10,8 @@ execute at @e[tag=song_spell_pigstep] run particle minecraft:flame ~ ~0.15 ~ ~ ~
 scoreboard players add @e[tag=song_spell_pigstep] charge 1
 #
 # Turn the disc back to a normal item
-execute as @e[tag=song_spell_pigstep,scores={charge=148..}] run function atrium:magic/magicitems/spells/song_spell/revert_song_disc_to_normal
+execute as @e[tag=song_spell_pigstep,scores={charge=148..}] run function atrium:triggers/magic/spells/song/revert_song_disc_to_normal
 execute as @e[tag=song_spell_pigstep,scores={charge=148..}] run tag @s remove song_spell_pigstep
 #
 # If there is still a disc, run again in 1 second.
-execute if entity @e[tag=song_spell_pigstep] run schedule function atrium:magic/magicitems/spells/song_spell/ss_pigstep 1s
+execute if entity @e[tag=song_spell_pigstep] run schedule function atrium:triggers/magic/spells/song/ss_pigstep 1s

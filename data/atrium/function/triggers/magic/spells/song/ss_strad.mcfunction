@@ -1,6 +1,6 @@
 # Each disc does a different thing within a 15-block range
 #
-# Song: Strad | Duration: 3:09 | All entities get Weakness I. | Particles: Off-Green??? It's a white disc what do you want from me
+# Song: Strad | Duration: 3:09 | All entities get Weakness I | Particles: Off-Green??? It's a white disc what do you want from me
 execute at @e[tag=song_spell_strad] run effect give @e[distance=..15,gamemode=!spectator] minecraft:weakness 2 0 false
 execute at @e[tag=song_spell_strad] run particle minecraft:note ~ ~1 ~ 0.5 0 0 0.1 0 normal
 #

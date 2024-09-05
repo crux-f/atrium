@@ -1,6 +1,6 @@
 # Each disc does a different thing within a 15-block range
 #
-# Song: Blocks | Duration: 5:43 | Grants Haste to all players | Particles: Red-Orange
+# Song: Blocks | Duration: 5:43 | Grants Haste I to all players | Particles: Red-Orange
 execute at @e[tag=song_spell_blocks] run effect give @a[distance=..15,gamemode=!spectator] minecraft:haste 2 0 false
 execute at @e[tag=song_spell_blocks] run particle minecraft:note ~ ~1 ~ 1.5 0 0 0.1 0 normal
 #
