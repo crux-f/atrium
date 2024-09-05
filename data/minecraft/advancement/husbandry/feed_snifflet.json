@@ -16,7 +16,7 @@
           }
         ],
         "item": {
-          "tag": "minecraft:sniffer_food"
+          "items": "#minecraft:sniffer_food"
         }
       },
       "trigger": "minecraft:player_interacted_with_entity"

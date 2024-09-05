@@ -867,17 +867,16 @@
     ],
     "frame": "challenge",
     "hidden": false,
-    "rewards": {
-      "experience": 500
-    },
     "icon": {
-      "id": "minecraft:diamond_boots",
-      "nbt": "{Damage:0}"
+      "id": "minecraft:diamond_boots"
     },
     "show_toast": true,
     "title": {
       "translate": "advancements.adventure.adventuring_time.title"
     }
+  },
+  "rewards": {
+    "experience": 500
   },
   "requirements": [
     [

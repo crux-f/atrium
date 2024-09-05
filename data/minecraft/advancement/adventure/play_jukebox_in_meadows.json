@@ -7,7 +7,7 @@
           {
             "condition": "minecraft:location_check",
             "predicate": {
-              "biome": "minecraft:meadow",
+              "biomes": "minecraft:meadow",
               "block": {
                 "blocks": [
                   "minecraft:jukebox"
@@ -18,7 +18,9 @@
           {
             "condition": "minecraft:match_tool",
             "predicate": {
-              "tag": "minecraft:music_discs"
+              "predicates": {
+                "minecraft:jukebox_playable": {}
+              }
             }
           }
         ]

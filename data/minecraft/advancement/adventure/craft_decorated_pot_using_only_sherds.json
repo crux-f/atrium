@@ -5,16 +5,16 @@
       "conditions": {
         "ingredients": [
           {
-            "tag": "minecraft:decorated_pot_sherds"
+            "items": "#minecraft:decorated_pot_sherds"
           },
           {
-            "tag": "minecraft:decorated_pot_sherds"
+            "items": "#minecraft:decorated_pot_sherds"
           },
           {
-            "tag": "minecraft:decorated_pot_sherds"
+            "items": "#minecraft:decorated_pot_sherds"
           },
           {
-            "tag": "minecraft:decorated_pot_sherds"
+            "items": "#minecraft:decorated_pot_sherds"
           }
         ],
         "recipe_id": "minecraft:decorated_pot"
@@ -40,8 +40,16 @@
     "frame": "task",
     "hidden": false,
     "icon": {
-      "id": "minecraft:decorated_pot",
-      "nbt": "{BlockEntityTag:{id:\"minecraft:decorated_pot\",sherds:[\"minecraft:brick\",\"minecraft:heart_pottery_sherd\",\"minecraft:brick\",\"minecraft:explorer_pottery_sherd\"]}}"
+      "components": {
+        "minecraft:pot_decorations": [
+          "minecraft:brick",
+          "minecraft:heart_pottery_sherd",
+          "minecraft:brick",
+          "minecraft:explorer_pottery_sherd"
+        ]
+      },
+      "count": 1,
+      "id": "minecraft:decorated_pot"
     },
     "show_toast": true,
     "title": {
