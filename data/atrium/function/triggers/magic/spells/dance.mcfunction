@@ -14,7 +14,7 @@ schedule function atrium:triggers/magic/spells/dance_repeat 3s
 #
 execute at @s anchored eyes run particle minecraft:end_rod ^ ^ ^ 0 0.75 0 0 50
 execute at @s anchored feet run particle minecraft:cloud ~ ~ ~ 0 0.5 0 0.1 50
-execute at @s run playsound minecraft:block.ender_chest.open player @a[distance=..10] ~ ~ ~ 1 1.75 0.2
+execute at @s run playsound minecraft:entity.breeze.idle_ground player @a[distance=..10] ~ ~ ~ 1 1.75 0.2
 #
 # Reset to allow for chain casting
 scoreboard players reset @s atrium_dance_spell

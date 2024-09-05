@@ -5,7 +5,7 @@ execute store result score @s atrium_z_coordinate run data get entity @s Pos[2] 
 # Particles
 execute anchored eyes run particle minecraft:cloud ^ ^ ^3 1 1 1 0.1 75
 # SFX
-playsound minecraft:entity.wither.shoot player @a[distance=..15] ~ ~ ~ 0.25 1.5 0.01
+playsound minecraft:entity.breeze.jump player @a[distance=..15] ~ ~ ~ 0.25 1.5 0.01
 #
 # Tag + store location of every entity in small area in front of player
 execute anchored eyes positioned ^ ^ ^3 as @e[distance=..2.5] run tag @s add atrium_exhale_target
