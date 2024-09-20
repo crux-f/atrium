@@ -7,7 +7,7 @@
             "direct_entity": {
               "equipment": {
                 "mainhand": {
-                  "components": {
+                  "predicates": {
                     "minecraft:custom_data": {
                       "atrium_triggers_on_kill": 1
                     }
