@@ -14,6 +14,7 @@ execute if entity @s[level=100..] run advancement grant @s only atrium:magic/unl
 # effect give @s[advancements={atrium:earth_start=true}] haste 10 0 true
 # effect give @s[advancements={atrium:fire_start=true}] fire_resistance 10 0 true
 # effect give @s[advancements={atrium:water_start=true}] water_breathing 10 0 true
+#
 # ANOMALY: On Your Heels
 # Each time a player enters the world for the first time, an hour after they spawn in, someone arrives looking for them.
 # (Comment out when anomaly ends)
@@ -23,3 +24,6 @@ execute if entity @s[level=100..] run advancement grant @s only atrium:magic/unl
 # execute if entity @s[tag=atrium_bounty_target] run function atrium:entities/bounty_manager
 #
 # "On Your Heels" caused more lag than expected; Enable with caution.
+#
+# ANOMALY: A Truly Spooky Season
+# execute at @s as @e[type=#atrium:hostile_mobs,distance=..5] run effect give @s minecraft:glowing 5 0 true
