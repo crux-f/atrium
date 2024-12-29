@@ -1,5 +1,4 @@
 {
-    "__comment": "Acquired by participating in an event",
     "criteria": {
         "playevent": {
             "trigger": "minecraft:impossible"

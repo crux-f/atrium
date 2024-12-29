@@ -1,5 +1,19 @@
 {
-    "__comment": "Exclusive to players who played on the server in 2024.",
+    "display": {
+        "title": {
+            "text": "[2024]"
+        },
+        "description": {
+            "text": "You played in 2024! The beginning of a new era..."
+        },
+        "icon": {
+            "id": "minecraft:netherite_pickaxe"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
     "criteria": {
         "join_2024": {
             "trigger": "minecraft:impossible"

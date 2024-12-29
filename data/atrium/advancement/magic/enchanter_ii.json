@@ -5,7 +5,7 @@
         },
         "description": [
             {
-                "text": "Apply a runic enchantment to an item"
+                "text": "Write your own Enchanted Book"
             },
             {
               "color": "gray",
@@ -28,7 +28,7 @@
         "hidden": false
     },
     "criteria": {
-        "runic_enchantment": {
+        "create_enchanted_book": {
             "trigger": "minecraft:impossible"
         }
     },

@@ -1,5 +1,4 @@
 {
-  "__comment": "Granted when you defeat a Lich",
   "display": {
       "title": {
           "text": "Fallen Angel"
@@ -20,7 +19,9 @@
       "icon": {
         "id": "minecraft:elytra",
         "components": {
-          "minecraft:custom_model_data": 333142,
+          "minecraft:custom_model_data": {
+            "strings": ["atrium_dreamers_wings"]
+          },
           "minecraft:damage": 432
         }
       },

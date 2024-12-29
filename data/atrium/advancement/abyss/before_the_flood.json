@@ -1,12 +1,11 @@
 {
-  "__comment": "Granted when you enter a Palace",
   "display": {
       "title": {
           "text": "Before The Flood"
       },
       "description": [
         {
-          "text": "Enter a Palace"
+          "text": "Swim Into a Palace"
         },
         {
           "color": "gray",

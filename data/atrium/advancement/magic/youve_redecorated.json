@@ -19,7 +19,9 @@
         "icon": {
           "id": "minecraft:stick",
           "components": {
-            "minecraft:custom_model_data": 333083
+            "minecraft:custom_model_data": {
+              "strings": ["atrium_rod_of_relocation"]
+            }
           }
         },
         "frame": "task",

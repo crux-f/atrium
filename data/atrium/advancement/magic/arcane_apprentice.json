@@ -19,7 +19,9 @@
         "icon": {
           "id": "minecraft:stick",
           "components": {
-            "minecraft:custom_model_data": 333059
+            "minecraft:custom_model_data": {
+              "strings": ["atrium_inert_focus"]
+            }
           }
         },
         "frame": "task",

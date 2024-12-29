@@ -1,5 +1,4 @@
 {
-    "__comment": "Yet Darker we go",
     "criteria": {
     "requirement": {
       "trigger": "minecraft:changed_dimension",

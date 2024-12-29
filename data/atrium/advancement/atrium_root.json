@@ -1,5 +1,4 @@
 {
-    "__comment": "The beginning. Acquired by beating a spawn tower.",
     "criteria": {
         "escapetower": {
             "trigger": "minecraft:impossible"

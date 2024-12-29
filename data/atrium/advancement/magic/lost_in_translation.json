@@ -19,7 +19,9 @@
         "icon": {
           "id": "minecraft:flint",
           "components": {
-            "minecraft:custom_model_data": 333116
+            "minecraft:custom_model_data": {
+              "strings": ["atrium_q_runestone"]
+            }
           }
         },
         "frame": "task",

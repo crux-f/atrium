@@ -1,12 +1,11 @@
 {
-  "__comment": "Granted when you craft Dreamer's Wings using a Infusion Circle",
   "display": {
       "title": {
           "text": "The Last Laugh"
       },
       "description": [
         {
-            "text": "Restore a Lich's wings with magic"
+            "text": "Complete the Rite of Ascension"
         },
         {
           "color": "gray",
@@ -21,7 +20,9 @@
         "id": "minecraft:elytra",
         "components": {
           "minecraft:enchantment_glint_override": true,
-          "minecraft:custom_model_data": 333142
+          "minecraft:custom_model_data": {
+            "strings": ["atrium_dreamers_wings"]
+          }
         }
       },
       "frame": "challenge",

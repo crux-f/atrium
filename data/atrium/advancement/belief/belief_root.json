@@ -1,5 +1,4 @@
 {
-    "__comment": "Acquired by interacting with a shrine",
     "criteria": {
         "playevent": {
             "trigger": "minecraft:impossible"

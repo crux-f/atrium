@@ -1,5 +1,4 @@
 {
-    "__comment": "Sunrise is the first event on the new server! June 5th 2021.",
     "display": {
         "title": {
             "text": "Sunrise",
@@ -32,10 +31,7 @@
         }
     },
     "rewards": {
-        "experience": 0,
-        "loot": [
-            "atrium:event"
-        ]
+        "experience": 0
     },
     "parent": "atrium:event_15"
 }

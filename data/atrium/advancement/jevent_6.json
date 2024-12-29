@@ -1,5 +1,4 @@
 {
-    "__comment": "Here We Are. 12/4/2021",
     "display": {
         "title": {
             "text": "Stack Overflow",
@@ -31,11 +30,6 @@
             "trigger": "minecraft:impossible"
         }
     },
-    "rewards": {
-        "experience": 0,
-        "loot": [
-            "atrium:event"
-        ]
-    },
+    "rewards": {},
     "parent": "atrium:jevent_5"
 }

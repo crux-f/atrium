@@ -1,5 +1,4 @@
 {
-    "__comment": "welcome to a peaceful world (mostly)",
     "criteria": {
     "requirement": {
       "trigger": "minecraft:changed_dimension",

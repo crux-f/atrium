@@ -1,5 +1,4 @@
 {
-    "__comment": "Granted when you have collected all runestones at least once",
     "display": {
         "title": {
             "text": "Runekeeper"
@@ -20,7 +19,9 @@
         "icon": {
           "id": "minecraft:flint",
           "components": {
-            "minecraft:custom_model_data": 333128
+            "minecraft:custom_model_data": {
+              "strings": ["atrium_v_runestone"]
+            }
           }
         },
         "frame": "challenge",

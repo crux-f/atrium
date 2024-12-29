@@ -14,7 +14,9 @@
         "icon": {
             "id": "minecraft:written_book",
             "components": {
-              "minecraft:custom_model_data": 333202
+              "minecraft:custom_model_data": {
+                "strings": ["atrium_all_colors_formula"]
+              }
             }
           },
         "frame": "task",

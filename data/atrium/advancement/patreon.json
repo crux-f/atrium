@@ -1,5 +1,4 @@
 {
-    "__comment": "Someone is a Patron on Patreon!!!",
     "display": {
         "title": {
             "text": "Sincerest Gratitude",
@@ -11,7 +10,9 @@
         "icon": {
             "id": "minecraft:orange_candle",
             "components": {
-              "minecraft:custom_model_data": 333003
+              "minecraft:custom_model_data": {
+                "strings": ["atrium_orange_wizard_hat"]
+              }
             }
           },
         "frame": "challenge",

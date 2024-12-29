@@ -1,5 +1,4 @@
 {
-    "__comment": "welcome to the deep",
     "criteria": {
     "requirement": {
       "trigger": "minecraft:changed_dimension",

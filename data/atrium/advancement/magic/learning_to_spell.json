@@ -19,7 +19,9 @@
         "icon": {
           "id": "minecraft:firework_star",
           "components": {
-            "minecraft:custom_model_data": 333026
+            "minecraft:custom_model_data": {
+              "strings": ["atrium_ps_arcane_ward"]
+            }
           }
         },
         "frame": "goal",
