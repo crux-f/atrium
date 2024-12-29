@@ -1,4 +1,9 @@
 {
+  "carvers": [
+    "minecraft:cave",
+    "minecraft:cave_extra_underground",
+    "minecraft:canyon"
+  ],
   "effects": {
     "mood_sound": {
       "sound": {
@@ -14,14 +19,19 @@
       },
       "tick_chance": 0.001111
     },
-    "music": {
-      "sound": {
-        "sound_id": "atrium:music.meridian.autumn_isles"
-      },
-      "min_delay": 12000,
-      "max_delay": 24000,
-      "replace_current_music": false
-    },
+    "music": [
+      {
+        "data": {
+          "max_delay": 24000,
+          "min_delay": 12000,
+          "replace_current_music": false,
+          "sound": {
+            "sound_id": "atrium:music.meridian.autumn_isles"
+          }
+        },
+        "weight": 1
+      }
+    ],
     "particle": {
       "options": {
         "type": "minecraft:end_rod"
@@ -37,12 +47,6 @@
     "water_fog_color": 3263717,
     "grass_color": 8075591,
     "foliage_color": 8075591
-  },
-  "carvers": {
-    "air": [
-      "minecraft:cave",
-      "minecraft:canyon"
-    ]
   },
   "features": [
     [],

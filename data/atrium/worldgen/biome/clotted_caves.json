@@ -8,14 +8,19 @@
       "block_search_extent": 8,
       "offset": 2
     },
-    "music": {
-      "sound": {
-        "sound_id": "atrium:music.depths.clotted_caves"
-      },
-      "min_delay": 12000,
-      "max_delay": 24000,
-      "replace_current_music": false
-    },
+    "music": [
+      {
+        "data": {
+          "max_delay": 24000,
+          "min_delay": 12000,
+          "replace_current_music": false,
+          "sound": {
+            "sound_id": "atrium:music.depths.clotted_caves"
+          }
+        },
+        "weight": 1
+      }
+    ],
     "ambient_sound": {
       "sound_id": "atrium:ambient.clotted_caves.loop"
     },
@@ -26,14 +31,11 @@
     "foliage_color": 12171705,
     "grass_color": 12171705
   },
-  "carvers": {
-    "air": [
-      "minecraft:cave",
-      "minecraft:cave_extra_underground",
-      "minecraft:canyon"
-    ],
-    "liquid": []
-  },
+  "carvers": [
+    "minecraft:cave",
+    "minecraft:cave_extra_underground",
+    "minecraft:canyon"
+  ],
   "features": [
     [],
     [
@@ -75,8 +77,7 @@
       "minecraft:mushroom_island_vegetation",
       "minecraft:spring_water",
       "minecraft:spring_lava",
-      "minecraft:seagrass_deep",
-      "minecraft:seagrass_simple"
+      "minecraft:seagrass_deep"
     ],
     []
   ],

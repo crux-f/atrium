@@ -14,12 +14,8 @@
       },
       "tick_chance": 0.001111
     },
-    "music": {
-      "sound": "minecraft:music.nether.warped_forest",
-      "min_delay": 12000,
-      "max_delay": 24000,
-      "replace_current_music": false
-    },
+    "music": [],
+    "music_volume": 0.0,
     "particle": {
       "options": {
         "type": "minecraft:end_rod"
@@ -36,12 +32,11 @@
     "grass_color": 14218735,
     "foliage_color": 14218735
   },
-  "carvers": {
-    "air": [
-      "minecraft:cave",
-      "minecraft:canyon"
-    ]
-  },
+  "carvers": [
+    "minecraft:cave",
+    "minecraft:cave_extra_underground",
+    "minecraft:canyon"
+  ],
   "features": [
     [],
     [

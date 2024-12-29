@@ -14,14 +14,19 @@
       },
       "tick_chance": 0.001111
     },
-    "music": {
-      "sound": {
-        "sound_id": "atrium:music.meridian.sand_isles"
-      },
-      "min_delay": 12000,
-      "max_delay": 24000,
-      "replace_current_music": false
-    },
+    "music": [
+      {
+        "data": {
+          "max_delay": 24000,
+          "min_delay": 12000,
+          "replace_current_music": false,
+          "sound": {
+            "sound_id": "atrium:music.meridian.sand_isles"
+          }
+        },
+        "weight": 1
+      }
+    ],
     "ambient_sound": {
       "sound_id": "atrium:ambient.sky.loop"
     },
@@ -32,12 +37,11 @@
     "grass_color": 10343085,
     "foliage_color": 10343085
   },
-  "carvers": {
-    "air": [
-      "minecraft:cave",
-      "minecraft:canyon"
-    ]
-  },
+  "carvers": [
+    "minecraft:cave",
+    "minecraft:cave_extra_underground",
+    "minecraft:canyon"
+  ],
   "features": [
     [],
     [

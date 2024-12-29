@@ -14,14 +14,19 @@
       },
       "tick_chance": 0.001111
     },
-    "music": {
-      "sound": {
-        "sound_id": "atrium:music.meridian.overgrown_isles"
-      },
-      "min_delay": 12000,
-      "max_delay": 24000,
-      "replace_current_music": false
-    },
+    "music": [
+      {
+        "data": {
+          "max_delay": 24000,
+          "min_delay": 12000,
+          "replace_current_music": false,
+          "sound": {
+            "sound_id": "atrium:music.meridian.overgrown_isles"
+          }
+        },
+        "weight": 1
+      }
+    ],
     "ambient_sound": {
       "sound_id": "minecraft:atrium.ambient.overgrown_isles.loop"
     },
@@ -32,12 +37,11 @@
     "grass_color": 6715647,
     "foliage_color": 3558911
   },
-  "carvers": {
-    "air": [
-      "minecraft:cave",
-      "minecraft:canyon"
-    ]
-  },
+  "carvers": [
+    "minecraft:cave",
+    "minecraft:cave_extra_underground",
+    "minecraft:canyon"
+  ],
   "features": [
     [],
     [

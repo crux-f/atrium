@@ -8,14 +8,19 @@
       "block_search_extent": 8,
       "offset": 2
     },
-    "music": {
-      "sound": {
-        "sound_id": "atrium:music.depths.crystal_caves"
-      },
-      "min_delay": 12000,
-      "max_delay": 24000,
-      "replace_current_music": false
-    },
+    "music": [
+      {
+        "data": {
+          "max_delay": 24000,
+          "min_delay": 12000,
+          "replace_current_music": false,
+          "sound": {
+            "sound_id": "atrium:music.depths.crystal_caves"
+          }
+        },
+        "weight": 1
+      }
+    ],
     "particle": {
       "options": {
         "type": "minecraft:end_rod"
@@ -29,14 +34,11 @@
     "foliage_color": 12171705,
     "grass_color": 12171705
   },
-  "carvers": {
-    "air": [
-      "minecraft:cave",
-      "minecraft:cave_extra_underground",
-      "minecraft:canyon"
-    ],
-    "liquid": []
-  },
+  "carvers": [
+    "minecraft:cave",
+    "minecraft:cave_extra_underground",
+    "minecraft:canyon"
+  ],
   "features": [
     [],
     [],
@@ -72,7 +74,6 @@
       "minecraft:brown_mushroom_nether",
       "minecraft:red_mushroom_nether",
       "minecraft:seagrass_deep",
-      "minecraft:seagrass_simple",
       "minecraft:kelp_cold"
     ],
     []

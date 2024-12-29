@@ -14,14 +14,19 @@
       },
       "tick_chance": 0.0011
     },
-    "music": {
-      "sound": {
-        "sound_id": "atrium:music.depths.volcanic_caves"
-      },
-      "min_delay": 12000,
-      "max_delay": 24000,
-      "replace_current_music": false
-    },
+    "music": [
+      {
+        "data": {
+          "max_delay": 24000,
+          "min_delay": 12000,
+          "replace_current_music": false,
+          "sound": {
+            "sound_id": "atrium:music.depths.volcanic_caves"
+          }
+        },
+        "weight": 1
+      }
+    ],
     "particle": {
       "options": {
         "type": "minecraft:white_ash"
@@ -38,13 +43,11 @@
     "foliage_color": 6250335,
     "grass_color": 6250335
   },
-  "carvers": {
-    "air": [
-      "minecraft:cave",
-      "minecraft:cave_extra_underground",
-      "minecraft:canyon"
-    ]
-  },
+  "carvers": [
+    "minecraft:cave",
+    "minecraft:cave_extra_underground",
+    "minecraft:canyon"
+  ],
   "features": [
     [],
     [
@@ -86,7 +89,6 @@
     [
       "minecraft:glow_lichen",
       "minecraft:seagrass_deep",
-      "minecraft:seagrass_simple",
       "minecraft:kelp_cold"
     ],
     []

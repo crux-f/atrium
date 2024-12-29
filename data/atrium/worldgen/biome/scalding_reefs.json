@@ -1,11 +1,9 @@
 {
-  "carvers": {
-    "air": [
-      "minecraft:cave",
-      "minecraft:cave_extra_underground",
-      "minecraft:canyon"
-    ]
-  },
+  "carvers": [
+    "minecraft:cave",
+    "minecraft:cave_extra_underground",
+    "minecraft:canyon"
+  ],
   "downfall": 1,
   "effects": {
     "mood_sound": {
@@ -34,8 +32,7 @@
     [],
     [],
     [
-      "minecraft:trees_water",
-      "minecraft:seagrass_simple"
+      "minecraft:trees_water"
     ],
     []
   ],
