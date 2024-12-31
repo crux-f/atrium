@@ -74,4 +74,4 @@ execute if data entity @s data.occult_altar_installed run summon minecraft:item 
 # Remove entity
 kill @s
 # Cleanup
-execute as @p[gamemode=!spectator,distance=..6,nbt={SelectedItem:{tag:{atrium_rod_of_relocation:1b}}}] run function atrium:items/use/placeable_structures/rod_of_relocation_cleanup
+execute as @p[gamemode=!spectator,distance=..6,nbt={SelectedItem:{components:{"minecraft:custom_data":{atrium_rod_of_relocation:1b}}}}] run function atrium:items/use/placeable_structures/rod_of_relocation_cleanup
