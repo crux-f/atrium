@@ -42,7 +42,19 @@ execute positioned ~ ~ ~-3 if entity @e[type=minecraft:glow_item_frame,distance=
 execute positioned ~ ~ ~3 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:redstone_block"}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
 execute positioned ~ ~ ~3 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:redstone_block"}}] at @s run function atrium:formula_crafting/enchantment/e_recipes/occult_altar_upgrade
 # 
-# Runic Enchantments
+# Enchantments
+#
+# Start Aqua Affinity - Check WEST for Ink Sac
+execute positioned ~-4 ~ ~ at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:ink_sac"}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~-4 ~ ~ if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:ink_sac"}}] at @s run function atrium:formula_crafting/enchantment/e_recipes/aqua_affinity
+#
+# Start Depth Strider - Check WEST for Tropical Fish
+execute positioned ~-4 ~ ~ at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:tropical_fish"}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~-4 ~ ~ if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:tropical_fish"}}] at @s run function atrium:formula_crafting/enchantment/e_recipes/depth_strider
+#
+# Start Respiration - Check NORTH WEST for Bamboo
+execute positioned ~-2 ~ ~-2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:bamboo"}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~-2 ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:bamboo"}}] at @s run function atrium:formula_crafting/enchantment/e_recipes/respiration
 #
 # Start Backstabbing I - Check NORTH WEST for any item enchanted with Piercing or a book storing Piercing
 execute positioned ~-2 ~ ~-2 as @e[type=minecraft:glow_item_frame,distance=..1.5] if data entity @s Item.components.minecraft:enchantments.levels.minecraft:piercing at @s run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
