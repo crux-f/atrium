@@ -217,7 +217,11 @@
               {
                 "function": "set_components",
                 "components": {
-                  "minecraft:custom_model_data": 333067,
+                  "minecraft:custom_model_data": {
+                    "strings": [
+                      "atrium_advanced_potion"
+                    ]
+                  },
                   "minecraft:custom_data": {
                     "atrium_tier_3_potion": 1,
                     "atrium_potion": "longer_water_breathing"

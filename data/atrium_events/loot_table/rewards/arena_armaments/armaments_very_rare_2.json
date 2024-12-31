@@ -44,35 +44,35 @@
                   "modifiers": [
                     {
                       "id": "atrium:berserker_helm_max_health",
-                      "type": "generic.max_health",
+                      "type": "max_health",
                       "amount": 20,
                       "operation": "add_value",
                       "slot": "head"
                     },
                     {
                       "id": "atrium:berserker_helm_attack_speed",
-                      "type": "generic.attack_speed",
+                      "type": "attack_speed",
                       "amount": 1,
                       "operation": "add_value",
                       "slot": "head"
                     },
                     {
                       "id": "atrium:berserker_helm_armor",
-                      "type": "generic.armor",
+                      "type": "armor",
                       "amount": -17,
                       "operation": "add_value",
                       "slot": "head"
                     },
                     {
                       "id": "atrium:berserker_helm_armor_toughness",
-                      "type": "generic.armor_toughness",
+                      "type": "armor_toughness",
                       "amount": -9,
                       "operation": "add_value",
                       "slot": "head"
                     },
                     {
                       "id": "atrium:berserker_helm_knockback_resistance",
-                      "type": "generic.knockback_resistance",
+                      "type": "knockback_resistance",
                       "amount": -0.4,
                       "operation": "add_value",
                       "slot": "head"

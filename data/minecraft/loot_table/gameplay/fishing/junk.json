@@ -136,7 +136,11 @@
             {
               "function": "set_components",
               "components": {
-                "minecraft:custom_model_data": 333080,
+                "minecraft:custom_model_data": {
+                  "strings": [
+                    "atrium_sea_salt"
+                  ]
+                },
                 "minecraft:custom_data": {
                   "atrium_sea_salt": 1
                 }

@@ -44,7 +44,11 @@
                 "function": "set_components",
                 "components": {
                   "minecraft:rarity": "common",
-                  "minecraft:custom_model_data": 333000,
+                  "minecraft:custom_model_data": {
+                    "strings": [
+                      "atrium_infusion_research"
+                    ]
+                  },
                   "minecraft:custom_data": {
                     "atrium_research": 1,
                     "atrium_research_type": "infusion",
@@ -106,7 +110,11 @@
                 "function": "set_components",
                 "components": {
                   "minecraft:repair_cost": 99,
-                  "minecraft:custom_model_data": 333142,
+                  "minecraft:custom_model_data": {
+                    "strings": [
+                      "atrium_dreamers_wings"
+                    ]
+                  },
                   "minecraft:custom_data": {
                     "atrium_corrupted_wings": 1
                   }

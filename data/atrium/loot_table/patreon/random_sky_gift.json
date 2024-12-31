@@ -118,20 +118,22 @@
               {
                 "function": "set_components",
                 "components": {
-                  "minecraft:custom_model_data": 333153,
+                  "minecraft:custom_model_data": {
+                    "strings": ["atrium_bayonet_crossbow"]
+                  },
                   "minecraft:custom_data": {
                     "atrium_bayonet_crossbow": 1
                   },
                   "minecraft:attribute_modifiers": [
                     {
-                      "type": "generic.attack_speed",
+                      "type": "attack_speed",
                       "amount": -2.8,
                       "operation": "add_value",
                       "slot": "mainhand",
                       "id": "atrium:bayonet_crossbow_attack_speed"
                     },
                     {
-                      "type": "generic.attack_damage",
+                      "type": "attack_damage",
                       "amount": 5,
                       "operation": "add_value",
                       "slot": "mainhand",
@@ -189,7 +191,9 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-                  "minecraft:custom_model_data": 333132,
+                  "minecraft:custom_model_data": {
+                    "strings": ["atrium_battleaxe"]
+                  },
                   "minecraft:lore": [
                     "{\"text\":\" \"}",
                     "{\"text\":\"When in Main Hand:\",\"color\":\"gray\",\"italic\":false}",
@@ -206,14 +210,14 @@
                         "amount": -3.2,
                         "operation": "add_value",
                         "slot": "mainhand",
-                        "type": "generic.attack_speed",
+                        "type": "attack_speed",
                         "id": "atrium:battleaxe_attack_speed"
                       },
                       {
                         "amount": 9,
                         "operation": "add_value",
                         "slot": "mainhand",
-                        "type": "generic.attack_damage",
+                        "type": "attack_damage",
                         "id": "atrium:battleaxe_base_attack_damage"
                       }
                     ],
@@ -233,7 +237,9 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-                  "minecraft:custom_model_data": 333137,
+                  "minecraft:custom_model_data": {
+                    "strings": ["atrium_dagger"]
+                  },
                   "minecraft:lore": [
                     "{\"text\":\" \"}",
                     "{\"text\":\"When in Main Hand:\",\"color\":\"gray\",\"italic\":false}",
@@ -246,14 +252,14 @@
                         "amount": 2.5,
                         "operation": "add_value",
                         "slot": "mainhand",
-                        "type": "generic.attack_damage",
+                        "type": "attack_damage",
                         "id": "atrium:dagger_attack_damage"
                       },
                       {
                         "amount": -1.8,
                         "operation": "add_value",
                         "slot": "mainhand",
-                        "type": "generic.attack_speed",
+                        "type": "attack_speed",
                         "id": "atrium:dagger_attack_speed"
                       }
                     ],
@@ -273,7 +279,9 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-                  "minecraft:custom_model_data": 333143,
+                  "minecraft:custom_model_data": {
+                    "strings": ["atrium_hammer"]
+                  },
                   "minecraft:lore": [
                     "{\"text\":\" \"}",
                     "{\"text\":\"When in Main Hand:\",\"color\":\"gray\",\"italic\":false}",
@@ -289,14 +297,14 @@
                         "amount": 5,
                         "operation": "add_value",
                         "slot": "mainhand",
-                        "type": "generic.attack_damage",
+                        "type": "attack_damage",
                         "id": "atrium:hammer_attack_damage"
                       },
                       {
                         "amount": -2.8,
                         "operation": "add_value",
                         "slot": "mainhand",
-                        "type": "generic.attack_speed",
+                        "type": "attack_speed",
                         "id": "atrium:hammer_attack_speed"
                       }
                     ],
@@ -316,7 +324,9 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-                  "minecraft:custom_model_data": 333133,
+                  "minecraft:custom_model_data": {
+                    "strings": ["atrium_battleaxe"]
+                  },
                   "minecraft:lore": [
                     "{\"text\":\" \"}",
                     "{\"text\":\"When in Main Hand:\",\"color\":\"gray\",\"italic\":false}",
@@ -333,14 +343,14 @@
                         "amount": -3.1,
                         "operation": "add_value",
                         "slot": "mainhand",
-                        "type": "generic.attack_speed",
+                        "type": "attack_speed",
                         "id": "atrium:battleaxe_attack_speed"
                       },
                       {
                         "amount": 9,
                         "operation": "add_value",
                         "slot": "mainhand",
-                        "type": "generic.attack_damage",
+                        "type": "attack_damage",
                         "id": "atrium:battleaxe_base_attack_damage"
                       }
                     ],
@@ -360,7 +370,9 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-                  "minecraft:custom_model_data": 333138,
+                  "minecraft:custom_model_data": {
+                    "strings": ["atrium_dagger"]
+                  },
                   "minecraft:lore": [
                     "{\"text\":\" \"}",
                     "{\"text\":\"When in Main Hand:\",\"color\":\"gray\",\"italic\":false}",
@@ -373,14 +385,14 @@
                         "amount": 3,
                         "operation": "add_value",
                         "slot": "mainhand",
-                        "type": "generic.attack_damage",
+                        "type": "attack_damage",
                         "id": "atrium:dagger_attack_damage"
                       },
                       {
                         "amount": -1.8,
                         "operation": "add_value",
                         "slot": "mainhand",
-                        "type": "generic.attack_speed",
+                        "type": "attack_speed",
                         "id": "atrium:dagger_attack_speed"
                       }
                     ],
@@ -400,7 +412,9 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-                  "minecraft:custom_model_data": 333144,
+                  "minecraft:custom_model_data": {
+                    "strings": ["atrium_hammer"]
+                  },
                   "minecraft:lore": [
                     "{\"text\":\" \"}",
                     "{\"text\":\"When in Main Hand:\",\"color\":\"gray\",\"italic\":false}",
@@ -416,14 +430,14 @@
                         "amount": 6,
                         "operation": "add_value",
                         "slot": "mainhand",
-                        "type": "generic.attack_damage",
+                        "type": "attack_damage",
                         "id": "atrium:hammer_attack_damage"
                       },
                       {
                         "amount": -2.8,
                         "operation": "add_value",
                         "slot": "mainhand",
-                        "type": "generic.attack_speed",
+                        "type": "attack_speed",
                         "id": "atrium:hammer_attack_speed"
                       }
                     ],
@@ -443,7 +457,9 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-                  "minecraft:custom_model_data": 333134,
+                  "minecraft:custom_model_data": {
+                    "strings": ["atrium_battleaxe"]
+                  },
                   "minecraft:lore": [
                     "{\"text\":\" \"}",
                     "{\"text\":\"When in Main Hand:\",\"color\":\"gray\",\"italic\":false}",
@@ -460,14 +476,14 @@
                         "amount": -3,
                         "operation": "add_value",
                         "slot": "mainhand",
-                        "type": "generic.attack_speed",
+                        "type": "attack_speed",
                         "id": "atrium:battleaxe_attack_speed"
                       },
                       {
                         "amount": 7,
                         "operation": "add_value",
                         "slot": "mainhand",
-                        "type": "generic.attack_damage",
+                        "type": "attack_damage",
                         "id": "atrium:battleaxe_base_attack_damage"
                       }
                     ],
@@ -487,7 +503,9 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-                  "minecraft:custom_model_data": 333139,
+                  "minecraft:custom_model_data": {
+                    "strings": ["atrium_dagger"]
+                  },
                   "minecraft:lore": [
                     "{\"text\":\" \"}",
                     "{\"text\":\"When in Main Hand:\",\"color\":\"gray\",\"italic\":false}",
@@ -500,14 +518,14 @@
                         "amount": 2,
                         "operation": "add_value",
                         "slot": "mainhand",
-                        "type": "generic.attack_damage",
+                        "type": "attack_damage",
                         "id": "atrium:dagger_attack_damage"
                       },
                       {
                         "amount": -1.8,
                         "operation": "add_value",
                         "slot": "mainhand",
-                        "type": "generic.attack_speed",
+                        "type": "attack_speed",
                         "id": "atrium:dagger_attack_speed"
                       }
                     ],
@@ -527,7 +545,9 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-                  "minecraft:custom_model_data": 333145,
+                  "minecraft:custom_model_data": {
+                    "strings": ["atrium_hammer"]
+                  },
                   "minecraft:lore": [
                     "{\"text\":\" \"}",
                     "{\"text\":\"When in Main Hand:\",\"color\":\"gray\",\"italic\":false}",
@@ -543,14 +563,14 @@
                         "amount": 4,
                         "operation": "add_value",
                         "slot": "mainhand",
-                        "type": "generic.attack_damage",
+                        "type": "attack_damage",
                         "id": "atrium:hammer_attack_damage"
                       },
                       {
                         "amount": -2.8,
                         "operation": "add_value",
                         "slot": "mainhand",
-                        "type": "generic.attack_speed",
+                        "type": "attack_speed",
                         "id": "atrium:hammer_attack_speed"
                       }
                     ],

@@ -13,7 +13,9 @@
             {
               "function": "set_components",
               "components": {
-                "minecraft:custom_model_data": 333145,
+                "minecraft:custom_model_data": {
+                  "strings": ["atrium_hammer"]
+                },
                 "minecraft:custom_data": {
                   "atrium_hammer": 1,
                   "atrium_golden_hammer": 1,
@@ -28,14 +30,14 @@
                   "modifiers": [
                     {
                       "id": "atrium:hammer_attack_damage",
-                      "type": "generic.attack_damage",
+                      "type": "attack_damage",
                       "amount": 4,
                       "operation": "add_value",
                       "slot": "mainhand"
                     },
                     {
                       "id": "atrium:hammer_attack_speed",
-                      "type": "generic.attack_speed",
+                      "type": "attack_speed",
                       "amount": -2.8,
                       "operation": "add_value",
                       "slot": "mainhand"
@@ -110,7 +112,9 @@
               "function": "set_components",
               "components": {
                 "minecraft:repair_cost": 3,
-                "minecraft:custom_model_data": 333076,
+                "minecraft:custom_model_data": {
+                  "strings": ["atrium_gilded_pickaxe"]
+                },
                 "minecraft:custom_data": {
                   "atrium_delvers_quest_reward": 1,
                   "atrium_custom_enchantment": 1,

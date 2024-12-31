@@ -15,7 +15,9 @@
                 "function": "set_components",
                 "components": {
                   "minecraft:rarity": "common",
-                  "minecraft:custom_model_data": 333002,
+                  "minecraft:custom_model_data": {
+                    "strings": ["atrium_codex_research"]
+                  },
                   "minecraft:custom_data": {
                     "atrium_research": 1,
                     "atrium_research_type": "runic",
@@ -66,7 +68,67 @@
                 "function": "set_components",
                 "components": {
                   "minecraft:rarity": "common",
-                  "minecraft:custom_model_data": 333002,
+                  "minecraft:custom_model_data": {
+                    "strings": ["atrium_codex_research"]
+                  },
+                  "minecraft:custom_data": {
+                    "atrium_research": 1,
+                    "atrium_research_type": "runic",
+                    "atrium_topic": "oceanic_armor"
+                  }
+                }
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Runic Research"
+                  }
+                ],
+                "target": "item_name"
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Runic Codex Formulas:",
+                    "underlined": true
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Aqua Affinity [Enchantment]"
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Depth Strider [Enchantment]"
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Respiration [Enchantment]"
+                  }
+                ],
+                "mode": "append"
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 10,
+            "quality": 0,
+            "name": "minecraft:paper",
+            "functions": [
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:rarity": "common",
+                  "minecraft:custom_model_data": {
+                    "strings": ["atrium_codex_research"]
+                  },
                   "minecraft:custom_data": {
                     "atrium_research": 1,
                     "atrium_research_type": "runic",
@@ -122,7 +184,9 @@
                 "function": "set_components",
                 "components": {
                   "minecraft:rarity": "common",
-                  "minecraft:custom_model_data": 333002,
+                  "minecraft:custom_model_data": {
+                    "strings": ["atrium_codex_research"]
+                  },
                   "minecraft:custom_data": {
                     "atrium_research": 1,
                     "atrium_research_type": "runic",
@@ -168,7 +232,9 @@
                 "function": "set_components",
                 "components": {
                   "minecraft:rarity": "common",
-                  "minecraft:custom_model_data": 333002,
+                  "minecraft:custom_model_data": {
+                    "strings": ["atrium_codex_research"]
+                  },
                   "minecraft:custom_data": {
                     "atrium_research": 1,
                     "atrium_research_type": "runic",
@@ -214,7 +280,9 @@
                 "function": "set_components",
                 "components": {
                   "minecraft:rarity": "common",
-                  "minecraft:custom_model_data": 333002,
+                  "minecraft:custom_model_data": {
+                    "strings": ["atrium_codex_research"]
+                  },
                   "minecraft:custom_data": {
                     "atrium_research": 1,
                     "atrium_research_type": "runic",
@@ -260,7 +328,9 @@
                 "function": "set_components",
                 "components": {
                   "minecraft:rarity": "common",
-                  "minecraft:custom_model_data": 333002,
+                  "minecraft:custom_model_data": {
+                    "strings": ["atrium_codex_research"]
+                  },
                   "minecraft:custom_data": {
                     "atrium_research": 1,
                     "atrium_research_type": "runic",
@@ -316,7 +386,9 @@
                 "function": "set_components",
                 "components": {
                   "minecraft:rarity": "common",
-                  "minecraft:custom_model_data": 333002,
+                  "minecraft:custom_model_data": {
+                    "strings": ["atrium_codex_research"]
+                  },
                   "minecraft:custom_data": {
                     "atrium_research": 1,
                     "atrium_research_type": "runic",

@@ -12,18 +12,22 @@
           "functions": [
             {
               "function": "set_name",
-              "target": "custom_name",
+              "target": "item_name",
               "name": [
                 {
-                  "text": "§bLich's Key",
-                  "italic": false
+                  "text": "Lich's Key",
+                  "color": "aqua"
                 }
               ]
             },
             {
               "function": "set_components",
               "components": {
-                "minecraft:custom_model_data": 333085,
+                "minecraft:custom_model_data": {
+                  "strings": [
+                    "atrium_lichs_key"
+                  ]
+                },
                 "minecraft:custom_data": {
                   "atrium_lichs_key": 1
                 },

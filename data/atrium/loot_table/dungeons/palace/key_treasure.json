@@ -21,7 +21,11 @@
               {
                 "function": "set_components",
                 "components": {
-                  "minecraft:custom_model_data": 333088,
+                  "minecraft:custom_model_data": {
+                    "strings": [
+                      "atrium_keystone"
+                    ]
+                  },
                   "minecraft:custom_data": {
                     "atrium_palace_door_key": 1
                   }

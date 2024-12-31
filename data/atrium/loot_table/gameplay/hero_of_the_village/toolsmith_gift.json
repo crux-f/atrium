@@ -7,22 +7,22 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:stone_pickaxe",
-          "weight": 3
+          "weight": 4
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:stone_axe",
-          "weight": 3
+          "weight": 4
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:stone_hoe",
-          "weight": 3
+          "weight": 4
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:stone_shovel",
-          "weight": 3
+          "weight": 4
         },
         {
           "type": "item",
@@ -31,28 +31,20 @@
           "functions": [
             {
               "function": "set_name",
-              "target": "custom_name",
-              "name": [
-                {
-                  "italic": false,
-                  "text": "§aToolsmith Key"
-                }
-              ]
-            },
-            {
-              "function": "set_name",
               "target": "item_name",
               "name": [
                 {
                   "italic": false,
-                  "text": "Mangled Key"
+                  "text": "Toolsmith's Key"
                 }
               ]
             },
             {
               "function": "set_components",
               "components": {
-                "minecraft:custom_model_data": 333070,
+                "minecraft:custom_model_data": {
+                  "strings": ["atrium_village_key"]
+                },
                 "minecraft:custom_data": {
                   "atrium_village_key": 1,
                   "atrium_village_toolsmith_key": 1
@@ -60,12 +52,6 @@
               }
             }
           ]
-        },
-        {
-          "type": "loot_table",
-          "weight": 3,
-          "quality": 1,
-          "value": "atrium:gameplay/hero_of_the_village/village_type_key"
         }
       ],
       "rolls": 1.0

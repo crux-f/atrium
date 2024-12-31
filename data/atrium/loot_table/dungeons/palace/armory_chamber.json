@@ -47,7 +47,11 @@
               {
                 "function": "set_components",
                 "components": {
-                  "minecraft:custom_model_data": 333086,
+                  "minecraft:custom_model_data": {
+                    "strings": [
+                      "atrium_ruined_blade"
+                    ]
+                  },
                   "minecraft:custom_data": {
                     "atrium_ruined_blade": 1
                   }

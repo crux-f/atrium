@@ -66,28 +66,28 @@
                 "minecraft:attribute_modifiers": [
                   {
                     "id": "atrium:eager_crystal_attack_damage_mainhand",
-                    "type": "generic.attack_damage",
+                    "type": "attack_damage",
                     "amount": 3,
                     "operation": "add_value",
                     "slot": "mainhand"
                   },
                   {
                     "id": "atrium:eager_crystal_attack_speed_mainhand",
-                    "type": "generic.attack_speed",
+                    "type": "attack_speed",
                     "amount": 0.15,
                     "operation": "add_multiplied_base",
                     "slot": "mainhand"
                   },
                   {
                     "id": "atrium:eager_crystal_attack_damage_offhand",
-                    "type": "generic.attack_damage",
+                    "type": "attack_damage",
                     "amount": 1,
                     "operation": "add_value",
                     "slot": "offhand"
                   },
                   {
                     "id": "atrium:eager_crystal_attack_speed_offhand",
-                    "type": "generic.attack_speed",
+                    "type": "attack_speed",
                     "amount": 0.7,
                     "operation": "add_value",
                     "slot": "offhand"

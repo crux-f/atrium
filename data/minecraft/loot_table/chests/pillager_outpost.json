@@ -284,14 +284,14 @@
                 "minecraft:attribute_modifiers": [
                   {
                     "id": "atrium:raiders_crossbow_knockback_resistance_mainhand",
-                    "type": "generic.knockback_resistance",
+                    "type": "knockback_resistance",
                     "amount": 0.15,
                     "operation": "add_value",
                     "slot": "mainhand"
                   },
                   {
                     "id": "knockback_resistance",
-                    "type": "generic.knockback_resistance",
+                    "type": "knockback_resistance",
                     "amount": 0.1,
                     "operation": "add_value",
                     "slot": "offhand"

@@ -81,21 +81,21 @@
                 "minecraft:attribute_modifiers": [
                   {
                     "id": "atrium:hardened_carapace_armor",
-                    "type": "generic.armor",
+                    "type": "armor",
                     "amount": 6,
                     "operation": "add_value",
                     "slot": "chest"
                   },
                   {
                     "id": "atrium:hardened_carapace_armor_toughness",
-                    "type": "generic.armor_toughness",
+                    "type": "armor_toughness",
                     "amount": 1,
                     "operation": "add_value",
                     "slot": "chest"
                   },
                   {
                     "id": "atrium:hardened_carapace_movement_speed",
-                    "type": "generic.movement_speed",
+                    "type": "movement_speed",
                     "amount": -0.15,
                     "operation": "add_multiplied_base",
                     "slot": "chest"
@@ -159,7 +159,7 @@
                 "minecraft:attribute_modifiers": [
                   {
                     "id": "atrium:standard_issue_trousers_armor",
-                    "type": "generic.armor",
+                    "type": "armor",
                     "amount": 4,
                     "operation": "add_value",
                     "slot": "legs"
@@ -228,7 +228,7 @@
                 "minecraft:attribute_modifiers": [
                   {
                     "id": "atrium:tactical_flippers_armor",
-                    "type": "generic.armor",
+                    "type": "armor",
                     "amount": 1,
                     "operation": "add_value",
                     "slot": "feet"
@@ -304,7 +304,7 @@
                 "minecraft:attribute_modifiers": [
                   {
                     "id": "atrium:auto_crossbow_movement_speed",
-                    "type": "generic.movement_speed",
+                    "type": "movement_speed",
                     "amount": -0.1,
                     "operation": "add_multiplied_base",
                     "slot": "hand"

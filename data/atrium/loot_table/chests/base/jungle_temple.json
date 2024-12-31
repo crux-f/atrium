@@ -139,7 +139,7 @@
             {
               "function": "minecraft:enchant_with_levels",
               "levels": 30.0,
-              "treasure": true
+              "options": "#minecraft:on_random_loot"
             }
           ],
           "name": "minecraft:book"
@@ -168,27 +168,6 @@
             }
           ],
           "name": "minecraft:wild_armor_trim_smithing_template"
-        }
-      ],
-      "rolls": 1.0
-    },
-    {
-      "bonus_rolls": 0.0,
-      "entries": [
-        {
-          "type": "minecraft:empty"
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "enchantments": [
-                "minecraft:unbreaking"
-              ],
-              "function": "minecraft:enchant_randomly"
-            }
-          ],
-          "name": "minecraft:book"
         }
       ],
       "rolls": 1.0

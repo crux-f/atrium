@@ -66,7 +66,9 @@
             {
               "function": "set_components",
               "components": {
-                "minecraft:custom_model_data": 333134,
+                "minecraft:custom_model_data": {
+                  "strings": ["atrium_battleaxe"]
+                },
                 "minecraft:custom_data": {
                   "atrium_battleaxe": 1,
                   "atrium_golden_battleaxe": 1
@@ -75,14 +77,14 @@
                   "modifiers": [
                     {
                       "id": "atrium:battleaxe_attack_damage",
-                      "type": "generic.attack_damage",
+                      "type": "attack_damage",
                       "amount": 7,
                       "operation": "add_value",
                       "slot": "mainhand"
                     },
                     {
                       "id": "atrium:battleaxe_attack_speed",
-                      "type": "generic.attack_speed",
+                      "type": "attack_speed",
                       "amount": -3,
                       "operation": "add_value",
                       "slot": "mainhand"
@@ -153,7 +155,9 @@
             {
               "function": "set_components",
               "components": {
-                "minecraft:custom_model_data": 333192,
+                "minecraft:custom_model_data": {
+                  "strings": ["atrium_glass_mug"]
+                },
                 "minecraft:custom_data": {
                   "atrium_swirling_tea": 1
                 },

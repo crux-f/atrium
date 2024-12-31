@@ -13,20 +13,24 @@
                 {
                   "function": "set_components",
                   "components": {
-                    "minecraft:custom_model_data": 333153,
+                    "minecraft:custom_model_data": {
+                      "strings": [
+                        "atrium_bayonet_crossbow"
+                      ]
+                    },
                     "minecraft:custom_data": {
                       "atrium_bayonet_crossbow": 1
                     },
                     "minecraft:attribute_modifiers": [
                       {
-                        "type": "generic.attack_speed",
+                        "type": "attack_speed",
                         "amount": -2.8,
                         "operation": "add_value",
                         "slot": "mainhand",
                         "id": "atrium:bayonet_crossbow_attack_speed"
                       },
                       {
-                        "type": "generic.attack_damage",
+                        "type": "attack_damage",
                         "amount": 5,
                         "operation": "add_value",
                         "slot": "mainhand",

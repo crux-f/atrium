@@ -25,7 +25,7 @@
                 "minecraft:attribute_modifiers": [
                   {
                     "id": "atrium:frosted_hood_armor",
-                    "type": "generic.armor",
+                    "type": "armor",
                     "amount": 2,
                     "operation": "add_value",
                     "slot": "head"
@@ -94,14 +94,14 @@
                 "minecraft:attribute_modifiers": [
                   {
                     "id": "atrium:tundramancers_robes_armor",
-                    "type": "generic.armor",
+                    "type": "armor",
                     "amount": 4,
                     "operation": "add_value",
                     "slot": "chest"
                   },
                   {
                     "id": "atrium:tundramancers_robes_armor_toughness",
-                    "type": "generic.armor_toughness",
+                    "type": "armor_toughness",
                     "amount": 1,
                     "operation": "add_value",
                     "slot": "chest"
@@ -176,14 +176,14 @@
                 "minecraft:attribute_modifiers": [
                   {
                     "id": "atrium:shimmering_snow_shoes_armor",
-                    "type": "generic.armor",
+                    "type": "armor",
                     "amount": 1,
                     "operation": "add_value",
                     "slot": "feet"
                   },
                   {
                     "id": "atrium:shimmering_snow_shoes_movement_speed",
-                    "type": "generic.armor",
+                    "type": "armor",
                     "amount": 0.1,
                     "operation": "add_multiplied_base",
                     "slot": "feet"
@@ -236,7 +236,9 @@
             {
               "function": "set_components",
               "components": {
-                "minecraft:custom_model_data": 333063,
+                "minecraft:custom_model_data": {
+                  "strings": ["atrium_water_staff"]
+                },
                 "minecraft:custom_data": {
                   "atrium_staff": 1,
                   "atrium_staff_lv": 1,
@@ -246,7 +248,7 @@
                 "minecraft:attribute_modifiers": [
                   {
                     "id": "atrium:staff_attack_damage",
-                    "type": "generic.attack_damage",
+                    "type": "attack_damage",
                     "amount": 2,
                     "operation": "add_value",
                     "slot": "mainhand"

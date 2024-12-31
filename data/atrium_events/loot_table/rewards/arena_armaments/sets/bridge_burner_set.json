@@ -23,14 +23,14 @@
                 "minecraft:attribute_modifiers": [
                   {
                     "id": "atrium:bridge_burner_helmet_armor",
-                    "type": "generic.armor",
+                    "type": "armor",
                     "amount": 1,
                     "operation": "add_value",
                     "slot": "head"
                   },
                   {
                     "id": "atrium:bridge_burner_helmet_knockback_resistance",
-                    "type": "generic.knockback_resistance",
+                    "type": "knockback_resistance",
                     "amount": 0.05,
                     "operation": "add_value",
                     "slot": "head"
@@ -98,14 +98,14 @@
                 "minecraft:attribute_modifiers": [
                   {
                     "id": "atrium:bridge_burner_tunic_armor",
-                    "type": "generic.armor",
+                    "type": "armor",
                     "amount": 2,
                     "operation": "add_value",
                     "slot": "chest"
                   },
                   {
                     "id": "atrium:bridge_burner_tunic_knockback_resistance",
-                    "type": "generic.knockback_resistance",
+                    "type": "knockback_resistance",
                     "amount": 0.05,
                     "operation": "add_value",
                     "slot": "chest"
@@ -170,14 +170,14 @@
                 "minecraft:attribute_modifiers": [
                   {
                     "id": "atrium:bridge_burner_leggings_armor",
-                    "type": "generic.armor",
+                    "type": "armor",
                     "amount": 2,
                     "operation": "add_value",
                     "slot": "legs"
                   },
                   {
                     "id": "atrium:bridge_burner_leggings_knockback_resistance",
-                    "type": "generic.knockback_resistance",
+                    "type": "knockback_resistance",
                     "amount": 0.05,
                     "operation": "add_value",
                     "slot": "legs"
@@ -229,7 +229,9 @@
             {
               "function": "set_components",
               "components": {
-                "minecraft:custom_model_data": 333062,
+                "minecraft:custom_model_data": {
+                  "strings": ["atrium_fire_staff"]
+                },
                 "minecraft:custom_data": {
                   "atrium_staff": 1,
                   "atrium_staff_lv": 1,
@@ -239,7 +241,7 @@
                 "minecraft:attribute_modifiers": [
                   {
                     "id": "atrium:staff_attack_damage",
-                    "type": "generic.attack_damage",
+                    "type": "attack_damage",
                     "amount": 2,
                     "operation": "add_value",
                     "slot": "mainhand"

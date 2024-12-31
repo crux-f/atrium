@@ -88,7 +88,9 @@
               "function": "set_components",
               "components": {
                 "minecraft:rarity": "epic",
-                "minecraft:custom_model_data": 333067,
+                "minecraft:custom_model_data": {
+                  "strings": ["atrium_small_bottle"]
+                },
                 "minecraft:custom_data": {
                   "atrium_the_juice": 1
                 },
@@ -656,7 +658,9 @@
             {
               "function": "set_components",
               "components": {
-                "minecraft:custom_model_data": 333081,
+                "minecraft:custom_model_data": {
+                  "strings": ["atrium_strange_egg"]
+                },
                 "minecraft:custom_data": {
                   "atrium_silas_egg": 1
                 }

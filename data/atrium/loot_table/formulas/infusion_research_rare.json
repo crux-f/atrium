@@ -15,7 +15,11 @@
                 "function": "set_components",
                 "components": {
                   "minecraft:rarity": "uncommon",
-                  "minecraft:custom_model_data": 333000,
+                  "minecraft:custom_model_data": {
+                    "strings": [
+                      "atrium_enchanted_infusion_research"
+                    ]
+                  },
                   "minecraft:custom_data": {
                     "atrium_research": 1,
                     "atrium_research_type": "infusion",

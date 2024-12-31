@@ -67,7 +67,9 @@
             {
               "function": "set_components",
               "components": {
-                "minecraft:custom_model_data": 333177,
+                  "minecraft:custom_model_data": {
+                    "strings": ["atrium_bayonet_crossbow"]
+                  },
                 "minecraft:custom_data": {
                   "atrium_null": 1,
                   "atrium_custom_enchantment": 1,
@@ -121,13 +123,18 @@
             {
               "function": "set_components",
               "components": {
-                "minecraft:custom_model_data": 333178,
+                "minecraft:custom_model_data": {
+                  "strings": ["atrium_rod_of_remembering"]
+                },
                 "minecraft:custom_data": {
-                  "atrium_rod_of_remembering": 1,
-                  "atrium_custom_enchantment": 1,
-                  "atrium_concentration_enchanted": 1,
-                  "atrium_concentration_lv": 4
+                  "atrium_rod_of_remembering": 1
                 }
+              }
+            },
+            {
+              "function": "set_enchantments",
+              "enchantments": {
+                "atrium:concentration": 4
               }
             },
             {
@@ -142,11 +149,6 @@
             {
               "function": "set_lore",
               "lore": [
-                {
-                  "color": "gray",
-                  "italic": false,
-                  "text": "Concentration IV"
-                },
                 {
                   "text": "This arcane device allows"
                 },

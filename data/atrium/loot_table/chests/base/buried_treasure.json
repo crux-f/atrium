@@ -102,8 +102,7 @@
             }
           ],
           "name": "minecraft:diamond",
-          "weight": 5,
-          "quality": 1
+          "weight": 5
         },
         {
           "type": "minecraft:item",
@@ -183,7 +182,7 @@
       "rolls": 2.0
     },
     {
-      "bonus_rolls": 1.0,
+      "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:item",

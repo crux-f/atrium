@@ -19,14 +19,14 @@
                 "minecraft:attribute_modifiers": [
                   {
                     "id": "atrium:feathered_cap_armor",
-                    "type": "generic.armor",
+                    "type": "armor",
                     "amount": 2,
                     "operation": "add_value",
                     "slot": "head"
                   },
                   {
                     "id": "atrium:feathered_cap_movement_speed",
-                    "type": "generic.movement_speed",
+                    "type": "movement_speed",
                     "amount": 0.05,
                     "operation": "add_multiplied_base",
                     "slot": "head"
@@ -86,14 +86,14 @@
                 "minecraft:attribute_modifiers": [
                   {
                     "id": "atrium:aquamarine_armor_armor",
-                    "type": "generic.armor",
+                    "type": "armor",
                     "amount": 3,
                     "operation": "add_value",
                     "slot": "chest"
                   },
                   {
                     "id": "atrium:aquamarine_armor_movement_speed",
-                    "type": "generic.movement_speed",
+                    "type": "movement_speed",
                     "amount": 0.1,
                     "operation": "add_multiplied_base",
                     "slot": "chest"
@@ -156,14 +156,14 @@
                 "minecraft:attribute_modifiers": [
                   {
                     "id": "atrium:leather_shinguards_armor",
-                    "type": "generic.armor",
+                    "type": "armor",
                     "amount": 2,
                     "operation": "add_value",
                     "slot": "legs"
                   },
                   {
                     "id": "atrium:leather_shinguards_movement_speed",
-                    "type": "generic.movement_speed",
+                    "type": "movement_speed",
                     "amount": 0.05,
                     "operation": "add_multiplied_base",
                     "slot": "legs"
@@ -223,14 +223,14 @@
                 "minecraft:attribute_modifiers": [
                   {
                     "id": "atrium:hiking_boots_armor",
-                    "type": "generic.armor",
+                    "type": "armor",
                     "amount": 2,
                     "operation": "add_value",
                     "slot": "feet"
                   },
                   {
                     "id": "atrium:hiking_boots_movement_speed",
-                    "type": "generic.movement_speed",
+                    "type": "movement_speed",
                     "amount": 0.05,
                     "operation": "add_multiplied_base",
                     "slot": "feet"
@@ -298,7 +298,7 @@
                 "minecraft:attribute_modifiers": [
                   {
                     "id": "atrium:composite_bow_movement_speed",
-                    "type": "generic.movement_speed",
+                    "type": "movement_speed",
                     "amount": 0.10,
                     "operation": "add_multiplied_base",
                     "slot": "mainhand"

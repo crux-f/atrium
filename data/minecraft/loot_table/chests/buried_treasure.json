@@ -34,7 +34,9 @@
                     }
                   ]
                 },
-                "minecraft:custom_model_data": 333165
+                "minecraft:custom_model_data": {
+                  "strings": ["atrium_wine_bottle"]
+                }
               }
             },
             {
@@ -75,14 +77,14 @@
                 "minecraft:attribute_modifiers": [
                   {
                     "id": "atrium:shorefinder_spyglass_movement_speed",
-                    "type": "generic.movement_speed",
+                    "type": "movement_speed",
                     "amount": 0.1,
                     "operation": "add_multiplied_base",
                     "slot": "mainhand"
                   },
                   {
                     "id": "atrium:shorefinder_spyglass_water_movement_efficiency",
-                    "type": "generic.water_movement_efficiency",
+                    "type": "water_movement_efficiency",
                     "amount": 0.33,
                     "operation": "add_value",
                     "slot": "mainhand"

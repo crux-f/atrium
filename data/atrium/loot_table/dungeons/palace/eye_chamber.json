@@ -90,7 +90,11 @@
               {
                 "function": "set_components",
                 "components": {
-                  "minecraft:custom_model_data": 333060,
+                  "minecraft:custom_model_data": {
+                    "strings": [
+                      "atrium_air_staff"
+                    ]
+                  },
                   "minecraft:custom_data": {
                     "atrium_staff": 1,
                     "atrium_staff_lv": 2,
@@ -100,7 +104,7 @@
                   "minecraft:attribute_modifiers": [
                     {
                       "id": "atrium:staff_attack_damage",
-                      "type": "generic.attack_damage",
+                      "type": "attack_damage",
                       "amount": 2,
                       "operation": "add_value",
                       "slot": "mainhand"
@@ -166,7 +170,11 @@
               {
                 "function": "set_components",
                 "components": {
-                  "minecraft:custom_model_data": 333061,
+                  "minecraft:custom_model_data": {
+                    "strings": [
+                      "atrium_earth_staff"
+                    ]
+                  },
                   "minecraft:custom_data": {
                     "atrium_staff": 1,
                     "atrium_staff_lv": 2,
@@ -176,7 +184,7 @@
                   "minecraft:attribute_modifiers": [
                     {
                       "id": "atrium:staff_attack_damage",
-                      "type": "generic.attack_damage",
+                      "type": "attack_damage",
                       "amount": 2,
                       "operation": "add_value",
                       "slot": "mainhand"
@@ -242,7 +250,11 @@
               {
                 "function": "set_components",
                 "components": {
-                  "minecraft:custom_model_data": 333060,
+                  "minecraft:custom_model_data": {
+                    "strings": [
+                      "atrium_fire_staff"
+                    ]
+                  },
                   "minecraft:custom_data": {
                     "atrium_staff": 1,
                     "atrium_staff_lv": 2,
@@ -252,7 +264,7 @@
                   "minecraft:attribute_modifiers": [
                     {
                       "id": "atrium:staff_attack_damage",
-                      "type": "generic.attack_damage",
+                      "type": "attack_damage",
                       "amount": 2,
                       "operation": "add_value",
                       "slot": "mainhand"
@@ -318,7 +330,11 @@
               {
                 "function": "set_components",
                 "components": {
-                  "minecraft:custom_model_data": 333060,
+                  "minecraft:custom_model_data": {
+                    "strings": [
+                      "atrium_water_staff"
+                    ]
+                  },
                   "minecraft:custom_data": {
                     "atrium_staff": 1,
                     "atrium_staff_lv": 2,
@@ -328,7 +344,7 @@
                   "minecraft:attribute_modifiers": [
                     {
                       "id": "atrium:staff_attack_damage",
-                      "type": "generic.attack_damage",
+                      "type": "attack_damage",
                       "amount": 2,
                       "operation": "add_value",
                       "slot": "mainhand"

@@ -36,7 +36,7 @@
                 "max": 40.0,
                 "min": 20.0
               },
-              "treasure": true
+              "options": "#on_random_loot"
             }
           ]
         }

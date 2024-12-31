@@ -12,28 +12,21 @@
             "functions": [
               {
                 "function": "set_name",
-                "target": "custom_name",
-                "name": [
-                  {
-                    "italic": false,
-                    "text": "§aPlains House Key"
-                  }
-                ]
-              },
-              {
-                "function": "set_name",
                 "target": "item_name",
                 "name": [
                   {
-                    "italic": false,
-                    "text": "Mangled Key"
+                    "text": "Plains Village Key"
                   }
                 ]
               },
               {
                 "function": "set_components",
                 "components": {
-                  "minecraft:custom_model_data": 333070,
+                  "minecraft:custom_model_data": {
+                    "strings": [
+                      "atrium_village_key"
+                    ]
+                  },
                   "minecraft:custom_data": {
                     "atrium_village_key": 1,
                     "atrium_village_plains_house_key": 1
@@ -58,28 +51,22 @@
             "functions": [
               {
                 "function": "set_name",
-                "target": "custom_name",
-                "name": [
-                  {
-                    "italic": false,
-                    "text": "§aDesert House Key"
-                  }
-                ]
-              },
-              {
-                "function": "set_name",
                 "target": "item_name",
                 "name": [
                   {
                     "italic": false,
-                    "text": "Mangled Key"
+                    "text": "Desert Village Key"
                   }
                 ]
               },
               {
                 "function": "set_components",
                 "components": {
-                  "minecraft:custom_model_data": 333070,
+                  "minecraft:custom_model_data": {
+                    "strings": [
+                      "atrium_village_key"
+                    ]
+                  },
                   "minecraft:custom_data": {
                     "atrium_village_key": 1,
                     "atrium_village_desert_house_key": 1
@@ -104,28 +91,22 @@
             "functions": [
               {
                 "function": "set_name",
-                "target": "custom_name",
-                "name": [
-                  {
-                    "italic": false,
-                    "text": "§aSavanna House Key"
-                  }
-                ]
-              },
-              {
-                "function": "set_name",
                 "target": "item_name",
                 "name": [
                   {
                     "italic": false,
-                    "text": "Mangled Key"
+                    "text": "Savanna Village Key"
                   }
                 ]
               },
               {
                 "function": "set_components",
                 "components": {
-                  "minecraft:custom_model_data": 333070,
+                  "minecraft:custom_model_data": {
+                    "strings": [
+                      "atrium_village_key"
+                    ]
+                  },
                   "minecraft:custom_data": {
                     "atrium_village_key": 1,
                     "atrium_village_savanna_house_key": 1
@@ -150,28 +131,22 @@
             "functions": [
               {
                 "function": "set_name",
-                "target": "custom_name",
-                "name": [
-                  {
-                    "italic": false,
-                    "text": "§aTaiga House Key"
-                  }
-                ]
-              },
-              {
-                "function": "set_name",
                 "target": "item_name",
                 "name": [
                   {
                     "italic": false,
-                    "text": "Mangled Key"
+                    "text": "Taiga Village Key"
                   }
                 ]
               },
               {
                 "function": "set_components",
                 "components": {
-                  "minecraft:custom_model_data": 333070,
+                  "minecraft:custom_model_data": {
+                    "strings": [
+                      "atrium_village_key"
+                    ]
+                  },
                   "minecraft:custom_data": {
                     "atrium_village_key": 1,
                     "atrium_village_taiga_house_key": 1
@@ -196,28 +171,22 @@
             "functions": [
               {
                 "function": "set_name",
-                "target": "custom_name",
-                "name": [
-                  {
-                    "italic": false,
-                    "text": "§aSnowy House Key"
-                  }
-                ]
-              },
-              {
-                "function": "set_name",
                 "target": "item_name",
                 "name": [
                   {
                     "italic": false,
-                    "text": "Mangled Key"
+                    "text": "Snowy Village Key"
                   }
                 ]
               },
               {
                 "function": "set_components",
                 "components": {
-                  "minecraft:custom_model_data": 333070,
+                  "minecraft:custom_model_data": {
+                    "strings": [
+                      "atrium_village_key"
+                    ]
+                  },
                   "minecraft:custom_data": {
                     "atrium_village_key": 1,
                     "atrium_village_snowy_house_key": 1

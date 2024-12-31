@@ -19,7 +19,7 @@
                 "minecraft:attribute_modifiers": [
                   {
                     "id": "atrium:skullcap_armor",
-                    "type": "generic.armor",
+                    "type": "armor",
                     "amount": 3,
                     "operation": "add_value",
                     "slot": "head"
@@ -75,21 +75,21 @@
                 "minecraft:attribute_modifiers": [
                   {
                     "id": "atrium:plate_mail_armor",
-                    "type": "generic.armor",
+                    "type": "armor",
                     "amount": 6,
                     "operation": "add_value",
                     "slot": "chest"
                   },
                   {
                     "id": "atrium:plate_mail_armor_toughness",
-                    "type": "generic.armor_toughness",
+                    "type": "armor_toughness",
                     "amount": 2,
                     "operation": "add_value",
                     "slot": "chest"
                   },
                   {
                     "id": "atrium:plate_mail_movement_speed",
-                    "type": "generic.movement_speed",
+                    "type": "movement_speed",
                     "amount": -0.15,
                     "operation": "add_multiplied_base",
                     "slot": "chest"
@@ -148,21 +148,21 @@
                 "minecraft:attribute_modifiers": [
                   {
                     "id": "atrium:heavy_greaves_armor",
-                    "type": "generic.armor",
+                    "type": "armor",
                     "amount": 5,
                     "operation": "add_value",
                     "slot": "legs"
                   },
                   {
                     "id": "atrium:heavy_greaves_armor_toughness",
-                    "type": "generic.armor_toughness",
+                    "type": "armor_toughness",
                     "amount": 2,
                     "operation": "add_value",
                     "slot": "legs"
                   },
                   {
                     "id": "atrium:heavy_greaves_movement_speed",
-                    "type": "generic.movement_speed",
+                    "type": "movement_speed",
                     "amount": -0.08,
                     "operation": "add_multiplied_base",
                     "slot": "legs"
@@ -223,21 +223,21 @@
                 "minecraft:attribute_modifiers": [
                   {
                     "id": "atrium:heavy_boots_armor",
-                    "type": "generic.armor",
+                    "type": "armor",
                     "amount": 2,
                     "operation": "add_value",
                     "slot": "feet"
                   },
                   {
                     "id": "atrium:heavy_boots_armor_toughness",
-                    "type": "generic.armor_toughness",
+                    "type": "armor_toughness",
                     "amount": 1,
                     "operation": "add_value",
                     "slot": "feet"
                   },
                   {
                     "id": "atrium:heavy_boots_movement_speed",
-                    "type": "generic.movement_speed",
+                    "type": "movement_speed",
                     "amount": -0.08,
                     "operation": "add_multiplied_base",
                     "slot": "feet"

@@ -12,7 +12,11 @@
               {
                 "function": "set_components",
                 "components": {
-                  "minecraft:custom_model_data": 333090,
+                  "minecraft:custom_model_data": {
+                    "strings": [
+                      "atrium_0_runestone"
+                    ]
+                  },
                   "minecraft:custom_data": {
                     "atrium_rune": 0,
                     "atrium_rune_color": "red",
@@ -52,7 +56,11 @@
               {
                 "function": "set_components",
                 "components": {
-                  "minecraft:custom_model_data": 333091,
+                  "minecraft:custom_model_data": {
+                    "strings": [
+                      "atrium_1_runestone"
+                    ]
+                  },
                   "minecraft:custom_data": {
                     "atrium_rune": 1,
                     "atrium_rune_color": "red",
@@ -92,7 +100,11 @@
               {
                 "function": "set_components",
                 "components": {
-                  "minecraft:custom_model_data": 333092,
+                  "minecraft:custom_model_data": {
+                    "strings": [
+                      "atrium_2_runestone"
+                    ]
+                  },
                   "minecraft:custom_data": {
                     "atrium_rune": 2,
                     "atrium_rune_color": "red",
@@ -132,7 +144,11 @@
               {
                 "function": "set_components",
                 "components": {
-                  "minecraft:custom_model_data": 333093,
+                  "minecraft:custom_model_data": {
+                    "strings": [
+                      "atrium_3_runestone"
+                    ]
+                  },
                   "minecraft:custom_data": {
                     "atrium_rune": 3,
                     "atrium_rune_color": "red",
@@ -172,7 +188,11 @@
               {
                 "function": "set_components",
                 "components": {
-                  "minecraft:custom_model_data": 333094,
+                  "minecraft:custom_model_data": {
+                    "strings": [
+                      "atrium_4_runestone"
+                    ]
+                  },
                   "minecraft:custom_data": {
                     "atrium_rune": 4,
                     "atrium_rune_color": "red",
@@ -212,7 +232,11 @@
               {
                 "function": "set_components",
                 "components": {
-                  "minecraft:custom_model_data": 333095,
+                  "minecraft:custom_model_data": {
+                    "strings": [
+                      "atrium_5_runestone"
+                    ]
+                  },
                   "minecraft:custom_data": {
                     "atrium_rune": 5,
                     "atrium_rune_color": "red",
@@ -252,7 +276,11 @@
               {
                 "function": "set_components",
                 "components": {
-                  "minecraft:custom_model_data": 333096,
+                  "minecraft:custom_model_data": {
+                    "strings": [
+                      "atrium_6_runestone"
+                    ]
+                  },
                   "minecraft:custom_data": {
                     "atrium_rune": 6,
                     "atrium_rune_color": "red",
@@ -292,7 +320,11 @@
               {
                 "function": "set_components",
                 "components": {
-                  "minecraft:custom_model_data": 333097,
+                  "minecraft:custom_model_data": {
+                    "strings": [
+                      "atrium_7_runestone"
+                    ]
+                  },
                   "minecraft:custom_data": {
                     "atrium_rune": 7,
                     "atrium_rune_color": "red",
@@ -332,7 +364,11 @@
               {
                 "function": "set_components",
                 "components": {
-                  "minecraft:custom_model_data": 333098,
+                  "minecraft:custom_model_data": {
+                    "strings": [
+                      "atrium_8_runestone"
+                    ]
+                  },
                   "minecraft:custom_data": {
                     "atrium_rune": 8,
                     "atrium_rune_color": "red",
@@ -372,7 +408,11 @@
               {
                 "function": "set_components",
                 "components": {
-                  "minecraft:custom_model_data": 333099,
+                  "minecraft:custom_model_data": {
+                    "strings": [
+                      "atrium_9_runestone"
+                    ]
+                  },
                   "minecraft:custom_data": {
                     "atrium_rune": 9,
                     "atrium_rune_color": "red",
@@ -412,7 +452,11 @@
               {
                 "function": "set_components",
                 "components": {
-                  "minecraft:custom_model_data": 333126,
+                  "minecraft:custom_model_data": {
+                    "strings": [
+                      "atrium_exclamation_mark_runestone"
+                    ]
+                  },
                   "minecraft:custom_data": {
                     "atrium_rune": "exclamation_mark",
                     "atrium_rune_color": "red",
@@ -452,7 +496,11 @@
               {
                 "function": "set_components",
                 "components": {
-                  "minecraft:custom_model_data": 333127,
+                  "minecraft:custom_model_data": {
+                    "strings": [
+                      "atrium_comma_runestone"
+                    ]
+                  },
                   "minecraft:custom_data": {
                     "atrium_rune": "comma",
                     "atrium_rune_color": "red",
@@ -492,7 +540,11 @@
               {
                 "function": "set_components",
                 "components": {
-                  "minecraft:custom_model_data": 333128,
+                  "minecraft:custom_model_data": {
+                    "strings": [
+                      "atrium_question_mark_runestone"
+                    ]
+                  },
                   "minecraft:custom_data": {
                     "atrium_rune": "question_mark",
                     "atrium_rune_color": "red",
@@ -532,7 +584,11 @@
               {
                 "function": "set_components",
                 "components": {
-                  "minecraft:custom_model_data": 333129,
+                  "minecraft:custom_model_data": {
+                    "strings": [
+                      "atrium_period_runestone"
+                    ]
+                  },
                   "minecraft:custom_data": {
                     "atrium_rune": "period",
                     "atrium_rune_color": "red",

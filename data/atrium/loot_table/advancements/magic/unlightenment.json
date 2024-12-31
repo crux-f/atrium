@@ -12,7 +12,11 @@
             {
               "function": "set_components",
               "components": {
-                "minecraft:custom_model_data": 333173,
+                "minecraft:custom_model_data": {
+                  "strings": [
+                    "atrium_forgotten_runestone"
+                  ]
+                },
                 "minecraft:custom_data": {
                   "atrium_forgotten_runestone": 1
                 }

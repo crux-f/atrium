@@ -50,7 +50,6 @@
             {
               "function": "set_components",
               "components": {
-                "minecraft:custom_model_data": 333061,
                 "minecraft:custom_data": {
                   "atrium_ancient_city_quest_map": 1,
                   "atrium_archive_map": 1
@@ -227,7 +226,9 @@
                 "minecraft:custom_data": {
                   "atrium_peculiar_prism": 1
                 },
-                "minecraft:custom_model_data": 333069
+                "minecraft:custom_model_data": {
+                  "strings": ["atrium_peculiar_prism"]
+                }
               }
             },
             {

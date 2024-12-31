@@ -485,7 +485,7 @@
                 "minecraft:attribute_modifiers": [
                   {
                     "id": "atrium:pocketwatch_of_timeliness_speed",
-                    "type": "generic.movement_speed",
+                    "type": "movement_speed",
                     "amount": 0.08,
                     "operation": "add_multiplied_base",
                     "slot": "offhand"
@@ -565,7 +565,7 @@
                 "minecraft:attribute_modifiers": [
                   {
                     "id": "atrium:false_idol_max_health",
-                    "type": "generic.max_health",
+                    "type": "max_health",
                     "amount": -4,
                     "operation": "add_value",
                     "slot": "hand"
@@ -645,8 +645,9 @@
                 "minecraft:custom_data": {
                   "atrium_comet_berries": 1
                 },
-                "minecraft:custom_model_data": 333082,
-                "minecraft:enchantment_glint_override": true
+                "minecraft:custom_model_data": {
+                  "strings": ["atrium_comet_berries"]
+                }
               }
             }
           ]

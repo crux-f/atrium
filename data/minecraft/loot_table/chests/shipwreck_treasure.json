@@ -91,7 +91,9 @@
                     }
                   ]
                 },
-                "minecraft:custom_model_data": 333164
+                "minecraft:custom_model_data": {
+                  "strings": ["atrium_advanced_potion"]
+                }
               }
             },
             {
@@ -261,7 +263,7 @@
                 "minecraft:attribute_modifiers": [
                   {
                     "id": "atrium:pocketwatch_of_timeliness_speed",
-                    "type": "generic.movement_speed",
+                    "type": "movement_speed",
                     "amount": 0.08,
                     "operation": "add_multiplied_base",
                     "slot": "offhand"

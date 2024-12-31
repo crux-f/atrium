@@ -54,7 +54,11 @@
             {
               "function": "set_components",
               "components": {
-                "minecraft:custom_model_data": 333083,
+                "minecraft:custom_model_data": {
+                  "strings": [
+                    "atrium_blank_runestone"
+                  ]
+                },
                 "minecraft:custom_data": {
                   "atrium_rune": "blank",
                   "atrium_runestone": 1
@@ -81,7 +85,11 @@
             {
               "function": "set_components",
               "components": {
-                "minecraft:custom_model_data": 333087,
+                "minecraft:custom_model_data": {
+                  "strings": [
+                    "atrium_essence_of_anachronism"
+                  ]
+                },
                 "minecraft:custom_data": {
                   "atrium_essence_of_anachronism": 1
                 }

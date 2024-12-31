@@ -70,14 +70,14 @@
                 "minecraft:attribute_modifiers": [
                   {
                     "id": "atrium:running_boots_armor",
-                    "type": "generic.armor",
+                    "type": "armor",
                     "amount": 2,
                     "operation": "add_value",
                     "slot": "feet"
                   },
                   {
                     "id": "atrium:running_boots_movement_speed",
-                    "type": "generic.armor",
+                    "type": "armor",
                     "amount": 0.08,
                     "operation": "add_multiplied_base",
                     "slot": "feet"

@@ -15,7 +15,11 @@
                 "function": "set_components",
                 "components": {
                   "minecraft:rarity": "common",
-                  "minecraft:custom_model_data": 333001,
+                  "minecraft:custom_model_data": {
+                    "strings": [
+                      "atrium_cauldron_research"
+                    ]
+                  },
                   "minecraft:custom_data": {
                     "atrium_research": 1,
                     "atrium_research_type": "alchemy",
@@ -71,7 +75,11 @@
                 "function": "set_components",
                 "components": {
                   "minecraft:rarity": "common",
-                  "minecraft:custom_model_data": 333001,
+                  "minecraft:custom_model_data": {
+                    "strings": [
+                      "atrium_cauldron_research"
+                    ]
+                  },
                   "minecraft:custom_data": {
                     "atrium_research": 1,
                     "atrium_research_type": "alchemy",
@@ -122,7 +130,11 @@
                 "function": "set_components",
                 "components": {
                   "minecraft:rarity": "common",
-                  "minecraft:custom_model_data": 333001,
+                  "minecraft:custom_model_data": {
+                    "strings": [
+                      "atrium_cauldron_research"
+                    ]
+                  },
                   "minecraft:custom_data": {
                     "atrium_research": 1,
                     "atrium_research_type": "alchemy",
@@ -178,7 +190,11 @@
                 "function": "set_components",
                 "components": {
                   "minecraft:rarity": "common",
-                  "minecraft:custom_model_data": 333001,
+                  "minecraft:custom_model_data": {
+                    "strings": [
+                      "atrium_cauldron_research"
+                    ]
+                  },
                   "minecraft:custom_data": {
                     "atrium_research": 1,
                     "atrium_research_type": "alchemy",
@@ -249,7 +265,11 @@
                 "function": "set_components",
                 "components": {
                   "minecraft:rarity": "common",
-                  "minecraft:custom_model_data": 333001,
+                  "minecraft:custom_model_data": {
+                    "strings": [
+                      "atrium_cauldron_research"
+                    ]
+                  },
                   "minecraft:custom_data": {
                     "atrium_research": 1,
                     "atrium_research_type": "alchemy",
@@ -310,7 +330,11 @@
                 "function": "set_components",
                 "components": {
                   "minecraft:rarity": "common",
-                  "minecraft:custom_model_data": 333001,
+                  "minecraft:custom_model_data": {
+                    "strings": [
+                      "atrium_cauldron_research"
+                    ]
+                  },
                   "minecraft:custom_data": {
                     "atrium_research": 1,
                     "atrium_research_type": "alchemy",
@@ -356,7 +380,11 @@
                 "function": "set_components",
                 "components": {
                   "minecraft:rarity": "common",
-                  "minecraft:custom_model_data": 333001,
+                  "minecraft:custom_model_data": {
+                    "strings": [
+                      "atrium_cauldron_research"
+                    ]
+                  },
                   "minecraft:custom_data": {
                     "atrium_research": 1,
                     "atrium_research_type": "alchemy",
@@ -407,7 +435,11 @@
                 "function": "set_components",
                 "components": {
                   "minecraft:rarity": "common",
-                  "minecraft:custom_model_data": 333001,
+                  "minecraft:custom_model_data": {
+                    "strings": [
+                      "atrium_cauldron_research"
+                    ]
+                  },
                   "minecraft:custom_data": {
                     "atrium_research": 1,
                     "atrium_research_type": "alchemy",
@@ -473,7 +505,11 @@
                 "function": "set_components",
                 "components": {
                   "minecraft:rarity": "common",
-                  "minecraft:custom_model_data": 333001,
+                  "minecraft:custom_model_data": {
+                    "strings": [
+                      "atrium_cauldron_research"
+                    ]
+                  },
                   "minecraft:custom_data": {
                     "atrium_research": 1,
                     "atrium_research_type": "alchemy",
@@ -554,7 +590,11 @@
                 "function": "set_components",
                 "components": {
                   "minecraft:rarity": "common",
-                  "minecraft:custom_model_data": 333001,
+                  "minecraft:custom_model_data": {
+                    "strings": [
+                      "atrium_cauldron_research"
+                    ]
+                  },
                   "minecraft:custom_data": {
                     "atrium_research": 1,
                     "atrium_research_type": "alchemy",
@@ -615,7 +655,11 @@
                 "function": "set_components",
                 "components": {
                   "minecraft:rarity": "common",
-                  "minecraft:custom_model_data": 333001,
+                  "minecraft:custom_model_data": {
+                    "strings": [
+                      "atrium_cauldron_research"
+                    ]
+                  },
                   "minecraft:custom_data": {
                     "atrium_research": 1,
                     "atrium_research_type": "alchemy",

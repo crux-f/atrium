@@ -66,7 +66,9 @@
             {
               "function": "set_components",
               "components": {
-                "minecraft:custom_model_data": 333061,
+                "minecraft:custom_model_data": {
+                  "strings": ["atrium_earth_staff"]
+                },
                 "minecraft:custom_data": {
                   "atrium_staff": 1,
                   "atrium_staff_lv": 1,
@@ -76,7 +78,7 @@
                 "minecraft:attribute_modifiers": [
                   {
                     "id": "atrium:staff_attack_damage",
-                    "type": "generic.attack_damage",
+                    "type": "attack_damage",
                     "amount": 2,
                     "operation": "add_value",
                     "slot": "mainhand"
@@ -132,7 +134,9 @@
             {
               "function": "set_components",
               "components": {
-                "minecraft:custom_model_data": 333143,
+                "minecraft:custom_model_data": {
+                  "strings": ["atrium_hammer"]
+                },
                 "minecraft:custom_data": {
                   "atrium_hammer": 1,
                   "atrium_stone_hammer": 1
@@ -141,14 +145,14 @@
                   "modifiers": [
                     {
                       "id": "atrium:hammer_attack_damage",
-                      "type": "generic.attack_damage",
+                      "type": "attack_damage",
                       "amount": 5,
                       "operation": "add_value",
                       "slot": "mainhand"
                     },
                     {
                       "id": "atrium:hammer_attack_speed",
-                      "type": "generic.attack_speed",
+                      "type": "attack_speed",
                       "amount": -2.8,
                       "operation": "add_value",
                       "slot": "mainhand"
@@ -214,7 +218,9 @@
             {
               "function": "set_components",
               "components": {
-                "minecraft:custom_model_data": 333144,
+                "minecraft:custom_model_data": {
+                  "strings": ["atrium_hammer"]
+                },
                 "minecraft:custom_data": {
                   "atrium_hammer": 1,
                   "atrium_iron_hammer": 1
@@ -223,14 +229,14 @@
                   "modifiers": [
                     {
                       "id": "atrium:hammer_attack_damage",
-                      "type": "generic.attack_damage",
+                      "type": "attack_damage",
                       "amount": 6,
                       "operation": "add_value",
                       "slot": "mainhand"
                     },
                     {
                       "id": "atrium:hammer_attack_speed",
-                      "type": "generic.attack_speed",
+                      "type": "attack_speed",
                       "amount": -2.8,
                       "operation": "add_value",
                       "slot": "mainhand"
@@ -358,8 +364,7 @@
               "components": {
                 "minecraft:custom_data": {
                   "atrium_pure_redstone": 1
-                },
-                "minecraft:custom_model_data": 333084
+                }
               }
             },
             {

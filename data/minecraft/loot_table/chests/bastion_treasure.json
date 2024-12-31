@@ -87,7 +87,9 @@
             {
               "function": "set_components",
               "components": {
-                "minecraft:custom_model_data": 333134,
+                "minecraft:custom_model_data": {
+                  "strings": ["atrium_battleaxe"]
+                },
                 "minecraft:custom_data": {
                   "atrium_battleaxe": 1,
                   "atrium_golden_battleaxe": 1,
@@ -97,14 +99,14 @@
                   "modifiers": [
                     {
                       "id": "atrium:battleaxe_attack_damage",
-                      "type": "generic.attack_damage",
+                      "type": "attack_damage",
                       "amount": 7,
                       "operation": "add_value",
                       "slot": "mainhand"
                     },
                     {
                       "id": "atrium:battleaxe_attack_speed",
-                      "type": "generic.attack_speed",
+                      "type": "attack_speed",
                       "amount": -3,
                       "operation": "add_value",
                       "slot": "mainhand"
@@ -196,21 +198,21 @@
                 "minecraft:attribute_modifiers": [
                   {
                     "id": "atrium:ashsworn_boots_armor",
-                    "type": "generic.armor",
+                    "type": "armor",
                     "amount": 3,
                     "operation": "add_value",
                     "slot": "feet"
                   },
                   {
                     "id": "atrium:ashsworn_boots_armor_toughness",
-                    "type": "generic.armor_toughness",
+                    "type": "armor_toughness",
                     "amount": 2,
                     "operation": "add_value",
                     "slot": "feet"
                   },
                   {
                     "id": "atrium:ashsworn_boots_knockback_resistance",
-                    "type": "generic.knockback_resistance",
+                    "type": "knockback_resistance",
                     "amount": 0.2,
                     "operation": "add_value",
                     "slot": "feet"
@@ -271,14 +273,14 @@
                 "minecraft:attribute_modifiers": [
                   {
                     "id": "atrium:ashsworn_greaves_armor",
-                    "type": "generic.armor",
+                    "type": "armor",
                     "amount": 7,
                     "operation": "add_value",
                     "slot": "legs"
                   },
                   {
                     "id": "atrium:ashsworn_greaves_armor_toughness",
-                    "type": "generic.armor_toughness",
+                    "type": "armor_toughness",
                     "amount": 2,
                     "operation": "add_value",
                     "slot": "legs"
@@ -343,14 +345,14 @@
                 "minecraft:attribute_modifiers": [
                   {
                     "id": "atrium:ashsworn_platemail_armor",
-                    "type": "generic.armor",
+                    "type": "armor",
                     "amount": 8,
                     "operation": "add_value",
                     "slot": "chest"
                   },
                   {
                     "id": "atrium:ashsworn_platemail_armor_toughness",
-                    "type": "generic.armor_toughness",
+                    "type": "armor_toughness",
                     "amount": 2,
                     "operation": "add_value",
                     "slot": "chest"
@@ -414,14 +416,14 @@
                 "minecraft:attribute_modifiers": [
                   {
                     "id": "atrium:ashsworn_helm_armor",
-                    "type": "generic.armor",
+                    "type": "armor",
                     "amount": 3,
                     "operation": "add_value",
                     "slot": "head"
                   },
                   {
                     "id": "atrium:ashsworn_helm_armor_toughness",
-                    "type": "generic.armor_toughness",
+                    "type": "armor_toughness",
                     "amount": 2,
                     "operation": "add_value",
                     "slot": "head"

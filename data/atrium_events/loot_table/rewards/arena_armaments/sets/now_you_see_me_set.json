@@ -18,14 +18,14 @@
                 "minecraft:attribute_modifiers": [
                   {
                     "id": "atrium:clever_disguise_armor",
-                    "type": "generic.armor",
+                    "type": "armor",
                     "amount": 1,
                     "operation": "add_value",
                     "slot": "head"
                   },
                   {
                     "id": "atrium:clever_disguise_movement_speed",
-                    "type": "generic.movement_speed",
+                    "type": "movement_speed",
                     "amount": 0.05,
                     "operation": "add_multiplied_base",
                     "slot": "head"
@@ -66,14 +66,14 @@
                 "minecraft:attribute_modifiers": [
                   {
                     "id": "atrium:clever_disguise_armor",
-                    "type": "generic.armor",
+                    "type": "armor",
                     "amount": 1,
                     "operation": "add_value",
                     "slot": "head"
                   },
                   {
                     "id": "atrium:clever_disguise_movement_speed",
-                    "type": "generic.movement_speed",
+                    "type": "movement_speed",
                     "amount": 0.05,
                     "operation": "add_multiplied_base",
                     "slot": "head"
@@ -114,14 +114,14 @@
                 "minecraft:attribute_modifiers": [
                   {
                     "id": "atrium:clever_disguise_armor",
-                    "type": "generic.armor",
+                    "type": "armor",
                     "amount": 1,
                     "operation": "add_value",
                     "slot": "head"
                   },
                   {
                     "id": "atrium:clever_disguise_movement_speed",
-                    "type": "generic.movement_speed",
+                    "type": "movement_speed",
                     "amount": 0.05,
                     "operation": "add_multiplied_base",
                     "slot": "head"
@@ -162,14 +162,14 @@
                 "minecraft:attribute_modifiers": [
                   {
                     "id": "atrium:clever_disguise_armor",
-                    "type": "generic.armor",
+                    "type": "armor",
                     "amount": 1,
                     "operation": "add_value",
                     "slot": "head"
                   },
                   {
                     "id": "atrium:clever_disguise_movement_speed",
-                    "type": "generic.movement_speed",
+                    "type": "movement_speed",
                     "amount": 0.05,
                     "operation": "add_multiplied_base",
                     "slot": "head"
@@ -223,14 +223,14 @@
                 "minecraft:attribute_modifiers": [
                   {
                     "id": "atrium:sleek_cape_armor",
-                    "type": "generic.armor",
+                    "type": "armor",
                     "amount": 5,
                     "operation": "add_value",
                     "slot": "chest"
                   },
                   {
                     "id": "atrium:sleek_cape_movement_speed",
-                    "type": "generic.movement_speed",
+                    "type": "movement_speed",
                     "amount": 0.1,
                     "operation": "add_multiplied_base",
                     "slot": "chest"
@@ -298,14 +298,14 @@
                 "minecraft:attribute_modifiers": [
                   {
                     "id": "atrium:silky_pants_armor",
-                    "type": "generic.armor",
+                    "type": "armor",
                     "amount": 2,
                     "operation": "add_value",
                     "slot": "legs"
                   },
                   {
                     "id": "atrium:silky_pants_movement_speed",
-                    "type": "generic.movement_speed",
+                    "type": "movement_speed",
                     "amount": 0.1,
                     "operation": "add_multiplied_base",
                     "slot": "chest"

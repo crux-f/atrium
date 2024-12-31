@@ -38,22 +38,22 @@
                   "minecraft:entity_data": {
                     "id": "minecraft:phantom",
                     "DeathLootTable": "atrium:entities/nightmare_phantom",
-                    "PersistenceRequired": 1,
+                    "PersistenceRequired": true,
                     "Health": 25,
                     "Size": 2,
-                    "CustomName": "Nightmare",
+                    "CustomName": "\"Nightmare\"",
                     "active_effects": [
                       {
                         "id": "minecraft:fire_resistance",
                         "amplifier": 0,
                         "duration": -1,
-                        "show_particles": 1,
-                        "ambient": 1
+                        "show_particles": true,
+                        "ambient": true
                       }
                     ],
                     "attributes": [
                       {
-                        "id": "minecraft:generic.max_health",
+                        "id": "minecraft:max_health",
                         "base": 25
                       }
                     ]

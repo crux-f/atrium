@@ -19,7 +19,11 @@
 					  {
 						"function": "set_components",
 						"components": {
-						  "minecraft:custom_model_data": 333068,
+							"minecraft:custom_model_data": {
+								"strings": [
+								  "atrium_charged_blaze_rod"
+								]
+							  },
 						  "minecraft:custom_data": {
 							"atrium_charged_blaze_rod": 1
 						  }

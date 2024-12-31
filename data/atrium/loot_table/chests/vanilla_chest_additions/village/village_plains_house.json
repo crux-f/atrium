@@ -44,7 +44,11 @@
             {
               "function": "set_components",
               "components": {
-                "minecraft:custom_model_data": 333081,
+                "minecraft:custom_model_data": {
+                  "strings": [
+                    "atrium_strange_egg"
+                  ]
+                },
                 "minecraft:custom_data": {
                   "atrium_silas_egg": 1
                 }
@@ -122,14 +126,14 @@
                 "minecraft:attribute_modifiers": [
                   {
                     "id": "atrium:walking_stick_speed_mainhand",
-                    "type": "generic.movement_speed",
+                    "type": "movement_speed",
                     "amount": 0.1,
                     "operation": "add_multiplied_base",
                     "slot": "mainhand"
                   },
                   {
                     "id": "atrium:walking_stick_speed_offhand",
-                    "type": "generic.movement_speed",
+                    "type": "movement_speed",
                     "amount": 0.05,
                     "operation": "add_multiplied_base",
                     "slot": "offhand"

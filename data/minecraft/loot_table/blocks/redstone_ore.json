@@ -132,8 +132,7 @@
               "components": {
                 "minecraft:custom_data": {
                   "atrium_pure_redstone": 1
-                },
-                "minecraft:custom_model_data": 333084
+                }
               }
             }
           ]

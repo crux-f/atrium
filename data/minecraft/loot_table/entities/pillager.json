@@ -19,7 +19,9 @@
             {
               "function": "set_components",
               "components": {
-                "minecraft:custom_model_data": 333172,
+                "minecraft:custom_model_data": {
+                  "strings": ["atrium_outpost_key"]
+                },
                 "minecraft:custom_data": {
                   "atrium_outpost_key": 1
                 }
@@ -27,10 +29,10 @@
             },
             {
               "function": "set_name",
+              "target": "item_name",
               "name": [
                 {
-                  "italic": false,
-                  "text": "§cOutpost Key"
+                  "text": "Outpost Key"
                 }
               ]
             },
@@ -53,8 +55,6 @@
         },
         {
           "type": "minecraft:alternatives",
-          "weight": 1,
-          "quality": 2,
           "children": [
             {
               "type": "item",

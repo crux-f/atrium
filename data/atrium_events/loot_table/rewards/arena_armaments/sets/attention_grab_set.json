@@ -27,14 +27,14 @@
                 "minecraft:attribute_modifiers": [
                   {
                     "id": "atrium:gleaming_helm_armor",
-                    "type": "generic.armor",
+                    "type": "armor",
                     "amount": 1,
                     "operation": "add_value",
                     "slot": "head"
                   },
                   {
                     "id": "atrium:gleaming_helm_attack_damage",
-                    "type": "generic.attack_damage",
+                    "type": "attack_damage",
                     "amount": 1,
                     "operation": "add_value",
                     "slot": "head"
@@ -102,14 +102,14 @@
                 "minecraft:attribute_modifiers": [
                   {
                     "id": "atrium:chainmail_armor",
-                    "type": "generic.armor",
+                    "type": "armor",
                     "amount": 5,
                     "operation": "add_value",
                     "slot": "chest"
                   },
                   {
                     "id": "atrium:chainmail_attack_damage",
-                    "type": "generic.attack_damage",
+                    "type": "attack_damage",
                     "amount": 1,
                     "operation": "add_value",
                     "slot": "chest"
@@ -176,14 +176,14 @@
                 "minecraft:attribute_modifiers": [
                   {
                     "id": "atrium:chain_shinguards_armor",
-                    "type": "generic.armor",
+                    "type": "armor",
                     "amount": 4,
                     "operation": "add_value",
                     "slot": "legs"
                   },
                   {
                     "id": "atrium:chain_shinguards_attack_damage",
-                    "type": "generic.attack_damage",
+                    "type": "attack_damage",
                     "amount": 1,
                     "operation": "add_value",
                     "slot": "legs"
@@ -250,14 +250,14 @@
                 "minecraft:attribute_modifiers": [
                   {
                     "id": "atrium:chainmail_armor",
-                    "type": "generic.armor",
+                    "type": "armor",
                     "amount": 1,
                     "operation": "add_value",
                     "slot": "feet"
                   },
                   {
                     "id": "atrium:chainmail_attack_damage",
-                    "type": "generic.attack_damage",
+                    "type": "attack_damage",
                     "amount": 1,
                     "operation": "add_value",
                     "slot": "feet"
@@ -382,7 +382,7 @@
                 "minecraft:attribute_modifiers": [
                   {
                     "id": "atrium:bedazzled_shield_armor",
-                    "type": "generic.armor",
+                    "type": "armor",
                     "amount": 2,
                     "operation": "add_value",
                     "slot": "offhand"
