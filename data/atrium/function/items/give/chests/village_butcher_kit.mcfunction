@@ -1,3 +1,3 @@
 # /give command for special items
-give @s minecraft:chest[minecraft:lore=['{"text":"Unlocked using an Butcher Key."}'],minecraft:container_loot={loot_table:"atrium:chests/special/locked_village_butcher_chest"},minecraft:lock="§aButcher Key",minecraft:custom_name='{"text":"Butcher\'s Chest","color":"green","italic":false}'] 1
-give @s minecraft:gold_nugget[minecraft:custom_model_data=333070,minecraft:item_name='{"text":"Mangled Key"}',minecraft:custom_name='{"text":"§aButcher Key","italic":false}',minecraft:custom_data={atrium_village_butcher_key:1b}] 1
+give @s minecraft:chest[minecraft:lore=['{"text":"Unlocked using an Butcher Key."}'],minecraft:container_loot={loot_table:"atrium:chests/special/locked_village_butcher_chest"},minecraft:lock={predicates:{custom_data:{atrium_village_butcher_key:1b}}},minecraft:custom_name='{"text":"Butcher\'s Chest","color":"green","italic":false}'] 1
+give @s minecraft:gold_nugget[minecraft:custom_model_data={strings:["atrium_village_key"]},minecraft:item_name='{"text":"Butcher\'s Key"}',minecraft:custom_data={atrium_village_butcher_key:1b}] 1

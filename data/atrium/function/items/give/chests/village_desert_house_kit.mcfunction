@@ -1,3 +1,3 @@
 # /give command for special items
-give @s minecraft:chest[minecraft:lore=['{"text":"Unlocked using a Desert Village Key."}'],minecraft:container_loot={loot_table:"atrium:chests/special/locked_village_desert_house_chest"},minecraft:lock="§aDesert Village Key",minecraft:custom_name='{"text":"Desert Village Chest","color":"green","italic":false}'] 1
-give @s minecraft:gold_nugget[minecraft:custom_model_data=333070,minecraft:item_name='{"text":"Mangled Key"}',minecraft:custom_name='{"text":"§aDesert Village Key","italic":false}',minecraft:custom_data={atrium_village_desert_house_key:1b}] 1
+give @s minecraft:chest[minecraft:lore=['{"text":"Unlocked using a Desert Village Key."}'],minecraft:container_loot={loot_table:"atrium:chests/special/locked_village_desert_house_chest"},minecraft:lock={predicates:{custom_data:{atrium_village_desert_house_key:1b}}},minecraft:custom_name='{"text":"Desert Village Chest","color":"green","italic":false}'] 1
+give @s minecraft:gold_nugget[minecraft:custom_model_data={strings:["atrium_village_key"]},minecraft:item_name='{"text":"Desert Village Key"}',minecraft:custom_data={atrium_village_desert_house_key:1b}] 1

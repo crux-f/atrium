@@ -1,3 +1,3 @@
 # /give command for special items
-give @s minecraft:chest[minecraft:lore=['{"text":"Unlocked using a Mason Key."}'],minecraft:container_loot={loot_table:"atrium:chests/special/locked_village_mason_chest"},minecraft:lock="§aMason Key",minecraft:custom_name='{"text":"Mason\'s Chest","color":"green","italic":false}'] 1
-give @s minecraft:gold_nugget[minecraft:custom_model_data=333070,minecraft:item_name='{"text":"Mangled Key"}',minecraft:custom_name='{"text":"§aMason Key","italic":false}',minecraft:custom_data={atrium_village_mason_key:1b}] 1
+give @s minecraft:chest[minecraft:lore=['{"text":"Unlocked using a Mason Key."}'],minecraft:container_loot={loot_table:"atrium:chests/special/locked_village_mason_chest"},minecraft:lock={predicates:{custom_data:{atrium_village_mason_key:1b}}},minecraft:custom_name='{"text":"Mason\'s Chest","color":"green","italic":false}'] 1
+give @s minecraft:gold_nugget[minecraft:custom_model_data={strings:["atrium_village_key"]},minecraft:item_name='{"text":"Mason\'s Key"}',minecraft:custom_data={atrium_village_mason_key:1b}] 1
