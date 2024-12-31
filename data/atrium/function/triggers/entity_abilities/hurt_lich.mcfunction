@@ -1,5 +1,5 @@
 # Revoke to allow re-trigger
-advancement revoke @s only atrium:triggers/entity_abilities/lich/hurt_lich
+advancement revoke @s only atrium:triggers/entity_abilities/hurt_lich
 #
 # Each time you hurt the Lich, it searches for another minute (in addition to the 3 minutes it already looks for you).
 # execute at @s as @e[tag=atrium_lich,nbt=!{HurtTime:0s},sort=nearest,tag=atrium_alerted] run scoreboard players remove @s atrium_searching 1200
