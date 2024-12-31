@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:gift",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 25,
+          "quality": -1,
+          "name": "minecraft:bread"
+        },
+        {
+          "type": "loot_table",
+          "weight": 1,
+          "quality": 0,
+          "value": "atrium:gameplay/hero_of_the_village/village_type_key"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}
