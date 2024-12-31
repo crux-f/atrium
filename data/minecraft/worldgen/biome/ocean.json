@@ -1,11 +1,9 @@
 {
-  "carvers": {
-    "air": [
-      "minecraft:cave",
-      "minecraft:cave_extra_underground",
-      "minecraft:canyon"
-    ]
-  },
+  "carvers": [
+    "minecraft:cave",
+    "minecraft:cave_extra_underground",
+    "minecraft:canyon"
+  ],
   "downfall": 0.5,
   "effects": {
     "fog_color": 12638463,
@@ -15,14 +13,20 @@
       "sound": "minecraft:ambient.cave",
       "tick_delay": 6000
     },
-    "music": {
-      "sound": {
-        "sound_id": "atrium:music.overworld.ocean"
-      },
-      "min_delay": 12000,
-      "max_delay": 24000,
-      "replace_current_music": false
-    },
+    "music": [
+      {
+        "data": {
+          "max_delay": 24000,
+          "min_delay": 12000,
+          "replace_current_music": false,
+          "sound": {
+            "sound_id": "atrium:music.overworld.ocean"
+          }
+        },
+        "weight": 1
+      }
+    ],
+    "music_volume": 1.0,
     "sky_color": 8103167,
     "water_color": 4159204,
     "water_fog_color": 329011
@@ -62,6 +66,7 @@
       "minecraft:ore_redstone",
       "minecraft:ore_redstone_lower",
       "minecraft:ore_diamond",
+      "minecraft:ore_diamond_medium",
       "minecraft:ore_diamond_large",
       "minecraft:ore_diamond_buried",
       "minecraft:ore_lapis",
@@ -87,13 +92,13 @@
       "minecraft:patch_sugar_cane",
       "minecraft:patch_pumpkin",
       "minecraft:seagrass_normal",
-      "minecraft:seagrass_simple",
       "minecraft:kelp_cold"
     ],
     [
       "minecraft:freeze_top_layer"
     ]
   ],
+  "has_precipitation": true,
   "spawn_costs": {},
   "spawners": {
     "ambient": [
@@ -194,6 +199,5 @@
       }
     ]
   },
-  "temperature": 0.5,
-  "has_precipitation": true
+  "temperature": 0.5
 }
