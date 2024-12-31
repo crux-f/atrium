@@ -2,18 +2,10 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "A": {
-      "item": "minecraft:amethyst_shard"
-    },
-    "B": {
-      "item": "minecraft:book"
-    },
-    "R": {
-      "item": "minecraft:redstone"
-    },
-    "L": {
-      "item": "minecraft:lapis_lazuli"
-    }
+    "A": "minecraft:amethyst_shard",
+    "B": "minecraft:book",
+    "R": "minecraft:redstone",
+    "L": "minecraft:lapis_lazuli"
   },
   "pattern": [
     " A ",
@@ -29,7 +21,9 @@
         "atrium_research_type": "infusion",
         "atrium_topic":"an_arcanists_handbook"
       },
-      "minecraft:custom_model_data": 333202,
+      "minecraft:custom_model_data": {
+        "strings": ["atrium_all_colors_formula"]
+      },
       "minecraft:lore": [
         "{\"italic\":false,\"underlined\":true,\"color\":\"gray\",\"text\":\"Alchemy Cauldron Formulas:\"}",
         "{\"italic\":false,\"color\":\"gray\",\"text\":\"Complete Research\"}",
