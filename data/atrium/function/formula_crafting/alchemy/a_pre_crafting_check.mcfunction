@@ -25,7 +25,7 @@ execute if entity @s[scores={valid_ingredients=..4}] run function atrium:formula
 execute positioned ~2 ~ ~-2 if block ~ ~ ~ minecraft:crafting_table run scoreboard players add @s valid_ingredients 1
 execute positioned ~2 ~1 ~-2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5] run scoreboard players add @s valid_ingredients 1
 execute positioned ~3 ~ ~-2 if block ~ ~ ~ minecraft:oak_stairs run scoreboard players add @s valid_ingredients 1
-execute positioned ~3 ~ ~-2 if entity @e[type=minecraft:item_frame,distance=..1.5,nbt={Fixed:1b,Facing:1b,Item:{id:"minecraft:iron_sword",count:1,components:{"minecraft:custom_model_data":333138}}}] run scoreboard players add @s valid_ingredients 1
+execute positioned ~3 ~ ~-2 if entity @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{id:"minecraft:iron_sword",count:1}}] run scoreboard players add @s valid_ingredients 1
 #
 # If you have the Station installed and the cauldron is 8 or lower, it fails and gives you a message.
 execute if entity @s[scores={valid_ingredients=..8}] if data entity @s data.cooking_station_installed run function atrium:formula_crafting/alchemy/err_station_broken
