@@ -5,7 +5,7 @@ execute store result score @s same_tick_math run clear @s minecraft:potion
 #
 # Give empty bottles
 execute at @s run summon item ~ ~ ~ {Tags:["bottle_pile"],PickupDelay:2,Item:{id:"minecraft:glass_bottle",count:1}}
-execute store result entity @e[tag=bottle_pile,limit=1] Item.Count byte 1 run scoreboard players get @s same_tick_math
+execute store result entity @e[tag=bottle_pile,limit=1] Item.count byte 1 run scoreboard players get @s same_tick_math
 # reset 
 scoreboard players reset @s same_tick_math
 #
