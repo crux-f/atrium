@@ -1,5 +1,5 @@
 # Play sound
-execute at @s run playsound minecraft:block.chain.hit master @a[distance=..25] ~ ~ ~ 1 0.75 0.1
+execute at @s run playsound minecraft:block.vault.insert_item block @a[distance=..10] ~ ~ ~ 1 0.8 0.1
 # Advancement revoke (to allow for retrigger)
 advancement revoke @s only atrium:triggers/chests/unlock/sanctum_lair
 # Tag player
