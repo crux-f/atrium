@@ -46,7 +46,7 @@
                   "minecraft:rarity": "common",
                   "minecraft:custom_model_data": {
                     "strings": [
-                      "atrium_infusion_research"
+                      "atrium_enchanted_infusion_research"
                     ]
                   },
                   "minecraft:custom_data": {
