@@ -1,2 +1,0 @@
-# Summon 1 Armada Sky-Sailor
-summon pillager ~ ~ ~ {Team:"armada",PersistenceRequired:1b,CanJoinRaid:1b,Tags:["armada_sky_sailor"],CustomName:'{"text":"Armada Sky-Sailor","color":"dark_green","italic":false}',HandItems:[{id:"minecraft:crossbow",Count:1b,tag:{Enchantments:[{id:"minecraft:unbreaking",lvl:1s},{id:"minecraft:quick_charge",lvl:1s}]}},{}],HandDropChances:[0.040F,0.085F]}

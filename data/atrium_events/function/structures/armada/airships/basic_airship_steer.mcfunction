@@ -1,7 +1,7 @@
 # Perform checks to make sure its safe to continue forward
 function atrium_events:structures/armada/airships/basic_airship_pilot_check
 #
-# If the check fails it will automatically return out of this function back to basic_airship_move_e
+# If the check fails it will automatically return out of this function back to basic_airship_move
 #
 #
 # Add time to the next eastern move according to the airship's current speed

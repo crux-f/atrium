@@ -1,2 +1,2 @@
 # Let's try this...
-execute as @e[tag=atrium_steering_airship] at @s run function atrium_events:structures/armada/airships/basic_airship_move
+execute as @e[type=vindicator,tag=atrium_steering_airship] if entity @s[tag=atrium_basic_airship_pilot] at @s run function atrium_events:structures/armada/airships/basic_airship_move

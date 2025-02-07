@@ -1,0 +1,3 @@
+# Run by Pilots to prepare the crew for falling.
+execute at @e[type=vindicator,tag=atrium_disembarking_airship] positioned ^ ^ ^-12 at @e[distance=..20,tag=atrium_armada_airship_crew] run playsound minecraft:entity.generic.drink hostile @a[distance=..8] ~ ~1.5 ~ 0.8 1.25 0.1
+execute at @e[type=vindicator,tag=atrium_disembarking_airship] positioned ^ ^ ^-12 run effect give @e[distance=..20,tag=atrium_armada_airship_crew] slow_falling 60 0 false

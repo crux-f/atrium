@@ -177,5 +177,5 @@ execute if block ^3 ^9 ^4 minecraft:air run scoreboard players add @s charge 1
 execute if block ^-3 ^9 ^4 minecraft:air run scoreboard players add @s charge 1
 # tellraw crux_f ["",{"text":"Reached ","color":"yellow"},{"score":{"name":"@s","objective":"charge"},"color":"yellow"},{"text":" / 160","color":"yellow"}]
 # If any checks fail, return to where we left off in the last function.
-execute if score @s charge matches ..159 run function atrium_events:structures/armada/airships/basic_airship_stop
+execute if score @s charge matches ..159 run function atrium_events:structures/armada/airships/copper_transport_stop
 scoreboard players set @s charge 0

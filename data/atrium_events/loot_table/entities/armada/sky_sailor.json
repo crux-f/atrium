@@ -1,0 +1,58 @@
+{
+    "type": "entity",
+    "pools": [
+      {
+        "rolls": 1,
+        "bonus_rolls": 1,
+        "entries": [
+          {
+            "type": "item",
+            "weight": 25,
+            "quality": 0,
+            "name": "minecraft:potion",
+            "functions": [
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:potion_contents": {
+                    "custom_effects": [
+                      {
+                        "id": "minecraft:slow_falling",
+                        "amplifier": 0,
+                        "duration": 1200
+                      }
+                    ]
+                  },
+                  "minecraft:custom_model_data": {
+                    "strings": [
+                      "atrium_small_bottle"
+                    ]
+                  }
+                }
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "italic": false,
+                    "text": "Diluted Potion of Slow Falling"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 25,
+            "quality": 0,
+            "name": "minecraft:glass_bottle"
+          },
+          {
+            "type": "empty",
+            "weight": 75,
+            "quality": 0
+          }
+        ]
+      }
+    ]
+  }
