@@ -3,6 +3,14 @@
     {
       "structure": "atrium:dungeons/sanctum",
       "weight": 1
+    },
+    {
+      "structure": "atrium:dungeons/depths_mineshaft",
+      "weight": 1
+    },
+    {
+      "structure": "atrium:depths_ancient_city",
+      "weight": 1
     }
   ],
   "placement": {

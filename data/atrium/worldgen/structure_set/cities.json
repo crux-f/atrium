@@ -6,15 +6,9 @@
     }
   ],
   "placement": {
-    "type": "minecraft:concentric_rings",
+    "type": "minecraft:random_spread",
     "salt": 111111111,
-    "exclusion_zone": {
-      "other_set": "minecraft:villages",
-      "chunk_count": 10
-    },
-    "distance": 32,
-    "spread": 5,
-    "count": 256,
-    "preferred_biomes": "#atrium:city_biased_to"
+    "spacing": 60,
+    "separation": 32
   }
 }

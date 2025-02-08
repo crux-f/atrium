@@ -2,13 +2,17 @@
   "structures": [
     {
       "structure": "atrium:natural/underground/hell_geode",
-      "weight": 3
+      "weight": 10
+    },
+    {
+      "structure": "atrium:natural/meridian_geode",
+      "weight": 10
     }
   ],
   "placement": {
-    "salt": 666,
+    "salt": 777,
     "spacing": 30,
-    "separation": 20,
+    "separation": 15,
     "type": "minecraft:random_spread"
   }
 }

@@ -1,11 +1,27 @@
 {
   "structures": [
     {
+      "structure": "atrium:shrines/aurora/dreamer_shrine",
+      "weight": 10
+    },
+    {
+      "structure": "atrium:shrines/aurora/helix_henge_shrine",
+      "weight": 10
+    },
+    {
+      "structure": "atrium:shrines/aurora/pinwheel_shrine",
+      "weight": 10
+    },
+    {
       "structure": "atrium:shrines/aurora/waking_room_shrine",
       "weight": 10
     },
     {
       "structure": "atrium:shrines/chorus/spa_shrine",
+      "weight": 10
+    },
+    {
+      "structure": "atrium:shrines/dual/depths_shroom_shrine",
       "weight": 10
     },
     {
@@ -21,7 +37,23 @@
       "weight": 10
     },
     {
+      "structure": "atrium:shrines/geota/crystal_shrine",
+      "weight": 10
+    },
+    {
+      "structure": "atrium:shrines/ghael/depths_portal_shrine",
+      "weight": 10
+    },
+    {
       "structure": "atrium:shrines/ghael/drifting_dune_shrine",
+      "weight": 10
+    },
+    {
+      "structure": "atrium:shrines/ghael/golden_stairs_shrine",
+      "weight": 10
+    },
+    {
+      "structure": "atrium:shrines/ghael/hell_serpent_shrine",
       "weight": 10
     },
     {
@@ -46,6 +78,10 @@
     },
     {
       "structure": "atrium:shrines/nox/igloo_shrine",
+      "weight": 10
+    },
+    {
+      "structure": "atrium:shrines/nox/nether_armory_shrine",
       "weight": 10
     },
     {
@@ -103,12 +139,44 @@
     {
       "structure": "atrium:shrines/maw/dark_forest_fane_shrine",
       "weight": 10
+    },
+    {
+      "structure": "atrium:depths_entrance",
+      "weight": 10
+    },
+    {
+      "structure": "atrium:meridian_entrance",
+      "weight": 10
+    },
+    {
+      "structure": "atrium:misc/crimson_forest_poi",
+      "weight": 5
+    },
+    {
+      "structure": "atrium:misc/forest_poi",
+      "weight": 5
+    },
+    {
+      "structure": "atrium:misc/jungle_poi",
+      "weight": 5
+    },
+    {
+      "structure": "atrium:misc/plains_poi",
+      "weight": 5
+    },
+    {
+      "structure": "atrium:misc/snowy_mountains_poi",
+      "weight": 5
+    },
+    {
+      "structure": "atrium:misc/savanna_poi",
+      "weight": 5
     }
   ],
   "placement": {
     "salt": 90807060504030201,
     "spacing": 40,
-    "separation": 15,
+    "separation": 20,
     "type": "minecraft:random_spread"
   }
 }
