@@ -1,0 +1,15 @@
+{
+    "structures": [
+      {
+        "structure": "atrium_events:armada/copper_transport_creator",
+        "weight": 10
+      }
+    ],
+    "placement": {
+      "salt": 3330333,
+      "spacing": 40,
+      "separation": 8,
+      "type": "minecraft:random_spread"
+    }
+  }
+  
