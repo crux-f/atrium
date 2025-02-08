@@ -7,7 +7,7 @@
         "entries": [
           {
             "type": "item",
-            "weight": 25,
+            "weight": 35,
             "quality": 0,
             "name": "minecraft:potion",
             "functions": [
@@ -43,7 +43,7 @@
           },
           {
             "type": "item",
-            "weight": 25,
+            "weight": 50,
             "quality": 0,
             "name": "minecraft:glass_bottle"
           },
