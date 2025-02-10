@@ -1,8 +1,8 @@
 {
     "criteria": {
-        "finished_spawning_5": {
+        "finished_spawning_6": {
             "trigger": "minecraft:impossible"
         }
     },
-        "parent": "atrium:atrium_2024"
+        "parent": "atrium:atrium_2025"
 }

@@ -25,7 +25,7 @@ execute if score @s charge matches 4 run function atrium_events:spawn/spawn_wate
 scoreboard players reset @s charge
 #
 # Track that you've finished spawning this iteration
-advancement grant @s only atrium_events:tracking/spawn/iteration_5_spawned
+advancement grant @s only atrium_events:tracking/spawn/iteration_6_spawned
 #
 advancement grant @s only atrium:atrium_root
 advancement grant @s only atrium:events_root
