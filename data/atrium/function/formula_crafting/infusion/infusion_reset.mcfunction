@@ -39,7 +39,7 @@ execute positioned ~ ~ ~4 run data remove entity @e[type=minecraft:glow_item_fra
 execute positioned ~ ~ ~4 run particle minecraft:portal ~ ~ ~ 0.1 0.5 0.1 0.1 15
 # SOUTH-WEST
 execute positioned ~-3 ~ ~3 run data merge entity @e[type=minecraft:glow_item_frame,distance=..1,limit=1] {Facing:1b,Invisible:1b,Tags:["atrium_crafting_slot"],Item:{}}
-execute positioned ~3 ~ ~3 run data remove entity @e[type=minecraft:glow_item_frame,distance=..1,limit=1] Item
+execute positioned ~-3 ~ ~3 run data remove entity @e[type=minecraft:glow_item_frame,distance=..1,limit=1] Item
 execute positioned ~-3 ~ ~3 run particle minecraft:portal ~ ~ ~ 0.1 0.5 0.1 0.1 15
 # WEST
 execute positioned ~-4 ~ ~ run data merge entity @e[type=minecraft:glow_item_frame,distance=..1,limit=1] {Facing:1b,Invisible:1b,Tags:["atrium_crafting_slot"],Item:{}}
@@ -59,5 +59,4 @@ particle minecraft:portal ~ ~1 ~ 0.3 0.3 0.3 1 500 normal
 # Sound!
 playsound minecraft:block.beacon.activate block @a[distance=..15] ~ ~ ~ 1 1 0.1
 # achievement!
-execute positioned ~ ~ ~-7 run advancement grant @p[distance=..5,gamemode=!spectator] only atrium:magic/magic_root
 execute positioned ~ ~ ~-7 run advancement grant @p[distance=..5,gamemode=!spectator] only atrium:magic/some_assembly_required

@@ -1,6 +1,10 @@
-# Runic Codex
+# Alchemy Cauldron
 #
-# This command is run directly from the single command block included in all of atrium's custom crafting stations.
+# This command is run from right-clicking on the runic codex entity.
 #
 # Verify the integrity of the crafting station. If the station is intact, check for a base item in a recipe.
-execute positioned ~ ~-1 ~8 as @e[tag=runic_codex,distance=..3,limit=1,sort=nearest] at @s run function atrium:formula_crafting/enchantment/e_pre_crafting_check
+execute as @n[tag=runic_codex,distance=..8] at @s run function atrium:formula_crafting/enchantment/e_pre_crafting_check
+advancement revoke @s only atrium:triggers/magic/activate_runic_codex
+#
+# Grant Magic root advancement
+advancement grant @s only atrium:magic/magic_root

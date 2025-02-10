@@ -72,7 +72,7 @@ execute positioned ~-6 ~3 ~-1 unless block ~ ~ ~ minecraft:air run summon minecr
 #
 scoreboard players set @e[type=minecraft:snowball,distance=..10,tag=atrium_upgrade_marker] charge -200
 #
-execute if entity @s[scores={valid_ingredients=26..}] at @s run data merge entity @s {data:{warp_gate_installed:1}}
+execute if entity @s[scores={valid_ingredients=26..}] at @s run tag @s add atrium_warp_gate_installed
 execute if entity @s[scores={valid_ingredients=26..}] at @s run tag @s add warp_gate
 execute if entity @s[scores={valid_ingredients=26..}] at @s run tag @s add fx_build
 execute if entity @s[scores={valid_ingredients=26..}] at @s run function atrium:formula_crafting/infusion/additions/build_warp_gate

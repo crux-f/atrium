@@ -1,0 +1,21 @@
+{
+    "criteria": {
+      "right_click_on_infusion_circle": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[\"infusion_circle\"]}"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "atrium:formula_crafting/infusion/activate_infusion_circle"
+    }
+  }

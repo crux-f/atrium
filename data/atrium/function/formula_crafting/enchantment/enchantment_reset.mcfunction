@@ -37,5 +37,4 @@ particle minecraft:enchant ~ ~1 ~ 0.3 0.3 0.3 0.1 200 normal
 # Sound!
 playsound minecraft:block.enchantment_table.use block @a[distance=..15] ~ ~ ~ 1 0.6 0.1
 # achievement!
-execute positioned ~ ~ ~-7 run advancement grant @p[distance=..5,gamemode=!spectator] only atrium:magic/magic_root
 execute positioned ~ ~ ~-7 run advancement grant @p[distance=..5,gamemode=!spectator] only atrium:magic/mightier_than_the_sword

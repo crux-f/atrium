@@ -14,7 +14,8 @@ execute positioned ~ ~ ~2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nb
 execute positioned ~ ~ ~2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:item_frame",count:1}}] run scoreboard players add @s valid_ingredients 1
 #
 # Check that there isn't already a Cooking Station installed
-execute unless entity @s[nbt={data:{cooking_station_installed:1}}] run scoreboard players add @s valid_ingredients 1
+execute unless entity @s[tag=atrium_cooking_station_installed] run scoreboard players add @s valid_ingredients 1
+#
 # Check to make sure there is space. If there isn't, put a floating marker there to show which blocks need to be removed.
 execute positioned ~2 ~ ~-2 if block ~ ~ ~ minecraft:air run scoreboard players add @s valid_ingredients 1
 execute positioned ~3 ~ ~-2 if block ~ ~ ~ minecraft:air run scoreboard players add @s valid_ingredients 1
@@ -28,7 +29,7 @@ execute positioned ~3 ~1 ~-2 unless block ~ ~ ~ minecraft:air run summon minecra
 #
 scoreboard players set @e[type=minecraft:snowball,distance=..10,tag=atrium_upgrade_marker] charge -200
 #
-execute if entity @s[scores={valid_ingredients=8..}] run data merge entity @s {data:{cooking_station_installed:1}}
+execute if entity @s[scores={valid_ingredients=8..}] run tag @s add atrium_cooking_station_installed
 execute if entity @s[scores={valid_ingredients=8..}] at @s run function atrium:formula_crafting/alchemy/additions/build_cooking_station
 execute if entity @s[scores={valid_ingredients=8..}] at @s run function atrium:formula_crafting/alchemy/alchemy_reset
 scoreboard players set @s valid_ingredients 0

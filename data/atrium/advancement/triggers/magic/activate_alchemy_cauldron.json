@@ -1,0 +1,21 @@
+{
+    "criteria": {
+      "right_click_on_alchemy_cauldron": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[\"alchemy_cauldron\"]}"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "atrium:formula_crafting/alchemy/activate_alchemy_cauldron"
+    }
+  }
