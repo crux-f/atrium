@@ -32,7 +32,7 @@
     },
         "rewards": {
 		"experience": 100,
-	    "function": "atrium:triggers/events/snowfall_series_grant"
+	    "function": "atrium_events:series_grant/snowfall"
 	},
         "parent": "atrium:iteration3_events/an_unexpected_silence"
 }
