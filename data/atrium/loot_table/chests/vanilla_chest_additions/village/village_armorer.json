@@ -246,7 +246,7 @@
               "components": {
                 "minecraft:entity_data": {
                   "id": "minecraft:armor_stand",
-                  "Small": "1b"
+                  "Small": true
                 }
               }
             },
@@ -380,8 +380,8 @@
                 "minecraft:rarity": "uncommon",
                 "minecraft:entity_data": {
                   "id": "minecraft:armor_stand",
-                  "Invulnerable": "1b",
-                  "ShowArms": "1b",
+                  "Invulnerable": true,
+                  "ShowArms": true,
                   "Pose": {
                     "Body": [
                       0,
