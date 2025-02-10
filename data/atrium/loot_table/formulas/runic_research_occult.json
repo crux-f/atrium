@@ -246,7 +246,7 @@
                   "minecraft:rarity": "uncommon",
                   "minecraft:custom_model_data": {
                     "strings": [
-                      "atrium_codex_research"
+                      "atrium_enchanted_codex_research"
                     ]
                   },
                   "minecraft:custom_data": {
