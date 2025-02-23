@@ -1,0 +1,2 @@
+team add atrium_patreon_shadow_knight6_allies
+team modify atrium_patreon_shadow_knight6_allies friendlyFire false

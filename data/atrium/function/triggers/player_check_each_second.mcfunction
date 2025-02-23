@@ -2,12 +2,18 @@
 advancement revoke @s only atrium:triggers/player_check_each_second
 #
 # Boss Bars
-execute unless entity @e[tag=atrium_lich,tag=atrium_alerted] run bossbar set atrium:lich players
+execute unless entity @e[type=minecraft:stray,tag=atrium_lich,tag=atrium_alerted] run bossbar set atrium:lich players
 #
 # Custom advancements
 advancement grant @s only atrium:atrium_2025
 execute if entity @s[level=100..] run advancement grant @s only atrium:magic/unlightenment
 #
+# PATREON (Runekeeper)
+execute if entity @s[name=shadow_knight6,gamemode=!spectator] if data entity @s {Inventory:[{Slot:102b,components:{"minecraft:custom_data":{atrium_patron:"shadow_knight6"}}}]} at @s run team join atrium_patreon_shadow_knight6_allies @s
+execute if entity @s[name=shadow_knight6,gamemode=!spectator] if data entity @s {Inventory:[{Slot:102b,components:{"minecraft:custom_data":{atrium_patron:"shadow_knight6"}}}]} at @s run team join atrium_patreon_shadow_knight6_allies @e[type=minecraft:creaking,distance=..30]
+execute if entity @s[name=shadow_knight6,gamemode=!spectator] unless data entity @s {Inventory:[{Slot:102b,components:{"minecraft:custom_data":{atrium_patron:"shadow_knight6"}}}]} at @s run team leave @s
+execute unless entity @s[name=shadow_knight6] if data entity @s {Inventory:[{Slot:102b,components:{"minecraft:custom_data":{atrium_patron:"shadow_knight6"}}}]} run damage @s 1 thorns
+execute if entity @s[name=konigin12,gamemode=!spectator] if data entity @s {Inventory:[{Slot:103b,components:{"minecraft:custom_data":{atrium_patron:"konigin12"}}}]} at @s if entity @n[type=#atrium_events:fish,distance=..4] run damage @s 1 minecraft:mob_attack by @n[type=#atrium_events:fish]
 # ANOMALY: Elemental Soul
 # Each player gains an effect based on their elemental attunement; Slow Falling, Haste, Fire Resistance, or Water Breathing.
 # effect give @s[advancements={atrium:air_start=true}] slow_falling 10 0 true
