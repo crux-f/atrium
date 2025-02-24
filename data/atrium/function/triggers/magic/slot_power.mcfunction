@@ -5,3 +5,5 @@ advancement revoke @s only atrium:triggers/magic/slot_power
 #
 # All Staves
 execute if data entity @s {SelectedItem:{components:{"minecraft:custom_data":{atrium_power:1b}}},Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{atrium_staff:1b}}}]} run function atrium:triggers/magic/spell_charge
+# Patreon-only casting items
+execute if data entity @s {SelectedItem:{components:{"minecraft:custom_data":{atrium_power:1b}}},Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{atrium_patreon_casting_item:1b}}}]} run function atrium:triggers/magic/spell_charge

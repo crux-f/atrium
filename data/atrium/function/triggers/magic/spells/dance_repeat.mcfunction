@@ -3,7 +3,7 @@
 effect give @a[tag=atrium_dance_caster] levitation 1 8 true
 # Gives them Slow Falling I for 4 seconds.
 effect give @a[tag=atrium_dance_caster] slow_falling 5 0 false
-execute at @a[tag=atrium_dance_caster] anchored feet run particle minecraft:cloud ~ ~ ~ 0 0.5 0 0.1 50
+execute at @a[tag=atrium_dance_caster] anchored feet run particle minecraft:gust ~ ~ ~ 0 0 0 0.5 5
 execute at @a[tag=atrium_dance_caster] run playsound minecraft:entity.breeze.idle_air player @a[distance=..10] ~ ~ ~ 1 0.8 0.2
 #
 # After the caster has bounced 10 times, end the spell for that person, and stop running this if there are no casters remaining.

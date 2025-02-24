@@ -14,3 +14,5 @@ execute if data entity @s {Inventory:[{Slot:-106b,components:{"minecraft:custom_
 execute if data entity @s {Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{atrium_staff:1b,atrium_staff_lv:3b}}}]} unless data entity @s {Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{atrium_special_staff:1b}}}]} run function atrium:items/use/chargeable/staves/level_3_staff
 # Special Staves
 execute if data entity @s {Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{atrium_staff:1b,atrium_special_staff:1b}}}]} run function atrium:items/use/chargeable/staves/special_staff
+# Patreon
+execute if data entity @s {Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{atrium_patreon_casting_item:1b}}}]} run function atrium:items/use/chargeable/staves/patreon_casting_item
