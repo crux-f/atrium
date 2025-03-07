@@ -19,7 +19,7 @@
             "predicate": {
               "type": "minecraft:elder_guardian",
               "location": {
-                "structure": "minecraft:monument"
+                "structures": "minecraft:monument"
               }
             }
           }

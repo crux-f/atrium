@@ -1,0 +1,29 @@
+{
+    "type": "archaeology",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "weight": 100,
+            "value": "atrium:quests/trail_ruins_quest_rewards",
+            "conditions": [
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "nbt": "{Inventory:[{components:{\"minecraft:custom_data\":{atrium_trail_ruins_quest_map:1b}}}]}"
+                }
+            }
+            ]
+          },
+          {
+            "type": "loot_table",
+            "weight": 1,
+            "value": "atrium:archaeology/base/trail_ruins_rare"
+          }
+        ]
+      }
+    ]
+  }

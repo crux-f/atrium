@@ -1,0 +1,361 @@
+{
+    "type": "chest",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "item",
+            "weight": 5,
+            "name": "minecraft:golden_sword",
+            "functions": [
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:attribute_modifiers": {
+                    "modifiers": [
+                      {
+                        "id": "atrium:authority_attack_damage",
+                        "type": "attack_damage",
+                        "amount": 6,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                      },
+                      {
+                        "id": "atrium:authority_attack_speed",
+                        "type": "attack_speed",
+                        "amount": -3,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                      },
+                      {
+                        "id": "atrium:authority_sweeping_damage_ratio",
+                        "type": "sweeping_damage_ratio",
+                        "amount": 0.85,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                      },
+                      {
+                        "id": "atrium:authority_armor_toughness",
+                        "type": "armor_toughness",
+                        "amount": -1,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                      }
+                    ],
+                    "show_in_tooltip": false
+                  },
+                  "minecraft:enchantments": {
+                    "levels": {
+                      "minecraft:sharpness": 6,
+                      "minecraft:unbreaking": 5
+                    }
+                  },
+                  "minecraft:custom_model_data": {
+                    "strings": [
+                      "atrium_champions_blade"
+                    ]
+                  }
+                }
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Authority"
+                  }
+                ]
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "text": "Keep those ants in line."
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "When in Main Hand:"
+                  },
+                  {
+                    "color": "dark_green",
+                    "italic": false,
+                    "text": " 6 Attack Damage"
+                  },
+                  {
+                    "color": "dark_green",
+                    "italic": false,
+                    "text": " 1 Attack Speed"
+                  },
+                  {
+                    "color": "blue",
+                    "italic": false,
+                    "text": "+0.8 Sweeping Damage Ratio"
+                  },
+                  {
+                    "color": "red",
+                    "italic": false,
+                    "text": "-1 Armor Toughness"
+                  }
+                ],
+                "mode": "append"
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 5,
+            "name": "minecraft:iron_axe",
+            "functions": [
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_model_data": {
+                    "strings": [
+                      "atrium_battleaxe"
+                    ]
+                  },
+                  "minecraft:custom_data": {
+                    "atrium_battleaxe": 1,
+                    "atrium_iron_battleaxe": 1
+                  },
+                  "minecraft:attribute_modifiers": {
+                    "modifiers": [
+                      {
+                        "id": "atrium:battleaxe_base_attack_damage",
+                        "type": "attack_damage",
+                        "amount": 9,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                      },
+                      {
+                        "id": "atrium:battleaxe_attack_speed",
+                        "type": "attack_speed",
+                        "amount": -3.1,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                      }
+                    ],
+                    "show_in_tooltip": false
+                  },
+                  "minecraft:enchantments": {
+                    "levels": {
+                      "atrium:feast": 1,
+                      "minecraft:unbreaking": 3
+                    }
+                  }
+                }
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Hungry Battleaxe"
+                  }
+                ],
+                "target": "item_name"
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "text": "See, this is what those sages"
+                  },
+                  {
+                    "text": "meant by 'damage'."
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "When in Main Hand:"
+                  },
+                  {
+                    "color": "dark_green",
+                    "italic": false,
+                    "text": " 9 Attack Damage"
+                  },
+                  {
+                    "color": "dark_green",
+                    "italic": false,
+                    "text": " 0.9 Attack Speed"
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "When in Both Hands:"
+                  },
+                  {
+                    "color": "dark_green",
+                    "italic": false,
+                    "text": " 12 Attack Damage"
+                  },
+                  {
+                    "color": "dark_green",
+                    "italic": false,
+                    "text": " 0.9 Attack Speed"
+                  }
+                ],
+                "mode": "append"
+              },
+              {
+                "function": "minecraft:enchant_with_levels",
+                "levels": {
+                  "min": 15,
+                  "max": 27
+                },
+                  "options": "#minecraft:on_random_loot"
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 5,
+            "name": "minecraft:diamond_hoe",
+            "functions": [
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:attribute_modifiers": {
+                    "modifiers": [
+                      {
+                        "id": "atrium:staff_attack_damage",
+                        "type": "attack_damage",
+                        "amount": 2,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                      },
+                      {
+                        "id": "atrium:clockbreaker_attack_speed",
+                        "type": "attack_speed",
+                        "amount": 0.5,
+                        "operation": "add_multiplied_base",
+                        "slot": "offhand"
+                      }
+                    ],
+                    "show_in_tooltip": false
+                  },
+                  "minecraft:rarity": "rare",
+                  "minecraft:repair_cost": 99,
+                  "minecraft:custom_data": {
+                    "atrium_time_staff": 1,
+                    "atrium_staff": 1,
+                    "atrium_staff_lv": 3,
+                    "atrium_chargeable": 1
+                  },
+                  "minecraft:custom_model_data": {
+                    "strings": [
+                      "atrium_master_time_staff"
+                    ]
+                  },
+                  "minecraft:enchantments": {
+                    "levels": {
+                      "atrium:surge": 1,
+                      "atrium:rewound": 10
+                    }
+                  }
+                }
+              },
+              {
+                "function": "set_damage",
+                "damage": {
+                  "min": 0.75,
+                  "max": 0.5
+                }
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Clockbreaker"
+                  }
+                ]
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "text": "This fractured staff still"
+                  },
+                  {
+                    "text": "bends time, but... stranger."
+                  },
+                  {
+                    "text": "The Evokers' attempts to"
+                  },
+                  {
+                    "text": "repair it haven't worked."
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "◇ Time Sigil III"
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "◇ Desync III"
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "◇ Extend Duration II"
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "◇ Rewind Item II"
+                  },
+                  {
+                    "color": "light_purple",
+                    "italic": false,
+                    "text": "✦ Moment"
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "When in Off Hand:"
+                  },
+                  {
+                    "color": "blue",
+                    "italic": false,
+                    "text": "+3 Casting Power"
+                  },
+                  {
+                    "color": "blue",
+                    "italic": false,
+                    "text": "+50% Attack Speed"
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "When in Main Hand:"
+                  },
+                  {
+                    "color": "blue",
+                    "italic": false,
+                    "text": "+2 Attack Damage"
+                  }
+                ],
+                "mode": "append"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

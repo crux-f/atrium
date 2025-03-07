@@ -1,0 +1,30 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:villager_trade",
+        "conditions": {
+          "villager": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[\"atrium_specialist_collector\"]}"
+              }
+            }
+          ],
+          "item": {
+            "predicates": {
+              "minecraft:custom_data": {
+                "atrium_mansion_quest_map": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "atrium:triggers/entity_abilities/villagers/collector/buy_mansion_quest_map"
+    },
+    "sends_telemetry_event": false
+  }
+  

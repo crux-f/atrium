@@ -1,0 +1,263 @@
+{
+    "type": "archaeology",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "item",
+            "weight": 5,
+            "name": "minecraft:stone_sword",
+            "functions": [
+                {
+                  "function": "set_components",
+                  "components": {
+                    "minecraft:custom_model_data": {
+                      "strings": [
+                        "atrium_dagger"
+                      ]
+                    },
+                    "minecraft:custom_data": {
+                      "atrium_dagger": 1,
+                      "atrium_stone_dagger": 1
+                    },
+                    "minecraft:attribute_modifiers": {
+                      "modifiers": [
+                        {
+                          "id": "atrium:dagger_attack_damage",
+                          "type": "attack_damage",
+                          "amount": 2.5,
+                          "operation": "add_value",
+                          "slot": "mainhand"
+                        },
+                        {
+                          "id": "atrium:dagger_attack_speed",
+                          "type": "attack_speed",
+                          "amount": -1.8,
+                          "operation": "add_value",
+                          "slot": "mainhand"
+                        }
+                      ],
+                      "show_in_tooltip": false
+                    },
+                    "minecraft:enchantments": {
+                        "levels": {
+                          "atrium:fuse_cutter": 1
+                        }
+                      }
+                  }
+                },
+                {
+                  "function": "set_name",
+                  "name": [
+                    {
+                      "text": "Prehistoric Dagger"
+                    }
+                  ],
+                  "target": "item_name"
+                },
+                {
+                  "function": "set_lore",
+                  "lore": [
+                    {
+                        "text": "Even in ancient times, humans dealt"
+                    },
+                    {
+                        "text": "with many of the same questions"
+                    },
+                    {
+                        "text": "we face today, like 'Where is my"
+                    },
+                    {
+                        "text": "next meal?', 'What is the meaning"
+                    },
+                    {
+                        "text": "of life?', and 'How do I stop"
+                    },
+                    {
+                        "text": "my house from exploding?'"
+                    },
+                    {
+                      "text": " "
+                    },
+                    {
+                      "color": "gray",
+                      "italic": false,
+                      "text": "When in Main Hand:"
+                    },
+                    {
+                      "color": "dark_green",
+                      "italic": false,
+                      "text": " 2.5 Attack Damage"
+                    },
+                    {
+                      "color": "dark_green",
+                      "italic": false,
+                      "text": " 2.2 Attack Speed"
+                    }
+                  ],
+                  "mode": "append"
+                },
+                {
+                    "function": "minecraft:enchant_with_levels",
+                    "levels": {
+                      "min": 13,
+                      "max": 23
+                    },
+                      "options": "#minecraft:on_random_loot"
+                }
+              ]
+          },
+          {
+            "type": "item",
+            "weight": 5,
+            "name": "minecraft:leather_boots",
+            "functions": [
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:dyed_color": {
+                    "rgb": 2532940,
+                    "show_in_tooltip": false
+                  },
+                  "minecraft:trim": {
+                    "material": "minecraft:copper",
+                    "pattern": "minecraft:wayfinder",
+                    "show_in_tooltip": false
+                  },
+                  "minecraft:rarity": "uncommon",
+                  "minecraft:enchantments": {
+                    "levels": {
+                      "minecraft:unbreaking": 4
+                    }
+                  },
+                  "minecraft:attribute_modifiers": [
+                    {
+                      "id": "atrium:trailrunners_armor",
+                      "type": "armor",
+                      "amount": 1,
+                      "operation": "add_value",
+                      "slot": "feet"
+                    },
+                    {
+                      "id": "atrium:trailrunners_movement_speed",
+                      "type": "movement_speed",
+                      "amount": 0.1,
+                      "operation": "add_multiplied_base",
+                      "slot": "feet"
+                    },
+                    {
+                      "id": "atrium:trailrunners_movement_efficiency",
+                      "type": "movement_efficiency",
+                      "amount": 0.2,
+                      "operation": "add_multiplied_base",
+                      "slot": "feet"
+                    },
+                    {
+                      "id": "atrium:trailrunners_sneaking_speed",
+                      "type": "sneaking_speed",
+                      "amount": -0.5,
+                      "operation": "add_multiplied_base",
+                      "slot": "feet"
+                    }
+                  ]
+                }
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Trailrunners"
+                  }
+                ]
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "text": "These flexible shoes were"
+                  },
+                  {
+                    "text": "made for running, and"
+                  },
+                  {
+                    "text": "they aren't too comfortable"
+                  },
+                  {
+                    "text": "moving slower."
+                  }
+                ],
+                "mode": "append"
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 5,
+            "name": "minecraft:bow",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              },
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:attribute_modifiers": [
+                    {
+                      "id": "burning_time",
+                      "type": "burning_time",
+                      "amount": 0.1,
+                      "operation": "add_multiplied_base",
+                      "slot": "mainhand"
+                    }
+                  ],
+                  "minecraft:enchantments": {
+                    "levels": {
+                      "minecraft:infinity": 1,
+                      "minecraft:mending": 1,
+                      "minecraft:unbreaking": 3
+                    }
+                  },
+                  "minecraft:repair_cost": 99,
+                  "minecraft:custom_model_data": {
+                    "strings": [
+                      "atrium_everthorn"
+                    ]
+                  },
+                  "minecraft:rarity": "uncommon"
+                }
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "color": "dark_green",
+                    "text": "Everthorn"
+                  }
+                ]
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "text": "A relic of ancient times."
+                  },
+                  {
+                    "text": "Even after untold years"
+                  },
+                  {
+                    "text": "without sunlight, it still"
+                  },
+                  {
+                    "text": "grows its own arrows."
+                  }
+                ],
+                "mode": "append"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
