@@ -98,7 +98,7 @@
             },
             {
               "function": "set_name",
-              "target": "item_name",
+              "target": "custom_name",
               "name": [
                 {
                   "text": "Grungy Greg's Gravelly Grog"
@@ -212,7 +212,7 @@
                     "pos": [
                       0,
                       0,
-                      -9999999999
+                      -999999999999999999
                     ]
                   },
                   "tracked": false
