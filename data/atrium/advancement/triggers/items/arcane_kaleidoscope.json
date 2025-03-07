@@ -27,6 +27,6 @@
     }
   },
   "rewards": {
-    "function": "atrium:triggers/treasure/arcane_kaleidoscope"
+    "function": "atrium:triggers/items/arcane_kaleidoscope"
   }
 }
