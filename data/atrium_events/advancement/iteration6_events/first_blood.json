@@ -1,0 +1,61 @@
+{
+    "display": {
+        "title": {
+            "text": "First Blood"
+        },
+        "description": [
+            {
+                "text": "March 22nd, 2025",
+                "color": "green",
+                "italic": true
+            },
+            {
+              "color": "dark_purple",
+              "italic": true,
+              "text": "\nThe Armada has chosen its first target: Cloud City."
+            },
+            {
+              "italic": false,
+              "color": "gray",
+              "text": "\n \nRewards:"
+            },
+            {
+              "italic": false,
+              "color": "blue",
+              "text": "\n1 City Defender"
+            },
+            {
+                "italic": false,
+                "color": "blue",
+                "text": "\n128 ❤ Reputation"
+            },
+            {
+                "italic": false,
+                "color": "dark_green",
+                "text": "\n[Victory] 3 Potion of Heroism"
+            },
+            {
+                "italic": false,
+                "color": "red",
+                "text": "\n[Defeat] 1 Ominous Bottle"
+            }
+          ],
+        "icon": {
+            "id": "minecraft:iron_sword",
+            "components": {"minecraft:custom_model_data":{"strings":["atrium_dagger"]}}
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "first_blood": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "atrium_events:rewards/events/iteration_5/oath_of_ash_and_exiles"
+	},
+        "parent": "atrium_events:events_2025"
+}
