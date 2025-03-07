@@ -23,7 +23,7 @@
                     "atrium_holy_arrow": 1
                   },
                   "minecraft:potion_contents": {
-                    "potion": "minecraft:strong_healing",
+                    "custom_effects": [{"id":"minecraft:instant_health","amplifier":2,"duration":1}],
                     "custom_color": 16577536
                   }
                 }
@@ -32,10 +32,11 @@
                 "function": "set_name",
                 "name": [
                   {
-                    "text": "Holy Arrow"
+                    "text": "Holy Arrow",
+                    "italic": false
                   }
                 ],
-                "target": "item_name"
+                "target": "custom_name"
               }
             ]
           }
