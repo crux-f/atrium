@@ -1,21 +1,22 @@
 {
     "display": {
         "title": {
-            "text": "2023"
+            "text": "2025"
         },
         "description": {
-            "text": "All Atrium Events in 2023"
+            "text": "All Atrium Events in 2025"
         },
         "icon": {
-            "id": "minecraft:diamond_pickaxe"
+            "id": "minecraft:stone_pickaxe",
+            "components": {"minecraft:custom_model_data":{"strings":["atrium_hammer"]}}
         },
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": false,
-        "hidden": true
+        "hidden": false
     },
     "criteria": {
-        "2023_events": {
+        "2025_events": {
             "trigger": "minecraft:impossible"
         }
     },
