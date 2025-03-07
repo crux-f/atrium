@@ -38,9 +38,11 @@
             },
             {
               "function": "set_name",
+              "target": "custom_name",
               "name": [
                 {
-                  "text": "Hunting Trophy"
+                  "text": "Hunting Trophy",
+                  "italic": false
                 }
               ]
             },

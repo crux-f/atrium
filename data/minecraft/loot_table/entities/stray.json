@@ -29,7 +29,7 @@
               "components": {
                 "minecraft:custom_data": {
                   "atrium_trophy": 1,
-                  "atrium_trophy_type": "ravager"
+                  "atrium_trophy_type": "stray"
                 },
                 "minecraft:profile": {
                   "id": [
@@ -49,10 +49,11 @@
             },
             {
               "function": "set_name",
-              "target": "item_name",
+              "target": "custom_name",
               "name": [
                 {
-                  "text": "Hunting Trophy"
+                  "text": "Hunting Trophy",
+                  "italic": false
                 }
               ]
             },
