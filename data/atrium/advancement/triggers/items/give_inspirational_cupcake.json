@@ -1,0 +1,23 @@
+{
+    "criteria": {
+      "give_master_villager_inspirational_item": {
+        "trigger": "minecraft:thrown_item_picked_up_by_entity",
+        "conditions": {
+          "item": {
+            "predicates": {
+              "minecraft:custom_data": {
+                "atrium_inspirational_cupcake": 1
+              }
+            }
+          },
+          "entity": {
+            "type": "minecraft:villager",
+            "nbt": "{VillagerData:{level:5}}"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "atrium:triggers/items/give_inspirational_cupcake"
+    }
+  }

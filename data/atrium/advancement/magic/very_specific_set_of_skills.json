@@ -1,0 +1,41 @@
+{
+    "display": {
+        "title": {
+            "text": "Very Specific Set of Skills"
+        },
+        "description": [
+            {
+                "text": "Inspire a Villager to become a Specialist"
+            },
+            {
+              "color": "gray",
+              "text": "\n \nReward:"
+            },
+            {
+              "color": "yellow",
+              "text": "\n50 XP"
+            }
+          ],
+        "icon": {
+          "id": "minecraft:bread",
+          "components": {
+            "minecraft:custom_model_data": {
+              "strings": ["atrium_inspirational_cupcake"]
+            }
+          }
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "give_inspirational_cupcake": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 50
+      },
+    "parent": "atrium:magic/cauldron_cooking"
+}

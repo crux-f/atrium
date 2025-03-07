@@ -186,6 +186,9 @@ execute positioned ~ ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=
 # Start Drumstick - Check NORTH for Raw Chicken
 execute positioned ~ ~ ~-2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:chicken"}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
 execute positioned ~ ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:chicken"}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/drumstick
+# Start Inspirational Cupcake - Check NORTH for Comet Berries
+execute positioned ~ ~ ~-2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{components:{"minecraft:custom_data":{atrium_comet_berries:1b}}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{components:{"minecraft:custom_data":{atrium_comet_berries:1b}}}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/inspirational_cupcake
 #
 # Upgrades
 #
