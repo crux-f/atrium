@@ -1,13 +1,14 @@
 {
     "display": {
         "title": {
-            "text": "Campaigns"
+            "text": "World Quests"
         },
         "description": {
             "text": "A series of several Story Events"
         },
         "icon": {
-            "id": "minecraft:dark_oak_sapling"
+            "id": "minecraft:clay_ball",
+            "components": {"minecraft:custom_model_data":{"strings":["atrium_mountains_root"]}}
         },
         "frame": "task",
         "show_toast": false,

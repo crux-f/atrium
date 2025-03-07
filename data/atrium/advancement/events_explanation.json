@@ -7,7 +7,7 @@
             "text": "Check the Discord for future events"
         },
         "icon": {
-            "id": "minecraft:cake"
+            "id": "minecraft:creeper_banner_pattern"
         },
         "frame": "task",
         "show_toast": false,

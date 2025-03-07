@@ -1,11 +1,11 @@
 {
     "display": {
         "title": {
-            "text": "Atrium: The Far Lands",
+            "text": "Atrium: Journey to The Far Lands",
             "color": "gray"
         },
         "description": {
-            "text": "Participate in at least 1 Journey to The Far Lands event"
+            "text": "Participate in a Journey to The Far Lands event"
         },
         "icon": {
             "id": "minecraft:dirt_path"
