@@ -1,0 +1,10 @@
+{
+    "criteria": {
+      "trigger_on_eat_cake": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "rewards": {
+      "function": "atrium_events:patreon/anomalies/trial_of_the_quipster"
+    }
+  }

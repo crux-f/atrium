@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "sleep_in_bed_25_percent": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "atrium_events:patreon/anomalies/nightmare_begins"
+  }
+}
