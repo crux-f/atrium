@@ -1,7 +1,9 @@
 # Station Reset:
 #
 # NORTH
-execute positioned ~2 ~ ~-2 run data merge entity @e[type=minecraft:glow_item_frame,distance=..1,limit=1] {Facing:1b,Tags:["atrium_crafting_slot"],Item:{}}
+execute positioned ~2 ~ ~-2 run data merge entity @e[type=minecraft:glow_item_frame,distance=..1,limit=1] {Facing:1b,Tags:["atrium_crafting_slot"]}
+execute positioned ~2 ~ ~-2 run data remove entity @e[type=minecraft:glow_item_frame,distance=..1,limit=1] Item
+execute positioned ~2 ~ ~-2 run particle entity_effect{color:[1.000,0.000,0.000,0.75]} ~ ~ ~ 0 0 0 1 0 normal
 # Particles!
 execute positioned ~2 ~1 ~-2 run particle minecraft:crit ~ ~ ~ 0.3 0.3 0.3 0 15 normal
 # Advancement!
