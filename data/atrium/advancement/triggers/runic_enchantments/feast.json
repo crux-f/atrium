@@ -7,12 +7,12 @@
           "direct_entity": {
             "equipment": {
               "mainhand": {
-                "components": {
-                  "minecraft:enchantments": {
-                    "levels": {
-                      "atrium:feast": 1
+                "predicates": {
+                  "minecraft:enchantments": [
+                    {
+                      "enchantments": "atrium:feast"
                     }
-                  }
+                  ]
                 }
               }
             }
