@@ -1,0 +1,58 @@
+{
+    "type": "entity",
+    "pools": [
+        {
+            "rolls": 1,
+            "bonus_rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:breeze_rod"
+                },
+				{
+					"type": "item",
+					"weight": 1,
+					"quality": 1,
+					"name": "minecraft:breeze_rod",
+					"functions": [
+					  {
+						"function": "set_components",
+						"components": {
+							"minecraft:custom_model_data": {
+								"strings": [
+								  "atrium_charged_breeze_rod"
+								]
+							  },
+						  "minecraft:custom_data": {
+							"atrium_charged_breeze_rod": 1
+						  }
+						}
+					  },
+					  {
+						"function": "set_name",
+						"name": [
+						  {
+							"text": "Charged Breeze Rod"
+						  }
+						],
+						"target": "item_name"
+					  },
+					  {
+						"function": "set_lore",
+						"lore": [
+						  {
+							"text": "It emanates the smell"
+						  },
+						  {
+							"text": "of fresh air and ozone."
+						  }
+						],
+						"mode": "append"
+					  }
+					]
+				  }
+            ]
+        }
+    ]
+}
