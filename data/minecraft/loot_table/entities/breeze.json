@@ -7,11 +7,13 @@
       "entries": [
         {
           "type": "empty",
-          "weight": 30,
+          "weight": 20,
           "quality": -5
         },
         {
           "type": "item",
+          "weight": 5,
+          "name": "minecraft:player_head",
           "conditions": [
             {
               "condition": "minecraft:entity_properties",
@@ -21,18 +23,27 @@
               }
             }
           ],
-          "weight": 5,
-          "name": "minecraft:player_head",
           "functions": [
             {
               "function": "set_components",
               "components": {
                 "minecraft:custom_data": {
                   "atrium_trophy": 1,
-                  "atrium_trophy_type": "blaze"
+                  "atrium_trophy_type": "breeze"
                 },
                 "minecraft:profile": {
-                  "name": "MHF_Blaze"
+                  "id": [
+                    -654100401,
+                    -1395702302,
+                    -1834908239,
+                    611899977
+                  ],
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2Q2ZTYwMmY3NmY4MGMwNjU3YjVhZWQ2NGUyNjdlZWVhNzAyYjMxZTZkYWU4NjM0NmM4NTA2ZjI1MzVjZWQwMiJ9fX0="
+                    }
+                  ]
                 }
               }
             },
@@ -50,55 +61,15 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "text": "Blaze",
-                  "color": "gold",
+                  "text": "Breeze",
+                  "color": "aqua",
                   "italic": false
                 }
               ],
               "mode": "append"
             }
           ]
-        },
-				{
-					"type": "item",
-					"weight": 5,
-					"quality": 5,
-					"name": "minecraft:blaze_rod",
-					"functions": [
-					  {
-						"function": "set_components",
-						"components": {
-						  "minecraft:custom_model_data": {
-                "strings": ["atrium_charged_blaze_rod"]
-              },
-						  "minecraft:custom_data": {
-							"atrium_charged_blaze_rod": 1
-						  }
-						}
-					  },
-					  {
-						"function": "set_name",
-						"name": [
-						  {
-							"text": "Charged Blaze Rod"
-						  }
-						],
-						"target": "item_name"
-					  },
-					  {
-						"function": "set_lore",
-						"lore": [
-						  {
-							"text": "It radiates more heat"
-						  },
-						  {
-							"text": "than the others."
-						  }
-						],
-						"mode": "append"
-					  }
-					]
-				  }
+        }
       ]
     },
     {
@@ -106,10 +77,10 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "atrium:entities/base/blaze"
+          "value": "atrium:entities/base/breeze"
         }
       ]
     }
   ],
-  "random_sequence": "minecraft:entities/blaze"
+  "random_sequence": "minecraft:entities/breeze"
 }
