@@ -2,10 +2,11 @@
 advancement revoke @s only atrium:triggers/player_check_each_second
 #
 # Boss Bars
-execute unless entity @e[type=minecraft:stray,tag=atrium_lich,tag=atrium_alerted] run bossbar set atrium:lich players
+execute at @s unless entity @e[type=minecraft:stray,tag=atrium_lich,tag=atrium_alerted,distance=..100] run bossbar set atrium:lich players
 #
 # Custom advancements
 advancement grant @s only atrium:atrium_2025
+advancement grant @s until atrium:events_explanation
 execute if entity @s[level=100..] run advancement grant @s only atrium:magic/unlightenment
 #
 # PATREON (Runekeeper)
