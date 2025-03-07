@@ -35,6 +35,25 @@
                         "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:egg\",Count:8b}}]}}"
                       }
                     }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_sell_8_egg": 1
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
                   }
                 ]
               }
@@ -70,6 +89,25 @@
                       "entity": "this",
                       "predicate": {
                         "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:raw_cod\",count:1,components:{\"minecraft:custom_data\":{atrium_butter:1b}}}}]}}"
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_buy_1_butter": 1
+                              }
+                            }
+                          }
+                        }
                       }
                     }
                   }
@@ -109,6 +147,25 @@
                         "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:red_mushroom\",count:8}}]}}"
                       }
                     }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_sell_8_red_mushroom": 1
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
                   }
                 ]
               }
@@ -144,6 +201,25 @@
                       "entity": "this",
                       "predicate": {
                         "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:brown_mushroom\",count:8}}]}}"
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_sell_8_brown_mushroom": 1
+                              }
+                            }
+                          }
+                        }
                       }
                     }
                   }
@@ -183,6 +259,25 @@
                         "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:beetroot_soup\",count:1}}]}}"
                       }
                     }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_buy_1_beetroot_soup": 1
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
                   }
                 ]
               }
@@ -218,6 +313,25 @@
                       "entity": "this",
                       "predicate": {
                         "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:mushroom_stew\",count:1}}]}}"
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_buy_1_mushroom_stew": 1
+                              }
+                            }
+                          }
+                        }
                       }
                     }
                   }
@@ -257,6 +371,25 @@
                         "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:rabbit_stew\",count:1}}]}}"
                       }
                     }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_buy_1_rabbit_stew": 1
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
                   }
                 ]
               }
@@ -292,6 +425,25 @@
                       "entity": "this",
                       "predicate": {
                         "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:crimson_fungus\",count:8}}]}}"
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_sell_8_crimson_fungus": 1
+                              }
+                            }
+                          }
+                        }
                       }
                     }
                   }
@@ -331,6 +483,25 @@
                         "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:warped_fungus\",count:8}}]}}"
                       }
                     }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_sell_8_warped_fungus": 1
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
                   }
                 ]
               }
@@ -368,33 +539,6 @@
                         "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:pumpkin_pie\",count:1}}]}}"
                       }
                     }
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "weight": 10,
-            "type": "minecraft:item",
-            "name": "minecraft:firework_star",
-            "functions": [
-              {
-                "function": "set_components",
-                "components": {
-                  "minecraft:custom_data": {
-                    "atrium_specialist_trade": 1,
-                    "atrium_buy_1_blue_cheese": 1
-                  }
-                }
-              }
-            ],
-            "conditions": [
-              {
-                "condition": "minecraft:all_of",
-                "terms": [
-                  {
-                    "condition": "minecraft:reference",
-                    "name": "atrium:entity/villager/is_level_3"
                   },
                   {
                     "condition": "minecraft:inverted",
@@ -402,44 +546,16 @@
                       "condition": "minecraft:entity_properties",
                       "entity": "this",
                       "predicate": {
-                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:baked_potato\",count:1,components:{\"minecraft:custom_data\":{atrium_blue_cheese:1b}}}}]}}"
-                      }
-                    }
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "weight": 10,
-            "type": "minecraft:item",
-            "name": "minecraft:firework_star",
-            "functions": [
-              {
-                "function": "set_components",
-                "components": {
-                  "minecraft:custom_data": {
-                    "atrium_specialist_trade": 1,
-                    "atrium_buy_1_red_cheese": 1
-                  }
-                }
-              }
-            ],
-            "conditions": [
-              {
-                "condition": "minecraft:all_of",
-                "terms": [
-                  {
-                    "condition": "minecraft:reference",
-                    "name": "atrium:entity/villager/is_level_3"
-                  },
-                  {
-                    "condition": "minecraft:inverted",
-                    "term": {
-                      "condition": "minecraft:entity_properties",
-                      "entity": "this",
-                      "predicate": {
-                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:baked_potato\",count:1,components:{\"minecraft:custom_data\":{atrium_red_cheese:1b}}}}]}}"
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_buy_1_pumpkin_pie": 1
+                              }
+                            }
+                          }
+                        }
                       }
                     }
                   }
@@ -468,7 +584,7 @@
                 "terms": [
                   {
                     "condition": "minecraft:reference",
-                    "name": "atrium:entity/villager/is_level_3"
+                    "name": "atrium:entity/villager/is_level_2"
                   },
                   {
                     "condition": "minecraft:inverted",
@@ -477,6 +593,305 @@
                       "entity": "this",
                       "predicate": {
                         "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:baked_potato\",count:1,components:{\"minecraft:custom_data\":{atrium_yellow_cheese:1b}}}}]}}"
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_buy_1_yellow_cheese": 1
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "weight": 10,
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "atrium_specialist_trade": 1,
+                    "atrium_buy_1_blue_cheese": 1
+                  }
+                }
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "atrium:entity/villager/is_level_2"
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:baked_potato\",count:1,components:{\"minecraft:custom_data\":{atrium_blue_cheese:1b}}}}]}}"
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_buy_1_blue_cheese": 1
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "weight": 10,
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "atrium_specialist_trade": 1,
+                    "atrium_buy_1_red_cheese": 1
+                  }
+                }
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "atrium:entity/villager/is_level_2"
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:baked_potato\",count:1,components:{\"minecraft:custom_data\":{atrium_red_cheese:1b}}}}]}}"
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_buy_1_red_cheese": 1
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "weight": 10,
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "atrium_specialist_trade": 1,
+                    "atrium_buy_1_burger": 1
+                  }
+                }
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "atrium:entity/villager/is_level_3"
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:cooked_beef\",count:1,components:{\"minecraft:custom_model_data\":{strings:[\"atrium_burger\"]},\"minecraft:item_name\":'{\"text\":\"Burger\"}',\"minecraft:custom_data\":{atrium_burger:1b},\"minecraft:food\":{nutrition:10,saturation:14},\"minecraft:consumable\":{consume_seconds:3,animation:\"eat\",has_consume_particles:true}}}}]}}"
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_buy_1_burger": 1
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "weight": 10,
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "atrium_specialist_trade": 1,
+                    "atrium_buy_1_crimson_burger": 1
+                  }
+                }
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "atrium:entity/villager/is_level_3"
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:cooked_chicken\",count:1,components:{\"minecraft:custom_model_data\":{strings:[\"atrium_crimson_burger\"]},\"minecraft:item_name\":'{\"text\":\"Crimson Burger\"}',\"minecraft:custom_data\":{atrium_crimson_burger:1b},\"minecraft:food\":{nutrition:12,saturation:10},\"minecraft:consumable\":{consume_seconds:3,animation:\"eat\",has_consume_particles:true}}}}]}}"
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_buy_1_crimson_burger": 1
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "weight": 10,
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "atrium_specialist_trade": 1,
+                    "atrium_buy_1_warped_burger": 1
+                  }
+                }
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "atrium:entity/villager/is_level_3"
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:cooked_porkchop\",count:1,components:{\"minecraft:custom_model_data\":{strings:[\"atrium_warped_burger\"]},\"minecraft:item_name\":'{\"text\":\"Warped Burger\"}',\"minecraft:custom_data\":{atrium_warped_burger:1b},\"minecraft:food\":{nutrition:11,saturation:11},\"minecraft:consumable\":{consume_seconds:3,animation:\"eat\",has_consume_particles:true}}}}]}}"
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_buy_1_warped_burger": 1
+                              }
+                            }
+                          }
+                        }
                       }
                     }
                   }
@@ -516,6 +931,25 @@
                         "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:bread\",count:1,components:{\"minecraft:custom_data\":{atrium_shipwreck_sub:1b}}}}]}}"
                       }
                     }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_buy_1_shipwreck_sub": 1
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
                   }
                 ]
               }
@@ -553,6 +987,25 @@
                         "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:beetroot_soup\",count:1,components:{\"minecraft:custom_data\":{atrium_pasta:1b}}}}]}}"
                       }
                     }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_buy_1_pasta": 1
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
                   }
                 ]
               }
@@ -568,7 +1021,7 @@
                 "components": {
                   "minecraft:custom_data": {
                     "atrium_specialist_trade": 1,
-                    "atrium_buy_1_buy_2_taffy": 1
+                    "atrium_buy_2_taffy": 1
                   }
                 }
               }
@@ -588,6 +1041,81 @@
                       "entity": "this",
                       "predicate": {
                         "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:cookie\",count:2,components:{\"minecraft:custom_data\":{atrium_taffy:1b}}}}]}}"
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_buy_2_taffy": 1
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "weight": 10,
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "atrium_specialist_trade": 1,
+                    "atrium_sell_12_glow_berries": 1
+                  }
+                }
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "atrium:entity/villager/is_level_3"
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:glow_berries\",count:12}}]}}"
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_sell_12_glow_berries": 1
+                              }
+                            }
+                          }
+                        }
                       }
                     }
                   }
@@ -616,7 +1144,7 @@
                 "terms": [
                   {
                     "condition": "minecraft:reference",
-                    "name": "atrium:entity/villager/is_level_4"
+                    "name": "atrium:entity/villager/is_level_3"
                   },
                   {
                     "condition": "minecraft:inverted",
@@ -627,6 +1155,25 @@
                         "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:cake\",count:1}}]}}"
                       }
                     }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_buy_1_cake": 1
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
                   }
                 ]
               }
@@ -634,6 +1181,62 @@
           },
           {
             "weight": 10,
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "atrium_specialist_trade": 1,
+                    "atrium_buy_1_golden_carrot": 1
+                  }
+                }
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "atrium:entity/villager/is_level_3"
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:golden_carrot\",count:1}}]}}"
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_buy_1_golden_carrot": 1
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "weight": 5,
             "type": "minecraft:item",
             "name": "minecraft:firework_star",
             "functions": [
@@ -664,13 +1267,85 @@
                         "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:golden_apple\",count:1}}]}}"
                       }
                     }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_buy_1_golden_apple": 1
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
                   }
                 ]
               }
             ]
           },
           {
-            "type": "minecraft:empty"
+            "weight": 10,
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "atrium_specialist_trade": 1,
+                    "atrium_buy_1_a_witchs_cookbook_research": 1
+                  }
+                }
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "atrium:entity/villager/is_level_4"
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:paper\",count:1,components:{atrium_research:1b,atrium_research_type:\"alchemy\",atrium_topic:\"a_witchs_cookbook\"}}}]}}"
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_buy_1_a_witchs_cookbook_research": 1
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
           }
         ]
       }

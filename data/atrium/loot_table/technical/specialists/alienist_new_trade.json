@@ -15,7 +15,7 @@
                 "components": {
                   "minecraft:custom_data": {
                     "atrium_specialist_trade": 1,
-                    "atrium_sell_1_diamond": 1
+                    "atrium_sell_16_amethyst_shard": 1
                   }
                 }
               }
@@ -34,7 +34,82 @@
                       "condition": "minecraft:entity_properties",
                       "entity": "this",
                       "predicate": {
-                        "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:diamond\",count:1}}]}}"
+                        "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:amethyst_shard\",count:16}}]}}"
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_sell_16_amethyst_shard": 1
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "weight": 10,
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "atrium_specialist_trade": 1,
+                    "atrium_sell_16_nether_quartz": 1
+                  }
+                }
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "atrium:entity/villager/is_level_1"
+                  },                  
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:nether_quartz\",count:16}}]}}"
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_sell_16_nether_quartz": 1
+                              }
+                            }
+                          }
+                        }
                       }
                     }
                   }
@@ -74,6 +149,25 @@
                         "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:obsidian\",count:6}}]}}"
                       }
                     }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_sell_6_obsidian": 1
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
                   }
                 ]
               }
@@ -109,6 +203,25 @@
                       "entity": "this",
                       "predicate": {
                         "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:stick\",count:1,components:{\"minecraft:custom_data\":{atrium_inert_focus:1b}}}}]}}"
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_buy_1_inert_focus": 1
+                              }
+                            }
+                          }
+                        }
                       }
                     }
                   }
@@ -148,6 +261,25 @@
                         "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:paper\",count:1,components:{atrium_research:1b,atrium_research_type:\"infusion\",atrium_topic:\"a_collection_of_elements\"}}}]}}"
                       }
                     }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_buy_1_a_collection_of_elements": 1
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
                   }
                 ]
               }
@@ -183,6 +315,193 @@
                       "entity": "this",
                       "predicate": {
                         "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:stick\",count:1,components:{\"minecraft:custom_data\":{atrium_rod_of_relocation:1b}}}}]}}"
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_buy_1_rod_of_relocation": 1
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "weight": 3,
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "atrium_specialist_trade": 1,
+                    "atrium_buy_2_blooming_crystal": 1
+                  }
+                }
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "atrium:entity/villager/is_level_1"
+                  },                  
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:purple_stained_glass\",count:2}}]}}"
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_buy_2_blooming_crystal": 1
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "weight": 3,
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "atrium_specialist_trade": 1,
+                    "atrium_buy_2_subdued_crystal": 1
+                  }
+                }
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "atrium:entity/villager/is_level_1"
+                  },                  
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:green_stained_glass\",count:2}}]}}"
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_buy_2_subdued_crystal": 1
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "weight": 3,
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "atrium_specialist_trade": 1,
+                    "atrium_buy_2_rumbling_crystal": 1
+                  }
+                }
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "atrium:entity/villager/is_level_1"
+                  },                  
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:orange_stained_glass\",count:2}}]}}"
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_buy_2_rumbling_crystal": 1
+                              }
+                            }
+                          }
+                        }
                       }
                     }
                   }
@@ -222,6 +541,25 @@
                         "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:amethyst_block\",count:1,components:{\"minecraft:custom_data\":{atrium_catalyst_harmonizing:1b}}}}]}}"
                       }
                     }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_sell_1_infusion_catalyst_harmonizing": 1
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
                   }
                 ]
               }
@@ -257,6 +595,25 @@
                       "entity": "this",
                       "predicate": {
                         "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:quartz_block\",count:1,components:{\"minecraft:custom_data\":{atrium_catalyst_reverberating:1b}}}}]}}"
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_sell_1_infusion_catalyst_reverberating": 1
+                              }
+                            }
+                          }
+                        }
                       }
                     }
                   }
@@ -296,6 +653,25 @@
                         "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:crying_obsidian\",count:2}}]}}"
                       }
                     }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_sell_2_crying_obsidian": 1
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
                   }
                 ]
               }
@@ -322,7 +698,7 @@
                 "terms": [
                   {
                     "condition": "minecraft:reference",
-                    "name": "atrium:entity/villager/is_level_3"
+                    "name": "atrium:entity/villager/is_lv_2_or_3"
                   },                  
                   {
                     "condition": "minecraft:inverted",
@@ -331,6 +707,25 @@
                       "entity": "this",
                       "predicate": {
                         "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:diamond_hoe\",count:1,components:{\"minecraft:custom_data\":{atrium_air_staff:1b,atrium_chargeable:1b,atrium_staff:1b,atrium_staff_lv:1b}}}}]}}"
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_buy_1_air_staff": 1
+                              }
+                            }
+                          }
+                        }
                       }
                     }
                   }
@@ -359,7 +754,7 @@
                 "terms": [
                   {
                     "condition": "minecraft:reference",
-                    "name": "atrium:entity/villager/is_level_3"
+                    "name": "atrium:entity/villager/is_lv_2_or_3"
                   },                  
                   {
                     "condition": "minecraft:inverted",
@@ -368,6 +763,25 @@
                       "entity": "this",
                       "predicate": {
                         "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:diamond_hoe\",count:1,components:{\"minecraft:custom_data\":{atrium_earth_staff:1b,atrium_chargeable:1b,atrium_staff:1b,atrium_staff_lv:1b}}}}]}}"
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_buy_1_earth_staff": 1
+                              }
+                            }
+                          }
+                        }
                       }
                     }
                   }
@@ -396,7 +810,7 @@
                 "terms": [
                   {
                     "condition": "minecraft:reference",
-                    "name": "atrium:entity/villager/is_level_3"
+                    "name": "atrium:entity/villager/is_lv_2_or_3"
                   },                  
                   {
                     "condition": "minecraft:inverted",
@@ -405,6 +819,25 @@
                       "entity": "this",
                       "predicate": {
                         "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:diamond_hoe\",count:1,components:{\"minecraft:custom_data\":{atrium_fire_staff:1b,atrium_chargeable:1b,atrium_staff:1b,atrium_staff_lv:1b}}}}]}}"
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_buy_1_fire_staff": 1
+                              }
+                            }
+                          }
+                        }
                       }
                     }
                   }
@@ -433,7 +866,7 @@
                 "terms": [
                   {
                     "condition": "minecraft:reference",
-                    "name": "atrium:entity/villager/is_level_3"
+                    "name": "atrium:entity/villager/is_lv_2_or_3"
                   },                  
                   {
                     "condition": "minecraft:inverted",
@@ -442,6 +875,25 @@
                       "entity": "this",
                       "predicate": {
                         "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:diamond_hoe\",count:1,components:{\"minecraft:custom_data\":{atrium_water_staff:1b,atrium_chargeable:1b,atrium_staff:1b,atrium_staff_lv:1b}}}}]}}"
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_buy_1_water_staff": 1
+                              }
+                            }
+                          }
+                        }
                       }
                     }
                   }
@@ -470,7 +922,7 @@
                 "terms": [
                   {
                     "condition": "minecraft:reference",
-                    "name": "atrium:entity/villager/is_level_3"
+                    "name": "atrium:entity/villager/is_lv_2_or_3"
                   },                  
                   {
                     "condition": "minecraft:inverted",
@@ -479,6 +931,25 @@
                       "entity": "this",
                       "predicate": {
                         "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:diamond_hoe\",count:1,components:{\"minecraft:custom_data\":{atrium_time_staff:1b,atrium_chargeable:1b,atrium_staff:1b,atrium_staff_lv:1b}}}}]}}"
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_buy_1_time_staff": 1
+                              }
+                            }
+                          }
+                        }
                       }
                     }
                   }
@@ -507,7 +978,7 @@
                 "terms": [
                   {
                     "condition": "minecraft:reference",
-                    "name": "atrium:entity/villager/is_level_3"
+                    "name": "atrium:entity/villager/is_lv_2_or_3"
                   },                  
                   {
                     "condition": "minecraft:inverted",
@@ -516,6 +987,361 @@
                       "entity": "this",
                       "predicate": {
                         "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:diamond_hoe\",count:1,components:{\"minecraft:custom_data\":{atrium_space_staff:1b,atrium_chargeable:1b,atrium_staff:1b,atrium_staff_lv:1b}}}}]}}"
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_buy_1_space_staff": 1
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "weight": 10,
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "atrium_specialist_trade": 1,
+                    "atrium_upgrade_1_air_staff": 1
+                  }
+                }
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "atrium:entity/villager/is_level_3"
+                  },                  
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:diamond_hoe\",count:1,components:{\"minecraft:custom_data\":{atrium_air_staff:1b,atrium_chargeable:1b,atrium_staff:1b,atrium_staff_lv:2b}}}}]}}"
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_upgrade_1_air_staff": 1
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "weight": 10,
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "atrium_specialist_trade": 1,
+                    "atrium_upgrade_1_earth_staff": 1
+                  }
+                }
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "atrium:entity/villager/is_level_3"
+                  },                  
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:diamond_hoe\",count:1,components:{\"minecraft:custom_data\":{atrium_earth_staff:1b,atrium_chargeable:1b,atrium_staff:1b,atrium_staff_lv:2b}}}}]}}"
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_upgrade_1_earth_staff": 1
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "weight": 10,
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "atrium_specialist_trade": 1,
+                    "atrium_upgrade_1_fire_staff": 1
+                  }
+                }
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "atrium:entity/villager/is_level_3"
+                  },                  
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:diamond_hoe\",count:1,components:{\"minecraft:custom_data\":{atrium_fire_staff:1b,atrium_chargeable:1b,atrium_staff:1b,atrium_staff_lv:2b}}}}]}}"
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_upgrade_1_fire_staff": 1
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "weight": 10,
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "atrium_specialist_trade": 1,
+                    "atrium_upgrade_1_water_staff": 1
+                  }
+                }
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "atrium:entity/villager/is_level_3"
+                  },                  
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:diamond_hoe\",count:1,components:{\"minecraft:custom_data\":{atrium_water_staff:1b,atrium_chargeable:1b,atrium_staff:1b,atrium_staff_lv:2b}}}}]}}"
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_upgrade_1_water_staff": 1
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "weight": 10,
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "atrium_specialist_trade": 1,
+                    "atrium_upgrade_1_time_staff": 1
+                  }
+                }
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "atrium:entity/villager/is_level_3"
+                  },                  
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:diamond_hoe\",count:1,components:{\"minecraft:custom_data\":{atrium_time_staff:1b,atrium_chargeable:1b,atrium_staff:1b,atrium_staff_lv:2b}}}}]}}"
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_upgrade_1_time_staff": 1
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "weight": 10,
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "atrium_specialist_trade": 1,
+                    "atrium_upgrade_1_space_staff": 1
+                  }
+                }
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "atrium:entity/villager/is_level_3"
+                  },                  
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:diamond_hoe\",count:1,components:{\"minecraft:custom_data\":{atrium_space_staff:1b,atrium_chargeable:1b,atrium_staff:1b,atrium_staff_lv:2b}}}}]}}"
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_upgrade_1_space_staff": 1
+                              }
+                            }
+                          }
+                        }
                       }
                     }
                   }
@@ -555,13 +1381,29 @@
                         "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:player_head\",count:1,components:{\"minecraft:custom_data\":{infusion_circle_placer:1b}}}}]}}"
                       }
                     }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_buy_1_infusion_circle": 1
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
                   }
                 ]
               }
             ]
-          },
-          {
-            "type": "minecraft:empty"
           }
         ]
       }

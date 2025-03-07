@@ -2,6 +2,7 @@
 # (Loot tables are always checking for the previous level)
 # Level 2
 execute if data entity @s {Inventory:[{components:{"minecraft:custom_data":{atrium_buy_2_redstone_torch:1b}}}]} run data modify entity @s Offers.Recipes append value {rewardExp:true,maxUses:16,xp:4,priceMultiplier:0.05f,buy:{id:"minecraft:emerald",count:1},sell:{id:"minecraft:redstone_torch",count:2}}
+execute if data entity @s {Inventory:[{components:{"minecraft:custom_data":{atrium_buy_1_redstone_lamp:1b}}}]} run data modify entity @s Offers.Recipes append value {rewardExp:true,maxUses:16,xp:4,priceMultiplier:0.05f,buy:{id:"minecraft:emerald",count:3},sell:{id:"minecraft:redstone_lamp",count:1}}
 # Level 2 or 3
 execute if data entity @s {Inventory:[{components:{"minecraft:custom_data":{atrium_sell_8_nether_quartz:1b}}}]} run data modify entity @s Offers.Recipes append value {rewardExp:true,maxUses:12,xp:4,priceMultiplier:0.05f,buy:{id:"minecraft:quartz",count:8},sell:{id:"minecraft:emerald",count:1}}
 execute if data entity @s {Inventory:[{components:{"minecraft:custom_data":{atrium_buy_1_piston:1b}}}]} run data modify entity @s Offers.Recipes append value {rewardExp:true,maxUses:16,xp:4,priceMultiplier:0.05f,buy:{id:"minecraft:emerald",count:2},sell:{id:"minecraft:piston",count:1}}
@@ -13,10 +14,12 @@ execute if data entity @s {Inventory:[{components:{"minecraft:custom_data":{atri
 execute if data entity @s {Inventory:[{components:{"minecraft:custom_data":{atrium_buy_1_hopper:1b}}}]} run data modify entity @s Offers.Recipes append value {rewardExp:true,maxUses:8,xp:4,priceMultiplier:0.05f,buy:{id:"minecraft:emerald",count:5},sell:{id:"minecraft:hopper",count:1}}
 execute if data entity @s {Inventory:[{components:{"minecraft:custom_data":{atrium_buy_1_dropper:1b}}}]} run data modify entity @s Offers.Recipes append value {rewardExp:true,maxUses:8,xp:4,priceMultiplier:0.05f,buy:{id:"minecraft:emerald",count:2},sell:{id:"minecraft:dropper",count:1}}
 execute if data entity @s {Inventory:[{components:{"minecraft:custom_data":{atrium_buy_1_dispenser:1b}}}]} run data modify entity @s Offers.Recipes append value {rewardExp:true,maxUses:8,xp:4,priceMultiplier:0.05f,buy:{id:"minecraft:emerald",count:4},sell:{id:"minecraft:dispenser",count:1}}
+execute if data entity @s {Inventory:[{components:{"minecraft:custom_data":{atrium_buy_1_copper_bulb:1b}}}]} run data modify entity @s Offers.Recipes append value {rewardExp:true,maxUses:12,xp:4,priceMultiplier:0.05f,buy:{id:"minecraft:emerald",count:4},sell:{id:"minecraft:copper_bulb",count:1}}
 # Level 4
 execute if data entity @s {Inventory:[{components:{"minecraft:custom_data":{atrium_sell_1_sculk_sensor:1b}}}]} run data modify entity @s Offers.Recipes append value {rewardExp:true,maxUses:8,xp:4,priceMultiplier:0.05f,buy:{id:"minecraft:sculk_sensor",count:1},sell:{id:"minecraft:emerald",count:4}}
 execute if data entity @s {Inventory:[{components:{"minecraft:custom_data":{atrium_buy_1_observer:1b}}}]} run data modify entity @s Offers.Recipes append value {rewardExp:true,maxUses:8,xp:4,priceMultiplier:0.05f,buy:{id:"minecraft:emerald",count:5},sell:{id:"minecraft:observer",count:1}}
 execute if data entity @s {Inventory:[{components:{"minecraft:custom_data":{atrium_buy_8_rail:1b}}}]} run data modify entity @s Offers.Recipes append value {rewardExp:true,maxUses:8,xp:4,priceMultiplier:0.05f,buy:{id:"minecraft:emerald",count:2},sell:{id:"minecraft:rail",count:8}}
+execute if data entity @s {Inventory:[{components:{"minecraft:custom_data":{atrium_buy_1_crafter:1b}}}]} run data modify entity @s Offers.Recipes append value {rewardExp:true,maxUses:8,xp:4,priceMultiplier:0.05f,buy:{id:"minecraft:emerald",count:3},sell:{id:"minecraft:crafter",count:1}}
 # Level 4 or 5
 execute if data entity @s {Inventory:[{components:{"minecraft:custom_data":{atrium_sell_1_tnt:1b}}}]} run data modify entity @s Offers.Recipes append value {rewardExp:true,maxUses:8,xp:4,priceMultiplier:0.05f,buy:{id:"minecraft:tnt",count:1},sell:{id:"minecraft:emerald",count:3}}
 # Level 5

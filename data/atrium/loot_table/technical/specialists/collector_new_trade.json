@@ -15,6 +15,62 @@
                 "components": {
                   "minecraft:custom_data": {
                     "atrium_specialist_trade": 1,
+                    "atrium_sell_1_nautilus_shell": 1
+                  }
+                }
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "atrium:entity/villager/is_level_1"
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:nautilus_shell\",count:1}}]}}"
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_sell_1_nautilus_shell": 1
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "weight": 10,
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "atrium_specialist_trade": 1,
                     "atrium_buy_1_brush": 1
                   }
                 }
@@ -37,13 +93,32 @@
                         "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:brush\",count:1}}]}}"
                       }
                     }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_buy_1_brush": 1
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
                   }
                 ]
               }
             ]
           },
           {
-            "weight": 1,
+            "weight": 2,
             "type": "minecraft:item",
             "name": "minecraft:firework_star",
             "functions": [
@@ -74,13 +149,32 @@
                         "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:angler_pottery_sherd\",count:1}}]}}"
                       }
                     }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_sell_1_angler_pottery_sherd": 1
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
                   }
                 ]
               }
             ]
           },
           {
-            "weight": 1,
+            "weight": 2,
             "type": "minecraft:item",
             "name": "minecraft:firework_star",
             "functions": [
@@ -111,13 +205,32 @@
                         "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:archer_pottery_sherd\",count:1}}]}}"
                       }
                     }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_sell_1_archer_pottery_sherd": 1
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
                   }
                 ]
               }
             ]
           },
           {
-            "weight": 1,
+            "weight": 2,
             "type": "minecraft:item",
             "name": "minecraft:firework_star",
             "functions": [
@@ -148,13 +261,32 @@
                         "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:arms_up_pottery_sherd\",count:1}}]}}"
                       }
                     }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_sell_1_arms_up_pottery_sherd": 1
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
                   }
                 ]
               }
             ]
           },
           {
-            "weight": 1,
+            "weight": 2,
             "type": "minecraft:item",
             "name": "minecraft:firework_star",
             "functions": [
@@ -185,13 +317,32 @@
                         "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:blade_pottery_sherd\",count:1}}]}}"
                       }
                     }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_sell_1_blade_pottery_sherd": 1
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
                   }
                 ]
               }
             ]
           },
           {
-            "weight": 1,
+            "weight": 2,
             "type": "minecraft:item",
             "name": "minecraft:firework_star",
             "functions": [
@@ -222,13 +373,32 @@
                         "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:brewer_pottery_sherd\",count:1}}]}}"
                       }
                     }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_sell_1_brewer_pottery_sherd": 1
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
                   }
                 ]
               }
             ]
           },
           {
-            "weight": 1,
+            "weight": 2,
             "type": "minecraft:item",
             "name": "minecraft:firework_star",
             "functions": [
@@ -259,13 +429,32 @@
                         "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:burn_pottery_sherd\",count:1}}]}}"
                       }
                     }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_sell_1_burn_pottery_sherd": 1
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
                   }
                 ]
               }
             ]
           },
           {
-            "weight": 1,
+            "weight": 2,
             "type": "minecraft:item",
             "name": "minecraft:firework_star",
             "functions": [
@@ -296,13 +485,32 @@
                         "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:danger_pottery_sherd\",count:1}}]}}"
                       }
                     }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_sell_1_danger_pottery_sherd": 1
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
                   }
                 ]
               }
             ]
           },
           {
-            "weight": 1,
+            "weight": 2,
             "type": "minecraft:item",
             "name": "minecraft:firework_star",
             "functions": [
@@ -333,13 +541,32 @@
                         "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:explorer_pottery_sherd\",count:1}}]}}"
                       }
                     }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_sell_1_explorer_pottery_sherd": 1
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
                   }
                 ]
               }
             ]
           },
           {
-            "weight": 1,
+            "weight": 2,
             "type": "minecraft:item",
             "name": "minecraft:firework_star",
             "functions": [
@@ -370,13 +597,32 @@
                         "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:friend_pottery_sherd\",count:1}}]}}"
                       }
                     }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_sell_1_friend_pottery_sherd": 1
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
                   }
                 ]
               }
             ]
           },
           {
-            "weight": 1,
+            "weight": 2,
             "type": "minecraft:item",
             "name": "minecraft:firework_star",
             "functions": [
@@ -407,13 +653,32 @@
                         "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:heart_pottery_sherd\",count:1}}]}}"
                       }
                     }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_sell_1_heart_pottery_sherd": 1
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
                   }
                 ]
               }
             ]
           },
           {
-            "weight": 1,
+            "weight": 2,
             "type": "minecraft:item",
             "name": "minecraft:firework_star",
             "functions": [
@@ -444,13 +709,32 @@
                         "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:heartbreak_pottery_sherd\",count:1}}]}}"
                       }
                     }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_sell_1_heartbreak_pottery_sherd": 1
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
                   }
                 ]
               }
             ]
           },
           {
-            "weight": 1,
+            "weight": 2,
             "type": "minecraft:item",
             "name": "minecraft:firework_star",
             "functions": [
@@ -481,13 +765,32 @@
                         "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:howl_pottery_sherd\",count:1}}]}}"
                       }
                     }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_sell_1_howl_pottery_sherd": 1
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
                   }
                 ]
               }
             ]
           },
           {
-            "weight": 1,
+            "weight": 2,
             "type": "minecraft:item",
             "name": "minecraft:firework_star",
             "functions": [
@@ -518,13 +821,32 @@
                         "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:miner_pottery_sherd\",count:1}}]}}"
                       }
                     }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_sell_1_miner_pottery_sherd": 1
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
                   }
                 ]
               }
             ]
           },
           {
-            "weight": 1,
+            "weight": 2,
             "type": "minecraft:item",
             "name": "minecraft:firework_star",
             "functions": [
@@ -555,13 +877,32 @@
                         "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:mourner_pottery_sherd\",count:1}}]}}"
                       }
                     }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_sell_1_mourner_pottery_sherd": 1
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
                   }
                 ]
               }
             ]
           },
           {
-            "weight": 1,
+            "weight": 2,
             "type": "minecraft:item",
             "name": "minecraft:firework_star",
             "functions": [
@@ -592,13 +933,32 @@
                         "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:plenty_pottery_sherd\",count:1}}]}}"
                       }
                     }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_sell_1_plenty_pottery_sherd": 1
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
                   }
                 ]
               }
             ]
           },
           {
-            "weight": 1,
+            "weight": 2,
             "type": "minecraft:item",
             "name": "minecraft:firework_star",
             "functions": [
@@ -629,13 +989,32 @@
                         "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:prize_pottery_sherd\",count:1}}]}}"
                       }
                     }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_sell_1_prize_pottery_sherd": 1
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
                   }
                 ]
               }
             ]
           },
           {
-            "weight": 1,
+            "weight": 2,
             "type": "minecraft:item",
             "name": "minecraft:firework_star",
             "functions": [
@@ -666,13 +1045,32 @@
                         "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:sheaf_pottery_sherd\",count:1}}]}}"
                       }
                     }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_sell_1_sheaf_pottery_sherd": 1
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
                   }
                 ]
               }
             ]
           },
           {
-            "weight": 1,
+            "weight": 2,
             "type": "minecraft:item",
             "name": "minecraft:firework_star",
             "functions": [
@@ -703,13 +1101,32 @@
                         "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:shelter_pottery_sherd\",count:1}}]}}"
                       }
                     }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_sell_1_shelter_pottery_sherd": 1
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
                   }
                 ]
               }
             ]
           },
           {
-            "weight": 1,
+            "weight": 2,
             "type": "minecraft:item",
             "name": "minecraft:firework_star",
             "functions": [
@@ -740,13 +1157,32 @@
                         "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:skull_pottery_sherd\",count:1}}]}}"
                       }
                     }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_sell_1_skull_pottery_sherd": 1
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
                   }
                 ]
               }
             ]
           },
           {
-            "weight": 1,
+            "weight": 2,
             "type": "minecraft:item",
             "name": "minecraft:firework_star",
             "functions": [
@@ -777,13 +1213,32 @@
                         "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:snort_pottery_sherd\",count:1}}]}}"
                       }
                     }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_sell_1_snort_pottery_sherd": 1
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
                   }
                 ]
               }
             ]
           },
           {
-            "weight": 2,
+            "weight": 8,
             "type": "minecraft:item",
             "name": "minecraft:firework_star",
             "functions": [
@@ -792,7 +1247,7 @@
                 "components": {
                   "minecraft:custom_data": {
                     "atrium_specialist_trade": 1,
-                    "atrium_sell_1_heart_of_the_sea": 1
+                    "atrium_sell_1_echo_shard": 1
                   }
                 }
               }
@@ -803,7 +1258,7 @@
                 "terms": [
                   {
                     "condition": "minecraft:reference",
-                    "name": "atrium:entity/villager/is_lv_2_or_3"
+                    "name": "atrium:entity/villager/is_lv_1_or_2"
                   },
                   {
                     "condition": "minecraft:inverted",
@@ -811,7 +1266,26 @@
                       "condition": "minecraft:entity_properties",
                       "entity": "this",
                       "predicate": {
-                        "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:heart_of_the_sea\",count:1}}]}}"
+                        "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:echo_shard\",count:1}}]}}"
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_sell_1_echo_shard": 1
+                              }
+                            }
+                          }
+                        }
                       }
                     }
                   }
@@ -820,7 +1294,63 @@
             ]
           },
           {
-            "weight": 2,
+            "weight": 4,
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "atrium_specialist_trade": 1,
+                    "atrium_sell_1_creeper_banner_pattern": 1
+                  }
+                }
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "atrium:entity/villager/is_lv_1_or_2"
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:creeper_banner_pattern\",count:1}}]}}"
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_sell_1_creeper_banner_pattern": 1
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "weight": 6,
             "type": "minecraft:item",
             "name": "minecraft:firework_star",
             "functions": [
@@ -840,7 +1370,7 @@
                 "terms": [
                   {
                     "condition": "minecraft:reference",
-                    "name": "atrium:entity/villager/is_lv_2_or_3"
+                    "name": "atrium:entity/villager/is_lv_1_or_2"
                   },
                   {
                     "condition": "minecraft:inverted",
@@ -851,13 +1381,32 @@
                         "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:wither_skeleton_skull\",count:1}}]}}"
                       }
                     }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_sell_1_wither_skeleton_skull": 1
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
                   }
                 ]
               }
             ]
           },
           {
-            "weight": 2,
+            "weight": 13,
             "type": "minecraft:item",
             "name": "minecraft:firework_star",
             "functions": [
@@ -866,7 +1415,7 @@
                 "components": {
                   "minecraft:custom_data": {
                     "atrium_specialist_trade": 1,
-                    "atrium_sell_1_heavy_core": 1
+                    "atrium_buy_1_trail_ruins_quest_map": 1
                   }
                 }
               }
@@ -877,7 +1426,7 @@
                 "terms": [
                   {
                     "condition": "minecraft:reference",
-                    "name": "atrium:entity/villager/is_lv_2_or_3"
+                    "name": "atrium:entity/villager/is_level_3"
                   },
                   {
                     "condition": "minecraft:inverted",
@@ -885,7 +1434,138 @@
                       "condition": "minecraft:entity_properties",
                       "entity": "this",
                       "predicate": {
-                        "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:heavy_core\",count:1}}]}}"
+                        "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:filled_map\",count:1,components:{\"minecraft:custom_data\":{atrium_trail_ruins_quest_map:1b}}}}]}}"
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_buy_1_trail_ruins_quest_map": 1
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "weight": 10,
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "atrium_specialist_trade": 1,
+                    "atrium_buy_1_monument_quest_map": 1
+                  }
+                }
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "atrium:entity/villager/is_level_3"
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:filled_map\",count:1,components:{\"minecraft:custom_data\":{atrium_monument_quest_map:1b}}}}]}}"
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_buy_1_monument_quest_map": 1
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "weight": 10,
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "atrium_specialist_trade": 1,
+                    "atrium_buy_1_mansion_quest_map": 1
+                  }
+                }
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "atrium:entity/villager/is_level_3"
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:filled_map\",count:1,components:{\"minecraft:custom_data\":{atrium_mansion_quest_map:1b}}}}]}}"
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_buy_1_mansion_quest_map": 1
+                              }
+                            }
+                          }
+                        }
                       }
                     }
                   }
@@ -925,13 +1605,29 @@
                         "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:iron_helmet\",count:1,components:{\"minecraft:custom_data\":{atrium_helm_of_finding:1b}}}}]}}"
                       }
                     }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_buy_1_helm_of_finding": 1
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
                   }
                 ]
               }
             ]
-          },
-          {
-            "type": "minecraft:empty"
           }
         ]
       }

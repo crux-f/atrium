@@ -22,5 +22,7 @@ execute if data entity @s {VillagerData:{level:4}} if data entity @s {Xp:249} ru
 execute if data entity @s {VillagerData:{level:4}} if data entity @s {Xp:249} run effect give @s regeneration 25 0 false
 execute if data entity @s {VillagerData:{level:4}} if data entity @s {Xp:249} run data modify entity @s VillagerData.level set value 5
 #
-# Swap all the items out for new trades
+# Swap items out for new trades - also doing this after the first trade because if i swap both at once
+# villagers are sometimes only getting 1 trade. Not sure why since duplicates should be getting removed from the
+# loot table before the roll is made but whatever its definitely happening.
 function atrium:triggers/entity_abilities/villagers/new_trade_swap

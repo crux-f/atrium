@@ -37,6 +37,25 @@
                         "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:stone_axe\",count:1,components:{\"minecraft:custom_data\":{atrium_stone_battleaxe:1b}}}}]}}"
                       }
                     }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_buy_1_stone_battleaxe": 1
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
                   }
                 ]
               }
@@ -72,6 +91,25 @@
                       "entity": "this",
                       "predicate": {
                         "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:stone_sword\",count:1,components:{\"minecraft:custom_data\":{atrium_stone_dagger:1b}}}}]}}"
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_buy_1_stone_dagger": 1
+                              }
+                            }
+                          }
+                        }
                       }
                     }
                   }
@@ -118,6 +156,25 @@
                         "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:iron_axe\",count:1,components:{\"minecraft:custom_data\":{atrium_iron_battleaxe:1b}}}}]}}"
                       }
                     }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_buy_1_iron_battleaxe": 1
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
                   }
                 ]
               }
@@ -162,6 +219,25 @@
                         "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:iron_sword\",count:1,components:{\"minecraft:custom_data\":{atrium_iron_dagger:1b}}}}]}}"
                       }
                     }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_buy_1_iron_dagger": 1
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
                   }
                 ]
               }
@@ -201,6 +277,25 @@
                       "entity": "this",
                       "predicate": {
                         "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:golden_axe\",count:1,components:{\"minecraft:custom_data\":{atrium_golden_battleaxe:1b}}}}]}}"
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_buy_1_golden_battleaxe": 1
+                              }
+                            }
+                          }
+                        }
                       }
                     }
                   }
@@ -244,6 +339,25 @@
                         "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:golden_sword\",count:1,components:{\"minecraft:custom_data\":{atrium_golden_dagger:1b}}}}]}}"
                       }
                     }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_buy_1_golden_dagger": 1
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
                   }
                 ]
               }
@@ -279,6 +393,25 @@
                       "entity": "this",
                       "predicate": {
                         "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:shield\",count:1,components:{\"minecraft:enchantments\":{levels:{\"minecraft:unbreaking\":3}}}}}]}}"
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_buy_1_shield_unbreaking_3": 1
+                              }
+                            }
+                          }
+                        }
                       }
                     }
                   }
@@ -318,6 +451,25 @@
                         "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:iron_sword\",count:1,components:{\"minecraft:custom_data\":{atrium_village_defender:1b}}}}]}}"
                       }
                     }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_buy_1_village_defender": 1
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
                   }
                 ]
               }
@@ -333,7 +485,7 @@
                 "components": {
                   "minecraft:custom_data": {
                     "atrium_specialist_trade": 1,
-                    "atrium_sell_1_totem_of_undying": 1
+                    "atrium_sell_1_ominous_bottle": 1
                   }
                 }
               }
@@ -352,7 +504,82 @@
                       "condition": "minecraft:entity_properties",
                       "entity": "this",
                       "predicate": {
-                        "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:totem_of_undying\",count:1}}]}}"
+                        "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:ominous_bottle\",count:1}}]}}"
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_sell_1_ominous_bottle": 1
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "weight": 8,
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "atrium_specialist_trade": 1,
+                    "atrium_buy_4_holy_arrow": 1
+                  }
+                }
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "atrium:entity/villager/is_level_2"
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:tipped_arrow\",count:4,components:{\"minecraft:custom_data\":{atrium_holy_arrow:1b}}}}]}}"
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_buy_4_holy_arrow": 1
+                              }
+                            }
+                          }
+                        }
                       }
                     }
                   }
@@ -392,6 +619,25 @@
                         "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:trident\",count:1}}]}}"
                       }
                     }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_buy_1_trident": 1
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
                   }
                 ]
               }
@@ -427,6 +673,25 @@
                       "entity": "this",
                       "predicate": {
                         "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:diamond_axe\",count:1,components:{\"minecraft:custom_data\":{atrium_diamond_battleaxe:1b}}}}]}}"
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_buy_1_diamond_battleaxe": 1
+                              }
+                            }
+                          }
+                        }
                       }
                     }
                   }
@@ -466,6 +731,25 @@
                         "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:diamond_sword\",count:1,components:{\"minecraft:custom_data\":{atrium_diamond_dagger:1b}}}}]}}"
                       }
                     }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_buy_1_diamond_dagger": 1
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
                   }
                 ]
               }
@@ -501,6 +785,25 @@
                       "entity": "this",
                       "predicate": {
                         "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:shield\",count:1,components:{\"minecraft:custom_data\":{atrium_miracle_buckler:1b}}}}]}}"
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_buy_1_miracle_buckler": 1
+                              }
+                            }
+                          }
+                        }
                       }
                     }
                   }
@@ -540,13 +843,85 @@
                         "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:goat_horn\",count:1,components:{\"minecraft:custom_data\":{atrium_horn_of_valor:1b}}}}]}}"
                       }
                     }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_buy_1_horn_of_valor": 1
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
                   }
                 ]
               }
             ]
           },
           {
-            "type": "minecraft:empty"
+            "weight": 4,
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "functions": [
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "atrium_specialist_trade": 1,
+                    "atrium_buy_1_heavy_core": 1
+                  }
+                }
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:reference",
+                    "name": "atrium:entity/villager/is_level_4"
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:heavy_core\",count:1}}]}}"
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "slots": {
+                          "villager.*": {
+                            "predicates": {
+                              "minecraft:custom_data": {
+                                "atrium_specialist_trade": 1,
+                                "atrium_buy_1_heavy_core": 1
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
           }
         ]
       }

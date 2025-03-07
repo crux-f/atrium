@@ -35,6 +35,25 @@
                       "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:clay_ball\",count:10}}]}}"
                     }
                   }
+                },
+                {
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "slots": {
+                        "villager.*": {
+                          "predicates": {
+                            "minecraft:custom_data": {
+                              "atrium_specialist_trade": 1,
+                              "atrium_sell_10_clay_ball": 1
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
                 }
               ]
             }
@@ -70,6 +89,25 @@
                     "entity": "this",
                     "predicate": {
                       "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:white_dye\",count:12}}]}}"
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "slots": {
+                        "villager.*": {
+                          "predicates": {
+                            "minecraft:custom_data": {
+                              "atrium_specialist_trade": 1,
+                              "atrium_sell_12_white_dye": 1
+                            }
+                          }
+                        }
+                      }
                     }
                   }
                 }
@@ -109,6 +147,25 @@
                       "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:light_gray_dye\",count:12}}]}}"
                     }
                   }
+                },
+                {
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "slots": {
+                        "villager.*": {
+                          "predicates": {
+                            "minecraft:custom_data": {
+                              "atrium_specialist_trade": 1,
+                              "atrium_sell_12_light_gray_dye": 1
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
                 }
               ]
             }
@@ -144,6 +201,25 @@
                     "entity": "this",
                     "predicate": {
                       "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:gray_dye\",count:12}}]}}"
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "slots": {
+                        "villager.*": {
+                          "predicates": {
+                            "minecraft:custom_data": {
+                              "atrium_specialist_trade": 1,
+                              "atrium_sell_12_gray_dye": 1
+                            }
+                          }
+                        }
+                      }
                     }
                   }
                 }
@@ -183,6 +259,25 @@
                       "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:black_dye\",count:12}}]}}"
                     }
                   }
+                },
+                {
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "slots": {
+                        "villager.*": {
+                          "predicates": {
+                            "minecraft:custom_data": {
+                              "atrium_specialist_trade": 1,
+                              "atrium_sell_12_black_dye": 1
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
                 }
               ]
             }
@@ -218,6 +313,25 @@
                     "entity": "this",
                     "predicate": {
                       "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:brown_dye\",count:12}}]}}"
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "slots": {
+                        "villager.*": {
+                          "predicates": {
+                            "minecraft:custom_data": {
+                              "atrium_specialist_trade": 1,
+                              "atrium_sell_12_brown_dye": 1
+                            }
+                          }
+                        }
+                      }
                     }
                   }
                 }
@@ -257,6 +371,25 @@
                       "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:red_dye\",count:12}}]}}"
                     }
                   }
+                },
+                {
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "slots": {
+                        "villager.*": {
+                          "predicates": {
+                            "minecraft:custom_data": {
+                              "atrium_specialist_trade": 1,
+                              "atrium_sell_12_red_dye": 1
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
                 }
               ]
             }
@@ -292,6 +425,25 @@
                     "entity": "this",
                     "predicate": {
                       "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:orange_dye\",count:12}}]}}"
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "slots": {
+                        "villager.*": {
+                          "predicates": {
+                            "minecraft:custom_data": {
+                              "atrium_specialist_trade": 1,
+                              "atrium_sell_12_orange_dye": 1
+                            }
+                          }
+                        }
+                      }
                     }
                   }
                 }
@@ -331,6 +483,25 @@
                       "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:yellow_dye\",count:12}}]}}"
                     }
                   }
+                },
+                {
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "slots": {
+                        "villager.*": {
+                          "predicates": {
+                            "minecraft:custom_data": {
+                              "atrium_specialist_trade": 1,
+                              "atrium_sell_12_yellow_dye": 1
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
                 }
               ]
             }
@@ -366,6 +537,25 @@
                     "entity": "this",
                     "predicate": {
                       "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:lime_dye\",count:12}}]}}"
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "slots": {
+                        "villager.*": {
+                          "predicates": {
+                            "minecraft:custom_data": {
+                              "atrium_specialist_trade": 1,
+                              "atrium_sell_12_lime_dye": 1
+                            }
+                          }
+                        }
+                      }
                     }
                   }
                 }
@@ -405,6 +595,25 @@
                       "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:green_dye\",count:12}}]}}"
                     }
                   }
+                },
+                {
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "slots": {
+                        "villager.*": {
+                          "predicates": {
+                            "minecraft:custom_data": {
+                              "atrium_specialist_trade": 1,
+                              "atrium_sell_12_green_dye": 1
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
                 }
               ]
             }
@@ -440,6 +649,25 @@
                     "entity": "this",
                     "predicate": {
                       "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:cyan_dye\",count:12}}]}}"
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "slots": {
+                        "villager.*": {
+                          "predicates": {
+                            "minecraft:custom_data": {
+                              "atrium_specialist_trade": 1,
+                              "atrium_sell_12_cyan_dye": 1
+                            }
+                          }
+                        }
+                      }
                     }
                   }
                 }
@@ -479,6 +707,25 @@
                       "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:light_blue_dye\",count:12}}]}}"
                     }
                   }
+                },
+                {
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "slots": {
+                        "villager.*": {
+                          "predicates": {
+                            "minecraft:custom_data": {
+                              "atrium_specialist_trade": 1,
+                              "atrium_sell_12_light_blue_dye": 1
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
                 }
               ]
             }
@@ -514,6 +761,25 @@
                     "entity": "this",
                     "predicate": {
                       "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:blue_dye\",count:12}}]}}"
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "slots": {
+                        "villager.*": {
+                          "predicates": {
+                            "minecraft:custom_data": {
+                              "atrium_specialist_trade": 1,
+                              "atrium_sell_12_blue_dye": 1
+                            }
+                          }
+                        }
+                      }
                     }
                   }
                 }
@@ -553,6 +819,25 @@
                       "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:purple_dye\",count:12}}]}}"
                     }
                   }
+                },
+                {
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "slots": {
+                        "villager.*": {
+                          "predicates": {
+                            "minecraft:custom_data": {
+                              "atrium_specialist_trade": 1,
+                              "atrium_sell_12_purple_dye": 1
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
                 }
               ]
             }
@@ -588,6 +873,25 @@
                     "entity": "this",
                     "predicate": {
                       "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:magenta_dye\",count:12}}]}}"
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "slots": {
+                        "villager.*": {
+                          "predicates": {
+                            "minecraft:custom_data": {
+                              "atrium_specialist_trade": 1,
+                              "atrium_sell_12_magenta_dye": 1
+                            }
+                          }
+                        }
+                      }
                     }
                   }
                 }
@@ -627,6 +931,25 @@
                       "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:pink_dye\",count:12}}]}}"
                     }
                   }
+                },
+                {
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "slots": {
+                        "villager.*": {
+                          "predicates": {
+                            "minecraft:custom_data": {
+                              "atrium_specialist_trade": 1,
+                              "atrium_sell_12_pink_dye": 1
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
                 }
               ]
             }
@@ -662,6 +985,25 @@
                     "entity": "this",
                     "predicate": {
                       "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:music_disc_13\",count:1}}]}}"
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "slots": {
+                        "villager.*": {
+                          "predicates": {
+                            "minecraft:custom_data": {
+                              "atrium_specialist_trade": 1,
+                              "atrium_sell_1_music_disc_13": 1
+                            }
+                          }
+                        }
+                      }
                     }
                   }
                 }
@@ -701,6 +1043,25 @@
                       "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:music_disc_cat\",count:1}}]}}"
                     }
                   }
+                },
+                {
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "slots": {
+                        "villager.*": {
+                          "predicates": {
+                            "minecraft:custom_data": {
+                              "atrium_specialist_trade": 1,
+                              "atrium_sell_1_music_disc_cat": 1
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
                 }
               ]
             }
@@ -736,6 +1097,25 @@
                     "entity": "this",
                     "predicate": {
                       "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:music_disc_blocks\",count:1}}]}}"
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "slots": {
+                        "villager.*": {
+                          "predicates": {
+                            "minecraft:custom_data": {
+                              "atrium_specialist_trade": 1,
+                              "atrium_sell_1_music_disc_blocks": 1
+                            }
+                          }
+                        }
+                      }
                     }
                   }
                 }
@@ -775,6 +1155,25 @@
                       "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:music_disc_chirp\",count:1}}]}}"
                     }
                   }
+                },
+                {
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "slots": {
+                        "villager.*": {
+                          "predicates": {
+                            "minecraft:custom_data": {
+                              "atrium_specialist_trade": 1,
+                              "atrium_sell_1_music_disc_chirp": 1
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
                 }
               ]
             }
@@ -810,6 +1209,25 @@
                     "entity": "this",
                     "predicate": {
                       "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:music_disc_far\",count:1}}]}}"
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "slots": {
+                        "villager.*": {
+                          "predicates": {
+                            "minecraft:custom_data": {
+                              "atrium_specialist_trade": 1,
+                              "atrium_buy_1_music_disc_far": 1
+                            }
+                          }
+                        }
+                      }
                     }
                   }
                 }
@@ -849,6 +1267,25 @@
                       "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:music_disc_mall\",count:1}}]}}"
                     }
                   }
+                },
+                {
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "slots": {
+                        "villager.*": {
+                          "predicates": {
+                            "minecraft:custom_data": {
+                              "atrium_specialist_trade": 1,
+                              "atrium_buy_1_music_disc_mall": 1
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
                 }
               ]
             }
@@ -884,6 +1321,25 @@
                     "entity": "this",
                     "predicate": {
                       "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:music_disc_mellohi\",count:1}}]}}"
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "slots": {
+                        "villager.*": {
+                          "predicates": {
+                            "minecraft:custom_data": {
+                              "atrium_specialist_trade": 1,
+                              "atrium_buy_1_music_disc_mellohi": 1
+                            }
+                          }
+                        }
+                      }
                     }
                   }
                 }
@@ -923,6 +1379,25 @@
                       "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:music_disc_stal\",count:1}}]}}"
                     }
                   }
+                },
+                {
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "slots": {
+                        "villager.*": {
+                          "predicates": {
+                            "minecraft:custom_data": {
+                              "atrium_specialist_trade": 1,
+                              "atrium_buy_1_music_disc_stal": 1
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
                 }
               ]
             }
@@ -958,6 +1433,25 @@
                     "entity": "this",
                     "predicate": {
                       "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:music_disc_ward\",count:1}}]}}"
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "slots": {
+                        "villager.*": {
+                          "predicates": {
+                            "minecraft:custom_data": {
+                              "atrium_specialist_trade": 1,
+                              "atrium_buy_1_music_disc_ward": 1
+                            }
+                          }
+                        }
+                      }
                     }
                   }
                 }
@@ -997,6 +1491,25 @@
                       "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:music_disc_11\",count:1}}]}}"
                     }
                   }
+                },
+                {
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "slots": {
+                        "villager.*": {
+                          "predicates": {
+                            "minecraft:custom_data": {
+                              "atrium_specialist_trade": 1,
+                              "atrium_buy_1_music_disc_11": 1
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
                 }
               ]
             }
@@ -1032,6 +1545,25 @@
                     "entity": "this",
                     "predicate": {
                       "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:music_disc_wait\",count:1}}]}}"
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "slots": {
+                        "villager.*": {
+                          "predicates": {
+                            "minecraft:custom_data": {
+                              "atrium_specialist_trade": 1,
+                              "atrium_buy_1_music_disc_wait": 1
+                            }
+                          }
+                        }
+                      }
                     }
                   }
                 }
@@ -1071,6 +1603,25 @@
                       "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:music_disc_otherside\",count:1}}]}}"
                     }
                   }
+                },
+                {
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "slots": {
+                        "villager.*": {
+                          "predicates": {
+                            "minecraft:custom_data": {
+                              "atrium_specialist_trade": 1,
+                              "atrium_sell_1_music_disc_otherside": 1
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
                 }
               ]
             }
@@ -1106,6 +1657,25 @@
                     "entity": "this",
                     "predicate": {
                       "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:music_disc_5\",count:1}}]}}"
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "slots": {
+                        "villager.*": {
+                          "predicates": {
+                            "minecraft:custom_data": {
+                              "atrium_specialist_trade": 1,
+                              "atrium_sell_1_music_disc_5": 1
+                            }
+                          }
+                        }
+                      }
                     }
                   }
                 }
@@ -1145,6 +1715,25 @@
                       "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:music_disc_pigstep\",count:1}}]}}"
                     }
                   }
+                },
+                {
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "slots": {
+                        "villager.*": {
+                          "predicates": {
+                            "minecraft:custom_data": {
+                              "atrium_specialist_trade": 1,
+                              "atrium_sell_1_music_disc_pigstep": 1
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
                 }
               ]
             }
@@ -1180,6 +1769,25 @@
                     "entity": "this",
                     "predicate": {
                       "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:music_disc_relic\",count:1}}]}}"
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "slots": {
+                        "villager.*": {
+                          "predicates": {
+                            "minecraft:custom_data": {
+                              "atrium_specialist_trade": 1,
+                              "atrium_sell_1_music_disc_relic": 1
+                            }
+                          }
+                        }
+                      }
                     }
                   }
                 }
@@ -1219,13 +1827,32 @@
                       "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:painting\",count:1}}]}}"
                     }
                   }
+                },
+                {
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "slots": {
+                        "villager.*": {
+                          "predicates": {
+                            "minecraft:custom_data": {
+                              "atrium_specialist_trade": 1,
+                              "atrium_buy_1_painting": 1
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
                 }
               ]
             }
           ]
         },
         {
-          "weight": 10,
+          "weight": 3,
           "type": "minecraft:item",
           "name": "minecraft:firework_star",
           "functions": [
@@ -1234,7 +1861,7 @@
               "components": {
                 "minecraft:custom_data": {
                   "atrium_specialist_trade": 1,
-                  "atrium_buy_1_stencil": 1
+                  "atrium_buy_1_shaper_stencil": 1
                 }
               }
             }
@@ -1254,6 +1881,137 @@
                     "entity": "this",
                     "predicate": {
                       "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:shaper_armor_trim_smithing_template\",count:1}}]}}"
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "slots": {
+                        "villager.*": {
+                          "predicates": {
+                            "minecraft:custom_data": {
+                              "atrium_specialist_trade": 1,
+                              "atrium_buy_1_shaper_stencil": 1
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "weight": 3,
+          "type": "minecraft:item",
+          "name": "minecraft:firework_star",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "atrium_specialist_trade": 1,
+                  "atrium_buy_1_wayfinder_stencil": 1
+                }
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:all_of",
+              "terms": [
+                {
+                  "condition": "minecraft:reference",
+                  "name": "atrium:entity/villager/is_level_3"
+                },
+                {
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:wayfinder_armor_trim_smithing_template\",count:1}}]}}"
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "slots": {
+                        "villager.*": {
+                          "predicates": {
+                            "minecraft:custom_data": {
+                              "atrium_specialist_trade": 1,
+                              "atrium_buy_1_wayfinder_stencil": 1
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "weight": 3,
+          "type": "minecraft:item",
+          "name": "minecraft:firework_star",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "atrium_specialist_trade": 1,
+                  "atrium_buy_1_raiser_stencil": 1
+                }
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:all_of",
+              "terms": [
+                {
+                  "condition": "minecraft:reference",
+                  "name": "atrium:entity/villager/is_level_3"
+                },
+                {
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:raiser_armor_trim_smithing_template\",count:1}}]}}"
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "slots": {
+                        "villager.*": {
+                          "predicates": {
+                            "minecraft:custom_data": {
+                              "atrium_specialist_trade": 1,
+                              "atrium_buy_1_raiser_stencil": 1
+                            }
+                          }
+                        }
+                      }
                     }
                   }
                 }
@@ -1293,6 +2051,25 @@
                       "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:painting\",count:1,components:{\"minecraft:custom_data\":{atrium_painting_type:\"earth\"}}}}]}}"
                     }
                   }
+                },
+                {
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "slots": {
+                        "villager.*": {
+                          "predicates": {
+                            "minecraft:custom_data": {
+                              "atrium_specialist_trade": 1,
+                              "atrium_buy_1_magical_painting_earth": 1
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
                 }
               ]
             }
@@ -1328,6 +2105,25 @@
                     "entity": "this",
                     "predicate": {
                       "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:painting\",count:1,components:{\"minecraft:custom_data\":{atrium_painting_type:\"fire\"}}}}]}}"
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "slots": {
+                        "villager.*": {
+                          "predicates": {
+                            "minecraft:custom_data": {
+                              "atrium_specialist_trade": 1,
+                              "atrium_buy_1_magical_painting_fire": 1
+                            }
+                          }
+                        }
+                      }
                     }
                   }
                 }
@@ -1367,6 +2163,25 @@
                       "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:painting\",count:1,components:{\"minecraft:custom_data\":{atrium_painting_type:\"water\"}}}}]}}"
                     }
                   }
+                },
+                {
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "slots": {
+                        "villager.*": {
+                          "predicates": {
+                            "minecraft:custom_data": {
+                              "atrium_specialist_trade": 1,
+                              "atrium_buy_1_magical_painting_water": 1
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
                 }
               ]
             }
@@ -1404,13 +2219,29 @@
                       "nbt": "{Offers:{Recipes:[{sell:{id:\"minecraft:painting\",count:1,components:{\"minecraft:custom_data\":{atrium_painting_type:\"wind\"}}}}]}}"
                     }
                   }
+                },
+                {
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "slots": {
+                        "villager.*": {
+                          "predicates": {
+                            "minecraft:custom_data": {
+                              "atrium_specialist_trade": 1,
+                              "atrium_buy_1_magical_painting_wind": 1
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
                 }
               ]
             }
           ]
-        },
-        {
-          "type": "minecraft:empty"
         }
       ]
     }

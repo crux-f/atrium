@@ -16,7 +16,7 @@ execute if entity @s[tag=atrium_specialist_warrior] run function atrium:triggers
 #
 # Remove items afterwards
 # Villagers don't have slots unless they have enough items to need those slots, so I have to check all of em.
-execute if data entity @s {Inventory:[{components:{"minecraft:custom_data":{atrium_specialist_trade:1b}}}]} run item replace entity @s villager.7 with minecraft:air
+execute if data entity @s {Inventory:[{components:{"minecraft:custom_data":{atrium_specialist_trade:1b}}}]} run item replace entity @s villager.0 with minecraft:air
 execute if data entity @s {Inventory:[{components:{"minecraft:custom_data":{atrium_specialist_trade:1b}}}]} run item replace entity @s villager.6 with minecraft:air
 execute if data entity @s {Inventory:[{components:{"minecraft:custom_data":{atrium_specialist_trade:1b}}}]} run item replace entity @s villager.5 with minecraft:air
 execute if data entity @s {Inventory:[{components:{"minecraft:custom_data":{atrium_specialist_trade:1b}}}]} run item replace entity @s villager.4 with minecraft:air
