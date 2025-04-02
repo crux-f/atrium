@@ -5,7 +5,7 @@
     {
       "weight": 10,
       "element": {
-        "location": "atrium:shrines/oswald/great_tree_shrine_0",
+        "location": "atrium:shrines/oswald/great_tree_shrine_1",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
