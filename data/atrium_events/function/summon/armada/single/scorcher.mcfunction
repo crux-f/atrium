@@ -1,0 +1,7 @@
+# Summon 1 Armada Scorcher
+summon pillager ~ ~ ~ {Team:"atrium_armada",DeathLootTable:"atrium_events:entities/armada/scorcher",PersistenceRequired:1b,Health:48f,Tags:["atrium_armada_scorcher"],CustomName:'{"text":"Armada Scorcher","color":"yellow","italic":false}',HandItems:[{id:"minecraft:crossbow",count:1b},{id:"minecraft:firework_rocket",count:32b,components:{custom_name:'{"text":"Scorcher Charge","italic":false}',custom_data:{atrium_scorcher_charge:1b},fireworks:{flight_duration:3,explosions:[{shape:"burst",has_trail:true,colors:[I;16711680,10682368,16750407],fade_colors:[I;16750848,16766208,3677446]}]}}}],HandDropChances:[0.050F,-327.67F],ArmorItems:[{id:"minecraft:iron_boots",count:1b},{id:"minecraft:iron_leggings",count:1b},{id:"minecraft:iron_chestplate",count:1b},{id:"minecraft:furnace",count:1b,components:{block_state:{lit:"true"}}}],ArmorDropChances:[0.060F,0.060F,0.060F,0.060F],active_effects:[{id:"minecraft:fire_resistance",amplifier:0,duration:-1,ambient:1b}],attributes:[{id:"max_health",base:48},{id:"follow_range",base:60},{id:"knockback_resistance",base:0.75}]}
+#
+# Start behavior script if there's an event happening (ends when event ends for simplicity)
+execute if entity @a[tag=event] run function atrium_events:summon/armada/behavior_scripts/scorcher_repeat
+# Visual effects
+function atrium:summon/summon_poof
