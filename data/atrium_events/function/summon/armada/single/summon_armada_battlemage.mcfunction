@@ -1,5 +1,0 @@
-# Summon 1 Armada Battlemage
-summon evoker ~ ~ ~ {PersistenceRequired:1b,Health:35f,Tags:["atrium_armada_battle_mage"],CustomName:'{"text":"Armada Battle Mage","color":"red","italic":false}',HandItems:[{id:"minecraft:firework_star",count:1,components:{"minecraft:custom_model_data":333026}},{id:"minecraft:firework_star",count:1,components:{"minecraft:custom_model_data":333026}}],HandDropChances:[0.000F,0.000F],ArmorItems:[{},{},{},{id:"minecraft:flint",count:1,components:{"minecraft:custom_model_data":333046}}],ArmorDropChances:[0.085F,0.085F,0.085F,0.000F],Attributes:[{Name:"generic.max_health",Base:35},{Name:"generic.follow_range",Base:70},{Name:"generic.knockback_resistance",Base:0.65}]}
-#
-# Start behavior script if there's an event happening (ends when event ends for simplicity)
-execute if entity @a[tag=event] run function atrium_events:summon/armada/behavior_scripts/battlemage_repeat

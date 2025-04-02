@@ -1,12 +1,11 @@
-# Summon 1 Armada Crusader, 3 Armada Looters and 1 Armada Necromancer
+# Summon 1 Armada Crusader, 3 Armada Looters
 # (Looters are always trying to hide)
 #
-execute at @s run function atrium_events:summon/armada/single/summon_armada_necromancer_looting
-execute at @s run function atrium_events:summon/armada/single/summon_armada_looter_leader
-execute at @s run function atrium_events:summon/armada/single/summon_armada_looter
-execute at @s run function atrium_events:summon/armada/single/summon_armada_looter
-# FX
-execute at @s run function atrium:summon/summon_poof
+function atrium_events:summon/armada/single/looting_leader_crusader
+function atrium_events:summon/armada/single/summon_armada_looter
+function atrium_events:summon/armada/single/summon_armada_looter
 #
 # leader set
-execute as @e[tag=atrium_looting_party_leader] run data merge entity @s {PatrolLeader:1b,Patrolling:1b}
+execute as @n[type=#minecraft:raiders,tag=atrium_looting_party_leader,distance=..1] run data merge entity @s {PatrolLeader:1b,Patrolling:1b}
+# Start behavior script if there's an event happening (ends when event ends for simplicity)
+execute if entity @a[tag=event] run function atrium_events:summon/armada/behavior_scripts/looters/looters_follow_obj
