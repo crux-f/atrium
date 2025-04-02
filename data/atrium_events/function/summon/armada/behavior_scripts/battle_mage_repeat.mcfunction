@@ -1,10 +1,16 @@
 # Repeat every tick.
-schedule function atrium_events:summon/armada/behavior_scripts/battle_mage_repeat 1t
+execute if entity @a[tag=event] run schedule function atrium_events:summon/armada/behavior_scripts/battle_mage_repeat 1t
 #
 # Evoker notes: Started summoning vexes = 99. Vexes appear = 80ish. Fangs appear = 39.
 #
-# If the battle mage just summoned vexes, launch a spell rocket down at them.
-execute as @e[tag=atrium_armada_battle_mage] at @s if data entity @s {SpellTicks:81} on target at @s run summon firework_rocket ~ ~60 ~ {LifeTime:2000,ShotAtAngle:1b,Motion:[0.0,-1.0,0.0],Passengers:[{id:"minecraft:potion",Item:{id:"minecraft:lingering_potion",count:1,components:{"minecraft:potion_contents":{potion:"minecraft:harming"}}}}],FireworksItem:{id:"firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{colors:[I;8750469],fade_colors:[I;9791980],has_twinkle:1b,shape:"small_ball"}],flight_duration:0b}}}}
-execute as @e[tag=atrium_armada_battle_mage] at @s if data entity @s {SpellTicks:81} on target at @s positioned ~ ~60 ~ run function atrium:summon/summon_poof
-# At every battle mage who just summoned vexes: 75% chance to make them silent and invisible then kill them.
-execute as @e[tag=atrium_armada_battle_mage] at @s if data entity @s {SpellTicks:81} as @e[distance=..10,type=minecraft:vex,predicate=atrium:percentage_chances/0.75_p] at @s run function atrium_events:summon/armada/behavior_scripts/looters/remove_vexes
+# If the battle mage just summoned vexes AND no players are within 7 blocks, launch spell rockets down at their target.
+execute as @e[type=minecraft:evoker,tag=atrium_armada_battle_mage] at @s if data entity @s {SpellTicks:81} unless entity @a[distance=..7,gamemode=!spectator] run function atrium_events:summon/armada/behavior_scripts/spells/harming_rocket_volley
+# If there is a player within 7 blocks AND a raider within 25 blocks, teleport out of there.
+execute as @e[type=minecraft:evoker,tag=atrium_armada_battle_mage] at @s if data entity @s {SpellTicks:81} if entity @a[distance=..7,gamemode=!spectator] if entity @n[type=#minecraft:raiders,distance=10..30,type=!evoker] run function atrium_events:summon/armada/behavior_scripts/spells/ripcord
+# If there is a player within 7 blocks and there isn't anyone to Ripcord to within 25 blocks, blast 'em.
+execute as @e[type=minecraft:evoker,tag=atrium_armada_battle_mage] at @s if data entity @s {SpellTicks:81} if entity @a[distance=..7,gamemode=!spectator] unless entity @n[type=#minecraft:raiders,distance=..25,type=!evoker] run function atrium_events:summon/armada/behavior_scripts/spells/flux_detonation
+#
+# At every battle mage who just summoned vexes: 75% chance (per vex) to make them silent and invisible then kill them.
+execute as @e[type=minecraft:evoker,tag=atrium_armada_battle_mage] at @s if data entity @s {SpellTicks:81} as @e[distance=..10,type=minecraft:vex,predicate=atrium:percentage_chances/0.75_p] run function atrium_events:summon/armada/behavior_scripts/looters/remove_vexes
+# If any Vexes survive the Elimination Round, give them stronger weapons.
+execute as @e[type=minecraft:evoker,tag=atrium_armada_battle_mage] at @s if data entity @s {SpellTicks:81} as @e[distance=..10,type=minecraft:vex] run item replace entity @s weapon with minecraft:diamond_sword
