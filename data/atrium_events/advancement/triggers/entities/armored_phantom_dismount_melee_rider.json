@@ -1,0 +1,20 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:entity_hurt_player",
+        "conditions": {
+          "damage": {
+            "type": {
+              "direct_entity": {
+                "nbt": "{Tags:[\"atrium_armored_phantom\"]}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "atrium_events:triggers/entities/armored_phantom_dismount_melee_rider"
+    }
+  }
+  
