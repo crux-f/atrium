@@ -1,8 +1,33 @@
 {
     "values": [
-      "minecraft:obsidian",
+      "minecraft:air",
+      "minecraft:barrier",
+      "minecraft:light",
+      "minecraft:bedrock",
+      "minecraft:command_block",
+      "minecraft:chain_command_block",
+      "minecraft:repeating_command_block",
+      "minecraft:end_gateway",
+      "minecraft:end_portal",
+      "minecraft:end_portal_frame",
+      "minecraft:jigsaw",
+      "minecraft:structure_block",
+      "minecraft:ancient_debris",
+      "minecraft:anvil",
+      "minecraft:netherite_block",
       "minecraft:crying_obsidian",
-      "minecraft:bedrock"
+      "minecraft:respawn_anchor",
+      "minecraft:enchanting_table",
+      "minecraft:obsidian",
+      "minecraft:reinforced_deepslate",
+      "minecraft:ender_chest",
+      "minecraft:bubble_column",
+      "minecraft:trial_spawner",
+      "minecraft:vault",
+      "minecraft:heavy_core",
+      "minecraft:dragon_egg",
+      "minecraft:iron_block",
+      "minecraft:iron_door"
     ]
   }
   
