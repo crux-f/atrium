@@ -2,14 +2,14 @@
 #
 execute unless entity @a[tag=atrium_scout_target,gamemode=survival] run tag @r[tag=event,gamemode=survival] add atrium_scout_target
 # Has to be limited to 1
-execute as @e[tag=atrium_scouting_party_leader] store result entity @s PatrolTarget.X int 1 run data get entity @p[tag=atrium_scout_target] Pos[0] 1
-execute as @e[tag=atrium_scouting_party_leader] store result entity @s PatrolTarget.Y int 1 run data get entity @p[tag=atrium_scout_target] Pos[1] 1
-execute as @e[tag=atrium_scouting_party_leader] store result entity @s PatrolTarget.Z int 1 run data get entity @p[tag=atrium_scout_target] Pos[2] 1
+execute as @e[tag=atrium_scouting_party_leader] store result entity @s patrol_target[0] int 1 run data get entity @p[tag=atrium_scout_target] Pos[0] 1
+execute as @e[tag=atrium_scouting_party_leader] store result entity @s patrol_target[1] int 1 run data get entity @p[tag=atrium_scout_target] Pos[1] 1
+execute as @e[tag=atrium_scouting_party_leader] store result entity @s patrol_target[2] int 1 run data get entity @p[tag=atrium_scout_target] Pos[2] 1
 #
 # The hunter who got the scent tells their friends (execute as all hunters to get around limit=1; target is the nearest one with the scent)
-execute as @e[tag=atrium_scouting_party_leader] store result entity @s PatrolTarget.X int 1 run data get entity @e[tag=atrium_scouting_party_leader,sort=nearest,limit=1] PatrolTarget.X 1
-execute as @e[tag=atrium_scouting_party_leader] store result entity @s PatrolTarget.Y int 1 run data get entity @e[tag=atrium_scouting_party_leader,sort=nearest,limit=1] PatrolTarget.Y 1
-execute as @e[tag=atrium_scouting_party_leader] store result entity @s PatrolTarget.Z int 1 run data get entity @e[tag=atrium_scouting_party_leader,sort=nearest,limit=1] PatrolTarget.Z 1
+execute as @e[tag=atrium_scouting_party_leader] store result entity @s patrol_target[0] int 1 run data get entity @e[tag=atrium_scouting_party_leader,sort=nearest,limit=1] patrol_target[0] 1
+execute as @e[tag=atrium_scouting_party_leader] store result entity @s patrol_target[1] int 1 run data get entity @e[tag=atrium_scouting_party_leader,sort=nearest,limit=1] patrol_target[1] 1
+execute as @e[tag=atrium_scouting_party_leader] store result entity @s patrol_target[2] int 1 run data get entity @e[tag=atrium_scouting_party_leader,sort=nearest,limit=1] patrol_target[2] 1
 #
 # Tell the hunters to start patrolling.
 # execute as @e[tag=scouting_party_leader] run data merge entity @s {PatrolLeader:1b,Patrolling:1b}

@@ -1,0 +1,2 @@
+# technical thing for events. all special pathfinding uses these
+summon minecraft:marker ~ ~ ~ {CustomNameVisible:0b,Tags:["atrium_armada_obj"],CustomName:'{"text":"Armada Objective Point","color":"red"}'}

@@ -1,5 +1,0 @@
-# Summon 1 Armada Crusader who functions as the leader of the looting party
-#
-summon vindicator ~ ~ ~ {Team:"armada",PersistenceRequired:1b,Health:34f,Tags:["atrium_armada_crusader","atrium_hiding","atrium_looting_party_leader"],HandItems:[{id:"minecraft:iron_sword",Count:1b,tag:{display:{Name:'{"text":"Crusader\'s Broadsword","color":"red","italic":false}',Lore:['{"text":"The emblem of The Armada is"}','{"text":"carved into the blade. A"}','{"text":"weapon forged to destroy"}','{"text":"you."}']},atrium_crusaders_broadsword:1b,Enchantments:[{id:"minecraft:fire_aspect",lvl:2s},{id:"minecraft:unbreaking",lvl:2s}]}},{}],HandDropChances:[0.060F,0.085F],Attributes:[{Name:"generic.max_health",Base:34},{Name:"generic.armor",Base:8},{Name:"generic.armor_toughness",Base:2}]}
-# Start behavior script if there's an event happening (ends when event ends for simplicity)
-execute if entity @a[tag=event] run function atrium_events:summon/armada/behavior_scripts/looters/looters_follow_obj
