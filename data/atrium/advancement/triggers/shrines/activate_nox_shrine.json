@@ -1,0 +1,21 @@
+{
+    "criteria": {
+      "right_click_on_nox_shrine": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[\"atrium_nox_shrine\"]}"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "atrium:shrines/nox_shrine"
+    }
+  }

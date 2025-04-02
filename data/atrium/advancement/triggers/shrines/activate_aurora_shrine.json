@@ -1,0 +1,21 @@
+{
+    "criteria": {
+      "right_click_on_aurora_shrine": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[\"atrium_aurora_shrine\"]}"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "atrium:shrines/aurora_shrine"
+    }
+  }

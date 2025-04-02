@@ -1,6 +1,6 @@
 # Particles + Sound effect
-execute at @s run particle minecraft:large_smoke ~ ~1 ~ 0.1 0.5 0.1 0.1 40 force
-execute at @s run playsound atrium:favor.nox neutral @a[distance=..8] ~ ~ ~ 0.75 1 0.1
+particle minecraft:smoke ~ ~ ~ 0.1 0.25 0.1 0.01 40 force
+playsound atrium:favor.nox neutral @a[distance=..10] ~ ~ ~ 1 1 0.1
 # Add Favor for this god
 scoreboard players add @s nox_favor 1
 execute unless entity @s[scores={nox_favor=31..}] run scoreboard players add @s nox_favor 1
@@ -16,11 +16,11 @@ execute if entity @s[scores={nox_favor=10..19}] run effect give @s minecraft:res
 execute if entity @s[scores={nox_favor=10}] run tellraw @s ["",{"text":"\u06e9 ","color":"red"},{"text":"You keep coming back. She offers you power you can't refuse.","italic":true,"color":"red"},{"text":" \u06e9","color":"red"}]
 execute if entity @s[scores={nox_favor=10..19}] run xp add @s -2 levels
 # Text, ability, and cost for favor 20-29
-execute if entity @s[scores={nox_favor=20..29}] run effect give @s minecraft:resistance 2400 0
+execute if entity @s[scores={nox_favor=20..29}] run effect give @s minecraft:resistance 2400 1
 execute if entity @s[scores={nox_favor=20}] run tellraw @s ["",{"text":"\u06e9 ","color":"red"},{"text":"You can feel her, just behind you. But you never see her.","italic":true,"color":"red"},{"text":" \u06e9","color":"red"}]
 execute if entity @s[scores={nox_favor=20..29}] run xp add @s -3 levels
 # Text, ability and cost for favor 30
-execute if entity @s[scores={nox_favor=30}] run effect give @s minecraft:resistance 2400 0
+execute if entity @s[scores={nox_favor=30}] run effect give @s minecraft:resistance 2400 1
 execute if entity @s[scores={nox_favor=30}] run effect give @s minecraft:invisibility 2400 0
 execute if entity @s[scores={nox_favor=30}] run tellraw @s ["",{"text":"\u06e9 ","color":"red"},{"text":"The shadows cling to you, and won't let go.","italic":true,"color":"red"},{"text":" \u06e9","color":"red"}]
 execute if entity @s[scores={nox_favor=30}] run xp add @s -5 levels

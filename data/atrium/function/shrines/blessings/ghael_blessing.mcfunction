@@ -1,6 +1,6 @@
 # Particles + Sound effect
-execute at @s run particle minecraft:flame ~ ~1 ~ 0.1 0.5 0.1 0.1 20 force
-execute at @s run playsound atrium:favor.ghael neutral @a[distance=..8] ~ ~ ~ 0.75 1 0.1
+particle minecraft:flame ~ ~0.1 ~ 0.1 0.25 0.1 0.025 20 force
+playsound atrium:favor.ghael block @a[distance=..10] ~ ~ ~ 1 1 0.1
 # Add Favor for this god
 scoreboard players add @s ghael_favor 1
 execute unless entity @s[scores={ghael_favor=31..}] run scoreboard players add @s ghael_favor 1

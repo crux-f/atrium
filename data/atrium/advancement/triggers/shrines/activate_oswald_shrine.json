@@ -1,0 +1,21 @@
+{
+    "criteria": {
+      "right_click_on_oswald_shrine": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[\"atrium_oswald_shrine\"]}"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "atrium:shrines/oswald_shrine"
+    }
+  }

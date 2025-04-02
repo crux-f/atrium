@@ -1,6 +1,6 @@
 # Particles + Sound effect
-execute at @s run particle minecraft:falling_dust{block_state:"minecraft:obsidian"} ~ ~1 ~ 0.1 0.5 0.1 0.1 40 force
-execute at @s run playsound atrium:favor.messorum neutral @a[distance=..8] ~ ~ ~ 0.75 1 0.1
+particle minecraft:falling_dust{block_state:"minecraft:obsidian"} ~ ~ ~ 0.1 0.25 0.1 0.1 40 force
+playsound atrium:favor.messorum neutral @a[distance=..10] ~ ~ ~ 0.75 1 0.1
 # Add Favor for this god
 scoreboard players add @s messorum_favor 1
 execute unless entity @s[scores={messorum_favor=31..}] run scoreboard players add @s messorum_favor 1

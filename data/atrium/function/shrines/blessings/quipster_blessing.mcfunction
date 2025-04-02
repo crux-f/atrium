@@ -1,6 +1,6 @@
 # Particles + Sound effect
-execute at @s run particle minecraft:sneeze ~ ~1 ~ 0.1 0.5 0.1 0.1 40 force
-execute at @s run playsound atrium:favor.quipster neutral @a[distance=..8] ~ ~ ~ 0.75 1 0.1
+particle minecraft:sneeze ~ ~1 ~ 0.1 0.25 0.1 0.1 40 force
+playsound atrium:favor.quipster neutral @a[distance=..10] ~ ~ ~ 1 1 0.1
 # Add Favor for this god
 scoreboard players add @s quipster_favor 1
 execute unless entity @s[scores={quipster_favor=31..}] run scoreboard players add @s quipster_favor 1
