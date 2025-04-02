@@ -1,0 +1,9 @@
+tellraw @a[tag=event] ["",{"text":"\u2714 Rally in Cloud City to complete your preparations.","color":"dark_green"},{"text":"\n"},{"text":"\u2714 Protect Cloud City from The Armada's first Raid.","color":"dark_green"},{"text":"\n"},{"text":"\u2714","color":"dark_green"},{"text":" Regroup before the next attack.","color":"dark_green"},{"text":"\n"},{"text":"\u2714","color":"dark_green"},{"text":" Protect Cloud City from The Armada's second Raid.","color":"dark_green"},{"text":"\n"},{"text":"\u2714","color":"dark_green"},{"text":" This isn't over yet. Prepare for The Armada's final attack.\n\u2714 Protect Cloud City from The Armada's final attack.","color":"dark_green"},{"text":"\n"},{"text":"\u2605 Cloud City is safe!","color":"gold"},{"text":"\n"},{"text":"  \u25b6 The Armada are battered and bruised, but it's only a matter of time before they regroup.\n  \u25b6 Perhaps there's a way to get one step ahead of them... Next time.","color":"gray"}]
+execute as @a[tag=event] at @s run function atrium_events:quest/sfx/quest_complete
+scoreboard objectives remove atrium_events_deaths
+execute as @a[gamemode=spectator] in minecraft:overworld run tp @s 6825.5 179 -12550767.5
+execute positioned 6825.5 179 -12550767.5 in overworld run gamemode survival @a[gamemode=spectator,distance=..10]
+# If we got here, it was a Victory. So...
+execute as @a[tag=event] run give @s potion[custom_name='{"italic":false,"text":"Potion of Heroism"}',potion_contents={custom_color:65331,custom_effects:[{id:"minecraft:hero_of_the_village",amplifier:0,duration:9600,show_particles:1b}]},rarity="uncommon",custom_model_data={strings:["atrium_advanced_potion"]},custom_data={atrium_potion_of_heroism:1b}] 3
+# Grant advancement
+execute as @a[tag=event] run advancement grant @s only atrium_events:iteration6_events/first_blood

@@ -1,0 +1,4 @@
+tellraw @a[tag=event] ["",{"text":"\u2714 Rally in Cloud City to complete your preparations.","color":"dark_green"},{"text":"\n"},{"text":"\u2b1f Protect Cloud City from The Armada's first Raid.","color":"red"},{"text":"\n"},{"text":"  \u2022 Keep the castle at the center of Cloud City from being destroyed or overrun with enemies.","color":"gray"},{"text":"\n"},{"text":"  \u2022 Keep villagers alive and buildings intact.","color":"gray"},{"text":"\n"},{"text":"  \u2022 Keep each other alive. Each player can die 3 times before entering Spectator Mode.","color":"gray"}]
+execute as @a[tag=event] at @s run function atrium_events:quest/sfx/defend_obj
+scoreboard objectives add atrium_events_deaths deathCount {"text":"Raid 1 - Deaths","color":"red"}
+scoreboard objectives setdisplay sidebar atrium_events_deaths

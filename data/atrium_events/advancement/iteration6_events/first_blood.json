@@ -55,7 +55,7 @@
         }
     },
     "rewards": {
-        "function": "atrium_events:rewards/events/iteration_5/oath_of_ash_and_exiles"
+        "function": "atrium_events:rewards/events/iteration_6/first_blood"
 	},
         "parent": "atrium_events:events_2025"
 }
