@@ -21,6 +21,6 @@
         "show_toast": false,
         "announce_to_chat": false,
         "hidden": true,
-        "background": "minecraft:textures/block/quartz_block_bottom.png"
+        "background": "minecraft:block/quartz_block_bottom"
     }
 }

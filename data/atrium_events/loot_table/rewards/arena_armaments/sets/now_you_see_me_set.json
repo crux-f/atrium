@@ -215,10 +215,8 @@
                   "atrium_now_you_see_me_set": 1
                 },
                 "minecraft:enchantments": {
-                  "levels": {
                     "minecraft:protection": 1,
                     "minecraft:unbreaking": 1
-                  }
                 },
                 "minecraft:attribute_modifiers": [
                   {
@@ -236,9 +234,11 @@
                     "slot": "chest"
                   }
                 ],
-                "minecraft:dyed_color": {
-                  "rgb": 0,
-                  "show_in_tooltip": false
+                "minecraft:dyed_color": 0,
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:dyed_color"
+                  ]
                 }
               }
             },
@@ -291,9 +291,7 @@
                   "atrium_now_you_see_me_set": 1
                 },
                 "minecraft:enchantments": {
-                  "levels": {
                     "minecraft:swift_sneak": 1
-                  }
                 },
                 "minecraft:attribute_modifiers": [
                   {
@@ -311,9 +309,11 @@
                     "slot": "chest"
                   }
                 ],
-                "minecraft:dyed_color": {
-                  "rgb": 0,
-                  "show_in_tooltip": false
+                "minecraft:dyed_color": 0,
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:dyed_color"
+                  ]
                 }
               }
             },
@@ -369,10 +369,8 @@
                   "atrium_backstabbing_lv": 1
                 },
                 "minecraft:enchantments": {
-                  "levels": {
                     "minecraft:unbreaking": 2,
                     "minecraft:sharpness": 3
-                  }
                 }
               }
             },

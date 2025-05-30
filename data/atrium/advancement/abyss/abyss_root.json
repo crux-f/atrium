@@ -21,6 +21,6 @@
         "show_toast": false,
         "announce_to_chat": false,
         "hidden": true,
-        "background": "minecraft:textures/block/dark_prismarine.png"
+        "background": "minecraft:block/dark_prismarine"
     }
 }

@@ -73,8 +73,7 @@
                   "atrium_battleaxe": 1,
                   "atrium_golden_battleaxe": 1
                 },
-                "minecraft:attribute_modifiers": {
-                  "modifiers": [
+                "minecraft:attribute_modifiers": [
                     {
                       "id": "atrium:battleaxe_attack_damage",
                       "type": "attack_damage",
@@ -89,8 +88,11 @@
                       "operation": "add_value",
                       "slot": "mainhand"
                     }
-                  ],
-                  "show_in_tooltip": false
+                ],
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "attribute_modifiers"
+                  ]
                 }
               }
             },

@@ -9,9 +9,7 @@
             ],
             "components": {
               "minecraft:enchantments": {
-                "levels": {
                   "atrium:sentinel": 1
-                }
               }
             }
           }

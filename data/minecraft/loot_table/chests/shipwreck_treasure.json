@@ -117,10 +117,8 @@
               "function": "set_components",
               "components": {
                 "minecraft:enchantments": {
-                  "levels": {
                     "minecraft:aqua_affinity": 1,
                     "minecraft:unbreaking": 3
-                  }
                 },
                 "minecraft:dyed_color": 730490
               }
@@ -164,10 +162,8 @@
                   "atrium_peerless_cutlass": 1
                 },
                 "minecraft:enchantments": {
-                  "levels": {
                     "minecraft:mending": 1,
                     "minecraft:unbreaking": 2
-                  }
                 }
               }
             },

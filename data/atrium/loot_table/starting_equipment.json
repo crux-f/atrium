@@ -104,9 +104,7 @@
               "function": "set_components",
               "components": {
                 "minecraft:enchantments": {
-                  "levels": {
                     "minecraft:efficiency": 1
-                  }
                 },
                 "minecraft:custom_data": {
                   "atrium_keepsake": 1
@@ -134,9 +132,7 @@
               "function": "set_components",
               "components": {
                 "minecraft:enchantments": {
-                  "levels": {
                     "minecraft:silk_touch": 1
-                  }
                 },
                 "minecraft:custom_data": {
                   "atrium_keepsake": 2
@@ -164,9 +160,7 @@
               "function": "set_components",
               "components": {
                 "minecraft:enchantments": {
-                  "levels": {
                     "minecraft:power": 1
-                  }
                 },
                 "minecraft:custom_data": {
                   "atrium_keepsake": 3
@@ -194,9 +188,7 @@
               "function": "set_components",
               "components": {
                 "minecraft:enchantments": {
-                  "levels": {
                     "minecraft:smite": 2
-                  }
                 },
                 "minecraft:custom_data": {
                   "atrium_keepsake": 4
@@ -224,9 +216,7 @@
               "function": "set_components",
               "components": {
                 "minecraft:enchantments": {
-                  "levels": {
                     "minecraft:fortune": 1
-                  }
                 },
                 "minecraft:custom_data": {
                   "atrium_keepsake": 5
@@ -254,9 +244,7 @@
               "function": "set_components",
               "components": {
                 "minecraft:enchantments": {
-                  "levels": {
                     "minecraft:unbreaking": 1
-                  }
                 },
                 "minecraft:custom_data": {
                   "atrium_keepsake": 6

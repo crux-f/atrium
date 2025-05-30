@@ -13,7 +13,7 @@ execute positioned ~2 ~ ~ if entity @e[type=minecraft:glow_item_frame,distance=.
 execute positioned ~ ~ ~-2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:small_dripleaf"}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
 execute positioned ~ ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:small_dripleaf"}}] run scoreboard players add @s valid_ingredients 1
 #
-execute if entity @s[scores={valid_ingredients=3..}] at @s run summon item ~ ~1 ~ {Motion:[0.0,0.02,0.0],NoGravity:1b,Glowing:1b,Item:{id:"minecraft:potion",components:{"minecraft:custom_name":'{"text":"Potion of Healing","italic": false}',"minecraft:custom_model_data":{strings:["atrium_advanced_potion"]},"minecraft:custom_data":{atrium_tier_3_potion:1b,atrium_potion:"stronger_healing"},"minecraft:potion_contents":{custom_effects:[{id:"minecraft:instant_health",amplifier:2,duration:1}]}}}}
+execute if entity @s[scores={valid_ingredients=3..}] at @s run summon item ~ ~1 ~ {Motion:[0.0,0.02,0.0],NoGravity:1b,Glowing:1b,Item:{id:"minecraft:potion",components:{"minecraft:custom_name":{text:'Potion of Healing',italic:false},"minecraft:custom_model_data":{strings:["atrium_advanced_potion"]},"minecraft:custom_data":{atrium_tier_3_potion:1b,atrium_potion:"stronger_healing"},"minecraft:potion_contents":{custom_effects:[{id:"minecraft:instant_health",amplifier:2,duration:1}]}}}}
 execute if entity @s[scores={valid_ingredients=3..}] at @s run function atrium:formula_crafting/alchemy/alchemy_reset
 execute if entity @s[scores={valid_ingredients=3..}] at @s positioned ~ ~ ~-2 run advancement grant @p[distance=..5,gamemode=!spectator] only atrium:magic/secret_ingredient
 scoreboard players set @s valid_ingredients 0

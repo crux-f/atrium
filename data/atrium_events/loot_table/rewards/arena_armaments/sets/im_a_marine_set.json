@@ -17,10 +17,8 @@
                   "atrium_im_a_marine_set": 1
                 },
                 "minecraft:enchantments": {
-                  "levels": {
                     "minecraft:projectile_protection": 1,
                     "minecraft:unbreaking": 1
-                  }
                 }
               }
             },
@@ -73,10 +71,8 @@
                   "atrium_im_a_marine_set": 1
                 },
                 "minecraft:enchantments": {
-                  "levels": {
                     "minecraft:blast_protection": 2,
                     "minecraft:unbreaking": 2
-                  }
                 },
                 "minecraft:attribute_modifiers": [
                   {
@@ -152,9 +148,7 @@
                   "atrium_im_a_marine_set": 1
                 },
                 "minecraft:enchantments": {
-                  "levels": {
                     "minecraft:unbreaking": 1
-                  }
                 },
                 "minecraft:attribute_modifiers": [
                   {
@@ -165,9 +159,11 @@
                     "slot": "legs"
                   }
                 ],
-                "minecraft:dyed_color": {
-                  "rgb": 2263842,
-                  "show_in_tooltip": false
+                "minecraft:dyed_color": 2263842,
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:dyed_color"
+                  ]
                 }
               }
             },
@@ -220,10 +216,8 @@
                   "atrium_im_a_marine_set": 1
                 },
                 "minecraft:enchantments": {
-                  "levels": {
                     "minecraft:depth_strider": 2,
                     "minecraft:unbreaking": 1
-                  }
                 },
                 "minecraft:attribute_modifiers": [
                   {
@@ -234,9 +228,11 @@
                     "slot": "feet"
                   }
                 ],
-                "minecraft:dyed_color": {
-                  "rgb": 2263842,
-                  "show_in_tooltip": false
+                "minecraft:dyed_color": 2263842,
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:dyed_color"
+                  ]
                 }
               }
             },
@@ -295,11 +291,9 @@
                   "atrium_im_a_marine_set": 1
                 },
                 "minecraft:enchantments": {
-                  "levels": {
                     "minecraft:piercing": 1,
                     "minecraft:quick_charge": 2,
                     "minecraft:unbreaking": 1
-                  }
                 },
                 "minecraft:attribute_modifiers": [
                   {

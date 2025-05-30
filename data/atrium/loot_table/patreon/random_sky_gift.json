@@ -204,8 +204,7 @@
                     "{\"text\":\" 12 Attack Damage\",\"color\":\"dark_green\",\"italic\":false}",
                     "{\"text\":\" 0.8 Attack Speed\",\"color\":\"dark_green\",\"italic\":false}"
                   ],
-                  "minecraft:attribute_modifiers": {
-                    "modifiers": [
+                  "minecraft:attribute_modifiers": [
                       {
                         "amount": -3.2,
                         "operation": "add_value",
@@ -220,8 +219,11 @@
                         "type": "attack_damage",
                         "id": "atrium:battleaxe_base_attack_damage"
                       }
-                    ],
-                    "show_in_tooltip": false
+                  ],
+                  "minecraft:tooltip_display": {
+                    "hidden_components": [
+                      "attribute_modifiers"
+                    ]
                   },
                   "minecraft:item_name": "{\"text\":\"Stone Battleaxe\"}",
                   "minecraft:custom_data": "{atrium_battleaxe:1b,atrium_stone_battleaxe:1b}"
@@ -246,8 +248,7 @@
                     "{\"text\":\" 2.5 Attack Damage\",\"color\":\"dark_green\",\"italic\":false}",
                     "{\"text\":\" 2.2 Attack Speed\",\"color\":\"dark_green\",\"italic\":false}"
                   ],
-                  "minecraft:attribute_modifiers": {
-                    "modifiers": [
+                  "minecraft:attribute_modifiers": [
                       {
                         "amount": 2.5,
                         "operation": "add_value",
@@ -262,8 +263,11 @@
                         "type": "attack_speed",
                         "id": "atrium:dagger_attack_speed"
                       }
-                    ],
-                    "show_in_tooltip": false
+                  ],
+                  "minecraft:tooltip_display": {
+                    "hidden_components": [
+                      "attribute_modifiers"
+                    ]
                   },
                   "minecraft:item_name": "{\"text\":\"Stone Dagger\"}",
                   "minecraft:custom_data": "{atrium_dagger:1b,atrium_stone_dagger:1b}"
@@ -291,8 +295,7 @@
                     "{\"text\":\"When in Both Hands:\",\"color\":\"gray\",\"italic\":false}",
                     "{\"text\":\"Crushes Blocks\",\"color\":\"blue\",\"italic\":false}"
                   ],
-                  "minecraft:attribute_modifiers": {
-                    "modifiers": [
+                  "minecraft:attribute_modifiers": [
                       {
                         "amount": 5,
                         "operation": "add_value",
@@ -307,8 +310,11 @@
                         "type": "attack_speed",
                         "id": "atrium:hammer_attack_speed"
                       }
-                    ],
-                    "show_in_tooltip": false
+                  ],
+                  "minecraft:tooltip_display": {
+                    "hidden_components": [
+                      "attribute_modifiers"
+                    ]
                   },
                   "minecraft:item_name": "{\"text\":\"Stone Hammer\"}",
                   "minecraft:custom_data": "{atrium_hammer:1b,atrium_stone_hammer:1b}"
@@ -337,8 +343,7 @@
                     "{\"text\":\" 12 Attack Damage\",\"color\":\"dark_green\",\"italic\":false}",
                     "{\"text\":\" 0.9 Attack Speed\",\"color\":\"dark_green\",\"italic\":false}"
                   ],
-                  "minecraft:attribute_modifiers": {
-                    "modifiers": [
+                  "minecraft:attribute_modifiers": [
                       {
                         "amount": -3.1,
                         "operation": "add_value",
@@ -353,8 +358,11 @@
                         "type": "attack_damage",
                         "id": "atrium:battleaxe_base_attack_damage"
                       }
-                    ],
-                    "show_in_tooltip": false
+                  ],
+                  "minecraft:tooltip_display": {
+                    "hidden_components": [
+                      "attribute_modifiers"
+                    ]
                   },
                   "minecraft:item_name": "{\"text\":\"Iron Battleaxe\"}",
                   "minecraft:custom_data": "{atrium_battleaxe:1b,atrium_iron_battleaxe:1b}"
@@ -379,8 +387,7 @@
                     "{\"text\":\" 3 Attack Damage\",\"color\":\"dark_green\",\"italic\":false}",
                     "{\"text\":\" 2.2 Attack Speed\",\"color\":\"dark_green\",\"italic\":false}"
                   ],
-                  "minecraft:attribute_modifiers": {
-                    "modifiers": [
+                  "minecraft:attribute_modifiers": [
                       {
                         "amount": 3,
                         "operation": "add_value",
@@ -395,8 +402,11 @@
                         "type": "attack_speed",
                         "id": "atrium:dagger_attack_speed"
                       }
-                    ],
-                    "show_in_tooltip": false
+                  ],
+                  "minecraft:tooltip_display": {
+                    "hidden_components": [
+                      "attribute_modifiers"
+                    ]
                   },
                   "minecraft:item_name": "{\"text\":\"Iron Dagger\"}",
                   "minecraft:custom_data": "{atrium_dagger:1b,atrium_iron_dagger:1b}"
@@ -424,8 +434,7 @@
                     "{\"text\":\"When in Both Hands:\",\"color\":\"gray\",\"italic\":false}",
                     "{\"text\":\"Crushes Blocks\",\"color\":\"blue\",\"italic\":false}"
                   ],
-                  "minecraft:attribute_modifiers": {
-                    "modifiers": [
+                  "minecraft:attribute_modifiers": [
                       {
                         "amount": 6,
                         "operation": "add_value",
@@ -440,8 +449,11 @@
                         "type": "attack_speed",
                         "id": "atrium:hammer_attack_speed"
                       }
-                    ],
-                    "show_in_tooltip": false
+                  ],
+                  "minecraft:tooltip_display": {
+                    "hidden_components": [
+                      "attribute_modifiers"
+                    ]
                   },
                   "minecraft:item_name": "{\"text\":\"Iron Hammer\"}",
                   "minecraft:custom_data": "{atrium_hammer:1b,atrium_iron_hammer:1b}"
@@ -470,8 +482,7 @@
                     "{\"text\":\" 10 Attack Damage\",\"color\":\"dark_green\",\"italic\":false}",
                     "{\"text\":\" 1 Attack Speed\",\"color\":\"dark_green\",\"italic\":false}"
                   ],
-                  "minecraft:attribute_modifiers": {
-                    "modifiers": [
+                  "minecraft:attribute_modifiers": [
                       {
                         "amount": -3,
                         "operation": "add_value",
@@ -486,8 +497,11 @@
                         "type": "attack_damage",
                         "id": "atrium:battleaxe_base_attack_damage"
                       }
-                    ],
-                    "show_in_tooltip": false
+                  ],
+                  "minecraft:tooltip_display": {
+                    "hidden_components": [
+                      "attribute_modifiers"
+                    ]
                   },
                   "minecraft:item_name": "{\"text\":\"Golden Battleaxe\"}",
                   "minecraft:custom_data": "{atrium_battleaxe:1b,atrium_golden_battleaxe:1b}"
@@ -512,8 +526,7 @@
                     "{\"text\":\" 2 Attack Damage\",\"color\":\"dark_green\",\"italic\":false}",
                     "{\"text\":\" 2.2 Attack Speed\",\"color\":\"dark_green\",\"italic\":false}"
                   ],
-                  "minecraft:attribute_modifiers": {
-                    "modifiers": [
+                  "minecraft:attribute_modifiers": [
                       {
                         "amount": 2,
                         "operation": "add_value",
@@ -528,8 +541,11 @@
                         "type": "attack_speed",
                         "id": "atrium:dagger_attack_speed"
                       }
-                    ],
-                    "show_in_tooltip": false
+                  ],
+                  "minecraft:tooltip_display": {
+                    "hidden_components": [
+                      "attribute_modifiers"
+                    ]
                   },
                   "minecraft:item_name": "{\"text\":\"Golden Dagger\"}",
                   "minecraft:custom_data": "{atrium_dagger:1b,atrium_golden_dagger:1b}"
@@ -557,8 +573,7 @@
                     "{\"text\":\"When in Both Hands:\",\"color\":\"gray\",\"italic\":false}",
                     "{\"text\":\"Crushes Blocks\",\"color\":\"blue\",\"italic\":false}"
                   ],
-                  "minecraft:attribute_modifiers": {
-                    "modifiers": [
+                  "minecraft:attribute_modifiers": [
                       {
                         "amount": 4,
                         "operation": "add_value",
@@ -573,8 +588,11 @@
                         "type": "attack_speed",
                         "id": "atrium:hammer_attack_speed"
                       }
-                    ],
-                    "show_in_tooltip": false
+                  ],
+                  "minecraft:tooltip_display": {
+                    "hidden_components": [
+                      "attribute_modifiers"
+                    ]
                   },
                   "minecraft:item_name": "{\"text\":\"Golden Hammer\"}",
                   "minecraft:custom_data": "{atrium_golden_hammer:1b,atrium_hammer:1b}"

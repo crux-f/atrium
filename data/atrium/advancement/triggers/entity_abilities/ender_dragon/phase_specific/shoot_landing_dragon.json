@@ -4,8 +4,8 @@
         "trigger": "minecraft:player_hurt_entity",
         "conditions": {
           "damage": {
-            "type": {
-              "is_projectile": true
+            "source_entity": {
+              "type": "#minecraft:arrows"
             }
           },
           "entity": [

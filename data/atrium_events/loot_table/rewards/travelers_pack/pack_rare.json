@@ -83,9 +83,11 @@
                     "slot": "feet"
                   }
                 ],
-                "minecraft:dyed_color": {
-                  "rgb": 4746041,
-                  "show_in_tooltip": false
+                "minecraft:dyed_color": 4746041,
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:dyed_color"
+                  ]
                 }
               }
             },

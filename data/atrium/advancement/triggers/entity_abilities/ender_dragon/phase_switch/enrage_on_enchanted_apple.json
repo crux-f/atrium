@@ -9,7 +9,9 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "biome": "minecraft:the_end",
+                "biomes": [
+                  "minecraft:the_end"
+                ],
                 "dimension": "minecraft:the_end"
               }
             }

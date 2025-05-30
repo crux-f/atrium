@@ -39,10 +39,8 @@
                   "atrium_niche": 1
                 },
                 "minecraft:enchantments": {
-                  "levels": {
                     "minecraft:unbreaking": 2,
                     "minecraft:bane_of_arthropods": 5
-                  }
                 }
               }
             },

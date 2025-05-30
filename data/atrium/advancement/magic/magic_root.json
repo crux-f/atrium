@@ -23,6 +23,6 @@
         "show_toast": false,
         "announce_to_chat": false,
         "hidden": true,
-        "background": "minecraft:textures/block/amethyst_block.png"
+        "background": "minecraft:block/amethyst_block"
     }
 }

@@ -12,9 +12,7 @@
                 "mainhand": {
                   "components": {
                     "minecraft:enchantments": {
-                      "levels": {
                         "atrium:fuse_cutter": 1
-                      }
                     }
                   }
                 }

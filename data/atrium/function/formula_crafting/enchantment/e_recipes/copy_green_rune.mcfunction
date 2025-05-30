@@ -17,7 +17,7 @@ execute positioned ~-2 ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distanc
 #
 execute if data block ~ ~ ~-5 {Items:[{Slot:4b,components:{"minecraft:custom_data":{atrium_rune:"blank"}}}]} run scoreboard players add @s valid_ingredients 1
 #
-execute if entity @s[scores={valid_ingredients=4..}] run summon item ~ ~0.5 ~ {Tags:["atrium_formula_product"],Motion:[0.0,0.02,0.0],NoGravity:1b,Glowing:1b,Item:{id:"minecraft:egg",count:1,components:{"minecraft:item_name":'{"text":"Extremely Reportable Egg"}',"minecraft:lore":['{"text":"Seems like something you"}','{"text":"should report to the Admins."}'],"minecraft:custom_model_data":{strings:["atrium_strange_egg"]},"minecraft:custom_data":{atrium_extremely_reportable_egg:1}}}}
+execute if entity @s[scores={valid_ingredients=4..}] run summon item ~ ~0.5 ~ {Tags:["atrium_formula_product"],Motion:[0.0,0.02,0.0],NoGravity:1b,Glowing:1b,Item:{id:"minecraft:egg",count:1,components:{"minecraft:item_name":{"text":"Extremely Reportable Egg"},"minecraft:lore":[{"text":"Seems like something you"},{"text":"should report to the Admins."}],"minecraft:custom_model_data":{strings:["atrium_strange_egg"]},"minecraft:custom_data":{atrium_extremely_reportable_egg:1}}}}
 execute if entity @s[scores={valid_ingredients=4..}] positioned ~ ~ ~-3 as @e[type=minecraft:glow_item_frame,distance=..1.5] run data modify entity @e[tag=atrium_formula_product,sort=nearest,limit=1] Item set from entity @s Item
 execute if entity @s[scores={valid_ingredients=4..}] as @e[limit=1,sort=nearest,tag=atrium_formula_product] run data modify entity @s Item.count set value 2
 execute if entity @s[scores={valid_ingredients=4..}] run function atrium:formula_crafting/enchantment/enchantment_reset

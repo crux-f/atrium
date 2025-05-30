@@ -299,9 +299,7 @@
                   "minecraft:repair_cost": 99
                 },
                 "minecraft:enchantments": {
-                  "levels": {
                     "minecraft:unbreaking": 4
-                  }
                 }
               }
             },

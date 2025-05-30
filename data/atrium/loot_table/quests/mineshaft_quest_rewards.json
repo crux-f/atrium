@@ -22,12 +22,9 @@
                   "atrium_delvers_quest_reward": 1
                 },
                 "minecraft:enchantments": {
-                  "levels": {
                     "minecraft:unbreaking": 6
-                  }
                 },
-                "minecraft:attribute_modifiers": {
-                  "modifiers": [
+                "minecraft:attribute_modifiers": [
                     {
                       "id": "atrium:hammer_attack_damage",
                       "type": "attack_damage",
@@ -42,8 +39,11 @@
                       "operation": "add_value",
                       "slot": "mainhand"
                     }
-                  ],
-                  "show_in_tooltip": false
+                ],
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "attribute_modifiers"
+                  ]
                 }
               }
             },
@@ -121,11 +121,9 @@
                   "atrium_shard_touch_enchanted": 1
                 },
                 "minecraft:enchantments": {
-                  "levels": {
                     "minecraft:efficiency": 2,
                     "minecraft:unbreaking": 4,
                     "atrium:shard_touch": 1
-                  }
                 }
               }
             },
@@ -174,11 +172,9 @@
                   "atrium_delvers_quest_reward": 1
                 },
                 "minecraft:enchantments": {
-                  "levels": {
                     "minecraft:sharpness": 3,
                     "minecraft:efficiency": 4,
                     "minecraft:unbreaking": 6
-                  }
                 }
               }
             },

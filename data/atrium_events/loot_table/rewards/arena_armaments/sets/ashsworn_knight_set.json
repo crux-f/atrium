@@ -18,10 +18,8 @@
                   "atrium_ashsworn_set": 1
                 },
                 "minecraft:enchantments": {
-                  "levels": {
                     "minecraft:fire_protection": 3,
                     "minecraft:unbreaking": 4
-                  }
                 },
                 "minecraft:attribute_modifiers": [
                   {
@@ -101,11 +99,9 @@
                   "atrium_ashsworn_set": 1
                 },
                 "minecraft:enchantments": {
-                  "levels": {
                     "minecraft:fire_protection": 3,
                     "minecraft:thorns": 2,
                     "minecraft:unbreaking": 4
-                  }
                 },
                 "minecraft:attribute_modifiers": [
                   {
@@ -185,10 +181,8 @@
                   "atrium_ashsworn_set": 1
                 },
                 "minecraft:enchantments": {
-                  "levels": {
                     "minecraft:fire_protection": 3,
                     "minecraft:unbreaking": 4
-                  }
                 },
                 "minecraft:attribute_modifiers": [
                   {
@@ -268,9 +262,7 @@
                   "atrium_ashsworn_set": 1
                 },
                 "minecraft:enchantments": {
-                  "levels": {
                     "minecraft:unbreaking": 4
-                  }
                 },
                 "minecraft:attribute_modifiers": [
                   {
@@ -358,8 +350,7 @@
                   "atrium_golden_battleaxe": 1,
                   "atrium_ashsworn_set": 1
                 },
-                "minecraft:attribute_modifiers": {
-                  "modifiers": [
+                "minecraft:attribute_modifiers": [
                     {
                       "id": "atrium:battleaxe_attack_damage",
                       "type": "attack_damage",
@@ -374,14 +365,15 @@
                       "operation": "add_value",
                       "slot": "mainhand"
                     }
-                  ],
-                  "show_in_tooltip": false
+                ],
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:attribute_modifiers"
+                  ]
                 },
                 "minecraft:enchantments": {
-                  "levels": {
                     "minecraft:smite": 3,
                     "minecraft:unbreaking": 2
-                  }
                 }
               }
             },

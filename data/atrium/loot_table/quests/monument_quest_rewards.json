@@ -110,10 +110,8 @@
               "function": "set_components",
               "components": {
                 "minecraft:enchantments": {
-                  "levels": {
                     "minecraft:unbreaking": 5,
                     "minecraft:lure": 3
-                  }
                 },
                 "minecraft:attribute_modifiers": [
                   {
@@ -175,11 +173,9 @@
                   "atrium_wavebender": 1
                 },
                 "minecraft:enchantments": {
-                  "levels": {
                     "minecraft:riptide": 2,
                     "minecraft:mending": 1,
                     "minecraft:unbreaking": 6
-                  }
                 }
               }
             },

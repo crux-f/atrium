@@ -15,10 +15,8 @@
                   "atrium_holiest_of_thou_set": 1
                 },
                 "minecraft:enchantments": {
-                  "levels": {
                     "minecraft:protection": 3,
                     "minecraft:unbreaking": 1
-                  }
                 },
                 "minecraft:attribute_modifiers": [
                   {
@@ -36,9 +34,11 @@
                     "slot": "chest"
                   }
                 ],
-                "minecraft:dyed_color": {
-                  "rgb": 9175180,
-                  "show_in_tooltip": false
+                "minecraft:dyed_color": 9175180,
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:dyed_color"
+                  ]
                 }
               }
             },
@@ -93,10 +93,8 @@
                   "atrium_holiest_of_thou_set": 1
                 },
                 "minecraft:enchantments": {
-                  "levels": {
                     "minecraft:protection": 3,
                     "minecraft:unbreaking": 1
-                  }
                 },
                 "minecraft:attribute_modifiers": [
                   {
@@ -114,9 +112,11 @@
                     "slot": "legs"
                   }
                 ],
-                "minecraft:dyed_color": {
-                  "rgb": 9175180,
-                  "show_in_tooltip": false
+                "minecraft:dyed_color": 9175180,
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:dyed_color"
+                  ]
                 }
               }
             },
@@ -165,10 +165,8 @@
                   "atrium_holiest_of_thou_set": 1
                 },
                 "minecraft:enchantments": {
-                  "levels": {
                     "minecraft:smite": 4,
                     "minecraft:unbreaking": 2
-                  }
                 }
               }
             },

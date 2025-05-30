@@ -32,9 +32,11 @@
                     "slot": "head"
                   }
                 ],
-                "minecraft:dyed_color": {
-                  "rgb": 52354,
-                  "show_in_tooltip": false
+                "minecraft:dyed_color": 52354,
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:dyed_color"
+                  ]
                 }
               }
             },
@@ -99,9 +101,11 @@
                     "slot": "chest"
                   }
                 ],
-                "minecraft:dyed_color": {
-                  "rgb": 52354,
-                  "show_in_tooltip": false
+                "minecraft:dyed_color": 52354,
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:dyed_color"
+                  ]
                 }
               }
             },
@@ -169,9 +173,11 @@
                     "slot": "legs"
                   }
                 ],
-                "minecraft:dyed_color": {
-                  "rgb": 52354,
-                  "show_in_tooltip": false
+                "minecraft:dyed_color": 52354,
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:dyed_color"
+                  ]
                 }
               }
             },
@@ -237,13 +243,13 @@
                   }
                 ],
                 "minecraft:enchantments": {
-                  "levels": {
                     "minecraft:feather_falling": 2
-                  }
                 },
-                "minecraft:dyed_color": {
-                  "rgb": 52354,
-                  "show_in_tooltip": false
+                "minecraft:dyed_color": 52354,
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:dyed_color"
+                  ]
                 }
               }
             },
@@ -305,9 +311,7 @@
                   }
                 ],
                 "minecraft:enchantments": {
-                  "levels": {
                     "minecraft:punch": 1
-                  }
                 }
               }
             },

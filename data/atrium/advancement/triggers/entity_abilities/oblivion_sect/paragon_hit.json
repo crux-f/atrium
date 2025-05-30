@@ -9,8 +9,13 @@
               "nbt": "{Tags:[\"atrium_doctrine_paragon\"]}"
             },
             "type": {
-                "is_projectile": true
-              }
+              "tags": [
+                {
+                  "id": "atrium:single/trident",
+                  "expected": true
+                }
+              ]
+            }
           }
         }
       }

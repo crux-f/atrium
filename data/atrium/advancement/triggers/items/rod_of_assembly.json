@@ -21,7 +21,7 @@
                     }
                   },
                   "mainhand": {
-                    "tag": "#atrium:efficient_building_blocks",
+                    "items": "#atrium:efficient_building_blocks",
                     "count": {
                       "min": 2
                     }
@@ -35,7 +35,7 @@
               "condition": "minecraft:location_check",
               "predicate": {
                 "block": {
-                  "tag": "#atrium:efficient_building_blocks"
+                  "blocks": "#atrium:efficient_building_blocks"
                 }
               }
             }

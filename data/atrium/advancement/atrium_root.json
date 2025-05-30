@@ -18,6 +18,6 @@
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false,
-        "background": "minecraft:textures/block/cyan_terracotta.png"
+        "background": "minecraft:block/cyan_terracotta"
     }
 }

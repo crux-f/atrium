@@ -8,11 +8,9 @@
             "min": 6,
             "max": 10
           },
-          "source_entity": {
-            "type": "minecraft:ender_dragon"
-          },
+          "blocked": false,
           "type": {
-            "is_magic": false
+            "is_direct": true
           }
         }
       }

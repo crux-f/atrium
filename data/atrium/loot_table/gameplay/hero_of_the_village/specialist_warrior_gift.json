@@ -67,8 +67,7 @@
                     "atrium_battleaxe": 1,
                     "atrium_iron_battleaxe": 1
                   },
-                  "minecraft:attribute_modifiers": {
-                    "modifiers": [
+                  "minecraft:attribute_modifiers": [
                       {
                         "id": "atrium:battleaxe_base_attack_damage",
                         "type": "attack_damage",
@@ -83,10 +82,13 @@
                         "operation": "add_value",
                         "slot": "mainhand"
                       }
-                    ],
-                    "show_in_tooltip": false
-                  }
+                  ],
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "attribute_modifiers"
+                  ]
                 }
+              }
               },
               {
                 "function": "set_name",
@@ -159,8 +161,7 @@
                     "atrium_dagger": 1,
                     "atrium_iron_dagger": 1
                   },
-                  "minecraft:attribute_modifiers": {
-                    "modifiers": [
+                  "minecraft:attribute_modifiers": [
                       {
                         "id": "atrium:dagger_attack_damage",
                         "type": "attack_damage",
@@ -175,9 +176,12 @@
                         "operation": "add_value",
                         "slot": "mainhand"
                       }
-                    ],
-                    "show_in_tooltip": false
-                  }
+                  ],
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "attribute_modifiers"
+                  ]
+                }
                 }
               },
               {

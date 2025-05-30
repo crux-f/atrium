@@ -9,7 +9,12 @@
               "nbt": "{Tags:[\"atrium_abyssal_siren\"]}"
             },
             "type": {
-              "is_magic": true
+              "tags": [
+                {
+                  "id": "atrium:single/indirect_magic",
+                  "expected": true
+                }
+              ]
             }
           }
         }

@@ -7,16 +7,16 @@
 execute positioned ~ ~ ~-3 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:shield",count:1}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
 execute positioned ~ ~ ~-3 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:shield",count:1}}] run scoreboard players add @s valid_ingredients 1
 #
-# Check to make sure the enchantment target isn't already enchanted with an enchantment
+# Check to make sure the enchantment target isnt already enchanted with an enchantment
 execute positioned ~ ~ ~-3 unless data entity @e[type=minecraft:glow_item_frame,distance=..1.5,limit=1] Item.components.minecraft:enchantments run scoreboard players add @s valid_ingredients 1
-# If it is enchanted, warn the player that they can't enchant it.
+# If it is enchanted, warn the player that they cant enchant it.
 execute positioned ~ ~ ~-3 if data entity @e[type=minecraft:glow_item_frame,distance=..1.5,limit=1] Item.components.minecraft:enchantments run function atrium:formula_crafting/enchantment/err_already_enchanted
 #
 # Check NORTH EAST for any item enchanted with Projectile Protection
-execute positioned ~2 ~ ~-2 if data entity @e[type=minecraft:glow_item_frame,distance=..1.5,limit=1] Item.components.minecraft:enchantments.levels.minecraft:projectile_protection run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
-execute positioned ~2 ~ ~-2 if data entity @e[type=minecraft:glow_item_frame,distance=..1.5,limit=1] Item.components.minecraft:enchantments.levels.minecraft:projectile_protection run scoreboard players add @s valid_ingredients 1
-execute positioned ~2 ~ ~-2 if data entity @e[type=minecraft:glow_item_frame,distance=..1.5,limit=1] Item.components.minecraft:stored_enchantments.levels.minecraft:projectile_protection run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
-execute positioned ~2 ~ ~-2 if data entity @e[type=minecraft:glow_item_frame,distance=..1.5,limit=1] Item.components.minecraft:stored_enchantments.levels.minecraft:projectile_protection run scoreboard players add @s valid_ingredients 1
+execute positioned ~2 ~ ~-2 if data entity @e[type=minecraft:glow_item_frame,distance=..1.5,limit=1] Item.components.minecraft:enchantments.minecraft:projectile_protection run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~2 ~ ~-2 if data entity @e[type=minecraft:glow_item_frame,distance=..1.5,limit=1] Item.components.minecraft:enchantments.minecraft:projectile_protection run scoreboard players add @s valid_ingredients 1
+execute positioned ~2 ~ ~-2 if data entity @e[type=minecraft:glow_item_frame,distance=..1.5,limit=1] Item.components.minecraft:stored_enchantments.minecraft:projectile_protection run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~2 ~ ~-2 if data entity @e[type=minecraft:glow_item_frame,distance=..1.5,limit=1] Item.components.minecraft:stored_enchantments.minecraft:projectile_protection run scoreboard players add @s valid_ingredients 1
 # Check SOUTH for Enchantment Catalyst [Transforming]
 execute positioned ~ ~ ~3 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{components:{"minecraft:custom_data":{atrium_catalyst_transforming:1b}}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
 execute positioned ~ ~ ~3 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{components:{"minecraft:custom_data":{atrium_catalyst_transforming:1b}}}}] run scoreboard players add @s valid_ingredients 1
@@ -24,9 +24,9 @@ execute positioned ~ ~ ~3 if entity @e[type=minecraft:glow_item_frame,distance=.
 # Check for a nearby player (within 10 blocks) who has at least 25 levels of XP
 execute if entity @a[distance=..10,gamemode=!spectator,level=25..] run scoreboard players add @s valid_ingredients 1
 #
-execute if entity @s[scores={valid_ingredients=5..}] run summon item ~ ~0.5 ~ {Tags:["atrium_formula_product"],Motion:[0.0,0.02,0.0],NoGravity:1b,Glowing:1b,Item:{id:"minecraft:egg",count:1,components:{"minecraft:item_name":'{"text":"Extremely Reportable Egg"}',"minecraft:lore":['{"text":"Seems like something you"}','{"text":"should report to the Admins."}'],"minecraft:custom_model_data":{strings:["atrium_strange_egg"]},"minecraft:custom_data":{atrium_extremely_reportable_egg:1}}}}
+execute if entity @s[scores={valid_ingredients=5..}] run summon item ~ ~0.5 ~ {Tags:["atrium_formula_product"],Motion:[0.0,0.02,0.0],NoGravity:1b,Glowing:1b,Item:{id:"minecraft:egg",count:1,components:{"minecraft:item_name":{"text":"Extremely Reportable Egg"},"minecraft:lore":[{"text":"Seems like something you"},{"text":"should report to the Admins."}],"minecraft:custom_model_data":{strings:["atrium_strange_egg"]},"minecraft:custom_data":{atrium_extremely_reportable_egg:1}}}}
 execute if entity @s[scores={valid_ingredients=5..}] positioned ~ ~ ~-3 as @e[type=minecraft:glow_item_frame,distance=..1.5] run data modify entity @e[tag=atrium_formula_product,sort=nearest,limit=1] Item set from entity @s Item
-execute if entity @s[scores={valid_ingredients=5..}] as @e[limit=1,sort=nearest,tag=atrium_formula_product] run data merge entity @s {Item:{components:{"minecraft:enchantments":{levels:{"atrium:sentinel": 1}}}}}
+execute if entity @s[scores={valid_ingredients=5..}] as @e[limit=1,sort=nearest,tag=atrium_formula_product] run data merge entity @s {Item:{components:{"minecraft:enchantments":{"atrium:sentinel": 1}}}}
 execute if entity @s[scores={valid_ingredients=5..}] run function atrium:formula_crafting/enchantment/enchantment_reset
 execute if entity @s[scores={valid_ingredients=5..}] positioned ~ ~ ~-7 run advancement grant @p[distance=..5,gamemode=!spectator] only atrium:magic/enchanter_ii
 # Take 1 level of XP from a random nearby player (within 10 blocks) who has at least 15 levels of XP

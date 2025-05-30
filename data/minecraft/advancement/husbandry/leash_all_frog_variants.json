@@ -9,17 +9,14 @@
             "entity": "this",
             "predicate": {
               "type": "minecraft:frog",
-              "type_specific": {
-                "type": "frog",
-                "variant": "minecraft:cold"
+              "components": {
+                "minecraft:frog/variant": "minecraft:cold"
               }
             }
           }
         ],
         "item": {
-          "items": [
-            "minecraft:lead"
-          ]
+          "items": "minecraft:lead"
         }
       },
       "trigger": "minecraft:player_interacted_with_entity"
@@ -32,17 +29,14 @@
             "entity": "this",
             "predicate": {
               "type": "minecraft:frog",
-              "type_specific": {
-                "type": "frog",
-                "variant": "minecraft:temperate"
+              "components": {
+                "minecraft:frog/variant": "minecraft:temperate"
               }
             }
           }
         ],
         "item": {
-          "items": [
-            "minecraft:lead"
-          ]
+          "items": "minecraft:lead"
         }
       },
       "trigger": "minecraft:player_interacted_with_entity"
@@ -55,24 +49,20 @@
             "entity": "this",
             "predicate": {
               "type": "minecraft:frog",
-              "type_specific": {
-                "type": "frog",
-                "variant": "minecraft:warm"
+              "components": {
+                "minecraft:frog/variant": "minecraft:warm"
               }
             }
           }
         ],
         "item": {
-          "items": [
-            "minecraft:lead"
-          ]
+          "items": "minecraft:lead"
         }
       },
       "trigger": "minecraft:player_interacted_with_entity"
     }
   },
   "display": {
-    "announce_to_chat": true,
     "description": [
       {
         "translate": "advancements.husbandry.leash_all_frog_variants.description"
@@ -86,25 +76,23 @@
         "text": "\n25 XP"
       }
     ],
-    "frame": "task",
-    "hidden": false,
     "icon": {
+      "count": 1,
       "id": "minecraft:lead"
     },
-    "show_toast": true,
     "title": {
       "translate": "advancements.husbandry.leash_all_frog_variants.title"
     }
   },
   "requirements": [
     [
+      "minecraft:cold"
+    ],
+    [
       "minecraft:temperate"
     ],
     [
       "minecraft:warm"
-    ],
-    [
-      "minecraft:cold"
     ]
   ],
   "rewards": {

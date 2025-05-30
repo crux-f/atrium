@@ -40,7 +40,7 @@
                     "DeathLootTable": "atrium:entities/nightmare_phantom",
                     "PersistenceRequired": true,
                     "Health": 25,
-                    "Size": 2,
+                    "size": 2,
                     "CustomName": "\"Nightmare\"",
                     "active_effects": [
                       {

@@ -40,8 +40,7 @@
                 "minecraft:custom_data": {
                   "atrium_berserker_helm": 1
                 },
-                "minecraft:attribute_modifiers": {
-                  "modifiers": [
+                "minecraft:attribute_modifiers": [
                     {
                       "id": "atrium:berserker_helm_max_health",
                       "type": "max_health",
@@ -77,9 +76,7 @@
                       "operation": "add_value",
                       "slot": "head"
                     }
-                  ],
-                  "show_in_tooltip": false
-                }
+                ]
               }
             },
             {

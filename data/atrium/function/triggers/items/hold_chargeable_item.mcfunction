@@ -7,12 +7,12 @@ advancement revoke @s only atrium:triggers/items/hold_chargeable_item
 # Off Hand only
 #
 # Level 1 Staves
-execute if data entity @s {Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{atrium_staff:1b,atrium_staff_lv:1b}}}]} run function atrium:items/use/chargeable/staves/level_1_staff
+execute if data entity @s {equipment:{offhand:{components:{"minecraft:custom_data":{atrium_staff:1b,atrium_staff_lv:1b}}}}} run function atrium:items/use/chargeable/staves/level_1_staff
 # Level 2 Staves
-execute if data entity @s {Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{atrium_staff:1b,atrium_staff_lv:2b}}}]} run function atrium:items/use/chargeable/staves/level_2_staff
+execute if data entity @s {equipment:{offhand:{components:{"minecraft:custom_data":{atrium_staff:1b,atrium_staff_lv:2b}}}}} run function atrium:items/use/chargeable/staves/level_2_staff
 # Level 3 Staves
-execute if data entity @s {Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{atrium_staff:1b,atrium_staff_lv:3b}}}]} unless data entity @s {Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{atrium_special_staff:1b}}}]} run function atrium:items/use/chargeable/staves/level_3_staff
+execute if data entity @s {equipment:{offhand:{components:{"minecraft:custom_data":{atrium_staff:1b,atrium_staff_lv:3b}}}}} unless data entity @s {Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{atrium_special_staff:1b}}}]} run function atrium:items/use/chargeable/staves/level_3_staff
 # Special Staves
-execute if data entity @s {Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{atrium_staff:1b,atrium_special_staff:1b}}}]} run function atrium:items/use/chargeable/staves/special_staff
+execute if data entity @s {equipment:{offhand:{components:{"minecraft:custom_data":{atrium_staff:1b,atrium_special_staff:1b}}}}} run function atrium:items/use/chargeable/staves/special_staff
 # Patreon
-execute if data entity @s {Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{atrium_patreon_casting_item:1b}}}]} run function atrium:items/use/chargeable/staves/patreon_casting_item
+# execute if data entity @s {equipment:{offhand:{components:{"minecraft:custom_data":{atrium_patreon_casting_item:1b}}}}} run function atrium:items/use/chargeable/staves/patreon_casting_item

@@ -11,7 +11,12 @@
               "type": "minecraft:ender_dragon"
             },
             "type": {
-              "is_magic": true
+              "tags": [
+                {
+                  "id": "atrium:single/dragon_breath",
+                  "expected": true
+                }
+              ]
             }
           }
         }

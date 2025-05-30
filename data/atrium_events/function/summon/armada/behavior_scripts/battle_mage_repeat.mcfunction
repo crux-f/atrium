@@ -5,7 +5,7 @@ execute if entity @a[tag=event] run schedule function atrium_events:summon/armad
 #
 # If the battle mage just summoned vexes AND no players are within 7 blocks, launch spell rockets down at their target.
 execute as @e[type=minecraft:evoker,tag=atrium_armada_battle_mage] at @s if data entity @s {SpellTicks:81} unless entity @a[distance=..7,gamemode=!spectator] run function atrium_events:summon/armada/behavior_scripts/spells/harming_rocket_volley
-# If there is a player within 7 blocks AND a raider within 25 blocks, teleport out of there.
+# If there is a player within 7 blocks AND a raider within 10-30 blocks, teleport out of there.
 execute as @e[type=minecraft:evoker,tag=atrium_armada_battle_mage] at @s if data entity @s {SpellTicks:81} if entity @a[distance=..7,gamemode=!spectator] if entity @n[type=#minecraft:raiders,distance=10..30,type=!evoker] run function atrium_events:summon/armada/behavior_scripts/spells/ripcord
 # If there is a player within 7 blocks and there isn't anyone to Ripcord to within 25 blocks, blast 'em.
 execute as @e[type=minecraft:evoker,tag=atrium_armada_battle_mage] at @s if data entity @s {SpellTicks:81} if entity @a[distance=..7,gamemode=!spectator] unless entity @n[type=#minecraft:raiders,distance=..25,type=!evoker] run function atrium_events:summon/armada/behavior_scripts/spells/flux_detonation

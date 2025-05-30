@@ -12,8 +12,7 @@
               {
                 "function": "set_components",
                 "components": {
-                  "minecraft:attribute_modifiers": {
-                    "modifiers": [
+                  "minecraft:attribute_modifiers": [
                       {
                         "id": "atrium:authority_attack_damage",
                         "type": "attack_damage",
@@ -42,14 +41,15 @@
                         "operation": "add_value",
                         "slot": "mainhand"
                       }
-                    ],
-                    "show_in_tooltip": false
+                  ],
+                  "minecraft:tooltip_display": {
+                    "hidden_components": [
+                      "attribute_modifiers"
+                    ]
                   },
                   "minecraft:enchantments": {
-                    "levels": {
                       "minecraft:sharpness": 6,
                       "minecraft:unbreaking": 5
-                    }
                   },
                   "minecraft:custom_model_data": {
                     "strings": [
@@ -122,8 +122,7 @@
                     "atrium_battleaxe": 1,
                     "atrium_iron_battleaxe": 1
                   },
-                  "minecraft:attribute_modifiers": {
-                    "modifiers": [
+                  "minecraft:attribute_modifiers": [
                       {
                         "id": "atrium:battleaxe_base_attack_damage",
                         "type": "attack_damage",
@@ -138,14 +137,15 @@
                         "operation": "add_value",
                         "slot": "mainhand"
                       }
-                    ],
-                    "show_in_tooltip": false
+                  ],
+                  "minecraft:tooltip_display": {
+                    "hidden_components": [
+                      "attribute_modifiers"
+                    ]
                   },
                   "minecraft:enchantments": {
-                    "levels": {
                       "atrium:feast": 1,
                       "minecraft:unbreaking": 3
-                    }
                   }
                 }
               },
@@ -224,8 +224,7 @@
               {
                 "function": "set_components",
                 "components": {
-                  "minecraft:attribute_modifiers": {
-                    "modifiers": [
+                  "minecraft:attribute_modifiers": [
                       {
                         "id": "atrium:staff_attack_damage",
                         "type": "attack_damage",
@@ -240,9 +239,7 @@
                         "operation": "add_multiplied_base",
                         "slot": "offhand"
                       }
-                    ],
-                    "show_in_tooltip": false
-                  },
+                  ],
                   "minecraft:rarity": "rare",
                   "minecraft:repair_cost": 99,
                   "minecraft:custom_data": {
@@ -257,10 +254,8 @@
                     ]
                   },
                   "minecraft:enchantments": {
-                    "levels": {
                       "atrium:surge": 1,
                       "atrium:rewound": 10
-                    }
                   }
                 }
               },

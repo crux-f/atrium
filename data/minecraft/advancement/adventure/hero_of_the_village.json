@@ -58,7 +58,11 @@
             "pattern": "minecraft:border"
           }
         ],
-        "minecraft:hide_additional_tooltip": {},
+        "minecraft:tooltip_display": {
+          "hidden_components": [
+            "minecraft:banner_patterns"
+          ]
+        },
         "minecraft:item_name": "{\"color\":\"gold\",\"translate\":\"block.minecraft.ominous_banner\"}"
       },
       "count": 1,

@@ -632,9 +632,7 @@
                 "function": "set_components",
                 "components": {
                   "minecraft:stored_enchantments": {
-                    "levels": {
                       "minecraft:mending": 1
-                    }
                   }
                 }
               }

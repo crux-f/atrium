@@ -15,9 +15,7 @@
                       "mainhand": {
                         "components": {
                           "minecraft:enchantments": {
-                            "levels": {
                               "atrium:concentration": 1
-                            }
                           }
                         }
                       }
@@ -32,9 +30,7 @@
                       "mainhand": {
                         "components": {
                           "minecraft:enchantments": {
-                            "levels": {
                               "atrium:concentration": 2
-                            }
                           }
                         }
                       }
@@ -49,9 +45,7 @@
                       "mainhand": {
                         "components": {
                           "minecraft:enchantments": {
-                            "levels": {
                               "atrium:concentration": 3
-                            }
                           }
                         }
                       }
@@ -66,9 +60,7 @@
                       "mainhand": {
                         "components": {
                           "minecraft:enchantments": {
-                            "levels": {
                               "atrium:concentration": 4
-                            }
                           }
                         }
                       }
@@ -83,9 +75,7 @@
                       "offhand": {
                         "components": {
                           "minecraft:enchantments": {
-                            "levels": {
                               "atrium:concentration": 1
-                            }
                           }
                         }
                       }
@@ -100,9 +90,7 @@
                       "offhand": {
                         "components": {
                           "minecraft:enchantments": {
-                            "levels": {
                               "atrium:concentration": 2
-                            }
                           }
                         }
                       }
@@ -117,9 +105,7 @@
                       "offhand": {
                         "components": {
                           "minecraft:enchantments": {
-                            "levels": {
                               "atrium:concentration": 3
-                            }
                           }
                         }
                       }
@@ -134,9 +120,7 @@
                       "offhand": {
                         "components": {
                           "minecraft:enchantments": {
-                            "levels": {
                               "atrium:concentration": 4
-                            }
                           }
                         }
                       }

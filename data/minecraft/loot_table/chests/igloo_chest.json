@@ -121,7 +121,11 @@
                     "color": "white"
                   }
                 ],
-                "minecraft:hide_additional_tooltip": {}
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "banner_patterns"
+                  ]
+                }
               }
             },
             {

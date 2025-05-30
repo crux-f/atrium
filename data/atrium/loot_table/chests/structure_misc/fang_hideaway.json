@@ -15,10 +15,8 @@
                 "function": "set_components",
                 "components": {
                   "minecraft:enchantments": {
-                    "levels": {
                       "minecraft:power": 3,
                       "minecraft:unbreaking": 2
-                    }
                   }
                 }
               },

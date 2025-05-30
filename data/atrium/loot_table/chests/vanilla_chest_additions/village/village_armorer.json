@@ -410,29 +410,8 @@
                     ]
                   },
                   "DisabledSlots": 4144959,
-                  "ArmorItems": [
-                    {
-                      "id": "minecraft:leather_boots",
-                      "count": 1,
-                      "components": {
-                        "minecraft:dyed_color": 16368383
-                      }
-                    },
-                    {
-                      "id": "minecraft:leather_leggings",
-                      "count": 1,
-                      "components": {
-                        "minecraft:dyed_color": 15967231
-                      }
-                    },
-                    {
-                      "id": "minecraft:leather_chestplate",
-                      "count": 1,
-                      "components": {
-                        "minecraft:dyed_color": 16747764
-                      }
-                    },
-                    {
+                  "equipment": {
+                    "head": {
                       "id": "minecraft:player_head",
                       "count": 1,
                       "components": {
@@ -451,8 +430,29 @@
                           ]
                         }
                       }
+                    },
+                    "chest": {
+                      "id": "minecraft:leather_chestplate",
+                      "count": 1,
+                      "components": {
+                        "minecraft:dyed_color": 16747764
+                      }
+                    },
+                    "legs": {
+                      "id": "minecraft:leather_leggings",
+                      "count": 1,
+                      "components": {
+                        "minecraft:dyed_color": 15967231
+                      }
+                    },
+                    "feet": {
+                      "id": "minecraft:leather_boots",
+                      "count": 1,
+                      "components": {
+                        "minecraft:dyed_color": 16368383
+                      }
                     }
-                  ]
+                  }
                 }
               }
             },
@@ -467,7 +467,7 @@
                 {
                   "color": "light_purple",
                   "italic": false,
-                  "text": "[Do No Release]"
+                  "text": "[Do Not Release]"
                 }
               ],
               "mode": "append"

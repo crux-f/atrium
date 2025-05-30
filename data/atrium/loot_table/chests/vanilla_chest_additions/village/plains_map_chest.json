@@ -101,7 +101,7 @@
           "functions": [
             {
               "function": "exploration_map",
-              "destination": "atrium:mineshaft",
+              "destination": "atrium:mineshafts",
               "decoration": "red_x",
               "skip_existing_chunks": true
             },

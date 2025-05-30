@@ -43,7 +43,7 @@ execute if score @s charge matches 60.. unless entity @e[tag=atrium_sanctum_lair
 # Priority 5: Fizzle Spell
 # 50% chance
 # Prerequisite: A nearby player is holding a staff
-execute if score @s charge matches 60.. if entity @p[scores={charge=10..},predicate=atrium:player/targetable_and_visible,distance=..25,nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{atrium_staff:1b}}}]}] run function atrium:entities/mob_spells/fizzle_spell
+execute if score @s charge matches 60.. if entity @p[scores={charge=10..},predicate=atrium:player/targetable_and_visible,distance=..25,nbt={equipment:{offhand:{components:{"minecraft:custom_data":{atrium_staff:1b}}}}}] run function atrium:entities/mob_spells/fizzle_spell
 #
 # Priority 6: Teleport out of Lair
 # 100% chance

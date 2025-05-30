@@ -20,6 +20,6 @@
         "show_toast": false,
         "announce_to_chat": false,
         "hidden": false,
-        "background": "minecraft:textures/block/white_terracotta.png"
+        "background": "minecraft:block/white_terracotta"
     }
 }

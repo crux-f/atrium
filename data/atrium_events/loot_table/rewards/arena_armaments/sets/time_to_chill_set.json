@@ -17,10 +17,8 @@
                   "atrium_time_to_chill_set": 1
                 },
                 "minecraft:enchantments": {
-                  "levels": {
                     "minecraft:fire_protection": 2,
                     "minecraft:unbreaking": 1
-                  }
                 },
                 "minecraft:attribute_modifiers": [
                   {
@@ -31,9 +29,11 @@
                     "slot": "head"
                   }
                 ],
-                "minecraft:dyed_color": {
-                  "rgb": 4712447,
-                  "show_in_tooltip": false
+                "minecraft:dyed_color": 4712447,
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:dyed_color"
+                  ]
                 }
               }
             },
@@ -86,10 +86,8 @@
                   "atrium_time_to_chill_set": 1
                 },
                 "minecraft:enchantments": {
-                  "levels": {
                     "minecraft:protection": 1,
                     "minecraft:unbreaking": 1
-                  }
                 },
                 "minecraft:attribute_modifiers": [
                   {
@@ -107,9 +105,11 @@
                     "slot": "chest"
                   }
                 ],
-                "minecraft:dyed_color": {
-                  "rgb": 6057215,
-                  "show_in_tooltip": false
+                "minecraft:dyed_color": 6057215,
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:dyed_color"
+                  ]
                 }
               }
             },
@@ -168,10 +168,8 @@
                   "atrium_time_to_chill_set": 1
                 },
                 "minecraft:enchantments": {
-                  "levels": {
                     "minecraft:protection": 1,
                     "minecraft:frost_walker": 1
-                  }
                 },
                 "minecraft:attribute_modifiers": [
                   {
@@ -189,9 +187,11 @@
                     "slot": "feet"
                   }
                 ],
-                "minecraft:dyed_color": {
-                  "rgb": 6057215,
-                  "show_in_tooltip": false
+                "minecraft:dyed_color": 6057215,
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:dyed_color"
+                  ]
                 }
               }
             },

@@ -20,5 +20,5 @@ execute if entity @e[tag=atrium_enchantable_wolf,distance=..10] run scoreboard p
 execute if entity @s[scores={valid_ingredients=4..}] at @s run tag @e[tag=atrium_enchantable_wolf,distance=..10] add atrium_enchanted_wolf
 execute if entity @s[scores={valid_ingredients=4..}] at @s run function atrium:formula_crafting/infusion/infusion_reset
 # Enchant the wolf if it ends up with both tags
-execute as @e[tag=atrium_enchantable_wolf,tag=atrium_enchanted_wolf,distance=..10] run data merge entity @s {Tags:["atrium_enchanted_wolf","atrium_hunting_enchanted","atrium_special","atrium_particle","atrium_dust_sometimes"],HandItems:[{id:"minecraft:iron_sword",count:1,components:{"minecraft:unbreakable":{},"minecraft:enchantments":{levels:{"minecraft:looting":1}}}},{}],HandDropChances:[-327.670F,0.0F]}
+execute as @e[tag=atrium_enchantable_wolf,tag=atrium_enchanted_wolf,distance=..10] run data merge entity @s {Tags:["atrium_enchanted_wolf","atrium_hunting_enchanted","atrium_special","atrium_particle","atrium_dust_sometimes"],equipment:{mainhand:{id:"minecraft:iron_sword",count:1,components:{"minecraft:unbreakable":{},"minecraft:enchantments":{"minecraft:looting":1}}}},drop_chances:{mainhand:0}}
 scoreboard players set @s valid_ingredients 0

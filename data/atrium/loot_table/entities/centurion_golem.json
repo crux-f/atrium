@@ -58,10 +58,12 @@
                   "atrium_eager_crystal": 1
                 },
                 "minecraft:enchantments": {
-                  "levels": {
                     "minecraft:unbreaking": 1
-                  },
-                  "show_in_tooltip": false
+                },
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:enchantments"
+                  ]
                 },
                 "minecraft:attribute_modifiers": [
                   {

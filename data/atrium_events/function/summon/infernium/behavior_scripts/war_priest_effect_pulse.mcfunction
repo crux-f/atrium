@@ -1,9 +1,9 @@
 # Pulse outward 10 blocks - On a entity-by-entity basis, 
 # Enemies: if they don't have wither, they get Wither 1 for 10 seconds. If they already have Wither, they get Wither 2 for 10 seconds.
-execute at @e[tag=atrium_infernium_war_priest] as @e[distance=..10,type=!#atrium:undead,predicate=atrium:effects/if_wither_any] run effect give @s minecraft:wither 10 1 false
-execute at @e[tag=atrium_infernium_war_priest] as @e[distance=..10,type=!#atrium:undead,predicate=!atrium:effects/if_wither_any] run effect give @s minecraft:wither 10 0 false
+execute at @e[tag=atrium_infernium_war_priest] as @e[distance=..10,type=!#minecraft:undead,predicate=atrium:effects/if_wither_any] run effect give @s minecraft:wither 10 1 false
+execute at @e[tag=atrium_infernium_war_priest] as @e[distance=..10,type=!#minecraft:undead,predicate=!atrium:effects/if_wither_any] run effect give @s minecraft:wither 10 0 false
 # Allies: Grant Resistance 1.
-execute at @e[tag=atrium_infernium_war_priest] run effect give @e[distance=..10,type=#atrium:undead] resistance 10 0 false
+execute at @e[tag=atrium_infernium_war_priest] run effect give @e[distance=..10,type=#minecraft:undead] resistance 10 0 false
 #
 # Particles + SFX
 execute at @e[tag=atrium_infernium_war_priest] run particle large_smoke ~ ~ ~ 1.5 1.25 1.5 0.1 60 normal

@@ -21,8 +21,7 @@
                       "atrium_dagger": 1,
                       "atrium_stone_dagger": 1
                     },
-                    "minecraft:attribute_modifiers": {
-                      "modifiers": [
+                    "minecraft:attribute_modifiers": [
                         {
                           "id": "atrium:dagger_attack_damage",
                           "type": "attack_damage",
@@ -37,13 +36,14 @@
                           "operation": "add_value",
                           "slot": "mainhand"
                         }
-                      ],
-                      "show_in_tooltip": false
+                    ],
+                    "minecraft:tooltip_display": {
+                      "hidden_components": [
+                        "attribute_modifiers"
+                      ]
                     },
                     "minecraft:enchantments": {
-                        "levels": {
                           "atrium:fuse_cutter": 1
-                        }
                       }
                   }
                 },
@@ -116,20 +116,14 @@
               {
                 "function": "set_components",
                 "components": {
-                  "minecraft:dyed_color": {
-                    "rgb": 2532940,
-                    "show_in_tooltip": false
-                  },
+                  "minecraft:dyed_color": 2532940,
                   "minecraft:trim": {
                     "material": "minecraft:copper",
-                    "pattern": "minecraft:wayfinder",
-                    "show_in_tooltip": false
+                    "pattern": "minecraft:wayfinder"
                   },
                   "minecraft:rarity": "uncommon",
                   "minecraft:enchantments": {
-                    "levels": {
                       "minecraft:unbreaking": 4
-                    }
                   },
                   "minecraft:attribute_modifiers": [
                     {
@@ -160,7 +154,13 @@
                       "operation": "add_multiplied_base",
                       "slot": "feet"
                     }
-                  ]
+                  ],
+                  "minecraft:tooltip_display": {
+                    "hidden_components": [
+                      "minecraft:dyed_color",
+                      "minecraft:trim"
+                    ]
+                  }
                 }
               },
               {
@@ -213,11 +213,9 @@
                     }
                   ],
                   "minecraft:enchantments": {
-                    "levels": {
                       "minecraft:infinity": 1,
                       "minecraft:mending": 1,
                       "minecraft:unbreaking": 3
-                    }
                   },
                   "minecraft:repair_cost": 99,
                   "minecraft:custom_model_data": {
