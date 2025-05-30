@@ -22,10 +22,10 @@ execute positioned ~3 ~ ~-2 if block ~ ~ ~ minecraft:air run scoreboard players 
 execute positioned ~2 ~1 ~-2 if block ~ ~ ~ minecraft:air run scoreboard players add @s valid_ingredients 1
 execute positioned ~3 ~1 ~-2 if block ~ ~ ~ minecraft:air run scoreboard players add @s valid_ingredients 1
 #
-execute positioned ~2 ~ ~-2 unless block ~ ~ ~ minecraft:air run summon minecraft:snowball ~ ~ ~ {NoGravity:1b,Glowing:1b,Tags:["atrium_special","atrium_temporary_entity","atrium_upgrade_marker"],CustomName:'{"text":"Upgrade Block Marker","italic":false}',Item:{id:"minecraft:barrier",count:1}}
-execute positioned ~3 ~ ~-2 unless block ~ ~ ~ minecraft:air run summon minecraft:snowball ~ ~ ~ {NoGravity:1b,Glowing:1b,Tags:["atrium_special","atrium_temporary_entity","atrium_upgrade_marker"],CustomName:'{"text":"Upgrade Block Marker","italic":false}',Item:{id:"minecraft:barrier",count:1}}
-execute positioned ~2 ~1 ~-2 unless block ~ ~ ~ minecraft:air run summon minecraft:snowball ~ ~ ~ {NoGravity:1b,Glowing:1b,Tags:["atrium_special","atrium_temporary_entity","atrium_upgrade_marker"],CustomName:'{"text":"Upgrade Block Marker","italic":false}',Item:{id:"minecraft:barrier",count:1}}
-execute positioned ~3 ~1 ~-2 unless block ~ ~ ~ minecraft:air run summon minecraft:snowball ~ ~ ~ {NoGravity:1b,Glowing:1b,Tags:["atrium_special","atrium_temporary_entity","atrium_upgrade_marker"],CustomName:'{"text":"Upgrade Block Marker","italic":false}',Item:{id:"minecraft:barrier",count:1}}
+execute positioned ~2 ~ ~-2 unless block ~ ~ ~ minecraft:air run summon minecraft:snowball ~ ~ ~ {NoGravity:1b,Glowing:1b,Tags:["atrium_special","atrium_temporary_entity","atrium_upgrade_marker"],CustomName:{text:"Upgrade Block Marker","italic":false},Item:{id:"minecraft:barrier",count:1}}
+execute positioned ~3 ~ ~-2 unless block ~ ~ ~ minecraft:air run summon minecraft:snowball ~ ~ ~ {NoGravity:1b,Glowing:1b,Tags:["atrium_special","atrium_temporary_entity","atrium_upgrade_marker"],CustomName:{text:"Upgrade Block Marker","italic":false},Item:{id:"minecraft:barrier",count:1}}
+execute positioned ~2 ~1 ~-2 unless block ~ ~ ~ minecraft:air run summon minecraft:snowball ~ ~ ~ {NoGravity:1b,Glowing:1b,Tags:["atrium_special","atrium_temporary_entity","atrium_upgrade_marker"],CustomName:{text:"Upgrade Block Marker","italic":false},Item:{id:"minecraft:barrier",count:1}}
+execute positioned ~3 ~1 ~-2 unless block ~ ~ ~ minecraft:air run summon minecraft:snowball ~ ~ ~ {NoGravity:1b,Glowing:1b,Tags:["atrium_special","atrium_temporary_entity","atrium_upgrade_marker"],CustomName:{text:"Upgrade Block Marker","italic":false},Item:{id:"minecraft:barrier",count:1}}
 #
 scoreboard players set @e[type=minecraft:snowball,distance=..10,tag=atrium_upgrade_marker] charge -200
 #

@@ -5,8 +5,8 @@ execute at @a[tag=atrium_rewind_item_caster] anchored eyes run particle minecraf
 # Repair the item. Using Curse of Vanishing levels to track how many times it has been rewound.
 #
 # If it has been rewound 5 times, it can no longer be repaired.
-execute as @a[tag=atrium_rewind_item_caster] at @s if data entity @s {SelectedItem:{components:{"minecraft:enchantments":{levels:{"atrium:rewound":5}}}}} run function atrium:triggers/magic/spell_failure_effects
-execute as @a[tag=atrium_rewind_item_caster] at @s if data entity @s {SelectedItem:{components:{"minecraft:enchantments":{levels:{"atrium:rewound":5}}}}} run tellraw @s {"text":"(Even miracles only go so far.)","italic":true,"color":"gray"}
+execute as @a[tag=atrium_rewind_item_caster] at @s if data entity @s {SelectedItem:{components:{"minecraft:enchantments":{"atrium:rewound":5}}}} run function atrium:triggers/magic/spell_failure_effects
+execute as @a[tag=atrium_rewind_item_caster] at @s if data entity @s {SelectedItem:{components:{"minecraft:enchantments":{"atrium:rewound":5}}}} run tellraw @s {"text":"(Even miracles only go so far.)","italic":true,"color":"gray"}
 # If it has been rewound 4 times, repair 20% of its durability.
 execute as @a[tag=atrium_rewind_item_caster] run item modify entity @s weapon.mainhand atrium:rewind_item/rewind_1_r5
 # If it has been rewound 3 times, repair 40% of its durability.

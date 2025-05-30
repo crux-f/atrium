@@ -2,7 +2,7 @@
 tag @s add atrium_return_target
 # Summon a temporary "hook" entity. I need to use this because you can't edit player coordinates directly, and the only way to teleport back to stored
 # coordinates (to my knowledge) is with something like the below 'execute store' command.
-summon minecraft:marker ~ ~ ~ {CustomNameVisible:0b,Tags:["atrium_return_spell_hook"],CustomName:'{"text":"Return Spell Hook","color":"green","italic":false}'}
+summon minecraft:marker ~ ~ ~ {CustomNameVisible:0b,Tags:["atrium_return_spell_hook"],CustomName:{text:"Return Spell Hook","color":"green","italic":false}}
 execute as @e[tag=atrium_return_spell_hook] run function atrium:triggers/magic/spells/return_reel_player
 #
 # SFX

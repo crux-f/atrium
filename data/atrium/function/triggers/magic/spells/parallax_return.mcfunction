@@ -1,6 +1,6 @@
 # Summon a temporary "hook" entity. I need to use this because you can't edit player coordinates directly, and the only way to teleport back to stored
 # coordinates (to my knowledge) is with something like the below 'execute store' command.
-summon marker ~ ~ ~ {CustomNameVisible:0b,Tags:["atrium_parallax_spell_hook"],CustomName:'{"text":"Parallax Spell Hook","color":"gray","italic":false}'}
+summon marker ~ ~ ~ {CustomNameVisible:0b,Tags:["atrium_parallax_spell_hook"],CustomName:{text:"Parallax Spell Hook","color":"gray","italic":false}}
 execute as @e[tag=atrium_parallax_spell_hook] run function atrium:triggers/magic/spells/parallax_reel_entity
 # Having to switch dimension after arrival unfortunately
 execute if entity @s[scores={atrium_parallax_dim=-1}] at @s in atrium:between_worlds run tp @s ~ ~ ~

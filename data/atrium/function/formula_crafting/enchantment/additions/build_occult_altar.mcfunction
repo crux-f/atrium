@@ -11,9 +11,9 @@ execute positioned ~ ~ ~-5 run setblock ~ ~ ~ minecraft:dropper[facing=down] rep
 execute positioned ~1 ~ ~-5 run setblock ~ ~ ~ minecraft:dropper[facing=down] replace
 execute positioned ~-1 ~ ~-5 run setblock ~ ~ ~ minecraft:dropper[facing=down] replace
 # Custom Name
-execute positioned ~ ~ ~-5 if block ~ ~ ~ minecraft:dropper run data merge block ~ ~ ~ {CustomName:'{"text":"Occult Altar","color":"red","italic":false}'}
-execute positioned ~1 ~ ~-5 if block ~ ~ ~ minecraft:dropper run data merge block ~ ~ ~ {CustomName:'{"text":"Occult Altar","color":"red","italic":false}'}
-execute positioned ~-1 ~ ~-5 if block ~ ~ ~ minecraft:dropper run data merge block ~ ~ ~ {CustomName:'{"text":"Occult Altar","color":"red","italic":false}'}
+execute positioned ~ ~ ~-5 if block ~ ~ ~ minecraft:dropper run data merge block ~ ~ ~ {CustomName:{text:"Occult Altar","color":"red","italic":false}}
+execute positioned ~1 ~ ~-5 if block ~ ~ ~ minecraft:dropper run data merge block ~ ~ ~ {CustomName:{text:"Occult Altar","color":"red","italic":false}}
+execute positioned ~-1 ~ ~-5 if block ~ ~ ~ minecraft:dropper run data merge block ~ ~ ~ {CustomName:{text:"Occult Altar","color":"red","italic":false}}
 # Decor
 execute positioned ~ ~1 ~-5 run setblock ~ ~ ~ minecraft:gray_carpet replace
 execute positioned ~1 ~1 ~-5 run setblock ~ ~ ~ minecraft:black_candle[candles=2,lit=true] replace

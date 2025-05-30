@@ -63,16 +63,16 @@ execute positioned ~-2 ~ ~-2 as @e[type=minecraft:glow_item_frame,distance=..1.5
 execute positioned ~-2 ~ ~-2 if data entity @e[type=minecraft:glow_item_frame,distance=..1.5,limit=1] Item.components.minecraft:stored_enchantments.levels.minecraft:piercing at @s run function atrium:formula_crafting/enchantment/e_recipes/backstabbing_1
 #
 # Start Backstabbing II - Check NORTH for Any Sword enchanted with Backstabbing I
-execute positioned ~ ~ ~-3 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{components:{"minecraft:enchantments":{levels:{"atrium:backstabbing":1}}}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
-execute positioned ~ ~ ~-3 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{components:{"minecraft:enchantments":{levels:{"atrium:backstabbing":1}}}}}] at @s run function atrium:formula_crafting/enchantment/e_recipes/backstabbing_2
-execute positioned ~ ~ ~-3 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{components:{"minecraft:stored_enchantments":{levels:{"atrium:backstabbing":1}}}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
-execute positioned ~ ~ ~-3 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{components:{"minecraft:stored_enchantments":{levels:{"atrium:backstabbing":1}}}}}] at @s run function atrium:formula_crafting/enchantment/e_recipes/backstabbing_2
+execute positioned ~ ~ ~-3 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{components:{"minecraft:enchantments":{"atrium:backstabbing":1}}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~-3 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{components:{"minecraft:enchantments":{"atrium:backstabbing":1}}}}] at @s run function atrium:formula_crafting/enchantment/e_recipes/backstabbing_2
+execute positioned ~ ~ ~-3 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{components:{"minecraft:stored_enchantments":{"atrium:backstabbing":1}}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~-3 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{components:{"minecraft:stored_enchantments":{"atrium:backstabbing":1}}}}] at @s run function atrium:formula_crafting/enchantment/e_recipes/backstabbing_2
 #
 # Start Backstabbing III - Check NORTH for Any Sword enchanted with Backstabbing II
-execute positioned ~ ~ ~-3 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{components:{"minecraft:enchantments":{levels:{"atrium:backstabbing":2}}}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
-execute positioned ~ ~ ~-3 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{components:{"minecraft:enchantments":{levels:{"atrium:backstabbing":2}}}}}] at @s run function atrium:formula_crafting/enchantment/e_recipes/backstabbing_3
-execute positioned ~ ~ ~-3 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{components:{"minecraft:stored_enchantments":{levels:{"atrium:backstabbing":2}}}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
-execute positioned ~ ~ ~-3 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{components:{"minecraft:stored_enchantments":{levels:{"atrium:backstabbing":2}}}}}] at @s run function atrium:formula_crafting/enchantment/e_recipes/backstabbing_3
+execute positioned ~ ~ ~-3 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{components:{"minecraft:enchantments":{"atrium:backstabbing":2}}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~-3 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{components:{"minecraft:enchantments":{"atrium:backstabbing":2}}}}] at @s run function atrium:formula_crafting/enchantment/e_recipes/backstabbing_3
+execute positioned ~ ~ ~-3 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{components:{"minecraft:stored_enchantments":{"atrium:backstabbing":2}}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~-3 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{components:{"minecraft:stored_enchantments":{"atrium:backstabbing":2}}}}] at @s run function atrium:formula_crafting/enchantment/e_recipes/backstabbing_3
 #
 # Start Fuse Cutter - Check NORTH WEST for any item enchanted with Blast Protection
 execute positioned ~-2 ~ ~-2 if data entity @e[type=minecraft:glow_item_frame,distance=..1.5,limit=1] Item.components.minecraft:enchantments.levels.minecraft:blast_protection run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
@@ -81,10 +81,10 @@ execute positioned ~-2 ~ ~-2 if data entity @e[type=minecraft:glow_item_frame,di
 execute positioned ~-2 ~ ~-2 if data entity @e[type=minecraft:glow_item_frame,distance=..1.5,limit=1] Item.components.minecraft:stored_enchantments.levels.minecraft:blast_protection at @s run function atrium:formula_crafting/enchantment/e_recipes/fuse_cutter
 #
 # Start Shard Touch - Check NORTH WEST for any item enchanted with Silk Touch
-execute positioned ~-2 ~ ~-2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{components:{"minecraft:enchantments":{levels:{"minecraft:silk_touch":1}}}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
-execute positioned ~-2 ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{components:{"minecraft:enchantments":{levels:{"minecraft:silk_touch":1}}}}}] at @s run function atrium:formula_crafting/enchantment/e_recipes/shard_touch
-execute positioned ~-2 ~ ~-2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{components:{"minecraft:stored_enchantments":{levels:{"minecraft:silk_touch":1}}}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
-execute positioned ~-2 ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{components:{"minecraft:stored_enchantments":{levels:{"minecraft:silk_touch":1}}}}}] at @s run function atrium:formula_crafting/enchantment/e_recipes/shard_touch
+execute positioned ~-2 ~ ~-2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{components:{"minecraft:enchantments":{"minecraft:silk_touch":1}}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~-2 ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{components:{"minecraft:enchantments":{"minecraft:silk_touch":1}}}}] at @s run function atrium:formula_crafting/enchantment/e_recipes/shard_touch
+execute positioned ~-2 ~ ~-2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{components:{"minecraft:stored_enchantments":{"minecraft:silk_touch":1}}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~-2 ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{components:{"minecraft:stored_enchantments":{"minecraft:silk_touch":1}}}}] at @s run function atrium:formula_crafting/enchantment/e_recipes/shard_touch
 #
 # Start Sentinel - Check NORTH WEST for any item enchanted with Unbreaking
 execute positioned ~-2 ~ ~-2 if data entity @e[type=minecraft:glow_item_frame,distance=..1.5,limit=1] Item.components.minecraft:enchantments.levels.minecraft:unbreaking run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
@@ -99,16 +99,16 @@ execute positioned ~-2 ~ ~-2 if data entity @e[type=minecraft:glow_item_frame,di
 execute positioned ~-2 ~ ~-2 if data entity @e[type=minecraft:glow_item_frame,distance=..1.5,limit=1] Item.components.minecraft:stored_enchantments.levels.minecraft:respiration at @s run function atrium:formula_crafting/enchantment/e_recipes/concentration_1
 #
 # Start Concentration II - Check NORTH for Any Staff enchanted with Concentration I
-execute positioned ~ ~ ~-3 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{components:{"minecraft:enchantments":{levels:{"atrium:concentration":1}}}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
-execute positioned ~ ~ ~-3 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{components:{"minecraft:enchantments":{levels:{"atrium:concentration":1}}}}}] at @s run function atrium:formula_crafting/enchantment/e_recipes/concentration_2
-execute positioned ~ ~ ~-3 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{components:{"minecraft:stored_enchantments":{levels:{"atrium:concentration":1}}}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
-execute positioned ~ ~ ~-3 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{components:{"minecraft:stored_enchantments":{levels:{"atrium:concentration":1}}}}}] at @s run function atrium:formula_crafting/enchantment/e_recipes/concentration_2
+execute positioned ~ ~ ~-3 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{components:{"minecraft:enchantments":{"atrium:concentration":1}}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~-3 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{components:{"minecraft:enchantments":{"atrium:concentration":1}}}}] at @s run function atrium:formula_crafting/enchantment/e_recipes/concentration_2
+execute positioned ~ ~ ~-3 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{components:{"minecraft:stored_enchantments":{"atrium:concentration":1}}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~-3 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{components:{"minecraft:stored_enchantments":{"atrium:concentration":1}}}}] at @s run function atrium:formula_crafting/enchantment/e_recipes/concentration_2
 #
 # Start Concentration III - Check NORTH for Any Staff enchanted with Concentration II
-execute positioned ~ ~ ~-3 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{components:{"minecraft:enchantments":{levels:{"atrium:concentration":2}}}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
-execute positioned ~ ~ ~-3 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{components:{"minecraft:enchantments":{levels:{"atrium:concentration":2}}}}}] at @s run function atrium:formula_crafting/enchantment/e_recipes/concentration_3
-execute positioned ~ ~ ~-3 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{components:{"minecraft:stored_enchantments":{levels:{"atrium:concentration":2}}}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
-execute positioned ~ ~ ~-3 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{components:{"minecraft:stored_enchantments":{levels:{"atrium:concentration":2}}}}}] at @s run function atrium:formula_crafting/enchantment/e_recipes/concentration_3
+execute positioned ~ ~ ~-3 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{components:{"minecraft:enchantments":{"atrium:concentration":2}}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~-3 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{components:{"minecraft:enchantments":{"atrium:concentration":2}}}}] at @s run function atrium:formula_crafting/enchantment/e_recipes/concentration_3
+execute positioned ~ ~ ~-3 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{components:{"minecraft:stored_enchantments":{"atrium:concentration":2}}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~-3 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{components:{"minecraft:stored_enchantments":{"atrium:concentration":2}}}}] at @s run function atrium:formula_crafting/enchantment/e_recipes/concentration_3
 #
 # Start Smelting - Check NORTH WEST for any item enchanted with Fire Aspect
 execute positioned ~-2 ~ ~-2 if data entity @e[type=minecraft:glow_item_frame,distance=..1.5,limit=1] Item.components.minecraft:enchantments.levels.minecraft:fire_aspect run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal

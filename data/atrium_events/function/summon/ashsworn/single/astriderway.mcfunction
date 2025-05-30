@@ -1,2 +1,2 @@
 # Summon 1 War Strider
-summon strider ~ ~ ~ {Team:"ashsworn",PersistenceRequired:1b,Saddle:1b,Tags:["atrium_arstriderway"],CustomName:'{"text":"Arstriderway","color":"green","italic":false}',active_effects:[{id:"minecraft:speed",amplifier:0b,duration:-1,show_particles:1b,ambient:1b}],Attributes:[{Name:"generic.armor",Base:10},{Name:"generic.armor_toughness",Base:2}]}
+summon strider ~ ~ ~ {Team:"ashsworn",PersistenceRequired:1b,Saddle:1b,Tags:["atrium_arstriderway"],CustomName:{text:"Arstriderway","color":"green","italic":false},active_effects:[{id:"minecraft:speed",amplifier:0b,duration:-1,show_particles:1b,ambient:1b}],Attributes:[{Name:"generic.armor",Base:10},{Name:"generic.armor_toughness",Base:2}]}

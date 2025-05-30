@@ -3,9 +3,9 @@
 #
 # Can't believe I'm doing this
 # Set down 3 chests. 
-execute at @s run setblock ~ ~ ~ chest[type=single]{Lock:"atrium_old_inv_key",CustomName:'{"text":"Rapture Chest","color":"light_purple","italic":false}'} destroy
-execute at @s run setblock ~ ~1 ~ chest[type=single]{Lock:"atrium_old_inv_key",CustomName:'{"text":"Rapture Chest","color":"light_purple","italic":false}'} destroy
-execute at @s run setblock ~ ~2 ~ chest[type=single]{Lock:"atrium_old_inv_key",CustomName:'{"text":"Rapture Ender Chest","color":"dark_purple","italic":false}'} destroy
+execute at @s run setblock ~ ~ ~ chest[type=single]{Lock:"atrium_old_inv_key",CustomName:{text:"Rapture Chest","color":"light_purple","italic":false}} destroy
+execute at @s run setblock ~ ~1 ~ chest[type=single]{Lock:"atrium_old_inv_key",CustomName:{text:"Rapture Chest","color":"light_purple","italic":false}} destroy
+execute at @s run setblock ~ ~2 ~ chest[type=single]{Lock:"atrium_old_inv_key",CustomName:{text:"Rapture Ender Chest","color":"dark_purple","italic":false}} destroy
 #
 # Copy your entire inventory into them
 execute at @s run item replace block ~ ~ ~ container.0 from entity @s armor.head
@@ -111,7 +111,7 @@ clear @s
 #
 # Spawn FX 1
 # Outdated 1.21 v v v
-# execute at @s run summon firework_rocket ~ ~ ~ {CustomNameVisible:1b,CustomName:'{"text":"Rapture, Baby","color":"yellow","italic":false}',FireworksItem:{id:"minecraft:gold_block",Count:1,tag:{Fireworks:{Explosions:[{Type:1,Flicker:1b,Trail:1b,Colors:[I;15007539],FadeColors:[I;16762969]}]}}}}
+# execute at @s run summon firework_rocket ~ ~ ~ {CustomNameVisible:1b,CustomName:{text:"Rapture, Baby","color":"yellow","italic":false},FireworksItem:{id:"minecraft:gold_block",count:1,tag:{Fireworks:{Explosions:[{Type:1,Flicker:1,Trail:1b,Colors:[I;15007539],FadeColors:[I;16762969]}]}}}}
 #
 # Clear gameplay advancements
 # execute as @s run function atrium:spawn/advancement_revoke
@@ -119,7 +119,7 @@ clear @s
 # And whisk you away to the Public Void
 execute in atrium:between_worlds run tp 36734.5 102.5 -2715.5
 # Outdated 1.21 v v v
-# execute in atrium:between_worlds positioned 36734.5 90 -2715.5 run summon firework_rocket ~ ~ ~ {CustomNameVisible:1b,CustomName:'{"text":"Rapture, Baby","color":"yellow","italic":false}',FireworksItem:{id:"minecraft:gold_block",Count:1,tag:{Fireworks:{Explosions:[{Type:1,Flicker:1b,Trail:1b,Colors:[I;15007539],FadeColors:[I;16762969]}]}}}}
+# execute in atrium:between_worlds positioned 36734.5 90 -2715.5 run summon firework_rocket ~ ~ ~ {CustomNameVisible:1b,CustomName:{text:"Rapture, Baby","color":"yellow","italic":false},FireworksItem:{id:"minecraft:gold_block",count:1,tag:{Fireworks:{Explosions:[{Type:1,Flicker:1,Trail:1b,Colors:[I;15007539],FadeColors:[I;16762969]}]}}}}
 #
 # Seamwalker Patrons Only: Give Seamwalker's Door
 execute if entity @s[name="Konobeat"] as @s run function atrium:items/give/placeable_structures/seamwalkers_door_placer

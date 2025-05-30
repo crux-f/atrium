@@ -2,8 +2,8 @@
 tag @s add fx_travel
 #
 # Determine the multiplier (XP cost = 1% of the travel distance for compasses attached to Waystones, 5% for all other lodestones)
-execute at @s positioned ~-5 ~2 ~ as @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{components:{"minecraft:enchantments":{levels:{"atrium:attunement":1}}}}}] run scoreboard players set @s atrium_xp_multiplier -99
-execute at @s positioned ~-5 ~2 ~ as @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{components:{"minecraft:lodestone_tracker":{}}}},nbt=!{Item:{components:{"minecraft:enchantments":{levels:{"atrium:attunement":1}}}}}] run scoreboard players set @s atrium_xp_multiplier -95
+execute at @s positioned ~-5 ~2 ~ as @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{components:{"minecraft:enchantments":{"atrium:attunement":1}}}}] run scoreboard players set @s atrium_xp_multiplier -99
+execute at @s positioned ~-5 ~2 ~ as @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{components:{"minecraft:lodestone_tracker":{}}}},nbt=!{Item:{components:{"minecraft:enchantments":{"atrium:attunement":1}}}}] run scoreboard players set @s atrium_xp_multiplier -95
 #
 # Add 100 to the multiplier and store the value 100 in the item frame's Charge score (for % math)
 execute at @s positioned ~-5 ~2 ~ as @e[type=minecraft:item_frame,distance=..1.5,nbt={Item:{components:{"minecraft:lodestone_tracker":{}}}}] run scoreboard players add @s atrium_xp_multiplier 100

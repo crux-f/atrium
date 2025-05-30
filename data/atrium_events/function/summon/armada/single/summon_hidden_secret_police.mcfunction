@@ -1,3 +1,3 @@
 # Summon 1 Secret Police (Disguised) 
 # Note: Transformed with /data 
-summon pillager ~ ~ ~ {CustomNameVisible:0b,Silent:1b,DeathLootTable:"atrium_events:entities/armada/agent_misc",PersistenceRequired:1b,Health:60f,Team:"armada",Tags:["atrium_disguised","atrium_hidden_secret_police"],CustomName:'{"text":"Armada Secret Police","color":"gray","italic":false}',ActiveEffects:[{Id:14,Amplifier:0b,Duration:999999999,ShowParticles:0b}],Attributes:[{Name:"generic.max_health",Base:60},{Name:"generic.follow_range",Base:0}]}
+summon pillager ~ ~ ~ {CustomNameVisible:0b,Silent:1b,DeathLootTable:"atrium_events:entities/armada/agent_misc",PersistenceRequired:1b,Health:60f,Team:"atrium_armada",Tags:["atrium_disguised","atrium_hidden_secret_police"],CustomName:{text:"Armada Secret Police","color":"gray","italic":false},ActiveEffects:[{Id:14,Amplifier:0b,Duration:999999999,ShowParticles:0b}],Attributes:[{Name:"generic.max_health",Base:60},{Name:"generic.follow_range",Base:0}]}

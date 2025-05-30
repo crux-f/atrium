@@ -32,7 +32,7 @@ execute positioned ~-2 ~ ~-2 run kill @e[distance=..1.5,type=minecraft:glow_item
 execute positioned ~-2 ~ ~-2 run particle minecraft:enchanted_hit ~ ~ ~ 0.1 0.5 0.1 0.1 15
 #
 execute positioned ~ ~ ~ run setblock ~ ~ ~ minecraft:air
-execute positioned ~ ~ ~ run summon minecraft:item ~ ~1 ~ {NoGravity:1b,Glowing:1b,Item:{id:"minecraft:player_head",count:1b,components:{"minecraft:lore":['{"text":"Space Required:","color":"gray","italic":false}','{"text":"x9,y3,z7","color":"dark_gray","italic":false}','{"text":" "}','{"text":"When Placed:","color":"gray","italic":false}','{"text":"Generates a structure ","color":"blue","italic":false}'],"minecraft:item_name":'{"text":"Runic Codex"}',"minecraft:profile":{id:[I;453648658,-1501608406,-1743325056,-1172242773],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTUyNjgwNzc0MDkwYTVjZDFjNmZkMDgwYjZkNGFkOTkwZWViYzA0MTE4MjBlMTkyNmM5OWIyMTExZTJjYjRiNyJ9fX0="}]},"minecraft:custom_data":{runic_codex_placer:1b}}}}
+execute positioned ~ ~ ~ run summon minecraft:item ~ ~1 ~ {NoGravity:1b,Glowing:1b,Item:{id:"minecraft:player_head",count:1,components:{"minecraft:lore":[{text:"Space Required:","color":"gray","italic":false},{text:"x9,y3,z7","color":"dark_gray","italic":false},{text:" "},{text:"When Placed:","color":"gray","italic":false},{text:"Generates a structure ","color":"blue","italic":false}],"minecraft:item_name":{text:"Runic Codex"},"minecraft:profile":{id:[I;453648658,-1501608406,-1743325056,-1172242773],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTUyNjgwNzc0MDkwYTVjZDFjNmZkMDgwYjZkNGFkOTkwZWViYzA0MTE4MjBlMTkyNmM5OWIyMTExZTJjYjRiNyJ9fX0="}]},"minecraft:custom_data":{runic_codex_placer:1b}}}}
 #
 # If the Occult Altar Upgrade is installed, disassemble that as well.
 execute if data entity @s data.occult_altar_installed positioned ~ ~1 ~-5 run setblock ~ ~ ~ minecraft:air
@@ -42,10 +42,10 @@ execute if data entity @s data.occult_altar_installed positioned ~ ~ ~-5 run set
 execute if data entity @s data.occult_altar_installed positioned ~1 ~ ~-5 run setblock ~ ~ ~ minecraft:air
 execute if data entity @s data.occult_altar_installed positioned ~-1 ~ ~-5 run setblock ~ ~ ~ minecraft:air
 #
-execute if data entity @s data.occult_altar_installed run summon minecraft:item ~ ~1 ~ {NoGravity:1b,Glowing:1b,Item:{id:"minecraft:gray_carpet",count:1b}}
-execute if data entity @s data.occult_altar_installed run summon minecraft:item ~ ~1 ~ {NoGravity:1b,Glowing:1b,Item:{id:"minecraft:black_candle",count:4b}}
-execute if data entity @s data.occult_altar_installed run summon minecraft:item ~ ~1 ~ {NoGravity:1b,Glowing:1b,Item:{id:"minecraft:cobblestone",count:2b}}
-execute if data entity @s data.occult_altar_installed run summon minecraft:item ~ ~1 ~ {NoGravity:1b,Glowing:1b,Item:{id:"minecraft:redstone_block",count:1b}}
+execute if data entity @s data.occult_altar_installed run summon minecraft:item ~ ~1 ~ {NoGravity:1b,Glowing:1b,Item:{id:"minecraft:gray_carpet",count:1}}
+execute if data entity @s data.occult_altar_installed run summon minecraft:item ~ ~1 ~ {NoGravity:1b,Glowing:1b,Item:{id:"minecraft:black_candle",count:4}}
+execute if data entity @s data.occult_altar_installed run summon minecraft:item ~ ~1 ~ {NoGravity:1b,Glowing:1b,Item:{id:"minecraft:cobblestone",count:2}}
+execute if data entity @s data.occult_altar_installed run summon minecraft:item ~ ~1 ~ {NoGravity:1b,Glowing:1b,Item:{id:"minecraft:redstone_block",count:1}}
 # Remove entity
 kill @s
 # Cleanup

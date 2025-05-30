@@ -7,9 +7,9 @@ execute if data entity @s {Inventory:[{Slot:-106b,components:{"minecraft:custom_
 execute if data entity @s {Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{atrium_staff_lv:3b}}}]} run scoreboard players add @s charge 3
 #
 # SURGE Enchantment - Staves charge 2x faster
-execute if data entity @s {Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{atrium_staff_lv:1b},"minecraft:enchantments":{levels:{"atrium:surge":1}}}}]} run scoreboard players add @s charge 1
-execute if data entity @s {Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{atrium_staff_lv:2b},"minecraft:enchantments":{levels:{"atrium:surge":1}}}}]} run scoreboard players add @s charge 2
-execute if data entity @s {Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{atrium_staff_lv:3b},"minecraft:enchantments":{levels:{"atrium:surge":1}}}}]} run scoreboard players add @s charge 3
+execute if data entity @s {Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{atrium_staff_lv:1b},"minecraft:enchantments":{"atrium:surge":1}}}]} run scoreboard players add @s charge 1
+execute if data entity @s {Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{atrium_staff_lv:2b},"minecraft:enchantments":{"atrium:surge":1}}}]} run scoreboard players add @s charge 2
+execute if data entity @s {Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{atrium_staff_lv:3b},"minecraft:enchantments":{"atrium:surge":1}}}]} run scoreboard players add @s charge 3
 #
 # At the 1, 2, and 3 second marks, absorb XP and play a sound.
 # Level 1

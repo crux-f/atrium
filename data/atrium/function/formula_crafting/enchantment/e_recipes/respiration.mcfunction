@@ -62,7 +62,7 @@ execute positioned ~2 ~ ~2 if entity @e[type=minecraft:glow_item_frame,distance=
 # Check for a nearby player (within 10 blocks) who has at least 10 levels of XP
 execute if entity @a[distance=..10,gamemode=!spectator,level=10..] run scoreboard players add @s valid_ingredients 1
 #
-execute if entity @s[scores={valid_ingredients=8..}] run summon item ~ ~0.5 ~ {Tags:["atrium_formula_product"],Motion:[0.0,0.02,0.0],NoGravity:1b,Glowing:1b,Item:{id:"minecraft:egg",count:1,components:{"minecraft:item_name":{"text":"Extremely Reportable Egg"},"minecraft:lore":[{"text":"Seems like something you"},{"text":"should report to the Admins."}],"minecraft:custom_model_data":{strings:["atrium_strange_egg"]},"minecraft:custom_data":{atrium_extremely_reportable_egg:1}}}}
+execute if entity @s[scores={valid_ingredients=8..}] run summon item ~ ~0.5 ~ {Tags:["atrium_formula_product"],Motion:[0.0,0.02,0.0],NoGravity:1b,Glowing:1b,Item:{id:"minecraft:egg",count:1,components:{"minecraft:item_name":{"text":"Extremely Reportale Egg"},"minecraft:lore":[{"text":"Seems like something you"},{"text":"should report to the Admins."}],"minecraft:custom_model_data":{strings:["atrium_strange_egg"]},"minecraft:custom_data":{atrium_extremely_reportable_egg:1}}}}
 execute if entity @s[scores={valid_ingredients=8..}] at @s run item replace entity @e[limit=1,sort=nearest,tag=atrium_formula_product] container.0 with minecraft:enchanted_book[minecraft:stored_enchantments={"minecraft:respiration":1}]
 execute if entity @s[scores={valid_ingredients=8..}] run function atrium:formula_crafting/enchantment/enchantment_reset
 execute if entity @s[scores={valid_ingredients=8..}] positioned ~ ~ ~-7 run advancement grant @p[distance=..5,gamemode=!spectator] only atrium:magic/enchanter_ii

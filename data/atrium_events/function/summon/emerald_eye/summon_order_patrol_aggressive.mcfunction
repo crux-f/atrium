@@ -10,7 +10,7 @@ function atrium_events:summon/emerald_eye/single/summon_order_guard
 function atrium_events:summon/emerald_eye/single/summon_order_cavalier
 #
 # Give Enforcer banner and give them patrol data
-data merge entity @e[tag=atrium_taunt_ability,limit=1,sort=nearest,distance=..3] {Tags:["atrium_ominous"],ArmorItems:[{},{},{},{id:"minecraft:black_banner",Count:1b,tag:{display:{Name:'{"text":"Emerald Eye Banner","color":"green","italic":false}'},atrium_emerald_eye_banner:1b,HideFlags:32,BlockEntityTag:{Patterns:[{Color:0,Pattern:"mr"},{Color:5,Pattern:"dls"},{Color:13,Pattern:"flo"},{Color:15,Pattern:"bs"},{Color:15,Pattern:"ts"},{Color:15,Pattern:"cbo"}]}}}],ArmorDropChances:[0.085F,0.085F,0.085F,1.000F]}
+data merge entity @e[tag=atrium_taunt_ability,limit=1,sort=nearest,distance=..3] {Tags:["atrium_ominous"],ArmorItems:[{},{},{},{id:"minecraft:black_banner",count:1,tag:{display:{Name:{text:"Emerald Eye Banner","color":"green","italic":false}},atrium_emerald_eye_banner:1b,HideFlags:32,BlockEntityTag:{Patterns:[{Color:0,Pattern:"mr"},{Color:5,Pattern:"dls"},{Color:13,Pattern:"flo"},{Color:15,Pattern:"bs"},{Color:15,Pattern:"ts"},{Color:15,Pattern:"cbo"}]}}}],ArmorDropChances:[0.085F,0.085F,0.085F,1.000F]}
 execute as @e[tag=atrium_taunt_ability,limit=1,sort=nearest,distance=..3] store result entity @s PatrolTarget.X int 1 run data get entity @s Pos[0] 1
 execute as @e[tag=atrium_taunt_ability,limit=1,sort=nearest,distance=..3] store result entity @s PatrolTarget.Y int 1 run data get entity @s Pos[1] 1
 execute as @e[tag=atrium_taunt_ability,limit=1,sort=nearest,distance=..3] store result entity @s PatrolTarget.Z int 1 run data get entity @s Pos[2] 1

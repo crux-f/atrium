@@ -2,7 +2,7 @@
 #
 execute at @s run particle electric_spark ~ ~1.25 ~ 0.5 0.5 0.5 0.1 25 normal
 # Set down an invisible marker, play sfx, particles
-summon marker ~ ~ ~ {CustomNameVisible:0b,Tags:["atrium_chain_lightning_2_spell_warning"],CustomName:'{"text":"Thunderbolt Spell Warning","color":"yellow","italic":false}'}
+summon marker ~ ~ ~ {CustomNameVisible:0b,Tags:["atrium_chain_lightning_2_spell_warning"],CustomName:{text:"Thunderbolt Spell Warning","color":"yellow","italic":false}}
 particle minecraft:electric_spark ~ ~1 ~ 0.25 2 0.25 0.1 50 normal
 # (0.1 speed so half of the particles move a little)
 particle minecraft:electric_spark ~ ~1 ~ 0.25 0.5 0.25 0.1 50 normal

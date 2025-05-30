@@ -1,3 +1,3 @@
 # Originally for Battlemage but could be used in other contexts
 damage @p[distance=..5,gamemode=!spectator] 6 magic by @s
-execute at @a[distance=..5,gamemode=!spectator] run summon firework_rocket ~ ~1 ~ {LifeTime:200,ShotAtAngle:1b,Motion:[0.0,-1.0,0.0],FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"small_ball",colors:[I;2821440,11776947],fade_colors:[I;10495231,7877293]},{shape:"small_ball"},{shape:"small_ball"},{shape:"small_ball"},{shape:"small_ball"}]}}}}
+execute at @a[distance=..5,gamemode=!spectator] run summon firework_rocket ~ ~1 ~ {LifeTime:200,ShotAtAngle:1b,Motion:[0.0,-1.0,0.0],FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"small_all",colors:[I;2821440,11776947],fade_colors:[I;10495231,7877293]},{shape:"small_ball"},{shape:"small_ball"},{shape:"small_ball"},{shape:"small_ball"}]}}}}

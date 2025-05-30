@@ -1,7 +1,7 @@
 # Already has caster position(s) stored from charge script
 #
 # Summon meteor 1 block ahead of the player's eyes (where they are aiming)
-execute at @s anchored eyes run summon fireball ^ ^ ^1 {Fire:20,CustomNameVisible:0b,ExplosionPower:3b,Tags:["atrium_meteor_spell"],CustomName:'{"text":"Meteor","color":"red","italic":false}'}
+execute at @s anchored eyes run summon fireball ^ ^ ^1 {Fire:20,CustomNameVisible:0b,ExplosionPower:3b,Tags:["atrium_meteor_spell"],CustomName:{text:"Meteor","color":"red","italic":false}}
 # Sets the player to be the Owner of the meteor
 execute at @s positioned ^ ^ ^1 run data modify entity @e[limit=1,tag=atrium_meteor_spell,distance=..1,sort=nearest] Owner set from entity @s UUID
 #

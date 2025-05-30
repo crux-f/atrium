@@ -13,7 +13,7 @@ execute at @s anchored eyes positioned ^ ^ ^3 unless entity @e[tag=!atrium_paral
 # Remove caster exclusion tag
 tag @s remove atrium_parallax_immune
 # Summon return point
-# execute as @e[tag=atrium_parallax_target] at @s run summon area_effect_cloud ~ ~ ~ {Particle:"smoke",CustomNameVisible:0b,Radius:0f,Duration:120,Tags:["atrium_parallax_return"],Potion:"minecraft:empty",CustomName:'{"text":"Return Point"}'}
+# execute as @e[tag=atrium_parallax_target] at @s run summon area_effect_cloud ~ ~ ~ {Particle:"smoke",CustomNameVisible:0b,Radius:0f,Duration:120,Tags:["atrium_parallax_return"],Potion:"minecraft:empty",CustomName:{text:"Return Point"}}
 # Target particles
 execute at @e[tag=atrium_parallax_target] run particle minecraft:warped_spore ~ ~ ~ 0.5 0.5 0.5 1 150
 # Give target slow falling to keep them safe in the demiplane

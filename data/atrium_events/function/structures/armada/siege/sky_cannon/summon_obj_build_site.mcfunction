@@ -1,2 +1,2 @@
 # technical thing for events. all special pathfinding uses these
-summon minecraft:marker ~ ~ ~ {CustomNameVisible:0b,Tags:["atrium_armada_obj","atrium_sky_cannon_site"],CustomName:'{"text":"Armada Objective: Build Sky Cannon","color":"red"}'}
+summon minecraft:marker ~ ~ ~ {CustomNameVisible:0b,Tags:["atrium_armada_obj","atrium_sky_cannon_site"],CustomName:{text:"Armada Objective: Build Sky Cannon","color":"red"}}
