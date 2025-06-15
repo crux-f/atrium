@@ -47,7 +47,7 @@ execute if score @s charge matches 60.. if entity @p[scores={charge=10..},predic
 #
 # Priority 6: Teleport out of Lair
 # 100% chance
-# Prerequisite: The Lich has been hit 8 times in quick succession (threat)
+# Prerequisite: The Lich has been hit 6 times in quick succession (threat)
 execute if score @s charge matches 60.. if score @s atrium_threat matches 6.. run function atrium:structures/sanctum/behavior_scripts/lich_roam_not_lair
 #
 # Movement Controller
