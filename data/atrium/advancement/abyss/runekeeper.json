@@ -35,7 +35,7 @@
         "conditions": {
           "items": [
             {
-              "components": {
+              "predicates": {
                 "minecraft:custom_data": {
                   "atrium_rune": "a"
                 }
@@ -49,7 +49,7 @@
         "conditions": {
           "items": [
             {
-              "components": {
+              "predicates": {
                 "minecraft:custom_data": {
                   "atrium_rune": "b"
                 }
@@ -63,7 +63,7 @@
         "conditions": {
           "items": [
             {
-              "components": {
+              "predicates": {
                 "minecraft:custom_data": {
                   "atrium_rune": "c"
                 }
@@ -77,7 +77,7 @@
         "conditions": {
           "items": [
             {
-              "components": {
+              "predicates": {
                 "minecraft:custom_data": {
                   "atrium_rune": "d"
                 }
@@ -91,7 +91,7 @@
         "conditions": {
           "items": [
             {
-              "components": {
+              "predicates": {
                 "minecraft:custom_data": {
                   "atrium_rune": "e"
                 }
@@ -105,7 +105,7 @@
         "conditions": {
           "items": [
             {
-              "components": {
+              "predicates": {
                 "minecraft:custom_data": {
                   "atrium_rune": "f"
                 }
@@ -119,7 +119,7 @@
         "conditions": {
           "items": [
             {
-              "components": {
+              "predicates": {
                 "minecraft:custom_data": {
                   "atrium_rune": "g"
                 }
@@ -133,7 +133,7 @@
         "conditions": {
           "items": [
             {
-              "components": {
+              "predicates": {
                 "minecraft:custom_data": {
                   "atrium_rune": "h"
                 }
@@ -147,7 +147,7 @@
         "conditions": {
           "items": [
             {
-              "components": {
+              "predicates": {
                 "minecraft:custom_data": {
                   "atrium_rune": "i"
                 }
@@ -161,7 +161,7 @@
         "conditions": {
           "items": [
             {
-              "components": {
+              "predicates": {
                 "minecraft:custom_data": {
                   "atrium_rune": "j"
                 }
@@ -175,7 +175,7 @@
         "conditions": {
           "items": [
             {
-              "components": {
+              "predicates": {
                 "minecraft:custom_data": {
                   "atrium_rune": "k"
                 }
@@ -189,7 +189,7 @@
         "conditions": {
           "items": [
             {
-              "components": {
+              "predicates": {
                 "minecraft:custom_data": {
                   "atrium_rune": "l"
                 }
@@ -203,7 +203,7 @@
         "conditions": {
           "items": [
             {
-              "components": {
+              "predicates": {
                 "minecraft:custom_data": {
                   "atrium_rune": "m"
                 }
@@ -217,7 +217,7 @@
         "conditions": {
           "items": [
             {
-              "components": {
+              "predicates": {
                 "minecraft:custom_data": {
                   "atrium_rune": "n"
                 }
@@ -231,7 +231,7 @@
         "conditions": {
           "items": [
             {
-              "components": {
+              "predicates": {
                 "minecraft:custom_data": {
                   "atrium_rune": "o"
                 }
@@ -245,7 +245,7 @@
         "conditions": {
           "items": [
             {
-              "components": {
+              "predicates": {
                 "minecraft:custom_data": {
                   "atrium_rune": "p"
                 }
@@ -259,7 +259,7 @@
         "conditions": {
           "items": [
             {
-              "components": {
+              "predicates": {
                 "minecraft:custom_data": {
                   "atrium_rune": "q"
                 }
@@ -273,7 +273,7 @@
         "conditions": {
           "items": [
             {
-              "components": {
+              "predicates": {
                 "minecraft:custom_data": {
                   "atrium_rune": "r"
                 }
@@ -287,7 +287,7 @@
         "conditions": {
           "items": [
             {
-              "components": {
+              "predicates": {
                 "minecraft:custom_data": {
                   "atrium_rune": "s"
                 }
@@ -301,7 +301,7 @@
         "conditions": {
           "items": [
             {
-              "components": {
+              "predicates": {
                 "minecraft:custom_data": {
                   "atrium_rune": "t"
                 }
@@ -315,7 +315,7 @@
         "conditions": {
           "items": [
             {
-              "components": {
+              "predicates": {
                 "minecraft:custom_data": {
                   "atrium_rune": "u"
                 }
@@ -329,7 +329,7 @@
         "conditions": {
           "items": [
             {
-              "components": {
+              "predicates": {
                 "minecraft:custom_data": {
                   "atrium_rune": "v"
                 }
@@ -343,7 +343,7 @@
         "conditions": {
           "items": [
             {
-              "components": {
+              "predicates": {
                 "minecraft:custom_data": {
                   "atrium_rune": "w"
                 }
@@ -357,7 +357,7 @@
         "conditions": {
           "items": [
             {
-              "components": {
+              "predicates": {
                 "minecraft:custom_data": {
                   "atrium_rune": "x"
                 }
@@ -371,7 +371,7 @@
         "conditions": {
           "items": [
             {
-              "components": {
+              "predicates": {
                 "minecraft:custom_data": {
                   "atrium_rune": "y"
                 }
@@ -385,7 +385,7 @@
         "conditions": {
           "items": [
             {
-              "components": {
+              "predicates": {
                 "minecraft:custom_data": {
                   "atrium_rune": "z"
                 }
@@ -399,7 +399,7 @@
         "conditions": {
           "items": [
             {
-              "components": {
+              "predicates": {
                 "minecraft:custom_data": {
                   "atrium_rune": 0
                 }
@@ -413,7 +413,7 @@
         "conditions": {
           "items": [
             {
-              "components": {
+              "predicates": {
                 "minecraft:custom_data": {
                   "atrium_rune": 1
                 }
@@ -427,7 +427,7 @@
         "conditions": {
           "items": [
             {
-              "components": {
+              "predicates": {
                 "minecraft:custom_data": {
                   "atrium_rune": 2
                 }
@@ -441,7 +441,7 @@
         "conditions": {
           "items": [
             {
-              "components": {
+              "predicates": {
                 "minecraft:custom_data": {
                   "atrium_rune": 3
                 }
@@ -455,7 +455,7 @@
         "conditions": {
           "items": [
             {
-              "components": {
+              "predicates": {
                 "minecraft:custom_data": {
                   "atrium_rune": 4
                 }
@@ -469,7 +469,7 @@
         "conditions": {
           "items": [
             {
-              "components": {
+              "predicates": {
                 "minecraft:custom_data": {
                   "atrium_rune": 5
                 }
@@ -483,7 +483,7 @@
         "conditions": {
           "items": [
             {
-              "components": {
+              "predicates": {
                 "minecraft:custom_data": {
                   "atrium_rune": 6
                 }
@@ -497,7 +497,7 @@
         "conditions": {
           "items": [
             {
-              "components": {
+              "predicates": {
                 "minecraft:custom_data": {
                   "atrium_rune": 7
                 }
@@ -511,7 +511,7 @@
         "conditions": {
           "items": [
             {
-              "components": {
+              "predicates": {
                 "minecraft:custom_data": {
                   "atrium_rune": 8
                 }
@@ -525,7 +525,7 @@
         "conditions": {
           "items": [
             {
-              "components": {
+              "predicates": {
                 "minecraft:custom_data": {
                   "atrium_rune": 9
                 }
@@ -539,7 +539,7 @@
         "conditions": {
           "items": [
             {
-              "components": {
+              "predicates": {
                 "minecraft:custom_data": {
                   "atrium_rune": "exclamation_mark"
                 }
@@ -553,7 +553,7 @@
         "conditions": {
           "items": [
             {
-              "components": {
+              "predicates": {
                 "minecraft:custom_data": {
                   "atrium_rune": "comma"
                 }
@@ -567,7 +567,7 @@
         "conditions": {
           "items": [
             {
-              "components": {
+              "predicates": {
                 "minecraft:custom_data": {
                   "atrium_rune": "question_mark"
                 }
@@ -581,7 +581,7 @@
         "conditions": {
           "items": [
             {
-              "components": {
+              "predicates": {
                 "minecraft:custom_data": {
                   "atrium_rune": "period"
                 }
