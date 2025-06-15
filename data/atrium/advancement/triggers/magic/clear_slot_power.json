@@ -23,19 +23,39 @@
               }
             },
             {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "slots": {
-                  "inventory.*": {
-                    "predicates": {
-                      "minecraft:custom_data": {
-                        "atrium_power": 1
+              "condition": "any_of",
+              "terms": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "slots": {
+                      "hotbar.*": {
+                        "predicates": {
+                          "minecraft:custom_data": {
+                            "atrium_power": 1
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "slots": {
+                      "inventory.*": {
+                        "predicates": {
+                          "minecraft:custom_data": {
+                            "atrium_power": 1
+                          }
+                        }
                       }
                     }
                   }
                 }
-              }
+              ]
             }
           ]
         }
