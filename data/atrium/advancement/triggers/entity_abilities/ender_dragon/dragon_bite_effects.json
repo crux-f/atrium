@@ -10,6 +10,9 @@
           },
           "blocked": false,
           "type": {
+            "source_entity": {
+              "type": "minecraft:ender_dragon"
+            },
             "is_direct": true
           }
         }
