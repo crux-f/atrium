@@ -22,9 +22,9 @@ summon area_effect_cloud ~1 ~ ~-3 {Duration: 600, DurationOnUse: 0, Particle: {t
 summon area_effect_cloud ~2 ~ ~-2 {Duration: 600, DurationOnUse: 0, Particle: {type: "minecraft:nautilus"}, Radius: 1.0f, RadiusOnUse: 0.0f, RadiusPerTick: 0.0f, ReapplicationDelay: 1, Tags: ["atrium_desync_circle"], potion_contents: {custom_color: 4200959, custom_effects: [{amplifier: 0b, duration: 400, id: "minecraft:slowness", show_particles: 1b}]}}
 summon area_effect_cloud ~3 ~ ~-1 {Duration: 600, DurationOnUse: 0, Particle: {type: "minecraft:nautilus"}, Radius: 1.0f, RadiusOnUse: 0.0f, RadiusPerTick: 0.0f, ReapplicationDelay: 1, Tags: ["atrium_desync_circle"], potion_contents: {custom_color: 4200959, custom_effects: [{amplifier: 0b, duration: 400, id: "minecraft:slowness", show_particles: 1b}]}}
 # If the spell level is 2, change all the clouds to be Slowness II.
-execute if data entity @s {Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{atrium_staff_lv:2b}}}]} as @e[tag=atrium_desync_circle,distance=..5] run data modify entity @s potion_contents.custom_effects[0].amplifier set value 1
+execute if data entity @s {equipment:{offhand:{components:{"minecraft:custom_data":{atrium_staff_lv:2b}}}}} as @e[tag=atrium_desync_circle,distance=..5] run data modify entity @s potion_contents.custom_effects[0].amplifier set value 1
 # If the spell level is 3, change all the clouds to be Slowness III.
-execute if data entity @s {Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{atrium_staff_lv:3b}}}]} as @e[tag=atrium_desync_circle,distance=..5] run data modify entity @s potion_contents.custom_effects[0].amplifier set value 2
+execute if data entity @s {equipment:{offhand:{components:{"minecraft:custom_data":{atrium_staff_lv:3b}}}}} as @e[tag=atrium_desync_circle,distance=..5] run data modify entity @s potion_contents.custom_effects[0].amplifier set value 2
 #
 # Spell cleanup
 execute as @s run function atrium:triggers/magic/spell_cast_complete

@@ -38,7 +38,7 @@ execute positioned ~3 ~-2 ~-3 run function atrium:triggers/magic/spells/locate_o
 execute positioned ~-3 ~-2 ~-3 run function atrium:triggers/magic/spells/locate_ore_3x3_cube
 #
 # LEVEL 3 ONLY - Scan out to 15x15
-execute if entity @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{atrium_staff_lv:3b}}}]}] run function atrium:triggers/magic/spells/locate_ore_additional_range
+execute if entity @s[nbt={equipment:{offhand:{components:{"minecraft:custom_data":{atrium_staff_lv:3b}}}}}] run function atrium:triggers/magic/spells/locate_ore_additional_range
 #
 # Glow
 team join atrium_glow_black @e[tag=atrium_coal_marker]

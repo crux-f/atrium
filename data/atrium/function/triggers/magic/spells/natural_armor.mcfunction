@@ -9,9 +9,9 @@ execute if entity @s[predicate=atrium:player/inventory/wearing_any_armor] run pl
 execute unless entity @s[predicate=atrium:player/inventory/wearing_any_armor] run tag @s add atrium_natural_armor_target
 #
 # Give the caster Resistence III. Duration depends on level of staff used.
-execute unless entity @s[predicate=atrium:player/inventory/wearing_any_armor] if data entity @s {Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{atrium_staff_lv:1b}}}]} run effect give @s resistance 900 2 true
-execute unless entity @s[predicate=atrium:player/inventory/wearing_any_armor] if data entity @s {Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{atrium_staff_lv:2b}}}]} run effect give @s resistance 1800 2 true
-execute unless entity @s[predicate=atrium:player/inventory/wearing_any_armor] if data entity @s {Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{atrium_staff_lv:3b}}}]} run effect give @s resistance 3600 2 true
+execute unless entity @s[predicate=atrium:player/inventory/wearing_any_armor] if data entity @s {equipment:{offhand:{components:{"minecraft:custom_data":{atrium_staff_lv:1b}}}}} run effect give @s resistance 900 2 true
+execute unless entity @s[predicate=atrium:player/inventory/wearing_any_armor] if data entity @s {equipment:{offhand:{components:{"minecraft:custom_data":{atrium_staff_lv:2b}}}}} run effect give @s resistance 1800 2 true
+execute unless entity @s[predicate=atrium:player/inventory/wearing_any_armor] if data entity @s {equipment:{offhand:{components:{"minecraft:custom_data":{atrium_staff_lv:3b}}}}} run effect give @s resistance 3600 2 true
 #
 # Spell cleanup
 execute as @s run function atrium:triggers/magic/spell_cast_complete

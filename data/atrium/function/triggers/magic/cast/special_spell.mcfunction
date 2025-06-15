@@ -50,4 +50,4 @@ execute if entity @s[scores={charge=160..}] if data entity @s {SelectedItem:{com
 # Slot 8 | Increase Velocity III
 execute if entity @s[scores={charge=160..}] if data entity @s {SelectedItem:{components:{"minecraft:custom_data":{atrium_power_slot:8b}}},equipment:{offhand:{components:{"minecraft:custom_data":{atrium_voltaic_staff:1b}}}}} run function atrium:triggers/magic/spells/increase_velocity
 # PATREON: konigin12
-# execute if entity @s[scores={charge=160..}] if data entity @s {SelectedItem:{components:{"minecraft:custom_data":{atrium_power_slot:4b}}},Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{atrium_patron:"konigin12"}}}]} run function atrium:triggers/magic/spells/dance
+# execute if entity @s[scores={charge=160..}] if data entity @s {SelectedItem:{components:{"minecraft:custom_data":{atrium_power_slot:4b}}},equipment:{offhand:{components:{"minecraft:custom_data":{atrium_patron:"konigin12"}}}}} run function atrium:triggers/magic/spells/dance
