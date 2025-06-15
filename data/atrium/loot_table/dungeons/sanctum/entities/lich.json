@@ -15,8 +15,7 @@
               "target": "item_name",
               "name": [
                 {
-                  "text": "Lich's Key",
-                  "color": "aqua"
+                  "text": "Lich's Key"
                 }
               ]
             },
@@ -25,13 +24,14 @@
               "components": {
                 "minecraft:custom_model_data": {
                   "strings": [
-                    "atrium_lichs_key"
+                    "atrium_lich_key"
                   ]
                 },
                 "minecraft:custom_data": {
                   "atrium_lichs_key": 1
                 },
-                "minecraft:enchantment_glint_override": true
+                "minecraft:enchantment_glint_override": true,
+                "minecraft:rarity": "rare"
               }
             }
           ]
