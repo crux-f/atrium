@@ -1,6 +1,7 @@
 {
     "values": [
       "atrium:extra_weapon_damage",
-      "atrium:extra_lightning_damage"
+      "atrium:extra_lightning_damage",
+      "atrium:extra_magic_damage"
     ]
 }
