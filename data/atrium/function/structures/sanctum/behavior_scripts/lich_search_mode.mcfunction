@@ -32,7 +32,7 @@ execute store result bossbar atrium:lich value run data get entity @e[tag=atrium
 # Each tick that the Lich is searching (but not in combat), add 1 to its atrium_searching score. Once it has been searching for 3 minutes (3600 ticks),
 # it will return to idle mode.
 scoreboard players add @s atrium_searching 1
-# Lich teleports more when threatened; Threat level has a 1% chance to decrease by 1 each tick.
+# Lich teleports more when threatened; Threat level has a 5% chance to decrease by 1 each tick.
 execute if predicate atrium:percentage_chances/0.05_p if score @s atrium_threat matches 3.. run scoreboard players remove @s atrium_threat 1
 execute if score @s atrium_searching matches 3600.. run tag @s remove atrium_alerted
 execute if score @s atrium_searching matches 3600.. run scoreboard players reset @s atrium_searching
