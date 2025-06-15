@@ -13,6 +13,6 @@ execute if data entity @s[gamemode=!creative] {SelectedItem:{components:{"minecr
 clear @s *[minecraft:custom_data~{atrium_power:1b}]
 #
 # If the item in your off hand has been used up, break it.
-execute if data entity @s {Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{atrium_staff:1b},"minecraft:damage":1561}}]} run function atrium:items/use/chargeable/staves/break_staff
+execute if data entity @s {equipment:{offhand:{components:{"minecraft:custom_data":{atrium_staff:1b},"minecraft:damage":1561}}}} run function atrium:items/use/chargeable/staves/break_staff
 # If the Staff is enchanted with Concentration, return some of the XP used to cast the spell.
-execute if data entity @s Inventory[{Slot:-106b}].components.minecraft:enchantments.levels.atrium:concentration at @s run function atrium:triggers/runic_enchantments/concentration/return_spell_xp
+execute if data entity @s equipment.offhand.components.minecraft:enchantments.atrium:concentration at @s run function atrium:triggers/runic_enchantments/concentration/return_spell_xp
