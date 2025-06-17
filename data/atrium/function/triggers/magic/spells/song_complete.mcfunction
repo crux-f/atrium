@@ -1,7 +1,7 @@
 # Summon the disc used to cast the spell as a glowing magical disc that can't be picked up for the duration of the song.
 execute as @a[tag=atrium_song_caster] at @s[nbt={SelectedItem:{id:"minecraft:music_disc_5"}}] run summon item ~ ~ ~ {NoGravity:1b,Glowing:1b,Age:-10000,Health:25,PickupDelay:3560,Motion:[0.0,0.1,0.0],Tags:["atrium_floating_disc","song_spell_5"],Item:{id:"minecraft:disc_fragment_5",count:9}}
 execute as @a[tag=atrium_song_caster] at @s[nbt={SelectedItem:{id:"minecraft:music_disc_11"}}] run summon item ~ ~ ~ {NoGravity:1b,Glowing:1b,Age:-10000,Health:25,PickupDelay:1420,Motion:[0.0,0.1,0.0],Tags:["atrium_floating_disc","song_spell_11"],Item:{id:"minecraft:music_disc_11",count:1}}
-execute as @a[tag=atrium_song_caster] at @s[nbt={SelectedItem:{id:"minecraft:music_disc_13"}}] run summon item ~ ~ ~ {NoGravity:1b,Glowing:1b,Age:-10000,Health:25,PickupDelay:3540,Motion:[0.0,0.1,0.0],Tags:["atrium_floating_disc","song_spell_13"],Item:{id:"minecraft:music_disc_13",count:1}}
+execute as @a[tag=atrium_song_caster] at @s[nbt={SelectedItem:{id:"minecraft:music_disc_13"}}] unless entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{atrium_music_disc_z:1b}}}}] run summon item ~ ~ ~ {NoGravity:1b,Glowing:1b,Age:-10000,Health:25,PickupDelay:3540,Motion:[0.0,0.1,0.0],Tags:["atrium_floating_disc","song_spell_13"],Item:{id:"minecraft:music_disc_13",count:1}}
 execute as @a[tag=atrium_song_caster] at @s[nbt={SelectedItem:{id:"minecraft:music_disc_blocks"}}] run summon item ~ ~ ~ {NoGravity:1b,Glowing:1b,Age:-10000,Health:25,PickupDelay:6860,Motion:[0.0,0.1,0.0],Tags:["atrium_floating_disc","song_spell_blocks"],Item:{id:"minecraft:music_disc_blocks",count:1}}
 execute as @a[tag=atrium_song_caster] at @s[nbt={SelectedItem:{id:"minecraft:music_disc_cat"}}] run summon item ~ ~ ~ {NoGravity:1b,Glowing:1b,Age:-10000,Health:25,PickupDelay:3720,Motion:[0.0,0.1,0.0],Tags:["atrium_floating_disc","song_spell_cat"],Item:{id:"minecraft:music_disc_cat",count:1}}
 execute as @a[tag=atrium_song_caster] at @s[nbt={SelectedItem:{id:"minecraft:music_disc_chirp"}}] run summon item ~ ~ ~ {NoGravity:1b,Glowing:1b,Age:-10000,Health:25,PickupDelay:3740,Motion:[0.0,0.1,0.0],Tags:["atrium_floating_disc","song_spell_chirp"],Item:{id:"minecraft:music_disc_chirp",count:1}}
@@ -25,6 +25,8 @@ execute as @a[tag=atrium_song_caster] at @s[nbt={SelectedItem:{id:"minecraft:mus
 # If the disc was Strad, give a funny meme advancement
 execute as @a[tag=atrium_song_caster] if entity @s[nbt={SelectedItem:{id:"minecraft:music_disc_strad"}}] run advancement grant @s only atrium:magic/curse_of_strad
 #
+# If the disc was z... well.
+execute as @a[tag=atrium_song_caster] at @s[nbt={SelectedItem:{id:"minecraft:music_disc_13"}}] if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{atrium_music_disc_z:1b}}}}] run summon item ~ ~ ~ {NoGravity:1b,Glowing:1b,Age:-10000,Health:25,PickupDelay:3200,Motion:[0.0,0.1,0.0],Tags:["atrium_floating_disc","song_spell_z"],Item:{id:"minecraft:music_disc_13",count:1,components:{"minecraft:custom_model_data":{strings:["atrium_music_disc_z"]},"minecraft:jukebox_playable":"atrium:z","minecraft:custom_data":{atrium_music_disc_z:1b}}}}
 # If you didn't animate a disc, play failure sounds + display failure particles.
 execute as @a[tag=atrium_song_caster] at @s unless entity @e[tag=atrium_floating_disc,distance=..20] run particle minecraft:smoke ^ ^ ^1.5 0.03 0.03 0.03 0 50
 execute as @a[tag=atrium_song_caster] at @s unless entity @e[tag=atrium_floating_disc,distance=..20] run playsound minecraft:block.redstone_torch.burnout master @a[distance=..30] ~ ~ ~ 0.3 1 0.1
@@ -53,6 +55,7 @@ execute at @e[tag=song_spell_stal] run playsound minecraft:music_disc.stal recor
 execute at @e[tag=song_spell_strad] run playsound minecraft:music_disc.strad record @a[distance=..15] ~ ~ ~ 1 1 0.1
 execute at @e[tag=song_spell_wait] run playsound minecraft:music_disc.wait record @a[distance=..15] ~ ~ ~ 1 1 0.1
 execute at @e[tag=song_spell_ward] run playsound minecraft:music_disc.ward record @a[distance=..15] ~ ~ ~ 1 1 0.1
+execute at @e[tag=song_spell_z] run playsound atrium:music.depths.z record @a[distance=..15] ~ ~ ~ 1 1 0.1
 #
 # Start the repeat script (one for each song)
 execute if entity @e[tag=song_spell_5] run function atrium:triggers/magic/spells/song/ss_5
@@ -74,6 +77,7 @@ execute if entity @e[tag=song_spell_strad] run function atrium:triggers/magic/sp
 execute if entity @e[tag=song_spell_wait] run function atrium:triggers/magic/spells/song/ss_wait
 execute if entity @e[tag=song_spell_ward] run function atrium:triggers/magic/spells/song/ss_ward
 execute if entity @e[tag=song_spell_relic] run function atrium:triggers/magic/spells/song/ss_relic
+execute if entity @e[tag=song_spell_z] run function atrium:triggers/magic/spells/song/ss_z
 #
 # Other fx
 function atrium:triggers/magic/spells/song/disc_cushion_fx
