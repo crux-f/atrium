@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:nether/obtain_ancient_debris",
+  "parent": "minecraft:adventure/root",
   "criteria": {
     "use_lodestone": {
       "conditions": {
@@ -31,7 +31,7 @@
     "announce_to_chat": true,
     "description": [
       {
-        "translate": "advancements.nether.use_lodestone.description"
+        "translate": "advancements.adventure.use_lodestone.description"
       },
       {
         "color": "gray",
@@ -49,7 +49,7 @@
     },
     "show_toast": true,
     "title": {
-      "translate": "advancements.nether.use_lodestone.title"
+      "translate": "advancements.adventure.use_lodestone.title"
     }
   },
   "requirements": [
