@@ -13,6 +13,6 @@ execute as @e[type=item,tag=song_spell_z,scores={charge=161..}] run function atr
 execute as @e[type=item,tag=song_spell_z,scores={charge=161..}] run tag @s remove song_spell_z
 #
 # Punishment
-execute at @e[type=item,tag=song_spell_z,scores={charge=161..}] as @p[gamemode=!spectator,tag=atrium_song_caster,distance=..30] run function atrium:structures/z/unfair_trap
+execute at @e[type=item,tag=song_spell_z,scores={charge=160..}] as @p[gamemode=!spectator,tag=atrium_song_caster,distance=..30] run function atrium:structures/z/unfair_trap
 # If there is still a disc, run again in 1 second.
 execute if entity @e[type=item,tag=song_spell_z] run schedule function atrium:triggers/magic/spells/song/ss_z 1s
