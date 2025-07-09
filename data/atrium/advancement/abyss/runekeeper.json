@@ -20,7 +20,7 @@
           "id": "minecraft:flint",
           "components": {
             "minecraft:custom_model_data": {
-              "strings": ["atrium_v_runestone"]
+              "strings": ["atrium_0_runestone"]
             }
           }
         },
