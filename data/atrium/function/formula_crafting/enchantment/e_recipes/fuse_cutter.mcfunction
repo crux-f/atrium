@@ -40,7 +40,7 @@ execute if entity @a[distance=..10,gamemode=!spectator,level=15..] run scoreboar
 #
 execute if entity @s[scores={valid_ingredients=5..}] run summon item ~ ~0.5 ~ {Tags:["atrium_formula_product"],Motion:[0.0,0.02,0.0],NoGravity:1b,Glowing:1b,Item:{id:"minecraft:egg",count:1,components:{"minecraft:item_name":{"text":"Extremely Reportale Egg"},"minecraft:lore":[{"text":"Seems like something you"},{"text":"should report to the Admins."}],"minecraft:custom_model_data":{strings:["atrium_strange_egg"]},"minecraft:custom_data":{atrium_extremely_reportable_egg:1}}}}
 execute if entity @s[scores={valid_ingredients=5..}] positioned ~ ~ ~-3 as @e[type=minecraft:glow_item_frame,distance=..1.5] run data modify entity @e[tag=atrium_formula_product,sort=nearest,limit=1] Item set from entity @s Item
-execute if entity @s[scores={valid_ingredients=5..}] as @e[limit=1,sort=nearest,tag=atrium_formula_product] run data merge entity @s {Item:{components:{"minecraft:enchantments":{"atrium:fuse_cutter": 1}}}}
+execute if entity @s[scores={valid_ingredients=5..}] as @n[type=item,tag=atrium_formula_product,distance=..7] run data merge entity @s {Item:{components:{"minecraft:enchantments":{"atrium:fuse_cutter": 1}}}}
 execute if entity @s[scores={valid_ingredients=5..}] run function atrium:formula_crafting/enchantment/enchantment_reset
 execute if entity @s[scores={valid_ingredients=5..}] positioned ~ ~ ~-7 run advancement grant @p[distance=..5,gamemode=!spectator] only atrium:magic/enchanter_ii
 # Take 1 level of XP from a random nearby player (within 10 blocks) who has at least 15 levels of XP

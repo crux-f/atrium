@@ -17,7 +17,7 @@ execute positioned ~2 ~ ~-2 at @e[type=minecraft:glow_item_frame,distance=..1.5,
 execute positioned ~2 ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{components:{"minecraft:custom_data":{atrium_butter:1b}}}}] run scoreboard players add @s valid_ingredients 1
 #
 execute if entity @s[scores={valid_ingredients=4..}] at @s run summon item ~ ~1 ~ {Tags:["atrium_formula_product"],Motion:[0.0,0.02,0.0],NoGravity:1b,Glowing:1b,Item:{id:"minecraft:egg",count:1,components:{"minecraft:item_name":{"text":"Extremely Reportale Egg"},"minecraft:lore":[{"text":"Seems like something you"},{"text":"should report to the Admins."}],"minecraft:custom_model_data":{strings:["atrium_strange_egg"]},"minecraft:custom_data":{atrium_extremely_reportable_egg:1}}}}
-execute if entity @s[scores={valid_ingredients=4..}] at @s run item replace entity @e[limit=1,sort=nearest,tag=atrium_formula_product] container.0 with minecraft:beetroot_soup[minecraft:custom_model_data={strings:["atrium_pasta"]},minecraft:item_name={text:'Pasta'},minecraft:custom_data={atrium_pasta:1b}]
+execute if entity @s[scores={valid_ingredients=4..}] at @s run item replace entity @n[type=item,tag=atrium_formula_product,distance=..7] container.0 with minecraft:beetroot_soup[minecraft:custom_model_data={strings:["atrium_pasta"]},minecraft:item_name={text:'Pasta'},minecraft:custom_data={atrium_pasta:1b}]
 execute if entity @s[scores={valid_ingredients=4..}] at @s run function atrium:formula_crafting/alchemy/alchemy_reset
 execute if entity @s[scores={valid_ingredients=4..}] at @s run function atrium:formula_crafting/alchemy/station_reset
 scoreboard players set @s valid_ingredients 0
