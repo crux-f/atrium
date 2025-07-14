@@ -208,7 +208,7 @@
                     "pos": [
                       0,
                       0,
-                      -999999999999999999
+                      -999999999
                     ]
                   },
                   "tracked": false
@@ -219,10 +219,11 @@
               "function": "set_name",
               "name": [
                 {
-                  "text": "Strange Compass"
+                  "text": "Strange Compass",
+                  "italic": false
                 }
               ],
-              "target": "item_name"
+              "target": "custom_name"
             },
             {
               "function": "set_lore",
