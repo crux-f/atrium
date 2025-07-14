@@ -132,6 +132,543 @@
                   "minecraft:custom_data": {
                     "atrium_research": 1,
                     "atrium_research_type": "runic",
+                    "atrium_topic": "blazing_weapons"
+                  }
+                }
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Runic Research"
+                  }
+                ],
+                "target": "item_name"
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Runic Codex Formulas:",
+                    "underlined": true
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Flame [Enchantment]"
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Fire Aspect [Enchantment]"
+                  }
+                ],
+                "mode": "append"
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 10,
+            "quality": 0,
+            "name": "minecraft:paper",
+            "functions": [
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:rarity": "common",
+                  "minecraft:custom_model_data": {
+                    "strings": ["atrium_codex_research"]
+                  },
+                  "minecraft:custom_data": {
+                    "atrium_research": 1,
+                    "atrium_research_type": "runic",
+                    "atrium_topic": "safety_first"
+                  }
+                }
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Runic Research"
+                  }
+                ],
+                "target": "item_name"
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Runic Codex Formulas:",
+                    "underlined": true
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Protection [Enchantment]"
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Blast Protection [Enchantment]"
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Fire Protection [Enchantment]"
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Projectile Protection [Enchantment]"
+                  }
+                ],
+                "mode": "append"
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 10,
+            "quality": 0,
+            "name": "minecraft:paper",
+            "functions": [
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:rarity": "common",
+                  "minecraft:custom_model_data": {
+                    "strings": ["atrium_codex_research"]
+                  },
+                  "minecraft:custom_data": {
+                    "atrium_research": 1,
+                    "atrium_research_type": "runic",
+                    "atrium_topic": "weak_points"
+                  }
+                }
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Runic Research"
+                  }
+                ],
+                "target": "item_name"
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Runic Codex Formulas:",
+                    "underlined": true
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Smite [Enchantment]"
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Bane of Arthropods [Enchantment]"
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Knockback [Enchantment]"
+                  }
+                ],
+                "mode": "append"
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 10,
+            "quality": 0,
+            "name": "minecraft:paper",
+            "functions": [
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:rarity": "common",
+                  "minecraft:custom_model_data": {
+                    "strings": ["atrium_codex_research"]
+                  },
+                  "minecraft:custom_data": {
+                    "atrium_research": 1,
+                    "atrium_research_type": "runic",
+                    "atrium_topic": "principles_of_motion"
+                  }
+                }
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Runic Research"
+                  }
+                ],
+                "target": "item_name"
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Runic Codex Formulas:",
+                    "underlined": true
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Feather Falling [Enchantment]"
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Loyalty [Enchantment]"
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Quick Charge [Enchantment]"
+                  }
+                ],
+                "mode": "append"
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 10,
+            "quality": 0,
+            "name": "minecraft:paper",
+            "functions": [
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:rarity": "common",
+                  "minecraft:custom_model_data": {
+                    "strings": ["atrium_codex_research"]
+                  },
+                  "minecraft:custom_data": {
+                    "atrium_research": 1,
+                    "atrium_research_type": "runic",
+                    "atrium_topic": "a_simple_throughline"
+                  }
+                }
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Runic Research"
+                  }
+                ],
+                "target": "item_name"
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Runic Codex Formulas:",
+                    "underlined": true
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Sharpness [Enchantment]"
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Punch [Enchantment]"
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Piercing [Enchantment]"
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Impaling [Enchantment]"
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Thorns [Enchantment]"
+                  }
+                ],
+                "mode": "append"
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 10,
+            "quality": 0,
+            "name": "minecraft:paper",
+            "functions": [
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:rarity": "common",
+                  "minecraft:custom_model_data": {
+                    "strings": ["atrium_codex_research"]
+                  },
+                  "minecraft:custom_data": {
+                    "atrium_research": 1,
+                    "atrium_research_type": "runic",
+                    "atrium_topic": "principles_of_leverage"
+                  }
+                }
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Runic Research"
+                  }
+                ],
+                "target": "item_name"
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Runic Codex Formulas:",
+                    "underlined": true
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Efficiency [Enchantment]"
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Silk Touch [Enchantment]"
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Density [Enchantment]"
+                  }
+                ],
+                "mode": "append"
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 10,
+            "quality": 0,
+            "name": "minecraft:paper",
+            "functions": [
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:rarity": "common",
+                  "minecraft:custom_model_data": {
+                    "strings": ["atrium_codex_research"]
+                  },
+                  "minecraft:custom_data": {
+                    "atrium_research": 1,
+                    "atrium_research_type": "runic",
+                    "atrium_topic": "principles_of_multiplication"
+                  }
+                }
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Runic Research"
+                  }
+                ],
+                "target": "item_name"
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Runic Codex Formulas:",
+                    "underlined": true
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Infinity [Enchantment]"
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Multishot [Enchantment]"
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Looting [Enchantment]"
+                  }
+                ],
+                "mode": "append"
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 10,
+            "quality": 0,
+            "name": "minecraft:paper",
+            "functions": [
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:rarity": "common",
+                  "minecraft:custom_model_data": {
+                    "strings": ["atrium_codex_research"]
+                  },
+                  "minecraft:custom_data": {
+                    "atrium_research": 1,
+                    "atrium_research_type": "runic",
+                    "atrium_topic": "taking_big_swings"
+                  }
+                }
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Runic Research"
+                  }
+                ],
+                "target": "item_name"
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Runic Codex Formulas:",
+                    "underlined": true
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Power [Enchantment]"
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Breach [Enchantment]"
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Sweeping Edge [Enchantment]"
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Channeling [Enchantment]"
+                  }
+                ],
+                "mode": "append"
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 10,
+            "quality": 0,
+            "name": "minecraft:paper",
+            "functions": [
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:rarity": "common",
+                  "minecraft:custom_model_data": {
+                    "strings": ["atrium_codex_research"]
+                  },
+                  "minecraft:custom_data": {
+                    "atrium_research": 1,
+                    "atrium_research_type": "runic",
+                    "atrium_topic": "luck_of_the_draw"
+                  }
+                }
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Runic Research"
+                  }
+                ],
+                "target": "item_name"
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Runic Codex Formulas:",
+                    "underlined": true
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Fortune [Enchantment]"
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Luck of The Sea [Enchantment]"
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Unbreaking [Enchantment]"
+                  }
+                ],
+                "mode": "append"
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 10,
+            "quality": 0,
+            "name": "minecraft:paper",
+            "functions": [
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:rarity": "common",
+                  "minecraft:custom_model_data": {
+                    "strings": ["atrium_codex_research"]
+                  },
+                  "minecraft:custom_data": {
+                    "atrium_research": 1,
+                    "atrium_research_type": "runic",
                     "atrium_topic": "backstabbing"
                   }
                 }
