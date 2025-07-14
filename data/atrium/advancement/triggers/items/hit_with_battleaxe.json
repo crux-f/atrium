@@ -3,13 +3,12 @@
       "requirement": {
         "trigger": "minecraft:player_hurt_entity",
         "conditions": {
-          "player": [],
           "damage": {
             "type": {
               "direct_entity": {
                 "equipment": {
                   "mainhand": {
-                    "components": {
+                    "predicates": {
                       "minecraft:custom_data": {
                         "atrium_battleaxe": 1
                       }
