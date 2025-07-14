@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_book": {
+    "has_end_stone": {
       "conditions": {
         "items": [
           {
-            "items": "minecraft:book"
+            "items": "minecraft:end_stone"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "atrium:an_arcanists_handbook"
+        "recipe": "atrium:infusion_circle"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_book"
+      "has_end_stone"
     ]
   ],
   "rewards": {
     "recipes": [
-      "atrium:an_arcanists_handbook"
+      "atrium:infusion_circle"
     ]
   }
 }

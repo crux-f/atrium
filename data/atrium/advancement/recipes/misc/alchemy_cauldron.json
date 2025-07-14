@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_book": {
+    "has_cauldron": {
       "conditions": {
         "items": [
           {
-            "items": "minecraft:book"
+            "items": "minecraft:cauldron"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "atrium:an_arcanists_handbook"
+        "recipe": "atrium:alchemy_cauldron"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_book"
+      "has_cauldron"
     ]
   ],
   "rewards": {
     "recipes": [
-      "atrium:an_arcanists_handbook"
+      "atrium:alchemy_cauldron"
     ]
   }
 }

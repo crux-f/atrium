@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_book": {
+    "has_enchanting_table": {
       "conditions": {
         "items": [
           {
-            "items": "minecraft:book"
+            "items": "minecraft:enchanting_table"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "atrium:an_arcanists_handbook"
+        "recipe": "atrium:runic_codex"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_book"
+      "has_enchanting_table"
     ]
   ],
   "rewards": {
     "recipes": [
-      "atrium:an_arcanists_handbook"
+      "atrium:runic_codex"
     ]
   }
 }

@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": "minecraft:amethyst_shard",
+    "S": "minecraft:end_stone",
+    "E": "minecraft:ender_pearl",
+    "Q": "minecraft:quartz"
+  },
+  "pattern": [
+    " A ",
+    "ESE",
+    " Q "
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:player_head",
+    "components": {
+      "minecraft:lore": [
+        {"text":"Space Required:","color":"gray","italic":false},
+        {"text":"x9,y3,z9","color":"dark_gray","italic":false},
+        {"text":" "},
+        {"text":"When Placed:","color":"gray","italic":false},
+        {"text":"Generates a structure ","color":"blue","italic":false}
+        ],
+      "minecraft:item_name":{"text":"Infusion Circle"},
+      "minecraft:profile":{"id":[-510246894,-974372697,-1324757754,-2046207321],"properties":[{"name":"textures","value":"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTIyNzYzMDkzNzc0NjkzYjI2MzkyNzhhMWMyYzY5OGFkMTFkYjQ5Mjg5NmU5YmYxNjcxNGQ4NTdlOThjYTFkZCJ9fX0="}]},
+      "minecraft:custom_data":{"infusion_circle_placer":1}
+    }
+  }
+}

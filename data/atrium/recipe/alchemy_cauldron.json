@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "R": "minecraft:redstone_block",
+    "C": "minecraft:cauldron",
+    "G": "minecraft:glowstone_dust",
+    "O": "minecraft:crying_obsidian"
+  },
+  "pattern": [
+    " R ",
+    "OCO",
+    " G "
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:player_head",
+    "components": {
+      "minecraft:lore":[{"text":"Space Required:","color":"gray","italic":false},{"text":"x5,y3,z5","color":"dark_gray","italic":false},{"text":" "},{"text":"When Placed:","color":"gray","italic":false},{"text":"Generates a structure ","color":"blue","italic":false}],
+      "minecraft:item_name":{"text":"Alchemy Cauldron"},
+      "minecraft:profile":{"id":[-1085889659,1085099926,-1904448482,-822335963],"properties":[{"name":"textures","value":"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmZiNzA3NjhjZDMwNGQwZTQ5MzMyMGU0MjRiY2I2MTE2OTcyN2NmNjQ4YzBkNGRkZTRkZTg0ZWYyZmFjOWVlZSJ9fX0="}]},
+      "minecraft:custom_data":{"alchemy_cauldron_placer":1}
+    }
+  }
+}
