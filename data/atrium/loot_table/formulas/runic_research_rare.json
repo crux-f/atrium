@@ -6,9 +6,54 @@
         "bonus_rolls": 0,
         "entries": [
           {
-            "type": "empty",
+            "type": "item",
             "weight": 10,
-            "quality": 0
+            "quality": 0,
+            "name": "minecraft:paper",
+            "functions": [
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:rarity": "uncommon",
+                  "minecraft:custom_model_data": {
+                    "strings": [
+                      "atrium_enchanted_codex_research"
+                    ]
+                  },
+                  "minecraft:custom_data": {
+                    "atrium_research": 1,
+                    "atrium_research_type": "runic",
+                    "atrium_topic": "unending_translation"
+                  }
+                }
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Runic Research"
+                  }
+                ],
+                "target": "item_name"
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Runic Codex Formulas:",
+                    "underlined": true
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "(All Standard Enchantments)"
+                  }
+                ],
+                "mode": "append"
+              }
+            ]
           }
         ]
       }
