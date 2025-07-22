@@ -1,3 +1,3 @@
 # /give command for special items
-give @s minecraft:chest[minecraft:lore=[{"text":"Unlocked using an Outpost Key."}],minecraft:container_loot={loot_table:"atrium:chests/special/locked_outpost_chest"},minecraft:lock={predicates:{custom_data:{atrium_outpost_key:1b}}},minecraft:item_name={"text":"Outpost Chest","color":"red","italic":false}] 1
+give @s minecraft:chest[minecraft:lore=[{"text":"Unlocked using an Outpost Key."}],minecraft:container_loot={loot_table:"atrium:chests/special/locked_outpost_chest"},minecraft:lock={predicates:{custom_data:{atrium_outpost_key:1b}}},minecraft:custom_name={"text":"Outpost Chest","color":"red","italic":false}] 1
 give @s minecraft:iron_nugget[minecraft:custom_model_data={strings:["atrium_outpost_key"]},minecraft:lore=[{"text":"These pillagers have to"},{"text":"keep their goodies"},{"text":"somewhere, don't they?"}],minecraft:item_name={"text":"Outpost Key"},minecraft:custom_data={atrium_outpost_key:1b}] 1

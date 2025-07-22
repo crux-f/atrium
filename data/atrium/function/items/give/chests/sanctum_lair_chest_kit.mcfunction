@@ -1,3 +1,3 @@
 # /give code for special items
-give @s minecraft:chest[minecraft:container_loot={loot_table:"atrium:dungeons/sanctum/lair_locked"},minecraft:lock={predicates:{custom_data:{atrium_lichs_key:1b}}},minecraft:custom_name={"text":"Lich\s Chest","color":"aqua","italic":false}] 1
+give @s minecraft:chest[minecraft:container_loot={loot_table:"atrium:dungeons/sanctum/lair_locked"},minecraft:lock={predicates:{custom_data:{atrium_lichs_key:1b}}},minecraft:custom_name={"text":"Lich's Chest","color":"aqua","italic":false}] 1
 give @s minecraft:iron_nugget[minecraft:custom_model_data={strings:["atrium_lich_key"]},minecraft:item_name={"text":"Lich\s Key"},minecraft:custom_data={atrium_lichs_key:1b}] 1
