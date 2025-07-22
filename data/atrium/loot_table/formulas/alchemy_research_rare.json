@@ -114,6 +114,66 @@
                 "mode": "append"
               }
             ]
+          },
+          {
+            "type": "item",
+            "weight": 7,
+            "quality": 0,
+            "name": "minecraft:paper",
+            "functions": [
+              {
+                "function": "set_components",
+                "components": {
+                  "minecraft:rarity": "uncommon",
+                  "minecraft:custom_model_data": {
+                    "strings": [
+                      "atrium_enchanted_cauldron_research"
+                    ]
+                  },
+                  "minecraft:custom_data": {
+                    "atrium_research": 1,
+                    "atrium_research_type": "alchemy",
+                    "atrium_topic": "compact_compounds"
+                  }
+                }
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Alchemy Research"
+                  }
+                ],
+                "target": "item_name"
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Alchemy Cauldron Formulas:",
+                    "underlined": true
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Mixology Lab [Upgrade]"
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "Crystal Bottle"
+                  },
+                  {
+                    "color": "gray",
+                    "italic": false,
+                    "text": "(All Carafe Potions)"
+                  }
+                ],
+                "mode": "append"
+              }
+            ]
           }
         ]
       }

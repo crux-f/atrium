@@ -34,6 +34,9 @@ execute positioned ~ ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=
 # Start Essence of Ember - Check NORTH for Red Sandstone
 execute positioned ~ ~ ~-2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:red_sandstone"}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
 execute positioned ~ ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:red_sandstone"}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/essence_of_ember
+# Start Crystal Bottle - Check SOUTH for Gleaming Crystal
+execute positioned ~ ~ ~2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{components:{"minecraft:custom_data":{atrium_gleaming_crystal:1b}}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{components:{"minecraft:custom_data":{atrium_gleaming_crystal:1b}}}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/crystal_bottle
 #
 # Tier 3 Potions
 #
@@ -105,7 +108,125 @@ execute positioned ~ ~ ~2 if entity @e[type=minecraft:glow_item_frame,distance=.
 execute positioned ~ ~ ~2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:potion",components:{"minecraft:potion_contents":{potion:"minecraft:long_slow_falling"}}}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
 execute positioned ~ ~ ~2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:potion",components:{"minecraft:potion_contents":{potion:"minecraft:long_slow_falling"}}}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/longer_slow_falling
 #
-# Other Potions
+# Potion Carafes (multi-use potions)
+#
+# Start Carafe of Swiftness (3:00) - Check EAST for Arrow 
+execute positioned ~2 ~ ~ at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:arrow"}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~2 ~ ~ if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:arrow"}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/carafe_swiftness
+#
+# Start Carafe of Swiftness (8:00) - Check EAST for Arrow
+execute positioned ~2 ~ ~ at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:arrow"}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~2 ~ ~ if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:arrow"}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/carafe_long_swiftness
+#
+# Start Carafe of Swiftness II (1:30) - Check EAST for Arrow
+execute positioned ~2 ~ ~ at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:arrow"}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~2 ~ ~ if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:arrow"}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/carafe_strong_swiftness
+#
+# Start Carafe of Strength (3:00) - Check EAST for Blaze Powder
+execute positioned ~2 ~ ~ at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:blaze_powder"}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~2 ~ ~ if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:blaze_powder"}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/carafe_strength
+#
+# Start Carafe of Strength (8:00) - Check EAST for Blaze Powder
+execute positioned ~2 ~ ~ at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:blaze_powder"}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~2 ~ ~ if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:blaze_powder"}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/carafe_long_strength
+#
+# Start Carafe of Strength II (1:30) - Check EAST for Blaze Powder
+execute positioned ~2 ~ ~ at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:blaze_powder"}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~2 ~ ~ if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:blaze_powder"}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/carafe_strong_strength
+#
+# Start Carafe of Healing I - Check EAST for Honey Bottle
+execute positioned ~2 ~ ~ at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:honey_bottle"}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~2 ~ ~ if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:honey_bottle"}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/carafe_healing
+#
+# Start Carafe of Healing II - Check EAST for Honey Bottle
+execute positioned ~2 ~ ~ at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:honey_bottle"}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~2 ~ ~ if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:honey_bottle"}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/carafe_strong_healing
+#
+# Start Carafe of Harming I - Check EAST for 
+execute positioned ~2 ~ ~ at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:bone"}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~2 ~ ~ if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:bone"}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/carafe_harming
+#
+# Start Carafe of Harming II - Check EAST for 
+execute positioned ~2 ~ ~ at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:bone"}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~2 ~ ~ if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:bone"}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/carafe_strong_harming
+#
+# Start Carafe of Leaping (3:00) - Check EAST for Slime Ball
+execute positioned ~2 ~ ~ at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:slime_ball"}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~2 ~ ~ if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:slime_ball"}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/carafe_leaping
+#
+# Start Carafe of Leaping (8:00) - Check EAST for Slime Ball
+execute positioned ~2 ~ ~ at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:slime_ball"}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~2 ~ ~ if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:slime_ball"}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/carafe_long_leaping
+#
+# Start Carafe of Leaping II (1:30) - Check EAST for Slime Ball
+execute positioned ~2 ~ ~ at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:slime_ball"}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~2 ~ ~ if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:slime_ball"}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/carafe_strong_leaping
+#
+# Start Carafe of Regeneration (0:45) - Check EAST for Glow Berries
+execute positioned ~2 ~ ~ at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:glow_berries"}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~2 ~ ~ if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:glow_berries"}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/carafe_regeneration
+#
+# Start Carafe of Regeneration (1:30) - Check EAST for Glow Berries
+execute positioned ~2 ~ ~ at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:glow_berries"}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~2 ~ ~ if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:glow_berries"}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/carafe_long_regeneration
+#
+# Start Carafe of Regeneration II (0:22) - Check EAST for Glow Berries
+execute positioned ~2 ~ ~ at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:glow_berries"}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~2 ~ ~ if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:glow_berries"}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/carafe_strong_regeneration
+#
+# Start Carafe of Fire Resistance (3:00) - Check EAST for Snowball
+execute positioned ~2 ~ ~ at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:snowball"}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~2 ~ ~ if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:snowball"}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/carafe_fire_resistance
+#
+# Start Carafe of Fire Resistance (8:00) - Check EAST for Snowball 
+execute positioned ~2 ~ ~ at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:snowball"}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~2 ~ ~ if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:snowball"}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/carafe_long_fire_resistance
+#
+# Start Carafe of Water Breathing (3:00) - Check EAST for Tropical Fish
+execute positioned ~2 ~ ~ at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:tropical_fish"}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~2 ~ ~ if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:tropical_fish"}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/carafe_water_breathing
+#
+# Start Carafe of Water Breathing (8:00) - Check EAST for Tropical Fish
+execute positioned ~2 ~ ~ at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:tropical_fish"}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~2 ~ ~ if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:tropical_fish"}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/carafe_long_water_breathing
+#
+# Start Carafe of Invisibility (3:00) - Check EAST for Glass
+execute positioned ~2 ~ ~ at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:glass"}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~2 ~ ~ if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:glass"}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/carafe_invisibility
+#
+# Start Carafe of Invisibility (8:00) - Check EAST for Glass
+execute positioned ~2 ~ ~ at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:glass"}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~2 ~ ~ if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:glass"}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/carafe_long_invisibility
+#
+# Start Carafe of Night Vision (3:00) - Check EAST for Oxeye Daisy
+execute positioned ~2 ~ ~ at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:oxeye_daisy"}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~2 ~ ~ if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:oxeye_daisy"}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/carafe_night_vision
+#
+# Start Carafe of Night Vision (8:00) - Check EAST for Oxeye Daisy
+execute positioned ~2 ~ ~ at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:oxeye_daisy"}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~2 ~ ~ if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:oxeye_daisy"}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/carafe_long_night_vision
+#
+# Start Carafe of Poison (0:45) - Check EAST for Pufferfish
+execute positioned ~2 ~ ~ at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:pufferfish"}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~2 ~ ~ if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:pufferfish"}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/carafe_poison
+#
+# Start Carafe of Poison (1:30) - Check EAST for Pufferfish
+execute positioned ~2 ~ ~ at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:pufferfish"}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~2 ~ ~ if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:pufferfish"}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/carafe_long_poison
+#
+# Start Carafe of Poison II (0:21) - Check EAST for Pufferfish
+execute positioned ~2 ~ ~ at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:pufferfish"}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~2 ~ ~ if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:pufferfish"}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/carafe_strong_poison
+#
+# Start Carafe of Slow Falling (1:30) - Check EAST for Feather
+execute positioned ~2 ~ ~ at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:feather"}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~2 ~ ~ if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:feather"}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/carafe_slow_falling
+#
+# Start Carafe of Slow Falling (4:00) - Check EAST for Feather
+execute positioned ~2 ~ ~ at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:feather"}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~2 ~ ~ if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:feather"}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/carafe_long_slow_falling
+#
+# Uncraftable Potions
 #
 # Start Bottle o' Enchanting - Check NORTH for Gold Nugget
 execute positioned ~ ~ ~-2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:gold_nugget"}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
@@ -195,3 +316,7 @@ execute positioned ~ ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=
 # Start Cooking Station - Check NORTH for Crafting Table
 execute positioned ~ ~ ~-2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:crafting_table"}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
 execute positioned ~ ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:crafting_table"}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/cooking_station_upgrade
+#
+# Start Mixology Lab - Check NORTH for Brewing Stand
+execute positioned ~ ~ ~-2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:brewing_stand"}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
+execute positioned ~ ~ ~-2 if entity @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:brewing_stand"}}] at @s run function atrium:formula_crafting/alchemy/a_recipes/mixology_lab_upgrade

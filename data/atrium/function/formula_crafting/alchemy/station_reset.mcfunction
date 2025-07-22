@@ -7,4 +7,4 @@ execute positioned ~2 ~ ~-2 run particle entity_effect{color:[1.000,0.000,0.000,
 # Particles!
 execute positioned ~2 ~1 ~-2 run particle minecraft:crit ~ ~ ~ 0.3 0.3 0.3 0 15 normal
 # Advancement!
-execute positioned ~ ~ ~-4 run advancement grant @p[distance=..5,gamemode=!spectator] only atrium:magic/cauldron_cooking
+execute positioned ~ ~ ~ run advancement grant @p[distance=..5,gamemode=!spectator] only atrium:magic/cauldron_cooking

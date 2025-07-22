@@ -1,24 +1,46 @@
 {
     "display": {
         "title": {
-            "text": "Double Dipping",
-            "color": "white"
+            "text": "Double Dipping"
         },
-        "description": {
-            "text": "Mix two potions together"
-        },
+        "description": [
+            {
+                "text": "Develop something in a Mixology Lab"
+            },
+            {
+              "color": "gray",
+              "text": "\n \nReward:"
+            },
+            {
+              "color": "yellow",
+              "text": "\n50 XP"
+            }
+          ],
         "icon": {
-            "id": "minecraft:potion"
+            "id": "minecraft:potion",
+            "components": {
+                "minecraft:custom_model_data": {
+                    "strings": [
+                        "atrium_multiuse_potion_full"
+                    ]
+                },
+                "minecraft:potion_contents": {
+                    "custom_color": 7733384
+                }
+            }
         },
         "frame": "goal",
         "show_toast": true,
         "announce_to_chat": true,
-        "hidden": true
+        "hidden": false
     },
     "criteria": {
-        "mix_potions_together": {
+        "use_mixology_lab": {
             "trigger": "minecraft:impossible"
         }
     },
+    "rewards": {
+        "experience": 50
+      },
     "parent": "atrium:magic/secret_ingredient"
 }
