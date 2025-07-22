@@ -4,7 +4,7 @@
 # Note: alchemy_base_item handles the first item - this script will handle any remaining item checks.
 #
 # Check to make sure the Runic Codex has a Occult Altar upgrade installed
-execute if data entity @s data.occult_altar_installed run scoreboard players add @s valid_ingredients 1
+execute if entity @s[tag=atrium_occult_altar_installed] run scoreboard players add @s valid_ingredients 1
 #
 # Check NORTH EAST for Diamond Sword
 execute positioned ~2 ~ ~-2 at @e[type=minecraft:glow_item_frame,distance=..1.5,nbt={Item:{id:"minecraft:diamond_sword",count:1}}] run particle minecraft:enchanted_hit ~ ~ ~ 0 0 0 0.1 20 normal
